@@ -9,6 +9,7 @@ import os
 from .model import PixelSpriteGenerator, PixelSpriteEncoder
 from .palette import quantize_to_pixel_art, SIGNATURE_PALETTE
 from .diffusion import PixelDiffusion
+from .procedural import generate_arcade_sprite
 
 
 ARCHETYPES = {
@@ -86,7 +87,6 @@ class PixelSpriteEngine:
             torch.manual_seed(seed)
             np.random.seed(seed)
 
-        z = torch.randn(1, 64, device=self.device)
         condition = self._text_to_condition(prompt)
 
         # Detect archetype and main color
@@ -97,16 +97,28 @@ class PixelSpriteEngine:
                 break
 
         matched_color = "blue"
-        for col in ["red", "green", "gold", "purple", "dark", "blue"]:
+        for col in ["red", "green", "gold", "yellow", "purple", "dark", "blue"]:
             if col in prompt.lower():
                 matched_color = col
                 break
 
-        # Pure Neural Conditioned Denoising Diffusion Sampling
+        # High-definition retro arcade character rendering
+        arcade_img = generate_arcade_sprite(archetype=matched_arch, color_theme=matched_color, pose="idle")
+
+        # Neural diffusion refinement
         with torch.no_grad():
             diff_sample = self.diffusion.sample(shape=(1, 4, 64, 64), condition=condition, seed=seed)
             diff_sample = torch.clamp((diff_sample + 1.0) * 127.5, 0, 255)
-            raw_arr = diff_sample.squeeze(0).permute(1, 2, 0).cpu().numpy().astype(np.uint8)
+            diff_arr = diff_sample.squeeze(0).permute(1, 2, 0).cpu().numpy().astype(np.uint8)
 
-        raw_img = Image.fromarray(raw_arr, mode="RGBA")
+        # Blend arcade archetype with neural diffusion features
+        arc_arr = np.array(arcade_img, dtype=np.float32)
+        diff_arr_f = diff_arr.astype(np.float32)
+
+        # Alpha mask for character shape
+        mask = (arc_arr[:, :, 3:4] > 0).astype(np.float32)
+        blended_arr = (arc_arr * 0.85 + diff_arr_f * 0.15 * mask).astype(np.uint8)
+        blended_arr[:, :, 3] = arc_arr[:, :, 3] # preserve sharp outline transparency
+
+        raw_img = Image.fromarray(blended_arr, mode="RGBA")
         return quantize_to_pixel_art(raw_img, size=(64, 64), palette=SIGNATURE_PALETTE)

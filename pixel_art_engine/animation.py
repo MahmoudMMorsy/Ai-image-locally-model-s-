@@ -1,6 +1,6 @@
 """
-Neural Character Animation Generator
-Uses latent space interpolation and neural decoder inference for smooth character action animations.
+Neural & Procedural Character Animation Generator
+Uses latent space interpolation and pose synthesis for smooth NES/GBA character action animations.
 """
 import torch
 import numpy as np
@@ -9,6 +9,7 @@ import imageio
 from typing import List, Tuple
 from .palette import quantize_to_pixel_art, SIGNATURE_PALETTE
 from .model import PixelSpriteEncoder, PixelSpriteGenerator
+from .procedural import generate_arcade_sprite
 
 
 ACTION_LATENT_OFFSETS = {
@@ -22,7 +23,7 @@ ACTION_LATENT_OFFSETS = {
 
 class SpriteAnimationGenerator:
     """
-    Generates consistent sequential animation frames using neural latent perturbations.
+    Generates consistent sequential animation frames using pose synthesis and neural blending.
     """
     def __init__(self, engine=None, device="cpu"):
         self.device = torch.device(device)
@@ -61,17 +62,20 @@ class SpriteAnimationGenerator:
             cond = torch.zeros(1, 32, device=self.device)
 
             for i in range(num_frames):
-                offset_val = offsets[i % len(offsets)]
+                # 1. Generate arcade pose frame for crisp action articulation
+                pose_frame = generate_arcade_sprite("knight", "blue", pose=action_name, frame=i)
+                p_arr = np.array(pose_frame, dtype=np.float32) / 255.0
 
-                # Apply neural latent perturbation for action pose synthesis
+                # 2. Latent neural perturbation
+                offset_val = offsets[i % len(offsets)]
                 motion_dir = torch.sin(torch.linspace(0, np.pi, 64, device=self.device)) * offset_val
                 z_frame = z_latent + motion_dir.unsqueeze(0)
-
                 rec_tensor = self.generator(z_frame, cond)
+                rec_arr = rec_tensor.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy()
 
-                # Blend with base character tensor for strict identity preservation
-                blended_t = 0.8 * t_base + 0.2 * rec_tensor
-                blended_arr = (blended_t.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy() * 255.0).astype(np.uint8)
+                # Blend pose frame with base character and neural reconstruction
+                blended_arr = (0.6 * p_arr + 0.3 * arr + 0.1 * rec_arr) * 255.0
+                blended_arr = blended_arr.astype(np.uint8)
 
                 frame_raw = Image.fromarray(blended_arr, mode="RGBA")
                 frame_quant = quantize_to_pixel_art(frame_raw, size=(64, 64), palette=SIGNATURE_PALETTE)
