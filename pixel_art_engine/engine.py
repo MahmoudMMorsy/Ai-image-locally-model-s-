@@ -41,16 +41,20 @@ class PixelSpriteEngine:
         self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
         self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
 
-        # Load pre-trained weights if available and valid (>0 bytes), or initialize quickly
-        weights_path = os.path.join(os.path.dirname(__file__), "pretrained_weights.pt")
-        if os.path.exists(weights_path) and os.path.getsize(weights_path) > 0:
+        # Load pre-trained weights if available and valid (>0 bytes)
+        lora_weights_path = os.path.join(os.path.dirname(__file__), "manus_lora_weights.pt")
+        weights_loaded = False
+        if os.path.exists(lora_weights_path) and os.path.getsize(lora_weights_path) > 0:
             try:
-                checkpoint = torch.load(weights_path, map_location=self.device)
-                self.generator.load_state_dict(checkpoint["generator"])
-                self.encoder.load_state_dict(checkpoint["encoder"])
+                checkpoint = torch.load(lora_weights_path, map_location=self.device)
+                if isinstance(checkpoint, dict) and "generator" in checkpoint and "encoder" in checkpoint:
+                    self.generator.load_state_dict(checkpoint["generator"])
+                    self.encoder.load_state_dict(checkpoint["encoder"])
+                    weights_loaded = True
             except Exception:
-                pretrain_engine_weights(self.generator, self.encoder, device=self.device, epochs=5)
-        else:
+                weights_loaded = False
+
+        if not weights_loaded:
             pretrain_engine_weights(self.generator, self.encoder, device=self.device, epochs=5)
 
         self.generator.eval()
@@ -103,17 +107,11 @@ class PixelSpriteEngine:
                 matched_color = col
                 break
 
-        # Blend procedural structural anchor with neural output
-        proc_img = generate_procedural_sprite(matched_arch, matched_color, seed=seed if seed is not None else 42)
-        proc_arr = np.array(proc_img, dtype=np.float32) / 255.0
-        t_proc = torch.from_numpy(proc_arr).permute(2, 0, 1).unsqueeze(0).to(self.device)
-
+        # Pure neural generation from latent representation + condition
         with torch.no_grad():
-            z_latent = self.encoder(t_proc)
-            raw_tensor = self.generator(z_latent, condition)
+            raw_tensor = self.generator(z, condition)
 
-        blended_tensor = 0.7 * t_proc + 0.3 * raw_tensor
-        arr = (blended_tensor.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy() * 255.0).astype(np.uint8)
+        arr = (raw_tensor.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy() * 255.0).astype(np.uint8)
         raw_img = Image.fromarray(arr, mode="RGBA")
 
         return quantize_to_pixel_art(raw_img, size=(64, 64), palette=SIGNATURE_PALETTE)
