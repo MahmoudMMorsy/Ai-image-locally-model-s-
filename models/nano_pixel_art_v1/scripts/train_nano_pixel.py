@@ -1,8 +1,8 @@
 """
-NanoPixel-v1 Comprehensive Training Pipeline (train_nano_pixel.py)
-Reads image-caption (.png + .txt) pairs across 64x64 and 128x128 datasets,
-applies Charbonnier + Palette Consistency losses with resolution embeddings,
-implements max_epochs=100, Early Stopping (patience=5), and Checkpoints every 10 epochs.
+NanoPixel-v1 Pixel-Space UNet Diffusion Trainer
+Trains directly in Pixel Space (64x64 / 128x128) without lossy VAE compression.
+Uses exact trigger prefix: 'pixel art, 16-bit, gba style, <character_type>'
+AdamW optimizer with LR=1e-5 and Cosine Annealing scheduler.
 """
 import os
 import torch
@@ -13,61 +13,62 @@ import numpy as np
 from models.nano_pixel_art_v1.scripts.train_nanopixel import NanoPixelUNet, CharbonnierLoss, PaletteConsistencyLoss
 from models.nano_pixel_art_v1.scripts.export_onnx import export_onnx
 
+TRIGGER_PREFIX = "pixel art, 16-bit, gba style"
 PROC_64_DIR = "models/nano_pixel_art_v1/dataset/processed_64x64"
 PROC_128_DIR = "models/nano_pixel_art_v1/dataset/processed_128x128"
-CHECKPOINTS_DIR = "models/nano_pixel_art_v1/weights/checkpoints"
 
-def load_caption_image_dataset():
-    dataset = []
+def caption_to_prompt_embedding(caption: str, dim: int = 64) -> torch.Tensor:
+    """Encodes prompt caption string containing trigger prefix into 64-dim conditioning vector."""
+    if not caption.startswith(TRIGGER_PREFIX):
+        caption = f"{TRIGGER_PREFIX}, {caption}"
 
-    for proc_dir in [PROC_64_DIR, PROC_128_DIR]:
-        if not os.path.exists(proc_dir):
-            continue
+    vec = torch.zeros(dim)
+    words = caption.lower().replace(',', '').split()
+    for idx, word in enumerate(words):
+        h = sum(ord(c) for c in word)
+        vec[h % dim] += 1.0 / (idx + 1)
+    norm = torch.norm(vec)
+    return vec / (norm + 1e-6)
 
-        files = [f for f in os.listdir(proc_dir) if f.endswith('.png')]
-        for f in files:
-            img_path = os.path.join(proc_dir, f)
-            txt_path = os.path.join(proc_dir, f.replace('.png', '.txt'))
-
-            caption = "pixel art character"
-            if os.path.exists(txt_path):
-                with open(txt_path, 'r') as tf:
-                    caption = tf.read().strip()
-
-            im = Image.open(img_path).convert('RGBA')
-            if im.size != (64, 64):
-                im = im.resize((64, 64), Image.Resampling.NEAREST)
-
-            arr = np.array(im, dtype=np.float32) / 127.5 - 1.0 # [-1, 1]
-            t_img = torch.from_numpy(arr).permute(2, 0, 1) # (4, 64, 64)
-            dataset.append((t_img, caption))
-
-    return dataset
-
-def train_and_export():
+def train_pixel_space_diffusion(learning_rate: float = 1e-5, max_epochs: int = 100):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Starting NanoPixel-v1 Training Pipeline on {device}...")
-
-    os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
-    raw_dataset = load_caption_image_dataset()
-    print(f"Loaded {len(raw_dataset)} image-caption pairs across 64x64 and 128x128 datasets.")
+    print(f"[NanoPixel-v1] Training in Pixel Space on {device} with LR={learning_rate}...")
 
     model = NanoPixelUNet().to(device)
     charbonnier = CharbonnierLoss()
     palette_loss = PaletteConsistencyLoss()
 
-    optimizer = optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-4)
-    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100, eta_min=1e-6)
+    optimizer = optim.AdamW(model.parameters(), lr=learning_rate, weight_decay=1e-4)
+    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs, eta_min=1e-6)
 
-    max_epochs = 100
-    patience = 5
-    best_loss = float('inf')
-    patience_counter = 0
+    # Load image-caption pairs
+    dataset = []
+    for proc_dir in [PROC_64_DIR, PROC_128_DIR]:
+        if not os.path.exists(proc_dir):
+            continue
+        for f in os.listdir(proc_dir):
+            if f.endswith('.png'):
+                img_path = os.path.join(proc_dir, f)
+                txt_path = os.path.join(proc_dir, f.replace('.png', '.txt'))
 
-    if len(raw_dataset) > 0:
+                caption = "character, idle, full body, isolated background"
+                if os.path.exists(txt_path):
+                    with open(txt_path, 'r') as tf:
+                        caption = tf.read().strip()
+
+                im = Image.open(img_path).convert('RGBA').resize((64, 64), Image.Resampling.NEAREST)
+                arr = np.array(im, dtype=np.float32) / 127.5 - 1.0 # [-1, 1] pixel space
+                t_img = torch.from_numpy(arr).permute(2, 0, 1)
+                t_cond = caption_to_prompt_embedding(caption, dim=64)
+                dataset.append((t_img, t_cond))
+
+    print(f"[NanoPixel-v1] Loaded {len(dataset)} pixel-space training samples.")
+
+    if len(dataset) > 0:
         model.train()
         batch_size = 16
-        imgs = torch.stack([item[0] for item in raw_dataset]).to(device)
+        imgs = torch.stack([item[0] for item in dataset]).to(device)
+        conds = torch.stack([item[1] for item in dataset]).to(device)
         num_items = len(imgs)
 
         for epoch in range(1, max_epochs + 1):
@@ -78,14 +79,17 @@ def train_and_export():
             for i in range(0, num_items, batch_size):
                 idx = perm[i:i+batch_size]
                 x0 = imgs[idx]
+                c_emb = conds[idx]
                 b_sz = x0.size(0)
 
                 t = torch.randint(0, 20, (b_sz,), device=device).long()
                 noise = torch.randn_like(x0)
-                xt = x0 + 0.1 * noise
-                cond = torch.randn(b_sz, 64, device=device)
 
-                pred_noise = model(xt, t, cond)
+                # Standard DDPM forward diffusion step in Pixel Space
+                alpha_t = 1.0 - (t.float() / 20.0 + 0.01)[..., None, None, None]
+                xt = torch.sqrt(alpha_t) * x0 + torch.sqrt(1.0 - alpha_t) * noise
+
+                pred_noise = model(xt, t, c_emb)
                 loss = charbonnier(pred_noise, noise) + 0.05 * palette_loss(pred_noise)
 
                 optimizer.zero_grad()
@@ -95,35 +99,17 @@ def train_and_export():
                 total_loss += loss.item()
                 batches += 1
 
-            epoch_loss = total_loss / max(1, batches)
             scheduler.step()
-
-            print(f"Epoch [{epoch}/{max_epochs}] Loss: {epoch_loss:.4f}")
-
-            # Checkpoint every 10 epochs
             if epoch % 10 == 0:
-                ckpt_path = os.path.join(CHECKPOINTS_DIR, f"checkpoint_epoch_{epoch}.pt")
-                torch.save(model.state_dict(), ckpt_path)
-                print(f"--> Saved Checkpoint: {ckpt_path}")
-
-            # Early stopping check
-            if epoch_loss < best_loss - 1e-4:
-                best_loss = epoch_loss
-                patience_counter = 0
-            else:
-                patience_counter += 1
-                if patience_counter >= patience:
-                    print(f"Early Stopping triggered at epoch {epoch}! Validation loss did not improve for {patience} consecutive epochs.")
-                    break
+                print(f"Epoch [{epoch}/{max_epochs}] Pixel-Space Loss: {total_loss/max(1, batches):.4f}")
 
     weights_dir = "models/nano_pixel_art_v1/weights"
     os.makedirs(weights_dir, exist_ok=True)
     pt_path = os.path.join(weights_dir, "nanopixel_v1.pt")
     torch.save(model.state_dict(), pt_path)
-    print(f"Saved final trained model weights to {pt_path} ({os.path.getsize(pt_path)} bytes)")
+    print(f"[NanoPixel-v1] Saved pixel-space model weights to {pt_path}")
 
-    # Export ONNX model (< 50MB)
     export_onnx()
 
 if __name__ == "__main__":
-    train_and_export()
+    train_pixel_space_diffusion()
