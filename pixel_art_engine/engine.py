@@ -8,7 +8,7 @@ from PIL import Image
 import os
 from .model import PixelSpriteGenerator, PixelSpriteEncoder
 from .palette import quantize_to_pixel_art, SIGNATURE_PALETTE
-from .procedural import generate_procedural_sprite, pretrain_engine_weights
+from .diffusion import PixelDiffusion
 
 
 ARCHETYPES = {
@@ -38,27 +38,22 @@ class PixelSpriteEngine:
     """
     def __init__(self, device="cpu"):
         self.device = torch.device(device)
-        self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
-        self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+        self.diffusion = PixelDiffusion(timesteps=30, device=self.device)
 
-        # Load pre-trained weights if available and valid (>0 bytes)
-        lora_weights_path = os.path.join(os.path.dirname(__file__), "manus_lora_weights.pt")
-        weights_loaded = False
-        if os.path.exists(lora_weights_path) and os.path.getsize(lora_weights_path) > 0:
+        # Load pre-trained diffusion weights
+        diff_weights_path = os.path.join(os.path.dirname(__file__), "pixel_diffusion_weights.pt")
+        if os.path.exists(diff_weights_path) and os.path.getsize(diff_weights_path) > 0:
             try:
-                checkpoint = torch.load(lora_weights_path, map_location=self.device)
-                if isinstance(checkpoint, dict) and "generator" in checkpoint and "encoder" in checkpoint:
-                    self.generator.load_state_dict(checkpoint["generator"])
-                    self.encoder.load_state_dict(checkpoint["encoder"])
-                    weights_loaded = True
+                self.diffusion.model.load_state_dict(torch.load(diff_weights_path, map_location=self.device))
             except Exception:
-                weights_loaded = False
+                pass
 
-        if not weights_loaded:
-            pretrain_engine_weights(self.generator, self.encoder, device=self.device, epochs=5)
-
-        self.generator.eval()
+        self.diffusion.model.eval()
+        # Keep encoder/generator for img2img identity encoding
+        self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+        self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
         self.encoder.eval()
+        self.generator.eval()
 
     def _text_to_condition(self, prompt: str) -> torch.Tensor:
         """Converts text prompt into a 32-dimensional condition vector."""
@@ -107,17 +102,11 @@ class PixelSpriteEngine:
                 matched_color = col
                 break
 
-        # Generate structural sprite anchor based on archetype and color
-        proc_img = generate_procedural_sprite(matched_arch, matched_color, seed=seed if seed is not None else 42)
-        proc_arr = np.array(proc_img, dtype=np.float32) / 255.0
-        t_proc = torch.from_numpy(proc_arr).permute(2, 0, 1).unsqueeze(0).to(self.device)
-
+        # Pure Neural Conditioned Denoising Diffusion Sampling
         with torch.no_grad():
-            z_latent = self.encoder(t_proc)
-            raw_tensor = self.generator(z_latent, condition)
+            diff_sample = self.diffusion.sample(shape=(1, 4, 64, 64), condition=condition, seed=seed)
+            diff_sample = torch.clamp((diff_sample + 1.0) * 127.5, 0, 255)
+            raw_arr = diff_sample.squeeze(0).permute(1, 2, 0).cpu().numpy().astype(np.uint8)
 
-        blended_tensor = 0.6 * t_proc + 0.4 * raw_tensor
-        arr = (blended_tensor.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy() * 255.0).astype(np.uint8)
-        raw_img = Image.fromarray(arr, mode="RGBA")
-
+        raw_img = Image.fromarray(raw_arr, mode="RGBA")
         return quantize_to_pixel_art(raw_img, size=(64, 64), palette=SIGNATURE_PALETTE)
