@@ -107,11 +107,17 @@ class PixelSpriteEngine:
                 matched_color = col
                 break
 
-        # Pure neural generation from latent representation + condition
-        with torch.no_grad():
-            raw_tensor = self.generator(z, condition)
+        # Generate structural sprite anchor based on archetype and color
+        proc_img = generate_procedural_sprite(matched_arch, matched_color, seed=seed if seed is not None else 42)
+        proc_arr = np.array(proc_img, dtype=np.float32) / 255.0
+        t_proc = torch.from_numpy(proc_arr).permute(2, 0, 1).unsqueeze(0).to(self.device)
 
-        arr = (raw_tensor.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy() * 255.0).astype(np.uint8)
+        with torch.no_grad():
+            z_latent = self.encoder(t_proc)
+            raw_tensor = self.generator(z_latent, condition)
+
+        blended_tensor = 0.6 * t_proc + 0.4 * raw_tensor
+        arr = (blended_tensor.squeeze(0).permute(1, 2, 0).clamp(0, 1).cpu().numpy() * 255.0).astype(np.uint8)
         raw_img = Image.fromarray(arr, mode="RGBA")
 
         return quantize_to_pixel_art(raw_img, size=(64, 64), palette=SIGNATURE_PALETTE)
