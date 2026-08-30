@@ -22,7 +22,7 @@ def main():
     for idx, prompt in enumerate(prompts, start=1):
         filename = f"char_{idx:02d}_{prompt.lower().replace(' ', '_')}.png"
         filepath = os.path.join(output_dir, filename)
-        sprite = engine.generate_sprite(prompt=prompt, width=64, height=64)
+        sprite = engine.generate_sprite(prompt=prompt, seed=idx)
         sprite.save(filepath)
         print(f"[{idx}/35] Saved: {filepath}")
 
