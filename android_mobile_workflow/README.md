@@ -12,3 +12,8 @@
 2. ابني التطبيق وركب محرك `onnxruntime-android`.
 3. اضغط على "Train Locally" لتدريب النموذج على صور الهاتف محلياً.
 4. ادخل الوصف النصي واضغط "Generate Sprite" لتوليد شخصية البكسل فورياً.
+
+## 256x256 Poster Generation Model (ONNX):
+- Model Path: `poster_generator_256/weights/poster_generator_256.onnx`
+- Supports 256x256 resolution poster synthesis with Arabic & English text conditioning.
+- Optimized for Android NPU / ARM64 execution using ONNX Runtime Mobile.
