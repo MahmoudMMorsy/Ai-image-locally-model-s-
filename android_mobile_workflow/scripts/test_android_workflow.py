@@ -30,7 +30,8 @@ def main():
         onnx_path,
         input_names=["latent", "timestep"],
         output_names=["noise_pred"],
-        dynamic_axes={"latent": {0: "batch_size"}}
+        dynamic_axes={"latent": {0: "batch_size"}},
+        dynamo=False
     )
 
     print(f"ONNX Mobile Model exported successfully to: {onnx_path}")
