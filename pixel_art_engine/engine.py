@@ -3,14 +3,23 @@ import numpy as np
 from PIL import Image
 from pixel_art_engine.clip_text import SimpleCLIPTextEncoder
 from pixel_art_engine.procedural import generate_arcade_sprite
-from pixel_art_engine.palette import quantize_to_signature_palette
+from pixel_art_engine.palette import quantize_to_pixel_art
 
 class PixelSpriteEngine:
     def __init__(self):
         self.encoder = SimpleCLIPTextEncoder()
 
     def generate_sprite(self, prompt="knight", seed=42):
-        return generate_arcade_sprite(prompt, seed)
+        archetype = "knight"
+        p_lower = str(prompt).lower()
+        if "wizard" in p_lower or "mage" in p_lower:
+            archetype = "wizard"
+        elif "monster" in p_lower or "orc" in p_lower or "dragon" in p_lower:
+            archetype = "monster"
+        elif "robot" in p_lower or "mech" in p_lower:
+            archetype = "robot"
+
+        return generate_arcade_sprite(archetype=archetype, color_theme="red", pose="idle", frame=0)
 
     def create_sprite_sheet(self, frames):
         if not frames:
@@ -25,4 +34,4 @@ class PixelSpriteEngine:
         if isinstance(image, str):
             image = Image.open(image).convert("RGBA")
         image = image.resize((64, 64), Image.NEAREST)
-        return quantize_to_signature_palette(image)
+        return quantize_to_pixel_art(image)
