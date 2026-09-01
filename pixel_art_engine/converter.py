@@ -19,8 +19,8 @@ class ImageToSpriteConverter:
     def __init__(self, engine=None, device="cpu"):
         self.device = torch.device(device)
         if engine is not None:
-            self.encoder = engine.encoder
-            self.generator = engine.generator
+            self.encoder = getattr(engine, "sprite_encoder", None) or PixelSpriteEncoder(latent_dim=64).to(self.device)
+            self.generator = getattr(engine, "generator", None) or PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
         else:
             self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
             self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
