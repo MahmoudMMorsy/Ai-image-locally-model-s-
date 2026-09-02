@@ -5,6 +5,35 @@ Ensures crisp, indexed color palette quantization for 64x64 pixel art sprites.
 import numpy as np
 from PIL import Image
 
+# Game Boy Palette (Classic 4 Green Shades + Alpha)
+GAMEBOY_PALETTE = np.array([
+    [0, 0, 0, 0],         # Transparent
+    [15, 56, 15, 255],    # Darkest Olive Green
+    [48, 98, 48, 255],    # Dark Olive Green
+    [139, 172, 15, 255],  # Light Olive Green
+    [155, 188, 15, 255],  # Lightest Green
+], dtype=np.uint8)
+
+# Classic NES 16-color Palette + Alpha
+NES_PALETTE = np.array([
+    [0, 0, 0, 0],         # Transparent
+    [0, 0, 0, 255],       # Black
+    [255, 255, 255, 255], # White
+    [124, 124, 124, 255], # Gray
+    [252, 160, 68, 255],  # Peach / Orange
+    [248, 56, 0, 255],    # Red
+    [168, 0, 32, 255],    # Dark Red
+    [0, 168, 0, 255],     # Green
+    [0, 80, 0, 255],      # Dark Green
+    [0, 120, 248, 255],   # Blue
+    [0, 0, 168, 255],     # Dark Blue
+    [248, 184, 0, 255],   # Yellow / Gold
+    [184, 248, 24, 255],  # Lime Green
+    [80, 208, 32, 255],   # Bright Green
+    [228, 92, 16, 255],   # Brown / Hair
+    [248, 120, 88, 255],  # Light Flesh
+], dtype=np.uint8)
+
 # Signature pixel art palette (Retro 32-color palette + Alpha/Transparency)
 SIGNATURE_PALETTE = np.array([
     [0, 0, 0, 0],         # 0: Transparent
