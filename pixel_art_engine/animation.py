@@ -27,8 +27,8 @@ class SpriteAnimationGenerator:
     """
     def __init__(self, engine=None, device="cpu"):
         self.device = torch.device(device)
-        if engine is not None:
-            self.encoder = engine.encoder
+        if engine is not None and hasattr(engine, "generator") and engine.generator is not None:
+            self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
             self.generator = engine.generator
         else:
             self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
