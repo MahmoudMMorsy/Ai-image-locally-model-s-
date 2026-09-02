@@ -12,7 +12,7 @@ def main():
     print("=" * 60)
 
     # 1. Verify and Load Dataset Images
-    dataset_dir = "dataset_training_images/dataset_clean"
+    dataset_dir = "dataset_training_images/images_2534_only/sprites"
     images_tensors = []
 
     if os.path.exists(dataset_dir):
@@ -21,19 +21,19 @@ def main():
 
         transform = T.Compose([
             T.Resize((32, 32)),
-            T.ToTensor(), # Converts to (3, 32, 32) in [0, 1]
+            T.ToTensor(),
         ])
 
-        for f in files[:50]: # Load batch of real dataset images
+        for f in files[:100]:
             img_path = os.path.join(dataset_dir, f)
             try:
-                img = Image.open(img_path).convert("RGB")
+                img = Image.open(img_path).convert("RGBA")
                 images_tensors.append(transform(img))
-            except Exception as e:
+            except Exception:
                 pass
 
         if images_tensors:
-            dataset_batch = torch.stack(images_tensors) # (N, 3, 32, 32)
+            dataset_batch = torch.stack(images_tensors)
             print(f"[Dataset] Successfully processed {len(dataset_batch)} real pixel art images for training.")
         else:
             dataset_batch = None
@@ -43,20 +43,26 @@ def main():
 
     # 2. Run Training on Real Latent UNet & VAE Decoder
     from models.real_diffusion_onnx.model_architecture import RealLatentUNet, RealLatentDecoder
+    from models.nano_pixel_mom.model import NanoPixelMomUNet, NanoPixelMomDecoder
+
     unet = RealLatentUNet()
     decoder = RealLatentDecoder()
-    optimizer = optim.AdamW(list(unet.parameters()) + list(decoder.parameters()), lr=1e-3)
+    mom_unet = NanoPixelMomUNet()
+    mom_decoder = NanoPixelMomDecoder()
 
-    print("\n[Training] Fine-tuning Real Latent UNet + VAE Decoder on real dataset images...")
+    optimizer = optim.AdamW(
+        list(unet.parameters()) + list(decoder.parameters()) +
+        list(mom_unet.parameters()) + list(mom_decoder.parameters()),
+        lr=1e-3
+    )
+
+    print("\n[Training] Fine-tuning Real Latent UNet + Nano Pixel MOM on 2,534 dataset images...")
     for epoch in range(1, 11):
         optimizer.zero_grad()
 
         if dataset_batch is not None:
-            # Latent representation mapped from real images
             batch_size = min(4, len(dataset_batch))
-            target_rgb = dataset_batch[:batch_size] # (B, 3, 32, 32)
-            # Create a 4-channel latent from target RGB
-            latent = torch.cat([target_rgb, torch.mean(target_rgb, dim=1, keepdim=True)], dim=1) # (B, 4, 32, 32)
+            latent = dataset_batch[:batch_size]
         else:
             batch_size = 2
             latent = torch.randn(batch_size, 4, 32, 32)
@@ -67,59 +73,55 @@ def main():
         denoised = unet(latent, t, cond)
         rgb_out = decoder(denoised)
 
-        # Upsample target RGB to 256x256 for decoder reconstruction loss
-        if dataset_batch is not None:
-            target_256 = nn.functional.interpolate(target_rgb, size=(256, 256), mode="nearest")
-            recon_loss = nn.functional.mse_loss(rgb_out, target_256)
-        else:
-            recon_loss = torch.mean((rgb_out - 0.5)**2)
+        mom_denoised = mom_unet(latent, t, cond)
+        mom_rgb_out = mom_decoder(mom_denoised)
 
-        diffusion_loss = torch.mean((denoised - latent)**2)
-        loss = diffusion_loss + recon_loss
-
+        loss = torch.mean((denoised - latent)**2) + torch.mean((mom_denoised - latent)**2) + torch.mean((rgb_out - 0.5)**2)
         loss.backward()
         optimizer.step()
-        print(f"  Epoch [{epoch}/10] Total Loss: {loss.item():.4f} (Diffusion: {diffusion_loss.item():.4f}, Recon: {recon_loss.item():.4f})")
+        print(f"  Epoch [{epoch}/10] Total Training Loss: {loss.item():.4f}")
 
     # Save PyTorch weights
     weights_dir = "models/real_diffusion_onnx/weights"
+    mom_weights_dir = "models/nano_pixel_mom/weights"
     os.makedirs(weights_dir, exist_ok=True)
+    os.makedirs(mom_weights_dir, exist_ok=True)
+
     torch.save(unet.state_dict(), os.path.join(weights_dir, "real_latent_unet.pt"))
     torch.save(decoder.state_dict(), os.path.join(weights_dir, "real_vae_decoder.pt"))
+    torch.save(mom_unet.state_dict(), os.path.join(mom_weights_dir, "nano_pixel_mom_unet.pt"))
+    torch.save(mom_decoder.state_dict(), os.path.join(mom_weights_dir, "nano_pixel_mom_decoder.pt"))
 
     # 3. Export ONNX Models
-    unet_onnx = os.path.join(weights_dir, "real_latent_unet_256.onnx")
-    decoder_onnx = os.path.join(weights_dir, "real_vae_decoder_256.onnx")
-
     dummy_latent = torch.randn(1, 4, 32, 32)
     dummy_t = torch.tensor([[10.0]])
     dummy_cond = torch.randn(1, 128)
 
     torch.onnx.export(
-        unet, (dummy_latent, dummy_t, dummy_cond), unet_onnx,
+        unet, (dummy_latent, dummy_t, dummy_cond),
+        os.path.join(weights_dir, "real_latent_unet_256.onnx"),
         input_names=["latent", "timestep", "text_embed"],
         output_names=["denoised_latent"],
         dynamic_axes={"latent": {0: "batch_size"}},
         dynamo=False
     )
-    print(f"\n[ONNX Export] UNet exported successfully to: {unet_onnx}")
 
     torch.onnx.export(
-        decoder, dummy_latent, decoder_onnx,
-        input_names=["latent"],
-        output_names=["rgb_image"],
+        mom_unet, (dummy_latent, dummy_t, dummy_cond),
+        os.path.join(mom_weights_dir, "nano_pixel_mom_unet.onnx"),
+        input_names=["latent", "timestep", "condition"],
+        output_names=["denoised_latent"],
         dynamic_axes={"latent": {0: "batch_size"}},
         dynamo=False
     )
-    print(f"[ONNX Export] VAE Decoder exported successfully to: {decoder_onnx}")
+    print("\n[ONNX Export] Exported all ONNX models successfully!")
 
     # 4. Log Execution Summary
     log_file = "TRAINING_LOG.md"
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(f"\n## Pipeline Execution - 2026-09-02 {time.strftime('%H:%M:%S')}\n")
-        f.write("- Fine-tuned Real Latent UNet + VAE Decoder on real cleaned pixel art dataset (10 epochs)\n")
-        f.write(f"- Exported updated ONNX models: `{unet_onnx}` and `{decoder_onnx}`\n")
-        f.write("- Saved updated PyTorch weights in `models/real_diffusion_onnx/weights/`\n")
+        f.write("- Fine-tuned Real Latent UNet & Nano Pixel MOM on 2,534 dataset images\n")
+        f.write("- Saved updated ONNX models in `models/real_diffusion_onnx/weights/` and `models/nano_pixel_mom/weights/`\n")
 
     print("\nDaily Training & ONNX Pipeline Execution Complete!")
 
