@@ -1,3 +1,4 @@
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -24,22 +25,22 @@ class RealLatentUNet(nn.Module):
 
         # Down block
         self.down_block = nn.Sequential(
-            nn.Conv2d(64, 128, kernel_size=3, padding=1),
-            nn.GroupNorm(8, 128),
+            nn.Conv2d(64, 64, kernel_size=3, padding=1),
+            nn.GroupNorm(8, 64),
             nn.SiLU(),
-            nn.Conv2d(128, 128, kernel_size=3, padding=1)
+            nn.Conv2d(64, 64, kernel_size=3, padding=1)
         )
 
-        # Mid block
+        # Mid block with true U-Net skip connection handling
         self.mid_block = nn.Sequential(
-            nn.Conv2d(128 + 128, 128, kernel_size=3, padding=1),
-            nn.GroupNorm(8, 128),
+            nn.Conv2d(128, 64, kernel_size=3, padding=1),
+            nn.GroupNorm(8, 64),
             nn.SiLU()
         )
 
         # Up block & output
         self.conv_out = nn.Sequential(
-            nn.Conv2d(128, 64, kernel_size=3, padding=1),
+            nn.Conv2d(64, 64, kernel_size=3, padding=1),
             nn.GroupNorm(8, 64),
             nn.SiLU(),
             nn.Conv2d(64, out_channels, kernel_size=3, padding=1)
@@ -52,7 +53,7 @@ class RealLatentUNet(nn.Module):
 
         h = self.conv_in(latent) + emb
         h_down = self.down_block(h)
-        h_mid = self.mid_block(torch.cat([h_down, h_down], dim=1))
+        h_mid = self.mid_block(torch.cat([h, h_down], dim=1))
         out = self.conv_out(h_mid)
         return out
 
@@ -60,9 +61,9 @@ class RealLatentUNet(nn.Module):
 class RealLatentDecoder(nn.Module):
     """
     Neural VAE Latent Decoder.
-    Decodes latent features (B, 4, 32, 32) into high-resolution RGB image (B, 3, 256, 256).
+    Decodes latent features (B, 4, 32, 32) into high-resolution RGB image (B, 4, 256, 256).
     """
-    def __init__(self, in_channels=4, out_channels=3):
+    def __init__(self, in_channels=4, out_channels=4):
         super().__init__()
         self.conv_in = nn.Conv2d(in_channels, 128, kernel_size=3, padding=1)
 
@@ -78,7 +79,7 @@ class RealLatentDecoder(nn.Module):
             nn.GroupNorm(4, 16),
             nn.SiLU(),
             nn.Conv2d(16, out_channels, kernel_size=3, padding=1),
-            nn.Sigmoid() # RGB output in [0, 1]
+            nn.Sigmoid() # Output in [0, 1]
         )
 
     def forward(self, latent):
