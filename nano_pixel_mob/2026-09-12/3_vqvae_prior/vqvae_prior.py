@@ -9,16 +9,16 @@ class VQVAEEncoder(nn.Module):
     def __init__(self, in_channels=17, hidden_dim=64, embedding_dim=32):
         super().__init__()
         self.conv = nn.Sequential(
-            nn.Conv2d(in_channels, hidden_dim, kernel_size=4, stride=2, padding=1), # 32x32 -> 16x16
+            nn.Conv2d(in_channels, hidden_dim, kernel_size=4, stride=2, padding=1),
             nn.BatchNorm2d(hidden_dim),
             nn.ReLU(),
-            nn.Conv2d(hidden_dim, hidden_dim, kernel_size=4, stride=2, padding=1), # 16x16 -> 8x8
+            nn.Conv2d(hidden_dim, hidden_dim, kernel_size=4, stride=2, padding=1),
             nn.BatchNorm2d(hidden_dim),
             nn.ReLU(),
             nn.Conv2d(hidden_dim, embedding_dim, kernel_size=3, padding=1)
         )
     def forward(self, x):
-        return self.conv(x) # (B, embedding_dim, 8, 8)
+        return self.conv(x)
 
 class VectorQuantizer(nn.Module):
     def __init__(self, num_embeddings=32, embedding_dim=32, commitment_cost=0.25):
@@ -31,11 +31,9 @@ class VectorQuantizer(nn.Module):
         self.embeddings.weight.data.uniform_(-1.0 / num_embeddings, 1.0 / num_embeddings)
 
     def forward(self, z):
-        # z: (B, C, H, W) -> (B, H, W, C)
         z_permuted = z.permute(0, 2, 3, 1).contiguous()
         flat_z = z_permuted.view(-1, self.embedding_dim)
 
-        # Calculate distances to codebook
         distances = torch.sum(flat_z**2, dim=1, keepdim=True) + \
                     torch.sum(self.embeddings.weight**2, dim=1) - \
                     2 * torch.matmul(flat_z, self.embeddings.weight.t())
@@ -43,7 +41,6 @@ class VectorQuantizer(nn.Module):
         encoding_indices = torch.argmin(distances, dim=1)
         quantized = self.embeddings(encoding_indices).view(z_permuted.shape)
 
-        # Loss computation
         q_loss = F.mse_loss(quantized.detach(), z_permuted)
         c_loss = F.mse_loss(quantized, z_permuted.detach())
         loss = q_loss + self.commitment_cost * c_loss
@@ -58,10 +55,10 @@ class VQVAEDecoder(nn.Module):
     def __init__(self, embedding_dim=32, hidden_dim=64, out_channels=17):
         super().__init__()
         self.deconv = nn.Sequential(
-            nn.ConvTranspose2d(embedding_dim, hidden_dim, kernel_size=4, stride=2, padding=1), # 8x8 -> 16x16
+            nn.ConvTranspose2d(embedding_dim, hidden_dim, kernel_size=4, stride=2, padding=1),
             nn.BatchNorm2d(hidden_dim),
             nn.ReLU(),
-            nn.ConvTranspose2d(hidden_dim, hidden_dim, kernel_size=4, stride=2, padding=1), # 16x16 -> 32x32
+            nn.ConvTranspose2d(hidden_dim, hidden_dim, kernel_size=4, stride=2, padding=1),
             nn.BatchNorm2d(hidden_dim),
             nn.ReLU(),
             nn.Conv2d(hidden_dim, out_channels, kernel_size=3, padding=1)
@@ -78,7 +75,6 @@ class VQVAEModel(nn.Module):
         self.decoder = VQVAEDecoder(embedding_dim, 64, num_classes)
 
     def forward(self, x_indices):
-        # x_indices: (B, 32, 32)
         x_onehot = F.one_hot(x_indices, num_classes=self.num_classes).permute(0, 3, 1, 2).float()
         z = self.encoder(x_onehot)
         quantized, vq_loss, indices = self.vq(z)
@@ -87,19 +83,15 @@ class VQVAEModel(nn.Module):
 
     @torch.no_grad()
     def decode_indices(self, indices):
-        # indices: (B, 8, 8)
         quantized = self.vq.embeddings(indices).permute(0, 3, 1, 2).contiguous()
         logits = self.decoder(quantized)
         preds = torch.argmax(logits, dim=1)
         return preds
 
 class LatentPriorTransformer(nn.Module):
-    """
-    Autoregressive prior over VQ-VAE 8x8 latent codebook indices (64 tokens per sprite).
-    """
     def __init__(self, num_codes=32, d_model=64, num_layers=2):
         super().__init__()
-        self.bos_token = num_codes # 32
+        self.bos_token = num_codes
         self.emb = nn.Embedding(num_codes + 1, d_model)
         self.pos = nn.Parameter(torch.zeros(1, 65, d_model))
         nn.init.normal_(self.pos, std=0.02)
@@ -130,15 +122,15 @@ class LatentPriorTransformer(nn.Module):
         return x[0, 1:].view(1, 8, 8)
 
 def train_vqvae_prior():
-    print("Training Model 3: VQ-VAE + Neural Prior Generator...")
-    dataset_path = "models/nano_pixel_mob_2026_09_12/dataset/arcade_sprites_32x32.pt"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(base_dir)
+    dataset_path = os.path.join(parent_dir, "dataset", "arcade_sprites_32x32.pt")
     data = torch.load(dataset_path)
     indices = data["indices"]
     palettes = data["palettes"]
 
     N = indices.size(0)
 
-    # 1. Train VQ-VAE
     vqvae = VQVAEModel()
     optimizer_vq = torch.optim.AdamW(vqvae.parameters(), lr=3e-3, weight_decay=0.01)
 
@@ -163,18 +155,14 @@ def train_vqvae_prior():
             optimizer_vq.step()
             total_loss += loss.item() * b_size
 
-        print(f"VQ-VAE Epoch {epoch+1}/{epochs_vq} - Loss: {total_loss/N:.4f}")
-
-    # Extract latent codes for prior training
     vqvae.eval()
     with torch.no_grad():
-        _, _, code_indices = vqvae(indices) # (N, 8, 8)
+        _, _, code_indices = vqvae(indices)
 
     code_flat = code_indices.view(N, 64)
     bos = torch.full((N, 1), 32, dtype=torch.long)
     seqs = torch.cat([bos, code_flat], dim=1)
 
-    # 2. Train Prior Transformer over 8x8 latents
     prior = LatentPriorTransformer()
     optimizer_prior = torch.optim.AdamW(prior.parameters(), lr=3e-3, weight_decay=0.01)
 
@@ -198,18 +186,11 @@ def train_vqvae_prior():
             optimizer_prior.step()
             total_loss += loss.item() * len(idx)
 
-        print(f"Prior Epoch {epoch+1}/{epochs_prior} - Loss: {total_loss/N:.4f}")
+    torch.save(vqvae.state_dict(), os.path.join(base_dir, "vqvae_weights.pt"))
+    torch.save(prior.state_dict(), os.path.join(base_dir, "prior_weights.pt"))
 
-    out_dir = "models/nano_pixel_mob_2026_09_12/3_vqvae_prior"
-    os.makedirs(out_dir, exist_ok=True)
-    torch.save(vqvae.state_dict(), os.path.join(out_dir, "vqvae_weights.pt"))
-    torch.save(prior.state_dict(), os.path.join(out_dir, "prior_weights.pt"))
-    print(f"Model 3 weights saved to {out_dir}/")
-
-    # Generate test sample
-    print("Generating sample character sprite from VQ-VAE + Prior...")
-    sampled_codes = prior.generate() # (1, 8, 8)
-    sample_indices = vqvae.decode_indices(sampled_codes)[0].cpu().numpy() # (32, 32)
+    sampled_codes = prior.generate()
+    sample_indices = vqvae.decode_indices(sampled_codes)[0].cpu().numpy()
 
     ref_palette = palettes[0].numpy()
     img_arr = np.zeros((32, 32, 4), dtype=np.uint8)
@@ -222,8 +203,7 @@ def train_vqvae_prior():
 
     img = Image.fromarray(img_arr, mode='RGBA')
     img_64 = img.resize((64, 64), Image.NEAREST)
-    img_64.save(os.path.join(out_dir, "sample_vqvae_prior_64x64.png"))
-    print(f"Saved sample image to {out_dir}/sample_vqvae_prior_64x64.png")
+    img_64.save(os.path.join(base_dir, "sample_vqvae_prior_64x64.png"))
 
 if __name__ == "__main__":
     train_vqvae_prior()

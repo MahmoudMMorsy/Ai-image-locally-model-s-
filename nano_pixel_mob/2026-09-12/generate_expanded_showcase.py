@@ -4,23 +4,15 @@ import torch
 import numpy as np
 from PIL import Image
 import imageio
-import importlib.util
 
-def load_module_from_path(module_name, filepath):
-    spec = importlib.util.spec_from_file_location(module_name, filepath)
-    mod = importlib.util.module_from_spec(spec)
-    sys.modules[module_name] = mod
-    spec.loader.exec_module(mod)
-    return mod
+base_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(base_dir, "1_pixel_llm"))
+sys.path.append(os.path.join(base_dir, "2_discrete_diffusion"))
+sys.path.append(os.path.join(base_dir, "3_vqvae_prior"))
 
-mod1 = load_module_from_path("pixel_llm_mod", "models/nano_pixel_mob_2026_09_12/1_pixel_llm/pixel_llm.py")
-mod2 = load_module_from_path("diffusion_mod", "models/nano_pixel_mob_2026_09_12/2_discrete_diffusion/discrete_diffusion.py")
-mod3 = load_module_from_path("vqvae_mod", "models/nano_pixel_mob_2026_09_12/3_vqvae_prior/vqvae_prior.py")
-
-PixelLLM = mod1.PixelLLM
-ConvDiscreteDiffusion = mod2.ConvDiscreteDiffusion
-VQVAEModel = mod3.VQVAEModel
-LatentPriorTransformer = mod3.LatentPriorTransformer
+from pixel_llm import PixelLLM
+from discrete_diffusion import ConvDiscreteDiffusion
+from vqvae_prior import VQVAEModel, LatentPriorTransformer
 
 def colorize_and_upscale(indices, palette):
     img_arr = np.zeros((32, 32, 4), dtype=np.uint8)
@@ -34,25 +26,23 @@ def colorize_and_upscale(indices, palette):
     return img.resize((64, 64), Image.NEAREST)
 
 def generate_expanded_showcase():
-    print("Generating expanded 32-character showcase in examples/2026-09-12_nano_pixel_mob/...")
-    dataset_path = "models/nano_pixel_mob_2026_09_12/dataset/arcade_sprites_32x32.pt"
+    dataset_path = os.path.join(base_dir, "dataset", "arcade_sprites_32x32.pt")
     data = torch.load(dataset_path)
     palettes = data["palettes"].numpy()
 
-    examples_dir = "examples/2026-09-12_nano_pixel_mob"
+    examples_dir = os.path.join(os.path.dirname(base_dir), "..", "examples", "2026-09-12_nano_pixel_mob")
     os.makedirs(examples_dir, exist_ok=True)
 
-    # Load Models
     m1 = PixelLLM()
-    m1.load_state_dict(torch.load("models/nano_pixel_mob_2026_09_12/1_pixel_llm/pixel_llm_weights.pt"))
+    m1.load_state_dict(torch.load(os.path.join(base_dir, "1_pixel_llm", "pixel_llm_weights.pt")))
 
     m2 = ConvDiscreteDiffusion()
-    m2.load_state_dict(torch.load("models/nano_pixel_mob_2026_09_12/2_discrete_diffusion/discrete_diffusion_weights.pt"))
+    m2.load_state_dict(torch.load(os.path.join(base_dir, "2_discrete_diffusion", "discrete_diffusion_weights.pt")))
 
     m3_vqvae = VQVAEModel()
-    m3_vqvae.load_state_dict(torch.load("models/nano_pixel_mob_2026_09_12/3_vqvae_prior/vqvae_weights.pt"))
+    m3_vqvae.load_state_dict(torch.load(os.path.join(base_dir, "3_vqvae_prior", "vqvae_weights.pt")))
     m3_prior = LatentPriorTransformer()
-    m3_prior.load_state_dict(torch.load("models/nano_pixel_mob_2026_09_12/3_vqvae_prior/prior_weights.pt"))
+    m3_prior.load_state_dict(torch.load(os.path.join(base_dir, "3_vqvae_prior", "prior_weights.pt")))
 
     models = [
         ("1_pixel_llm", lambda: m1.generate(temperature=0.85, top_k=8)),
@@ -61,13 +51,12 @@ def generate_expanded_showcase():
     ]
 
     all_32_images = []
-
     for model_name, gen_fn in models:
         model_out_dir = os.path.join(examples_dir, model_name)
         os.makedirs(model_out_dir, exist_ok=True)
 
         imgs = []
-        for i in range(12): # 12 per model
+        for i in range(12):
             palette = palettes[i % len(palettes)]
             indices = gen_fn()
             img_64 = colorize_and_upscale(indices, palette)
@@ -76,7 +65,6 @@ def generate_expanded_showcase():
             if len(all_32_images) < 32:
                 all_32_images.append(img_64)
 
-        # Model sprite sheet (3x4 grid)
         sheet = Image.new("RGBA", (64 * 4, 64 * 3), (0, 0, 0, 0))
         for idx, img in enumerate(imgs):
             r = idx // 4
@@ -85,7 +73,6 @@ def generate_expanded_showcase():
         sheet.save(os.path.join(model_out_dir, "sprite_sheet.png"))
         imageio.mimsave(os.path.join(model_out_dir, "preview.gif"), [np.array(im) for im in imgs], fps=3, loop=0)
 
-    # Master 32-Character Sprite Sheet (4x8 grid)
     master_sheet = Image.new("RGBA", (64 * 8, 64 * 4), (20, 20, 25, 255))
     for idx, img in enumerate(all_32_images[:32]):
         r = idx // 8
@@ -93,21 +80,6 @@ def generate_expanded_showcase():
         master_sheet.paste(img, (c * 64, r * 64), mask=img)
     master_sheet.save(os.path.join(examples_dir, "master_32_characters_sheet.png"))
     imageio.mimsave(os.path.join(examples_dir, "master_preview.gif"), [np.array(im) for im in all_32_images[:32]], fps=3, loop=0)
-
-    readme_content = """# Nano Pixel Mob - Showcase Results (2026-09-12)
-
-هذا الأرشيف يحتوي على صور وتنائج النماذج التوليدية لـ **Nano Pixel Mob**:
-
-1. `1_pixel_llm/`: نتائج نموذج PixelLLM التوليدي (12 شخصية 64x64 + Sprite Sheet + GIF).
-2. `2_discrete_diffusion/`: نتائج نموذج Discrete Masked Diffusion (12 شخصية 64x64 + Sprite Sheet + GIF).
-3. `3_vqvae_prior/`: نتائج نموذج VQ-VAE + Neural Prior (12 شخصية 64x64 + Sprite Sheet + GIF).
-4. `master_32_characters_sheet.png`: تجميعة 32 شخصية فريدة مولدة بالذكاء الاصطناعي بالكامل على الـ CPU.
-5. `master_preview.gif`: عرض متحرك للشخصيات الـ 32.
-"""
-    with open(os.path.join(examples_dir, "README.md"), "w") as f:
-        f.write(readme_content)
-
-    print("Expanded showcase generated successfully.")
 
 if __name__ == "__main__":
     generate_expanded_showcase()

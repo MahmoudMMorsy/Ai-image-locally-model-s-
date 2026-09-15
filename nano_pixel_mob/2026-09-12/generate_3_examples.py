@@ -3,23 +3,12 @@ import sys
 import torch
 import numpy as np
 from PIL import Image
-import importlib.util
 
-def load_module_from_path(module_name, filepath):
-    spec = importlib.util.spec_from_file_location(module_name, filepath)
-    mod = importlib.util.module_from_spec(spec)
-    sys.modules[module_name] = mod
-    spec.loader.exec_module(mod)
-    return mod
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
-mod1 = load_module_from_path("pixel_llm_mod", "models/nano_pixel_mob_2026_09_12/1_pixel_llm/pixel_llm.py")
-mod2 = load_module_from_path("diffusion_mod", "models/nano_pixel_mob_2026_09_12/2_discrete_diffusion/discrete_diffusion.py")
-mod3 = load_module_from_path("vqvae_mod", "models/nano_pixel_mob_2026_09_12/3_vqvae_prior/vqvae_prior.py")
-
-PixelLLM = mod1.PixelLLM
-ConvDiscreteDiffusion = mod2.ConvDiscreteDiffusion
-VQVAEModel = mod3.VQVAEModel
-LatentPriorTransformer = mod3.LatentPriorTransformer
+from pixel_llm import PixelLLM
+from discrete_diffusion import ConvDiscreteDiffusion
+from vqvae_prior import VQVAEModel, LatentPriorTransformer
 
 def colorize_and_upscale(indices, palette):
     img_arr = np.zeros((32, 32, 4), dtype=np.uint8)
@@ -33,40 +22,35 @@ def colorize_and_upscale(indices, palette):
     return img.resize((64, 64), Image.NEAREST)
 
 def generate_3_examples_per_model():
-    print("Generating 3 example images directly inside each model directory...")
-    dataset_path = "models/nano_pixel_mob_2026_09_12/dataset/arcade_sprites_32x32.pt"
+    dataset_path = os.path.join(base_dir, "dataset", "arcade_sprites_32x32.pt")
     data = torch.load(dataset_path)
     palettes = data["palettes"].numpy()
 
-    base_dir = "models/nano_pixel_mob_2026_09_12"
-
-    # 1. Model 1: PixelLLM
+    # 1. Model 1
     m1 = PixelLLM()
-    m1.load_state_dict(torch.load(os.path.join(base_dir, "1_pixel_llm/pixel_llm_weights.pt")))
+    m1.load_state_dict(torch.load(os.path.join(base_dir, "1_pixel_llm", "pixel_llm_weights.pt")))
     dir1 = os.path.join(base_dir, "1_pixel_llm")
     for i in range(3):
         palette = palettes[i % len(palettes)]
         indices = m1.generate(temperature=0.85, top_k=8)
         img = colorize_and_upscale(indices, palette)
         img.save(os.path.join(dir1, f"example_0{i+1}.png"))
-    print(f"Saved 3 examples in {dir1}")
 
-    # 2. Model 2: Discrete Diffusion
+    # 2. Model 2
     m2 = ConvDiscreteDiffusion()
-    m2.load_state_dict(torch.load(os.path.join(base_dir, "2_discrete_diffusion/discrete_diffusion_weights.pt")))
+    m2.load_state_dict(torch.load(os.path.join(base_dir, "2_discrete_diffusion", "discrete_diffusion_weights.pt")))
     dir2 = os.path.join(base_dir, "2_discrete_diffusion")
     for i in range(3):
         palette = palettes[(i+3) % len(palettes)]
         indices = m2.sample(steps=10)
         img = colorize_and_upscale(indices, palette)
         img.save(os.path.join(dir2, f"example_0{i+1}.png"))
-    print(f"Saved 3 examples in {dir2}")
 
-    # 3. Model 3: VQ-VAE + Prior
+    # 3. Model 3
     m3_vqvae = VQVAEModel()
-    m3_vqvae.load_state_dict(torch.load(os.path.join(base_dir, "3_vqvae_prior/vqvae_weights.pt")))
+    m3_vqvae.load_state_dict(torch.load(os.path.join(base_dir, "3_vqvae_prior", "vqvae_weights.pt")))
     m3_prior = LatentPriorTransformer()
-    m3_prior.load_state_dict(torch.load(os.path.join(base_dir, "3_vqvae_prior/prior_weights.pt")))
+    m3_prior.load_state_dict(torch.load(os.path.join(base_dir, "3_vqvae_prior", "prior_weights.pt")))
     dir3 = os.path.join(base_dir, "3_vqvae_prior")
     for i in range(3):
         palette = palettes[(i+6) % len(palettes)]
@@ -74,7 +58,6 @@ def generate_3_examples_per_model():
         indices = m3_vqvae.decode_indices(sampled_codes)[0].cpu().numpy()
         img = colorize_and_upscale(indices, palette)
         img.save(os.path.join(dir3, f"example_0{i+1}.png"))
-    print(f"Saved 3 examples in {dir3}")
 
 if __name__ == "__main__":
     generate_3_examples_per_model()

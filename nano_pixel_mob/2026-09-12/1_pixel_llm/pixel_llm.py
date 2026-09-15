@@ -6,13 +6,9 @@ import numpy as np
 from PIL import Image
 
 class PixelLLM(nn.Module):
-    """
-    Fast Autoregressive Palette Token Transformer (~200K params)
-    Optimized for fast CPU execution and fast sampling.
-    """
     def __init__(self, vocab_size=18, max_seq_len=1024, d_model=96, nhead=4, num_layers=2):
         super().__init__()
-        self.vocab_size = vocab_size # 0: BG, 1-16: Palette colors, 17: BOS token
+        self.vocab_size = vocab_size
         self.max_seq_len = max_seq_len
         self.bos_token = 17
 
@@ -56,16 +52,17 @@ class PixelLLM(nn.Module):
         return indices
 
 def train_pixel_llm():
-    print("Training Model 1: PixelLLM (Fast Autoregressive Palette Transformer)...")
-    dataset_path = "models/nano_pixel_mob_2026_09_12/dataset/arcade_sprites_32x32.pt"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(base_dir)
+    dataset_path = os.path.join(parent_dir, "dataset", "arcade_sprites_32x32.pt")
     data = torch.load(dataset_path)
-    indices = data["indices"] # (N, 32, 32)
-    palettes = data["palettes"] # (N, 16, 3)
+    indices = data["indices"]
+    palettes = data["palettes"]
 
     N = indices.size(0)
     flat_indices = indices.view(N, 1024)
     bos = torch.full((N, 1), 17, dtype=torch.long)
-    seqs = torch.cat([bos, flat_indices], dim=1) # (N, 1025)
+    seqs = torch.cat([bos, flat_indices], dim=1)
 
     model = PixelLLM()
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-3, weight_decay=0.01)
@@ -91,15 +88,7 @@ def train_pixel_llm():
             optimizer.step()
             total_loss += loss.item() * len(idx)
 
-        print(f"Epoch {epoch+1}/{epochs} - Loss: {total_loss/N:.4f}")
-
-    out_dir = "models/nano_pixel_mob_2026_09_12/1_pixel_llm"
-    os.makedirs(out_dir, exist_ok=True)
-    torch.save(model.state_dict(), os.path.join(out_dir, "pixel_llm_weights.pt"))
-    print(f"Model 1 weights saved to {out_dir}/pixel_llm_weights.pt")
-
-    # Generate test sample
-    print("Generating sample character sprite from PixelLLM...")
+    torch.save(model.state_dict(), os.path.join(base_dir, "pixel_llm_weights.pt"))
     sample_indices = model.generate(temperature=0.85, top_k=8)
 
     ref_palette = palettes[0].numpy()
@@ -113,8 +102,7 @@ def train_pixel_llm():
 
     img = Image.fromarray(img_arr, mode='RGBA')
     img_64 = img.resize((64, 64), Image.NEAREST)
-    img_64.save(os.path.join(out_dir, "sample_pixelllm_64x64.png"))
-    print(f"Saved sample image to {out_dir}/sample_pixelllm_64x64.png")
+    img_64.save(os.path.join(base_dir, "sample_pixelllm_64x64.png"))
 
 if __name__ == "__main__":
     train_pixel_llm()
