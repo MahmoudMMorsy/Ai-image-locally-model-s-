@@ -4,10 +4,14 @@ from PIL import Image
 from pixel_art_engine.clip_text import SimpleCLIPTextEncoder
 from pixel_art_engine.procedural import generate_arcade_sprite
 from pixel_art_engine.palette import quantize_to_pixel_art
+from pixel_art_engine.model import PixelSpriteGenerator, PixelSpriteEncoder
 
 class PixelSpriteEngine:
-    def __init__(self):
+    def __init__(self, device="cpu"):
+        self.device = torch.device(device)
         self.encoder = SimpleCLIPTextEncoder()
+        self.generator = PixelSpriteGenerator().to(self.device)
+        self.sprite_encoder = PixelSpriteEncoder().to(self.device)
 
     def generate_sprite(self, prompt="knight", seed=42):
         archetype = "knight"
