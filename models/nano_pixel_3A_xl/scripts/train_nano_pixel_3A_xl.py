@@ -17,7 +17,9 @@ class NanoPixel3AXLUNet(nn.Module):
         self.relu = nn.GELU()
 
     def forward(self, x, t):
-        t_emb = self.time_mlp(t.unsqueeze(-1)).unsqueeze(-1).unsqueeze(-1)
+        if t.dim() == 1:
+            t = t.unsqueeze(-1)
+        t_emb = self.time_mlp(t).view(x.size(0), -1, 1, 1)
         h = self.relu(self.conv_in(x)) + t_emb
         h = self.relu(self.conv_mid(h))
         return self.conv_out(h)
