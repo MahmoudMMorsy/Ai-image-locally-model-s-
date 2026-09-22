@@ -5,6 +5,9 @@ import numpy as np
 from PIL import Image
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(base_dir, "1_pixel_llm"))
+sys.path.append(os.path.join(base_dir, "2_discrete_diffusion"))
+sys.path.append(os.path.join(base_dir, "3_vqvae_prior"))
 
 from pixel_llm import PixelLLM
 from discrete_diffusion import ConvDiscreteDiffusion
@@ -15,8 +18,8 @@ def colorize_and_upscale(indices, palette):
     for r in range(32):
         for c in range(32):
             idx = indices[r, c]
-            if 1 <= idx <= 16:
-                color = palette[min(idx-1, len(palette)-1)]
+            if 1 <= idx <= 15:
+                color = palette[min(idx, len(palette)-1)]
                 img_arr[r, c] = [color[0], color[1], color[2], 255]
     img = Image.fromarray(img_arr, mode='RGBA')
     return img.resize((64, 64), Image.NEAREST)
