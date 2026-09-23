@@ -43,7 +43,7 @@ def main():
     print("=" * 60)
 
     # 1. Verify / Generate Dataset
-    dataset_dir = "dataset_training_images/arcade_sideview_5000"
+    dataset_dir = "dataset_5k"
     if not os.path.exists(dataset_dir) or len([f for f in os.listdir(dataset_dir) if f.endswith(".png")]) < 5000:
         print("[Dataset] Generating 5,000 side-view arcade character images...")
         generate_5000_arcade_dataset()

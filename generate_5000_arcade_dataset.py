@@ -12,7 +12,7 @@ POSES = ["idle", "walk", "run", "attack", "jump"]
 PALETTES = [GAMEBOY_PALETTE, NES_PALETTE, SIGNATURE_PALETTE]
 
 def generate_5000_arcade_dataset():
-    out_dir = "dataset_training_images/arcade_sideview_5000"
+    out_dir = "dataset_5k"
     os.makedirs(out_dir, exist_ok=True)
 
     print(f"Generating 5,000+ side-view arcade game character sprite images into {out_dir}...")
