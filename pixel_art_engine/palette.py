@@ -70,7 +70,6 @@ SIGNATURE_PALETTE = np.array([
     [200, 70, 120, 255],   # 31: Magenta
 ], dtype=np.uint8)
 
-
 def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_PALETTE) -> Image.Image:
     """
     Resizes and quantizes any PIL Image to a crisp 64x64 pixel art sprite
@@ -79,34 +78,23 @@ def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_P
     if image.mode != "RGBA":
         image = image.convert("RGBA")
 
-    # 1. Resize to target (64x64) using Nearest Neighbor to keep pixel edges sharp
     resized = image.resize(size, Image.Resampling.NEAREST)
-    arr = np.array(resized, dtype=np.float32) # (H, W, 4)
+    arr = np.array(resized, dtype=np.float32)
 
-    # Separate alpha channel mask (alpha < 128 is fully transparent)
     alpha = arr[:, :, 3]
     transparent_mask = alpha < 128
 
-    # Extract RGB values
     rgb = arr[:, :, :3]
-
-    # Palette RGB & Alpha
     pal_rgb = palette[:, :3].astype(np.float32)
 
-    # Calculate Euclidean distance between each pixel RGB and palette RGBs
-    # Dist shape: (H, W, Palette_Size)
     diff = rgb[:, :, np.newaxis, :] - pal_rgb[np.newaxis, np.newaxis, :, :]
     dist = np.sum(diff ** 2, axis=-1)
 
-    # Ignore index 0 (transparent index) when matching solid colors
     dist[:, :, 0] = 1e9
 
     nearest_idx = np.argmin(dist, axis=-1)
 
-    # Apply palette colors
     quantized_arr = palette[nearest_idx].copy()
-
-    # Restore transparency
     quantized_arr[transparent_mask] = palette[0]
 
     return Image.fromarray(quantized_arr, mode="RGBA")

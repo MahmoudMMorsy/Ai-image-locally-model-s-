@@ -60,18 +60,16 @@ def main():
 
     print("\n[Training] Fine-tuning Real Latent UNet + Decoder on real side-view arcade dataset images...")
 
-    # Encoder mapping 256x256 RGB image to 32x32 latent tensor
     img_to_latent = nn.Sequential(
-        nn.Conv2d(3, 16, kernel_size=4, stride=2, padding=1),  # -> 128x128
+        nn.Conv2d(3, 16, kernel_size=4, stride=2, padding=1),
         nn.ReLU(),
-        nn.Conv2d(16, 32, kernel_size=4, stride=2, padding=1), # -> 64x64
+        nn.Conv2d(16, 32, kernel_size=4, stride=2, padding=1),
         nn.ReLU(),
-        nn.Conv2d(32, 4, kernel_size=4, stride=2, padding=1),  # -> 32x32
+        nn.Conv2d(32, 4, kernel_size=4, stride=2, padding=1),
     )
 
     epochs = 2
-    step_count = 0
-    max_steps_per_epoch = 100  # Efficient CPU training budget
+    max_steps_per_epoch = 100
 
     for epoch in range(1, epochs + 1):
         total_loss = 0.0
@@ -79,7 +77,6 @@ def main():
             if batch_idx >= max_steps_per_epoch:
                 break
 
-            # Project real dataset RGB images (batch, 3, 256, 256) into latent space (batch, 4, 32, 32)
             real_latents = img_to_latent(batch_images)
             timesteps = torch.full((batch_images.size(0), 1), 10.0)
             conds = torch.randn(batch_images.size(0), 128)
@@ -88,7 +85,6 @@ def main():
             denoised_latents = unet(real_latents, timesteps, conds)
             reconstructed_rgb = decoder(denoised_latents)
 
-            # Real Loss: Image Reconstruction Loss (MSE) + Latent Consistency Loss
             loss_rgb = nn.functional.mse_loss(reconstructed_rgb, batch_images)
             loss_latent = nn.functional.mse_loss(denoised_latents, real_latents)
             loss = loss_rgb + loss_latent
@@ -96,7 +92,6 @@ def main():
             loss.backward()
             optimizer.step()
             total_loss += loss.item()
-            step_count += 1
 
         avg_loss = total_loss / min(len(dataloader), max_steps_per_epoch)
         print(f"  Epoch [{epoch}/{epochs}] Average Training Loss: {avg_loss:.4f}")
@@ -147,25 +142,20 @@ def main():
     for arch_key, title_en, title_ar in archetypes:
         char_img = engine.generate_sprite(prompt=arch_key, seed=42)
 
-        # Save Game Boy version
         gb_img = quantize_to_pixel_art(char_img, size=(64, 64), palette=GAMEBOY_PALETTE)
         gb_img.save(os.path.join(showcase_dir, f"{arch_key}_gameboy.png"))
 
-        # Save NES version
         nes_img = quantize_to_pixel_art(char_img, size=(64, 64), palette=NES_PALETTE)
         nes_img.save(os.path.join(showcase_dir, f"{arch_key}_nes.png"))
 
-        # Save Signature version
         sig_img = quantize_to_pixel_art(char_img, size=(64, 64), palette=SIGNATURE_PALETTE)
         sig_img.save(os.path.join(showcase_dir, f"{arch_key}_signature.png"))
 
-        # Generate action animation sprite sheet & GIF
         frames, sheet, gif_bytes = animator.generate_animation(char_img, action="run", num_frames=4)
         sheet.save(os.path.join(showcase_dir, f"{arch_key}_spritesheet.png"))
         with open(os.path.join(showcase_dir, f"{arch_key}_action.gif"), "wb") as f:
             f.write(gif_bytes)
 
-    # Generate Bilingual Poster
     poster_engine = BilingualPosterEngine()
     poster_img = poster_engine.generate_poster(
         title_ar="أركيد البيكسل - العرض المباشر",
@@ -174,7 +164,6 @@ def main():
     )
     poster_img.save(os.path.join(showcase_dir, "bilingual_arcade_poster.png"))
 
-    # Create README in showcase directory
     readme_content = f"""# Side-View Arcade Showcase ({timestamp_str})
 
 This directory contains side-view arcade game character outputs and bilingual posters trained on a 5,000+ image dataset.
@@ -188,7 +177,6 @@ This directory contains side-view arcade game character outputs and bilingual po
     with open(os.path.join(showcase_dir, "README.md"), "w", encoding="utf-8") as f:
         f.write(readme_content)
 
-    # 5. Log Execution Summary
     log_file = "TRAINING_LOG.md"
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(f"\n## Pipeline Execution - {timestamp_str}\n")
