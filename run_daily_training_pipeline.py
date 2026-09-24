@@ -42,6 +42,25 @@ def prepare_dataset():
     print(f"[Dataset] Verified {len(files)} clean training images in '{dataset_dir}'.")
     return [os.path.join(dataset_dir, f) for f in files]
 
+def load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4):
+    if not image_paths:
+        if channels == 4:
+            return torch.randn(batch_size, 4, target_size[0], target_size[1])
+        else:
+            return torch.randn(batch_size, 3, target_size[0], target_size[1])
+
+    chosen_paths = np.random.choice(image_paths, size=batch_size, replace=True)
+    batch_tensors = []
+    for path in chosen_paths:
+        mode = "RGBA" if channels == 4 else "RGB"
+        img = Image.open(path).convert(mode).resize(target_size)
+        arr = np.array(img, dtype=np.float32) / 255.0
+        # HWC -> CHW
+        arr = np.transpose(arr, (2, 0, 1))
+        batch_tensors.append(torch.tensor(arr))
+
+    return torch.stack(batch_tensors, dim=0)
+
 def main():
     date_str = time.strftime("%Y-%m-%d")
     print("=" * 70)
@@ -57,6 +76,7 @@ def main():
     opt_real = optim.AdamW(list(unet_real.parameters()) + list(decoder_real.parameters()), lr=1e-3)
 
     for epoch in range(1, 11):
+        real_rgb = load_real_batch(image_paths, batch_size=2, target_size=(256, 256), channels=3)
         latent = torch.randn(2, 4, 32, 32)
         t = torch.tensor([[10.0], [5.0]])
         cond = torch.randn(2, 128)
@@ -65,7 +85,7 @@ def main():
         denoised = unet_real(latent, t, cond)
         rgb_out = decoder_real(denoised)
 
-        loss_real = torch.mean((denoised - latent)**2) + torch.mean((rgb_out - 0.5)**2)
+        loss_real = torch.mean((denoised - latent)**2) + torch.mean((rgb_out - real_rgb)**2)
         loss_real.backward()
         opt_real.step()
         if epoch % 2 == 0 or epoch == 1:
@@ -113,7 +133,7 @@ def main():
         cond = arabic_embed(sample_ids)
         denoised = poster_unet(latent, t, cond)
 
-        loss_poster = torch.mean((denoised - latent)**2)
+        loss_poster = torch.mean((denoised - latent)**2) + 0.01 * torch.mean(cond**2)
         loss_poster.backward()
         opt_poster.step()
         if epoch % 2 == 0 or epoch == 1:
@@ -138,11 +158,11 @@ def main():
     opt_3a = optim.AdamW(nanopixel_3a.parameters(), lr=1e-4)
 
     for epoch in range(1, 11):
-        x = torch.randn(2, 4, 64, 64)
+        real_64 = load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4)
         t = torch.tensor([5.0, 10.0])
         opt_3a.zero_grad()
-        pred = nanopixel_3a(x, t)
-        loss_3a = torch.mean((pred - x)**2)
+        pred = nanopixel_3a(real_64, t)
+        loss_3a = torch.mean((pred - real_64)**2)
         loss_3a.backward()
         opt_3a.step()
         if epoch % 2 == 0 or epoch == 1:
@@ -168,11 +188,11 @@ def main():
     opt_px = optim.AdamW(list(px_engine.encoder.parameters()) + list(px_engine.generator.parameters()), lr=1e-3)
 
     for epoch in range(1, 11):
-        dummy_in = torch.randn(2, 4, 64, 64)
+        real_64 = load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4)
         opt_px.zero_grad()
-        z = px_engine.encoder(dummy_in)
+        z = px_engine.encoder(real_64)
         rec = px_engine.generator(z)
-        loss_px = torch.mean((rec - dummy_in)**2)
+        loss_px = torch.mean((rec - real_64)**2)
         loss_px.backward()
         opt_px.step()
         if epoch % 2 == 0 or epoch == 1:
