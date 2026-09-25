@@ -1,10 +1,10 @@
-name: Django CI
+name: Python CI
 
 on:
   push:
-    branches: [ "feature-pixel-art-sprite-engine-10984173554244238923" ]
+    branches: [ "**" ]
   pull_request:
-    branches: [ "feature-pixel-art-sprite-engine-10984173554244238923" ]
+    branches: [ "**" ]
 
 jobs:
   build:
@@ -28,11 +28,8 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then
           python -m pip install -r requirements.txt
-        else
-          echo "requirements.txt not found in repository root"
-          exit 1
         fi
 
     - name: Run Tests
       run: |
-        python manage.py test
+        python -m unittest discover -s . -p "test_*.py"
