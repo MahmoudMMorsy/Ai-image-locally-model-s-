@@ -2,9 +2,9 @@ name: Django CI
 
 on:
   push:
-    branches: [ "**" ]
+    branches: [ "feature-pixel-art-sprite-engine-10984173554244238923" ]
   pull_request:
-    branches: [ "**" ]
+    branches: [ "feature-pixel-art-sprite-engine-10984173554244238923" ]
 
 jobs:
   build:
@@ -21,15 +21,18 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-        cache: 'pip'
+        cache: pip
 
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then
           python -m pip install -r requirements.txt
+        else
+          echo "requirements.txt not found in repository root"
+          exit 1
         fi
 
     - name: Run Tests
       run: |
-        python -m unittest discover -s . -p "test_*.py"
+        python manage.py test

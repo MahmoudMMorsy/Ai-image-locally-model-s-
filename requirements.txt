@@ -1,9 +1,0 @@
-torch
-torchvision
-numpy
-pillow
-imageio
-arabic_reshaper
-python-bidi
-onnx
-onnxruntime
