@@ -1,8 +1,8 @@
 """
 nano_pixel_XL0_2 Real Conditional Diffusion Trainer
 Reads image-caption (.png + .txt) pairs, encodes text embeddings for true prompt conditioning,
-applies Charbonnier + Palette Consistency Loss, max_epochs=100, Early Stopping (patience=5),
-and checkpoints every 10 epochs.
+applies Charbonnier + Palette Consistency Loss, max_epochs=5, Early Stopping (patience=5),
+and checkpoints every 5 epochs.
 """
 import os
 import torch
@@ -47,9 +47,9 @@ def load_dataset():
             dataset.append((t_img, t_emb, caption))
     return dataset
 
-def train():
+def train(max_epochs=5):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"[nano_pixel_XL0_2] Starting Training on {device}...")
+    print(f"[nano_pixel_XL0_2] Starting Training on {device} (max_epochs={max_epochs})...")
 
     os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
     dataset = load_dataset()
@@ -60,9 +60,8 @@ def train():
     palette_loss = PaletteConsistencyLoss()
 
     optimizer = optim.AdamW(model.parameters(), lr=2e-4, weight_decay=1e-4)
-    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100, eta_min=1e-6)
+    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=max_epochs, eta_min=1e-6)
 
-    max_epochs = 100
     patience = 5
     best_loss = float('inf')
     patience_counter = 0
@@ -104,7 +103,7 @@ def train():
 
             print(f"Epoch [{epoch}/{max_epochs}] Loss: {epoch_loss:.4f}")
 
-            if epoch % 10 == 0:
+            if epoch % 5 == 0:
                 ckpt_path = os.path.join(CHECKPOINTS_DIR, f"checkpoint_epoch_{epoch}.pt")
                 torch.save(model.state_dict(), ckpt_path)
                 print(f"--> Saved Checkpoint: {ckpt_path}")

@@ -1,6 +1,7 @@
 """
 Pixel Art Palette & Quantization Module
 Ensures crisp, indexed color palette quantization for 64x64 pixel art sprites.
+Supports Signature 32-Color Palette, Game Boy 4-Green Palette, and NES 16-Color Arcade Palette.
 """
 import numpy as np
 from PIL import Image
@@ -41,12 +42,50 @@ SIGNATURE_PALETTE = np.array([
     [200, 70, 120, 255],   # 31: Magenta
 ], dtype=np.uint8)
 
+# Game Boy 4-Green Shade Retro Palette
+GAMEBOY_PALETTE = np.array([
+    [0, 0, 0, 0],          # 0: Transparent
+    [15, 56, 15, 255],     # 1: Darkest Green / Shadow
+    [48, 98, 48, 255],     # 2: Dark Green / Midtone
+    [139, 172, 15, 255],   # 3: Light Green / Base
+    [155, 188, 15, 255],   # 4: Brightest Green / Highlight
+], dtype=np.uint8)
+
+# NES 16-Color Classic Arcade Palette
+NES_PALETTE = np.array([
+    [0, 0, 0, 0],          # 0: Transparent
+    [124, 124, 124, 255],  # 1: Slate Gray
+    [0, 0, 188, 255],      # 2: Deep Blue
+    [68, 40, 188, 255],    # 3: Indigo / Purple
+    [148, 0, 132, 255],    # 4: Magenta / Pink
+    [168, 0, 32, 255],     # 5: Crimson Red
+    [168, 16, 0, 255],     # 6: Bright Orange-Red
+    [136, 20, 0, 255],     # 7: Dark Rust
+    [80, 48, 0, 255],      # 8: Earth Brown
+    [0, 120, 0, 255],      # 9: Forest Green
+    [0, 88, 0, 255],       # 10: Dark Green
+    [0, 64, 80, 255],      # 11: Dark Cyan
+    [252, 252, 252, 255],  # 12: Pure White
+    [248, 56, 0, 255],     # 13: Neon Red
+    [252, 160, 68, 255],   # 14: Peach / Skin Tone
+    [252, 224, 168, 255],  # 15: Warm Cream
+], dtype=np.uint8)
+
 
 def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_PALETTE) -> Image.Image:
     """
     Resizes and quantizes any PIL Image to a crisp 64x64 pixel art sprite
     using nearest neighbor sampling and exact distance-based color palette mapping.
     """
+    if isinstance(palette, str):
+        p_name = palette.lower()
+        if "gameboy" in p_name or "gb" in p_name:
+            palette = GAMEBOY_PALETTE
+        elif "nes" in p_name:
+            palette = NES_PALETTE
+        else:
+            palette = SIGNATURE_PALETTE
+
     if image.mode != "RGBA":
         image = image.convert("RGBA")
 
@@ -65,7 +104,6 @@ def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_P
     pal_rgb = palette[:, :3].astype(np.float32)
 
     # Calculate Euclidean distance between each pixel RGB and palette RGBs
-    # Dist shape: (H, W, Palette_Size)
     diff = rgb[:, :, np.newaxis, :] - pal_rgb[np.newaxis, np.newaxis, :, :]
     dist = np.sum(diff ** 2, axis=-1)
 

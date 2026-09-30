@@ -48,7 +48,8 @@ def main():
         onnx_path,
         input_names=["latent", "timestep", "condition"],
         output_names=["denoised_latent"],
-        dynamic_axes={"latent": {0: "batch_size"}}
+        dynamic_axes={"latent": {0: "batch_size"}},
+        dynamo=False
     )
 
     print(f"Poster Generation ONNX model successfully exported to: {onnx_path}")

@@ -96,7 +96,7 @@ def draw_outline(arr, color):
 
     arr[outline_mask] = color
 
-def generate_arcade_sprite(archetype: str = "knight", color_theme: str = "blue", pose: str = "idle", frame: int = 0) -> Image.Image:
+def generate_arcade_sprite(archetype: str = "knight", color_theme: str = "blue", pose: str = "idle", frame: int = 0, seed: int = 42) -> Image.Image:
     """
     Generates a high quality 64x64 NES/GBA/Arcade style pixel art character.
     """
@@ -105,16 +105,16 @@ def generate_arcade_sprite(archetype: str = "knight", color_theme: str = "blue",
 
     # Select base palette
     if "wiz" in arch or "mage" in arch:
-        pal = GBA_PALETTES["wizard"]
+        pal = GBA_PALETTES["wizard"].copy()
         arch_type = "wizard"
     elif "monst" in arch or "orc" in arch or "gob" in arch or "beast" in arch:
-        pal = GBA_PALETTES["monster"]
+        pal = GBA_PALETTES["monster"].copy()
         arch_type = "monster"
     elif "rob" in arch or "cyb" in arch or "mech" in arch:
-        pal = GBA_PALETTES["robot"]
+        pal = GBA_PALETTES["robot"].copy()
         arch_type = "robot"
     else:
-        pal = GBA_PALETTES["knight"]
+        pal = GBA_PALETTES["knight"].copy()
         arch_type = "knight"
 
     # Adjust color theme if specified

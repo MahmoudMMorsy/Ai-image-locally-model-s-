@@ -1,4 +1,7 @@
 __pycache__/
 *.pyc
-*.png
-*.gif
+*.txt
+dataset_training_images/
+models/nano_pixel_art_v1/dataset/
+models/nano_pixel_XL0_2/dataset/
+models/nano_pixel_3A_xl/dataset/

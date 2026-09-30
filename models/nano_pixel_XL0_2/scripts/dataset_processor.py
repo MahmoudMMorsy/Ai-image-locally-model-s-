@@ -1,7 +1,6 @@
 """
 nano_pixel_XL0_2 Universal Dataset Preprocessing Pipeline
-Slices raw sprite sheets into individual character frames, applies Nearest-Neighbor multi-scale scaling (64x64 & 128x128),
-dynamically classifies ANY entity/action without hardcoded restrictions, and generates matching .txt caption files.
+Slices raw sprite sheets into individual character frames and applies Nearest-Neighbor multi-scale scaling (64x64 & 128x128).
 """
 import os
 import re
@@ -13,12 +12,6 @@ PROC_64_DIR = "models/nano_pixel_XL0_2/dataset/processed_64x64"
 PROC_128_DIR = "models/nano_pixel_XL0_2/dataset/processed_128x128"
 
 def dynamic_classify_file(filename: str):
-    """
-    Dynamically extracts entity type and action state from filename without hardcoded lists.
-    Examples:
-    - 'cat_run_0.png' -> ('cat', 'run')
-    - 'dragon_fire_attack_2.png' -> ('dragon', 'fire_attack')
-    """
     base = os.path.splitext(os.path.basename(filename))[0].lower()
     clean_name = re.sub(r'[^a-z0-9_]', '_', base)
     parts = [p for p in clean_name.split('_') if p and not p.isdigit()]
@@ -42,6 +35,11 @@ def slice_and_process_dataset(raw_dir=RAW_DIR, out_64=PROC_64_DIR, out_128=PROC_
     if not os.path.exists(raw_dir):
         os.makedirs(raw_dir, exist_ok=True)
 
+    # Clean existing
+    for d in [out_64, out_128]:
+        for f in os.listdir(d):
+            os.remove(os.path.join(d, f))
+
     files = [f for f in os.listdir(raw_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))]
     print(f"[nano_pixel_XL0_2] Processing {len(files)} raw dataset files from {raw_dir}...")
 
@@ -64,18 +62,15 @@ def slice_and_process_dataset(raw_dir=RAW_DIR, out_64=PROC_64_DIR, out_128=PROC_
                         box = (x, y, x + tile_w, y + tile_h)
                         crop = im.crop(box)
                         arr = np.array(crop)
-                        if np.std(arr[:, :, :3]) > 8: # keep valid sprite tiles
+                        if np.std(arr[:, :, :3]) > 5:
                             crops.append(crop)
             else:
                 crops.append(im)
 
             for idx, crop in enumerate(crops):
-                base_name = f"{entity_type}_{action_state}_{idx}"
+                base_name = f"{entity_type}_{action_state}_{total_exported}_{idx}"
                 img_64_path = os.path.join(out_64, f"{base_name}.png")
-                txt_64_path = os.path.join(out_64, f"{base_name}.txt")
-
                 img_128_path = os.path.join(out_128, f"{base_name}.png")
-                txt_128_path = os.path.join(out_128, f"{base_name}.txt")
 
                 crop_64 = crop.resize((64, 64), Image.Resampling.NEAREST)
                 crop_128 = crop.resize((128, 128), Image.Resampling.NEAREST)
@@ -83,18 +78,12 @@ def slice_and_process_dataset(raw_dir=RAW_DIR, out_64=PROC_64_DIR, out_128=PROC_
                 crop_64.save(img_64_path)
                 crop_128.save(img_128_path)
 
-                caption = f"pixel art, 16-bit, gba style, {entity_type}, {action_state} movement, animation frame {idx}, full body, isolated background"
-                with open(txt_64_path, "w") as f:
-                    f.write(caption)
-                with open(txt_128_path, "w") as f:
-                    f.write(caption)
-
                 total_exported += 1
 
         except Exception as e:
             print(f"Error processing {file}: {e}")
 
-    print(f"[nano_pixel_XL0_2] Dataset Pipeline finished: Exported {total_exported} character items with captions.")
+    print(f"[nano_pixel_XL0_2] Dataset Pipeline finished: Exported {total_exported} character items.")
 
 if __name__ == "__main__":
     slice_and_process_dataset()

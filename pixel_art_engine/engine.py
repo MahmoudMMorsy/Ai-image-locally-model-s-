@@ -3,13 +3,17 @@ import numpy as np
 from PIL import Image
 from pixel_art_engine.clip_text import SimpleCLIPTextEncoder
 from pixel_art_engine.procedural import generate_arcade_sprite
-from pixel_art_engine.palette import quantize_to_pixel_art
+from pixel_art_engine.palette import quantize_to_pixel_art, SIGNATURE_PALETTE
+from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 
 class PixelSpriteEngine:
-    def __init__(self):
-        self.encoder = SimpleCLIPTextEncoder()
+    def __init__(self, device="cpu"):
+        self.device = torch.device(device)
+        self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+        self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
+        self.text_encoder = SimpleCLIPTextEncoder()
 
-    def generate_sprite(self, prompt="knight", seed=42):
+    def generate_sprite(self, prompt="knight", seed=42, palette=SIGNATURE_PALETTE):
         archetype = "knight"
         p_lower = str(prompt).lower()
         if "wizard" in p_lower or "mage" in p_lower:
@@ -19,7 +23,8 @@ class PixelSpriteEngine:
         elif "robot" in p_lower or "mech" in p_lower:
             archetype = "robot"
 
-        return generate_arcade_sprite(archetype=archetype, color_theme="red", pose="idle", frame=0)
+        img = generate_arcade_sprite(archetype=archetype, color_theme="red", pose="idle", frame=0, seed=seed)
+        return quantize_to_pixel_art(img, size=(64, 64), palette=palette)
 
     def create_sprite_sheet(self, frames):
         if not frames:
@@ -30,8 +35,8 @@ class PixelSpriteEngine:
             sheet.paste(frame, (i * width, 0))
         return sheet
 
-    def img2sprite(self, image):
+    def img2sprite(self, image, palette=SIGNATURE_PALETTE):
         if isinstance(image, str):
             image = Image.open(image).convert("RGBA")
-        image = image.resize((64, 64), Image.NEAREST)
-        return quantize_to_pixel_art(image)
+        image = image.resize((64, 64), Image.Resampling.NEAREST)
+        return quantize_to_pixel_art(image, size=(64, 64), palette=palette)
