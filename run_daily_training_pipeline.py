@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import zipfile
+import threading
 import concurrent.futures
 import torch
 import torch.nn as nn
@@ -20,6 +21,8 @@ from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 from pixel_art_engine.palette import GAMEBOY_PALETTE, NES_PALETTE, SIGNATURE_PALETTE, quantize_to_pixel_art
 from pixel_art_engine.engine import PixelSpriteEngine
 from pixel_art_engine.animation import SpriteAnimationGenerator
+
+ONNX_EXPORT_LOCK = threading.Lock()
 
 def prepare_dataset():
     dataset_dir = "dataset_training_images/clean"
@@ -91,20 +94,21 @@ def train_real_diffusion(image_paths):
     dummy_t = torch.tensor([[10.0]])
     dummy_cond = torch.randn(1, 128)
 
-    torch.onnx.export(
-        unet_real, (dummy_latent, dummy_t, dummy_cond), unet_onnx,
-        input_names=["latent", "timestep", "text_embed"],
-        output_names=["denoised_latent"],
-        dynamic_axes={"latent": {0: "batch_size"}},
-        dynamo=False
-    )
-    torch.onnx.export(
-        decoder_real, dummy_latent, decoder_onnx,
-        input_names=["latent"],
-        output_names=["rgb_image"],
-        dynamic_axes={"latent": {0: "batch_size"}},
-        dynamo=False
-    )
+    with ONNX_EXPORT_LOCK:
+        torch.onnx.export(
+            unet_real, (dummy_latent, dummy_t, dummy_cond), unet_onnx,
+            input_names=["latent", "timestep", "text_embed"],
+            output_names=["denoised_latent"],
+            dynamic_axes={"latent": {0: "batch_size"}},
+            dynamo=False
+        )
+        torch.onnx.export(
+            decoder_real, dummy_latent, decoder_onnx,
+            input_names=["latent"],
+            output_names=["rgb_image"],
+            dynamic_axes={"latent": {0: "batch_size"}},
+            dynamo=False
+        )
     torch.save(unet_real.state_dict(), os.path.join(weights_real_dir, "real_latent_unet.pt"))
     torch.save(decoder_real.state_dict(), os.path.join(weights_real_dir, "real_vae_decoder.pt"))
     print(f"  [ONNX Export] Exported '{unet_onnx}' & '{decoder_onnx}'.")
@@ -138,13 +142,14 @@ def train_arabic_poster(image_paths):
     os.makedirs(weights_poster_dir, exist_ok=True)
     poster_onnx = os.path.join(weights_poster_dir, "poster_generator_256.onnx")
     dummy_cond = torch.randn(1, 128)
-    torch.onnx.export(
-        poster_unet, (dummy_latent, dummy_t, dummy_cond), poster_onnx,
-        input_names=["latent", "timestep", "condition"],
-        output_names=["denoised_latent"],
-        dynamic_axes={"latent": {0: "batch_size"}},
-        dynamo=False
-    )
+    with ONNX_EXPORT_LOCK:
+        torch.onnx.export(
+            poster_unet, (dummy_latent, dummy_t, dummy_cond), poster_onnx,
+            input_names=["latent", "timestep", "condition"],
+            output_names=["denoised_latent"],
+            dynamic_axes={"latent": {0: "batch_size"}},
+            dynamo=False
+        )
     torch.save(arabic_embed.state_dict(), os.path.join(weights_poster_dir, "arabic_poster_text_model.pt"))
     print(f"  [ONNX Export] Exported '{poster_onnx}'.")
     return poster_onnx
@@ -170,13 +175,14 @@ def train_nanopixel_3a(image_paths):
     nanopixel_3a_onnx = os.path.join(weights_3a_dir, "nanopixel_3A_xl.onnx")
     dummy_64 = torch.randn(1, 4, 64, 64)
     dummy_t = torch.tensor([[10.0]])
-    torch.onnx.export(
-        nanopixel_3a, (dummy_64, dummy_t[:1]), nanopixel_3a_onnx,
-        input_names=["latent", "timestep"],
-        output_names=["noise_pred"],
-        dynamic_axes={"latent": {0: "batch_size"}},
-        dynamo=False
-    )
+    with ONNX_EXPORT_LOCK:
+        torch.onnx.export(
+            nanopixel_3a, (dummy_64, dummy_t[:1]), nanopixel_3a_onnx,
+            input_names=["latent", "timestep"],
+            output_names=["noise_pred"],
+            dynamic_axes={"latent": {0: "batch_size"}},
+            dynamo=False
+        )
     torch.save(nanopixel_3a.state_dict(), os.path.join(weights_3a_dir, "nanopixel_3A_xl.pt"))
     print(f"  [ONNX Export] Exported '{nanopixel_3a_onnx}'.")
     return nanopixel_3a_onnx
