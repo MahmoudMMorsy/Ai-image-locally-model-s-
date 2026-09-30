@@ -5,6 +5,7 @@ Ensures crisp, indexed color palette quantization for 64x64 pixel art sprites.
 import numpy as np
 from PIL import Image
 
+<<<<<<< HEAD
 # Game Boy classic 4-shade green palette
 GAMEBOY_PALETTE = np.array([
     [0, 0, 0, 0],           # 0: Transparent
@@ -32,6 +33,35 @@ NES_PALETTE = np.array([
     [216, 0, 204, 255],     # 13: Magenta
     [248, 120, 88, 255],    # 14: Light Salmon
     [252, 224, 168, 255],   # 15: Light Cream
+=======
+# Game Boy Palette (4 Shades of Green + Alpha/Transparency)
+GAMEBOY_PALETTE = np.array([
+    [0, 0, 0, 0],         # 0: Transparent
+    [15, 56, 15, 255],     # 1: Darkest Green
+    [48, 98, 48, 255],     # 2: Dark Green
+    [139, 172, 15, 255],   # 3: Light Green
+    [155, 188, 15, 255],   # 4: Lightest Green / Yellow Green
+], dtype=np.uint8)
+
+# NES Palette (16 Retro Colors + Alpha/Transparency)
+NES_PALETTE = np.array([
+    [0, 0, 0, 0],         # 0: Transparent
+    [0, 0, 0, 255],       # 1: Black
+    [255, 255, 255, 255], # 2: White
+    [124, 124, 124, 255], # 3: Gray
+    [252, 160, 68, 255],  # 4: Orange / Tan
+    [248, 56, 0, 255],    # 5: Red
+    [228, 0, 88, 255],    # 6: Magenta
+    [172, 16, 224, 255],  # 7: Purple
+    [0, 88, 248, 255],    # 8: Blue
+    [0, 168, 0, 255],     # 9: Green
+    [184, 248, 24, 255],  # 10: Lime Green
+    [252, 224, 168, 255], # 11: Peach / Skin Tone
+    [0, 168, 248, 255],   # 12: Cyan / Sky Blue
+    [248, 120, 88, 255],  # 13: Light Red / Pink
+    [248, 184, 0, 255],   # 14: Yellow / Gold
+    [80, 208, 32, 255],   # 15: Bright Green
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
 ], dtype=np.uint8)
 
 # Signature pixel art palette (Retro 32-color palette + Alpha/Transparency)
@@ -70,7 +100,10 @@ SIGNATURE_PALETTE = np.array([
     [200, 70, 120, 255],   # 31: Magenta
 ], dtype=np.uint8)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
 def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_PALETTE) -> Image.Image:
     """
     Resizes and quantizes any PIL Image to a crisp 64x64 pixel art sprite
@@ -79,6 +112,7 @@ def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_P
     if image.mode != "RGBA":
         image = image.convert("RGBA")
 
+<<<<<<< HEAD
     # 1. Resize to target (64x64) using Nearest Neighbor to keep pixel edges sharp
     resized = image.resize(size, Image.Resampling.NEAREST)
     arr = np.array(resized, dtype=np.float32) # (H, W, 4)
@@ -99,14 +133,32 @@ def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_P
     dist = np.sum(diff ** 2, axis=-1)
 
     # Ignore index 0 (transparent index) when matching solid colors
+=======
+    resized = image.resize(size, Image.Resampling.NEAREST)
+    arr = np.array(resized, dtype=np.float32)
+
+    alpha = arr[:, :, 3]
+    transparent_mask = alpha < 128
+
+    rgb = arr[:, :, :3]
+    pal_rgb = palette[:, :3].astype(np.float32)
+
+    diff = rgb[:, :, np.newaxis, :] - pal_rgb[np.newaxis, np.newaxis, :, :]
+    dist = np.sum(diff ** 2, axis=-1)
+
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
     dist[:, :, 0] = 1e9
 
     nearest_idx = np.argmin(dist, axis=-1)
 
+<<<<<<< HEAD
     # Apply palette colors
     quantized_arr = palette[nearest_idx].copy()
 
     # Restore transparency
+=======
+    quantized_arr = palette[nearest_idx].copy()
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
     quantized_arr[transparent_mask] = palette[0]
 
     return Image.fromarray(quantized_arr, mode="RGBA")

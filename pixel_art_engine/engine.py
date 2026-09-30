@@ -6,6 +6,7 @@ from pixel_art_engine.procedural import generate_arcade_sprite
 from pixel_art_engine.palette import quantize_to_pixel_art
 from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 
+<<<<<<< HEAD
 from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 
 class PixelSpriteEngine:
@@ -13,6 +14,13 @@ class PixelSpriteEngine:
         self.device = torch.device(device)
         self.clip_encoder = SimpleCLIPTextEncoder()
         self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+=======
+class PixelSpriteEngine:
+    def __init__(self, device="cpu"):
+        self.device = torch.device(device)
+        self.encoder = SimpleCLIPTextEncoder()
+        self.sprite_encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
         self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
 
     def generate_sprite(self, prompt="knight", seed=42):

@@ -37,7 +37,12 @@ def main():
         unet_onnx_path,
         input_names=["latent", "timestep", "text_embed"],
         output_names=["denoised_latent"],
+<<<<<<< HEAD
         dynamic_axes={"latent": {0: "batch_size"}}
+=======
+        dynamic_axes={"latent": {0: "batch_size"}},
+        dynamo=False
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
     )
     print(f"Exported UNet ONNX Model: {unet_onnx_path}")
 
@@ -49,7 +54,12 @@ def main():
         decoder_onnx_path,
         input_names=["latent"],
         output_names=["rgb_image"],
+<<<<<<< HEAD
         dynamic_axes={"latent": {0: "batch_size"}}
+=======
+        dynamic_axes={"latent": {0: "batch_size"}},
+        dynamo=False
+>>>>>>> 4d762eb (Update daily training pipeline scripts to target dataset_5k directory)
     )
     print(f"Exported VAE Decoder ONNX Model: {decoder_onnx_path}")
 
