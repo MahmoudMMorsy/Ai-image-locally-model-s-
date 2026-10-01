@@ -1,0 +1,137 @@
+{
+  "version": "1.1",
+  "updated": "2026-09-30T18:29:13.546332+00:00",
+  "current_coverage": {
+    "total_images": 2900,
+    "pixel_type_top": {
+      "cook_butcher": 522,
+      "knight_warrior": 410,
+      "archer": 326,
+      "girl_casual": 311,
+      "blob_slime": 283,
+      "bird_anthro": 145,
+      "monster_boss": 135,
+      "mage_caster": 133,
+      "cowboy": 100,
+      "boy_casual": 83,
+      "shopkeeper": 82,
+      "girl_dress": 64
+    },
+    "gender": {
+      "male": 1813,
+      "ambiguous": 593,
+      "female": 447,
+      "not_applicable": 47
+    },
+    "class_top": {
+      "npc_civilian": 1162,
+      "warrior": 453,
+      "unknown": 345,
+      "archer": 326,
+      "animal_pet": 243,
+      "mage": 133,
+      "boss": 104,
+      "rogue": 53,
+      "mech_unit": 44,
+      "support": 20
+    },
+    "weapon": {
+      "none_visible": 1787,
+      "melee_blade": 291,
+      "ranged_bow": 326,
+      "shield_tank": 168,
+      "magic_caster": 133,
+      "dual_wield": 135,
+      "tech_gadget": 44,
+      "unarmed": 16
+    },
+    "species": {
+      "human": 2156,
+      "animal_anthro": 243,
+      "humanoid": 307,
+      "monster_creature": 135,
+      "robot_android": 44,
+      "orc_goblin": 12,
+      "undead": 3
+    }
+  },
+  "missing_or_weak": [
+    {
+      "need": "female_archer",
+      "ar": "بنت رامية قوس",
+      "why": "رامي_قوس كله ذكور تقريباً",
+      "priority": "high",
+      "suggested_count": 40
+    },
+    {
+      "need": "female_warrior_knight",
+      "ar": "بنت فارسة",
+      "why": "فارس_محارب ذكور غالبية",
+      "priority": "high",
+      "suggested_count": 40
+    },
+    {
+      "need": "boy_casual_variety",
+      "ar": "أولاد عاديين بتنوع أكبر",
+      "why": "ولد_عادي 83 فقط",
+      "priority": "medium",
+      "suggested_count": 60
+    },
+    {
+      "need": "monkey_anthro",
+      "ar": "قرد مجسم بيكسل",
+      "why": "مش موجود كنوع مستقل",
+      "priority": "medium",
+      "suggested_count": 30
+    },
+    {
+      "need": "cat_dog_critter",
+      "ar": "قط/كلب صغير",
+      "why": "حيوان_صغير قليل",
+      "priority": "medium",
+      "suggested_count": 30
+    },
+    {
+      "need": "skeleton_variety",
+      "ar": "هياكل عظمية متنوعة",
+      "why": "3 صور فقط",
+      "priority": "low",
+      "suggested_count": 20
+    },
+    {
+      "need": "dragon_boss",
+      "ar": "تنين/بوس كبير",
+      "why": "وحش_بوس موجود بس مش تنين صريح",
+      "priority": "medium",
+      "suggested_count": 25
+    },
+    {
+      "need": "east_asian_fighter",
+      "ar": "مقاتل شرق آسيوي أكثر",
+      "why": "culture east_asian 193 فقط",
+      "priority": "medium",
+      "suggested_count": 40
+    },
+    {
+      "need": "healer_cleric_more",
+      "ar": "معالج/كاهن أكثر",
+      "why": "cleric 14 فقط",
+      "priority": "low",
+      "suggested_count": 20
+    },
+    {
+      "need": "dual_wield_female",
+      "ar": "بنت بسلاحين",
+      "why": "dual_wield غالباً وحوش ذكور",
+      "priority": "low",
+      "suggested_count": 15
+    }
+  ],
+  "subcategories_added_v1_3": [
+    "hair_style",
+    "pose_action",
+    "size_scale",
+    "color_scheme"
+  ],
+  "note_ar": "التصنيفات الفرعية الجديدة جاهزة في taxonomy — تقدر تبعتهالي مسمّاة أو أكمّل auto لاحقاً من الشكل"
+}
