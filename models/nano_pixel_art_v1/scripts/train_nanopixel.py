@@ -115,6 +115,21 @@ def train_nanopixel_v1():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"NanoPixel-v1 Training running on {device}")
 
+    dataset_dir = "dataset_training_images/clean"
+    images = []
+    if os.path.exists(dataset_dir):
+        files = [f for f in os.listdir(dataset_dir) if f.endswith(".png")][:30]
+        for f in files:
+            img_path = os.path.join(dataset_dir, f)
+            img = Image.open(img_path).convert("RGBA").resize((64, 64), Image.Resampling.NEAREST)
+            arr = np.array(img, dtype=np.float32) / 127.5 - 1.0
+            images.append(torch.from_numpy(arr).permute(2, 0, 1))
+
+    if images:
+        real_batch = torch.stack(images[:8]).to(device)
+    else:
+        real_batch = torch.randn(4, 4, 64, 64, device=device)
+
     model = NanoPixelUNet().to(device)
     charbonnier = CharbonnierLoss()
     palette_loss = PaletteConsistencyLoss()
@@ -122,21 +137,22 @@ def train_nanopixel_v1():
     optimizer = optim.AdamW(model.parameters(), lr=1e-4, weight_decay=1e-4)
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100, eta_min=1e-6)
 
-    # Train dummy step to verify convergence
-    for epoch in range(10):
-        x = torch.randn(4, 4, 64, 64, device=device)
-        t = torch.randint(0, 20, (4,), device=device).long()
-        cond = torch.randn(4, 64, device=device)
+    for epoch in range(1, 11):
+        b_sz = real_batch.size(0)
+        t = torch.randint(0, 20, (b_sz,), device=device).long()
+        cond = torch.randn(b_sz, 64, device=device)
+        noise = torch.randn_like(real_batch)
+        noisy_x = real_batch + 0.1 * noise
 
-        pred_noise = model(x, t, cond)
-        target_noise = torch.randn_like(pred_noise)
+        pred_noise = model(noisy_x, t, cond)
 
-        loss = charbonnier(pred_noise, target_noise) + 0.05 * palette_loss(pred_noise)
+        loss = charbonnier(pred_noise, noise) + 0.05 * palette_loss(pred_noise)
 
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
         scheduler.step()
+        print(f"Epoch [{epoch}/10] NanoPixel-v1 Loss: {loss.item():.4f}")
 
     os.makedirs("models/nano_pixel_art_v1/weights", exist_ok=True)
     weights_path = "models/nano_pixel_art_v1/weights/nanopixel_v1.pt"

@@ -3,11 +3,17 @@ import numpy as np
 from PIL import Image
 from pixel_art_engine.clip_text import SimpleCLIPTextEncoder
 from pixel_art_engine.procedural import generate_arcade_sprite
-from pixel_art_engine.palette import quantize_to_pixel_art
+from pixel_art_engine.palette import quantize_to_pixel_art, SIGNATURE_PALETTE, GAMEBOY_PALETTE, NES_PALETTE
+from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 
 class PixelSpriteEngine:
-    def __init__(self):
-        self.encoder = SimpleCLIPTextEncoder()
+    def __init__(self, device="cpu"):
+        self.device = torch.device(device)
+        self.clip_encoder = SimpleCLIPTextEncoder()
+        self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+        self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
+        self.encoder.eval()
+        self.generator.eval()
 
     def generate_sprite(self, prompt="knight", seed=42):
         archetype = "knight"
@@ -30,8 +36,8 @@ class PixelSpriteEngine:
             sheet.paste(frame, (i * width, 0))
         return sheet
 
-    def img2sprite(self, image):
+    def img2sprite(self, image, palette=SIGNATURE_PALETTE):
         if isinstance(image, str):
             image = Image.open(image).convert("RGBA")
         image = image.resize((64, 64), Image.NEAREST)
-        return quantize_to_pixel_art(image)
+        return quantize_to_pixel_art(image, size=(64, 64), palette=palette)

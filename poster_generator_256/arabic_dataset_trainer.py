@@ -2,6 +2,7 @@ import os
 import torch
 import torch.nn as nn
 import torch.optim as optim
+from poster_generator_256.export_poster_onnx import main as export_poster_onnx_main
 
 class ArabicPosterTextEmbedding(nn.Module):
     """
@@ -56,6 +57,8 @@ def train_arabic_poster_model():
     weight_path = os.path.join(weights_dir, "arabic_poster_text_model.pt")
     torch.save(model.state_dict(), weight_path)
     print(f"Arabic Poster Model weights saved to: {weight_path}")
+
+    export_poster_onnx_main()
 
 if __name__ == "__main__":
     train_arabic_poster_model()

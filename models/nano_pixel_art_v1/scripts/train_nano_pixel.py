@@ -30,7 +30,7 @@ def caption_to_prompt_embedding(caption: str, dim: int = 64) -> torch.Tensor:
     norm = torch.norm(vec)
     return vec / (norm + 1e-6)
 
-def train_pixel_space_diffusion(learning_rate: float = 1e-5, max_epochs: int = 100):
+def train_pixel_space_diffusion(learning_rate: float = 1e-5, max_epochs: int = 10):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"[NanoPixel-v1] Training in Pixel Space on {device} with LR={learning_rate}...")
 
@@ -43,7 +43,7 @@ def train_pixel_space_diffusion(learning_rate: float = 1e-5, max_epochs: int = 1
 
     # Load image-caption pairs
     dataset = []
-    for proc_dir in [PROC_64_DIR, PROC_128_DIR]:
+    for proc_dir in [PROC_64_DIR, PROC_128_DIR, "dataset_training_images/clean"]:
         if not os.path.exists(proc_dir):
             continue
         for f in os.listdir(proc_dir):
@@ -100,7 +100,7 @@ def train_pixel_space_diffusion(learning_rate: float = 1e-5, max_epochs: int = 1
                 batches += 1
 
             scheduler.step()
-            if epoch % 10 == 0:
+            if epoch % 2 == 0:
                 print(f"Epoch [{epoch}/{max_epochs}] Pixel-Space Loss: {total_loss/max(1, batches):.4f}")
 
     weights_dir = "models/nano_pixel_art_v1/weights"
