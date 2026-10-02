@@ -1,6 +1,7 @@
 """
 Pixel Art Palette & Quantization Module
 Ensures crisp, indexed color palette quantization for 64x64 pixel art sprites.
+Includes Signature 32-color palette, Game Boy 4-shade green palette, and NES 16-color retro palette.
 """
 import numpy as np
 from PIL import Image
@@ -39,6 +40,35 @@ SIGNATURE_PALETTE = np.array([
     [60, 80, 100, 255],    # 29: Steel Blue Dark
     [110, 140, 165, 255],  # 30: Steel Blue Light
     [200, 70, 120, 255],   # 31: Magenta
+], dtype=np.uint8)
+
+# Game Boy Original 4-Green Shade Palette
+GAMEBOY_PALETTE = np.array([
+    [0, 0, 0, 0],         # Transparent
+    [15, 56, 15, 255],     # Darkest Green (Outline)
+    [48, 98, 48, 255],     # Dark Green
+    [139, 172, 15, 255],   # Light Green
+    [155, 188, 15, 255],   # Lightest Green (Highlight)
+], dtype=np.uint8)
+
+# NES Nintendo Entertainment System 16-Color Palette
+NES_PALETTE = np.array([
+    [0, 0, 0, 0],         # Transparent
+    [0, 0, 0, 255],       # Black
+    [255, 255, 255, 255], # White
+    [124, 124, 124, 255], # Gray
+    [252, 160, 68, 255],  # Orange
+    [248, 56, 0, 255],    # Red
+    [228, 0, 88, 255],    # Magenta
+    [172, 0, 40, 255],    # Crimson
+    [0, 168, 0, 255],     # Green
+    [0, 168, 68, 255],    # Teal Green
+    [0, 120, 248, 255],   # Royal Blue
+    [0, 88, 248, 255],    # Deep Blue
+    [104, 68, 252, 255],  # Purple
+    [216, 0, 204, 255],   # Violet
+    [248, 184, 0, 255],   # Gold Yellow
+    [252, 224, 168, 255], # Peach Skin
 ], dtype=np.uint8)
 
 
