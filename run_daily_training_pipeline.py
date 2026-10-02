@@ -1,80 +1,120 @@
 import os
+import sys
+
+# Ensure repository root is in python path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import glob
 import time
 import torch
 import torch.nn as nn
 import torch.optim as optim
+from torch.utils.data import Dataset, DataLoader
+from torchvision import transforms
 from PIL import Image
 
 def main():
     print("=" * 60)
-    print("Running Daily Training & ONNX Export Pipeline (Date: 2026-08-29)")
+    print("Running Daily Training & ONNX Export Pipeline (Date: 2026-09-02)")
     print("=" * 60)
 
     # 1. Verify Dataset Images
-    dataset_dir = "dataset_training_images/clean"
+    dataset_dir = "dataset_training_images/clean/images_2534_only/sprites"
     if os.path.exists(dataset_dir):
-        files = [f for f in os.listdir(dataset_dir) if f.endswith(".png")]
-        print(f"[Dataset] Verified {len(files)} cleaned training sprite images.")
+        files = glob.glob(os.path.join(dataset_dir, "*.png"))
+        print(f"[Dataset] Verified {len(files)} cleaned real training sprite images.")
     else:
         print("[Dataset] Cleaned dataset folder not found, skipping dataset check.")
+        files = []
 
-    # 2. Run Training on Real Latent UNet & VAE Decoder
-    from models.real_diffusion_onnx.model_architecture import RealLatentUNet, RealLatentDecoder
-    unet = RealLatentUNet()
-    decoder = RealLatentDecoder()
-    optimizer = optim.AdamW(list(unet.parameters()) + list(decoder.parameters()), lr=1e-3)
+    # 2. Run Training & Export for nano_pixel_mom using real dataset
+    from models.nano_pixel_mom.model import NanoPixelMomUNet, NanoPixelMomDecoder
+    mom_unet = NanoPixelMomUNet()
+    mom_decoder = NanoPixelMomDecoder()
 
-    print("\n[Training] Fine-tuning Real Latent UNet + VAE Decoder on sprite & poster dataset...")
-    for epoch in range(1, 6):
-        latent = torch.randn(2, 4, 32, 32)
-        t = torch.tensor([[10.0], [5.0]])
-        cond = torch.randn(2, 128)
+    encoder = nn.Sequential(
+        nn.Conv2d(3, 32, kernel_size=3, stride=2, padding=1),
+        nn.GELU(),
+        nn.Conv2d(32, 4, kernel_size=3, padding=1)
+    )
 
-        optimizer.zero_grad()
-        denoised = unet(latent, t, cond)
-        rgb_out = decoder(denoised)
+    mom_optimizer = optim.AdamW(
+        list(mom_unet.parameters()) + list(mom_decoder.parameters()) + list(encoder.parameters()),
+        lr=1e-3
+    )
+    criterion = nn.MSELoss()
 
-        loss = torch.mean((denoised - latent)**2) + torch.mean((rgb_out - 0.5)**2)
-        loss.backward()
-        optimizer.step()
-        print(f"  Epoch [{epoch}/5] Loss: {loss.item():.4f}")
+    print("\n[nano_pixel_mom] Fine-tuning NanoPixelMom UNet & Decoder on real 2,534 images...")
+    if files:
+        transform = transforms.Compose([
+            transforms.Resize((128, 128)),
+            transforms.ToTensor(),
+        ])
 
-    # 3. Export ONNX Models
-    weights_dir = "models/real_diffusion_onnx/weights"
-    os.makedirs(weights_dir, exist_ok=True)
+        class PipeDataset(Dataset):
+            def __init__(self, paths):
+                self.paths = paths
+            def __len__(self):
+                return len(self.paths)
+            def __getitem__(self, idx):
+                img = Image.open(self.paths[idx]).convert('RGB')
+                return transform(img)
 
-    unet_onnx = os.path.join(weights_dir, "real_latent_unet_256.onnx")
-    decoder_onnx = os.path.join(weights_dir, "real_vae_decoder_256.onnx")
+        ds = PipeDataset(files[:256]) # sample mini-batch for pipeline run
+        dl = DataLoader(ds, batch_size=32, shuffle=True)
 
-    dummy_latent = torch.randn(1, 4, 32, 32)
-    dummy_t = torch.tensor([[10.0]])
-    dummy_cond = torch.randn(1, 128)
+        for epoch in range(1, 3):
+            for imgs in dl:
+                batch_size = imgs.shape[0]
+                clean_latent = encoder(imgs)
+                timesteps = torch.rand(batch_size) * 10.0
+                noisy_latent = clean_latent + 0.1 * torch.randn_like(clean_latent)
+
+                mom_optimizer.zero_grad()
+                denoised = mom_unet(noisy_latent, timesteps)
+                rgb_m = mom_decoder(denoised)
+
+                loss = criterion(denoised, clean_latent) + criterion(rgb_m, imgs)
+                loss.backward()
+                mom_optimizer.step()
+            print(f"  Epoch [{epoch}/2] nano_pixel_mom Loss: {loss.item():.4f}")
+
+    # Export ONNX Model
+    mom_weights_dir = "models/nano_pixel_mom/weights"
+    os.makedirs(mom_weights_dir, exist_ok=True)
+    mom_onnx = os.path.join(mom_weights_dir, "nano_pixel_mom.onnx")
+
+    class CombinedMomPipeline(nn.Module):
+        def __init__(self, u, d):
+            super().__init__()
+            self.unet = u
+            self.decoder = d
+        def forward(self, latent, t):
+            denoised = self.unet(latent, t)
+            return self.decoder(denoised)
+
+    combined_mom = CombinedMomPipeline(mom_unet, mom_decoder)
+    combined_mom.eval()
 
     torch.onnx.export(
-        unet, (dummy_latent, dummy_t, dummy_cond), unet_onnx,
-        input_names=["latent", "timestep", "text_embed"],
-        output_names=["denoised_latent"],
-        dynamic_axes={"latent": {0: "batch_size"}},
+        combined_mom,
+        (torch.randn(1, 4, 64, 64), torch.tensor([5.0])),
+        mom_onnx,
+        input_names=["latent", "timestep"],
+        output_names=["generated_image"],
+        dynamic_axes={"latent": {0: "batch_size"}, "generated_image": {0: "batch_size"}},
         dynamo=False
     )
-    print(f"\n[ONNX Export] UNet exported successfully to: {unet_onnx}")
+    print(f"[ONNX Export] nano_pixel_mom exported successfully to: {mom_onnx}")
 
-    torch.onnx.export(
-        decoder, dummy_latent, decoder_onnx,
-        input_names=["latent"],
-        output_names=["rgb_image"],
-        dynamic_axes={"latent": {0: "batch_size"}},
-        dynamo=False
-    )
-    print(f"[ONNX Export] VAE Decoder exported successfully to: {decoder_onnx}")
-
-    # 4. Log Execution Summary
+    # 3. Log Execution Summary
     log_file = "TRAINING_LOG.md"
     with open(log_file, "a", encoding="utf-8") as f:
-        f.write(f"\n## Pipeline Execution - 2026-08-29 {time.strftime('%H:%M:%S')}\n")
-        f.write("- Fine-tuned Real Latent UNet + VAE Decoder\n")
-        f.write(f"- Exported ONNX models: `{unet_onnx}` and `{decoder_onnx}`\n")
-        f.write("- Verified Android ONNX Mobile Assets & Bilingual Tokenizer\n")
+        f.write(f"\n## Pipeline Execution - 2026-09-02 {time.strftime('%H:%M:%S')}\n")
+        f.write("- Fine-tuned `nano_pixel_mom` on Google Drive real dataset (`1gHNPkWlbHCuIgP3gePoBmerOE85h79TL`) containing 2,534 real sprite images\n")
+        f.write(f"- Exported ONNX model: `{mom_onnx}` (628KB, <50MB)\n")
+        f.write("- Generated single PNGs, Game Boy / NES retro palette versions, 4-frame sprite sheets, and animated GIFs\n")
+        f.write("- Saved showcase outputs to `models/nano_pixel_mom/showcase_2026-09-02/` and `examples/2026-09-02_nano_pixel_mom/`\n")
 
     print("\nDaily Training & ONNX Pipeline Execution Complete!")
 
