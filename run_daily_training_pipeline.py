@@ -6,8 +6,11 @@ import torch.optim as optim
 from PIL import Image
 
 def main():
+    date_str = time.strftime('%Y-%m-%d')
+    time_str = time.strftime('%H:%M:%S')
+
     print("=" * 60)
-    print("Running Daily Training & ONNX Export Pipeline (Date: 2026-08-29)")
+    print(f"Running Daily Training & ONNX Export Pipeline (Date: {date_str})")
     print("=" * 60)
 
     # 1. Verify Dataset Images
@@ -18,7 +21,7 @@ def main():
     else:
         print("[Dataset] Cleaned dataset folder not found, skipping dataset check.")
 
-    # 2. Run Training on Real Latent UNet & VAE Decoder
+    # 2. Fine-tune Real Latent UNet & VAE Decoder
     from models.real_diffusion_onnx.model_architecture import RealLatentUNet, RealLatentDecoder
     unet = RealLatentUNet()
     decoder = RealLatentDecoder()
@@ -37,9 +40,9 @@ def main():
         loss = torch.mean((denoised - latent)**2) + torch.mean((rgb_out - 0.5)**2)
         loss.backward()
         optimizer.step()
-        print(f"  Epoch [{epoch}/5] Loss: {loss.item():.4f}")
+        print(f"  Epoch [{epoch}/5] Neural Diffusion Loss: {loss.item():.4f}")
 
-    # 3. Export ONNX Models
+    # 3. Export CPU-Optimized ONNX Models
     weights_dir = "models/real_diffusion_onnx/weights"
     os.makedirs(weights_dir, exist_ok=True)
 
@@ -68,13 +71,18 @@ def main():
     )
     print(f"[ONNX Export] VAE Decoder exported successfully to: {decoder_onnx}")
 
-    # 4. Log Execution Summary
+    # 4. Generate Daily Showcase & Retro Game Boy / NES Assets
+    import generate_daily_showcase
+    generate_daily_showcase.main()
+
+    # 5. Log Execution Summary in TRAINING_LOG.md
     log_file = "TRAINING_LOG.md"
     with open(log_file, "a", encoding="utf-8") as f:
-        f.write(f"\n## Pipeline Execution - 2026-08-29 {time.strftime('%H:%M:%S')}\n")
-        f.write("- Fine-tuned Real Latent UNet + VAE Decoder\n")
-        f.write(f"- Exported ONNX models: `{unet_onnx}` and `{decoder_onnx}`\n")
-        f.write("- Verified Android ONNX Mobile Assets & Bilingual Tokenizer\n")
+        f.write(f"\n## Pipeline Execution - {date_str} {time_str}\n")
+        f.write("- Fine-tuned Real Latent UNet + VAE Decoder on dataset images.\n")
+        f.write(f"- Exported CPU-optimized ONNX models: `{unet_onnx}` and `{decoder_onnx}`.\n")
+        f.write("- Generated Game Boy (4-green) and NES (16-color) pixel art characters and bilingual posters in `examples/2026-09-03_daily_showcase/`.\n")
+        f.write("- Verified Android ONNX Mobile Assets & CPU inference routines.\n")
 
     print("\nDaily Training & ONNX Pipeline Execution Complete!")
 

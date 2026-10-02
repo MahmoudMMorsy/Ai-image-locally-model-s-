@@ -1,9 +1,38 @@
 """
 Pixel Art Palette & Quantization Module
-Ensures crisp, indexed color palette quantization for 64x64 pixel art sprites.
+Ensures crisp, indexed color palette quantization for pixel art sprites and retro showcases.
 """
 import numpy as np
 from PIL import Image
+
+# Game Boy 4-color palette (classic green shades)
+GAMEBOY_PALETTE = np.array([
+    [0, 0, 0, 0],         # 0: Transparent
+    [15, 56, 15, 255],    # 1: Darkest Green
+    [48, 98, 48, 255],    # 2: Dark Green
+    [139, 172, 15, 255],  # 3: Light Green
+    [155, 188, 15, 255],  # 4: Lightest Green
+], dtype=np.uint8)
+
+# NES 16-color retro palette
+NES_PALETTE = np.array([
+    [0, 0, 0, 0],         # 0: Transparent
+    [0, 0, 0, 255],       # 1: Black
+    [255, 255, 255, 255], # 2: White
+    [124, 124, 124, 255], # 3: Medium Gray
+    [188, 188, 188, 255], # 4: Light Gray
+    [252, 0, 0, 255],     # 5: Red
+    [248, 56, 0, 255],    # 6: Orange-Red
+    [252, 160, 68, 255],  # 7: Peach / Orange
+    [248, 184, 0, 255],   # 8: Yellow
+    [0, 168, 0, 255],     # 9: Green
+    [0, 120, 248, 255],   # 10: Bright Blue
+    [0, 0, 188, 255],     # 11: Dark Blue
+    [104, 68, 252, 255],  # 12: Purple
+    [216, 0, 204, 255],   # 13: Magenta
+    [112, 40, 0, 255],    # 14: Dark Brown
+    [248, 120, 88, 255],  # 15: Light Salmon / Skin
+], dtype=np.uint8)
 
 # Signature pixel art palette (Retro 32-color palette + Alpha/Transparency)
 SIGNATURE_PALETTE = np.array([
@@ -42,42 +71,42 @@ SIGNATURE_PALETTE = np.array([
 ], dtype=np.uint8)
 
 
+def quantize_palette(image: Image.Image, palette: np.ndarray = SIGNATURE_PALETTE) -> Image.Image:
+    """
+    Quantizes a PIL Image to a specific palette array.
+    """
+    if image.mode != "RGBA":
+        image = image.convert("RGBA")
+
+    arr = np.array(image, dtype=np.float32) # (H, W, 4)
+    alpha = arr[:, :, 3]
+    transparent_mask = alpha < 128
+
+    rgb = arr[:, :, :3]
+    pal_rgb = palette[:, :3].astype(np.float32)
+
+    diff = rgb[:, :, np.newaxis, :] - pal_rgb[np.newaxis, np.newaxis, :, :]
+    dist = np.sum(diff ** 2, axis=-1)
+
+    # If palette has transparent index 0
+    if palette.shape[0] > 1 and palette[0, 3] == 0:
+        dist[:, :, 0] = 1e9
+
+    nearest_idx = np.argmin(dist, axis=-1)
+    quantized_arr = palette[nearest_idx].copy()
+
+    if palette.shape[0] > 1 and palette[0, 3] == 0:
+        quantized_arr[transparent_mask] = palette[0]
+
+    return Image.fromarray(quantized_arr, mode="RGBA")
+
 def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_PALETTE) -> Image.Image:
     """
-    Resizes and quantizes any PIL Image to a crisp 64x64 pixel art sprite
+    Resizes and quantizes any PIL Image to a crisp pixel art sprite
     using nearest neighbor sampling and exact distance-based color palette mapping.
     """
     if image.mode != "RGBA":
         image = image.convert("RGBA")
 
-    # 1. Resize to target (64x64) using Nearest Neighbor to keep pixel edges sharp
     resized = image.resize(size, Image.Resampling.NEAREST)
-    arr = np.array(resized, dtype=np.float32) # (H, W, 4)
-
-    # Separate alpha channel mask (alpha < 128 is fully transparent)
-    alpha = arr[:, :, 3]
-    transparent_mask = alpha < 128
-
-    # Extract RGB values
-    rgb = arr[:, :, :3]
-
-    # Palette RGB & Alpha
-    pal_rgb = palette[:, :3].astype(np.float32)
-
-    # Calculate Euclidean distance between each pixel RGB and palette RGBs
-    # Dist shape: (H, W, Palette_Size)
-    diff = rgb[:, :, np.newaxis, :] - pal_rgb[np.newaxis, np.newaxis, :, :]
-    dist = np.sum(diff ** 2, axis=-1)
-
-    # Ignore index 0 (transparent index) when matching solid colors
-    dist[:, :, 0] = 1e9
-
-    nearest_idx = np.argmin(dist, axis=-1)
-
-    # Apply palette colors
-    quantized_arr = palette[nearest_idx].copy()
-
-    # Restore transparency
-    quantized_arr[transparent_mask] = palette[0]
-
-    return Image.fromarray(quantized_arr, mode="RGBA")
+    return quantize_palette(resized, palette)
