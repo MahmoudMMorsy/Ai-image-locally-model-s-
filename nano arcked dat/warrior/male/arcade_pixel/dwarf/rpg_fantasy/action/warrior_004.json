@@ -1,0 +1,21 @@
+{
+  "file": "warrior_004.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "dwarf",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "red",
+    "silver",
+    "black"
+  ],
+  "tags": [
+    "sword",
+    "armor",
+    "shield"
+  ],
+  "resolution": "64x64",
+  "notes": "Dataset sample for warrior"
+}
