@@ -1,0 +1,21 @@
+{
+  "file": "robot_004.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "idle",
+  "colors": [
+    "silver",
+    "blue",
+    "glowing_eyes"
+  ],
+  "tags": [
+    "laser",
+    "metallic",
+    "mecha"
+  ],
+  "resolution": "32x32",
+  "notes": "Dataset sample for robot"
+}
