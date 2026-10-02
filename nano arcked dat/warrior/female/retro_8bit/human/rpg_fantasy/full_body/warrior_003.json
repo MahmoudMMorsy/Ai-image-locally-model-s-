@@ -1,0 +1,21 @@
+{
+  "file": "warrior_003.png",
+  "type": "warrior",
+  "gender": "female",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "silver",
+    "black"
+  ],
+  "tags": [
+    "sword",
+    "armor",
+    "shield"
+  ],
+  "resolution": "32x32",
+  "notes": "Dataset sample for warrior"
+}
