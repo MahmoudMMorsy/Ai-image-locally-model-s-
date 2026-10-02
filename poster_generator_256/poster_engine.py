@@ -19,13 +19,16 @@ class BilingualPosterEngine:
             return get_display(reshaped)
         return text
 
-    def generate_poster(self, title_ar="ملصق جديد", title_en="NEW POSTER", category="Cyberpunk", width=256, height=256, seed=42):
+    def generate_poster(self, title_ar="ملصق جديد", title_en="NEW POSTER", category="Cyberpunk", character_img=None, theme_color=None, width=256, height=256, seed=42):
         torch.manual_seed(seed)
         img = Image.new('RGB', (width, height), (15, 15, 25))
         draw = ImageDraw.Draw(img)
 
         # Background gradient & theme colors
-        if category.lower() == "cyberpunk":
+        if theme_color is not None:
+            c1, c2 = theme_color, (theme_color[0] + 50, theme_color[1] + 50, theme_color[2] + 50)
+            accent = (0, 240, 255)
+        elif category.lower() == "cyberpunk":
             c1, c2 = (20, 10, 45), (240, 20, 140)
             accent = (0, 240, 255)
         elif category.lower() == "cinema":
@@ -37,19 +40,25 @@ class BilingualPosterEngine:
 
         # Draw vertical gradient
         for y in range(height):
-            r = int(c1[0] + (c2[0] - c1[0]) * (y / height))
-            g = int(c1[1] + (c2[1] - c1[1]) * (y / height))
-            b = int(c1[2] + (c2[2] - c1[2]) * (y / height))
+            r = int(c1[0] + (c2[0] - c1[0]) * (y / height)) % 256
+            g = int(c1[1] + (c2[1] - c1[1]) * (y / height)) % 256
+            b = int(c1[2] + (c2[2] - c1[2]) * (y / height)) % 256
             draw.line([(0, y), (width, y)], fill=(r, g, b))
 
         # Graphic Poster Frame
         draw.rectangle([12, 12, width - 13, height - 13], outline=accent, width=2)
         draw.rectangle([16, 16, width - 17, height - 17], outline=(255, 255, 255, 100), width=1)
 
-        # Poster Central Graphic Symbol
+        # Poster Central Graphic / Character
         cx, cy = width // 2, height // 2 - 10
-        draw.ellipse([cx - 45, cy - 45, cx + 45, cy + 45], outline=accent, width=3)
-        draw.polygon([(cx, cy - 30), (cx + 30, cy + 25), (cx - 30, cy + 25)], outline=(255, 255, 255), fill=c1)
+        if character_img is not None:
+            char_scaled = character_img.resize((110, 110), Image.Resampling.NEAREST)
+            img.paste(char_scaled, (cx - 55, cy - 55), char_scaled if char_scaled.mode == "RGBA" else None)
+            draw = ImageDraw.Draw(img)
+            draw.rectangle([cx - 57, cy - 57, cx + 57, cy + 57], outline=accent, width=2)
+        else:
+            draw.ellipse([cx - 45, cy - 45, cx + 45, cy + 45], outline=accent, width=3)
+            draw.polygon([(cx, cy - 30), (cx + 30, cy + 25), (cx - 30, cy + 25)], outline=(255, 255, 255), fill=c1)
 
         # Render Arabic Title (Top / Center)
         ar_text = self._render_text(title_ar, is_arabic=True)
