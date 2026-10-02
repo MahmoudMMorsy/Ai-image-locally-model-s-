@@ -1,0 +1,21 @@
+{
+  "file": "mage_001.png",
+  "type": "mage",
+  "gender": "female",
+  "race": "dark_elf",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "blue",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "staff",
+    "robe",
+    "magic_circle"
+  ],
+  "resolution": "64x64",
+  "notes": "Dataset sample for mage"
+}
