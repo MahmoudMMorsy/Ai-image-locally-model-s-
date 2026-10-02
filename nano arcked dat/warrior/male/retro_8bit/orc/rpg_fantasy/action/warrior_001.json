@@ -1,0 +1,21 @@
+{
+  "file": "warrior_001.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "orc",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "red",
+    "silver",
+    "black"
+  ],
+  "tags": [
+    "sword",
+    "armor",
+    "shield"
+  ],
+  "resolution": "128x128",
+  "notes": "Dataset sample for warrior"
+}
