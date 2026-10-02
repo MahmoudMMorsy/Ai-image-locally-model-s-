@@ -9,6 +9,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 from PIL import Image
+from pathlib import Path
 
 export_lock = threading.Lock()
 
@@ -23,12 +24,18 @@ from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 from pixel_art_engine.palette import GAMEBOY_PALETTE, NES_PALETTE, SIGNATURE_PALETTE, quantize_to_pixel_art
 from pixel_art_engine.engine import PixelSpriteEngine
 from pixel_art_engine.animation import SpriteAnimationGenerator
+from models.nano_arcade_01.nano_arcade_engine import NanoArcadeGenerator
 
-def prepare_dataset():
-    dataset_dir = "dataset_training_images/clean"
-    if not os.path.exists(dataset_dir) or len([f for f in os.listdir(dataset_dir) if f.endswith(".png")]) == 0:
+def prepare_full_dataset():
+    """Scans and collects all training image paths across all folders in the repository."""
+    dataset_dirs = ["dataset_training_images", "mm.trine", "All-data-Trine"]
+    image_extensions = {".png", ".jpg", ".jpeg", ".webp"}
+
+    # Extract dataset_clean.zip if clean folder is empty
+    clean_dir = "dataset_training_images/clean"
+    if not os.path.exists(clean_dir) or len([f for f in os.listdir(clean_dir) if f.endswith(".png")]) == 0:
         print("[Dataset] Extracting cleaned training dataset from dataset_clean.zip...")
-        os.makedirs(dataset_dir, exist_ok=True)
+        os.makedirs(clean_dir, exist_ok=True)
         if os.path.exists("dataset_clean.zip"):
             with zipfile.ZipFile("dataset_clean.zip", 'r') as zip_ref:
                 zip_ref.extractall("dataset_training_images/clean_tmp")
@@ -37,13 +44,20 @@ def prepare_dataset():
             source_folder = extracted_sub if os.path.exists(extracted_sub) else "dataset_training_images/clean_tmp"
             for fname in os.listdir(source_folder):
                 if fname.endswith(".png"):
-                    os.rename(os.path.join(source_folder, fname), os.path.join(dataset_dir, fname))
+                    os.rename(os.path.join(source_folder, fname), os.path.join(clean_dir, fname))
             import shutil
             shutil.rmtree("dataset_training_images/clean_tmp", ignore_errors=True)
 
-    files = [f for f in os.listdir(dataset_dir) if f.endswith(".png")] if os.path.exists(dataset_dir) else []
-    print(f"[Dataset] Verified {len(files)} clean training images in '{dataset_dir}'.")
-    return [os.path.join(dataset_dir, f) for f in files]
+    all_image_paths = []
+    for d in dataset_dirs:
+        if os.path.exists(d):
+            for root, _, files in os.walk(d):
+                for f in files:
+                    if Path(f).suffix.lower() in image_extensions:
+                        all_image_paths.append(os.path.join(root, f))
+
+    print(f"[Dataset] Verified {len(all_image_paths)} total training images across all dataset directories.")
+    return all_image_paths
 
 def load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4):
     if not image_paths:
@@ -56,15 +70,20 @@ def load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4)
     batch_tensors = []
     for path in chosen_paths:
         mode = "RGBA" if channels == 4 else "RGB"
-        img = Image.open(path).convert(mode).resize(target_size)
-        arr = np.array(img, dtype=np.float32) / 255.0
-        arr = np.transpose(arr, (2, 0, 1))
-        batch_tensors.append(torch.tensor(arr))
+        try:
+            img = Image.open(path).convert(mode).resize(target_size)
+            arr = np.array(img, dtype=np.float32) / 255.0
+            arr = np.transpose(arr, (2, 0, 1))
+            batch_tensors.append(torch.tensor(arr))
+        except Exception:
+            # Fallback to zero tensor on unreadable image
+            shape = (4, target_size[0], target_size[1]) if channels == 4 else (3, target_size[0], target_size[1])
+            batch_tensors.append(torch.zeros(shape))
 
     return torch.stack(batch_tensors, dim=0)
 
 def train_real_diffusion(image_paths):
-    print("\n[Parallel Task 1/4] Fine-tuning Real Latent UNet & VAE Decoder on real sprite images...")
+    print("\n[Parallel Task 1/5] Fine-tuning Real Latent UNet & VAE Decoder on full multi-folder dataset...")
     unet_real = RealLatentUNet()
     decoder_real = RealLatentDecoder()
     opt_real = optim.AdamW(list(unet_real.parameters()) + list(decoder_real.parameters()), lr=1e-3)
@@ -115,7 +134,7 @@ def train_real_diffusion(image_paths):
     return unet_onnx, decoder_onnx
 
 def train_arabic_poster(image_paths):
-    print("\n[Parallel Task 2/4] Fine-tuning Arabic Text Embedding & Poster UNet 256...")
+    print("\n[Parallel Task 2/5] Fine-tuning Arabic Text Embedding & Poster UNet 256...")
     arabic_embed = ArabicPosterTextEmbedding()
     poster_unet = PosterLatentUNet256()
     opt_poster = optim.AdamW(list(arabic_embed.parameters()) + list(poster_unet.parameters()), lr=1e-3)
@@ -155,7 +174,7 @@ def train_arabic_poster(image_paths):
     return poster_onnx
 
 def train_nanopixel_3a(image_paths):
-    print("\n[Parallel Task 3/4] Fine-tuning NanoPixel 3A XL Model...")
+    print("\n[Parallel Task 3/5] Fine-tuning NanoPixel 3A XL Model on full multi-folder dataset...")
     nanopixel_3a = NanoPixel3AXLUNet()
     opt_3a = optim.AdamW(nanopixel_3a.parameters(), lr=1e-4)
 
@@ -188,7 +207,7 @@ def train_nanopixel_3a(image_paths):
     return nanopixel_3a_onnx
 
 def train_pixel_art_engine(image_paths):
-    print("\n[Parallel Task 4/4] Fine-tuning Pixel Art Engine Encoder & Generator on real dataset sprites...")
+    print("\n[Parallel Task 4/5] Fine-tuning Pixel Art Engine Encoder & Generator on full multi-folder dataset...")
     px_engine = PixelSpriteEngine(device="cpu")
     opt_px = optim.AdamW(list(px_engine.encoder.parameters()) + list(px_engine.generator.parameters()), lr=1e-3)
 
@@ -208,6 +227,15 @@ def train_pixel_art_engine(image_paths):
         "generator": px_engine.generator.state_dict()
     }, "pixel_art_engine/pixel_diffusion_weights.pt")
     return px_engine
+
+def train_nano_arcade(image_paths):
+    print("\n[Parallel Task 5/5] Fine-tuning Nano Arcade 01 UNet & Latent Generator on full multi-folder dataset...")
+    gen = NanoArcadeGenerator(model_dir="models/nano_arcade_01")
+    gen.fine_tune_full_dataset(image_paths=image_paths, epochs=2)
+    with export_lock:
+        onnx_file = gen.export_onnx()
+    print(f"  [Nano Arcade 01] Exported ONNX to '{onnx_file}'.")
+    return onnx_file, gen
 
 def generate_archetype_assets(item):
     name, title_ar, title_en, showcase_dir, px_engine = item
@@ -258,20 +286,22 @@ def main():
     print(f"Running Repository Multi-Model Daily Pipeline with Parallel Execution ({date_str})")
     print("=" * 70)
 
-    image_paths = prepare_dataset()
+    image_paths = prepare_full_dataset()
 
     # Parallel Training Across Specialized Models
     print("\n[Parallel Training Phase] Starting parallel fine-tuning for all specialized model architectures...")
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         f1 = executor.submit(train_real_diffusion, image_paths)
         f2 = executor.submit(train_arabic_poster, image_paths)
         f3 = executor.submit(train_nanopixel_3a, image_paths)
         f4 = executor.submit(train_pixel_art_engine, image_paths)
+        f5 = executor.submit(train_nano_arcade, image_paths)
 
         unet_onnx, decoder_onnx = f1.result()
         poster_onnx = f2.result()
         nanopixel_3a_onnx = f3.result()
         px_engine = f4.result()
+        nano_arcade_onnx, nano_arcade_gen = f5.result()
 
     # Parallel Daily Showcase Asset Generation
     showcase_dir = f"examples/{date_str}_comprehensive_real_training"
@@ -291,6 +321,12 @@ def main():
         for res in results:
             showcase_files.extend(res)
 
+    # Generate arcade sprite sample
+    arcade_img = nano_arcade_gen.generate_sprite()
+    arcade_sample_path = os.path.join(showcase_dir, "nano_arcade_01_sample.png")
+    arcade_img.save(arcade_sample_path)
+    showcase_files.append(arcade_sample_path)
+
     # Write Showcase README
     readme_path = os.path.join(showcase_dir, "README.md")
     with open(readme_path, "w", encoding="utf-8") as f_readme:
@@ -300,7 +336,8 @@ def main():
         f_readme.write("- **NES Retro Palette** (16-color authentic NES palette)\n")
         f_readme.write("- **Signature Palette** (32-color high-contrast arcade palette)\n")
         f_readme.write("- **Action Animation Sheets & GIFs** (4-frame animated running actions)\n")
-        f_readme.write("- **Bilingual Posters** (256x256 Arabic/English layout rendering)\n\n")
+        f_readme.write("- **Bilingual Posters** (256x256 Arabic/English layout rendering)\n")
+        f_readme.write("- **Nano Arcade 01 Generation** (48-color Palette UNet + Latent Decoder)\n\n")
         f_readme.write("## Generated Showcase Assets\n\n")
         for filepath in sorted(showcase_files):
             f_readme.write(f"- `{os.path.basename(filepath)}`\n")
@@ -308,16 +345,17 @@ def main():
     # Append to TRAINING_LOG.md
     log_path = "TRAINING_LOG.md"
     with open(log_path, "a", encoding="utf-8") as f_log:
-        f_log.write(f"\n## Daily Pipeline Execution (Parallel Mode) - {date_str} {time.strftime('%H:%M:%S')}\n")
-        f_log.write(f"- Verified {len(image_paths)} cleaned dataset images.\n")
+        f_log.write(f"\n## Full Dataset Pipeline Execution (All Directories) - {date_str} {time.strftime('%H:%M:%S')}\n")
+        f_log.write(f"- Verified {len(image_paths)} dataset images across `dataset_training_images`, `mm.trine`, `All-data-Trine`.\n")
         f_log.write("- Fine-tuned Real Latent UNet & VAE Decoder concurrently (`models/real_diffusion_onnx/`).\n")
         f_log.write("- Fine-tuned Arabic Text Embedding & Poster UNet 256 concurrently (`poster_generator_256/`).\n")
         f_log.write("- Fine-tuned NanoPixel 3A XL UNet concurrently (`models/nano_pixel_3A_xl/`).\n")
         f_log.write("- Fine-tuned Pixel Art Engine Encoder & Generator concurrently (`pixel_art_engine/`).\n")
-        f_log.write(f"- Exported ONNX models: `{unet_onnx}`, `{decoder_onnx}`, `{poster_onnx}`, `{nanopixel_3a_onnx}`.\n")
+        f_log.write("- Fine-tuned Nano Arcade 01 UNet & Latent Decoder concurrently (`models/nano_arcade_01/`).\n")
+        f_log.write(f"- Exported ONNX models: `{unet_onnx}`, `{decoder_onnx}`, `{poster_onnx}`, `{nanopixel_3a_onnx}`, `{nano_arcade_onnx}`.\n")
         f_log.write(f"- Generated daily showcase assets in parallel in `{showcase_dir}/`.\n")
 
-    print("\nParallel Daily Training, ONNX Export, and Showcase Generation Pipeline Complete!")
+    print("\nParallel Full-Dataset Training, ONNX Export, and Showcase Generation Pipeline Complete!")
 
 if __name__ == "__main__":
     main()
