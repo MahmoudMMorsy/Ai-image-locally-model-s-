@@ -11,6 +11,9 @@ from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 class PixelSpriteEngine:
     def __init__(self, device="cpu"):
         self.device = torch.device(device)
+        self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
+        self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
+        self.text_encoder = SimpleCLIPTextEncoder()
         self.clip_encoder = SimpleCLIPTextEncoder()
         self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
         self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
