@@ -9,7 +9,9 @@ Pixel-art image collection for the local image-generation project.
 - Prefer full-body characters with readable anatomy, then creatures, monsters, robots, items, weapons, vehicles, environments and effects.
 - Preserve source provenance and license metadata for every collected asset.
 - CC0/public-domain assets are the primary redistributable pool.
+- Paid, copyrighted, game-rip, marketplace, and search-discovered candidates are also part of the research catalog, but they are tracked as **preview-only / rights-required** until the user acquires the necessary rights.
 - Other licenses are tracked separately and are never mislabeled as CC0.
+- Search engines and Pinterest are discovery layers, not proof of ownership. Every candidate must resolve to its original creator, game, product page, or rights holder.
 - Creator notices that prohibit AI/ML use are treated as exclusion rules.
 - Sacred/religious exclusion filter is applied before ingestion. The filter is intentionally conservative: uncertain items are quarantined instead of being silently included.
 - The dataset is for artistic/research collection; training is outside this repository's collection pipeline.
@@ -24,9 +26,18 @@ Pixel-art image collection for the local image-generation project.
 
 The collector can be expanded with additional source catalogs without changing the metadata schema.
 
+## Source strategy
+
+We do **not** limit discovery to CC0. The project has two lanes:
+
+1. **Mirror lane:** sources whose terms explicitly permit redistribution, such as verified CC0/public-domain collections. These may be downloaded into `images/` by automation.
+2. **Rights-research lane:** paid stores, game sprite archives, image-search results, Pinterest, and other protected sources. These are cataloged with the exact page URL, creator/title, license status, acquisition status, and AI/ML restrictions. Protected binaries are not copied into this public repository before rights are established.
+
+Examples now tracked include The Spriters Resource, CraftPix, Free Game Assets on itch.io, itch.io pixel-art asset discovery, GameDev Market, Unity Asset Store, Pinterest, and general image-search discovery.
+
 ## Current collection sources
 
-The first automated collector uses a curated CC0 source pool from the public `Tiddybub/2d-assets` catalog plus explicitly verified CC0 OpenGameArt entries.
+The automated mirror currently uses a curated redistributable pool. The broader source catalog is intentionally larger and includes paid/protected sources for later rights acquisition and visual review.
 
 The Tiddybub catalog states that its included packs are CC0 and preserves SOURCE.md provenance for each pack. OpenGameArt records are checked individually before being added to the source catalog.
 
