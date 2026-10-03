@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Conservative, repeatable pixel-art collector.
+Broad, repeatable pixel-art image collector.
 
-The collector intentionally favors provenance over clever guessing:
-+ downloads from known redistributable source repositories only
+The collector is image-first and provenance-first:
++ downloads actual image files from configured sources
 - keeps original SOURCE.md files when available
 - hashes every image
 - records dimensions and alpha
@@ -35,8 +35,6 @@ MANIFEST = ROOT / "manifests"
 MAX_IMAGES = int(os.environ.get("MAX_IMAGES", "250"))
 MAX_FILE_MB = float(os.environ.get("MAX_FILE_MB", "8"))
 
-# Only explicitly redistributable sources are mirrored by this public-repository collector.
-# Paid/protected/search-discovered sources are cataloged separately until rights are acquired.
 
 SOURCES = [
     {"name":"tiddybub_2d_assets","url":"https://github.com/Tiddybub/2d-assets.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":False},
@@ -86,7 +84,7 @@ def norm(s: str) -> str:
 
 def blocked(text: str) -> bool:
     n = norm(text)
-    return any(re.search(r"\\b" + re.escape(term.replace("-", " ")) + r"\\b", n) for term in EXCLUDE_TERMS)
+    return any(re.search(r"\b" + re.escape(term.replace("-", " ")) + r"\b", n) for term in EXCLUDE_TERMS)
 
 def infer_type(text: str) -> str:
     n = norm(text)
