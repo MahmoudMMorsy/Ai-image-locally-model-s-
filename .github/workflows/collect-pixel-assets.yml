@@ -1,6 +1,7 @@
-name: Collect CC0 pixel-art seed batch
+name: Collect first-party CC0 pixel-art dataset
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "nano arcked dat/.collection/seed_sources.json"
@@ -16,206 +17,220 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Import existing 2534-image pixel-art collection
+      - name: Remove rejected aggregator collection
+        shell: bash
+        run: |
+          rm -rf "nano arcked dat/cc0_library"
+
+      - name: Collect official Kenney CC0 pixel packs
         shell: bash
         run: |
           set -euo pipefail
-          src="dataset_gdrive_extracted/images_2534_only"
-          dst="nano arcked dat/collected_2534"
-          mkdir -p "$dst/images" "$dst/metadata"
+          dst="nano arcked dat/official_cc0/kenney"
+          work="/tmp/kenney-packs"
+          rm -rf "$work"
+          mkdir -p "$work" "$dst"
+
+          urls=(
+            "https://kenney.nl/media/pages/assets/tiny-dungeon/f8422efb44-1674742415/kenney_tiny-dungeon.zip"
+            "https://kenney.nl/media/pages/assets/tiny-town/a415fbeb49-1735736916/kenney_tiny-town.zip"
+            "https://kenney.nl/media/pages/assets/tiny-battle/c1c25ac1f3-1691487575/kenney_tiny-battle.zip"
+            "https://kenney.nl/media/pages/assets/micro-roguelike/bbcaf50993-1677578239/kenney_micro-roguelike.zip"
+            "https://kenney.nl/media/pages/assets/pixel-platformer/33bb4921eb-1696667883/kenney_pixel-platformer.zip"
+            "https://kenney.nl/media/pages/assets/pixel-shmup/640246b9cc-1677495782/kenney_pixel-shmup.zip"
+            "https://kenney.nl/media/pages/assets/roguelike-modern-city/0ff3dfff2b-1677694743/kenney_roguelike-modern-city.zip"
+            "https://kenney.nl/media/pages/assets/1-bit-pack/aa867a1f37-1677578516/kenney_1-bit-pack.zip"
+            "https://kenney.nl/media/pages/assets/roguelike-rpg-pack/12c03cd78b-1677697420/kenney_roguelike-rpg-pack.zip"
+            "https://kenney.nl/media/pages/assets/roguelike-characters/53ffff4133-1729196490/kenney_roguelike-characters.zip"
+          )
+
+          for url in "${urls[@]}"; do
+            file="$work/$(basename "$url")"
+            curl -L --fail --retry 3 --retry-delay 2 "$url" -o "$file"
+            unzip -q -o "$file" -d "$work/$(basename "$file" .zip)"
+          done
+
           python - <<'PY'
-          import json, shutil, re
+          import hashlib, json, shutil
           from pathlib import Path
-          src=Path("dataset_gdrive_extracted/images_2534_only")
-          dst=Path("nano arcked dat/collected_2534")
-          manifest=src/"manifest.jsonl"
-          deny=re.compile(r"allah|quran|koran|kaaba|muhammad|mohammed|jesus|christ|moses|abraham|noah|prophet|abu[_ -]?bakr|umar|uthman|ali", re.I)
+
+          src=Path("/tmp/kenney-packs")
+          dst=Path("nano arcked dat/official_cc0/kenney/images")
+          dst.mkdir(parents=True, exist_ok=True)
+
           rows=[]
-          skipped=[]
-          for line in manifest.read_text(encoding="utf-8").splitlines():
-              if not line.strip():
+          seen=set()
+          max_files=7000
+
+          for p in sorted(src.rglob("*.png")):
+              if len(rows) >= max_files:
+                  break
+              if p.stat().st_size > 5*1024*1024:
                   continue
-              item=json.loads(line)
-              name=item.get("file","")
-              source=item.get("source","")
-              if deny.search(name) or deny.search(source):
-                  skipped.append(item)
+              h=hashlib.sha256(p.read_bytes()).hexdigest()
+              if h in seen:
                   continue
-              p=src/name
-              if not p.is_file() or p.suffix.lower() not in {".png",".jpg",".jpeg",".webp"}:
-                  continue
-              # Keep every collected image, including augmentation variants.
-              out=dst/"images"/p.name
+              seen.add(h)
+              rel=p.relative_to(src).as_posix()
+              low=rel.lower()
+              typ="item"
+              for key,val in [
+                  ("character","civilian"),("knight","knight"),("warrior","warrior"),
+                  ("rogue","rogue"),("mage","mage"),("wizard","wizard"),
+                  ("archer","archer"),("robot","robot"),("alien","alien"),
+                  ("zombie","zombie"),("skeleton","skeleton"),("monster","monster"),
+                  ("enemy","monster"),("dragon","dragon"),("ninja","ninja"),
+                  ("samurai","samurai"),("pirate","pirate"),("vehicle","vehicle"),
+                  ("ship","spaceship"),("sword","sword"),("weapon","weapon")
+              ]:
+                  if key in low:
+                      typ=val
+                      break
+              out=dst/f"{h[:12]}_{p.name}"
               shutil.copy2(p,out)
-              cap=item.get("caption","").lower()
               rows.append({
-                  "file": str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
-                  "type": "unknown_character",
-                  "gender": "unknown",
-                  "race": "unknown",
-                  "style": "retro_16bit" if "16-bit" in cap or "16bit" in cap else "arcade_pixel",
-                  "source": "user_provided_collection",
-                  "pose": "full_body" if "full body" in cap else "unknown",
-                  "resolution": "unknown",
-                  "tags": [x for x in ["pixel_art","character","full_body","gba","16bit",item.get("augmentation")] if x],
-                  "license": "user_provided_unverified",
-                  "author": "unknown",
-                  "source_url": "",
-                  "download_url": "",
-                  "sha256": "",
-                  "sprite_sheet": False,
-                  "augmentation": item.get("augmentation","base"),
-                  "original_source": source,
-                  "notes": "Imported from existing repository collection; license/provenance requires user verification."
+                  "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
+                  "type":typ,
+                  "gender":"unknown",
+                  "race":"unknown",
+                  "style":"arcade_pixel",
+                  "source":"Kenney",
+                  "pose":"unknown",
+                  "resolution":"native",
+                  "tags":["pixel_art","cc0","kenney","official_source"],
+                  "license":"CC0-1.0",
+                  "author":"Kenney",
+                  "source_url":"https://kenney.nl/assets",
+                  "original_filename":rel,
+                  "sha256":h
               })
-          (dst/"metadata"/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\\n" for x in rows),encoding="utf-8")
-          (dst/"metadata"/"quarantine.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\\n" for x in skipped),encoding="utf-8")
-          print(f"Imported {len(rows)} images; quarantined {len(skipped)} by text filter.")
+
+          meta=Path("nano arcked dat/official_cc0/kenney/metadata")
+          meta.mkdir(parents=True, exist_ok=True)
+          (meta/"dataset.jsonl").write_text(
+              "".join(json.dumps(x,ensure_ascii=False)+"\n" for x in rows),
+              encoding="utf-8"
+          )
+          (meta/"stats.json").write_text(json.dumps({
+              "images":len(rows),
+              "source":"Kenney official asset packs",
+              "license":"CC0-1.0"
+          },ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"Kenney: collected {len(rows)} unique PNGs")
           PY
 
-      - name: Harvest thousands of CC0 pixel-art PNGs from curated library
+      - name: Collect public-domain Dungeon Crawl pixel tiles
         shell: bash
         run: |
           set -euo pipefail
-          work="/tmp/cc0-2d-assets"
-          dst="nano arcked dat/cc0_library"
+          work="/tmp/crawl"
+          dst="nano arcked dat/official_cc0/dungeon_crawl"
           rm -rf "$work"
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/Tiddybub/2d-assets.git "$work"
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/crawl/crawl.git "$work"
           cd "$work"
-          git sparse-checkout set characters fantasy sci-fi vehicles effects nature misc
+          git sparse-checkout set crawl-ref/source/rltiles/mon crawl-ref/source/rltiles/item crawl-ref/source/rltiles/player crawl-ref/source/rltiles/dngn crawl-ref/source/rltiles/effect crawl-ref/source/rltiles/misc
           cd - >/dev/null
           mkdir -p "$dst/images" "$dst/metadata"
+
           python - <<'PY'
-          import hashlib, json, re, shutil
+          import hashlib, json, shutil
           from pathlib import Path
-          src=Path("/tmp/cc0-2d-assets")
-          dst=Path("nano arcked dat/cc0_library")
-          deny=re.compile(r"allah|quran|koran|kaaba|muhammad|mohammed|jesus|christ|moses|abraham|noah|prophet|abu[_ -]?bakr|umar|uthman|ali", re.I)
-          ai_restricted=re.compile(r"not[-_ ]?jam|pixels[-_ ]?by[-_ ]?not[-_ ]?jam", re.I)
-          categories={"characters":"character","fantasy":"fantasy","sci-fi":"sci_fi","vehicles":"vehicle","effects":"effect","nature":"nature","misc":"item"}
-          rows=[]; seen=set(); total_bytes=0; skipped=0
-          MAX_FILES=4000; MAX_BYTES=750*1024*1024
+          src=Path("/tmp/crawl/crawl-ref/source/rltiles")
+          dst=Path("nano arcked dat/official_cc0/dungeon_crawl/images")
+          rows=[]; seen=set(); max_files=5000
+
           for p in sorted(src.rglob("*.png")):
-              rel=p.relative_to(src).as_posix()
-              if not any(rel.startswith(k+"/") for k in categories): continue
-              if deny.search(rel) or ai_restricted.search(rel): skipped+=1; continue
-              try: size=p.stat().st_size
-              except OSError: continue
-              if size>10*1024*1024 or total_bytes+size>MAX_BYTES: continue
+              if len(rows)>=max_files:
+                  break
               h=hashlib.sha256(p.read_bytes()).hexdigest()
-              if h in seen: continue
+              if h in seen:
+                  continue
               seen.add(h)
-              if len(rows)>=MAX_FILES: break
-              cat=next(k for k in categories if rel.startswith(k+"/"))
-              typ=categories[cat]
-              low=rel.lower()
-              if any(x in low for x in ["knight","warrior","sword","paladin"]): typ="warrior"
-              elif "mage" in low or "wizard" in low: typ="mage"
-              elif "archer" in low or "bow" in low: typ="archer"
-              elif "rogue" in low or "thief" in low or "assassin" in low: typ="rogue"
-              elif "pirate" in low: typ="pirate"
-              elif "ninja" in low or "samurai" in low: typ="ninja"
-              elif "zombie" in low: typ="zombie"
-              elif "skeleton" in low or "undead" in low: typ="undead"
-              elif "dragon" in low: typ="dragon"
-              elif "demon" in low: typ="demon"
-              elif "ghost" in low: typ="ghost"
-              elif "goblin" in low: typ="goblin"
-              elif "orc" in low: typ="orc"
-              elif "robot" in low or "mecha" in low or "cyborg" in low: typ="robot"
-              elif "alien" in low: typ="alien"
-              elif "monster" in low or "beast" in low: typ="monster"
-              elif "elf" in low: typ="elf"
-              elif "dwarf" in low: typ="dwarf"
-              out=dst/"images"/f"{h[:12]}_{p.name}"
-              shutil.copy2(p,out); total_bytes+=size
+              rel=p.relative_to(src).as_posix()
+              folder=rel.split("/",1)[0]
+              typ={"mon":"monster","item":"item","player":"warrior","dngn":"building","effect":"effect","misc":"item"}.get(folder,"item")
+              out=dst/f"{h[:12]}_{p.name}"
+              shutil.copy2(p,out)
               rows.append({
                 "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
                 "type":typ,"gender":"unknown","race":"unknown",
-                "style":"arcade_pixel","source":"Tiddybub/2d-assets",
-                "pose":"unknown","resolution":"unknown",
-                "tags":["pixel_art","cc0","curated_2d_asset",cat],
-                "license":"CC0-1.0","author":"see SOURCE.md in source pack",
-                "source_url":f"https://github.com/Tiddybub/2d-assets/tree/main/{rel.rsplit('/',1)[0]}",
-                "download_url":f"https://raw.githubusercontent.com/Tiddybub/2d-assets/main/{rel}",
-                "sha256":h,"sprite_sheet":False,
-                "notes":"Collected from a repository that states its asset packs are CC0; individual source metadata is retained in the upstream pack."
+                "style":"retro_16bit","source":"Dungeon Crawl Stone Soup",
+                "pose":"unknown","resolution":"32x32_native",
+                "tags":["pixel_art","public_domain","dungeon_crawl","official_source",folder],
+                "license":"Public Domain / CC0-style art license per rltiles license",
+                "author":"Dungeon Crawl Stone Soup contributors",
+                "source_url":"https://github.com/crawl/crawl/tree/master/crawl-ref/source/rltiles",
+                "original_filename":rel,"sha256":h
               })
-          (dst/"metadata"/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\\n" for x in rows),encoding="utf-8")
-          (dst/"metadata"/"collection_stats.json").write_text(json.dumps({"images":len(rows),"bytes":total_bytes,"duplicates_removed":len(seen)-len(rows),"text_filtered":skipped,"source":"Tiddybub/2d-assets","license":"CC0-1.0 as stated by upstream README"},ensure_ascii=False,indent=2),encoding="utf-8")
-          print(f"Collected {len(rows)} unique PNGs, {total_bytes} bytes; text-filtered {skipped} paths.")
+
+          meta=Path("nano arcked dat/official_cc0/dungeon_crawl/metadata")
+          (meta/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\n" for x in rows),encoding="utf-8")
+          (meta/"stats.json").write_text(json.dumps({"images":len(rows),"source":"Dungeon Crawl Stone Soup rltiles"},ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"Dungeon Crawl: collected {len(rows)} unique PNGs")
           PY
 
-      - name: Download CC0 seed assets
+      - name: Collect artist-direct OpenGameArt CC0 packs
         shell: bash
         run: |
           set -euo pipefail
-          root="nano arcked dat"
-          mkdir -p "$root/seed_cc0/images" "$root/seed_cc0/metadata"
-          while IFS=$'\t' read -r rel url; do
-            [ -z "$rel" ] && continue
-            out="$root/seed_cc0/images/$rel"
-            mkdir -p "$(dirname "$out")"
-            curl -L --fail --retry 3 --retry-delay 2 "$url" -o "$out"
-          done < <(python - <<'PY'
-          import json
-          with open("nano arcked dat/.collection/seed_sources.json", "r", encoding="utf-8") as f:
-              data=json.load(f)
-          for item in data["assets"]:
-              print(item["filename"] + "\t" + item["download_url"])
-          PY
-          )
+          dst="nano arcked dat/official_cc0/opengameart"
+          work="/tmp/oga"
+          rm -rf "$work"
+          mkdir -p "$work" "$dst/images"
 
-      - name: Build metadata manifest
-        shell: bash
-        run: |
+          curl -L --fail --retry 3 "https://opengameart.org/sites/default/files/Pixel%20Art%20Character-TheGameAssetsMine-.zip" -o "$work/pixel_character.zip"
+          curl -L --fail --retry 3 "https://opengameart.org/sites/default/files/Zombies.zip" -o "$work/zombies.zip"
+
+          unzip -q -o "$work/pixel_character.zip" -d "$work/pixel_character"
+          unzip -q -o "$work/zombies.zip" -d "$work/zombies"
+
           python - <<'PY'
-          import json, hashlib
+          import hashlib, json, shutil
           from pathlib import Path
-          root=Path("nano arcked dat/seed_cc0")
-          sources=json.loads(Path("nano arcked dat/.collection/seed_sources.json").read_text(encoding="utf-8"))
-          rows=[]
-          for item in sources["assets"]:
-              p=root/"images"/item["filename"]
-              if not p.exists():
+          src=Path("/tmp/oga")
+          dst=Path("nano arcked dat/official_cc0/opengameart/images")
+          rows=[]; seen=set()
+
+          for p in sorted(src.rglob("*.png")):
+              if "images" in p.parts:
                   continue
               h=hashlib.sha256(p.read_bytes()).hexdigest()
+              if h in seen:
+                  continue
+              seen.add(h)
+              rel=p.relative_to(src).as_posix()
+              low=rel.lower()
+              typ="warrior" if "character" in low else ("zombie" if "zombie" in low else "creature")
+              out=dst/f"{h[:12]}_{p.name}"
+              shutil.copy2(p,out)
               rows.append({
-                  "file": str(p.relative_to(Path("nano arcked dat"))).replace("\\","/"),
-                  "type": item["type"],
-                  "gender": item["gender"],
-                  "race": item["race"],
-                  "style": item["style"],
-                  "source": item["source"],
-                  "pose": item["pose"],
-                  "resolution": item["resolution"],
-                  "tags": item["tags"],
-                  "license": "CC0-1.0",
-                  "author": item["author"],
-                  "source_url": item["source_url"],
-                  "download_url": item["download_url"],
-                  "sha256": h,
-                  "sprite_sheet": True,
-                  "notes": item["notes"]
+                "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
+                "type":typ,"gender":"unknown","race":"human" if typ=="warrior" else "undead",
+                "style":"arcade_pixel","source":"OpenGameArt artist upload",
+                "pose":"walking" if typ=="warrior" else "idle",
+                "resolution":"native","tags":["pixel_art","cc0","artist_direct"],
+                "license":"CC0-1.0","author":"see original OGA page",
+                "source_url":"https://opengameart.org/content/pixel-art-character" if typ=="warrior" else "https://opengameart.org/content/zombie-rpg-sprites",
+                "original_filename":rel,"sha256":h
               })
-          out=root/"metadata"/"dataset.jsonl"
-          out.write_text("".join(json.dumps(x, ensure_ascii=False)+"\n" for x in rows), encoding="utf-8")
+
+          meta=Path("nano arcked dat/official_cc0/opengameart/metadata")
+          meta.mkdir(parents=True,exist_ok=True)
+          (meta/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\n" for x in rows),encoding="utf-8")
+          (meta/"stats.json").write_text(json.dumps({"images":len(rows),"sources":["acasas / Pixel Art Character","Curt / Zombie RPG sprites"]},ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"OpenGameArt: collected {len(rows)} unique PNGs")
           PY
 
-      - name: Commit collected assets
+      - name: Commit dataset
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "nano arcked dat/seed_cc0/metadata"
-          git add -f "nano arcked dat/seed_cc0/images"
-          git add "nano arcked dat/collected_2534/metadata"
-          git add -f "nano arcked dat/collected_2534/images"
-          git add "nano arcked dat/cc0_library/metadata"
-          git add -f "nano arcked dat/cc0_library/images"
+          git add -A "nano arcked dat/official_cc0"
+          git add -A "nano arcked dat/cc0_library"
           if git diff --cached --quiet; then
-            echo "No new assets."
+            echo "No changes."
             exit 0
           fi
-          git commit -m "dataset: collect initial CC0 pixel-art seed batch"
+          git commit -m "dataset: replace aggregator with first-party CC0 pixel-art sources"
           git push
