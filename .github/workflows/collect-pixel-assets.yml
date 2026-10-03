@@ -73,6 +73,79 @@ jobs:
           print(f"Imported {len(rows)} images; quarantined {len(skipped)} by text filter.")
           PY
 
+      - name: Harvest thousands of CC0 pixel-art PNGs from curated library
+        shell: bash
+        run: |
+          set -euo pipefail
+          work="/tmp/cc0-2d-assets"
+          dst="nano arcked dat/cc0_library"
+          rm -rf "$work"
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Tiddybub/2d-assets.git "$work"
+          cd "$work"
+          git sparse-checkout set characters fantasy sci-fi vehicles effects nature misc
+          cd - >/dev/null
+          mkdir -p "$dst/images" "$dst/metadata"
+          python - <<'PY'
+          import hashlib, json, re, shutil
+          from pathlib import Path
+          src=Path("/tmp/cc0-2d-assets")
+          dst=Path("nano arcked dat/cc0_library")
+          deny=re.compile(r"allah|quran|koran|kaaba|muhammad|mohammed|jesus|christ|moses|abraham|noah|prophet|abu[_ -]?bakr|umar|uthman|ali", re.I)
+          ai_restricted=re.compile(r"not[-_ ]?jam|pixels[-_ ]?by[-_ ]?not[-_ ]?jam", re.I)
+          categories={"characters":"character","fantasy":"fantasy","sci-fi":"sci_fi","vehicles":"vehicle","effects":"effect","nature":"nature","misc":"item"}
+          rows=[]; seen=set(); total_bytes=0; skipped=0
+          MAX_FILES=4000; MAX_BYTES=750*1024*1024
+          for p in sorted(src.rglob("*.png")):
+              rel=p.relative_to(src).as_posix()
+              if not any(rel.startswith(k+"/") for k in categories): continue
+              if deny.search(rel) or ai_restricted.search(rel): skipped+=1; continue
+              try: size=p.stat().st_size
+              except OSError: continue
+              if size>10*1024*1024 or total_bytes+size>MAX_BYTES: continue
+              h=hashlib.sha256(p.read_bytes()).hexdigest()
+              if h in seen: continue
+              seen.add(h)
+              if len(rows)>=MAX_FILES: break
+              cat=next(k for k in categories if rel.startswith(k+"/"))
+              typ=categories[cat]
+              low=rel.lower()
+              if any(x in low for x in ["knight","warrior","sword","paladin"]): typ="warrior"
+              elif "mage" in low or "wizard" in low: typ="mage"
+              elif "archer" in low or "bow" in low: typ="archer"
+              elif "rogue" in low or "thief" in low or "assassin" in low: typ="rogue"
+              elif "pirate" in low: typ="pirate"
+              elif "ninja" in low or "samurai" in low: typ="ninja"
+              elif "zombie" in low: typ="zombie"
+              elif "skeleton" in low or "undead" in low: typ="undead"
+              elif "dragon" in low: typ="dragon"
+              elif "demon" in low: typ="demon"
+              elif "ghost" in low: typ="ghost"
+              elif "goblin" in low: typ="goblin"
+              elif "orc" in low: typ="orc"
+              elif "robot" in low or "mecha" in low or "cyborg" in low: typ="robot"
+              elif "alien" in low: typ="alien"
+              elif "monster" in low or "beast" in low: typ="monster"
+              elif "elf" in low: typ="elf"
+              elif "dwarf" in low: typ="dwarf"
+              out=dst/"images"/f"{h[:12]}_{p.name}"
+              shutil.copy2(p,out); total_bytes+=size
+              rows.append({
+                "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
+                "type":typ,"gender":"unknown","race":"unknown",
+                "style":"arcade_pixel","source":"Tiddybub/2d-assets",
+                "pose":"unknown","resolution":"unknown",
+                "tags":["pixel_art","cc0","curated_2d_asset",cat],
+                "license":"CC0-1.0","author":"see SOURCE.md in source pack",
+                "source_url":f"https://github.com/Tiddybub/2d-assets/tree/main/{rel.rsplit('/',1)[0]}",
+                "download_url":f"https://raw.githubusercontent.com/Tiddybub/2d-assets/main/{rel}",
+                "sha256":h,"sprite_sheet":False,
+                "notes":"Collected from a repository that states its asset packs are CC0; individual source metadata is retained in the upstream pack."
+              })
+          (dst/"metadata"/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\\n" for x in rows),encoding="utf-8")
+          (dst/"metadata"/"collection_stats.json").write_text(json.dumps({"images":len(rows),"bytes":total_bytes,"duplicates_removed":len(seen)-len(rows),"text_filtered":skipped,"source":"Tiddybub/2d-assets","license":"CC0-1.0 as stated by upstream README"},ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"Collected {len(rows)} unique PNGs, {total_bytes} bytes; text-filtered {skipped} paths.")
+          PY
+
       - name: Download CC0 seed assets
         shell: bash
         run: |
@@ -138,6 +211,8 @@ jobs:
           git add -f "nano arcked dat/seed_cc0/images"
           git add "nano arcked dat/collected_2534/metadata"
           git add -f "nano arcked dat/collected_2534/images"
+          git add "nano arcked dat/cc0_library/metadata"
+          git add -f "nano arcked dat/cc0_library/images"
           if git diff --cached --quiet; then
             echo "No new assets."
             exit 0
