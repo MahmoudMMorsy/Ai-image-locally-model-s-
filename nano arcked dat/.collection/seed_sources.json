@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "license_policy": "CC0 only for this seed batch; provenance is retained.",
+  "assets": [
+    {
+      "filename": "characters/oga_game_character/game_character.png",
+      "type": "warrior",
+      "gender": "male",
+      "race": "human",
+      "style": "arcade_pixel",
+      "source": "rpg_fantasy",
+      "pose": "walking",
+      "resolution": "sprite_sheet",
+      "tags": [
+        "character",
+        "player",
+        "blue",
+        "animation",
+        "action",
+        "full_body",
+        "sprite_sheet"
+      ],
+      "author": "source pack credits retained by Tiddybub/2d-assets",
+      "source_url": "https://opengameart.org/content/game-character",
+      "download_url": "https://raw.githubusercontent.com/Tiddybub/2d-assets/main/characters/oga-game-character/game_character.png",
+      "notes": "CC0 source pack; collected as a sprite sheet, to be split into frames in a later normalization pass."
+    },
+    {
+      "filename": "creature/oga_ghosts/ghosts.png",
+      "type": "ghost",
+      "gender": "genderless",
+      "race": "undead",
+      "style": "arcade_pixel",
+      "source": "horror",
+      "pose": "idle",
+      "resolution": "sprite_sheet",
+      "tags": [
+        "ghost",
+        "undead",
+        "enemy",
+        "sprite_sheet"
+      ],
+      "author": "source pack credits retained by Tiddybub/2d-assets",
+      "source_url": "https://opengameart.org/content/ghosts",
+      "download_url": "https://raw.githubusercontent.com/Tiddybub/2d-assets/main/characters/oga-ghosts/ghosts.png",
+      "notes": "CC0 source pack; non-sacred fictional creature."
+    },
+    {
+      "filename": "warrior/oga_2d_rpg_character_walk/rpg_sprite_walk.png",
+      "type": "knight",
+      "gender": "male",
+      "race": "human",
+      "style": "retro_16bit",
+      "source": "rpg_fantasy",
+      "pose": "walking",
+      "resolution": "sprite_sheet",
+      "tags": [
+        "rpg",
+        "character",
+        "hero",
+        "knight",
+        "walk",
+        "sprite_sheet",
+        "full_body"
+      ],
+      "author": "source pack credits retained by Tiddybub/2d-assets",
+      "source_url": "https://opengameart.org/content/2d-rpg-character-walk-spritesheet",
+      "download_url": "https://raw.githubusercontent.com/Tiddybub/2d-assets/main/fantasy/oga-2d-rpg-character-walk-spritesheet/rpg_sprite_walk.png",
+      "notes": "CC0 source pack; character sprite sheet."
+    },
+    {
+      "filename": "civilian/oga_miss_princess_16x16/missprincess.png",
+      "type": "princess",
+      "gender": "female",
+      "race": "human",
+      "style": "retro_8bit",
+      "source": "rpg_fantasy",
+      "pose": "action",
+      "resolution": "16x16",
+      "tags": [
+        "princess",
+        "female",
+        "dress",
+        "animated",
+        "sprite"
+      ],
+      "author": "source pack credits retained by Tiddybub/2d-assets",
+      "source_url": "https://opengameart.org/content/miss-princess-animated-16x16",
+      "download_url": "https://raw.githubusercontent.com/Tiddybub/2d-assets/main/characters/oga-miss-princess-animated-16x16/missprincess.png",
+      "notes": "CC0 source pack; small 16x16 character sprite."
+    }
+  ]
+}
