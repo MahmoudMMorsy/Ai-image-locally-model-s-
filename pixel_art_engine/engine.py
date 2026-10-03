@@ -8,6 +8,8 @@ from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 
 from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
 
+from pixel_art_engine.model import PixelSpriteEncoder, PixelSpriteGenerator
+
 class PixelSpriteEngine:
     def __init__(self, device="cpu"):
         self.device = torch.device(device)
