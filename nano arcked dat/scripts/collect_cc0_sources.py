@@ -155,18 +155,17 @@ def main():
     candidates = []
     for spec, src in sources:
         for p in src.rglob("*"):
-        if not p.is_file() or p.suffix.lower() not in {".png", ".webp", ".gif", ".jpg", ".jpeg"}:
-            continue
-        rel = p.relative_to(SRC).as_posix()
-        if any(part.startswith(".") for part in p.parts):
-            continue
-        size_mb = p.stat().st_size / (1024 * 1024)
-        if size_mb > MAX_FILE_MB:
-            continue
-        text = rel
-        if blocked(text):
-            continue
-        candidates.append((spec, src, p))
+            if not p.is_file() or p.suffix.lower() not in {".png", ".webp", ".gif", ".jpg", ".jpeg"}:
+                continue
+            rel = p.relative_to(src).as_posix()
+            if any(part.startswith(".") for part in p.parts):
+                continue
+            size_mb = p.stat().st_size / (1024 * 1024)
+            if size_mb > MAX_FILE_MB:
+                continue
+            if blocked(rel):
+                continue
+            candidates.append((spec, src, p))
 
     candidates.sort(key=lambda item: (0 if "character" in item[2].as_posix().lower() else 1, item[2].as_posix().lower()))
     candidates = candidates[:MAX_IMAGES]
