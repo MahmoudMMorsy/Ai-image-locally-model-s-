@@ -29,12 +29,19 @@ except Exception:
 
 ROOT = Path("nano arcked dat")
 WORK = Path(".collector_work")
-SRC = WORK / "2d-assets"
 OUT = ROOT / "images"
 META = ROOT / "metadata"
 MANIFEST = ROOT / "manifests"
 MAX_IMAGES = int(os.environ.get("MAX_IMAGES", "250"))
 MAX_FILE_MB = float(os.environ.get("MAX_FILE_MB", "8"))
+
+SOURCES = [
+    {"name":"tiddybub_2d_assets","url":"https://github.com/Tiddybub/2d-assets.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":False},
+    {"name":"papyszoo_cc0_public_domain_sprites","url":"https://github.com/Papyszoo/CC0-Public-Domain-Sprites.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":False},
+    {"name":"spritecook_free_game_assets","url":"https://github.com/SpriteCook/spritecook-free-game-assets.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":True},
+    {"name":"kenney_cc0_2d","url":"https://github.com/shorepine/kenney.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":False},
+]
+
 
 # Conservative text-level exclusion. Visual verification is still required for uncertain cases.
 EXCLUDE_TERMS = [
@@ -137,12 +144,17 @@ def safe_name(value: str) -> str:
 
 def main():
     WORK.mkdir(exist_ok=True)
-    if SRC.exists():
-        shutil.rmtree(SRC)
-    subprocess.run(["git", "clone", "--depth", "1", "https://github.com/Tiddybub/2d-assets.git", str(SRC)], check=True)
+    sources = []
+    for spec in SOURCES:
+        src = WORK / spec["name"]
+        if src.exists():
+            shutil.rmtree(src)
+        subprocess.run(["git", "clone", "--depth", "1", spec["url"], str(src)], check=True)
+        sources.append((spec, src))
 
     candidates = []
-    for p in SRC.rglob("*"):
+    for spec, src in sources:
+        for p in src.rglob("*"):
         if not p.is_file() or p.suffix.lower() not in {".png", ".webp", ".gif", ".jpg", ".jpeg"}:
             continue
         rel = p.relative_to(SRC).as_posix()
@@ -154,13 +166,9 @@ def main():
         text = rel
         if blocked(text):
             continue
-        # Focus on character/creature/fantasy/sci-fi assets for the first batch.
-        low = rel.lower()
-        if not any(k in low for k in ["/characters/", "/fantasy/", "/sci-fi/", "character", "monster", "creature", "robot", "dragon", "knight", "ninja", "warrior"]):
-            continue
-        candidates.append(p)
+        candidates.append((spec, src, p))
 
-    candidates.sort(key=lambda p: (len(p.relative_to(SRC).parts), p.as_posix().lower()))
+    candidates.sort(key=lambda item: (0 if "character" in item[2].as_posix().lower() else 1, item[2].as_posix().lower()))
     candidates = candidates[:MAX_IMAGES]
 
     MANIFEST.mkdir(parents=True, exist_ok=True)
@@ -170,12 +178,12 @@ def main():
     records = []
     quarantine = []
 
-    for src in candidates:
-        rel = src.relative_to(SRC).as_posix()
+    for spec, src_root, src in candidates:
+        rel = src.relative_to(src_root).as_posix()
         # Source metadata is retained in the nearest SOURCE.md when present.
         source_md = ""
         for parent in [src.parent, *src.parents]:
-            if parent == SRC:
+            if parent == src_root:
                 break
             candidate = parent / "SOURCE.md"
             if candidate.exists():
