@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "name": "Tiddybub 2d-assets",
+      "kind": "github_repository",
+      "url": "https://github.com/Tiddybub/2d-assets",
+      "license": "CC0",
+      "notes": "Catalog states that its included packs are CC0 and each pack retains SOURCE.md provenance.",
+      "enabled": true
+    },
+    {
+      "name": "OpenGameArt - 16x16 base sprites",
+      "kind": "direct_asset_page",
+      "url": "https://opengameart.org/content/16x16-base-sprites",
+      "license": "CC0",
+      "notes": "Male/female base sprites, 16x16 tile set, idle and walk cycles.",
+      "enabled": true
+    },
+    {
+      "name": "OpenGameArt - 32x32 RPG Character Sprites",
+      "kind": "direct_asset_page",
+      "url": "https://opengameart.org/content/32x32-rpg-character-sprites",
+      "license": "CC0",
+      "notes": "20 character sprites with knight, mage, archer, rogue, assassin, ninja, lancer, dragoon and monk tags.",
+      "enabled": true
+    },
+    {
+      "name": "OpenGameArt - Hero Swordsman",
+      "kind": "direct_asset_page",
+      "url": "https://opengameart.org/content/hero-swordsman",
+      "license": "CC0",
+      "notes": "64x64 pixel swordman with idle, run, jump, attack, hurt and death animations.",
+      "enabled": true
+    },
+    {
+      "name": "OpenGameArt - Space soldier 64x64",
+      "kind": "direct_asset_page",
+      "url": "https://opengameart.org/content/space-soldier-resize-64x64",
+      "license": "CC0",
+      "notes": "64x64 pixel-art sprite sheet.",
+      "enabled": true
+    },
+    {
+      "name": "OpenGameArt - Character sprite + walk animation",
+      "kind": "direct_asset_page",
+      "url": "https://opengameart.org/content/character-sprite-walk-animation",
+      "license": "CC0",
+      "notes": "CC0 character sprite and walk animation.",
+      "enabled": true
+    },
+    {
+      "name": "OpenGameArt - The Knight Free Sprite",
+      "kind": "direct_asset_page",
+      "url": "https://opengameart.org/content/the-knight-free-sprite",
+      "license": "CC0",
+      "notes": "Knight sprite pack with seven animation states.",
+      "enabled": true
+    }
+  ]
+}

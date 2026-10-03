@@ -15,7 +15,7 @@ class PixelSpriteEngine:
         self.device = torch.device(device)
         self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
         self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
-        self.clip_encoder = SimpleCLIPTextEncoder()
+        self.text_encoder = SimpleCLIPTextEncoder()
         self.clip_encoder = SimpleCLIPTextEncoder()
         self.encoder = PixelSpriteEncoder(latent_dim=64).to(self.device)
         self.generator = PixelSpriteGenerator(latent_dim=64, condition_dim=32).to(self.device)
