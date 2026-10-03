@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       max_images:
-        description: "Maximum new images for this run"
+        description: "Maximum images for this run"
         required: false
-        default: "100"
+        default: "1000"
   push:
     paths:
       - ".github/workflows/collect-pixel-dataset.yml"
@@ -36,7 +36,7 @@ jobs:
 
       - name: Collect
         env:
-          MAX_IMAGES: ${{ github.event.inputs.max_images || '100' }}
+          MAX_IMAGES: ${{ github.event.inputs.max_images || '1000' }}
           MAX_FILE_MB: "8"
         run: python "nano arcked dat/scripts/collect_cc0_sources.py"
 
@@ -49,5 +49,5 @@ jobs:
             echo "No new dataset files."
             exit 0
           fi
-          git commit -m "dataset: collect verified CC0 pixel-art batch"
+          git commit -m "dataset: collect pixel-art image batch"
           git push
