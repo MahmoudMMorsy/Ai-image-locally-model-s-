@@ -159,7 +159,8 @@ def main():
             if not p.is_file() or p.suffix.lower() not in {".png", ".webp", ".gif", ".jpg", ".jpeg"}:
                 continue
             rel = p.relative_to(src).as_posix()
-            if any(part.startswith(".") for part in p.parts):
+            rel_parts = p.relative_to(src).parts
+            if any(part.startswith(".") for part in rel_parts):
                 continue
             size_mb = p.stat().st_size / (1024 * 1024)
             if size_mb > MAX_FILE_MB:
