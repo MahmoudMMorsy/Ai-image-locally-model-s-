@@ -16,13 +16,25 @@ Pixel-art image collection for the local image-generation project.
 - Sacred/religious exclusion filter is applied before ingestion. The filter is intentionally conservative: uncertain items are quarantined instead of being silently included.
 - The dataset is for artistic/research collection; training is outside this repository's collection pipeline.
 
+## Image-first rule
+
+**The repository is image-first.** Every asset that enters the mirror lane must exist as an actual image file in the repository. Metadata is never a substitute for the image.
+
+- One real image file per collected asset, using PNG/WebP/GIF/JPG/JPEG as supplied or safely converted when the pipeline explicitly allows it.
+- Metadata is stored separately under `metadata/<asset-id>.json` and is never required to sit beside the image.
+- Manifests are separate indexes only. They do not replace image files.
+- No fake placeholder files, text files pretending to be assets, or metadata-only entries in the image dataset.
+- For a protected/paid asset that cannot legally be mirrored yet, the repository records a rights-research entry with its original preview/source URL instead of pretending that a missing binary is a collected image. Once redistribution rights are established, its actual image can move into the image pool.
+
 ## Layout
 
-`images/<type>/<gender>/<style>/<race>/<source>/<pose>/...`
+`images/<type>/<gender>/<style>/<race>/<source>/<pose>/<asset>.png`
 `metadata/<asset-id>.json`
 `manifests/dataset.jsonl`
 `manifests/dataset.csv`
 `manifests/quarantine.jsonl`
+
+**Separation rule:** image, metadata, and manifest are three independent layers. The image is the primary dataset object; metadata only describes it.
 
 The collector can be expanded with additional source catalogs without changing the metadata schema.
 
