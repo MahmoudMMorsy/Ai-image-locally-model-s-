@@ -182,7 +182,7 @@ def main():
 
     for spec, src_root, src in candidates:
         rel = src.relative_to(src_root).as_posix()
-        # Source metadata is retained in the nearest SOURCE.md when present.
+        # SOURCE.md is read only for provenance/classification. The collected asset itself is always a real image file.
         source_md = ""
         for parent in [src.parent, *src.parents]:
             if parent == src_root:
