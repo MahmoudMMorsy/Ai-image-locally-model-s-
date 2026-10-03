@@ -202,9 +202,9 @@ def main():
         gender = infer_gender(combined)
         style = infer_style(combined)
         pose = infer_pose(combined)
-        source_pack = src.relative_to(SRC).parts[0] if src.relative_to(SRC).parts else "2d-assets"
+        source_pack = src.relative_to(src_root).parts[0] if src.relative_to(src_root).parts else spec["name"]
 
-        target_dir = OUT / kind / gender / style / "unknown" / "tiddybub_2d_assets" / pose
+        target_dir = OUT / kind / gender / style / "unknown" / spec["name"] / pose
         target_dir.mkdir(parents=True, exist_ok=True)
         filename = f"{asset_id}_{safe_name(src.name)}"
         dst = target_dir / filename
@@ -218,11 +218,11 @@ def main():
             "gender": gender,
             "race": "unknown",
             "style": style,
-            "source": "tiddybub_2d_assets",
-            "source_url": "https://github.com/Tiddybub/2d-assets",
-            "author": "see SOURCE.md",
-            "license": "CC0",
-            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "source": spec["name"],
+            "source_url": spec["url"].removesuffix(".git"),
+            "author": "see source repository metadata",
+            "license": spec["license"],
+            "license_url": spec["license_url"],
             "attribution_required": False,
             "pose": pose,
             "view": "unknown",
@@ -234,7 +234,8 @@ def main():
             "original_path": rel,
             "collection": source_pack,
             "retrieved_at": datetime.now(timezone.utc).isoformat(),
-            "notes": "Collected from a source catalog that declares included packs CC0; original pack provenance is retained in the source repository."
+            "ai_generated_source": bool(spec.get("ai_generated", False)),
+            "notes": "Candidate for human review. Visual suitability is not inferred from license metadata."
         }
         (META / f"{asset_id}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
         records.append(meta)
@@ -260,6 +261,7 @@ def main():
     print(f"COLLECTED={len(records)}")
     print(f"QUARANTINED={len(quarantine)}")
     print(f"CANDIDATES={len(candidates)}")
+    print(f"SOURCES={len(sources)}")
 
 if __name__ == "__main__":
     main()
