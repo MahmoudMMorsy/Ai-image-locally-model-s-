@@ -55,6 +55,86 @@
       "license": "CC0",
       "notes": "Knight sprite pack with seven animation states.",
       "enabled": true
+    },
+    {
+      "name": "The Spriters Resource",
+      "kind": "game_sprite_archive",
+      "url": "https://www.spriters-resource.com/",
+      "license": "mixed / title-and-asset dependent",
+      "acquisition": "preview_and_rights_research",
+      "mirror_policy": "do_not_mirror_without_rights",
+      "notes": "Large archive of extracted game sprites. Discovery/reference source. Record exact game, title, page and rights holder before training use.",
+      "enabled": true
+    },
+    {
+      "name": "CraftPix - 2D Sprites",
+      "kind": "commercial_asset_marketplace",
+      "url": "https://craftpix.net/categorys/sprites/",
+      "license": "mixed free and premium; product-specific terms",
+      "acquisition": "purchase_or_product_license",
+      "mirror_policy": "do_not_mirror_premium_without_rights",
+      "notes": "Free and premium sprite sheets. Preserve exact product URL and applicable license/version.",
+      "enabled": true
+    },
+    {
+      "name": "Free Game Assets - CraftPix on itch.io",
+      "kind": "publisher_asset_catalog",
+      "url": "https://free-game-assets.itch.io/",
+      "license": "mixed; product-specific",
+      "acquisition": "free_or_purchase_product_specific",
+      "mirror_policy": "product_specific",
+      "notes": "Publisher catalog containing free and paid assets. Preserve exact product page and license per candidate.",
+      "enabled": true
+    },
+    {
+      "name": "itch.io - Pixel Art Game Assets",
+      "kind": "asset_marketplace",
+      "url": "https://itch.io/game-assets/top-sellers/tag-gamedev/tag-pixel-art",
+      "license": "mixed free and paid; product-specific",
+      "acquisition": "product_specific",
+      "mirror_policy": "do_not_mirror_without_rights",
+      "notes": "Discovery marketplace with filters for sprites, characters, 8-bit, 16-bit, 16x16 and 32x32. Record creator AI/ML restrictions per product.",
+      "enabled": true
+    },
+    {
+      "name": "GameDev Market - 2D Characters",
+      "kind": "commercial_asset_marketplace",
+      "url": "https://www.gamedevmarket.net/category/2d/characters",
+      "license": "standard Pro Licence / product terms",
+      "acquisition": "purchase_or_license",
+      "mirror_policy": "do_not_mirror_without_rights",
+      "notes": "Paid/free character marketplace. Preserve creator, product URL, price, license and AI/ML restrictions.",
+      "enabled": true
+    },
+    {
+      "name": "Unity Asset Store - 2D",
+      "kind": "commercial_asset_marketplace",
+      "url": "https://marketplace.unity.com/2d",
+      "license": "publisher/product specific",
+      "acquisition": "purchase_or_license",
+      "mirror_policy": "do_not_mirror_without_rights",
+      "notes": "Large 2D marketplace with pixel-art and character assets. Preserve exact package URL, publisher and license terms.",
+      "enabled": true
+    },
+    {
+      "name": "Pinterest - Pixel Art Character Sprite Sheet search",
+      "kind": "image_search_and_discovery",
+      "url": "https://www.pinterest.com/search/pins/?q=pixel%20art%20character%20sprite%20sheet",
+      "license": "unknown until original creator/source is verified",
+      "acquisition": "trace_to_original_source",
+      "mirror_policy": "do_not_mirror_search_results",
+      "notes": "Discovery only. Follow each pin to the original artist/store/game/source and record that origin.",
+      "enabled": true
+    },
+    {
+      "name": "General image-search discovery",
+      "kind": "image_search_and_discovery",
+      "url": "https://www.google.com/search?tbm=isch&q=pixel+art+character+sprite+sheet",
+      "license": "unknown until original creator/source is verified",
+      "acquisition": "trace_to_original_source",
+      "mirror_policy": "do_not_mirror_search_results",
+      "notes": "Use search results to discover candidates, then resolve each image to its original page/creator. The search engine result is not the rights source.",
+      "enabled": true
     }
   ]
 }
