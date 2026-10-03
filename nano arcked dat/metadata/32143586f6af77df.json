@@ -1,0 +1,33 @@
+{
+  "id": "32143586f6af77df",
+  "file": "images/civilian/androgynous/clean_pixel/unknown/kenney_cc0_2d/action/32143586f6af77df_character_roundPurple.png",
+  "type": "civilian",
+  "gender": "androgynous",
+  "race": "unknown",
+  "style": "clean_pixel",
+  "source": "kenney_cc0_2d",
+  "source_url": "https://github.com/shorepine/kenney",
+  "author": "see source repository metadata",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution_required": false,
+  "pose": "action",
+  "view": "unknown",
+  "canvas_size": "64x64",
+  "sprite_sheet": false,
+  "alpha": false,
+  "tags": [
+    "2d",
+    "scribble",
+    "platformer",
+    "character",
+    "roundpurple",
+    "png"
+  ],
+  "sha256": "32143586f6af77df6054b600cd71b7847cba44a55e1f1aa5aaf9ecdecfcfd8a5",
+  "original_path": "2d/Scribble Platformer/character_roundPurple.png",
+  "collection": "2d",
+  "retrieved_at": "2026-10-03T10:24:53.654627+00:00",
+  "ai_generated_source": false,
+  "notes": "Candidate for human review. Visual suitability is not inferred from license metadata."
+}

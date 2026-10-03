@@ -1,0 +1,33 @@
+{
+  "id": "54085d8f665f9b59",
+  "file": "images/civilian/female/clean_pixel/unknown/kenney_cc0_2d/action/54085d8f665f9b59_character_woman.png",
+  "type": "civilian",
+  "gender": "female",
+  "race": "unknown",
+  "style": "clean_pixel",
+  "source": "kenney_cc0_2d",
+  "source_url": "https://github.com/shorepine/kenney",
+  "author": "see source repository metadata",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution_required": false,
+  "pose": "action",
+  "view": "unknown",
+  "canvas_size": "64x100",
+  "sprite_sheet": false,
+  "alpha": true,
+  "tags": [
+    "2d",
+    "block",
+    "pack",
+    "character",
+    "woman",
+    "png"
+  ],
+  "sha256": "54085d8f665f9b594dc5d069b174c3008dca22a6e86e1b183307184267ff91a9",
+  "original_path": "2d/Block Pack/character_woman.png",
+  "collection": "2d",
+  "retrieved_at": "2026-10-03T10:24:53.289940+00:00",
+  "ai_generated_source": false,
+  "notes": "Candidate for human review. Visual suitability is not inferred from license metadata."
+}

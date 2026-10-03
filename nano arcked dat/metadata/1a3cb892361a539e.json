@@ -1,0 +1,33 @@
+{
+  "id": "1a3cb892361a539e",
+  "file": "images/mage/androgynous/clean_pixel/unknown/kenney_cc0_2d/action/1a3cb892361a539e_character_wizard.png",
+  "type": "mage",
+  "gender": "androgynous",
+  "race": "unknown",
+  "style": "clean_pixel",
+  "source": "kenney_cc0_2d",
+  "source_url": "https://github.com/shorepine/kenney",
+  "author": "see source repository metadata",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution_required": false,
+  "pose": "action",
+  "view": "unknown",
+  "canvas_size": "64x100",
+  "sprite_sheet": false,
+  "alpha": true,
+  "tags": [
+    "2d",
+    "block",
+    "pack",
+    "character",
+    "wizard",
+    "png"
+  ],
+  "sha256": "1a3cb892361a539eda25bb97a154ca360b1e617ff8b44410f9a2aebc908505ea",
+  "original_path": "2d/Block Pack/character_wizard.png",
+  "collection": "2d",
+  "retrieved_at": "2026-10-03T10:24:53.289344+00:00",
+  "ai_generated_source": false,
+  "notes": "Candidate for human review. Visual suitability is not inferred from license metadata."
+}
