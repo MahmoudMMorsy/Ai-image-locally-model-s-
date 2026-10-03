@@ -3,7 +3,7 @@
 Conservative, repeatable pixel-art collector.
 
 The collector intentionally favors provenance over clever guessing:
-- downloads from a known CC0 source repository
++ downloads from known redistributable source repositories only
 - keeps original SOURCE.md files when available
 - hashes every image
 - records dimensions and alpha
@@ -35,6 +35,9 @@ MANIFEST = ROOT / "manifests"
 MAX_IMAGES = int(os.environ.get("MAX_IMAGES", "250"))
 MAX_FILE_MB = float(os.environ.get("MAX_FILE_MB", "8"))
 
+# Only explicitly redistributable sources are mirrored by this public-repository collector.
+# Paid/protected/search-discovered sources are cataloged separately until rights are acquired.
+
 SOURCES = [
     {"name":"tiddybub_2d_assets","url":"https://github.com/Tiddybub/2d-assets.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":False},
     {"name":"papyszoo_cc0_public_domain_sprites","url":"https://github.com/Papyszoo/CC0-Public-Domain-Sprites.git","license":"CC0","license_url":"https://creativecommons.org/publicdomain/zero/1.0/","ai_generated":False},
@@ -47,7 +50,7 @@ SOURCES = [
 EXCLUDE_TERMS = [
     "allah", "muhammad", "mohammed", "prophet", "messenger",
     "jesus", "moses", "abraham", "noah", "ibrahim", "musa", "nuh",
-    "abu-bakr", "abu_bakr", "umar", "uthman",
+    "abu-bakr", "abu_bakr", "umar", "uthman", "ali",
     "kaaba", "quran", "koran", "mecca", "medina",
     "sacred", "holy-prophet", "religious-figure"
 ]
