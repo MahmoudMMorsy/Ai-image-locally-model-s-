@@ -33,14 +33,14 @@ SRC = WORK / "2d-assets"
 OUT = ROOT / "images"
 META = ROOT / "metadata"
 MANIFEST = ROOT / "manifests"
-MAX_IMAGES = int(os.environ.get("MAX_IMAGES", "100"))
+MAX_IMAGES = int(os.environ.get("MAX_IMAGES", "250"))
 MAX_FILE_MB = float(os.environ.get("MAX_FILE_MB", "8"))
 
 # Conservative text-level exclusion. Visual verification is still required for uncertain cases.
 EXCLUDE_TERMS = [
     "allah", "muhammad", "mohammed", "prophet", "messenger",
     "jesus", "moses", "abraham", "noah", "ibrahim", "musa", "nuh",
-    "abu-bakr", "abu_bakr", "umar", "uthman", "ali",
+    "abu-bakr", "abu_bakr", "umar", "uthman",
     "kaaba", "quran", "koran", "mecca", "medina",
     "sacred", "holy-prophet", "religious-figure"
 ]
@@ -76,7 +76,7 @@ def norm(s: str) -> str:
 
 def blocked(text: str) -> bool:
     n = norm(text)
-    return any(term.replace("-", " ") in n for term in EXCLUDE_TERMS)
+    return any(re.search(r"\\b" + re.escape(term.replace("-", " ")) + r"\\b", n) for term in EXCLUDE_TERMS)
 
 def infer_type(text: str) -> str:
     n = norm(text)
