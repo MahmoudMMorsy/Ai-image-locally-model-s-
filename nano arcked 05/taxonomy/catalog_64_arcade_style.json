@@ -1,0 +1,12 @@
+[
+  {"file": "warrior_004.png", "type": "warrior", "gender": "male", "race": "dwarf", "style": "arcade_pixel", "source": "rpg_fantasy", "pose": "action", "resolution": "64x64"},
+  {"file": "warrior_005.png", "type": "warrior", "gender": "female", "race": "human", "style": "clean_pixel", "source": "rpg_fantasy", "pose": "full_body", "resolution": "64x64"},
+  {"file": "knight_002.png", "type": "knight", "gender": "male", "race": "human", "style": "arcade_pixel", "source": "rpg_fantasy", "pose": "action", "resolution": "64x64"},
+  {"file": "mage_001.png", "type": "mage", "gender": "female", "race": "dark_elf", "style": "retro_8bit", "source": "rpg_fantasy", "pose": "full_body", "resolution": "64x64"},
+  {"file": "mage_002.png", "type": "mage", "gender": "male", "race": "dark_elf", "style": "clean_pixel", "source": "rpg_fantasy", "pose": "front_view", "resolution": "64x64"},
+  {"file": "archer_003.png", "type": "archer", "gender": "female", "race": "elf", "style": "clean_pixel", "source": "rpg_fantasy", "pose": "full_body", "resolution": "64x64"},
+  {"file": "robot_002.png", "type": "robot", "gender": "genderless", "race": "robot", "style": "arcade_pixel", "source": "rpg_fantasy", "pose": "full_body", "resolution": "64x64"},
+  {"file": "weapon_004.png", "type": "weapon", "gender": "genderless", "race": "item", "style": "clean_pixel", "source": "rpg_fantasy", "pose": "idle", "resolution": "64x64"},
+  {"file": "merchant_004.png", "type": "merchant", "gender": "male", "race": "human", "style": "clean_pixel", "source": "rpg_fantasy", "pose": "action", "resolution": "64x64"},
+  {"file": "merchant_005.png", "type": "merchant", "gender": "male", "race": "dwarf", "style": "retro_8bit", "source": "rpg_fantasy", "pose": "idle", "resolution": "64x64"}
+]
