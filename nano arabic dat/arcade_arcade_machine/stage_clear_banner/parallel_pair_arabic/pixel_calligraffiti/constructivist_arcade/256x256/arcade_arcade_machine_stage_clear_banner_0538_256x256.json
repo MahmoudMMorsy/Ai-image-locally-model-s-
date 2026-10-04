@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_stage_clear_banner_0538_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "grid_overlay",
+      "1-bit_dithering",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "red",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "gameboy_box",
+    "arabic_text",
+    "boss_battle",
+    "castle_stage",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: نصر الأبطال (VICTORY HEROES)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_english_title_logo_0437_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "glowing_edges",
+      "1-bit_dithering",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "neon_cyan",
+    "white",
+    "blue"
+  ],
+  "tags": [
+    "hero_sprite",
+    "arabic_text",
+    "pixel_typography",
+    "gameboy_box",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

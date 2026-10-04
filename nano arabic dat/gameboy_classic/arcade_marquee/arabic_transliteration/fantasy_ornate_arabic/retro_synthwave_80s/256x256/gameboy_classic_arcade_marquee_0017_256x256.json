@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_arcade_marquee_0017_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "chrome_bevel",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "red",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "gameboy_box",
+    "pixel_font",
+    "pixel_typography",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

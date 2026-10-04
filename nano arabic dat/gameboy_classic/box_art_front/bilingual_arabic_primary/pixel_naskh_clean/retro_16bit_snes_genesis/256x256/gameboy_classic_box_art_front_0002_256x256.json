@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_box_art_front_0002_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "box_art_front",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "fire_effect",
+      "thick_black_outline",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "gold",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "nes_cover",
+    "desert_bg",
+    "skull_icon",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
+}

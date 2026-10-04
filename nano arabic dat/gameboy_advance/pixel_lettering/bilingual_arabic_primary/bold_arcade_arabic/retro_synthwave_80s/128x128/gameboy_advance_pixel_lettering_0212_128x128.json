@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_pixel_lettering_0212_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "pixel_lettering",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "gold_texture",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "blue",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "castle_stage",
+    "skull_icon",
+    "pixel_font",
+    "snes_cartridge",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

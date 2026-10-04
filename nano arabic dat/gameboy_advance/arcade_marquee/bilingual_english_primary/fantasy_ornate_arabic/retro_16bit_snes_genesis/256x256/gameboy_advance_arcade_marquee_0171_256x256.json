@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0171_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "dripping_slime",
+      "chrome_bevel",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "center_title_large",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "sega_grid",
+    "mecha_sprite",
+    "pixel_frame",
+    "boss_battle",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

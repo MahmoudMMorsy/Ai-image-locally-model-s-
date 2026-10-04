@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_ui_title_badge_0546_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "grid_overlay",
+      "16-bit_gradient",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "white",
+    "gold"
+  ],
+  "tags": [
+    "connected_letters",
+    "pixel_font",
+    "mecha_sprite",
+    "pyramid_bg",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_pixel_lettering_0524_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "pixel_lettering",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "fire_effect",
+      "grid_overlay",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "neon_cyan",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "pixel_font",
+    "title_screen",
+    "pixel_explosion",
+    "castle_stage",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: سيد الحلبة (RING MASTER)."
+}

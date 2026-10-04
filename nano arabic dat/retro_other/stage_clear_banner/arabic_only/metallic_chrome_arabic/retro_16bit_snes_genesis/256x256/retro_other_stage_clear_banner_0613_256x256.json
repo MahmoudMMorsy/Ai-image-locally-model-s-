@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_stage_clear_banner_0613_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "drop_shadow",
+      "grid_overlay",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "boss_battle",
+    "pixel_typography",
+    "desert_bg",
+    "gameboy_box",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: نصر الأبطال (VICTORY HEROES)."
+}

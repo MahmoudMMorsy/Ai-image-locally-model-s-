@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_arabic_title_logo_0432_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "glowing_edges",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "pixel_frame",
+    "hero_sprite",
+    "dragon_bg",
+    "sub_title",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

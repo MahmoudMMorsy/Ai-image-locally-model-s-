@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_cartridge_label_0333_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glowing_edges",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "dragon_bg",
+    "title_screen",
+    "arabic_text",
+    "lightning_strike",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

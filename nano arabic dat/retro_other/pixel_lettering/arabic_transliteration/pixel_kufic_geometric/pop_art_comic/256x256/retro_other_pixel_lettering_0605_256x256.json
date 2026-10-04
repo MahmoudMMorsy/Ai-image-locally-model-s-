@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_pixel_lettering_0605_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "1-bit_dithering",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "neon_cyan",
+    "red",
+    "white"
+  ],
+  "tags": [
+    "sega_grid",
+    "sword_icon",
+    "hero_sprite",
+    "gameboy_box",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
+}

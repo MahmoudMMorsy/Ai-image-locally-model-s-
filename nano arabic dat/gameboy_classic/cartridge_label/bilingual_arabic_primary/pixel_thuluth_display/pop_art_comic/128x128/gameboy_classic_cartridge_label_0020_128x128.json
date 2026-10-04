@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_cartridge_label_0020_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "gold_texture",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "purple",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "sword_icon",
+    "nes_cover",
+    "sub_title",
+    "castle_stage",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: أعماق المحيط (OCEAN DEPTHS)."
+}

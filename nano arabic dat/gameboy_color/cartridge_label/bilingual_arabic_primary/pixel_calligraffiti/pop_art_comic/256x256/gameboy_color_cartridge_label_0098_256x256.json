@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_cartridge_label_0098_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "crt_scanlines",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "black",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_frame",
+    "dragon_bg",
+    "pixel_font",
+    "pixel_typography",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: عرش التنين (DRAGON THRONE)."
+}

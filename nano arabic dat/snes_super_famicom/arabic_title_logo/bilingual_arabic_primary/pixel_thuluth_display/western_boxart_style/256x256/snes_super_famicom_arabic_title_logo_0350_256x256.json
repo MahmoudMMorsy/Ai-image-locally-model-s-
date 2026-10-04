@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arabic_title_logo_0350_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "drop_shadow",
+      "glitch_displacement",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "border_framed",
+  "colors": [
+    "purple",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "title_screen",
+    "pixel_frame",
+    "skull_icon",
+    "space_ship",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: أعماق المحيط (OCEAN DEPTHS)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_ui_title_badge_0155_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "grid_overlay",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "black",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "boss_battle",
+    "castle_stage",
+    "pyramid_bg",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: أعماق المحيط (OCEAN DEPTHS)."
+}

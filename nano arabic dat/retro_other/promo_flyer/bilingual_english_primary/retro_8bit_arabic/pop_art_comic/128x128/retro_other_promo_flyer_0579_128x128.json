@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_promo_flyer_0579_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "grid_overlay",
+      "1-bit_dithering",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "neon_cyan",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "gameboy_box",
+    "mecha_sprite",
+    "connected_letters",
+    "title_screen",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

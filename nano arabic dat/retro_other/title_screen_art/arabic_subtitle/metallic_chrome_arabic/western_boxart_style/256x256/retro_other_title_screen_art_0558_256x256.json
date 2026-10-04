@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_0558_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glowing_edges",
+      "chrome_bevel",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "center_title_large",
+  "colors": [
+    "blue",
+    "red",
+    "white"
+  ],
+  "tags": [
+    "skull_icon",
+    "sub_title",
+    "lightning_strike",
+    "pyramid_bg",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

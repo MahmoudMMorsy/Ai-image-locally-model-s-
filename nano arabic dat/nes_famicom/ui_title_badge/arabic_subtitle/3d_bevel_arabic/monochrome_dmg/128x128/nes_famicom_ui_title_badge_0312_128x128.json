@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_ui_title_badge_0312_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "drop_shadow",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "red",
+    "gold"
+  ],
+  "tags": [
+    "title_screen",
+    "pixel_font",
+    "desert_bg",
+    "pyramid_bg",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

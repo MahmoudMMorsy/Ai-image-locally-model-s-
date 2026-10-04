@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_game_over_screen_0141_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "drop_shadow",
+      "16-bit_gradient",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "centered_emblem",
+  "colors": [
+    "purple",
+    "black",
+    "gold"
+  ],
+  "tags": [
+    "title_screen",
+    "gameboy_box",
+    "sword_icon",
+    "desert_bg",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: قافلة الصحراء (DESERT CARAVAN)."
+}

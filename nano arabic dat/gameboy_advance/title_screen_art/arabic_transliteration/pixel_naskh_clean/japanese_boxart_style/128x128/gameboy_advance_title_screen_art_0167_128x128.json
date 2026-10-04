@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_title_screen_art_0167_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "crt_scanlines",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "purple",
+    "white",
+    "red"
+  ],
+  "tags": [
+    "lightning_strike",
+    "pyramid_bg",
+    "snes_cartridge",
+    "gameboy_box",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0328_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "dripping_slime",
+      "chrome_bevel",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "black_border_nes",
+  "colors": [
+    "white",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "space_ship",
+    "lightning_strike",
+    "gameboy_box",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: نصر الأبطال (VICTORY HEROES)."
+}

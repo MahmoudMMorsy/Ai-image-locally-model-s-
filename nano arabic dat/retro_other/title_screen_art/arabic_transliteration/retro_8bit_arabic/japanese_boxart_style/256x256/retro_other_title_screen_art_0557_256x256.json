@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_0557_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "dripping_slime",
+      "1-bit_dithering",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "desert_bg",
+    "space_ship",
+    "sub_title",
+    "nes_cover",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

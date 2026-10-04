@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_promo_flyer_0188_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glitch_displacement",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "boss_battle",
+    "sword_icon",
+    "sega_grid",
+    "lightning_strike",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_full_game_poster_0415_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "gold_texture",
+      "fire_effect",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "neon_cyan",
+    "white",
+    "gold"
+  ],
+  "tags": [
+    "pixel_font",
+    "lightning_strike",
+    "boss_battle",
+    "castle_stage",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: معركة النهائي (FINAL BATTLE)."
+}

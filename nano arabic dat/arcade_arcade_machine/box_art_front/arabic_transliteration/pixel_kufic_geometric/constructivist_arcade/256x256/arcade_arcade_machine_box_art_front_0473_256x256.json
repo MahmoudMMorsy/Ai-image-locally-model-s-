@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_box_art_front_0473_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "dripping_slime",
+      "gold_texture",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "purple",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "nes_cover",
+    "pixel_frame",
+    "pixel_explosion",
+    "sub_title",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: عرش التنين (DRAGON THRONE)."
+}

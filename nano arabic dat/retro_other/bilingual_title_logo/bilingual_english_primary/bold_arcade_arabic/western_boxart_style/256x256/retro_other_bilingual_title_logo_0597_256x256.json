@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_bilingual_title_logo_0597_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "fire_effect",
+      "glowing_edges",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "gold",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "hero_sprite",
+    "castle_stage",
+    "sub_title",
+    "sword_icon",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

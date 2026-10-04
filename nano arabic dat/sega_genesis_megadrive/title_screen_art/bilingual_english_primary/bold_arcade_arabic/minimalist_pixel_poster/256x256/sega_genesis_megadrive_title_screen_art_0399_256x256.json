@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_title_screen_art_0399_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "1-bit_dithering",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "red",
+    "white",
+    "blue"
+  ],
+  "tags": [
+    "connected_letters",
+    "boss_battle",
+    "sub_title",
+    "gameboy_box",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

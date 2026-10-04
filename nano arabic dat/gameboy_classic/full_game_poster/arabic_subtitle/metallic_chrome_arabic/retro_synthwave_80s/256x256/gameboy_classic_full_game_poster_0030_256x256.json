@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_full_game_poster_0030_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "drop_shadow",
+      "crt_scanlines",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "sword_icon",
+    "desert_bg",
+    "castle_stage",
+    "pixel_frame",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

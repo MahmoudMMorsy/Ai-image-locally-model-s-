@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_cartridge_label_0568_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "cartridge_label",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "drop_shadow",
+      "fire_effect",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "neon_cyan",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "sword_icon",
+    "hero_sprite",
+    "pixel_frame",
+    "dragon_bg",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: نصر الأبطال (VICTORY HEROES)."
+}

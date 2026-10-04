@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_ui_title_badge_0620_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "grid_overlay",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "border_framed",
+  "colors": [
+    "blue",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "title_screen",
+    "mecha_sprite",
+    "lightning_strike",
+    "space_ship",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+}

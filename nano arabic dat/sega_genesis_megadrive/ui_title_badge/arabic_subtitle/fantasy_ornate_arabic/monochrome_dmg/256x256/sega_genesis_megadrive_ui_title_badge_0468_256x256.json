@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_ui_title_badge_0468_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "drop_shadow",
+      "1-bit_dithering",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "center_title_large",
+  "colors": [
+    "red",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "pixel_typography",
+    "nes_cover",
+    "title_screen",
+    "skull_icon",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

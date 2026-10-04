@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_pixel_lettering_0137_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "chrome_bevel",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "red",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "space_ship",
+    "snes_cartridge",
+    "pyramid_bg",
+    "desert_bg",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

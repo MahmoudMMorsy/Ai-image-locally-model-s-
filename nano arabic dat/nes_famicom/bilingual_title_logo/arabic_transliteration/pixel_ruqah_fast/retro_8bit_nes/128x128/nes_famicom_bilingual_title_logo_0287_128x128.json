@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_bilingual_title_logo_0287_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "grid_overlay",
+      "drop_shadow",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "border_framed",
+  "colors": [
+    "blue",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "sega_grid",
+    "sub_title",
+    "mecha_sprite",
+    "dragon_bg",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_ruqah_fast title: استكشاف الفضاء (SPACE EXPLORER)."
+}

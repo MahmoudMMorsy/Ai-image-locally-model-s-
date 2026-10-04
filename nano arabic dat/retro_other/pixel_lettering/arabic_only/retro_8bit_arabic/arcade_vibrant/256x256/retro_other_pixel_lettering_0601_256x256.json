@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_pixel_lettering_0601_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "glowing_edges",
+      "dripping_slime",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "purple",
+    "black",
+    "blue"
+  ],
+  "tags": [
+    "arabic_text",
+    "boss_battle",
+    "pixel_typography",
+    "sword_icon",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

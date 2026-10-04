@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arabic_title_logo_0508_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "crt_scanlines",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "black_border_nes",
+  "colors": [
+    "blue",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "arabic_text",
+    "boss_battle",
+    "nes_cover",
+    "pyramid_bg",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: نصر الأبطال (VICTORY HEROES)."
+}

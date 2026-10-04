@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_ui_title_badge_0622_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "ui_title_badge",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "gold_texture",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "pixel_frame",
+    "hero_sprite",
+    "sub_title",
+    "pixel_explosion",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

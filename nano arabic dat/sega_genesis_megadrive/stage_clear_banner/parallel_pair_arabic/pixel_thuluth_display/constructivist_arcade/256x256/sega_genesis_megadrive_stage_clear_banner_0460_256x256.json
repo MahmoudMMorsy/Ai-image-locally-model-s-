@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_stage_clear_banner_0460_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "16-bit_gradient",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "white",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "castle_stage",
+    "desert_bg",
+    "pixel_frame",
+    "pixel_font",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_thuluth_display title: معركة النهائي (FINAL BATTLE)."
+}

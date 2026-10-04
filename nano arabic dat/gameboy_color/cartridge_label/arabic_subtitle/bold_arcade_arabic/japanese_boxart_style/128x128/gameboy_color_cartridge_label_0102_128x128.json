@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_cartridge_label_0102_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "gold_texture",
+      "chrome_bevel",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "neon_cyan",
+    "white"
+  ],
+  "tags": [
+    "hero_sprite",
+    "boss_battle",
+    "pixel_frame",
+    "nes_cover",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

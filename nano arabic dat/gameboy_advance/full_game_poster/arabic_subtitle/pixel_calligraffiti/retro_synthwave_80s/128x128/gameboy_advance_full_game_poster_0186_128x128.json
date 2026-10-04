@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_full_game_poster_0186_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glowing_edges",
+      "thick_black_outline",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "centered_emblem",
+  "colors": [
+    "gold",
+    "neon_cyan",
+    "black"
+  ],
+  "tags": [
+    "gameboy_box",
+    "nes_cover",
+    "sub_title",
+    "skull_icon",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: قافلة الصحراء (DESERT CARAVAN)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_cartridge_label_0491_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "glowing_edges",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "space_ship",
+    "sega_grid",
+    "sub_title",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: مدينة السايبر (CYBER CITY)."
+}

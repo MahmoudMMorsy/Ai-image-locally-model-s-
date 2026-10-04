@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_promo_flyer_0348_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "fire_effect",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "centered_emblem",
+  "colors": [
+    "purple",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "nes_cover",
+    "pixel_frame",
+    "lightning_strike",
+    "dragon_bg",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

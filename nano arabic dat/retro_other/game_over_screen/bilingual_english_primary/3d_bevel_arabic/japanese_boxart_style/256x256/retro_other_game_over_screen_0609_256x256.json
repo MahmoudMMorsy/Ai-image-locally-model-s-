@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_game_over_screen_0609_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "dripping_slime",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "centered_emblem",
+  "colors": [
+    "blue",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "hero_sprite",
+    "desert_bg",
+    "boss_battle",
+    "connected_letters",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

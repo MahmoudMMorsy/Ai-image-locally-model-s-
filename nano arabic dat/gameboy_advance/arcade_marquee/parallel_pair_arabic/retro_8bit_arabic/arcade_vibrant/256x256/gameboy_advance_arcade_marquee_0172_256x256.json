@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0172_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "fire_effect",
+      "crt_scanlines",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "white",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "snes_cartridge",
+    "nes_cover",
+    "title_screen",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

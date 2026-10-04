@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_arcade_marquee_0563_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glitch_displacement",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "black",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "arabic_text",
+    "pixel_explosion",
+    "snes_cartridge",
+    "connected_letters",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: عرش التنين (DRAGON THRONE)."
+}

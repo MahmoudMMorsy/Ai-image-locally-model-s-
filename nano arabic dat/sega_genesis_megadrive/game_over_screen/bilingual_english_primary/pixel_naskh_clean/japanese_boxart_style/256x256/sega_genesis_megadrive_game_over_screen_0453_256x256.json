@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_game_over_screen_0453_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "gold_texture",
+      "glowing_edges",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "red",
+    "blue",
+    "black"
+  ],
+  "tags": [
+    "skull_icon",
+    "mecha_sprite",
+    "pixel_frame",
+    "sub_title",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
+}

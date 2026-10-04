@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_cartridge_label_0175_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "gold_texture",
+      "fire_effect",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "black_border_nes",
+  "colors": [
+    "white",
+    "red",
+    "blue"
+  ],
+  "tags": [
+    "skull_icon",
+    "space_ship",
+    "desert_bg",
+    "dragon_bg",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: معركة النهائي (FINAL BATTLE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_full_game_poster_0106_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "full_game_poster",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "dripping_slime",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "hero_sprite",
+    "pixel_typography",
+    "lightning_strike",
+    "sega_grid",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

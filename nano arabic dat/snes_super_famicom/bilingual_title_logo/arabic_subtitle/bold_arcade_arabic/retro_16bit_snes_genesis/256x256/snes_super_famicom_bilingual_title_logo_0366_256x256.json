@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_bilingual_title_logo_0366_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "gold_texture",
+      "chrome_bevel",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "centered_emblem",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "dragon_bg",
+    "space_ship",
+    "snes_cartridge",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

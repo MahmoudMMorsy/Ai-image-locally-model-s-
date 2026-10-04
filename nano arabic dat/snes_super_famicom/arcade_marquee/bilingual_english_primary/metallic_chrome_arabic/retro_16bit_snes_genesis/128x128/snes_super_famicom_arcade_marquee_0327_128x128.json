@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0327_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "dripping_slime",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "castle_stage",
+    "connected_letters",
+    "nes_cover",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with metallic_chrome_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

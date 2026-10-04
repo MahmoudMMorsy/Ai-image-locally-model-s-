@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_cartridge_label_0099_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glowing_edges",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "center_title_large",
+  "colors": [
+    "white",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "gameboy_box",
+    "connected_letters",
+    "pixel_frame",
+    "sword_icon",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: أسطورة النور (LEGEND OF LIGHT)."
+}

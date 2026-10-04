@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_cartridge_label_0021_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "glowing_edges",
+      "thick_black_outline",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "lightning_strike",
+    "nes_cover",
+    "boss_battle",
+    "hero_sprite",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: قافلة الصحراء (DESERT CARAVAN)."
+}

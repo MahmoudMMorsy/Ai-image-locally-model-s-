@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_ui_title_badge_0310_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "gold_texture",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "black_border_nes",
+  "colors": [
+    "blue",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "arabic_text",
+    "castle_stage",
+    "pyramid_bg",
+    "boss_battle",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: معركة النهائي (FINAL BATTLE)."
+}

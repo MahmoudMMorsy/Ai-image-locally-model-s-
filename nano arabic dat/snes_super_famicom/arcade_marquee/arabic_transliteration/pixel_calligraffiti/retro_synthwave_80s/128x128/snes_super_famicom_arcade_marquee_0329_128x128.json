@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0329_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "grid_overlay",
+      "crt_scanlines",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "gold",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "skull_icon",
+    "title_screen",
+    "dragon_bg",
+    "pixel_font",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: سيد الحلبة (RING MASTER)."
+}

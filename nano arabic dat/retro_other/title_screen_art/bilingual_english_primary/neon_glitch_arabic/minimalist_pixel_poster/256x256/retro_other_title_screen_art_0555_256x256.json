@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_0555_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "16-bit_gradient",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "centered_emblem",
+  "colors": [
+    "blue",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "boss_battle",
+    "pyramid_bg",
+    "castle_stage",
+    "sub_title",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

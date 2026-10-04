@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_english_title_logo_0514_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "english_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "dripping_slime",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "nes_cover",
+    "sub_title",
+    "sega_grid",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

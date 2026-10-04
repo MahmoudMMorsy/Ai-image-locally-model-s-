@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arabic_title_logo_0505_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glitch_displacement",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "red",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "lightning_strike",
+    "dragon_bg",
+    "hero_sprite",
+    "skull_icon",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: معركة النهائي (FINAL BATTLE)."
+}

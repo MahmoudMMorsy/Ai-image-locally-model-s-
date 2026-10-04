@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_full_game_poster_0028_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "full_game_poster",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "thick_black_outline",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "lightning_strike",
+    "dragon_bg",
+    "pixel_frame",
+    "castle_stage",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
+}

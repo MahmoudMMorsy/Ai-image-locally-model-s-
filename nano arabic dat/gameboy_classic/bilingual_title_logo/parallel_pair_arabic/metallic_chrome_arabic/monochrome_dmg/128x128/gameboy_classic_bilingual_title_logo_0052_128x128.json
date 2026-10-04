@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_bilingual_title_logo_0052_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "dripping_slime",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "purple",
+    "black",
+    "blue"
+  ],
+  "tags": [
+    "pixel_typography",
+    "snes_cartridge",
+    "boss_battle",
+    "sword_icon",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

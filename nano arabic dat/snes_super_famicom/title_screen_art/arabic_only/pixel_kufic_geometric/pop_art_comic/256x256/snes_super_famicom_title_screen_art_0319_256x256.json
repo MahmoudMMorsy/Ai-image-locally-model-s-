@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_title_screen_art_0319_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "fire_effect",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "neon_cyan",
+    "white"
+  ],
+  "tags": [
+    "gameboy_box",
+    "pixel_frame",
+    "pyramid_bg",
+    "sega_grid",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

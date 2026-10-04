@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_bilingual_title_logo_0517_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "pixel_gradient",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "black_border_nes",
+  "colors": [
+    "black",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "dragon_bg",
+    "skull_icon",
+    "connected_letters",
+    "nes_cover",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
+}

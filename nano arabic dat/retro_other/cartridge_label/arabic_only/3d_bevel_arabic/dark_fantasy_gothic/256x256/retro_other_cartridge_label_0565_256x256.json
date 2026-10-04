@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_cartridge_label_0565_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "glowing_edges",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "desert_bg",
+    "space_ship",
+    "sword_icon",
+    "lightning_strike",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: معركة النهائي (FINAL BATTLE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_english_title_logo_0199_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "drop_shadow",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "castle_stage",
+    "pixel_explosion",
+    "skull_icon",
+    "title_screen",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

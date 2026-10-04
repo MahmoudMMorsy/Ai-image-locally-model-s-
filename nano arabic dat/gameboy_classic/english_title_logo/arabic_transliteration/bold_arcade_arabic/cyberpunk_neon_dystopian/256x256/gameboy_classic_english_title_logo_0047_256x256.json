@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_english_title_logo_0047_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "fire_effect",
+      "thick_black_outline",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "hero_sprite",
+    "lightning_strike",
+    "boss_battle",
+    "mecha_sprite",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

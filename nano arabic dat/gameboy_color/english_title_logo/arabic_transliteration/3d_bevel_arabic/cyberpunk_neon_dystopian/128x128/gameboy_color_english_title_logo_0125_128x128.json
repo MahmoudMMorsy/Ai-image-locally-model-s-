@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_english_title_logo_0125_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "drop_shadow",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "border_framed",
+  "colors": [
+    "gold",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "nes_cover",
+    "pixel_typography",
+    "castle_stage",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+}

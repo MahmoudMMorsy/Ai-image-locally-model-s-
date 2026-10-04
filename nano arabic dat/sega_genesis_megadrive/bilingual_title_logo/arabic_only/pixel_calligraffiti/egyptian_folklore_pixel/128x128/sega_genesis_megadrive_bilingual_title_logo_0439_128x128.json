@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_bilingual_title_logo_0439_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glowing_edges",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "sub_title",
+    "pyramid_bg",
+    "skull_icon",
+    "pixel_typography",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

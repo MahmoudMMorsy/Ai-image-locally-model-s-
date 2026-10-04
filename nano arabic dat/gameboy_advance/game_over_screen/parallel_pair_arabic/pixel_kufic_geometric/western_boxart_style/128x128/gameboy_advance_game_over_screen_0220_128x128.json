@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_game_over_screen_0220_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "game_over_screen",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "fire_effect",
+      "pixel_gradient",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "black_border_nes",
+  "colors": [
+    "blue",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "pixel_frame",
+    "nes_cover",
+    "connected_letters",
+    "pyramid_bg",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: معركة النهائي (FINAL BATTLE)."
+}

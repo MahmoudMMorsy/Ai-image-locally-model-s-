@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0169_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "fire_effect",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "white",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "dragon_bg",
+    "sword_icon",
+    "pixel_typography",
+    "arabic_text",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

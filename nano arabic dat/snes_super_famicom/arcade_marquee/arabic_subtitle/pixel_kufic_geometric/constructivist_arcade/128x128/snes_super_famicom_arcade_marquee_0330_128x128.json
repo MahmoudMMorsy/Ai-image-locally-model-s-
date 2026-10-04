@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0330_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "gold_texture",
+      "glitch_displacement",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "centered_emblem",
+  "colors": [
+    "purple",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "sub_title",
+    "castle_stage",
+    "dragon_bg",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_full_game_poster_0497_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "crt_scanlines",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "black",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "dragon_bg",
+    "pixel_explosion",
+    "space_ship",
+    "title_screen",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
+}

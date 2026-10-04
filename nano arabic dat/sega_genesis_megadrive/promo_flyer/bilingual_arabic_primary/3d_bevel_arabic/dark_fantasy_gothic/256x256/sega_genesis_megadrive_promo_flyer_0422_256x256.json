@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_promo_flyer_0422_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "chrome_bevel",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "border_framed",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "boss_battle",
+    "hero_sprite",
+    "gameboy_box",
+    "arabic_text",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

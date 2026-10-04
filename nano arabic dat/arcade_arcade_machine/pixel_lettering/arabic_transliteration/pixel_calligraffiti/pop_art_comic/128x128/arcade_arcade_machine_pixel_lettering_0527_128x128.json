@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_pixel_lettering_0527_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "dripping_slime",
+      "1-bit_dithering",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "white",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "arabic_text",
+    "hero_sprite",
+    "lightning_strike",
+    "connected_letters",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
+}

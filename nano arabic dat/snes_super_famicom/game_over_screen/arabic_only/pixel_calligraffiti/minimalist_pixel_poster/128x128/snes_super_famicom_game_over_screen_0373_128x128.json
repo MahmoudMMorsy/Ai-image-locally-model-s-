@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_game_over_screen_0373_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "gold_texture",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "black_border_nes",
+  "colors": [
+    "neon_cyan",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "lightning_strike",
+    "mecha_sprite",
+    "snes_cartridge",
+    "arabic_text",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: نصر الأبطال (VICTORY HEROES)."
+}
