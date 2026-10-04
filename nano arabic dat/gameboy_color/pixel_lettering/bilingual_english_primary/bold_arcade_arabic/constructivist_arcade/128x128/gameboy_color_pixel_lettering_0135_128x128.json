@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_pixel_lettering_0135_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "pixel_lettering",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "grid_overlay",
+      "glowing_edges",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "hero_sprite",
+    "nes_cover",
+    "pixel_frame",
+    "lightning_strike",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

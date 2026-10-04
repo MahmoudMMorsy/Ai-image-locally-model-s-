@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_full_game_poster_0496_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "full_game_poster",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glitch_displacement",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "white",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "sub_title",
+    "space_ship",
+    "pixel_font",
+    "pixel_explosion",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
+}

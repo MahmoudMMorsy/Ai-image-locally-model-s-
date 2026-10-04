@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_english_title_logo_0513_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "dripping_slime",
+      "16-bit_gradient",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "center_title_large",
+  "colors": [
+    "blue",
+    "white",
+    "gold"
+  ],
+  "tags": [
+    "hero_sprite",
+    "gameboy_box",
+    "connected_letters",
+    "lightning_strike",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

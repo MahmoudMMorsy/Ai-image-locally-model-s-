@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0325_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "1-bit_dithering",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "gold",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "boss_battle",
+    "pixel_font",
+    "sub_title",
+    "sword_icon",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: معركة النهائي (FINAL BATTLE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arabic_title_logo_0353_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "crt_scanlines",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "blue",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "title_screen",
+    "pixel_frame",
+    "nes_cover",
+    "gameboy_box",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
+}

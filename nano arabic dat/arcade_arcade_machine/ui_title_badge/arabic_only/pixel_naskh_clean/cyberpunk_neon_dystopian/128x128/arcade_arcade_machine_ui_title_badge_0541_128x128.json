@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_ui_title_badge_0541_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "thick_black_outline",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "black"
+  ],
+  "tags": [
+    "desert_bg",
+    "pixel_explosion",
+    "pixel_typography",
+    "lightning_strike",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: الفارس الشجاع (BRAVE KNIGHT)."
+}

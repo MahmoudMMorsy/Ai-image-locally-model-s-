@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_0554_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "1-bit_dithering",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "red",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "castle_stage",
+    "pixel_typography",
+    "boss_battle",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: سيد الحلبة (RING MASTER)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_cartridge_label_0024_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "16-bit_gradient",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "centered_emblem",
+  "colors": [
+    "purple",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "sub_title",
+    "sega_grid",
+    "snes_cartridge",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: أسطورة النور (LEGEND OF LIGHT)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_promo_flyer_0265_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "gold_texture",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "black_border_nes",
+  "colors": [
+    "red",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "nes_cover",
+    "dragon_bg",
+    "lightning_strike",
+    "arabic_text",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
+}

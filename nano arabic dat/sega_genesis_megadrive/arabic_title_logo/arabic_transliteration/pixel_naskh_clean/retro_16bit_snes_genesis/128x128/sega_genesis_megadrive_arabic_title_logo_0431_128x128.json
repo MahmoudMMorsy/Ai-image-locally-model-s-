@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_arabic_title_logo_0431_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "dripping_slime",
+      "fire_effect",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "dragon_bg",
+    "desert_bg",
+    "connected_letters",
+    "pyramid_bg",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: مدينة السايبر (CYBER CITY)."
+}

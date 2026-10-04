@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_bilingual_title_logo_0600_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "dripping_slime",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "sword_icon",
+    "mecha_sprite",
+    "arabic_text",
+    "snes_cartridge",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

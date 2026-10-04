@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_promo_flyer_0032_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "thick_black_outline",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "pixel_font",
+    "castle_stage",
+    "nes_cover",
+    "mecha_sprite",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
+}

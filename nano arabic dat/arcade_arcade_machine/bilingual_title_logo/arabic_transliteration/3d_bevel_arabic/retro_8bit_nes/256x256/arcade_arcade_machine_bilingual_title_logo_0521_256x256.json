@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_bilingual_title_logo_0521_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "chrome_bevel",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "border_framed",
+  "colors": [
+    "red",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "boss_battle",
+    "castle_stage",
+    "sword_icon",
+    "title_screen",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
+}

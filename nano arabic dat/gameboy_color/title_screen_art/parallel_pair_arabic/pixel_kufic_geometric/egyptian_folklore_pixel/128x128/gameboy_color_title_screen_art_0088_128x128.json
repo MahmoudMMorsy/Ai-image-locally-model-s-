@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_title_screen_art_0088_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "title_screen_art",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "glowing_edges",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "blue",
+    "gold",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_frame",
+    "pixel_explosion",
+    "desert_bg",
+    "sega_grid",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: نصر الأبطال (VICTORY HEROES)."
+}

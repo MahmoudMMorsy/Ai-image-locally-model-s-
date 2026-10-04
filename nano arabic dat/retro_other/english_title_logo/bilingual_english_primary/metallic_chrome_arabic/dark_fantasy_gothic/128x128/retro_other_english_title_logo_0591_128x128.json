@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_english_title_logo_0591_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "glitch_displacement",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "boss_battle",
+    "desert_bg",
+    "sword_icon",
+    "pixel_typography",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

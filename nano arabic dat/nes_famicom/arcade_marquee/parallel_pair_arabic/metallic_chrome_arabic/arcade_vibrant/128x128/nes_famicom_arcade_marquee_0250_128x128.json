@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0250_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "1-bit_dithering",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "red",
+    "white"
+  ],
+  "tags": [
+    "pixel_frame",
+    "castle_stage",
+    "lightning_strike",
+    "arabic_text",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: معركة النهائي (FINAL BATTLE)."
+}

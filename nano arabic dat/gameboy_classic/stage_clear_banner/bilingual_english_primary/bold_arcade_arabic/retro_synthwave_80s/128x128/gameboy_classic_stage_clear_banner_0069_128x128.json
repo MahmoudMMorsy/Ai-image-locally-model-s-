@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_stage_clear_banner_0069_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "glitch_displacement",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "centered_emblem",
+  "colors": [
+    "gold",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "space_ship",
+    "pixel_frame",
+    "boss_battle",
+    "gameboy_box",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arabic_title_logo_0193_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "fire_effect",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "white",
+    "red"
+  ],
+  "tags": [
+    "arabic_text",
+    "lightning_strike",
+    "mecha_sprite",
+    "title_screen",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
+}

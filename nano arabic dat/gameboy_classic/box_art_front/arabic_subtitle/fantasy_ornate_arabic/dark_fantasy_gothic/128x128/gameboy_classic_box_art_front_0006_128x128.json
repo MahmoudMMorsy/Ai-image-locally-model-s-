@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_box_art_front_0006_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "fire_effect",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "neon_cyan",
+    "white"
+  ],
+  "tags": [
+    "pixel_font",
+    "snes_cartridge",
+    "space_ship",
+    "pixel_typography",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

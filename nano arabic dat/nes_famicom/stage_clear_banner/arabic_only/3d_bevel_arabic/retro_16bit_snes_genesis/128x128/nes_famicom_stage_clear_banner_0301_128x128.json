@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_stage_clear_banner_0301_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "drop_shadow",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "skull_icon",
+    "snes_cartridge",
+    "hero_sprite",
+    "pixel_font",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

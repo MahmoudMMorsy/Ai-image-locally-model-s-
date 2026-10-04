@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_promo_flyer_0269_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "gold_texture",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "gold",
+    "neon_cyan"
+  ],
+  "tags": [
+    "desert_bg",
+    "snes_cartridge",
+    "arabic_text",
+    "sword_icon",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: سيد الحلبة (RING MASTER)."
+}

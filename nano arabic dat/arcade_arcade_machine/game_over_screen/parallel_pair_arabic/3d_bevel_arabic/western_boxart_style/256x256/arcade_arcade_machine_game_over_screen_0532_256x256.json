@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_game_over_screen_0532_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "game_over_screen",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "gold_texture",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "neon_cyan",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "castle_stage",
+    "space_ship",
+    "snes_cartridge",
+    "pyramid_bg",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

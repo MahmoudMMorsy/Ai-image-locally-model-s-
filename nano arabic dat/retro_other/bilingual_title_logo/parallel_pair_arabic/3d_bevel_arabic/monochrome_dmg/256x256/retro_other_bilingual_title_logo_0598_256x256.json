@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_bilingual_title_logo_0598_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "drop_shadow",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "gameboy_box",
+    "lightning_strike",
+    "sega_grid",
+    "title_screen",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: نصر الأبطال (VICTORY HEROES)."
+}

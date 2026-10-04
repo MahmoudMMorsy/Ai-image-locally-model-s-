@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arcade_marquee_0486_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "16-bit_gradient",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "dragon_bg",
+    "arabic_text",
+    "hero_sprite",
+    "skull_icon",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: قافلة الصحراء (DESERT CARAVAN)."
+}

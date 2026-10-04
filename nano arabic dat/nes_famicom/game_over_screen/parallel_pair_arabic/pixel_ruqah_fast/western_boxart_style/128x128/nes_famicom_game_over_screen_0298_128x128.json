@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_game_over_screen_0298_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "16-bit_gradient",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "connected_letters",
+    "nes_cover",
+    "title_screen",
+    "mecha_sprite",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_ruqah_fast title: نصر الأبطال (VICTORY HEROES)."
+}

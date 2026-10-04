@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_arcade_marquee_0094_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "fire_effect",
+      "chrome_bevel",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "black_border_nes",
+  "colors": [
+    "white",
+    "black",
+    "gold"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "dragon_bg",
+    "pixel_frame",
+    "sub_title",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with fantasy_ornate_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

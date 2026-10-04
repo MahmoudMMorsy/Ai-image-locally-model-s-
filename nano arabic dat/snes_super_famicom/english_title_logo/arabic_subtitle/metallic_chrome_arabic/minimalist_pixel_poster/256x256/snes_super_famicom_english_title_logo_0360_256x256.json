@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_english_title_logo_0360_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "16-bit_gradient",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "center_title_large",
+  "colors": [
+    "blue",
+    "red",
+    "white"
+  ],
+  "tags": [
+    "gameboy_box",
+    "space_ship",
+    "lightning_strike",
+    "pixel_font",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

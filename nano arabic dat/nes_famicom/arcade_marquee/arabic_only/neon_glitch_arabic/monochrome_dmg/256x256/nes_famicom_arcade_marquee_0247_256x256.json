@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0247_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "drop_shadow",
+      "grid_overlay",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "black_border_nes",
+  "colors": [
+    "white",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "hero_sprite",
+    "boss_battle",
+    "connected_letters",
+    "pixel_font",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

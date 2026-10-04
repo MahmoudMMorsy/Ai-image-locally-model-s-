@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_cartridge_label_0257_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "dripping_slime",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "sword_icon",
+    "castle_stage",
+    "boss_battle",
+    "dragon_bg",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

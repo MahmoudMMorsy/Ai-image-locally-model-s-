@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_stage_clear_banner_0149_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "grid_overlay",
+      "fire_effect",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "red",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "dragon_bg",
+    "snes_cartridge",
+    "castle_stage",
+    "pixel_explosion",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with fantasy_ornate_arabic title: سيد الحلبة (RING MASTER)."
+}

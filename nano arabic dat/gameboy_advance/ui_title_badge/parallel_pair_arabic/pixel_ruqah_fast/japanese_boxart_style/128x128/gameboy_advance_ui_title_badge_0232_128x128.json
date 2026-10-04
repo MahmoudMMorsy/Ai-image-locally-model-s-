@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_ui_title_badge_0232_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "ui_title_badge",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "dripping_slime",
+      "crt_scanlines",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "gameboy_box",
+    "pixel_typography",
+    "pixel_font",
+    "sword_icon",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: محارب الساموراي (SAMURAI WARRIOR)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_ui_title_badge_0307_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "glitch_displacement",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "boss_battle",
+    "castle_stage",
+    "pixel_frame",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: محارب الساموراي (SAMURAI WARRIOR)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0173_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glowing_edges",
+      "16-bit_gradient",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "boss_battle",
+    "pixel_explosion",
+    "pyramid_bg",
+    "snes_cartridge",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: عرش التنين (DRAGON THRONE)."
+}

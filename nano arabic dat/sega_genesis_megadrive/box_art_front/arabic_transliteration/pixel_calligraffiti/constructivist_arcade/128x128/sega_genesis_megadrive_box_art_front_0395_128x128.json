@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_box_art_front_0395_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "gold_texture",
+      "drop_shadow",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "border_framed",
+  "colors": [
+    "gold",
+    "red",
+    "white"
+  ],
+  "tags": [
+    "gameboy_box",
+    "mecha_sprite",
+    "boss_battle",
+    "pixel_frame",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: أعماق المحيط (OCEAN DEPTHS)."
+}

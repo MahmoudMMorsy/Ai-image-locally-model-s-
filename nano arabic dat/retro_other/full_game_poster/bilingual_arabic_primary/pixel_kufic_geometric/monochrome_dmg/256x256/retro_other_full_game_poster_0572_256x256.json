@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_full_game_poster_0572_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "full_game_poster",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "grid_overlay",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "black",
+    "neon_cyan",
+    "red"
+  ],
+  "tags": [
+    "sega_grid",
+    "sword_icon",
+    "snes_cartridge",
+    "arabic_text",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
+}

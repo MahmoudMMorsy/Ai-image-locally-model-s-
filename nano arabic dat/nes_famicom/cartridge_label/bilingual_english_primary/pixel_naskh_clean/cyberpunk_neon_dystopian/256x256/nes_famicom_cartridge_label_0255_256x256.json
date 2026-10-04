@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_cartridge_label_0255_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glowing_edges",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "neon_cyan",
+    "white",
+    "blue"
+  ],
+  "tags": [
+    "lightning_strike",
+    "connected_letters",
+    "sword_icon",
+    "castle_stage",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

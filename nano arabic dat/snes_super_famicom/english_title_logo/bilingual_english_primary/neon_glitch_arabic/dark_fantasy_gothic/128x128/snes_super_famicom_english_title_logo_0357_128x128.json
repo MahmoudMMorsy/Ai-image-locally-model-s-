@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_english_title_logo_0357_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "fire_effect",
+      "pixel_gradient",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "centered_emblem",
+  "colors": [
+    "gold",
+    "red",
+    "white"
+  ],
+  "tags": [
+    "gameboy_box",
+    "lightning_strike",
+    "hero_sprite",
+    "castle_stage",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

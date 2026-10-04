@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_bilingual_title_logo_0128_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "gold_texture",
+      "thick_black_outline",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "sega_grid",
+    "pyramid_bg",
+    "gameboy_box",
+    "sword_icon",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: عرش التنين (DRAGON THRONE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_promo_flyer_0501_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "fire_effect",
+      "glitch_displacement",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "white",
+    "blue"
+  ],
+  "tags": [
+    "sega_grid",
+    "title_screen",
+    "mecha_sprite",
+    "snes_cartridge",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

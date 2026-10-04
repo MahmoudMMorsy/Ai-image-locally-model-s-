@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0170_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "grid_overlay",
+      "crt_scanlines",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "border_framed",
+  "colors": [
+    "blue",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "arabic_text",
+    "mecha_sprite",
+    "pyramid_bg",
+    "skull_icon",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+}

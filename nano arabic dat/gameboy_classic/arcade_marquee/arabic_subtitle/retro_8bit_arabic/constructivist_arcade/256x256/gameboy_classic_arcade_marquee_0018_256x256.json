@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_arcade_marquee_0018_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "chrome_bevel",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "center_title_large",
+  "colors": [
+    "neon_cyan",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "desert_bg",
+    "sega_grid",
+    "boss_battle",
+    "title_screen",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

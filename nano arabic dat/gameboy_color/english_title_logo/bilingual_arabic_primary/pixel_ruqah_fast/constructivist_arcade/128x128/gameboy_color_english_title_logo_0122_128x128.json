@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_english_title_logo_0122_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "grid_overlay",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "red",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "skull_icon",
+    "connected_letters",
+    "space_ship",
+    "sub_title",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: استكشاف الفضاء (SPACE EXPLORER)."
+}

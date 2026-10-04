@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_game_over_screen_0377_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "pixel_gradient",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "black"
+  ],
+  "tags": [
+    "space_ship",
+    "pixel_typography",
+    "sub_title",
+    "boss_battle",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

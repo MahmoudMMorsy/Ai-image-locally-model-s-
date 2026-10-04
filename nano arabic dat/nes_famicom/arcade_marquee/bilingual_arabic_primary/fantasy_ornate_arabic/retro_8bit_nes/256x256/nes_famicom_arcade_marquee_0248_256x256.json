@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0248_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "dripping_slime",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "purple",
+    "black",
+    "gold"
+  ],
+  "tags": [
+    "nes_cover",
+    "connected_letters",
+    "mecha_sprite",
+    "boss_battle",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: عرش التنين (DRAGON THRONE)."
+}

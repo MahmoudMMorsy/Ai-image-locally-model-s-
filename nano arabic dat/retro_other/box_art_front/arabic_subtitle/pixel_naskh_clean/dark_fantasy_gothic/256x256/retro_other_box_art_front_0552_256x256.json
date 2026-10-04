@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_box_art_front_0552_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "grid_overlay",
+      "1-bit_dithering",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "sega_grid",
+    "desert_bg",
+    "gameboy_box",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: سر الأهرامات (PYRAMID SECRET)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_box_art_front_0548_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "box_art_front",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "grid_overlay",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "border_framed",
+  "colors": [
+    "blue",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "space_ship",
+    "arabic_text",
+    "pyramid_bg",
+    "desert_bg",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_thuluth_display title: عرش التنين (DRAGON THRONE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_ui_title_badge_0308_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "gold_texture",
+      "16-bit_gradient",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "white",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "desert_bg",
+    "gameboy_box",
+    "pyramid_bg",
+    "snes_cartridge",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: عرش التنين (DRAGON THRONE)."
+}

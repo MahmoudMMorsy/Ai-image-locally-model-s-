@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_full_game_poster_0340_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "full_game_poster",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "pixel_gradient",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "blue",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "dragon_bg",
+    "hero_sprite",
+    "sub_title",
+    "pixel_typography",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: معركة النهائي (FINAL BATTLE)."
+}

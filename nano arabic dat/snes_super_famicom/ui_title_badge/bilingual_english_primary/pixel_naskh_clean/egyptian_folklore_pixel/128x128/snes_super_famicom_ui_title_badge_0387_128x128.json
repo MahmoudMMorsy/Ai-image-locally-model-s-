@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_ui_title_badge_0387_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "grid_overlay",
+      "crt_scanlines",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "center_title_large",
+  "colors": [
+    "white",
+    "red",
+    "blue"
+  ],
+  "tags": [
+    "sword_icon",
+    "castle_stage",
+    "mecha_sprite",
+    "dragon_bg",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: سر الأهرامات (PYRAMID SECRET)."
+}

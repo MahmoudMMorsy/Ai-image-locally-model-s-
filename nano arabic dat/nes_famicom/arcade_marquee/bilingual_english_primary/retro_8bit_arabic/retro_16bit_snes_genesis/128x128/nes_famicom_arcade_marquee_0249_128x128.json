@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0249_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "chrome_bevel",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "centered_emblem",
+  "colors": [
+    "red",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "desert_bg",
+    "lightning_strike",
+    "pixel_explosion",
+    "pyramid_bg",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

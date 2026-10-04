@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_full_game_poster_0571_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "chrome_bevel",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "black_border_nes",
+  "colors": [
+    "red",
+    "white",
+    "gold"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "dragon_bg",
+    "pixel_font",
+    "castle_stage",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: الفارس الشجاع (BRAVE KNIGHT)."
+}

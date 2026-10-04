@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_game_over_screen_0142_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "game_over_screen",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "fire_effect",
+      "chrome_bevel",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "neon_cyan",
+    "blue",
+    "white"
+  ],
+  "tags": [
+    "nes_cover",
+    "snes_cartridge",
+    "pixel_frame",
+    "gameboy_box",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: محارب الساموراي (SAMURAI WARRIOR)."
+}

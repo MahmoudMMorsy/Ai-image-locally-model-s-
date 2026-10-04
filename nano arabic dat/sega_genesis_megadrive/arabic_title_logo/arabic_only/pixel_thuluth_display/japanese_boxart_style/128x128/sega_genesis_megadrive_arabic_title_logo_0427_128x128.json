@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_arabic_title_logo_0427_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "fire_effect",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "black_border_nes",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "dragon_bg",
+    "sub_title",
+    "arabic_text",
+    "pixel_explosion",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_thuluth_display title: محارب الساموراي (SAMURAI WARRIOR)."
+}

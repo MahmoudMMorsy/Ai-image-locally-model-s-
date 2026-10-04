@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_stage_clear_banner_0225_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "crt_scanlines",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "center_title_large",
+  "colors": [
+    "blue",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "nes_cover",
+    "title_screen",
+    "connected_letters",
+    "gameboy_box",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

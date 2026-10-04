@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_bilingual_title_logo_0210_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glitch_displacement",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "connected_letters",
+    "pixel_font",
+    "sword_icon",
+    "snes_cartridge",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

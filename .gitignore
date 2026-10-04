@@ -5,3 +5,9 @@ __pycache__/
 *.txt
 mm.trine/
 models/nano_arcade_03/weights/*
+*.png
+*.json
+nano_arabic_dat/
+nano arabic dat
+/nano arabic dat
+/nano arabic dat/**

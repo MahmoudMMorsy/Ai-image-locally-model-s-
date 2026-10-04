@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_pixel_lettering_0367_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "drop_shadow",
+      "glitch_displacement",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "gameboy_box",
+    "skull_icon",
+    "pixel_font",
+    "boss_battle",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

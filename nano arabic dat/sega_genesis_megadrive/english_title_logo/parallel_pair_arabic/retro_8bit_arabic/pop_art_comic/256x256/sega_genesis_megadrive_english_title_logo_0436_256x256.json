@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_english_title_logo_0436_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "english_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "crt_scanlines",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "black_border_nes",
+  "colors": [
+    "black",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "pixel_typography",
+    "snes_cartridge",
+    "pixel_frame",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

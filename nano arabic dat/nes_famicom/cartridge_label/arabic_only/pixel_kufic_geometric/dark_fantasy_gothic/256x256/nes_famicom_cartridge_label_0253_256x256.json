@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_cartridge_label_0253_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "16-bit_gradient",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "pixel_font",
+    "skull_icon",
+    "mecha_sprite",
+    "space_ship",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: نصر الأبطال (VICTORY HEROES)."
+}

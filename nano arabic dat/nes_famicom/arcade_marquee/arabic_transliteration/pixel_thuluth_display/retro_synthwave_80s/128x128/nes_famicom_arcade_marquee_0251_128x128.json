@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0251_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "chrome_bevel",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "black",
+    "blue",
+    "white"
+  ],
+  "tags": [
+    "pixel_font",
+    "sword_icon",
+    "sub_title",
+    "castle_stage",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: مدينة السايبر (CYBER CITY)."
+}

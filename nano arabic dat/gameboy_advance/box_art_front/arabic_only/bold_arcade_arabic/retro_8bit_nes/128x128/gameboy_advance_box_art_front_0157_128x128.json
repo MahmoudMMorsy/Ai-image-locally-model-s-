@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_box_art_front_0157_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "chrome_bevel",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "black_border_nes",
+  "colors": [
+    "black",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "arabic_text",
+    "boss_battle",
+    "sub_title",
+    "space_ship",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

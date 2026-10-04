@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_promo_flyer_0035_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "drop_shadow",
+      "grid_overlay",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "border_framed",
+  "colors": [
+    "neon_cyan",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "pixel_font",
+    "hero_sprite",
+    "title_screen",
+    "pixel_frame",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
+}

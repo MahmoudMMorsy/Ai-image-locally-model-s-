@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_arcade_marquee_0016_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "gold_texture",
+      "1-bit_dithering",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "purple",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "nes_cover",
+    "desert_bg",
+    "title_screen",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

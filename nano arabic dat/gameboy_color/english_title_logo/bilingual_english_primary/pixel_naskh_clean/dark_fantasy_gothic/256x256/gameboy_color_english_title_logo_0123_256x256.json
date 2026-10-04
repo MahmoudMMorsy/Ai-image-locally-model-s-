@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_english_title_logo_0123_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "gold_texture",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "boss_battle",
+    "pixel_font",
+    "lightning_strike",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
+}

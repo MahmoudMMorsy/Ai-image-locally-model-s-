@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_title_screen_art_0012_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "16-bit_gradient",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "neon_cyan",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "title_screen",
+    "dragon_bg",
+    "space_ship",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_ruqah_fast title: سر الأهرامات (PYRAMID SECRET)."
+}

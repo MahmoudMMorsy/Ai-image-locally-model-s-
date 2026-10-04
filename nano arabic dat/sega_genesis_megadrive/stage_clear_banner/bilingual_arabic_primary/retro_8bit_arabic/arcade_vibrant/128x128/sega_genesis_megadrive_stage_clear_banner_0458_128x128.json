@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_stage_clear_banner_0458_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "pixel_gradient",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_font",
+    "skull_icon",
+    "pixel_explosion",
+    "lightning_strike",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: عرش التنين (DRAGON THRONE)."
+}

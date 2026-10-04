@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_pixel_lettering_0602_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "pixel_lettering",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "thick_black_outline",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "red",
+    "blue",
+    "white"
+  ],
+  "tags": [
+    "sword_icon",
+    "sub_title",
+    "mecha_sprite",
+    "title_screen",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

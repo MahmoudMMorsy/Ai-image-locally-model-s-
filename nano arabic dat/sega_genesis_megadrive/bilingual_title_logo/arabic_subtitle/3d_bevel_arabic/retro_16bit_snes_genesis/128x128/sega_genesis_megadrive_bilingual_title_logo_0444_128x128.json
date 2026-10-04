@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_bilingual_title_logo_0444_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "gold_texture",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "gold",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "pixel_typography",
+    "sega_grid",
+    "connected_letters",
+    "pixel_frame",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

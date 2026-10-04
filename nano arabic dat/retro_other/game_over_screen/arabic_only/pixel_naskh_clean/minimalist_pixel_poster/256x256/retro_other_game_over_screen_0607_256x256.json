@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_game_over_screen_0607_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "gold_texture",
+      "glowing_edges",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "white",
+    "blue"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "pixel_font",
+    "boss_battle",
+    "lightning_strike",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: محارب الساموراي (SAMURAI WARRIOR)."
+}

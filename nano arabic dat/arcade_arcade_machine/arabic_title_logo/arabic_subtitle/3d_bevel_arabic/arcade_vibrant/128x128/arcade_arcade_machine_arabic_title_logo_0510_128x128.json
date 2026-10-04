@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arabic_title_logo_0510_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "drop_shadow",
+      "pixel_gradient",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "sub_title",
+    "connected_letters",
+    "nes_cover",
+    "hero_sprite",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

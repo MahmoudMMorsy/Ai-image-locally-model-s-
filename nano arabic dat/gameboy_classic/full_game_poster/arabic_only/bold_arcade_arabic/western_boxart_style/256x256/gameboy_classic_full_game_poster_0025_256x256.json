@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_full_game_poster_0025_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glowing_edges",
+      "thick_black_outline",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "black",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "arabic_text",
+    "sub_title",
+    "dragon_bg",
+    "pixel_typography",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: معركة النهائي (FINAL BATTLE)."
+}

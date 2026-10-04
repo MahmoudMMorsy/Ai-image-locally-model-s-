@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_stage_clear_banner_0616_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "dripping_slime",
+      "drop_shadow",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "black_border_nes",
+  "colors": [
+    "blue",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "dragon_bg",
+    "pixel_typography",
+    "title_screen",
+    "pixel_explosion",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: الفارس الشجاع (BRAVE KNIGHT)."
+}

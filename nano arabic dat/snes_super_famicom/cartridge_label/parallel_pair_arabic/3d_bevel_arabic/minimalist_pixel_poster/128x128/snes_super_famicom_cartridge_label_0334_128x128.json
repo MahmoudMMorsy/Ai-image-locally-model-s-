@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_cartridge_label_0334_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "dripping_slime",
+      "drop_shadow",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "space_ship",
+    "title_screen",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

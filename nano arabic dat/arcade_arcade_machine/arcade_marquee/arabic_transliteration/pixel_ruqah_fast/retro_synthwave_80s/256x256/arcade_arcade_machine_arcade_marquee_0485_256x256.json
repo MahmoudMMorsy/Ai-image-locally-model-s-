@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arcade_marquee_0485_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "drop_shadow",
+      "glowing_edges",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "purple",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "castle_stage",
+    "mecha_sprite",
+    "pixel_explosion",
+    "hero_sprite",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: أعماق المحيط (OCEAN DEPTHS)."
+}

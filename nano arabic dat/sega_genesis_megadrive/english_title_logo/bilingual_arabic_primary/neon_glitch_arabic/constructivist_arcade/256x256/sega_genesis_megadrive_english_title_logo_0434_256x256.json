@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_english_title_logo_0434_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "fire_effect",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "gold",
+    "white",
+    "red"
+  ],
+  "tags": [
+    "gameboy_box",
+    "sword_icon",
+    "lightning_strike",
+    "desert_bg",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: سيد الحلبة (RING MASTER)."
+}
