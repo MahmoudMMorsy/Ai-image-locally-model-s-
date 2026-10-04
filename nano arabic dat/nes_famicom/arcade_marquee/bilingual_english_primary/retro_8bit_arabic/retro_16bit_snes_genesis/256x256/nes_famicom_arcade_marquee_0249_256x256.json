@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "drop_shadow",
-      "glowing_edges"
+      "dripping_slime",
+      "glitch_displacement",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
-    "red",
-    "gold"
+    "black",
+    "white",
+    "red"
   ],
   "tags": [
-    "desert_bg",
-    "nes_cover",
-    "castle_stage",
-    "sub_title",
-    "skull_icon",
+    "snes_cartridge",
+    "title_screen",
+    "hero_sprite",
+    "pyramid_bg",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

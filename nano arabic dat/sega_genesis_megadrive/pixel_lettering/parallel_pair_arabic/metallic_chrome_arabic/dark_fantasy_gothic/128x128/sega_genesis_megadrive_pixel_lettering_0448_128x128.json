@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "crt_scanlines",
       "glitch_displacement",
-      "grid_overlay"
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
+    "neon_cyan",
     "red",
     "gold"
   ],
   "tags": [
-    "connected_letters",
+    "pixel_frame",
+    "castle_stage",
+    "pyramid_bg",
+    "sub_title",
     "title_screen",
-    "space_ship",
-    "hero_sprite",
-    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

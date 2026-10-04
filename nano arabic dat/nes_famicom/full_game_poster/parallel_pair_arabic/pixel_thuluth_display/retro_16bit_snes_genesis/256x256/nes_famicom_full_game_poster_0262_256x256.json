@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "crt_scanlines",
-      "chrome_bevel",
-      "drop_shadow"
+      "grid_overlay",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "gold",
-    "blue"
+    "red",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
+    "connected_letters",
+    "pixel_frame",
+    "castle_stage",
+    "hero_sprite",
     "title_screen",
-    "pixel_explosion",
-    "pixel_typography",
-    "skull_icon",
-    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

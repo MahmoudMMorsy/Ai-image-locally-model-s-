@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "1-bit_dithering",
-      "grid_overlay"
+      "fire_effect",
+      "grid_overlay",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "black",
-    "red"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
+    "skull_icon",
     "desert_bg",
-    "space_ship",
-    "sub_title",
+    "title_screen",
     "nes_cover",
-    "pixel_font",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

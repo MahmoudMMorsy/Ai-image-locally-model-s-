@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "gold_texture",
-      "drop_shadow",
-      "crt_scanlines"
+      "dripping_slime",
+      "glitch_displacement",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
     "gold",
-    "purple"
+    "purple",
+    "black"
   ],
   "tags": [
-    "snes_cartridge",
-    "desert_bg",
-    "pixel_font",
-    "sub_title",
-    "gameboy_box",
+    "space_ship",
+    "title_screen",
+    "hero_sprite",
+    "pixel_typography",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

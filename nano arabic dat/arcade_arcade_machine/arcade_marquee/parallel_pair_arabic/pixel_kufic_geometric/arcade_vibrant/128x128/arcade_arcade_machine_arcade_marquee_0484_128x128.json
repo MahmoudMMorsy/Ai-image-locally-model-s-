@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "dripping_slime",
-      "glowing_edges",
-      "16-bit_gradient"
+      "thick_black_outline",
+      "16-bit_gradient",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "gold",
-    "blue",
-    "purple"
+    "black",
+    "purple",
+    "white"
   ],
   "tags": [
-    "sega_grid",
-    "sword_icon",
     "pixel_explosion",
-    "sub_title",
-    "pixel_typography",
+    "pyramid_bg",
+    "hero_sprite",
+    "desert_bg",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

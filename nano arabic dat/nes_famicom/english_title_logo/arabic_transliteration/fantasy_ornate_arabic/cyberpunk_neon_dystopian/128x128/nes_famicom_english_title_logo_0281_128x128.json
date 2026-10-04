@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "thick_black_outline",
-      "glowing_edges"
+      "dripping_slime",
+      "drop_shadow",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "gold",
-    "red",
+    "neon_cyan",
     "white"
   ],
   "tags": [
-    "pixel_font",
-    "arabic_text",
-    "nes_cover",
-    "title_screen",
+    "mecha_sprite",
+    "castle_stage",
+    "pixel_typography",
     "boss_battle",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

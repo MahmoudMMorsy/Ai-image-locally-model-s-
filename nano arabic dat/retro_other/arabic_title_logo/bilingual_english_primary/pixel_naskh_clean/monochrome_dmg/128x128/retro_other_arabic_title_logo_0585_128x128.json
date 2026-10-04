@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
-      "drop_shadow",
-      "16-bit_gradient"
+      "1-bit_dithering",
+      "gold_texture",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "center_title_large",
   "colors": [
-    "blue",
+    "gold",
     "neon_cyan",
-    "gold"
+    "red"
   ],
   "tags": [
+    "pixel_explosion",
+    "pixel_typography",
     "pixel_frame",
-    "snes_cartridge",
-    "pixel_font",
-    "desert_bg",
-    "mecha_sprite",
+    "nes_cover",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "dripping_slime",
-      "fire_effect"
+      "chrome_bevel",
+      "1-bit_dithering",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "purple",
-    "white"
+    "red",
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
+    "hero_sprite",
+    "pixel_typography",
+    "castle_stage",
+    "nes_cover",
     "skull_icon",
-    "space_ship",
-    "sword_icon",
-    "sega_grid",
-    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

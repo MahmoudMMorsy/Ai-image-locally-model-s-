@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "fire_effect",
-      "glowing_edges"
+      "16-bit_gradient",
+      "thick_black_outline",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "neon_cyan",
-    "gold"
+    "black",
+    "blue",
+    "red"
   ],
   "tags": [
     "arabic_text",
-    "pixel_frame",
+    "lightning_strike",
+    "pixel_explosion",
     "title_screen",
-    "sega_grid",
-    "snes_cartridge",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

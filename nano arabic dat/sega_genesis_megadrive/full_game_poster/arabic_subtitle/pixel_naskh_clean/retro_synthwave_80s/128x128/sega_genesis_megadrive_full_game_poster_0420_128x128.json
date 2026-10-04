@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "1-bit_dithering",
-      "thick_black_outline",
-      "dripping_slime"
+      "dripping_slime",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "red",
-    "black"
+    "neon_cyan",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "skull_icon",
-    "dragon_bg",
-    "mecha_sprite",
-    "pixel_frame",
     "arabic_text",
+    "dragon_bg",
+    "sword_icon",
+    "castle_stage",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "gold_texture",
-      "glitch_displacement"
+      "1-bit_dithering",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
-    "neon_cyan",
-    "gold"
+    "blue",
+    "red",
+    "white"
   ],
   "tags": [
-    "lightning_strike",
+    "gameboy_box",
+    "skull_icon",
+    "pixel_font",
     "sword_icon",
-    "pixel_typography",
-    "snes_cartridge",
-    "sub_title",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

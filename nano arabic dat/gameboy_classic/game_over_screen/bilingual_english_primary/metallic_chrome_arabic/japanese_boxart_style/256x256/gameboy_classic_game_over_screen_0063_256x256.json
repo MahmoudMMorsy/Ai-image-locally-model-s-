@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "pixel_gradient",
-      "crt_scanlines",
-      "fire_effect"
+      "chrome_bevel",
+      "1-bit_dithering",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "center_title_large",
   "colors": [
     "red",
-    "neon_cyan",
+    "purple",
     "gold"
   ],
   "tags": [
-    "pyramid_bg",
-    "sword_icon",
+    "hero_sprite",
+    "gameboy_box",
+    "connected_letters",
+    "pixel_typography",
     "sega_grid",
-    "skull_icon",
-    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

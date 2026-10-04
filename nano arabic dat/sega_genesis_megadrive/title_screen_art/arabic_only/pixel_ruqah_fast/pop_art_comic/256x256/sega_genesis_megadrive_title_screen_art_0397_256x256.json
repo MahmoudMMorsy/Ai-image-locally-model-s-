@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "crt_scanlines",
-      "1-bit_dithering",
-      "grid_overlay"
+      "dripping_slime",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "purple",
-    "black"
+    "gold",
+    "red",
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "sega_grid",
-    "arabic_text",
+    "hero_sprite",
     "sub_title",
-    "pixel_explosion",
+    "arabic_text",
+    "nes_cover",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

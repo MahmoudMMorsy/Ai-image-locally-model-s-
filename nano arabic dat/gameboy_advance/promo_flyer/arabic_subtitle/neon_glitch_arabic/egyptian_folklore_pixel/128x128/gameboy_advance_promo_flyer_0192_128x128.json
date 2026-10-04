@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "1-bit_dithering",
-      "fire_effect"
+      "pixel_gradient",
+      "crt_scanlines",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "red",
-    "neon_cyan"
+    "black",
+    "purple"
   ],
   "tags": [
+    "dragon_bg",
+    "pixel_typography",
     "title_screen",
-    "sword_icon",
-    "arabic_text",
-    "pixel_explosion",
-    "space_ship",
+    "pixel_font",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

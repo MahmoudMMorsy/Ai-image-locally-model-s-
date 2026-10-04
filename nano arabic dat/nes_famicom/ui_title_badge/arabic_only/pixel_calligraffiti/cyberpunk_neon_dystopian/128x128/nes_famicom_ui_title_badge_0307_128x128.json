@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "glitch_displacement",
-      "glowing_edges"
+      "pixel_gradient",
+      "glowing_edges",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "gold",
     "black",
-    "red",
-    "neon_cyan"
+    "blue"
   ],
   "tags": [
-    "pyramid_bg",
-    "boss_battle",
-    "castle_stage",
-    "pixel_frame",
-    "dragon_bg",
+    "pixel_font",
+    "lightning_strike",
+    "connected_letters",
+    "pixel_explosion",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

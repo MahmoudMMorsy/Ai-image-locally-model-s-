@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "gold_texture",
-      "drop_shadow",
-      "chrome_bevel"
+      "16-bit_gradient",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
+    "gold",
     "white",
-    "purple"
+    "black"
   ],
   "tags": [
-    "snes_cartridge",
     "pixel_font",
-    "sword_icon",
-    "gameboy_box",
-    "sega_grid",
+    "boss_battle",
+    "desert_bg",
+    "sub_title",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

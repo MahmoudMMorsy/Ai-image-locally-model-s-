@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "pixel_gradient",
-      "grid_overlay",
-      "fire_effect"
+      "16-bit_gradient",
+      "crt_scanlines",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "white",
-    "purple"
+    "gold",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "title_screen",
-    "mecha_sprite",
     "lightning_strike",
-    "space_ship",
+    "pixel_frame",
     "arabic_text",
+    "gameboy_box",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

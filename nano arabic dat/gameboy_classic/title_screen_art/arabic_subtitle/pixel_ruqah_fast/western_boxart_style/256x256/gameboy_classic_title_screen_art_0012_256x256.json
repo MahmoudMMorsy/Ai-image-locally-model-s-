@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "chrome_bevel",
+      "thick_black_outline",
       "glitch_displacement",
-      "crt_scanlines"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "grid_framed_boxart",
   "colors": [
+    "blue",
     "gold",
-    "purple",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
-    "hero_sprite",
+    "snes_cartridge",
     "pyramid_bg",
-    "sega_grid",
-    "gameboy_box",
-    "dragon_bg",
+    "sub_title",
+    "desert_bg",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

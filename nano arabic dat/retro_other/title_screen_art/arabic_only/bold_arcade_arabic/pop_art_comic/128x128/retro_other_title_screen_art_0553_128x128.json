@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "drop_shadow",
-      "glitch_displacement",
-      "grid_overlay"
+      "1-bit_dithering",
+      "gold_texture",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "black_border_nes",
   "colors": [
+    "purple",
     "neon_cyan",
-    "white",
     "blue"
   ],
   "tags": [
-    "connected_letters",
-    "dragon_bg",
-    "sub_title",
-    "desert_bg",
-    "pixel_typography",
+    "castle_stage",
+    "pixel_frame",
+    "nes_cover",
+    "hero_sprite",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

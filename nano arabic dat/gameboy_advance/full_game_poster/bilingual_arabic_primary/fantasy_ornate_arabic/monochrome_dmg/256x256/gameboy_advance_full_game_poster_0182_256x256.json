@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
-      "gold_texture",
-      "glowing_edges"
+      "crt_scanlines",
+      "1-bit_dithering",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,14 +18,14 @@
   "genre": "platformer",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "blue",
-    "purple",
-    "white"
+    "white",
+    "gold",
+    "black"
   ],
   "tags": [
-    "boss_battle",
-    "skull_icon",
-    "mecha_sprite",
+    "pyramid_bg",
+    "sword_icon",
+    "arabic_text",
     "pixel_typography",
     "snes_cartridge",
     "arabic_text",

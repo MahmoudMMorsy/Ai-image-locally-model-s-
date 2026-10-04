@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "gold_texture",
-      "glowing_edges",
-      "fire_effect"
+      "glitch_displacement",
+      "drop_shadow",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
-    "white",
-    "blue"
+    "gold",
+    "black",
+    "white"
   ],
   "tags": [
-    "pixel_explosion",
+    "pixel_frame",
+    "gameboy_box",
     "pixel_font",
-    "boss_battle",
-    "lightning_strike",
-    "dragon_bg",
+    "arabic_text",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

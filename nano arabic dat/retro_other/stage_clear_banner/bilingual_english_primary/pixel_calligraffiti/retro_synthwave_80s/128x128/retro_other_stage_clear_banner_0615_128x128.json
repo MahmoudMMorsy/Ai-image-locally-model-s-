@@ -10,7 +10,7 @@
     "text_effects": [
       "crt_scanlines",
       "chrome_bevel",
-      "gold_texture"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "blue"
+    "white",
+    "red",
+    "gold"
   ],
   "tags": [
+    "boss_battle",
     "nes_cover",
-    "snes_cartridge",
-    "connected_letters",
-    "arabic_text",
-    "lightning_strike",
+    "space_ship",
+    "sword_icon",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

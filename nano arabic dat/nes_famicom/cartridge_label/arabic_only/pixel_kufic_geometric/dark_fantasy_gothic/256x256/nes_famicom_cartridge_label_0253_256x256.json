@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "16-bit_gradient",
-      "dripping_slime"
+      "gold_texture",
+      "thick_black_outline",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "neon_cyan",
-    "purple"
+    "gold",
+    "white",
+    "black"
   ],
   "tags": [
-    "pixel_font",
+    "pixel_typography",
     "skull_icon",
-    "mecha_sprite",
-    "space_ship",
-    "sub_title",
+    "pyramid_bg",
+    "nes_cover",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

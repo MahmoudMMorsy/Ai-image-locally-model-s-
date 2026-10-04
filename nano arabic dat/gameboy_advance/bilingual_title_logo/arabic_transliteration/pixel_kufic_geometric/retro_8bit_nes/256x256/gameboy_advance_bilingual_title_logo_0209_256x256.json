@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
-      "glowing_edges"
+      "glitch_displacement",
+      "dripping_slime",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,14 +19,14 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "purple",
-    "white",
-    "black"
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "space_ship",
+    "boss_battle",
     "sub_title",
-    "pixel_font",
-    "hero_sprite",
+    "sword_icon",
+    "pyramid_bg",
     "gameboy_box",
     "arabic_text",
     "connected_letters",

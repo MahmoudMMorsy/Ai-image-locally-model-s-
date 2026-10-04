@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
+      "grid_overlay",
       "dripping_slime",
-      "gold_texture"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
     "gold",
+    "red",
     "purple"
   ],
   "tags": [
-    "connected_letters",
-    "pixel_typography",
-    "arabic_text",
-    "castle_stage",
-    "pixel_explosion",
+    "skull_icon",
+    "pixel_font",
+    "hero_sprite",
+    "title_screen",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

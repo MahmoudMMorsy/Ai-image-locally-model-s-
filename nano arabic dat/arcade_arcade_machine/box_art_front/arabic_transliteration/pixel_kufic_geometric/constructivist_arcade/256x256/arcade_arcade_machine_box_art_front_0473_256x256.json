@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "16-bit_gradient",
       "dripping_slime",
-      "gold_texture",
-      "grid_overlay"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "gold"
+    "red",
+    "gold",
+    "black"
   ],
   "tags": [
-    "nes_cover",
-    "pixel_frame",
-    "pixel_explosion",
-    "sub_title",
-    "gameboy_box",
+    "boss_battle",
+    "arabic_text",
+    "mecha_sprite",
+    "sword_icon",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

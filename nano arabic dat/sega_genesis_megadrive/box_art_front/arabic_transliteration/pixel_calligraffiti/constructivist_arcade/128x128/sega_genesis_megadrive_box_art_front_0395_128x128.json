@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "drop_shadow",
-      "fire_effect"
+      "chrome_bevel",
+      "glowing_edges",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "border_framed",
   "colors": [
-    "gold",
+    "black",
     "red",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
-    "gameboy_box",
-    "mecha_sprite",
-    "boss_battle",
+    "snes_cartridge",
     "pixel_frame",
-    "skull_icon",
+    "pixel_typography",
+    "castle_stage",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

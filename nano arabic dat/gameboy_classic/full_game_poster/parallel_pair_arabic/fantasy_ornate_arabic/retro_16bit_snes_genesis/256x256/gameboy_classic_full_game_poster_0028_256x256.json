@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "drop_shadow"
+      "drop_shadow",
+      "crt_scanlines",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "black",
     "white",
-    "red",
-    "neon_cyan"
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "hero_sprite",
-    "space_ship",
-    "pixel_frame",
+    "pyramid_bg",
+    "castle_stage",
+    "title_screen",
     "pixel_typography",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

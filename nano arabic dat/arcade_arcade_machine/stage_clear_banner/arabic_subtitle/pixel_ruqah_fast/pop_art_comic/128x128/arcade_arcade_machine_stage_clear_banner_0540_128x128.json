@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "glitch_displacement",
-      "drop_shadow"
+      "16-bit_gradient",
+      "1-bit_dithering",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "center_title_large",
   "colors": [
+    "red",
     "blue",
-    "purple",
-    "black"
+    "purple"
   ],
   "tags": [
-    "title_screen",
-    "pixel_font",
-    "arabic_text",
+    "castle_stage",
     "hero_sprite",
-    "mecha_sprite",
+    "pixel_font",
+    "title_screen",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "glitch_displacement"
+      "thick_black_outline",
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
-    "gold",
-    "black"
+    "neon_cyan",
+    "white",
+    "red"
   ],
   "tags": [
-    "pixel_frame",
-    "desert_bg",
-    "arabic_text",
-    "skull_icon",
-    "connected_letters",
+    "pyramid_bg",
+    "hero_sprite",
+    "gameboy_box",
+    "boss_battle",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

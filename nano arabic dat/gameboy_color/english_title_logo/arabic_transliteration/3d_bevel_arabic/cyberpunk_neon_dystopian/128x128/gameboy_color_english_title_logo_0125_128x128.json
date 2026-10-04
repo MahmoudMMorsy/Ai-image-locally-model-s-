@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
-      "drop_shadow",
+      "fire_effect",
+      "dripping_slime",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "border_framed",
   "colors": [
-    "gold",
+    "black",
     "red",
-    "neon_cyan"
+    "blue"
   ],
   "tags": [
     "pixel_explosion",
-    "nes_cover",
-    "pixel_typography",
-    "castle_stage",
-    "sword_icon",
+    "hero_sprite",
+    "lightning_strike",
+    "desert_bg",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

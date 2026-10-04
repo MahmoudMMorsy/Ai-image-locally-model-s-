@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "glitch_displacement",
-      "grid_overlay"
+      "grid_overlay",
+      "thick_black_outline",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "red"
+    "red",
+    "black",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "sword_icon",
-    "arabic_text",
+    "lightning_strike",
+    "castle_stage",
     "skull_icon",
-    "pixel_frame",
+    "arabic_text",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

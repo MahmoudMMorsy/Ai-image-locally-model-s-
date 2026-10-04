@@ -8,8 +8,8 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "pixel_gradient",
+      "16-bit_gradient",
+      "glowing_edges",
       "dripping_slime"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "border_framed",
   "colors": [
-    "red",
+    "neon_cyan",
     "white",
-    "black"
+    "blue"
   ],
   "tags": [
-    "snes_cartridge",
+    "pixel_frame",
+    "pyramid_bg",
+    "mecha_sprite",
     "dragon_bg",
-    "sword_icon",
-    "skull_icon",
-    "connected_letters",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

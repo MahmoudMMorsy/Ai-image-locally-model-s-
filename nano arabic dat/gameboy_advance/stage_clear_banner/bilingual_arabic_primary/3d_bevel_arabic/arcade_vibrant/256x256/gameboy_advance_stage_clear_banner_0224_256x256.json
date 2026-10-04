@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "pixel_gradient",
-      "glowing_edges"
+      "crt_scanlines",
+      "grid_overlay",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "purple",
-    "black"
+    "red",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "sega_grid",
-    "sword_icon",
-    "castle_stage",
-    "pixel_typography",
-    "sub_title",
+    "arabic_text",
+    "hero_sprite",
+    "boss_battle",
+    "snes_cartridge",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,8 +8,8 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
-      "glitch_displacement",
+      "thick_black_outline",
+      "16-bit_gradient",
       "glowing_edges"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "purple",
-    "black",
-    "red"
+    "red",
+    "white"
   ],
   "tags": [
+    "lightning_strike",
     "pixel_typography",
-    "mecha_sprite",
-    "castle_stage",
+    "arabic_text",
     "connected_letters",
-    "dragon_bg",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

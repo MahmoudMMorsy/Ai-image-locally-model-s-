@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "pixel_gradient",
-      "chrome_bevel",
-      "thick_black_outline"
+      "gold_texture",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
+    "purple",
     "red",
-    "neon_cyan"
+    "white"
   ],
   "tags": [
-    "mecha_sprite",
-    "dragon_bg",
-    "sub_title",
-    "lightning_strike",
-    "space_ship",
+    "sword_icon",
+    "pixel_frame",
+    "hero_sprite",
+    "castle_stage",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

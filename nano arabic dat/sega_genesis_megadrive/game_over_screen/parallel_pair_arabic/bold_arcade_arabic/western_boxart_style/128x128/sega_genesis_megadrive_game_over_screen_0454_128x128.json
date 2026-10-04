@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "fire_effect",
       "glowing_edges",
-      "chrome_bevel",
-      "thick_black_outline"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "black_border_nes",
   "colors": [
     "white",
-    "black",
-    "purple"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
+    "pixel_explosion",
     "gameboy_box",
-    "hero_sprite",
-    "sword_icon",
-    "sega_grid",
     "mecha_sprite",
+    "sega_grid",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

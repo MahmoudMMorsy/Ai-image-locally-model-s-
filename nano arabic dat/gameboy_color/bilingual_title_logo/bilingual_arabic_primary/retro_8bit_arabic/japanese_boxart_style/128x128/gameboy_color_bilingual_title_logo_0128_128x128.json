@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
+      "drop_shadow",
+      "crt_scanlines",
       "dripping_slime"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "white",
-    "neon_cyan",
-    "blue"
+    "black",
+    "purple"
   ],
   "tags": [
     "sega_grid",
-    "pyramid_bg",
-    "gameboy_box",
-    "sword_icon",
     "arabic_text",
+    "skull_icon",
+    "boss_battle",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

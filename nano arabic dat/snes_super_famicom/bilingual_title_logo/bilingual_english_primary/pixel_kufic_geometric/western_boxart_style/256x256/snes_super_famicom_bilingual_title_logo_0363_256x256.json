@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
-      "16-bit_gradient",
-      "gold_texture"
+      "glitch_displacement",
+      "pixel_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
-    "blue",
-    "gold"
+    "white",
+    "black",
+    "blue"
   ],
   "tags": [
-    "sub_title",
-    "castle_stage",
-    "sword_icon",
     "gameboy_box",
+    "sub_title",
+    "mecha_sprite",
     "desert_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

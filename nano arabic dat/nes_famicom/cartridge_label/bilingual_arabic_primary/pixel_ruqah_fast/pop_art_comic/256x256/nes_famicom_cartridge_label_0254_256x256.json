@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "thick_black_outline",
-      "1-bit_dithering",
-      "fire_effect"
+      "drop_shadow",
+      "dripping_slime",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "gold",
-    "black"
+    "blue",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
+    "nes_cover",
+    "pixel_typography",
+    "space_ship",
+    "boss_battle",
     "castle_stage",
-    "skull_icon",
-    "dragon_bg",
-    "lightning_strike",
-    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glowing_edges",
-      "fire_effect",
-      "thick_black_outline"
+      "pixel_gradient",
+      "thick_black_outline",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "black_border_nes",
   "colors": [
-    "black",
-    "blue",
-    "neon_cyan"
+    "red",
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "title_screen",
-    "space_ship",
-    "lightning_strike",
-    "nes_cover",
+    "castle_stage",
+    "connected_letters",
     "sega_grid",
+    "boss_battle",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

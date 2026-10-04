@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "gold_texture",
-      "chrome_bevel"
+      "thick_black_outline",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "center_title_large",
   "colors": [
-    "black",
-    "red",
-    "blue"
+    "neon_cyan",
+    "white",
+    "gold"
   ],
   "tags": [
+    "boss_battle",
+    "dragon_bg",
+    "desert_bg",
     "title_screen",
     "hero_sprite",
-    "pixel_frame",
-    "gameboy_box",
-    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

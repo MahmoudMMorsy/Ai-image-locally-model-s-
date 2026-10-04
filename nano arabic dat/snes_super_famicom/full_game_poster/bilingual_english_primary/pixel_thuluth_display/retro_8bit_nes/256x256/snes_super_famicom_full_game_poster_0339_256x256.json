@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "dripping_slime",
       "glitch_displacement",
-      "glowing_edges"
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
+    "red",
     "black",
-    "neon_cyan",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
-    "title_screen",
-    "desert_bg",
-    "sword_icon",
-    "snes_cartridge",
+    "pixel_frame",
+    "sega_grid",
+    "skull_icon",
+    "connected_letters",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "grid_overlay",
-      "dripping_slime"
+      "glitch_displacement",
+      "dripping_slime",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "neon_cyan",
-    "gold"
+    "white",
+    "purple",
+    "blue"
   ],
   "tags": [
-    "sega_grid",
-    "pyramid_bg",
-    "title_screen",
-    "connected_letters",
+    "dragon_bg",
     "nes_cover",
+    "castle_stage",
+    "pyramid_bg",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

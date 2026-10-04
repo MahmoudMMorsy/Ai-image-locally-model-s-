@@ -8,8 +8,8 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
-      "grid_overlay",
+      "drop_shadow",
+      "16-bit_gradient",
       "thick_black_outline"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "black",
-    "blue"
+    "red",
+    "gold",
+    "white"
   ],
   "tags": [
-    "sega_grid",
+    "dragon_bg",
+    "gameboy_box",
+    "hero_sprite",
     "castle_stage",
-    "nes_cover",
-    "mecha_sprite",
-    "boss_battle",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

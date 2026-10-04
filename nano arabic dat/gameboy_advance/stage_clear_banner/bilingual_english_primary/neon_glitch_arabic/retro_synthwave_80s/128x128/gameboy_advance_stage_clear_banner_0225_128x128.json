@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "glowing_edges",
       "1-bit_dithering",
-      "fire_effect",
-      "thick_black_outline"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "center_title_large",
   "colors": [
     "red",
-    "purple",
-    "neon_cyan"
+    "black",
+    "purple"
   ],
   "tags": [
-    "snes_cartridge",
-    "pixel_frame",
-    "pyramid_bg",
+    "sword_icon",
+    "title_screen",
+    "gameboy_box",
+    "sub_title",
     "connected_letters",
-    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

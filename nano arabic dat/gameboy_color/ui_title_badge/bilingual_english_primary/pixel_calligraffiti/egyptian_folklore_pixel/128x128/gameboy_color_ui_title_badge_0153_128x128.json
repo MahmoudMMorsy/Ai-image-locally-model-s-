@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "drop_shadow",
-      "glitch_displacement"
+      "crt_scanlines",
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
-    "white",
+    "red",
     "purple",
-    "black"
+    "neon_cyan"
   ],
   "tags": [
     "snes_cartridge",
-    "connected_letters",
-    "gameboy_box",
-    "lightning_strike",
-    "hero_sprite",
+    "arabic_text",
+    "desert_bg",
+    "sub_title",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

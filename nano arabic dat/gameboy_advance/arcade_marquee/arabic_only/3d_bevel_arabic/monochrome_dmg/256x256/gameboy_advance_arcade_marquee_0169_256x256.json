@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "pixel_gradient",
-      "fire_effect",
-      "1-bit_dithering"
+      "drop_shadow",
+      "thick_black_outline",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "platformer",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "purple",
-    "black"
+    "gold",
+    "blue",
+    "red"
   ],
   "tags": [
-    "dragon_bg",
-    "sword_icon",
-    "pixel_typography",
-    "arabic_text",
+    "hero_sprite",
+    "pixel_explosion",
+    "pyramid_bg",
+    "snes_cartridge",
     "lightning_strike",
     "arabic_text",
     "connected_letters",

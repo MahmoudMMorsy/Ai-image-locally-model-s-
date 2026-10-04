@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "pixel_gradient",
-      "glowing_edges"
+      "16-bit_gradient",
+      "thick_black_outline",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
+    "black",
     "white",
-    "gold"
+    "purple"
   ],
   "tags": [
-    "desert_bg",
-    "pyramid_bg",
-    "skull_icon",
-    "boss_battle",
-    "dragon_bg",
+    "title_screen",
+    "lightning_strike",
+    "pixel_font",
+    "castle_stage",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

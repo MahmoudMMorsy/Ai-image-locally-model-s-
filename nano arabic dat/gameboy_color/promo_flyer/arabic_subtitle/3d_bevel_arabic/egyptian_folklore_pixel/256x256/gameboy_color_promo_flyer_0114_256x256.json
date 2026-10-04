@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "16-bit_gradient",
-      "thick_black_outline"
+      "crt_scanlines",
+      "glowing_edges",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
-    "gold",
-    "black"
+    "red",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "sword_icon",
-    "pixel_typography",
+    "mecha_sprite",
+    "arabic_text",
     "lightning_strike",
     "connected_letters",
-    "snes_cartridge",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

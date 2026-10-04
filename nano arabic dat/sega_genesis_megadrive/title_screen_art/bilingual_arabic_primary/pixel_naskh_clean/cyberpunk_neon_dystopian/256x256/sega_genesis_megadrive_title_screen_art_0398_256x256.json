@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "drop_shadow",
-      "16-bit_gradient",
-      "dripping_slime"
+      "gold_texture",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "black",
-    "purple"
+    "neon_cyan",
+    "white",
+    "black"
   ],
   "tags": [
-    "connected_letters",
-    "space_ship",
+    "pyramid_bg",
+    "gameboy_box",
     "snes_cartridge",
+    "arabic_text",
     "title_screen",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

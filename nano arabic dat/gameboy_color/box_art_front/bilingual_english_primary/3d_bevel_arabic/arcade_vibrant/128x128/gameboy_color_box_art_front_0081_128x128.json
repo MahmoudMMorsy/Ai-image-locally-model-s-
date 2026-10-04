@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
       "pixel_gradient",
+      "crt_scanlines",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "center_title_large",
   "colors": [
+    "blue",
     "purple",
-    "white",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
+    "mecha_sprite",
     "arabic_text",
+    "desert_bg",
+    "space_ship",
     "boss_battle",
-    "sword_icon",
-    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

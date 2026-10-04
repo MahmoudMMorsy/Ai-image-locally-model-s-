@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "glowing_edges"
+      "thick_black_outline",
+      "16-bit_gradient",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "white",
-    "gold"
+    "purple",
+    "black",
+    "red"
   ],
   "tags": [
-    "space_ship",
-    "boss_battle",
-    "sword_icon",
-    "pixel_font",
-    "pixel_explosion",
+    "mecha_sprite",
+    "skull_icon",
+    "sub_title",
+    "pyramid_bg",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "grid_overlay"
+      "glowing_edges",
+      "thick_black_outline",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "blue",
     "white",
-    "purple"
+    "neon_cyan"
   ],
   "tags": [
-    "hero_sprite",
-    "desert_bg",
-    "boss_battle",
-    "connected_letters",
-    "sega_grid",
+    "arabic_text",
+    "mecha_sprite",
+    "pixel_font",
+    "snes_cartridge",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

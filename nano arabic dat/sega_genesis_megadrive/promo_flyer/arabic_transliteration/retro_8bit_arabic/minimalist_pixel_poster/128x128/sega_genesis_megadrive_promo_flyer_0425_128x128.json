@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "chrome_bevel",
-      "fire_effect",
-      "crt_scanlines"
+      "grid_overlay",
+      "dripping_slime",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "white",
-    "blue",
-    "red"
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "mecha_sprite",
-    "pixel_font",
+    "lightning_strike",
+    "hero_sprite",
+    "castle_stage",
     "sub_title",
-    "sega_grid",
-    "sword_icon",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

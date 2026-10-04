@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
+      "fire_effect",
       "glowing_edges",
-      "16-bit_gradient"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "center_title_large",
   "colors": [
-    "black",
     "blue",
-    "gold"
+    "white",
+    "purple"
   ],
   "tags": [
+    "nes_cover",
     "desert_bg",
-    "space_ship",
-    "pixel_typography",
-    "dragon_bg",
-    "pixel_font",
+    "pyramid_bg",
+    "mecha_sprite",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

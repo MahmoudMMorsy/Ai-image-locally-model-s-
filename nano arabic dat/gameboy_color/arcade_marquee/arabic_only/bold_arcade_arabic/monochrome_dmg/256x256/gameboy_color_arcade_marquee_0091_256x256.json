@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
-      "crt_scanlines",
-      "glowing_edges"
+      "glowing_edges",
+      "pixel_gradient",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
-    "gold",
-    "blue"
+    "white",
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "connected_letters",
+    "pixel_font",
+    "boss_battle",
+    "pixel_typography",
     "pyramid_bg",
-    "desert_bg",
-    "gameboy_box",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

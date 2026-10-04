@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
-      "glowing_edges"
+      "crt_scanlines",
+      "dripping_slime",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "black"
+    "white",
+    "black",
+    "red"
   ],
   "tags": [
-    "sub_title",
     "gameboy_box",
-    "castle_stage",
-    "arabic_text",
+    "mecha_sprite",
+    "space_ship",
     "pixel_frame",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

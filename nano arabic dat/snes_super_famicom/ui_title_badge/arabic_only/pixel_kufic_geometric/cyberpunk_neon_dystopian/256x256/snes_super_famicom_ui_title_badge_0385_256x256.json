@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
       "pixel_gradient",
-      "drop_shadow"
+      "dripping_slime",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "neon_cyan",
-    "purple"
+    "blue",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "nes_cover",
-    "space_ship",
-    "pixel_frame",
     "pixel_explosion",
-    "title_screen",
+    "dragon_bg",
+    "pixel_font",
+    "arabic_text",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

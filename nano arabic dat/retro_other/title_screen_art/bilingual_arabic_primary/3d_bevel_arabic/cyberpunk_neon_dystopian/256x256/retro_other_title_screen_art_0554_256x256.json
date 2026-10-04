@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "16-bit_gradient"
+      "thick_black_outline",
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
     "purple",
+    "gold",
     "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
-    "castle_stage",
-    "pixel_typography",
-    "boss_battle",
-    "nes_cover",
+    "snes_cartridge",
+    "hero_sprite",
+    "pixel_font",
+    "connected_letters",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

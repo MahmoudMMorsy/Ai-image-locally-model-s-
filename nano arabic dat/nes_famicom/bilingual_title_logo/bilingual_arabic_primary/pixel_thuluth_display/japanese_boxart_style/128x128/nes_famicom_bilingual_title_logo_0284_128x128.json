@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "drop_shadow",
-      "thick_black_outline",
-      "fire_effect"
+      "chrome_bevel",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
     "neon_cyan",
-    "gold"
+    "gold",
+    "black"
   ],
   "tags": [
+    "title_screen",
+    "sub_title",
+    "castle_stage",
     "boss_battle",
-    "skull_icon",
-    "sword_icon",
-    "pixel_frame",
-    "pixel_typography",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
+      "glowing_edges",
       "fire_effect",
-      "grid_overlay",
-      "thick_black_outline"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "neon_cyan",
-    "gold"
+    "black",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "boss_battle",
+    "mecha_sprite",
     "gameboy_box",
-    "pixel_explosion",
-    "pyramid_bg",
-    "castle_stage",
+    "hero_sprite",
+    "dragon_bg",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

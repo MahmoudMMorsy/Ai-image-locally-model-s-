@@ -9,7 +9,7 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "1-bit_dithering",
-      "thick_black_outline",
+      "gold_texture",
       "pixel_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
-    "white",
     "neon_cyan",
-    "black"
+    "black",
+    "blue"
   ],
   "tags": [
-    "dragon_bg",
-    "lightning_strike",
+    "castle_stage",
+    "boss_battle",
     "mecha_sprite",
+    "arabic_text",
     "snes_cartridge",
-    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

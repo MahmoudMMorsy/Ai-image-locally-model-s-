@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "drop_shadow",
-      "1-bit_dithering"
+      "16-bit_gradient",
+      "fire_effect",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "border_framed",
   "colors": [
+    "purple",
     "blue",
-    "white",
-    "black"
+    "neon_cyan"
   ],
   "tags": [
-    "sega_grid",
-    "sub_title",
-    "mecha_sprite",
+    "title_screen",
     "dragon_bg",
-    "gameboy_box",
+    "desert_bg",
+    "boss_battle",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

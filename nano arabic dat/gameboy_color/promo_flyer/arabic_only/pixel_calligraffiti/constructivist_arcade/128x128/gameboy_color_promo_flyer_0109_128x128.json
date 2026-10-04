@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "gold_texture",
-      "1-bit_dithering",
-      "chrome_bevel"
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "black",
-    "blue",
-    "neon_cyan"
+    "gold",
+    "red"
   ],
   "tags": [
+    "lightning_strike",
+    "pyramid_bg",
+    "pixel_font",
     "sword_icon",
-    "boss_battle",
-    "title_screen",
-    "mecha_sprite",
-    "skull_icon",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

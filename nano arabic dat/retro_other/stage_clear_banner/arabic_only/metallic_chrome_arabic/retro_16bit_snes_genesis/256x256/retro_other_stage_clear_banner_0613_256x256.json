@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "grid_overlay",
-      "fire_effect"
+      "16-bit_gradient",
+      "glitch_displacement",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "white",
-    "neon_cyan",
+    "black",
     "gold"
   ],
   "tags": [
-    "boss_battle",
-    "pixel_typography",
-    "desert_bg",
+    "sega_grid",
+    "space_ship",
+    "pixel_explosion",
+    "castle_stage",
     "gameboy_box",
-    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

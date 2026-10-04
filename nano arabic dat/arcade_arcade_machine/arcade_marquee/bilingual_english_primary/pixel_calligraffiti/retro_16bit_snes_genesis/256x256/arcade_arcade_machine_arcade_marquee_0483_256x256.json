@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "pixel_gradient",
-      "thick_black_outline",
-      "grid_overlay"
+      "fire_effect",
+      "1-bit_dithering",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "neon_cyan",
-    "black",
+    "white",
     "red"
   ],
   "tags": [
-    "dragon_bg",
     "snes_cartridge",
-    "pixel_explosion",
-    "gameboy_box",
-    "boss_battle",
+    "sega_grid",
+    "pixel_frame",
+    "connected_letters",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

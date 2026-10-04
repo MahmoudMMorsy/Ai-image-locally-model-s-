@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "grid_overlay",
-      "glitch_displacement"
+      "chrome_bevel",
+      "thick_black_outline",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "purple",
-    "red"
+    "black",
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
-    "boss_battle",
+    "pixel_typography",
     "desert_bg",
     "mecha_sprite",
     "castle_stage",
-    "arabic_text",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

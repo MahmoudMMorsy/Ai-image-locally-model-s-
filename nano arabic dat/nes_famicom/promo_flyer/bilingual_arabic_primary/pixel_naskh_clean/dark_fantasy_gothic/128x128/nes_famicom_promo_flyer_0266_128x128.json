@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "thick_black_outline",
-      "glitch_displacement",
-      "fire_effect"
+      "drop_shadow",
+      "gold_texture",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "purple",
-    "neon_cyan"
+    "gold",
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "connected_letters",
-    "dragon_bg",
-    "desert_bg",
+    "castle_stage",
     "pixel_font",
-    "arabic_text",
+    "hero_sprite",
+    "title_screen",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
+      "drop_shadow",
       "16-bit_gradient",
-      "crt_scanlines",
-      "chrome_bevel"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "center_title_large",
   "colors": [
-    "purple",
     "gold",
-    "red"
+    "blue",
+    "black"
   ],
   "tags": [
-    "pixel_font",
-    "sword_icon",
-    "castle_stage",
     "sega_grid",
-    "pixel_typography",
+    "mecha_sprite",
+    "gameboy_box",
+    "pixel_font",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
-      "thick_black_outline",
-      "glowing_edges"
+      "gold_texture",
+      "dripping_slime",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
+    "white",
     "purple",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
+    "lightning_strike",
     "pixel_typography",
-    "snes_cartridge",
-    "pixel_explosion",
-    "boss_battle",
-    "space_ship",
+    "castle_stage",
+    "hero_sprite",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

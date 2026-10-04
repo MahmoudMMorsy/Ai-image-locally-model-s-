@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "crt_scanlines",
-      "dripping_slime"
+      "pixel_gradient",
+      "drop_shadow",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "black",
     "blue",
-    "red",
     "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "gameboy_box",
     "sub_title",
     "skull_icon",
-    "dragon_bg",
+    "sega_grid",
+    "pyramid_bg",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

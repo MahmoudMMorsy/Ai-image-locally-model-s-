@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "crt_scanlines",
-      "16-bit_gradient",
-      "gold_texture"
+      "chrome_bevel",
+      "glowing_edges",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "blue",
-    "gold"
+    "gold",
+    "black",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "desert_bg",
-    "pixel_frame",
-    "nes_cover",
     "snes_cartridge",
+    "sword_icon",
+    "lightning_strike",
+    "sub_title",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "gold_texture",
-      "1-bit_dithering",
-      "drop_shadow"
+      "16-bit_gradient",
+      "grid_overlay",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "red",
-    "blue"
+    "black",
+    "blue",
+    "gold"
   ],
   "tags": [
-    "nes_cover",
-    "sub_title",
-    "sword_icon",
-    "hero_sprite",
     "sega_grid",
+    "boss_battle",
+    "hero_sprite",
+    "sub_title",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

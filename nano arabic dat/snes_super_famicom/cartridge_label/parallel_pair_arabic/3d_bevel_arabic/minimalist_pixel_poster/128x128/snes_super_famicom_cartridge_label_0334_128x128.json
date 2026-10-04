@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "drop_shadow",
+      "glitch_displacement",
+      "glowing_edges",
       "chrome_bevel"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "blue",
-    "white",
-    "purple"
+    "purple",
+    "red"
   ],
   "tags": [
-    "space_ship",
+    "mecha_sprite",
     "title_screen",
-    "boss_battle",
-    "arabic_text",
-    "connected_letters",
+    "pixel_explosion",
+    "lightning_strike",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

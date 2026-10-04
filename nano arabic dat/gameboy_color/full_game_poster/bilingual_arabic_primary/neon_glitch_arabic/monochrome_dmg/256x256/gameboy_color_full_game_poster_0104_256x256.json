@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "chrome_bevel",
-      "crt_scanlines"
+      "pixel_gradient",
+      "dripping_slime",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
+    "red",
     "gold",
-    "red"
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
+    "pixel_explosion",
+    "title_screen",
+    "lightning_strike",
     "pixel_font",
     "gameboy_box",
-    "nes_cover",
-    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "grid_overlay",
-      "glitch_displacement"
+      "dripping_slime",
+      "thick_black_outline",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
     "gold",
-    "neon_cyan"
+    "purple",
+    "blue"
   ],
   "tags": [
-    "hero_sprite",
-    "snes_cartridge",
-    "gameboy_box",
-    "pixel_typography",
-    "boss_battle",
+    "nes_cover",
+    "pixel_font",
+    "castle_stage",
+    "space_ship",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

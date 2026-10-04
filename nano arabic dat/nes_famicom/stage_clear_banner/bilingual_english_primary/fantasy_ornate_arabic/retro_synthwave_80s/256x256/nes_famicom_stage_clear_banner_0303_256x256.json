@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "thick_black_outline",
-      "fire_effect",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "black",
-    "red"
+    "neon_cyan",
+    "red",
+    "white"
   ],
   "tags": [
-    "sub_title",
-    "desert_bg",
-    "gameboy_box",
-    "snes_cartridge",
-    "pyramid_bg",
+    "nes_cover",
+    "castle_stage",
+    "boss_battle",
+    "connected_letters",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

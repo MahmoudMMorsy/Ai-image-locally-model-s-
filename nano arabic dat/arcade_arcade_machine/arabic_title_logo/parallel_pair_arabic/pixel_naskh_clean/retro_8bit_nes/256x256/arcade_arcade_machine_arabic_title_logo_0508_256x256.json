@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
-      "crt_scanlines",
-      "gold_texture"
+      "grid_overlay",
+      "pixel_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "black",
-    "neon_cyan"
+    "gold",
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "arabic_text",
-    "boss_battle",
-    "nes_cover",
-    "pyramid_bg",
+    "sub_title",
     "space_ship",
+    "sword_icon",
+    "dragon_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

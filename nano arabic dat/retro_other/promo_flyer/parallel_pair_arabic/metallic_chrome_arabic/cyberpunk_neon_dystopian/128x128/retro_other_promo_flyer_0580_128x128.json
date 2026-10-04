@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
-      "thick_black_outline"
+      "dripping_slime",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "black_border_nes",
   "colors": [
     "purple",
-    "neon_cyan",
+    "red",
     "black"
   ],
   "tags": [
-    "pixel_font",
-    "skull_icon",
+    "space_ship",
     "hero_sprite",
-    "pixel_typography",
-    "sub_title",
+    "arabic_text",
+    "pyramid_bg",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

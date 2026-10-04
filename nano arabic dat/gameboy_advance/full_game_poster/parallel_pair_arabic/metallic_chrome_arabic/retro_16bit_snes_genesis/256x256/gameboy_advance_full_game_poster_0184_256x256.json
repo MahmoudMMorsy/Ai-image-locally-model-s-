@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "gold_texture"
+      "thick_black_outline",
+      "glitch_displacement",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "black_border_nes",
   "colors": [
-    "black",
-    "gold",
-    "white"
+    "purple",
+    "white",
+    "blue"
   ],
   "tags": [
-    "dragon_bg",
-    "gameboy_box",
-    "mecha_sprite",
-    "sega_grid",
-    "pixel_frame",
+    "space_ship",
+    "pixel_typography",
+    "sword_icon",
+    "lightning_strike",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

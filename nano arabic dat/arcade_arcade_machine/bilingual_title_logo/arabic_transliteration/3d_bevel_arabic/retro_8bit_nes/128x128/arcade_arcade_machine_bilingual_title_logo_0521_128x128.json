@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "thick_black_outline",
-      "1-bit_dithering",
-      "glitch_displacement"
+      "gold_texture",
+      "16-bit_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "border_framed",
   "colors": [
-    "purple",
-    "white",
-    "gold"
+    "neon_cyan",
+    "gold",
+    "blue"
   ],
   "tags": [
-    "boss_battle",
-    "sword_icon",
     "pixel_explosion",
-    "sega_grid",
-    "snes_cartridge",
+    "pixel_font",
+    "arabic_text",
+    "title_screen",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

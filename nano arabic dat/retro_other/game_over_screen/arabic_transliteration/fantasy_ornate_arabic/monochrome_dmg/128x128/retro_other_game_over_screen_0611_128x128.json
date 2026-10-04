@@ -8,8 +8,8 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "pixel_gradient",
       "thick_black_outline",
-      "crt_scanlines",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "neon_cyan",
-    "gold"
+    "red",
+    "black",
+    "white"
   ],
   "tags": [
+    "nes_cover",
+    "lightning_strike",
+    "pixel_explosion",
     "castle_stage",
-    "sub_title",
-    "sega_grid",
-    "arabic_text",
-    "title_screen",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

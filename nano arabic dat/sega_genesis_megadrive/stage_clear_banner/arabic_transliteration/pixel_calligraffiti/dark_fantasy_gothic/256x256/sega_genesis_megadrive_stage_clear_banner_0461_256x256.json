@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "drop_shadow",
+      "fire_effect",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "red",
-    "purple"
+    "black",
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
     "sword_icon",
-    "lightning_strike",
-    "pixel_typography",
-    "pyramid_bg",
+    "hero_sprite",
+    "mecha_sprite",
     "castle_stage",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "chrome_bevel",
-      "dripping_slime",
-      "pixel_gradient"
+      "glowing_edges",
+      "fire_effect",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
+    "gold",
     "neon_cyan",
-    "white"
+    "black"
   ],
   "tags": [
-    "sega_grid",
+    "nes_cover",
+    "title_screen",
+    "space_ship",
+    "dragon_bg",
     "pixel_typography",
-    "sub_title",
-    "gameboy_box",
-    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

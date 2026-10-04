@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
-      "pixel_gradient"
+      "fire_effect",
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "purple",
     "black",
-    "neon_cyan",
-    "red"
+    "gold"
   ],
   "tags": [
-    "sega_grid",
-    "skull_icon",
-    "hero_sprite",
-    "arabic_text",
     "sub_title",
+    "title_screen",
+    "dragon_bg",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

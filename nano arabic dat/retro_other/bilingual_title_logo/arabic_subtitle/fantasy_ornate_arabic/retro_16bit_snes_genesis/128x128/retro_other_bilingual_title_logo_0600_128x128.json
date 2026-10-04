@@ -8,8 +8,8 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "drop_shadow",
+      "pixel_gradient",
+      "gold_texture",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "red",
     "purple",
-    "blue"
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "pixel_explosion",
-    "title_screen",
-    "lightning_strike",
-    "desert_bg",
+    "pixel_font",
+    "mecha_sprite",
+    "castle_stage",
+    "hero_sprite",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
