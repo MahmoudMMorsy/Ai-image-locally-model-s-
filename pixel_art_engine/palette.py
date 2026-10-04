@@ -1,9 +1,39 @@
 """
 Pixel Art Palette & Quantization Module
 Ensures crisp, indexed color palette quantization for 64x64 pixel art sprites.
+Includes Game Boy (4-color green monochrome), NES (16-color retro), and Signature palettes.
 """
 import numpy as np
 from PIL import Image
+
+# Game Boy Monochrome Green Palette (4 shades + Alpha)
+GAMEBOY_PALETTE = np.array([
+    [0, 0, 0, 0],          # 0: Transparent
+    [15, 56, 15, 255],     # 1: Darkest Green
+    [48, 98, 48, 255],     # 2: Dark Green
+    [139, 172, 15, 255],   # 3: Light Green
+    [155, 188, 15, 255],   # 4: Bright Green
+], dtype=np.uint8)
+
+# Classic NES 16-color Retro Palette + Alpha
+NES_PALETTE = np.array([
+    [0, 0, 0, 0],          # 0: Transparent
+    [0, 0, 0, 255],        # 1: Black
+    [252, 252, 252, 255],  # 2: Pure White
+    [124, 124, 124, 255],  # 3: Medium Gray
+    [168, 0, 32, 255],     # 4: NES Crimson Red
+    [248, 56, 0, 255],     # 5: Bright Red / Orange
+    [248, 184, 0, 255],    # 6: Gold / Yellow
+    [0, 168, 0, 255],      # 7: NES Green
+    [0, 168, 68, 255],     # 8: Emerald
+    [0, 0, 252, 255],      # 9: Vivid Blue
+    [68, 40, 188, 255],    # 10: Deep Violet
+    [148, 0, 132, 255],    # 11: NES Purple
+    [248, 120, 248, 255],  # 12: Pink / Magenta
+    [80, 48, 0, 255],      # 13: Dark Brown
+    [172, 124, 0, 255],    # 14: Tan Brown
+    [0, 136, 136, 255],    # 15: Teal / Cyan
+], dtype=np.uint8)
 
 # Signature pixel art palette (Retro 32-color palette + Alpha/Transparency)
 SIGNATURE_PALETTE = np.array([
@@ -44,13 +74,13 @@ SIGNATURE_PALETTE = np.array([
 
 def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_PALETTE) -> Image.Image:
     """
-    Resizes and quantizes any PIL Image to a crisp 64x64 pixel art sprite
+    Resizes and quantizes any PIL Image to a crisp pixel art sprite
     using nearest neighbor sampling and exact distance-based color palette mapping.
     """
     if image.mode != "RGBA":
         image = image.convert("RGBA")
 
-    # 1. Resize to target (64x64) using Nearest Neighbor to keep pixel edges sharp
+    # 1. Resize to target size using Nearest Neighbor to keep pixel edges sharp
     resized = image.resize(size, Image.Resampling.NEAREST)
     arr = np.array(resized, dtype=np.float32) # (H, W, 4)
 
@@ -61,11 +91,10 @@ def quantize_to_pixel_art(image: Image.Image, size=(64, 64), palette=SIGNATURE_P
     # Extract RGB values
     rgb = arr[:, :, :3]
 
-    # Palette RGB & Alpha
+    # Palette RGB
     pal_rgb = palette[:, :3].astype(np.float32)
 
     # Calculate Euclidean distance between each pixel RGB and palette RGBs
-    # Dist shape: (H, W, Palette_Size)
     diff = rgb[:, :, np.newaxis, :] - pal_rgb[np.newaxis, np.newaxis, :, :]
     dist = np.sum(diff ** 2, axis=-1)
 
