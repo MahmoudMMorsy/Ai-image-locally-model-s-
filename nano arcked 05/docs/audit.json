@@ -1,0 +1,24 @@
+{
+  "nano_arcked_dat": {
+    "metadata_json_count": 1045,
+    "actual_png_in_repo": 4,
+    "verdict": "Catalog/metadata heavy; real images mostly NOT in repo.",
+    "usable_now": "4 seed CC0 spritesheets under seed_cc0"
+  },
+  "local_arcade_bank": {
+    "latent_bank": 3505,
+    "indices": 4193,
+    "verdict": "Primary training data already in use"
+  },
+  "repo_tech_worth_borrowing": [
+    "nano_pixel_mob discrete masked diffusion",
+    "VQ-VAE + prior",
+    "PixelLLM",
+    "Taxonomy layout type/gender/style/race/pose"
+  ],
+  "quality_plan": [
+    "Keep PaletteUNet+SP HQ path as production",
+    "Do not dilute bank with 16x16/partial spritesheets without careful crop",
+    "Optional: train discrete diffusion on existing 64x64 indices"
+  ]
+}

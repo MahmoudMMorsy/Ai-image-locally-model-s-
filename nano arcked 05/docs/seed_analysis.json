@@ -1,0 +1,6 @@
+[
+  {"path": "clean_seed/characters/oga_game_character/game_character.png", "size": [90, 90], "mode": "RGBA", "note": "spritesheet"},
+  {"path": "clean_seed/civilian/oga_miss_princess_16x16/missprincess.png", "size": [32, 64], "mode": "RGBA", "note": "single"},
+  {"path": "clean_seed/creature/oga_ghosts/ghosts.png", "size": [240, 192], "mode": "RGBA", "note": "spritesheet"},
+  {"path": "clean_seed/warrior/oga_2d_rpg_character_walk/rpg_sprite_walk.png", "size": [192, 128], "mode": "RGBA", "note": "spritesheet"}
+]
