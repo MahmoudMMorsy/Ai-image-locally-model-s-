@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "grid_overlay",
-      "pixel_gradient"
+      "fire_effect",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "red",
-    "black"
+    "black",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "gameboy_box",
-    "nes_cover",
+    "pixel_typography",
     "hero_sprite",
-    "space_ship",
-    "desert_bg",
+    "connected_letters",
+    "castle_stage",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

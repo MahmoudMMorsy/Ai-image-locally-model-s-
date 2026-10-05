@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "crt_scanlines",
       "1-bit_dithering",
-      "pixel_gradient"
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "blue",
-    "gold"
+    "gold",
+    "black",
+    "red"
   ],
   "tags": [
-    "hero_sprite",
-    "lightning_strike",
-    "desert_bg",
-    "arabic_text",
-    "nes_cover",
+    "connected_letters",
+    "pixel_frame",
+    "space_ship",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "glitch_displacement",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "fire_effect",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
-    "blue",
-    "gold"
+    "black",
+    "purple",
+    "white"
   ],
   "tags": [
+    "hero_sprite",
+    "space_ship",
+    "castle_stage",
+    "sword_icon",
     "sub_title",
-    "pixel_font",
-    "nes_cover",
-    "connected_letters",
-    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

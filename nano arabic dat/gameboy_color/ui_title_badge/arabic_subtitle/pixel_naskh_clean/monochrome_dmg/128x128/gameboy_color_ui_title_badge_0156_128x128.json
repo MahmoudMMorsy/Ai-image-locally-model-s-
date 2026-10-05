@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "pixel_gradient",
-      "16-bit_gradient"
+      "grid_overlay",
+      "16-bit_gradient",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
     "purple",
+    "white",
     "gold"
   ],
   "tags": [
-    "desert_bg",
-    "arabic_text",
-    "space_ship",
-    "pixel_frame",
-    "sword_icon",
+    "gameboy_box",
+    "snes_cartridge",
+    "skull_icon",
+    "castle_stage",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "crt_scanlines",
-      "dripping_slime"
+      "dripping_slime",
+      "drop_shadow",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
-    "neon_cyan",
-    "purple"
+    "blue",
+    "white",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "sega_grid",
-    "space_ship",
+    "pyramid_bg",
+    "pixel_explosion",
     "mecha_sprite",
     "dragon_bg",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

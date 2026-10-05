@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "1-bit_dithering",
       "drop_shadow",
-      "glitch_displacement",
-      "1-bit_dithering"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
-    "gold",
-    "purple"
+    "blue",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "space_ship",
-    "sub_title",
-    "lightning_strike",
-    "arabic_text",
-    "castle_stage",
+    "skull_icon",
+    "pyramid_bg",
+    "pixel_frame",
+    "gameboy_box",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

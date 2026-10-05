@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "crt_scanlines",
-      "glowing_edges"
+      "grid_overlay",
+      "dripping_slime",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
     "blue",
-    "gold"
+    "gold",
+    "black"
   ],
   "tags": [
-    "dragon_bg",
-    "pixel_explosion",
-    "space_ship",
-    "title_screen",
-    "connected_letters",
+    "nes_cover",
+    "lightning_strike",
+    "pixel_frame",
+    "sega_grid",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

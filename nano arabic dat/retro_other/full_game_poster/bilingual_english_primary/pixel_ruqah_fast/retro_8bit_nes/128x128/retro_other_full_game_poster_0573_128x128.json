@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "drop_shadow",
       "glowing_edges",
-      "thick_black_outline",
-      "pixel_gradient"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
-    "black",
     "purple",
-    "gold"
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "title_screen",
+    "pixel_frame",
+    "sega_grid",
+    "sword_icon",
     "snes_cartridge",
-    "pixel_explosion",
-    "desert_bg",
     "nes_cover",
     "arabic_text",
     "connected_letters",

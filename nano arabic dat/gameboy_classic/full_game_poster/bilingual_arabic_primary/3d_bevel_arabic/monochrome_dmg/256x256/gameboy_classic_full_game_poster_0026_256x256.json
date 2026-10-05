@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
+      "glowing_edges",
       "glitch_displacement",
-      "thick_black_outline",
-      "dripping_slime"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,14 +19,14 @@
   "layout": "border_framed",
   "colors": [
     "red",
-    "neon_cyan",
-    "purple"
+    "purple",
+    "gold"
   ],
   "tags": [
-    "boss_battle",
-    "lightning_strike",
-    "arabic_text",
     "hero_sprite",
+    "sword_icon",
+    "space_ship",
+    "sega_grid",
     "snes_cartridge",
     "arabic_text",
     "connected_letters",

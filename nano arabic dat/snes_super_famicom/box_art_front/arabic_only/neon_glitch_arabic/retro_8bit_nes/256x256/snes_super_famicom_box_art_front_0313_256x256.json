@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "chrome_bevel",
-      "pixel_gradient"
+      "gold_texture",
+      "drop_shadow",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "split_bilingual_layout",
   "colors": [
-    "neon_cyan",
-    "white",
-    "blue"
+    "blue",
+    "purple",
+    "red"
   ],
   "tags": [
-    "sword_icon",
-    "mecha_sprite",
     "pixel_font",
-    "pixel_typography",
-    "gameboy_box",
+    "snes_cartridge",
+    "desert_bg",
+    "lightning_strike",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

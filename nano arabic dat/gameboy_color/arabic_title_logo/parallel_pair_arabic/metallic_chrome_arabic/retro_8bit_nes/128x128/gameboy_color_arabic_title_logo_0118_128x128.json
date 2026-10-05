@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
-      "dripping_slime",
-      "crt_scanlines"
+      "glitch_displacement",
+      "fire_effect",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "action_adventure",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
+    "white",
     "red",
     "purple"
   ],
   "tags": [
-    "pixel_typography",
-    "castle_stage",
-    "sub_title",
-    "desert_bg",
+    "dragon_bg",
+    "mecha_sprite",
+    "snes_cartridge",
+    "space_ship",
     "pixel_frame",
     "arabic_text",
     "connected_letters",

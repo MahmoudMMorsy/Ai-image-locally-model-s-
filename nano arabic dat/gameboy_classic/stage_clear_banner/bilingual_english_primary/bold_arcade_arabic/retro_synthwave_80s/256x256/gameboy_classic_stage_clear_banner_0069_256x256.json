@@ -8,8 +8,8 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "dripping_slime",
+      "glowing_edges",
+      "thick_black_outline",
       "fire_effect"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "purple",
-    "white"
+    "white",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
+    "nes_cover",
+    "boss_battle",
+    "title_screen",
     "gameboy_box",
-    "castle_stage",
-    "pixel_explosion",
-    "pixel_font",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

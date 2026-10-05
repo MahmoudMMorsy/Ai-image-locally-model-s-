@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "16-bit_gradient",
-      "fire_effect"
+      "dripping_slime",
+      "chrome_bevel",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "center_title_large",
   "colors": [
-    "white",
-    "black",
-    "purple"
+    "blue",
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "pixel_font",
-    "desert_bg",
-    "pyramid_bg",
-    "boss_battle",
-    "sega_grid",
+    "space_ship",
+    "nes_cover",
+    "hero_sprite",
+    "castle_stage",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "gold_texture"
+      "glowing_edges",
+      "fire_effect",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "white",
-    "neon_cyan",
-    "red"
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "sub_title",
-    "pixel_explosion",
+    "sword_icon",
+    "title_screen",
+    "arabic_text",
     "pixel_typography",
-    "connected_letters",
-    "space_ship",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

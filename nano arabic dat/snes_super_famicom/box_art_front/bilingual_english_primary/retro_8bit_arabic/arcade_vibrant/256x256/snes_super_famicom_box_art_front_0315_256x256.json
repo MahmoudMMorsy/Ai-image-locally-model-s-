@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
-      "thick_black_outline",
-      "drop_shadow"
+      "glowing_edges",
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "rpg_fantasy",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "red"
+    "blue",
+    "white",
+    "black"
   ],
   "tags": [
-    "pixel_explosion",
-    "connected_letters",
+    "hero_sprite",
+    "sega_grid",
+    "boss_battle",
     "pixel_typography",
-    "pyramid_bg",
     "dragon_bg",
     "arabic_text",
     "connected_letters",

@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "gold_texture",
-      "glowing_edges",
+      "dripping_slime",
+      "thick_black_outline",
       "crt_scanlines"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "blue",
-    "black"
+    "gold",
+    "white",
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "mecha_sprite",
+    "arabic_text",
+    "pyramid_bg",
+    "snes_cartridge",
+    "gameboy_box",
     "pixel_frame",
-    "sub_title",
-    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
+      "pixel_gradient",
       "16-bit_gradient",
-      "glowing_edges"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "center_title_large",
   "colors": [
     "blue",
-    "black",
-    "red"
+    "gold",
+    "black"
   ],
   "tags": [
-    "boss_battle",
+    "castle_stage",
     "snes_cartridge",
-    "pixel_typography",
+    "desert_bg",
+    "boss_battle",
     "connected_letters",
-    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

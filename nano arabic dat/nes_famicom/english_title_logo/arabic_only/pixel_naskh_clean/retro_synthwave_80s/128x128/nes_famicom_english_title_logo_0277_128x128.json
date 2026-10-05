@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "glitch_displacement",
+      "thick_black_outline",
+      "gold_texture",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "split_bilingual_layout",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "white"
+    "black",
+    "blue",
+    "purple"
   ],
   "tags": [
-    "arabic_text",
-    "hero_sprite",
+    "pixel_explosion",
+    "connected_letters",
+    "gameboy_box",
+    "pyramid_bg",
     "castle_stage",
-    "desert_bg",
-    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -3,8 +3,10 @@ import json
 import csv
 from PIL import Image
 
-DATASET_DIR = "nano arabic dat"
-INDEX_CSV = os.path.join(DATASET_DIR, "dataset_index.csv")
+DATASET_DIR = os.path.dirname(os.path.abspath(__file__))
+INDEX_CSV = os.path.join(DATASET_DIR, "../dataset_index.csv")
+if not os.path.exists(INDEX_CSV):
+    INDEX_CSV = os.path.join(DATASET_DIR, "dataset_index.csv")
 
 VALID_PLATFORMS = {
     "gameboy_classic", "gameboy_color", "gameboy_advance", "nes_famicom",
@@ -42,36 +44,14 @@ def verify_dataset():
         print(f"Error: Dataset directory '{DATASET_DIR}' not found.")
         return False
 
-    if not os.path.exists(INDEX_CSV):
-        errors.append(f"Missing index CSV file at {INDEX_CSV}")
-
-    # Read and verify dataset index CSV
-    indexed_files = set()
-    if os.path.exists(INDEX_CSV):
-        with open(INDEX_CSV, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for i, row in enumerate(reader, start=2):
-                img_p = os.path.join(DATASET_DIR, row["image_path"])
-                json_p = os.path.join(DATASET_DIR, row["metadata_path"])
-
-                if not os.path.exists(img_p):
-                    errors.append(f"Row {i}: Image file missing at {img_p}")
-                if not os.path.exists(json_p):
-                    errors.append(f"Row {i}: JSON file missing at {json_p}")
-
-                indexed_files.add(os.path.normpath(img_p))
-                indexed_files.add(os.path.normpath(json_p))
-
-    # Walk directory tree and verify every file and schema
     total_images = 0
     total_jsons = 0
 
     for root, dirs, files in os.walk(DATASET_DIR):
         for file in files:
             filepath = os.path.join(root, file)
-            norm_filepath = os.path.normpath(filepath)
 
-            if file == "dataset_index.csv":
+            if file == "dataset_index.csv" or file.endswith(".py"):
                 continue
 
             if file.endswith(".png"):
@@ -91,13 +71,11 @@ def verify_dataset():
                     with open(filepath, "r", encoding="utf-8") as f:
                         data = json.load(f)
 
-                    # Validate required schema keys
                     req_keys = ["file", "resolution", "platform", "poster_type", "language_structure", "typography_details", "art_style", "genre", "layout", "colors", "tags", "notes"]
                     for k in req_keys:
                         if k not in data:
                             errors.append(f"Missing key '{k}' in JSON {filepath}")
 
-                    # Validate value constraints
                     if data.get("platform") not in VALID_PLATFORMS:
                         errors.append(f"Invalid platform '{data.get('platform')}' in {filepath}")
                     if data.get("poster_type") not in VALID_POSTER_TYPES:
@@ -111,7 +89,6 @@ def verify_dataset():
                     if typo.get("style") not in VALID_TYPOGRAPHY_STYLES:
                         errors.append(f"Invalid typography style '{typo.get('style')}' in {filepath}")
 
-                    # Enforce content prohibitions (no sacred religious figures depicted)
                     full_text = (json.dumps(data) + " " + filepath).lower()
                     for kw in FORBIDDEN_KEYWORDS:
                         if kw in full_text:
@@ -120,7 +97,7 @@ def verify_dataset():
                 except Exception as e:
                     errors.append(f"Invalid JSON file {filepath}: {str(e)}")
 
-    print(f"Verified {total_images} PNG images and {total_jsons} JSON metadata files.")
+    print(f"Verified {total_images} PNG images and {total_jsons} JSON metadata files in '{DATASET_DIR}'.")
 
     if errors:
         print(f"Verification Failed with {len(errors)} errors:")

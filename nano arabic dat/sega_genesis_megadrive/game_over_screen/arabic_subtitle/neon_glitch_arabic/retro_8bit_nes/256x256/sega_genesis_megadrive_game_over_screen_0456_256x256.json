@@ -8,8 +8,8 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "dripping_slime",
-      "gold_texture",
+      "glowing_edges",
+      "fire_effect",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "red",
-    "purple",
-    "blue"
+    "white",
+    "purple"
   ],
   "tags": [
-    "snes_cartridge",
+    "sega_grid",
     "castle_stage",
-    "hero_sprite",
-    "nes_cover",
-    "space_ship",
+    "pyramid_bg",
+    "boss_battle",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

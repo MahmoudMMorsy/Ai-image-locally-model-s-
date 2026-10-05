@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "dripping_slime",
-      "chrome_bevel",
-      "gold_texture"
+      "glowing_edges",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
     "neon_cyan",
+    "purple",
     "gold"
   ],
   "tags": [
-    "connected_letters",
-    "gameboy_box",
-    "arabic_text",
-    "hero_sprite",
-    "pixel_frame",
+    "pixel_explosion",
+    "space_ship",
+    "pixel_typography",
+    "mecha_sprite",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

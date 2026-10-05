@@ -8,8 +8,8 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
+      "gold_texture",
       "1-bit_dithering",
-      "fire_effect",
       "thick_black_outline"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "split_bilingual_layout",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "white"
+    "gold",
+    "white",
+    "red"
   ],
   "tags": [
     "title_screen",
-    "gameboy_box",
-    "arabic_text",
-    "castle_stage",
-    "pyramid_bg",
+    "connected_letters",
+    "hero_sprite",
+    "mecha_sprite",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

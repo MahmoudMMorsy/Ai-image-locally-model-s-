@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "thick_black_outline",
-      "drop_shadow",
-      "dripping_slime"
+      "crt_scanlines",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
-    "black",
-    "blue"
+    "neon_cyan",
+    "white",
+    "gold"
   ],
   "tags": [
+    "boss_battle",
+    "pixel_frame",
+    "dragon_bg",
     "arabic_text",
-    "sword_icon",
-    "sega_grid",
-    "space_ship",
-    "mecha_sprite",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "fire_effect",
-      "grid_overlay"
+      "dripping_slime",
+      "thick_black_outline",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "blue",
-    "neon_cyan"
+    "gold",
+    "red",
+    "purple"
   ],
   "tags": [
-    "desert_bg",
-    "skull_icon",
     "sega_grid",
-    "sub_title",
-    "dragon_bg",
+    "desert_bg",
+    "lightning_strike",
+    "pixel_font",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "fire_effect",
+      "thick_black_outline",
       "glitch_displacement",
-      "drop_shadow"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "black",
+    "neon_cyan",
     "white",
     "blue"
   ],
   "tags": [
-    "sega_grid",
-    "title_screen",
-    "mecha_sprite",
-    "snes_cartridge",
+    "pixel_font",
+    "boss_battle",
     "connected_letters",
+    "pyramid_bg",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

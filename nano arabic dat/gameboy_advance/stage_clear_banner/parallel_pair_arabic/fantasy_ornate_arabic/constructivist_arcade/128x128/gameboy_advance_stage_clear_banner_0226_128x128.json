@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "thick_black_outline",
       "grid_overlay",
-      "chrome_bevel",
-      "fire_effect"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "red",
-    "black"
+    "gold",
+    "white",
+    "blue"
   ],
   "tags": [
-    "skull_icon",
-    "castle_stage",
-    "dragon_bg",
-    "arabic_text",
+    "boss_battle",
+    "sub_title",
     "pixel_frame",
+    "pixel_explosion",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

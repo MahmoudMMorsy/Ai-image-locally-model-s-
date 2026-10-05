@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
       "thick_black_outline",
-      "glitch_displacement"
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
     "purple",
-    "white"
+    "white",
+    "gold"
   ],
   "tags": [
+    "boss_battle",
+    "pixel_font",
+    "pyramid_bg",
+    "castle_stage",
     "snes_cartridge",
-    "gameboy_box",
-    "nes_cover",
-    "pixel_explosion",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "gold_texture",
-      "drop_shadow"
+      "glowing_edges",
+      "fire_effect",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "border_framed",
   "colors": [
-    "white",
     "red",
+    "purple",
     "blue"
   ],
   "tags": [
-    "pixel_font",
-    "hero_sprite",
-    "lightning_strike",
-    "snes_cartridge",
+    "title_screen",
+    "arabic_text",
     "castle_stage",
+    "gameboy_box",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

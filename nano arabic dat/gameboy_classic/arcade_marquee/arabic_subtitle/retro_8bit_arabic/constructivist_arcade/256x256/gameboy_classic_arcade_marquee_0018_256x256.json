@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
-      "chrome_bevel",
-      "glowing_edges"
+      "gold_texture",
+      "dripping_slime",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
-    "white",
-    "purple"
+    "black",
+    "red",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "sega_grid",
-    "boss_battle",
-    "title_screen",
-    "castle_stage",
+    "space_ship",
+    "pixel_explosion",
+    "mecha_sprite",
+    "dragon_bg",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

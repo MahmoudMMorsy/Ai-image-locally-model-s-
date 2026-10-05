@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "grid_overlay",
+      "thick_black_outline",
       "1-bit_dithering",
-      "glowing_edges"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
-    "black",
-    "purple"
+    "purple",
+    "blue",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "mecha_sprite",
-    "connected_letters",
-    "title_screen",
     "sword_icon",
+    "pixel_font",
+    "castle_stage",
+    "lightning_strike",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

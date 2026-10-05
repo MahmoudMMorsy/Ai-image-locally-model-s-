@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
+      "chrome_bevel",
       "16-bit_gradient",
-      "drop_shadow"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "gold",
     "neon_cyan",
-    "purple",
     "white"
   ],
   "tags": [
-    "boss_battle",
-    "pixel_explosion",
-    "pyramid_bg",
-    "snes_cartridge",
-    "sword_icon",
+    "castle_stage",
+    "pixel_font",
+    "pixel_typography",
+    "mecha_sprite",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

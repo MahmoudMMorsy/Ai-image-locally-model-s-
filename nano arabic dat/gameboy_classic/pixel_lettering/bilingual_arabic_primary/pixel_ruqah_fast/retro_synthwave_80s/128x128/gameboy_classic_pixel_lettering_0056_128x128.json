@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "grid_overlay",
+      "thick_black_outline",
+      "1-bit_dithering",
       "pixel_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "blue",
-    "black",
-    "white"
+    "gold",
+    "red",
+    "black"
   ],
   "tags": [
-    "mecha_sprite",
-    "skull_icon",
-    "sword_icon",
+    "sub_title",
+    "sega_grid",
     "pyramid_bg",
-    "connected_letters",
+    "pixel_font",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
-      "glowing_edges",
-      "thick_black_outline"
+      "dripping_slime",
+      "gold_texture",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "gold",
-    "red",
-    "black"
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "sub_title",
     "pyramid_bg",
     "skull_icon",
-    "pixel_typography",
-    "hero_sprite",
+    "mecha_sprite",
+    "lightning_strike",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

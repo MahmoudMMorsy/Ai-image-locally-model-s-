@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "drop_shadow",
-      "glowing_edges",
-      "1-bit_dithering"
+      "chrome_bevel",
+      "pixel_gradient",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "border_framed",
   "colors": [
-    "purple",
-    "red",
-    "neon_cyan"
+    "gold",
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
+    "sword_icon",
+    "arabic_text",
+    "title_screen",
+    "pixel_typography",
     "castle_stage",
-    "mecha_sprite",
-    "pixel_explosion",
-    "hero_sprite",
-    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

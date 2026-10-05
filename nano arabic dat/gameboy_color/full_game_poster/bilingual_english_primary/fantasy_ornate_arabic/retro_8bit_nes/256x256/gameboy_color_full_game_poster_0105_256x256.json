@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
+      "fire_effect",
       "grid_overlay",
-      "glowing_edges"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "blue",
-    "red"
+    "red",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
-    "snes_cartridge",
     "nes_cover",
-    "sega_grid",
     "title_screen",
+    "mecha_sprite",
+    "pixel_typography",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

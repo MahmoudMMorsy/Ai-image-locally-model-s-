@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
       "grid_overlay",
-      "crt_scanlines"
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
+    "gold",
     "black",
-    "gold"
+    "blue"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_frame",
-    "pyramid_bg",
-    "sword_icon",
-    "dragon_bg",
+    "boss_battle",
+    "sega_grid",
+    "title_screen",
+    "nes_cover",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
-      "pixel_gradient",
-      "16-bit_gradient"
+      "dripping_slime",
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "purple",
-    "neon_cyan"
+    "neon_cyan",
+    "black",
+    "red"
   ],
   "tags": [
-    "lightning_strike",
-    "desert_bg",
-    "pyramid_bg",
+    "space_ship",
+    "snes_cartridge",
+    "pixel_frame",
     "connected_letters",
-    "gameboy_box",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

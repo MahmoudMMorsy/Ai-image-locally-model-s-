@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "thick_black_outline",
-      "drop_shadow",
-      "pixel_gradient"
+      "dripping_slime",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
-    "neon_cyan",
+    "purple",
+    "blue",
     "red"
   ],
   "tags": [
-    "sega_grid",
-    "desert_bg",
-    "pixel_font",
-    "nes_cover",
-    "boss_battle",
+    "lightning_strike",
+    "mecha_sprite",
+    "pixel_explosion",
+    "sword_icon",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

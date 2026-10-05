@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "thick_black_outline",
-      "drop_shadow",
-      "gold_texture"
+      "gold_texture",
+      "dripping_slime",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "purple",
-    "neon_cyan",
-    "white"
+    "black",
+    "red"
   ],
   "tags": [
-    "mecha_sprite",
-    "title_screen",
-    "hero_sprite",
-    "pixel_font",
+    "snes_cartridge",
+    "pyramid_bg",
     "nes_cover",
+    "boss_battle",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

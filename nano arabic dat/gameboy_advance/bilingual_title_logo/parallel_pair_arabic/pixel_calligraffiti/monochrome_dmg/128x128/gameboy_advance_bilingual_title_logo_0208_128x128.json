@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
+      "dripping_slime",
       "glitch_displacement",
-      "crt_scanlines",
-      "chrome_bevel"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
     "blue",
-    "red"
+    "red",
+    "purple"
   ],
   "tags": [
-    "pixel_explosion",
-    "title_screen",
     "sega_grid",
+    "hero_sprite",
     "arabic_text",
-    "castle_stage",
+    "skull_icon",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

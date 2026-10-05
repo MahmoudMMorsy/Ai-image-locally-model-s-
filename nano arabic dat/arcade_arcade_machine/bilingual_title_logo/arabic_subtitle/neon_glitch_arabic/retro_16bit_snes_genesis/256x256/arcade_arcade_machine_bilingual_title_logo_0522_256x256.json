@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "dripping_slime",
-      "1-bit_dithering"
+      "drop_shadow",
+      "thick_black_outline",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "center_title_large",
   "colors": [
-    "blue",
-    "red",
+    "purple",
+    "black",
     "neon_cyan"
   ],
   "tags": [
-    "pyramid_bg",
-    "pixel_frame",
-    "sword_icon",
-    "skull_icon",
-    "connected_letters",
+    "castle_stage",
+    "sega_grid",
+    "title_screen",
+    "arabic_text",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

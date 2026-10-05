@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "grid_overlay",
-      "pixel_gradient",
-      "drop_shadow"
+      "dripping_slime",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
     "purple",
-    "blue"
+    "black",
+    "gold"
   ],
   "tags": [
-    "lightning_strike",
-    "snes_cartridge",
-    "mecha_sprite",
-    "pixel_font",
-    "title_screen",
+    "dragon_bg",
+    "hero_sprite",
+    "sub_title",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

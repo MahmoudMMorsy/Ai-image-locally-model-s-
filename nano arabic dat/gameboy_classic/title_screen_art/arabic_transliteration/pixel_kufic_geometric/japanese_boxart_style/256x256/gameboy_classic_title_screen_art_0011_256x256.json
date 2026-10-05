@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "pixel_gradient",
       "chrome_bevel",
-      "drop_shadow",
-      "thick_black_outline"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
-    "neon_cyan",
+    "red",
+    "white",
     "blue"
   ],
   "tags": [
-    "sub_title",
-    "boss_battle",
-    "sword_icon",
-    "mecha_sprite",
-    "space_ship",
+    "title_screen",
+    "pixel_typography",
+    "snes_cartridge",
+    "arabic_text",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

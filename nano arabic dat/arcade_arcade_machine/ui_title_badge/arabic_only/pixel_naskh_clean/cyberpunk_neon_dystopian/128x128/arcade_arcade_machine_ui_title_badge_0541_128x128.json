@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "fire_effect",
       "1-bit_dithering",
-      "thick_black_outline",
       "dripping_slime"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "neon_cyan",
-    "gold",
-    "black"
+    "purple",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "pixel_explosion",
-    "pixel_typography",
     "lightning_strike",
-    "sword_icon",
+    "boss_battle",
+    "space_ship",
+    "dragon_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

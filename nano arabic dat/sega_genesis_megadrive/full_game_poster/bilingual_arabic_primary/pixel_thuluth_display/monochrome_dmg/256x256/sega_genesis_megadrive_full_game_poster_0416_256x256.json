@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
+      "glitch_displacement",
       "glowing_edges",
-      "pixel_gradient",
-      "crt_scanlines"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "blue",
     "red",
-    "black",
-    "blue"
+    "gold"
   ],
   "tags": [
-    "pixel_explosion",
-    "boss_battle",
-    "desert_bg",
-    "arabic_text",
-    "sword_icon",
+    "pyramid_bg",
+    "hero_sprite",
+    "gameboy_box",
+    "pixel_typography",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

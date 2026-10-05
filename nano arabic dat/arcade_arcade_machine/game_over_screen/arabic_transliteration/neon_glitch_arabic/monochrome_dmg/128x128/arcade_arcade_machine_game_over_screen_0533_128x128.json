@@ -8,8 +8,8 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "glowing_edges",
+      "glitch_displacement",
+      "1-bit_dithering",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "white",
-    "blue"
+    "gold",
+    "blue",
+    "white"
   ],
   "tags": [
-    "space_ship",
-    "boss_battle",
+    "skull_icon",
+    "pixel_explosion",
+    "sword_icon",
+    "lightning_strike",
     "title_screen",
-    "pixel_typography",
-    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

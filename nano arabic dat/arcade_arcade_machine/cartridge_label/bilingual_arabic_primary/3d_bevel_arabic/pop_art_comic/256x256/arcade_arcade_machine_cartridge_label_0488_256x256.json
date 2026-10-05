@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
-      "16-bit_gradient",
-      "grid_overlay"
+      "glowing_edges",
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "blue",
+    "white",
+    "black",
     "gold"
   ],
   "tags": [
-    "gameboy_box",
+    "sword_icon",
+    "sega_grid",
     "pixel_explosion",
-    "nes_cover",
-    "lightning_strike",
-    "mecha_sprite",
+    "arabic_text",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
-      "16-bit_gradient",
-      "chrome_bevel"
+      "dripping_slime",
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "white"
+    "blue",
+    "black",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "pixel_typography",
-    "sub_title",
-    "boss_battle",
-    "skull_icon",
+    "mecha_sprite",
+    "nes_cover",
+    "hero_sprite",
+    "pixel_explosion",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "drop_shadow",
-      "grid_overlay"
+      "thick_black_outline",
+      "chrome_bevel",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "blue",
-    "purple",
-    "gold"
+    "black",
+    "gold",
+    "purple"
   ],
   "tags": [
-    "arabic_text",
+    "dragon_bg",
+    "pixel_typography",
+    "sword_icon",
+    "castle_stage",
     "mecha_sprite",
-    "sub_title",
-    "space_ship",
-    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

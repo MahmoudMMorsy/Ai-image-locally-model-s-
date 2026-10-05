@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glowing_edges",
-      "fire_effect",
-      "glitch_displacement"
+      "gold_texture",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "white",
     "red",
-    "gold"
+    "black",
+    "white"
   ],
   "tags": [
-    "lightning_strike",
-    "pixel_frame",
-    "mecha_sprite",
-    "snes_cartridge",
-    "skull_icon",
+    "hero_sprite",
+    "pyramid_bg",
+    "arabic_text",
+    "title_screen",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

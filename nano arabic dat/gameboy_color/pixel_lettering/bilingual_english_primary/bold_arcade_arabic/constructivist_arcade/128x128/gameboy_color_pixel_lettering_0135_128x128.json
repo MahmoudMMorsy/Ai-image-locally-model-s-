@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "glowing_edges",
-      "thick_black_outline"
+      "dripping_slime",
+      "drop_shadow",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "gold",
     "red",
-    "neon_cyan"
+    "purple"
   ],
   "tags": [
     "hero_sprite",
-    "nes_cover",
-    "pixel_frame",
-    "lightning_strike",
-    "snes_cartridge",
+    "sword_icon",
+    "boss_battle",
+    "mecha_sprite",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "dripping_slime",
-      "1-bit_dithering",
-      "crt_scanlines"
+      "grid_overlay",
+      "crt_scanlines",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "purple"
+    "purple",
+    "red",
+    "white"
   ],
   "tags": [
-    "dragon_bg",
-    "castle_stage",
-    "nes_cover",
-    "sega_grid",
-    "mecha_sprite",
+    "arabic_text",
+    "pyramid_bg",
+    "gameboy_box",
+    "sword_icon",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "pixel_gradient",
+      "drop_shadow",
       "thick_black_outline",
-      "grid_overlay"
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
+    "gold",
     "black",
-    "neon_cyan"
+    "blue"
   ],
   "tags": [
-    "lightning_strike",
-    "sword_icon",
-    "skull_icon",
+    "dragon_bg",
+    "hero_sprite",
     "connected_letters",
-    "pixel_explosion",
+    "space_ship",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

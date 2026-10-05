@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
-      "fire_effect",
-      "grid_overlay"
+      "pixel_gradient",
+      "crt_scanlines",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "gold",
-    "purple"
+    "red",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "pyramid_bg",
+    "pixel_typography",
+    "sega_grid",
+    "skull_icon",
+    "boss_battle",
     "pixel_font",
-    "sub_title",
-    "snes_cartridge",
-    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

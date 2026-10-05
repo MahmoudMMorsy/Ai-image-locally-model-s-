@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "thick_black_outline",
-      "pixel_gradient",
-      "drop_shadow"
+      "fire_effect",
+      "16-bit_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
-    "purple",
-    "neon_cyan"
+    "gold",
+    "blue",
+    "white"
   ],
   "tags": [
     "pyramid_bg",
-    "nes_cover",
-    "mecha_sprite",
-    "sword_icon",
-    "pixel_frame",
+    "pixel_font",
+    "skull_icon",
+    "connected_letters",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

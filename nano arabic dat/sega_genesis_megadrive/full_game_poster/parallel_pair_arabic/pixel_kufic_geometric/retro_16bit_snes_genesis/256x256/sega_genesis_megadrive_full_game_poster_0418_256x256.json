@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "fire_effect",
-      "grid_overlay",
-      "crt_scanlines"
+      "glitch_displacement",
+      "thick_black_outline",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "white",
-    "red"
+    "gold",
+    "black",
+    "white"
   ],
   "tags": [
-    "pixel_explosion",
-    "skull_icon",
     "boss_battle",
-    "sega_grid",
-    "title_screen",
+    "sub_title",
+    "hero_sprite",
+    "connected_letters",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "drop_shadow",
-      "chrome_bevel"
+      "glowing_edges",
+      "16-bit_gradient",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "border_framed",
   "colors": [
-    "blue",
     "gold",
-    "red"
+    "black",
+    "purple"
   ],
   "tags": [
-    "lightning_strike",
-    "sub_title",
-    "dragon_bg",
-    "snes_cartridge",
     "sega_grid",
+    "hero_sprite",
+    "pixel_typography",
+    "connected_letters",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

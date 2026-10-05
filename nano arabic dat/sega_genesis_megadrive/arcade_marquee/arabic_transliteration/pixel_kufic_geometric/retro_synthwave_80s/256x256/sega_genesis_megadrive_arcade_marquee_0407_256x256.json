@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "crt_scanlines",
       "thick_black_outline",
-      "pixel_gradient",
-      "glitch_displacement"
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
     "purple",
-    "gold"
+    "white",
+    "black"
   ],
   "tags": [
-    "sword_icon",
-    "hero_sprite",
     "dragon_bg",
-    "gameboy_box",
-    "sega_grid",
+    "sword_icon",
+    "pixel_font",
+    "mecha_sprite",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

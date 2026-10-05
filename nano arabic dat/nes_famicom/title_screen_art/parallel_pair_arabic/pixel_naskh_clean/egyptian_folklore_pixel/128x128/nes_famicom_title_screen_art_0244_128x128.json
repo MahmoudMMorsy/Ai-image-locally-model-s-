@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "grid_overlay",
-      "pixel_gradient"
+      "gold_texture",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
+    "gold",
     "blue",
-    "black"
+    "white"
   ],
   "tags": [
-    "gameboy_box",
-    "space_ship",
-    "boss_battle",
-    "pyramid_bg",
-    "snes_cartridge",
+    "pixel_typography",
+    "sword_icon",
+    "arabic_text",
+    "castle_stage",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

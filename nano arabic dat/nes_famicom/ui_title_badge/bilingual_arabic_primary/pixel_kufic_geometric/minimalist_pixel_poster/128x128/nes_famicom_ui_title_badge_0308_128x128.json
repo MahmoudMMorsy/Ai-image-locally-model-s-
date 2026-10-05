@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "16-bit_gradient",
-      "dripping_slime"
+      "dripping_slime",
+      "glowing_edges",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "gold",
     "white",
-    "blue",
-    "purple"
+    "black"
   ],
   "tags": [
-    "desert_bg",
-    "gameboy_box",
-    "pyramid_bg",
     "snes_cartridge",
-    "lightning_strike",
+    "skull_icon",
+    "mecha_sprite",
+    "arabic_text",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

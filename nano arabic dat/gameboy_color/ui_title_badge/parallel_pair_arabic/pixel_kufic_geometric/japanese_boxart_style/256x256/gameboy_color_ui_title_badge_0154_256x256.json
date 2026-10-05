@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "dripping_slime",
-      "fire_effect"
+      "1-bit_dithering",
+      "crt_scanlines",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "blue",
-    "black",
-    "gold"
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "pixel_explosion",
-    "sub_title",
-    "boss_battle",
+    "lightning_strike",
+    "hero_sprite",
     "skull_icon",
-    "pyramid_bg",
+    "pixel_typography",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

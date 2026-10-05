@@ -8,8 +8,8 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "1-bit_dithering",
+      "glitch_displacement",
+      "glowing_edges",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
     "white",
-    "blue"
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
     "sega_grid",
-    "pyramid_bg",
-    "skull_icon",
-    "pixel_frame",
-    "lightning_strike",
+    "gameboy_box",
+    "boss_battle",
+    "pixel_font",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

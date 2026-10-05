@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
-      "16-bit_gradient",
-      "fire_effect"
+      "pixel_gradient",
+      "grid_overlay",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "centered_emblem",
   "colors": [
+    "gold",
     "purple",
-    "black",
-    "red"
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_explosion",
-    "pixel_font",
-    "boss_battle",
-    "lightning_strike",
-    "sub_title",
+    "mecha_sprite",
+    "arabic_text",
+    "gameboy_box",
+    "sword_icon",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "grid_overlay",
-      "dripping_slime"
+      "dripping_slime",
+      "fire_effect",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "center_title_large",
   "colors": [
+    "purple",
     "red",
-    "blue",
-    "purple"
+    "black"
   ],
   "tags": [
-    "pixel_font",
-    "lightning_strike",
-    "skull_icon",
-    "arabic_text",
-    "desert_bg",
+    "dragon_bg",
+    "pixel_explosion",
+    "pixel_frame",
+    "snes_cartridge",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

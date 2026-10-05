@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glowing_edges",
-      "1-bit_dithering",
-      "fire_effect"
+      "grid_overlay",
+      "gold_texture",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -23,11 +23,11 @@
     "white"
   ],
   "tags": [
-    "sega_grid",
     "hero_sprite",
-    "castle_stage",
-    "pixel_typography",
-    "boss_battle",
+    "space_ship",
+    "mecha_sprite",
+    "lightning_strike",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

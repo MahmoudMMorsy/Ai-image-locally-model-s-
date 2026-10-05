@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
       "dripping_slime",
+      "fire_effect",
       "glowing_edges"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "blue",
-    "black",
+    "purple",
     "white"
   ],
   "tags": [
+    "gameboy_box",
+    "skull_icon",
     "pixel_frame",
-    "mecha_sprite",
-    "arabic_text",
-    "castle_stage",
-    "dragon_bg",
+    "pixel_font",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

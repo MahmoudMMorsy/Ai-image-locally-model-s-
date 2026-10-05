@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "glowing_edges",
-      "pixel_gradient"
+      "drop_shadow",
+      "dripping_slime",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
     "red",
-    "neon_cyan"
+    "white",
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "pixel_explosion",
-    "dragon_bg",
-    "pixel_typography",
+    "sub_title",
     "title_screen",
+    "hero_sprite",
+    "pixel_font",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

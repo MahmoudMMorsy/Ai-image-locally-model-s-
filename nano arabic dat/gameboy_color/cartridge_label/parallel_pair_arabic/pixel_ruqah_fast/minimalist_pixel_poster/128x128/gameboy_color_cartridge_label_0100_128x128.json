@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
+      "chrome_bevel",
       "fire_effect",
-      "drop_shadow"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
+    "purple",
     "neon_cyan",
-    "blue"
+    "black"
   ],
   "tags": [
-    "arabic_text",
+    "pixel_font",
     "skull_icon",
-    "pixel_explosion",
-    "castle_stage",
-    "sword_icon",
+    "title_screen",
+    "sega_grid",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

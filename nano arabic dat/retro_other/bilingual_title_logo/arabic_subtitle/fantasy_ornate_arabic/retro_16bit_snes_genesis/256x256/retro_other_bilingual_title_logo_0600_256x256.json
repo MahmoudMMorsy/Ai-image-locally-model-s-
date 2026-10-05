@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "crt_scanlines",
-      "dripping_slime",
-      "fire_effect"
+      "thick_black_outline",
+      "glowing_edges",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "white",
-    "blue",
-    "red"
+    "black",
+    "gold"
   ],
   "tags": [
     "sword_icon",
-    "mecha_sprite",
-    "arabic_text",
-    "snes_cartridge",
-    "boss_battle",
+    "gameboy_box",
+    "skull_icon",
+    "title_screen",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "pixel_gradient",
-      "glowing_edges",
-      "1-bit_dithering"
+      "crt_scanlines",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "neon_cyan",
-    "purple"
+    "gold",
+    "purple",
+    "blue"
   ],
   "tags": [
-    "boss_battle",
-    "title_screen",
-    "sword_icon",
+    "pixel_font",
+    "pyramid_bg",
     "pixel_explosion",
     "pixel_typography",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

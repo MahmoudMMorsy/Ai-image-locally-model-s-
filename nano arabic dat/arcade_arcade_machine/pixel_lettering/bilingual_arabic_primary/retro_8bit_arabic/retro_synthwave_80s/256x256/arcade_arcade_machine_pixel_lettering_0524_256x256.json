@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "fire_effect",
-      "grid_overlay",
-      "1-bit_dithering"
+      "dripping_slime",
+      "crt_scanlines",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "neon_cyan",
-    "black",
-    "red"
+    "gold",
+    "blue"
   ],
   "tags": [
-    "pixel_font",
-    "title_screen",
-    "pixel_explosion",
-    "castle_stage",
-    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "hero_sprite",
+    "desert_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "glowing_edges",
-      "thick_black_outline"
+      "gold_texture",
+      "16-bit_gradient",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "black_border_nes",
   "colors": [
+    "gold",
     "blue",
-    "white",
-    "neon_cyan"
+    "red"
   ],
   "tags": [
-    "sword_icon",
-    "gameboy_box",
     "sub_title",
-    "pixel_explosion",
+    "pyramid_bg",
     "skull_icon",
+    "pixel_explosion",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

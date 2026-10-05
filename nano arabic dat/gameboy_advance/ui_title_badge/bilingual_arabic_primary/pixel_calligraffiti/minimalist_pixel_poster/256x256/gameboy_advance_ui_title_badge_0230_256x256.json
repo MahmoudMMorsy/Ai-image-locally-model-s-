@@ -8,8 +8,8 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
-      "thick_black_outline",
+      "glitch_displacement",
+      "drop_shadow",
       "fire_effect"
     ],
     "readability_score": "high"
@@ -19,15 +19,15 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "gold",
-    "blue",
-    "black"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
-    "mecha_sprite",
-    "castle_stage",
-    "space_ship",
+    "pixel_frame",
     "arabic_text",
+    "hero_sprite",
+    "dragon_bg",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

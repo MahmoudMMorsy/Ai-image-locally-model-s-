@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "grid_overlay",
-      "1-bit_dithering",
-      "gold_texture"
+      "chrome_bevel",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "split_bilingual_layout",
   "colors": [
+    "white",
     "red",
-    "neon_cyan",
     "purple"
   ],
   "tags": [
+    "space_ship",
+    "hero_sprite",
+    "sub_title",
+    "pixel_explosion",
     "gameboy_box",
-    "arabic_text",
-    "boss_battle",
-    "castle_stage",
-    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

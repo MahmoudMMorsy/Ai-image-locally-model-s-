@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "chrome_bevel",
-      "crt_scanlines",
-      "fire_effect"
+      "glowing_edges",
+      "16-bit_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "grid_framed_boxart",
   "colors": [
-    "blue",
-    "gold",
-    "neon_cyan"
+    "white",
+    "purple",
+    "black"
   ],
   "tags": [
-    "space_ship",
-    "dragon_bg",
-    "lightning_strike",
+    "nes_cover",
     "sub_title",
-    "boss_battle",
+    "mecha_sprite",
+    "sega_grid",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "gold_texture",
-      "glitch_displacement"
+      "crt_scanlines",
+      "drop_shadow",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "center_title_large",
   "colors": [
-    "white",
-    "neon_cyan",
-    "gold"
+    "purple",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "skull_icon",
-    "gameboy_box",
-    "sub_title",
-    "mecha_sprite",
-    "boss_battle",
+    "pixel_frame",
+    "desert_bg",
+    "space_ship",
+    "sega_grid",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

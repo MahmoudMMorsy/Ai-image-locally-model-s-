@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "chrome_bevel",
-      "pixel_gradient"
+      "glowing_edges",
+      "fire_effect",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
+    "red",
     "gold",
-    "purple"
+    "white"
   ],
   "tags": [
-    "mecha_sprite",
-    "arabic_text",
     "pixel_explosion",
-    "dragon_bg",
-    "snes_cartridge",
+    "nes_cover",
+    "desert_bg",
+    "lightning_strike",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "fire_effect",
-      "drop_shadow",
-      "gold_texture"
+      "chrome_bevel",
+      "gold_texture",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "red"
+    "gold",
+    "black",
+    "white"
   ],
   "tags": [
-    "hero_sprite",
-    "connected_letters",
-    "pyramid_bg",
-    "dragon_bg",
-    "title_screen",
+    "sega_grid",
+    "pixel_frame",
+    "lightning_strike",
+    "sword_icon",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

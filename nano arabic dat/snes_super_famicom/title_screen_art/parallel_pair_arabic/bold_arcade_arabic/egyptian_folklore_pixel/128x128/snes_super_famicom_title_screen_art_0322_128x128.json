@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "crt_scanlines",
-      "gold_texture"
+      "grid_overlay",
+      "glowing_edges",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
+    "black",
     "purple",
     "white"
   ],
   "tags": [
-    "lightning_strike",
-    "desert_bg",
-    "arabic_text",
-    "connected_letters",
+    "mecha_sprite",
     "title_screen",
+    "lightning_strike",
+    "pixel_frame",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

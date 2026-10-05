@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glitch_displacement",
-      "glowing_edges",
-      "crt_scanlines"
+      "grid_overlay",
+      "crt_scanlines",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "center_title_large",
   "colors": [
-    "white",
-    "purple",
-    "neon_cyan"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
-    "pixel_frame",
-    "pyramid_bg",
+    "snes_cartridge",
+    "skull_icon",
+    "lightning_strike",
+    "sega_grid",
     "dragon_bg",
-    "gameboy_box",
-    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

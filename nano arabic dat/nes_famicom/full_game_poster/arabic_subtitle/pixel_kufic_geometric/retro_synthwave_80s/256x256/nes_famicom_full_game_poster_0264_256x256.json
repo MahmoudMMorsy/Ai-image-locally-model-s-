@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "grid_overlay",
-      "glowing_edges",
-      "gold_texture"
+      "dripping_slime",
+      "drop_shadow",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
     "purple",
-    "white"
+    "blue",
+    "black"
   ],
   "tags": [
+    "gameboy_box",
     "arabic_text",
-    "connected_letters",
-    "mecha_sprite",
-    "sub_title",
-    "space_ship",
+    "title_screen",
+    "sword_icon",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

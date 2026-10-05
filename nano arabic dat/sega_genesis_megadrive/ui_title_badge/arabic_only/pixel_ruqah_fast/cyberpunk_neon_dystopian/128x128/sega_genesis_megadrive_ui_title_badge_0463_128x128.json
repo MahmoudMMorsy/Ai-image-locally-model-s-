@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "dripping_slime",
-      "drop_shadow",
-      "1-bit_dithering"
+      "thick_black_outline",
+      "chrome_bevel",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
     "white",
-    "red"
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "gameboy_box",
-    "boss_battle",
+    "sub_title",
     "pixel_typography",
-    "pixel_frame",
-    "lightning_strike",
+    "snes_cartridge",
+    "sega_grid",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

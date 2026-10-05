@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "chrome_bevel",
-      "grid_overlay",
-      "gold_texture"
+      "crt_scanlines",
+      "glitch_displacement",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "border_framed",
   "colors": [
-    "blue",
     "red",
-    "neon_cyan"
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "arabic_text",
-    "pixel_frame",
-    "sega_grid",
-    "pixel_typography",
-    "pixel_font",
+    "castle_stage",
+    "sword_icon",
+    "pixel_explosion",
+    "sub_title",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
