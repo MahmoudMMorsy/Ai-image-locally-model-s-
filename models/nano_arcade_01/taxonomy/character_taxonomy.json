@@ -1,0 +1,1731 @@
+{
+  "version": "1.3",
+  "name": "Character Generation Taxonomy",
+  "description": "قاعدة تصنيف شاملة + تصنيفات فرعية للسبرايت الأركيد (سلاح، زي، كلاس، لون، مقياس)",
+  "locale": [
+    "ar",
+    "en"
+  ],
+  "media_type": {
+    "id": "media_type",
+    "label_ar": "نوع الوسائط / أسلوب الرسم",
+    "label_en": "Media / Art style",
+    "multi": false,
+    "values": [
+      {
+        "id": "pixel_art",
+        "ar": "بيكسل آرت",
+        "en": "Pixel art"
+      },
+      {
+        "id": "arcade_sprite",
+        "ar": "سبرايت أركيد",
+        "en": "Arcade sprite"
+      },
+      {
+        "id": "chibi",
+        "ar": "تشيبي",
+        "en": "Chibi"
+      },
+      {
+        "id": "anime",
+        "ar": "أنمي",
+        "en": "Anime"
+      },
+      {
+        "id": "cartoon_western",
+        "ar": "كرتون غربي",
+        "en": "Western cartoon"
+      },
+      {
+        "id": "comic",
+        "ar": "كوميكس",
+        "en": "Comic book"
+      },
+      {
+        "id": "realistic",
+        "ar": "واقعي",
+        "en": "Realistic"
+      },
+      {
+        "id": "semi_realistic",
+        "ar": "شبه واقعي",
+        "en": "Semi-realistic"
+      },
+      {
+        "id": "3d_render",
+        "ar": "ثلاثي الأبعاد",
+        "en": "3D render"
+      },
+      {
+        "id": "clay_stopmotion",
+        "ar": "صلصال / ستوب موشن",
+        "en": "Clay / stop-motion"
+      },
+      {
+        "id": "vector_flat",
+        "ar": "فيكتور مسطح",
+        "en": "Flat vector"
+      },
+      {
+        "id": "watercolor",
+        "ar": "ألوان مائية",
+        "en": "Watercolor"
+      },
+      {
+        "id": "ink_lineart",
+        "ar": "حبر / خط",
+        "en": "Ink / line art"
+      },
+      {
+        "id": "low_poly",
+        "ar": "لو بولي",
+        "en": "Low poly"
+      },
+      {
+        "id": "voxel",
+        "ar": "فوكسل",
+        "en": "Voxel"
+      }
+    ]
+  },
+  "species_or_form": {
+    "id": "species_or_form",
+    "label_ar": "الشكل / النوع البيولوجي",
+    "label_en": "Species / form",
+    "multi": false,
+    "values": [
+      {
+        "id": "human",
+        "ar": "بشري",
+        "en": "Human"
+      },
+      {
+        "id": "humanoid",
+        "ar": "شبيه بالبشر",
+        "en": "Humanoid"
+      },
+      {
+        "id": "elf",
+        "ar": "إلف",
+        "en": "Elf"
+      },
+      {
+        "id": "dwarf",
+        "ar": "قزم خيالي",
+        "en": "Dwarf"
+      },
+      {
+        "id": "orc_goblin",
+        "ar": "أورك / عفريت",
+        "en": "Orc / goblin"
+      },
+      {
+        "id": "robot_android",
+        "ar": "روبوت / أندرويد",
+        "en": "Robot / android"
+      },
+      {
+        "id": "cyborg",
+        "ar": "سايبرغ",
+        "en": "Cyborg"
+      },
+      {
+        "id": "animal_anthro",
+        "ar": "حيوان مجسّم (أنثرو)",
+        "en": "Anthropomorphic animal"
+      },
+      {
+        "id": "animal_realistic",
+        "ar": "حيوان واقعي",
+        "en": "Realistic animal"
+      },
+      {
+        "id": "monster_creature",
+        "ar": "وحش / مخلوق",
+        "en": "Monster / creature"
+      },
+      {
+        "id": "dragon",
+        "ar": "تنين",
+        "en": "Dragon"
+      },
+      {
+        "id": "undead",
+        "ar": "ميت حي / شبح",
+        "en": "Undead / ghost"
+      },
+      {
+        "id": "alien",
+        "ar": "كائن فضائي",
+        "en": "Alien"
+      },
+      {
+        "id": "elemental",
+        "ar": "عنصري (نار/ماء...)",
+        "en": "Elemental"
+      },
+      {
+        "id": "plant_creature",
+        "ar": "كائن نباتي",
+        "en": "Plant creature"
+      },
+      {
+        "id": "slime_blob",
+        "ar": "سلايم / كتلة",
+        "en": "Slime / blob"
+      },
+      {
+        "id": "mech_vehicle",
+        "ar": "ميكا / مركبة مجسّمة",
+        "en": "Mech / vehicle character"
+      },
+      {
+        "id": "object_anthropomorphic",
+        "ar": "جماد مجسّم",
+        "en": "Anthropomorphic object"
+      },
+      {
+        "id": "mythic_hybrid",
+        "ar": "هجين أسطوري",
+        "en": "Mythic hybrid"
+      },
+      {
+        "id": "other",
+        "ar": "أخرى",
+        "en": "Other"
+      }
+    ]
+  },
+  "gender_presentation": {
+    "id": "gender_presentation",
+    "label_ar": "الجنس / الظهور الجندري",
+    "label_en": "Gender presentation",
+    "multi": false,
+    "values": [
+      {
+        "id": "male",
+        "ar": "ذكر",
+        "en": "Male"
+      },
+      {
+        "id": "female",
+        "ar": "أنثى",
+        "en": "Female"
+      },
+      {
+        "id": "nonbinary",
+        "ar": "غير ثنائي",
+        "en": "Non-binary"
+      },
+      {
+        "id": "ambiguous",
+        "ar": "غير محدد / غامض",
+        "en": "Ambiguous"
+      },
+      {
+        "id": "not_applicable",
+        "ar": "لا ينطبق",
+        "en": "Not applicable"
+      }
+    ]
+  },
+  "age_band": {
+    "id": "age_band",
+    "label_ar": "الفئة العمرية (مظهر)",
+    "label_en": "Apparent age band",
+    "multi": false,
+    "values": [
+      {
+        "id": "child",
+        "ar": "طفل",
+        "en": "Child"
+      },
+      {
+        "id": "teen",
+        "ar": "مراهق",
+        "en": "Teen"
+      },
+      {
+        "id": "young_adult",
+        "ar": "شاب / شابة",
+        "en": "Young adult"
+      },
+      {
+        "id": "adult",
+        "ar": "بالغ",
+        "en": "Adult"
+      },
+      {
+        "id": "elder",
+        "ar": "مسن",
+        "en": "Elder"
+      },
+      {
+        "id": "ageless",
+        "ar": "بلا عمر ظاهر",
+        "en": "Ageless"
+      }
+    ]
+  },
+  "body_type": {
+    "id": "body_type",
+    "label_ar": "بنية الجسم",
+    "label_en": "Body type",
+    "multi": false,
+    "values": [
+      {
+        "id": "slim",
+        "ar": "نحيف",
+        "en": "Slim"
+      },
+      {
+        "id": "athletic",
+        "ar": "رياضي",
+        "en": "Athletic"
+      },
+      {
+        "id": "muscular",
+        "ar": "عضلي",
+        "en": "Muscular"
+      },
+      {
+        "id": "bulky",
+        "ar": "ضخم",
+        "en": "Bulky"
+      },
+      {
+        "id": "chubby",
+        "ar": "ممتلئ",
+        "en": "Chubby"
+      },
+      {
+        "id": "petite",
+        "ar": "صغير القامة",
+        "en": "Petite"
+      },
+      {
+        "id": "tall_lanky",
+        "ar": "طويل نحيل",
+        "en": "Tall / lanky"
+      },
+      {
+        "id": "heavy_armor_silhouette",
+        "ar": "هيكل درع ثقيل",
+        "en": "Heavy armor silhouette"
+      }
+    ]
+  },
+  "role_archetype": {
+    "id": "role_archetype",
+    "label_ar": "الدور / الأركيتايب",
+    "label_en": "Role archetype",
+    "multi": true,
+    "values": [
+      {
+        "id": "hero_protagonist",
+        "ar": "بطل رئيسي",
+        "en": "Hero / protagonist"
+      },
+      {
+        "id": "antihero",
+        "ar": "ضد-بطل",
+        "en": "Antihero"
+      },
+      {
+        "id": "villain",
+        "ar": "شرير",
+        "en": "Villain"
+      },
+      {
+        "id": "sidekick",
+        "ar": "مساعد",
+        "en": "Sidekick"
+      },
+      {
+        "id": "mentor",
+        "ar": "مرشد",
+        "en": "Mentor"
+      },
+      {
+        "id": "warrior",
+        "ar": "محارب",
+        "en": "Warrior"
+      },
+      {
+        "id": "mage_wizard",
+        "ar": "ساحر / مشعوذ",
+        "en": "Mage / wizard"
+      },
+      {
+        "id": "archer_ranger",
+        "ar": "رامي / مستكشف",
+        "en": "Archer / ranger"
+      },
+      {
+        "id": "rogue_thief",
+        "ar": "لص / مراوغ",
+        "en": "Rogue / thief"
+      },
+      {
+        "id": "healer_support",
+        "ar": "معالج / دعم",
+        "en": "Healer / support"
+      },
+      {
+        "id": "tank_guardian",
+        "ar": "دبابة / حارس",
+        "en": "Tank / guardian"
+      },
+      {
+        "id": "assassin",
+        "ar": "قاتل مأجور",
+        "en": "Assassin"
+      },
+      {
+        "id": "knight",
+        "ar": "فارس",
+        "en": "Knight"
+      },
+      {
+        "id": "samurai_ninja",
+        "ar": "ساموراي / نينجا",
+        "en": "Samurai / ninja"
+      },
+      {
+        "id": "pirate",
+        "ar": "قرصان",
+        "en": "Pirate"
+      },
+      {
+        "id": "soldier_military",
+        "ar": "جندي / عسكري",
+        "en": "Soldier / military"
+      },
+      {
+        "id": "scientist",
+        "ar": "عالم",
+        "en": "Scientist"
+      },
+      {
+        "id": "inventor_engineer",
+        "ar": "مخترع / مهندس",
+        "en": "Inventor / engineer"
+      },
+      {
+        "id": "merchant",
+        "ar": "تاجر",
+        "en": "Merchant"
+      },
+      {
+        "id": "royalty",
+        "ar": "ملكي",
+        "en": "Royalty"
+      },
+      {
+        "id": "peasant_civilian",
+        "ar": "مدني / فلاح",
+        "en": "Civilian / peasant"
+      },
+      {
+        "id": "athlete",
+        "ar": "رياضي",
+        "en": "Athlete"
+      },
+      {
+        "id": "musician_artist",
+        "ar": "موسيقي / فنان",
+        "en": "Musician / artist"
+      },
+      {
+        "id": "detective",
+        "ar": "محقق",
+        "en": "Detective"
+      },
+      {
+        "id": "pilot_driver",
+        "ar": "طيار / سائق",
+        "en": "Pilot / driver"
+      },
+      {
+        "id": "chef_cook",
+        "ar": "طباخ",
+        "en": "Chef / cook"
+      },
+      {
+        "id": "clown_jester",
+        "ar": "مهرج",
+        "en": "Clown / jester"
+      },
+      {
+        "id": "boss_enemy",
+        "ar": "زعيم عدو",
+        "en": "Boss enemy"
+      },
+      {
+        "id": "npc_generic",
+        "ar": "شخصية ثانوية عامة",
+        "en": "Generic NPC"
+      },
+      {
+        "id": "mascot",
+        "ar": "تميمة",
+        "en": "Mascot"
+      },
+      {
+        "id": "arcade_boss",
+        "ar": "بوس أركيد",
+        "en": "Arcade boss"
+      },
+      {
+        "id": "platformer_hero",
+        "ar": "بطل بلاتفورمر",
+        "en": "Platformer hero"
+      },
+      {
+        "id": "fighter_playable",
+        "ar": "مقاتل قابل للعب",
+        "en": "Playable fighter"
+      },
+      {
+        "id": "shopkeeper",
+        "ar": "تاجر",
+        "en": "Shopkeeper"
+      },
+      {
+        "id": "quest_giver",
+        "ar": "معطي مهمة",
+        "en": "Quest giver"
+      },
+      {
+        "id": "summon_creature",
+        "ar": "مخلوق مستدعى",
+        "en": "Summoned creature"
+      }
+    ]
+  },
+  "setting_era": {
+    "id": "setting_era",
+    "label_ar": "الحقبة / الإطار الزمني",
+    "label_en": "Setting / era",
+    "multi": true,
+    "values": [
+      {
+        "id": "prehistoric",
+        "ar": "ما قبل التاريخ",
+        "en": "Prehistoric"
+      },
+      {
+        "id": "ancient",
+        "ar": "قديم / عتيق",
+        "en": "Ancient"
+      },
+      {
+        "id": "medieval_fantasy",
+        "ar": "وسيط / فانتازيا",
+        "en": "Medieval / fantasy"
+      },
+      {
+        "id": "renaissance",
+        "ar": "نهضة",
+        "en": "Renaissance"
+      },
+      {
+        "id": "feudal_japan",
+        "ar": "اليابان الإقطاعية",
+        "en": "Feudal Japan"
+      },
+      {
+        "id": "industrial",
+        "ar": "صناعي",
+        "en": "Industrial"
+      },
+      {
+        "id": "wild_west",
+        "ar": "الغرب الأمريكي",
+        "en": "Wild West"
+      },
+      {
+        "id": "modern",
+        "ar": "حديث",
+        "en": "Modern"
+      },
+      {
+        "id": "near_future",
+        "ar": "مستقبل قريب",
+        "en": "Near future"
+      },
+      {
+        "id": "cyberpunk",
+        "ar": "سايبربانك",
+        "en": "Cyberpunk"
+      },
+      {
+        "id": "steampunk",
+        "ar": "ستيمبانك",
+        "en": "Steampunk"
+      },
+      {
+        "id": "space_opera",
+        "ar": "فضاء / أوبرا فضائية",
+        "en": "Space opera"
+      },
+      {
+        "id": "post_apocalyptic",
+        "ar": "ما بعد الكارثة",
+        "en": "Post-apocalyptic"
+      },
+      {
+        "id": "timeless_fairy",
+        "ar": "خارج الزمن / خرافي",
+        "en": "Timeless / fairy-tale"
+      }
+    ]
+  },
+  "culture_region": {
+    "id": "culture_region",
+    "label_ar": "الثقافة / المنطقة المستوحاة",
+    "label_en": "Culture / region inspiration",
+    "multi": true,
+    "values": [
+      {
+        "id": "generic_western",
+        "ar": "غربي عام",
+        "en": "Generic Western"
+      },
+      {
+        "id": "middle_eastern",
+        "ar": "شرق أوسطي",
+        "en": "Middle Eastern"
+      },
+      {
+        "id": "north_african",
+        "ar": "شمال أفريقيا",
+        "en": "North African"
+      },
+      {
+        "id": "sub_saharan_african",
+        "ar": "أفريقيا جنوب الصحراء",
+        "en": "Sub-Saharan African"
+      },
+      {
+        "id": "east_asian",
+        "ar": "شرق آسيا",
+        "en": "East Asian"
+      },
+      {
+        "id": "south_asian",
+        "ar": "جنوب آسيا",
+        "en": "South Asian"
+      },
+      {
+        "id": "southeast_asian",
+        "ar": "جنوب شرق آسيا",
+        "en": "Southeast Asian"
+      },
+      {
+        "id": "central_asian",
+        "ar": "آسيا الوسطى",
+        "en": "Central Asian"
+      },
+      {
+        "id": "european_northern",
+        "ar": "أوروبا شمالية",
+        "en": "Northern European"
+      },
+      {
+        "id": "european_southern",
+        "ar": "أوروبا جنوبية",
+        "en": "Southern European"
+      },
+      {
+        "id": "european_eastern",
+        "ar": "أوروبا شرقية",
+        "en": "Eastern European"
+      },
+      {
+        "id": "latin_american",
+        "ar": "أمريكا اللاتينية",
+        "en": "Latin American"
+      },
+      {
+        "id": "north_american_indigenous",
+        "ar": "سكان أمريكا الأصليون",
+        "en": "North American Indigenous"
+      },
+      {
+        "id": "oceanian_pacific",
+        "ar": "أوقيانوسيا / المحيط الهادئ",
+        "en": "Oceanian / Pacific"
+      },
+      {
+        "id": "fantasy_invented",
+        "ar": "ثقافة خيالية مخترعة",
+        "en": "Invented fantasy culture"
+      },
+      {
+        "id": "scifi_mixed",
+        "ar": "خيال علمي مختلط",
+        "en": "Sci-fi mixed"
+      },
+      {
+        "id": "unspecified",
+        "ar": "غير محدد",
+        "en": "Unspecified"
+      }
+    ]
+  },
+  "source_domain": {
+    "id": "source_domain",
+    "label_ar": "مجال المصدر",
+    "label_en": "Source domain",
+    "multi": true,
+    "values": [
+      {
+        "id": "original_oc",
+        "ar": "شخصية أصلية (OC)",
+        "en": "Original character (OC)"
+      },
+      {
+        "id": "video_game",
+        "ar": "لعبة فيديو",
+        "en": "Video game"
+      },
+      {
+        "id": "arcade_classic",
+        "ar": "أركيد كلاسيكي",
+        "en": "Classic arcade"
+      },
+      {
+        "id": "anime_manga",
+        "ar": "أنمي / مانجا",
+        "en": "Anime / manga"
+      },
+      {
+        "id": "cartoon_tv",
+        "ar": "مسلسل كرتون",
+        "en": "TV cartoon"
+      },
+      {
+        "id": "animated_film",
+        "ar": "فيلم رسوم متحركة",
+        "en": "Animated film"
+      },
+      {
+        "id": "comic_graphic_novel",
+        "ar": "كوميكس / رواية مصورة",
+        "en": "Comic / graphic novel"
+      },
+      {
+        "id": "literature",
+        "ar": "أدب",
+        "en": "Literature"
+      },
+      {
+        "id": "mythology_legend",
+        "ar": "أساطير / ملاحم (غير إسلامية مقدسة)",
+        "en": "Mythology / legend (non-Islamic sacred)"
+      },
+      {
+        "id": "folklore",
+        "ar": "فولكلور",
+        "en": "Folklore"
+      },
+      {
+        "id": "historical_figure",
+        "ar": "شخصية تاريخية",
+        "en": "Historical figure"
+      },
+      {
+        "id": "actor_celebrity_likeness",
+        "ar": "ممثل / مشهور (شبه)",
+        "en": "Actor / celebrity likeness"
+      },
+      {
+        "id": "sports_figure",
+        "ar": "شخصية رياضية",
+        "en": "Sports figure"
+      },
+      {
+        "id": "tabletop_rpg",
+        "ar": "ألعاب لوحية / RPG",
+        "en": "Tabletop RPG"
+      },
+      {
+        "id": "toy_franchise",
+        "ar": "سلسلة ألعاب / دمى",
+        "en": "Toy franchise"
+      },
+      {
+        "id": "webcomic_indie",
+        "ar": "ويب كوميك / إندي",
+        "en": "Webcomic / indie"
+      }
+    ]
+  },
+  "mythology_family": {
+    "id": "mythology_family",
+    "label_ar": "عائلة أسطورية (إن وُجدت) — بدون المقدسات الإسلامية",
+    "label_en": "Mythology family (if any) — excluding Islamic sacred figures",
+    "multi": true,
+    "values": [
+      {
+        "id": "greek_roman",
+        "ar": "يونانية / رومانية",
+        "en": "Greek / Roman"
+      },
+      {
+        "id": "norse",
+        "ar": "نورسية",
+        "en": "Norse"
+      },
+      {
+        "id": "egyptian_ancient",
+        "ar": "مصرية قديمة",
+        "en": "Ancient Egyptian"
+      },
+      {
+        "id": "mesopotamian",
+        "ar": "رافدينية",
+        "en": "Mesopotamian"
+      },
+      {
+        "id": "celtic",
+        "ar": "كلتية",
+        "en": "Celtic"
+      },
+      {
+        "id": "hindu_epic",
+        "ar": "هندوسية / ملاحم هندية",
+        "en": "Hindu / Indian epics"
+      },
+      {
+        "id": "buddhist_folk",
+        "ar": "بوذية شعبية / فولكلور",
+        "en": "Buddhist folk"
+      },
+      {
+        "id": "chinese_myth",
+        "ar": "صينية أسطورية",
+        "en": "Chinese myth"
+      },
+      {
+        "id": "japanese_myth",
+        "ar": "يابانية أسطورية",
+        "en": "Japanese myth"
+      },
+      {
+        "id": "african_myth",
+        "ar": "أفريقية أسطورية",
+        "en": "African myth"
+      },
+      {
+        "id": "native_american_myth",
+        "ar": "أمريكية أصلية أسطورية",
+        "en": "Native American myth"
+      },
+      {
+        "id": "slavic_myth",
+        "ar": "سلافية",
+        "en": "Slavic"
+      },
+      {
+        "id": "arthurian",
+        "ar": "آرثرية",
+        "en": "Arthurian"
+      },
+      {
+        "id": "modern_urban_legend",
+        "ar": "أساطير حضرية حديثة",
+        "en": "Modern urban legend"
+      },
+      {
+        "id": "none",
+        "ar": "لا ينطبق",
+        "en": "None"
+      }
+    ]
+  },
+  "palette_mood": {
+    "id": "palette_mood",
+    "label_ar": "مزاج الألوان",
+    "label_en": "Palette mood",
+    "multi": true,
+    "values": [
+      {
+        "id": "bright_saturated",
+        "ar": "ساطع مشبع",
+        "en": "Bright saturated"
+      },
+      {
+        "id": "pastel",
+        "ar": "باستيل",
+        "en": "Pastel"
+      },
+      {
+        "id": "dark_moody",
+        "ar": "داكن كئيب",
+        "en": "Dark moody"
+      },
+      {
+        "id": "neon",
+        "ar": "نيون",
+        "en": "Neon"
+      },
+      {
+        "id": "monochrome",
+        "ar": "أحادي اللون",
+        "en": "Monochrome"
+      },
+      {
+        "id": "earth_tones",
+        "ar": "ترابي",
+        "en": "Earth tones"
+      },
+      {
+        "id": "cool_blue",
+        "ar": "بارد أزرق",
+        "en": "Cool blue"
+      },
+      {
+        "id": "warm_fire",
+        "ar": "دافئ ناري",
+        "en": "Warm fire"
+      },
+      {
+        "id": "retro_limited",
+        "ar": "قديم محدود الألوان",
+        "en": "Retro limited palette"
+      }
+    ]
+  },
+  "pose_view": {
+    "id": "pose_view",
+    "label_ar": "الوضعية / زاوية النظر",
+    "label_en": "Pose / view",
+    "multi": false,
+    "values": [
+      {
+        "id": "front_idle",
+        "ar": "أمامي ثابت",
+        "en": "Front idle"
+      },
+      {
+        "id": "three_quarter",
+        "ar": "ثلاثة أرباع",
+        "en": "Three-quarter"
+      },
+      {
+        "id": "side_profile",
+        "ar": "جانبي",
+        "en": "Side profile"
+      },
+      {
+        "id": "back_view",
+        "ar": "من الخلف",
+        "en": "Back view"
+      },
+      {
+        "id": "action_pose",
+        "ar": "وضعية حركة",
+        "en": "Action pose"
+      },
+      {
+        "id": "sitting",
+        "ar": "جلوس",
+        "en": "Sitting"
+      },
+      {
+        "id": "flying_jumping",
+        "ar": "طيران / قفز",
+        "en": "Flying / jumping"
+      },
+      {
+        "id": "portrait_bust",
+        "ar": "بورتريه نصف علوي",
+        "en": "Portrait / bust"
+      },
+      {
+        "id": "full_body",
+        "ar": "جسم كامل",
+        "en": "Full body"
+      }
+    ]
+  },
+  "equipment_tags": {
+    "id": "equipment_tags",
+    "label_ar": "عتاد / إكسسوارات",
+    "label_en": "Equipment / accessories",
+    "multi": true,
+    "values": [
+      {
+        "id": "sword",
+        "ar": "سيف",
+        "en": "Sword"
+      },
+      {
+        "id": "bow",
+        "ar": "قوس",
+        "en": "Bow"
+      },
+      {
+        "id": "gun",
+        "ar": "سلاح ناري",
+        "en": "Gun"
+      },
+      {
+        "id": "staff_wand",
+        "ar": "عصا سحرية",
+        "en": "Staff / wand"
+      },
+      {
+        "id": "shield",
+        "ar": "درع",
+        "en": "Shield"
+      },
+      {
+        "id": "armor_heavy",
+        "ar": "درع ثقيل",
+        "en": "Heavy armor"
+      },
+      {
+        "id": "armor_light",
+        "ar": "درع خفيف",
+        "en": "Light armor"
+      },
+      {
+        "id": "cape_cloak",
+        "ar": "عباءة",
+        "en": "Cape / cloak"
+      },
+      {
+        "id": "helmet",
+        "ar": "خوذة",
+        "en": "Helmet"
+      },
+      {
+        "id": "crown",
+        "ar": "تاج",
+        "en": "Crown"
+      },
+      {
+        "id": "wings",
+        "ar": "أجنحة",
+        "en": "Wings"
+      },
+      {
+        "id": "tail",
+        "ar": "ذيل",
+        "en": "Tail"
+      },
+      {
+        "id": "horns",
+        "ar": "قرون",
+        "en": "Horns"
+      },
+      {
+        "id": "mask",
+        "ar": "قناع",
+        "en": "Mask"
+      },
+      {
+        "id": "glasses",
+        "ar": "نظارة",
+        "en": "Glasses"
+      },
+      {
+        "id": "bag_pack",
+        "ar": "حقيبة",
+        "en": "Bag / pack"
+      },
+      {
+        "id": "vehicle_part",
+        "ar": "جزء مركبة",
+        "en": "Vehicle part"
+      },
+      {
+        "id": "none",
+        "ar": "بدون",
+        "en": "None"
+      },
+      {
+        "id": "axe",
+        "ar": "فأس",
+        "en": "Axe"
+      },
+      {
+        "id": "spear_lance",
+        "ar": "رمح",
+        "en": "Spear / lance"
+      },
+      {
+        "id": "dagger",
+        "ar": "خنجر",
+        "en": "Dagger"
+      },
+      {
+        "id": "hammer_mace",
+        "ar": "مطرقة / دبوس",
+        "en": "Hammer / mace"
+      },
+      {
+        "id": "cape",
+        "ar": "عباءة",
+        "en": "Cape"
+      },
+      {
+        "id": "backpack",
+        "ar": "حقيبة",
+        "en": "Backpack"
+      },
+      {
+        "id": "crown_tiara",
+        "ar": "تاج",
+        "en": "Crown / tiara"
+      }
+    ]
+  },
+  "franchise_hint": {
+    "id": "franchise_hint",
+    "label_ar": "إشارة امتياز (اختياري — للاستخدام الداخلي)",
+    "label_en": "Franchise hint (optional, internal)",
+    "multi": false,
+    "values": [
+      {
+        "id": "none",
+        "ar": "لا يوجد",
+        "en": "None"
+      },
+      {
+        "id": "generic_platformer",
+        "ar": "منصات عام",
+        "en": "Generic platformer"
+      },
+      {
+        "id": "generic_rpg",
+        "ar": "RPG عام",
+        "en": "Generic RPG"
+      },
+      {
+        "id": "generic_fighter",
+        "ar": "قتال عام",
+        "en": "Generic fighter"
+      },
+      {
+        "id": "generic_shooter",
+        "ar": "تصويب عام",
+        "en": "Generic shooter"
+      },
+      {
+        "id": "named_franchise",
+        "ar": "امتياز مسمّى (يُذكر في metadata.name)",
+        "en": "Named franchise (see metadata)"
+      }
+    ]
+  },
+  "weapon_style": {
+    "id": "weapon_style",
+    "label_ar": "أسلوب السلاح / القتال",
+    "label_en": "Weapon / combat style",
+    "multi": true,
+    "values": [
+      {
+        "id": "melee_blade",
+        "ar": "قتال قريب - نصل",
+        "en": "Melee blade"
+      },
+      {
+        "id": "melee_blunt",
+        "ar": "قتال قريب - ثقيل",
+        "en": "Melee blunt"
+      },
+      {
+        "id": "ranged_bow",
+        "ar": "رمي - قوس",
+        "en": "Ranged bow"
+      },
+      {
+        "id": "ranged_gun",
+        "ar": "رمي - سلاح ناري",
+        "en": "Ranged gun"
+      },
+      {
+        "id": "magic_caster",
+        "ar": "سحر / تعويذة",
+        "en": "Magic caster"
+      },
+      {
+        "id": "unarmed",
+        "ar": "بدون سلاح",
+        "en": "Unarmed"
+      },
+      {
+        "id": "dual_wield",
+        "ar": "سلاحان",
+        "en": "Dual wield"
+      },
+      {
+        "id": "shield_tank",
+        "ar": "درع / تانك",
+        "en": "Shield tank"
+      },
+      {
+        "id": "tech_gadget",
+        "ar": "تقني / أداة",
+        "en": "Tech gadget"
+      },
+      {
+        "id": "none_visible",
+        "ar": "بدون سلاح ظاهر",
+        "en": "No visible weapon"
+      }
+    ]
+  },
+  "sprite_scale": {
+    "id": "sprite_scale",
+    "label_ar": "مقياس السبرايت",
+    "label_en": "Sprite scale",
+    "multi": false,
+    "values": [
+      {
+        "id": "tiny_16",
+        "ar": "صغير جداً ~16px",
+        "en": "Tiny ~16px"
+      },
+      {
+        "id": "small_32",
+        "ar": "صغير ~32px",
+        "en": "Small ~32px"
+      },
+      {
+        "id": "mid_48_64",
+        "ar": "متوسط 48-64px",
+        "en": "Mid 48-64px"
+      },
+      {
+        "id": "large_96plus",
+        "ar": "كبير 96px+",
+        "en": "Large 96px+"
+      }
+    ]
+  },
+  "color_dominant": {
+    "id": "color_dominant",
+    "label_ar": "اللون السائد",
+    "label_en": "Dominant color family",
+    "multi": true,
+    "values": [
+      {
+        "id": "earth_brown",
+        "ar": "ترابي / بني",
+        "en": "Earth brown"
+      },
+      {
+        "id": "skin_warm",
+        "ar": "بشرة دافئة",
+        "en": "Warm skin"
+      },
+      {
+        "id": "skin_dark",
+        "ar": "بشرة داكنة",
+        "en": "Dark skin"
+      },
+      {
+        "id": "blue_cool",
+        "ar": "أزرق بارد",
+        "en": "Cool blue"
+      },
+      {
+        "id": "red_hot",
+        "ar": "أحمر حار",
+        "en": "Hot red"
+      },
+      {
+        "id": "green_nature",
+        "ar": "أخضر طبيعي",
+        "en": "Nature green"
+      },
+      {
+        "id": "purple_magic",
+        "ar": "بنفسجي سحري",
+        "en": "Magic purple"
+      },
+      {
+        "id": "metal_gray",
+        "ar": "معدني رمادي",
+        "en": "Metal gray"
+      },
+      {
+        "id": "white_light",
+        "ar": "أبيض فاتح",
+        "en": "White / light"
+      },
+      {
+        "id": "black_dark",
+        "ar": "أسود داكن",
+        "en": "Black / dark"
+      },
+      {
+        "id": "gold_accent",
+        "ar": "ذهبي مميز",
+        "en": "Gold accent"
+      },
+      {
+        "id": "multicolor",
+        "ar": "متعدد الألوان",
+        "en": "Multicolor"
+      }
+    ]
+  },
+  "outfit_type": {
+    "id": "outfit_type",
+    "label_ar": "نوع الزي",
+    "label_en": "Outfit type",
+    "multi": true,
+    "values": [
+      {
+        "id": "armor_heavy",
+        "ar": "درع ثقيل",
+        "en": "Heavy armor"
+      },
+      {
+        "id": "armor_light",
+        "ar": "درع خفيف",
+        "en": "Light armor"
+      },
+      {
+        "id": "robe_cloak",
+        "ar": "رداء / عباءة",
+        "en": "Robe / cloak"
+      },
+      {
+        "id": "casual_cloth",
+        "ar": "ملابس عادية",
+        "en": "Casual cloth"
+      },
+      {
+        "id": "military_uniform",
+        "ar": "زي عسكري",
+        "en": "Military uniform"
+      },
+      {
+        "id": "fantasy_dress",
+        "ar": "فستان خيالي",
+        "en": "Fantasy dress"
+      },
+      {
+        "id": "naked_minimal",
+        "ar": "شبه عاري / بسيط",
+        "en": "Minimal / bare"
+      },
+      {
+        "id": "animal_fur",
+        "ar": "فراء حيواني",
+        "en": "Animal fur"
+      },
+      {
+        "id": "robot_chassis",
+        "ar": "هيكل روبوت",
+        "en": "Robot chassis"
+      },
+      {
+        "id": "hooded",
+        "ar": "Hood / غطاء رأس",
+        "en": "Hooded"
+      }
+    ]
+  },
+  "character_class_game": {
+    "id": "character_class_game",
+    "label_ar": "كلاس اللعبة (فرعي)",
+    "label_en": "Game class (sub)",
+    "multi": false,
+    "values": [
+      {
+        "id": "warrior",
+        "ar": "محارب",
+        "en": "Warrior"
+      },
+      {
+        "id": "archer",
+        "ar": "رامي",
+        "en": "Archer"
+      },
+      {
+        "id": "mage",
+        "ar": "ساحر",
+        "en": "Mage"
+      },
+      {
+        "id": "rogue",
+        "ar": "لص / قاتل",
+        "en": "Rogue"
+      },
+      {
+        "id": "cleric_healer",
+        "ar": "معالج / كاهن",
+        "en": "Cleric / healer"
+      },
+      {
+        "id": "tank",
+        "ar": "تانك",
+        "en": "Tank"
+      },
+      {
+        "id": "support",
+        "ar": "دعم",
+        "en": "Support"
+      },
+      {
+        "id": "boss",
+        "ar": "بوس",
+        "en": "Boss"
+      },
+      {
+        "id": "mob_enemy",
+        "ar": "عدو عادي",
+        "en": "Mob enemy"
+      },
+      {
+        "id": "npc_civilian",
+        "ar": "مدني / NPC",
+        "en": "Civilian NPC"
+      },
+      {
+        "id": "animal_pet",
+        "ar": "حيوان / أليف",
+        "en": "Animal / pet"
+      },
+      {
+        "id": "mech_unit",
+        "ar": "وحدة ميكانيكية",
+        "en": "Mech unit"
+      },
+      {
+        "id": "unknown",
+        "ar": "غير محدد",
+        "en": "Unknown"
+      }
+    ]
+  },
+  "pixel_type": {
+    "id": "pixel_type",
+    "label_ar": "نوع الشخصية البيكسل (دقيق)",
+    "label_en": "Fine pixel character type",
+    "multi": false,
+    "values": [
+      {
+        "id": "boy_casual",
+        "ar": "ولد_عادي",
+        "en": "pixel boy casual"
+      },
+      {
+        "id": "girl_casual",
+        "ar": "بنت_عادية",
+        "en": "pixel girl casual"
+      },
+      {
+        "id": "girl_dress",
+        "ar": "بنت_فستان",
+        "en": "pixel girl dress"
+      },
+      {
+        "id": "knight_warrior",
+        "ar": "فارس_محارب",
+        "en": "pixel knight warrior"
+      },
+      {
+        "id": "archer",
+        "ar": "رامي_قوس",
+        "en": "pixel archer"
+      },
+      {
+        "id": "mage_caster",
+        "ar": "ساحر",
+        "en": "pixel mage"
+      },
+      {
+        "id": "rogue_hooded",
+        "ar": "لص_ملثم",
+        "en": "pixel rogue hooded"
+      },
+      {
+        "id": "shopkeeper",
+        "ar": "تاجر",
+        "en": "pixel shopkeeper"
+      },
+      {
+        "id": "cook_butcher",
+        "ar": "طباخ_جزار",
+        "en": "pixel cook butcher"
+      },
+      {
+        "id": "duck_anthro",
+        "ar": "بطة_مجسمة",
+        "en": "pixel duck anthro"
+      },
+      {
+        "id": "bird_anthro",
+        "ar": "طائر_مجسم",
+        "en": "pixel bird anthro"
+      },
+      {
+        "id": "monkey_anthro",
+        "ar": "قرد_مجسم",
+        "en": "pixel monkey anthro"
+      },
+      {
+        "id": "animal_critter",
+        "ar": "حيوان_صغير",
+        "en": "pixel animal critter"
+      },
+      {
+        "id": "monster_boss",
+        "ar": "وحش_بوس",
+        "en": "pixel monster boss"
+      },
+      {
+        "id": "orc_brute",
+        "ar": "أورك",
+        "en": "pixel orc brute"
+      },
+      {
+        "id": "skeleton_undead",
+        "ar": "هيكل_عظمي",
+        "en": "pixel skeleton"
+      },
+      {
+        "id": "robot_mech",
+        "ar": "روبوت",
+        "en": "pixel robot mech"
+      },
+      {
+        "id": "blob_slime",
+        "ar": "سلايم_كتلة",
+        "en": "pixel blob slime"
+      },
+      {
+        "id": "martial_artist",
+        "ar": "مقاتل_كاراتيه",
+        "en": "pixel martial artist"
+      },
+      {
+        "id": "nurse_support",
+        "ar": "ممرضة_دعم",
+        "en": "pixel nurse support"
+      },
+      {
+        "id": "head_portrait",
+        "ar": "بورتريه_رأس",
+        "en": "pixel head portrait"
+      },
+      {
+        "id": "cowboy",
+        "ar": "كاوبوي",
+        "en": "pixel cowboy"
+      },
+      {
+        "id": "white_robe",
+        "ar": "رداء_أبيض",
+        "en": "pixel white robe figure"
+      },
+      {
+        "id": "pink_creature",
+        "ar": "كائن_وردي",
+        "en": "pixel pink creature"
+      },
+      {
+        "id": "unknown_sprite",
+        "ar": "سبرايت_غير_محدد",
+        "en": "pixel unknown sprite"
+      }
+    ]
+  },
+  "hair_style": {
+    "id": "hair_style",
+    "label_ar": "تسريحة الشعر",
+    "label_en": "hair style",
+    "multi": false,
+    "values": [
+      {
+        "id": "bald",
+        "ar": "أصلع",
+        "en": "bald"
+      },
+      {
+        "id": "short",
+        "ar": "قصير",
+        "en": "short"
+      },
+      {
+        "id": "long",
+        "ar": "طويل",
+        "en": "long"
+      },
+      {
+        "id": "ponytail",
+        "ar": "ذيل_حصان",
+        "en": "ponytail"
+      },
+      {
+        "id": "hooded_covered",
+        "ar": "مغطى_بغطاء",
+        "en": "hooded"
+      },
+      {
+        "id": "helmet",
+        "ar": "خوذة",
+        "en": "helmet"
+      },
+      {
+        "id": "turban_headwrap",
+        "ar": "عمامة",
+        "en": "turban"
+      },
+      {
+        "id": "animal_none",
+        "ar": "بدون_شعر_حيوان",
+        "en": "animal none"
+      },
+      {
+        "id": "unknown",
+        "ar": "غير_محدد",
+        "en": "unknown"
+      }
+    ]
+  },
+  "pose_action": {
+    "id": "pose_action",
+    "label_ar": "وضعية الحركة",
+    "label_en": "pose action",
+    "multi": false,
+    "values": [
+      {
+        "id": "idle_front",
+        "ar": "وقوف_أمامي",
+        "en": "idle front"
+      },
+      {
+        "id": "idle_side",
+        "ar": "وقوف_جانبي",
+        "en": "idle side"
+      },
+      {
+        "id": "attack_swing",
+        "ar": "هجوم_ضربة",
+        "en": "attack swing"
+      },
+      {
+        "id": "aim_ranged",
+        "ar": "تصويب_رمي",
+        "en": "aim ranged"
+      },
+      {
+        "id": "cast_magic",
+        "ar": "إلقاء_سحر",
+        "en": "cast magic"
+      },
+      {
+        "id": "run_walk",
+        "ar": "جري_مشي",
+        "en": "run walk"
+      },
+      {
+        "id": "portrait_bust",
+        "ar": "بورتريه_نصف",
+        "en": "portrait bust"
+      },
+      {
+        "id": "unknown",
+        "ar": "غير_محدد",
+        "en": "unknown"
+      }
+    ]
+  },
+  "size_scale": {
+    "id": "size_scale",
+    "label_ar": "حجم السبرايت",
+    "label_en": "sprite scale",
+    "multi": false,
+    "values": [
+      {
+        "id": "tiny_under32",
+        "ar": "صغير_جدا",
+        "en": "tiny <32"
+      },
+      {
+        "id": "mid_32_48",
+        "ar": "متوسط",
+        "en": "mid 32-48"
+      },
+      {
+        "id": "full_48_64",
+        "ar": "كامل_الإطار",
+        "en": "full 48-64"
+      },
+      {
+        "id": "oversized",
+        "ar": "أكبر_من_الإطار",
+        "en": "oversized"
+      }
+    ]
+  },
+  "color_scheme": {
+    "id": "color_scheme",
+    "label_ar": "مخطط الألوان",
+    "label_en": "color scheme",
+    "multi": true,
+    "values": [
+      {
+        "id": "earth_brown",
+        "ar": "ترابي_بني",
+        "en": "earth brown"
+      },
+      {
+        "id": "steel_gray",
+        "ar": "رمادي_معدني",
+        "en": "steel gray"
+      },
+      {
+        "id": "magic_purple",
+        "ar": "بنفسجي_سحر",
+        "en": "magic purple"
+      },
+      {
+        "id": "nature_green",
+        "ar": "أخضر_طبيعة",
+        "en": "nature green"
+      },
+      {
+        "id": "fire_red",
+        "ar": "أحمر_نار",
+        "en": "fire red"
+      },
+      {
+        "id": "skin_warm",
+        "ar": "بشرة_دافئة",
+        "en": "warm skin"
+      },
+      {
+        "id": "skin_dark",
+        "ar": "بشرة_داكنة",
+        "en": "dark skin"
+      },
+      {
+        "id": "white_cloth",
+        "ar": "قماش_أبيض",
+        "en": "white cloth"
+      },
+      {
+        "id": "gold_accent",
+        "ar": "ذهبي",
+        "en": "gold accent"
+      },
+      {
+        "id": "multicolor",
+        "ar": "متعدد",
+        "en": "multicolor"
+      }
+    ]
+  }
+}

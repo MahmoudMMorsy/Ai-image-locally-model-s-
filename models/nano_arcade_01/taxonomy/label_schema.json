@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "description": "مخطط تسمية كل صورة تدريب — يُربط بالتاكسونومي",
+  "required_fields": [
+    "image_id",
+    "file_path",
+    "media_type",
+    "species_or_form",
+    "gender_presentation",
+    "role_archetype",
+    "source_domain",
+    "safety_check"
+  ],
+  "record": {
+    "image_id": {
+      "type": "string",
+      "description": "معرف فريد للصورة"
+    },
+    "file_path": {
+      "type": "string",
+      "description": "مسار الملف النسبي"
+    },
+    "width": {"type": "integer"},
+    "height": {"type": "integer"},
+    "format": {"type": "string", "enum": ["png", "webp", "gif"]},
+
+    "media_type": {"type": "taxonomy_ref", "axis": "media_type"},
+    "species_or_form": {"type": "taxonomy_ref", "axis": "species_or_form"},
+    "gender_presentation": {"type": "taxonomy_ref", "axis": "gender_presentation"},
+    "age_band": {"type": "taxonomy_ref", "axis": "age_band"},
+    "body_type": {"type": "taxonomy_ref", "axis": "body_type"},
+    "role_archetype": {"type": "taxonomy_ref", "axis": "role_archetype", "multi": true},
+    "setting_era": {"type": "taxonomy_ref", "axis": "setting_era", "multi": true},
+    "culture_region": {"type": "taxonomy_ref", "axis": "culture_region", "multi": true},
+    "source_domain": {"type": "taxonomy_ref", "axis": "source_domain", "multi": true},
+    "mythology_family": {"type": "taxonomy_ref", "axis": "mythology_family", "multi": true},
+    "palette_mood": {"type": "taxonomy_ref", "axis": "palette_mood", "multi": true},
+    "pose_view": {"type": "taxonomy_ref", "axis": "pose_view"},
+    "equipment_tags": {"type": "taxonomy_ref", "axis": "equipment_tags", "multi": true},
+    "franchise_hint": {"type": "taxonomy_ref", "axis": "franchise_hint"},
+
+    "name": {
+      "type": "string",
+      "description": "اسم الشخصية إن وُجد (OC أو معروف) — يخضع لفحص الحظر"
+    },
+    "name_aliases": {
+      "type": "array",
+      "items": "string",
+      "description": "أسماء بديلة / ترجمة"
+    },
+    "franchise_name": {
+      "type": "string",
+      "description": "اسم اللعبة / المسلسل / الفيلم إن وُجد"
+    },
+    "caption_ar": {"type": "string"},
+    "caption_en": {"type": "string"},
+    "tags_freeform": {
+      "type": "array",
+      "items": "string",
+      "description": "وسوم حرة إضافية بعد فحص الحظر"
+    },
+
+    "safety_check": {
+      "type": "object",
+      "required": ["blocked_scan", "status"],
+      "properties": {
+        "blocked_scan": {
+          "type": "string",
+          "enum": ["passed", "failed", "pending"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["allowed", "rejected", "needs_review"]
+        },
+        "matched_blocked_terms": {
+          "type": "array",
+          "items": "string"
+        },
+        "reviewer_note": {"type": "string"}
+      }
+    },
+
+    "split": {
+      "type": "string",
+      "enum": ["train", "val", "test", "holdout"]
+    },
+    "quality_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "جودة الصورة للتدريب (حدة، اكتمال الجسم، ...)"
+    },
+    "is_full_body": {"type": "boolean"},
+    "has_transparency": {"type": "boolean"},
+    "created_at": {"type": "string", "format": "iso8601"},
+    "annotator": {"type": "string"}
+  },
+  "example": {
+    "image_id": "spr_000142",
+    "file_path": "data/clean_full/hero_blue_01.png",
+    "width": 64,
+    "height": 64,
+    "format": "png",
+    "media_type": "arcade_sprite",
+    "species_or_form": "human",
+    "gender_presentation": "male",
+    "age_band": "young_adult",
+    "body_type": "athletic",
+    "role_archetype": ["warrior", "hero_protagonist"],
+    "setting_era": ["medieval_fantasy"],
+    "culture_region": ["generic_western"],
+    "source_domain": ["original_oc", "arcade_classic"],
+    "mythology_family": ["none"],
+    "palette_mood": ["bright_saturated", "retro_limited"],
+    "pose_view": "full_body",
+    "equipment_tags": ["sword", "shield"],
+    "franchise_hint": "generic_platformer",
+    "name": "Azure Knight",
+    "name_aliases": ["الفارس الأزرق"],
+    "franchise_name": "",
+    "caption_en": "Pixel art full-body warrior with blue armor, sword and shield",
+    "caption_ar": "محارب بيكسل جسم كامل بدرع أزرق وسيف ودرع",
+    "tags_freeform": ["64x64", "idle"],
+    "safety_check": {
+      "blocked_scan": "passed",
+      "status": "allowed",
+      "matched_blocked_terms": []
+    },
+    "split": "train",
+    "quality_score": 0.92,
+    "is_full_body": true,
+    "has_transparency": true,
+    "annotator": "system"
+  }
+}
