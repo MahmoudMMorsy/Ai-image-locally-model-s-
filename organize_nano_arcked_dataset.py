@@ -1,0 +1,369 @@
+#!/usr/bin/env python3
+"""
+organize_nano_arcked_dataset.py
+
+Aggregates, classifies, enriches, and structures pixel art image datasets
+into nano arcked dat/data/<type>/<gender>/<style>/<race>/<source>/<pose>/
+with matching sidecar .json files, master dataset_index.csv, and manifests.
+"""
+
+import os
+import re
+import csv
+import json
+import glob
+import shutil
+import hashlib
+from datetime import datetime, timezone
+from pathlib import Path
+from PIL import Image
+
+ROOT_DIR = Path("nano arcked dat")
+DATA_DIR = ROOT_DIR / "data"
+MANIFEST_DIR = ROOT_DIR / "manifests"
+INDEX_CSV = ROOT_DIR / "dataset_index.csv"
+JSONL_PATH = MANIFEST_DIR / "dataset.jsonl"
+QUARANTINE_PATH = MANIFEST_DIR / "quarantine.jsonl"
+
+# Sacred religious prohibition terms (zero-tolerance policy)
+EXCLUDE_TERMS = [
+    "allah", "god_supreme", "muhammad", "mohammed", "prophet", "messenger",
+    "jesus", "moses", "abraham", "noah", "ibrahim", "musa", "nuh", "isa",
+    "abu-bakr", "abu_bakr", "umar", "uthman", "ali",
+    "kaaba", "quran", "koran", "mecca", "medina",
+    "sacred_symbol", "holy_prophet", "religious_figure", "sahaba"
+]
+
+COLOR_MAP = {
+    "red": (255, 0, 0),
+    "blue": (0, 0, 255),
+    "green": (0, 255, 0),
+    "black": (0, 0, 0),
+    "white": (255, 255, 255),
+    "gold": (255, 215, 0),
+    "silver": (192, 192, 192),
+    "purple": (128, 0, 128),
+    "orange": (255, 165, 0),
+    "pink": (255, 192, 203),
+    "brown": (165, 42, 42),
+    "dark": (30, 30, 30),
+    "bright": (240, 240, 240)
+}
+
+TYPE_RULES = [
+    ("cyber_soldier", ["cyber_soldier", "cyber soldier", "cybersoldier", "sci_fi_soldier"]),
+    ("gunslinger", ["gunslinger", "gunner", "shooter", "pistol"]),
+    ("knight", ["knight", "paladin", "crusader", "swordsman", "shield_knight"]),
+    ("warrior", ["warrior", "fighter", "gladiator", "berserker", "brawler", "barbarian"]),
+    ("mage", ["mage", "wizard", "sorcerer", "necromancer", "summoner", "witch", "alchemist", "priest", "spellcaster"]),
+    ("archer", ["archer", "bowman", "ranger", "hunter", "crossbow"]),
+    ("rogue", ["rogue", "assassin", "ninja", "thief"]),
+    ("monk", ["monk", "martial_artist"]),
+    ("samurai", ["samurai", "ronin"]),
+    ("pirate", ["pirate", "buccaneer"]),
+    ("viking", ["viking", "norse_warrior"]),
+    ("soldier", ["soldier", "commando", "infantry", "guard", "trooper"]),
+    ("robot", ["robot", "mecha", "cyborg", "android", "droid", "automaton", "golem"]),
+    ("dragon", ["dragon", "drake", "wyvern", "dragonkin"]),
+    ("demon", ["demon", "devil", "fiend"]),
+    ("angel", ["angel", "seraph", "cherub"]),
+    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich"]),
+    ("beast", ["beast", "monster", "creature", "chimera", "werewolf", "minotaur", "centaur"]),
+    ("animal", ["animal", "cat", "dog", "shiba", "husky", "dalmatian", "bear", "wolf", "bird", "horse", "frog", "slime"]),
+    ("civilian", ["civilian", "merchant", "noble", "king", "queen", "prince", "princess", "child", "elder", "farmer", "blacksmith", "cook", "dancer", "scholar", "villager", "npc"]),
+    ("weapon", ["weapon", "sword", "bow", "gun", "axe", "staff", "shield", "helmet", "armor", "dagger", "blade", "spear"]),
+    ("vehicle", ["vehicle", "spaceship", "car", "tank", "ship", "aircraft", "mech_unit"]),
+    ("structure", ["castle", "building", "house", "tower", "dungeon", "structure", "door", "portal"]),
+    ("item", ["item", "potion", "chest", "crystal", "rock", "tree", "plant", "furniture", "food", "coin", "relic"])
+]
+
+RACE_RULES = [
+    ("robot", ["robot", "mecha", "cyborg", "android", "droid", "automaton"]),
+    ("dragonkin", ["dragon", "drake", "wyvern", "dragonkin"]),
+    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich"]),
+    ("demon", ["demon", "devil", "fiend"]),
+    ("angel", ["angel", "seraph"]),
+    ("elf", ["elf", "high_elf", "dark_elf"]),
+    ("dwarf", ["dwarf"]),
+    ("orc", ["orc"]),
+    ("goblin", ["goblin"]),
+    ("troll", ["troll"]),
+    ("beastkin", ["beastkin", "werewolf", "minotaur", "centaur", "cat_person", "dog_person"]),
+    ("animal_like", ["cat", "dog", "animal", "shiba", "husky", "dalmatian", "bear", "bird", "horse", "frog", "slime"]),
+    ("elemental", ["elemental", "golem", "flame_entity", "ice_entity"]),
+    ("fairy", ["fairy", "pixie"]),
+    ("merfolk", ["mermaid", "merfolk", "siren"]),
+    ("giant", ["giant", "titan"]),
+    ("alien", ["alien", "xenomorph"]),
+    ("human", ["human", "person", "man", "woman", "guy", "girl", "warrior", "knight", "mage", "archer"])
+]
+
+STYLE_RULES = [
+    ("retro_8bit", ["8bit", "8-bit", "nes", "pico8", "pico-8", "gameboy", "gb", "gameboy_classic"]),
+    ("retro_16bit", ["16bit", "16-bit", "snes", "genesis", "gba", "gameboy_advance", "megadrive"]),
+    ("arcade_pixel", ["arcade", "brawler", "capcom", "neogeo", "cps2", "cps1", "arcade_pixel"]),
+    ("realistic_pixel", ["realistic", "detailed_pixel", "hd_pixel", "realistic_pixel"]),
+    ("anime_pixel", ["anime", "manga", "jrpg", "anime_pixel"]),
+    ("chibi", ["chibi", "mini", "cute"]),
+    ("cartoon", ["cartoon", "toon"]),
+    ("dark_fantasy", ["dark_fantasy", "dark_souls", "gothic", "horror_pixel"]),
+    ("sci_fi_pixel", ["sci_fi", "cyberpunk", "mecha_pixel", "futuristic"]),
+    ("clean_pixel", ["clean", "simple", "flat", "pixel"])
+]
+
+SOURCE_RULES = [
+    ("cyberpunk", ["cyberpunk", "cyber", "neon", "futuristic"]),
+    ("dark_fantasy", ["dark_fantasy", "dark", "gothic", "demon", "undead"]),
+    ("rpg_fantasy", ["fantasy", "rpg", "magic", "medieval", "kingdom"]),
+    ("sci_fi", ["sci_fi", "space", "alien", "spaceship"]),
+    ("steampunk", ["steampunk", "steam", "victorian"]),
+    ("horror", ["horror", "creepy", "haunted"]),
+    ("game_original", ["game", "sprite", "arcade", "retro", "cc0", "trine"]),
+    ("generic", [])
+]
+
+POSE_RULES = [
+    ("full_body", ["full_body", "fullbody", "standing", "hero_pose", "idle"]),
+    ("running", ["running", "run"]),
+    ("walking", ["walking", "walk"]),
+    ("attacking", ["attacking", "attack", "slash", "shoot", "cast", "strike"]),
+    ("action", ["action", "combating", "fight", "jump"]),
+    ("side_view", ["side_view", "side", "profile"]),
+    ("front_view", ["front_view", "front"]),
+    ("portrait", ["portrait", "bust", "face", "headshot"])
+]
+
+def norm_text(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+
+def is_blocked(text: str) -> bool:
+    n = norm_text(text)
+    for term in EXCLUDE_TERMS:
+        pattern = r"\b" + re.escape(term.replace("_", " ").replace("-", " ")) + r"\b"
+        if re.search(pattern, n):
+            return True
+    return False
+
+def extract_dominant_colors(image_path: Path, top_k: int = 3) -> list[str]:
+    try:
+        with Image.open(image_path) as im:
+            im = im.convert("RGB")
+            im.thumbnail((32, 32))
+            colors = im.getcolors(maxcolors=1024)
+            if not colors:
+                return ["multicolor"]
+            colors.sort(key=lambda x: x[0], reverse=True)
+            detected = []
+            for count, (r, g, b) in colors[:10]:
+                if count < 5:
+                    continue
+                best_color = "dark"
+                min_dist = float("inf")
+                for c_name, (cr, cg, cb) in COLOR_MAP.items():
+                    dist = (r - cr) ** 2 + (g - cg) ** 2 + (b - cb) ** 2
+                    if dist < min_dist:
+                        min_dist = dist
+                        best_color = c_name
+                if best_color not in detected:
+                    detected.append(best_color)
+                if len(detected) >= top_k:
+                    break
+            return detected or ["multicolor"]
+    except Exception:
+        return ["multicolor"]
+
+def infer_category(text: str, rules: list, default: str) -> str:
+    n = norm_text(text)
+    for label, keywords in rules:
+        if any(kw in n for kw in keywords):
+            return label
+    return default
+
+def infer_gender(text: str) -> str:
+    n = norm_text(text)
+    if any(w in n for w in ["female", "woman", "girl", "lady", "queen", "princess", "witch", "heroine"]):
+        return "female"
+    if any(w in n for w in ["male", "man", "boy", "guy", "king", "prince", "wizard", "hero"]):
+        return "male"
+    if any(w in n for w in ["robot", "mecha", "weapon", "structure", "item", "vehicle", "dragon"]):
+        return "genderless"
+    return "androgynous"
+
+def calculate_sha256(filepath: Path) -> str:
+    h = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        while chunk := f.read(65536):
+            h.update(chunk)
+    return h.hexdigest()
+
+def extract_tags(text: str) -> list[str]:
+    words = re.split(r"[/_ -]+", norm_text(text))
+    ignore = {"png", "jpg", "jpeg", "webp", "gif", "image", "file", "data", "dataset", "asset", "tile", "frame"}
+    clean_tags = [w for w in words if len(w) > 2 and w not in ignore]
+    seen = set()
+    tags = []
+    for t in clean_tags:
+        if t not in seen:
+            seen.add(t)
+            tags.append(t)
+    return tags[:25]
+
+def gather_all_image_candidates() -> list[tuple[str, Path]]:
+    candidates = []
+
+    if os.path.exists(".staging_gdrive"):
+        for p in Path(".staging_gdrive").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("dataset_gdrive", p))
+
+    if os.path.exists("mm.trine"):
+        for p in Path("mm.trine").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("mm_trine", p))
+
+    if os.path.exists(".staging_clean"):
+        for p in Path(".staging_clean").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("dataset_clean", p))
+
+    if os.path.exists("All-data-Trine"):
+        for p in Path("All-data-Trine").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("all_data_trine", p))
+
+    if os.path.exists("nano_pixel_mob"):
+        for p in Path("nano_pixel_mob").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("nano_pixel_mob", p))
+
+    if os.path.exists("examples"):
+        for p in Path("examples").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("examples_showcase", p))
+
+    if os.path.exists("nano arcked dat/images"):
+        for p in Path("nano arcked dat/images").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("cc0_collected", p))
+
+    return candidates
+
+def main():
+    print("Starting dataset aggregation and taxonomy classification...")
+    MANIFEST_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Clean DATA_DIR to ensure 100% clean state and no stale files
+    if DATA_DIR.exists():
+        shutil.rmtree(DATA_DIR)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    candidates = gather_all_image_candidates()
+    print(f"Discovered {len(candidates)} candidate image files across sources.")
+
+    processed_hashes = set()
+    records = []
+    quarantine_records = []
+
+    for source_name, img_path in candidates:
+        rel_path_str = str(img_path)
+        if is_blocked(rel_path_str):
+            quarantine_records.append({
+                "file": rel_path_str,
+                "reason": "Exclusion keyword match (sacred religious prohibition rule)"
+            })
+            continue
+
+        digest = calculate_sha256(img_path)
+        if digest in processed_hashes:
+            continue
+        processed_hashes.add(digest)
+
+        asset_id = digest[:16]
+
+        res_str = "64x64"
+        try:
+            with Image.open(img_path) as im:
+                res_str = f"{im.width}x{im.height}"
+        except Exception:
+            continue
+
+        combined_text = f"{source_name} {rel_path_str}"
+
+        c_type = infer_category(combined_text, TYPE_RULES, "warrior")
+        c_gender = infer_gender(combined_text)
+        c_race = infer_category(combined_text, RACE_RULES, "human" if c_gender in ["male", "female", "androgynous"] else "non_human")
+        c_style = infer_category(combined_text, STYLE_RULES, "arcade_pixel")
+        c_source = infer_category(combined_text, SOURCE_RULES, "rpg_fantasy")
+        c_pose = infer_category(combined_text, POSE_RULES, "full_body")
+
+        dominant_colors = extract_dominant_colors(img_path)
+        tags = extract_tags(combined_text)
+
+        target_dir = DATA_DIR / c_type / c_gender / c_style / c_race / c_source / c_pose
+        target_dir.mkdir(parents=True, exist_ok=True)
+
+        filename_png = f"{asset_id}_{c_type}.png"
+        filename_json = f"{asset_id}_{c_type}.json"
+
+        dst_png_path = target_dir / filename_png
+        dst_json_path = target_dir / filename_json
+
+        shutil.copy2(img_path, dst_png_path)
+
+        sidecar_meta = {
+            "file": filename_png,
+            "type": c_type,
+            "gender": c_gender,
+            "race": c_race,
+            "style": c_style,
+            "source": c_source,
+            "pose": c_pose,
+            "colors": dominant_colors,
+            "tags": tags,
+            "resolution": res_str,
+            "notes": f"Aggregated asset from {source_name} ({res_str} {c_style} {c_type})"
+        }
+
+        with open(dst_json_path, "w", encoding="utf-8") as f:
+            json.dump(sidecar_meta, f, ensure_ascii=False, indent=2)
+
+        record = {
+            "id": asset_id,
+            "file": dst_png_path.relative_to(ROOT_DIR).as_posix(),
+            "type": c_type,
+            "gender": c_gender,
+            "race": c_race,
+            "style": c_style,
+            "source": c_source,
+            "pose": c_pose,
+            "colors": ",".join(dominant_colors),
+            "resolution": res_str,
+            "tags": ",".join(tags),
+            "sha256": digest,
+            "original_source": source_name,
+            "original_path": rel_path_str,
+            "processed_at": datetime.now(timezone.utc).isoformat()
+        }
+        records.append(record)
+
+    print(f"Successfully processed {len(records)} unique pixel art images.")
+    print(f"Quarantined {len(quarantine_records)} excluded items.")
+
+    with open(JSONL_PATH, "w", encoding="utf-8") as f:
+        for r in records:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+    with open(QUARANTINE_PATH, "w", encoding="utf-8") as f:
+        for q in quarantine_records:
+            f.write(json.dumps(q, ensure_ascii=False) + "\n")
+
+    csv_fields = ["id", "file", "type", "gender", "race", "style", "source", "pose", "colors", "resolution", "tags", "sha256", "original_source", "original_path", "processed_at"]
+    with open(INDEX_CSV, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=csv_fields)
+        writer.writeheader()
+        writer.writerows(records)
+
+    print(f"Updated {INDEX_CSV} and {JSONL_PATH} successfully.")
+
+if __name__ == "__main__":
+    main()
