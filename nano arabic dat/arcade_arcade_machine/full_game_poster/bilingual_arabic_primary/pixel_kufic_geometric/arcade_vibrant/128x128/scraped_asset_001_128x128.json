@@ -1,0 +1,31 @@
+{
+  "file": "scraped_asset_001_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "full_game_poster",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "glowing_edges",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "action_adventure",
+  "layout": "centered_emblem",
+  "colors": [
+    "red",
+    "gold",
+    "cyan"
+  ],
+  "tags": [
+    "arabic_text",
+    "scraped_asset",
+    "pixel_typography",
+    "retro_poster"
+  ],
+  "notes": "Scraped retro game asset poster (https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png) processed and paired with JSON sidecar."
+}
