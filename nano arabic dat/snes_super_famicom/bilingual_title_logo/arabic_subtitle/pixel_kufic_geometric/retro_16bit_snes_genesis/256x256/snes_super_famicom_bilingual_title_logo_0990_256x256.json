@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_bilingual_title_logo_0990_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "chrome_bevel",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "castle_stage",
+    "nes_cover",
+    "desert_bg",
+    "gameboy_box",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: طريق الانتقام (PATH OF REVENGE)."
+}

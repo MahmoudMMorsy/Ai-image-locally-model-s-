@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
-      "drop_shadow",
-      "16-bit_gradient"
+      "1-bit_dithering",
+      "thick_black_outline",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "border_framed",
   "colors": [
-    "gold",
-    "blue",
-    "neon_cyan"
+    "red",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "dragon_bg",
-    "connected_letters",
-    "lightning_strike",
-    "pixel_font",
-    "pyramid_bg",
+    "skull_icon",
+    "sub_title",
+    "pixel_frame",
+    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: حرب المجرات (GALAXY WAR)."
 }

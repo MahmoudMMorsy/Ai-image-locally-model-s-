@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_ui_title_badge_1013_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "glowing_edges",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "white",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "desert_bg",
+    "sword_icon",
+    "arabic_text",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: نصر الأبطال (VICTORY HEROES)."
+}

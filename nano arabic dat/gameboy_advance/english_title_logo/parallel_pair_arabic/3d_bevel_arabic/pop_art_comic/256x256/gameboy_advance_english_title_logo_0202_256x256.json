@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "drop_shadow"
+      "thick_black_outline",
+      "gold_texture",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "white"
+    "blue",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "desert_bg",
-    "pixel_typography",
-    "sub_title",
-    "lightning_strike",
+    "sega_grid",
+    "space_ship",
     "skull_icon",
+    "arabic_text",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

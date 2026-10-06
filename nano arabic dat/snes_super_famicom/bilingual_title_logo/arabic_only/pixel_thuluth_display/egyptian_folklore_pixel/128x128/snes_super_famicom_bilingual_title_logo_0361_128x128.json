@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "crt_scanlines",
-      "chrome_bevel"
+      "dripping_slime",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
-    "gold",
-    "red"
+    "red",
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "sega_grid",
-    "dragon_bg",
-    "skull_icon",
+    "pixel_typography",
+    "space_ship",
+    "sub_title",
     "connected_letters",
-    "pixel_explosion",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: مدينة السايبر (CYBER CITY)."
 }

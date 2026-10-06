@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_title_screen_art_0945_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "grid_overlay",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "center_title_large",
+  "colors": [
+    "purple",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "connected_letters",
+    "gameboy_box",
+    "pixel_explosion",
+    "nes_cover",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: قلعة الظلام (DARK CASTLE)."
+}

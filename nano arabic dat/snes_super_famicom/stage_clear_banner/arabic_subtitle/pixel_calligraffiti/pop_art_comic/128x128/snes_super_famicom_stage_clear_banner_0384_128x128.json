@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "pixel_gradient",
-      "glowing_edges"
+      "dripping_slime",
+      "grid_overlay",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
+    "purple",
     "neon_cyan",
-    "black",
-    "blue"
+    "black"
   ],
   "tags": [
-    "title_screen",
-    "pixel_font",
-    "snes_cartridge",
-    "sword_icon",
-    "sub_title",
+    "pixel_explosion",
+    "connected_letters",
+    "dragon_bg",
+    "pixel_typography",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

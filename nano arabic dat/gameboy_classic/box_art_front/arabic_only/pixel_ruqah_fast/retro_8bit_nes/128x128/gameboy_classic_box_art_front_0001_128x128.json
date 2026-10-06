@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "dripping_slime",
-      "1-bit_dithering"
+      "drop_shadow",
+      "glitch_displacement",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
-    "black",
-    "white"
+    "neon_cyan",
+    "purple",
+    "red"
   ],
   "tags": [
-    "pixel_typography",
-    "hero_sprite",
-    "pixel_font",
-    "space_ship",
-    "pixel_frame",
+    "pixel_explosion",
+    "title_screen",
+    "skull_icon",
+    "desert_bg",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

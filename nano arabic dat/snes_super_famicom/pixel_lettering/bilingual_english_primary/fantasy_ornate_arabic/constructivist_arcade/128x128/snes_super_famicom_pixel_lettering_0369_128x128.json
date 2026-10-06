@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "glitch_displacement",
-      "fire_effect",
-      "chrome_bevel"
+      "dripping_slime",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "center_title_large",
   "colors": [
     "neon_cyan",
-    "blue",
-    "white"
+    "red",
+    "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "mecha_sprite",
-    "castle_stage",
+    "connected_letters",
+    "sword_icon",
+    "dragon_bg",
     "pixel_explosion",
-    "snes_cartridge",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: سرعة الضوء (SPEED OF LIGHT)."
 }

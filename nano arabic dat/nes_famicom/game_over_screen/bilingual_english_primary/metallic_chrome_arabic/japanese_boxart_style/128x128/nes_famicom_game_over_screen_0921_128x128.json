@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_game_over_screen_0921_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "gold_texture",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "red",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "sub_title",
+    "sword_icon",
+    "desert_bg",
+    "pixel_typography",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

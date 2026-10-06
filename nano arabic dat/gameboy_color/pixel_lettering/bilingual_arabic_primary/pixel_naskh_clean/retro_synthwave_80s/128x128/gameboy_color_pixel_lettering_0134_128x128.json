@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "16-bit_gradient",
-      "glitch_displacement"
+      "crt_scanlines",
+      "grid_overlay",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "purple",
-    "red"
+    "neon_cyan",
+    "red",
+    "white"
   ],
   "tags": [
     "pixel_explosion",
-    "pixel_typography",
-    "lightning_strike",
-    "title_screen",
-    "skull_icon",
+    "nes_cover",
+    "snes_cartridge",
+    "sub_title",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: أسطورة النور (LEGEND OF LIGHT)."
 }

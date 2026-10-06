@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "glowing_edges",
-      "dripping_slime",
-      "chrome_bevel"
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "blue",
-    "red"
+    "black",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "boss_battle",
-    "pixel_frame",
-    "mecha_sprite",
-    "sword_icon",
+    "castle_stage",
+    "pixel_explosion",
+    "gameboy_box",
+    "connected_letters",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: معركة النهائي (FINAL BATTLE)."
 }

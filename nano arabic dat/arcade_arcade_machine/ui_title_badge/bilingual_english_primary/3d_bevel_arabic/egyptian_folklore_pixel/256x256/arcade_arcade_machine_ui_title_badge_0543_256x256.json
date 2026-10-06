@@ -8,7 +8,7 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
+      "drop_shadow",
       "thick_black_outline",
       "fire_effect"
     ],
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
     "blue",
-    "red"
+    "white",
+    "gold"
   ],
   "tags": [
     "arabic_text",
-    "lightning_strike",
-    "pixel_explosion",
-    "title_screen",
-    "sub_title",
+    "pixel_frame",
+    "skull_icon",
+    "pixel_font",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: بطل السلسلة (SERIES HERO)."
 }

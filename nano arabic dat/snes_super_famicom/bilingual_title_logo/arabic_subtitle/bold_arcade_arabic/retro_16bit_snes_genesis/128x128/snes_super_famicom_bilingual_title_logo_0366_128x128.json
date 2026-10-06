@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "chrome_bevel",
-      "fire_effect",
-      "glitch_displacement"
+      "grid_overlay",
+      "dripping_slime",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "black",
-    "gold",
-    "purple"
+    "purple",
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
-    "desert_bg",
+    "arabic_text",
+    "pixel_font",
+    "title_screen",
+    "pixel_typography",
     "skull_icon",
-    "nes_cover",
-    "mecha_sprite",
-    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: سيف العدالة (SWORD OF JUSTICE)."
 }

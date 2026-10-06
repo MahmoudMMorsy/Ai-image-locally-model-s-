@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0875_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "grid_overlay",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "white",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "desert_bg",
+    "skull_icon",
+    "dragon_bg",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

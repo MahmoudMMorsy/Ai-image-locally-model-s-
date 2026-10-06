@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_pixel_lettering_0996_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "glitch_displacement",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "centered_emblem",
+  "colors": [
+    "blue",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "sega_grid",
+    "hero_sprite",
+    "nes_cover",
+    "arabic_text",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

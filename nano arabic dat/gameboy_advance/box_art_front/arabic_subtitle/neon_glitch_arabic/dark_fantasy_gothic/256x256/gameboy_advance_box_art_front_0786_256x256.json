@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_box_art_front_0786_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "dripping_slime",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "gold",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "sega_grid",
+    "hero_sprite",
+    "desert_bg",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: مدينة السايبر (CYBER CITY)."
+}

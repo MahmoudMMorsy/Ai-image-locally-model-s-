@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "chrome_bevel"
+      "1-bit_dithering",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
-    "white",
-    "black"
+    "gold",
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
-    "space_ship",
-    "castle_stage",
+    "sword_icon",
+    "lightning_strike",
     "pixel_explosion",
-    "pixel_font",
-    "desert_bg",
+    "pixel_frame",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: قلعة الظلام (DARK CASTLE)."
 }

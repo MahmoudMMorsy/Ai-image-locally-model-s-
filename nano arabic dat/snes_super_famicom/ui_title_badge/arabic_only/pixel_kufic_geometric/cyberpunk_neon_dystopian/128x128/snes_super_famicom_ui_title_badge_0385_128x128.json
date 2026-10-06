@@ -8,7 +8,7 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "1-bit_dithering",
+      "thick_black_outline",
       "fire_effect",
       "drop_shadow"
     ],
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "purple"
+    "gold",
+    "black",
+    "white"
   ],
   "tags": [
-    "pixel_typography",
-    "nes_cover",
-    "connected_letters",
+    "title_screen",
+    "sword_icon",
     "hero_sprite",
-    "dragon_bg",
+    "pyramid_bg",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

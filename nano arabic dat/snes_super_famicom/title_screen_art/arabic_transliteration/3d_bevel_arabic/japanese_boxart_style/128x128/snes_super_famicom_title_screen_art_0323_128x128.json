@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
-      "fire_effect"
+      "glitch_displacement",
+      "grid_overlay",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "border_framed",
   "colors": [
     "neon_cyan",
-    "purple",
-    "gold"
+    "blue",
+    "red"
   ],
   "tags": [
-    "title_screen",
-    "skull_icon",
-    "arabic_text",
-    "boss_battle",
     "mecha_sprite",
+    "nes_cover",
+    "pixel_font",
+    "arabic_text",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: مستكشف الكهف (CAVE EXPLORER)."
 }

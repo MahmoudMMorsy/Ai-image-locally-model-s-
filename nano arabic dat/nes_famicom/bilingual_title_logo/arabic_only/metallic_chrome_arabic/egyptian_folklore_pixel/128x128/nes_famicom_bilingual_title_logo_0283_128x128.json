@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "1-bit_dithering"
+      "fire_effect",
+      "glowing_edges",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
-    "purple",
-    "neon_cyan"
+    "white",
+    "black",
+    "purple"
   ],
   "tags": [
     "pixel_typography",
-    "dragon_bg",
-    "pixel_explosion",
     "desert_bg",
-    "boss_battle",
+    "sword_icon",
+    "connected_letters",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: عرش التنين (DRAGON THRONE)."
 }

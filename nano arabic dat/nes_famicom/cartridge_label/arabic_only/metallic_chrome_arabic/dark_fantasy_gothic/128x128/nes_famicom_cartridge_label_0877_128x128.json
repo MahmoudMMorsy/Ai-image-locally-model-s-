@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_cartridge_label_0877_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "drop_shadow",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "black_border_nes",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "red"
+  ],
+  "tags": [
+    "sega_grid",
+    "pixel_frame",
+    "pixel_font",
+    "sub_title",
+    "hero_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

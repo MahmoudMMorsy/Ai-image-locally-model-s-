@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_ui_title_badge_0858_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glowing_edges",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "red",
+    "black",
+    "blue"
+  ],
+  "tags": [
+    "boss_battle",
+    "hero_sprite",
+    "arabic_text",
+    "castle_stage",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: عرش التنين (DRAGON THRONE)."
+}

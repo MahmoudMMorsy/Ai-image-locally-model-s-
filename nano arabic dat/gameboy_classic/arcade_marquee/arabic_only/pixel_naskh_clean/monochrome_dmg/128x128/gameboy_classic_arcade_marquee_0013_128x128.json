@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
       "1-bit_dithering",
+      "glitch_displacement",
       "thick_black_outline"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "black_border_nes",
   "colors": [
-    "red",
     "black",
-    "neon_cyan"
+    "purple",
+    "gold"
   ],
   "tags": [
-    "pixel_frame",
-    "space_ship",
-    "skull_icon",
-    "sega_grid",
-    "sword_icon",
+    "title_screen",
+    "arabic_text",
+    "boss_battle",
+    "dragon_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

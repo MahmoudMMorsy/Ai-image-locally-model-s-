@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
-      "16-bit_gradient",
-      "grid_overlay"
+      "grid_overlay",
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
     "purple",
-    "gold"
+    "neon_cyan",
+    "white"
   ],
   "tags": [
+    "hero_sprite",
+    "sega_grid",
     "pixel_font",
-    "skull_icon",
-    "connected_letters",
-    "pixel_explosion",
-    "sword_icon",
+    "gameboy_box",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: مستكشف الكهف (CAVE EXPLORER)."
 }

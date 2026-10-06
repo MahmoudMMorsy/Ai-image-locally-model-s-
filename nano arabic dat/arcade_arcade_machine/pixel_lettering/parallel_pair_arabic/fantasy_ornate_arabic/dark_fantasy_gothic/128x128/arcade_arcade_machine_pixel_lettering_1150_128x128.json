@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_pixel_lettering_1150_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "pixel_lettering",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "thick_black_outline",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "arabic_text",
+    "sega_grid",
+    "connected_letters",
+    "pixel_frame",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

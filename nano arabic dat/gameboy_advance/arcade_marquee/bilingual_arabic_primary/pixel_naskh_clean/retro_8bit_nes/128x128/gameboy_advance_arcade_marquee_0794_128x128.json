@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0794_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "dripping_slime",
+      "glowing_edges",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "red",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "pixel_typography",
+    "dragon_bg",
+    "desert_bg",
+    "title_screen",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: سرعة الضوء (SPEED OF LIGHT)."
+}

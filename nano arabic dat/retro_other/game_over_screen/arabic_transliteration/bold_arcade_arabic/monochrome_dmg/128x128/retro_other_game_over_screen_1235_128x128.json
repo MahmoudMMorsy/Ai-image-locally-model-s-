@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_game_over_screen_1235_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "dripping_slime",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "blue",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "boss_battle",
+    "hero_sprite",
+    "mecha_sprite",
+    "desert_bg",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: معركة النهائي (FINAL BATTLE)."
+}

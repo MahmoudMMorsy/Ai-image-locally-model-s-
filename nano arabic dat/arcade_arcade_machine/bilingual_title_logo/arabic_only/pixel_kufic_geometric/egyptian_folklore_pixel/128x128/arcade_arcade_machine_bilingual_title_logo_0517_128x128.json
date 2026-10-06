@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
       "fire_effect",
-      "dripping_slime"
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "black_border_nes",
   "colors": [
     "black",
-    "neon_cyan",
-    "blue"
+    "gold",
+    "purple"
   ],
   "tags": [
+    "lightning_strike",
+    "pyramid_bg",
     "hero_sprite",
-    "sword_icon",
-    "pixel_font",
-    "skull_icon",
-    "nes_cover",
+    "pixel_explosion",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: حارس الغابة (FOREST GUARDIAN)."
 }

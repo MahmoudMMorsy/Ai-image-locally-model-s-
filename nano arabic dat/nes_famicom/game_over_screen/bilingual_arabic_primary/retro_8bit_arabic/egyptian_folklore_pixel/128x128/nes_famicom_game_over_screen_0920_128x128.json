@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_game_over_screen_0920_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "chrome_bevel",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "blue",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "connected_letters",
+    "pyramid_bg",
+    "arabic_text",
+    "pixel_font",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: قلعة الظلام (DARK CASTLE)."
+}

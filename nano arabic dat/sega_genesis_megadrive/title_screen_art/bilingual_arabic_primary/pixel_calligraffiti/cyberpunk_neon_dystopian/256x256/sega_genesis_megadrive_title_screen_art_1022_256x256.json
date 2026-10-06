@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_title_screen_art_1022_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "drop_shadow",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "title_screen",
+    "hero_sprite",
+    "connected_letters",
+    "dragon_bg",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: قتال الشوارع (STREET FIGHT)."
+}

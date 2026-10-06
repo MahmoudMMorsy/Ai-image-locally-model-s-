@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_promo_flyer_1050_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "16-bit_gradient",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "centered_emblem",
+  "colors": [
+    "red",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "desert_bg",
+    "pixel_typography",
+    "pyramid_bg",
+    "pixel_frame",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
+      "glowing_edges",
       "dripping_slime",
-      "crt_scanlines"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "red",
     "black",
-    "blue",
     "purple"
   ],
   "tags": [
-    "pixel_explosion",
-    "connected_letters",
     "sega_grid",
-    "lightning_strike",
     "mecha_sprite",
+    "pixel_explosion",
+    "hero_sprite",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: قتال الشوارع (STREET FIGHT)."
 }

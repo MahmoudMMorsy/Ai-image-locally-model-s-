@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "dripping_slime",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "neon_cyan",
-    "gold"
+    "gold",
+    "red",
+    "purple"
   ],
   "tags": [
-    "nes_cover",
-    "mecha_sprite",
-    "lightning_strike",
-    "connected_letters",
-    "sub_title",
+    "space_ship",
+    "title_screen",
+    "pyramid_bg",
+    "pixel_font",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

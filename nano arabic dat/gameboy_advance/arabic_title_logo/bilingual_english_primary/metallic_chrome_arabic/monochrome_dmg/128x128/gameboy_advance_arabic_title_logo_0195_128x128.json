@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
       "16-bit_gradient",
-      "grid_overlay"
+      "drop_shadow",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "centered_emblem",
   "colors": [
+    "purple",
     "blue",
-    "neon_cyan",
-    "black"
+    "gold"
   ],
   "tags": [
-    "connected_letters",
-    "snes_cartridge",
-    "castle_stage",
-    "mecha_sprite",
+    "sub_title",
+    "arabic_text",
+    "gameboy_box",
+    "dragon_bg",
     "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: قلعة الظلام (DARK CASTLE)."
 }

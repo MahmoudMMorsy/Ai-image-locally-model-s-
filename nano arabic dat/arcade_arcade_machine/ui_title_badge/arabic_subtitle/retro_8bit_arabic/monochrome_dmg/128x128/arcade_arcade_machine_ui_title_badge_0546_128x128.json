@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "gold_texture",
+      "dripping_slime",
+      "fire_effect",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
+    "blue",
     "gold",
-    "neon_cyan"
+    "red"
   ],
   "tags": [
-    "gameboy_box",
+    "pixel_frame",
+    "dragon_bg",
+    "arabic_text",
     "hero_sprite",
-    "pixel_explosion",
-    "pyramid_bg",
-    "pixel_font",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

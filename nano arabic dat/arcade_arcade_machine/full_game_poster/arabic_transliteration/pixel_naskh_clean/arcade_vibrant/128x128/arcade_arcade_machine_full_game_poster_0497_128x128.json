@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "dripping_slime",
+      "drop_shadow",
+      "thick_black_outline",
       "glitch_displacement"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "black",
     "blue",
-    "gold",
-    "black"
+    "red"
   ],
   "tags": [
-    "nes_cover",
-    "lightning_strike",
-    "pixel_frame",
-    "sega_grid",
     "arabic_text",
+    "connected_letters",
+    "skull_icon",
+    "sword_icon",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: قتال الشوارع (STREET FIGHT)."
 }

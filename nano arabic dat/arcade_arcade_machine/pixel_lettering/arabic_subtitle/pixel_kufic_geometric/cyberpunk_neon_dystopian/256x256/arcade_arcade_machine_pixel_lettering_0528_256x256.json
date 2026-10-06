@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "drop_shadow",
-      "grid_overlay"
+      "glitch_displacement",
+      "chrome_bevel",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
+    "blue",
     "gold",
-    "neon_cyan",
-    "white"
+    "black"
   ],
   "tags": [
-    "sub_title",
+    "snes_cartridge",
     "sega_grid",
-    "castle_stage",
-    "pixel_explosion",
-    "pyramid_bg",
+    "pixel_frame",
+    "lightning_strike",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

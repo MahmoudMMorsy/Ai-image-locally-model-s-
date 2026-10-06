@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_pixel_lettering_0916_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "pixel_lettering",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "glowing_edges",
+      "crt_scanlines",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "black",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "hero_sprite",
+    "lightning_strike",
+    "arabic_text",
+    "desert_bg",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: سيف العدالة (SWORD OF JUSTICE)."
+}

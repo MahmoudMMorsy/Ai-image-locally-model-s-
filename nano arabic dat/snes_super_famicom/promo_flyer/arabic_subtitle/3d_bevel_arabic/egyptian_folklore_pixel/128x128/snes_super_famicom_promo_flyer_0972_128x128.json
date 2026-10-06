@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_promo_flyer_0972_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "gold_texture",
+      "crt_scanlines",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "center_title_large",
+  "colors": [
+    "white",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_font",
+    "skull_icon",
+    "pixel_frame",
+    "gameboy_box",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: قتال الشوارع (STREET FIGHT)."
+}

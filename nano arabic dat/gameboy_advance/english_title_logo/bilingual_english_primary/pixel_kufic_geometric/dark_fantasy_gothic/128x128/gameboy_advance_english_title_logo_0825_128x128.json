@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_english_title_logo_0825_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "fire_effect",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "centered_emblem",
+  "colors": [
+    "gold",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "arabic_text",
+    "space_ship",
+    "desert_bg",
+    "hero_sprite",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

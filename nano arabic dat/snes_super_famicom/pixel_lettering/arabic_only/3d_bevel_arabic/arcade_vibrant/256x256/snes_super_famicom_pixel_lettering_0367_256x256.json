@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
+      "grid_overlay",
       "glitch_displacement",
-      "dripping_slime"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
+    "white",
     "gold",
-    "blue"
+    "purple"
   ],
   "tags": [
-    "castle_stage",
-    "pyramid_bg",
-    "space_ship",
-    "skull_icon",
+    "pixel_explosion",
+    "nes_cover",
+    "hero_sprite",
     "boss_battle",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

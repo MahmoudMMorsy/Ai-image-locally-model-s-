@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "grid_overlay",
       "thick_black_outline",
-      "1-bit_dithering",
-      "dripping_slime"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
     "neon_cyan",
-    "purple"
+    "red",
+    "black"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_font",
-    "sega_grid",
     "dragon_bg",
     "gameboy_box",
+    "sega_grid",
+    "connected_letters",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

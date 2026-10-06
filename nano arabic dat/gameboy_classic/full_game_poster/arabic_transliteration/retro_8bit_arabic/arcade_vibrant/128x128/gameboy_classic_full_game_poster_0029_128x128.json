@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "dripping_slime",
-      "fire_effect",
-      "pixel_gradient"
+      "grid_overlay",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
+    "black",
     "white",
-    "blue"
+    "gold"
   ],
   "tags": [
     "sub_title",
-    "pixel_explosion",
-    "sega_grid",
+    "hero_sprite",
     "castle_stage",
-    "pyramid_bg",
+    "lightning_strike",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

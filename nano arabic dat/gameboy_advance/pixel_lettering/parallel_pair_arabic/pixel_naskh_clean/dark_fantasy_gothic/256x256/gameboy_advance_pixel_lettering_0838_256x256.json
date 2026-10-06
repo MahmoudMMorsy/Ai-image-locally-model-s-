@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_pixel_lettering_0838_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "pixel_lettering",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "gold_texture",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "white",
+    "black",
+    "blue"
+  ],
+  "tags": [
+    "sub_title",
+    "pixel_frame",
+    "space_ship",
+    "dragon_bg",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: نصر الأبطال (VICTORY HEROES)."
+}

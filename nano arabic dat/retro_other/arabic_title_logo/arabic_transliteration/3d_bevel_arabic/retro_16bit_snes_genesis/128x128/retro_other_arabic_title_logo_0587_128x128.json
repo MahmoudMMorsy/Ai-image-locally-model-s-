@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "fire_effect",
       "thick_black_outline",
-      "dripping_slime"
+      "fire_effect",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
+    "red",
     "white",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
-    "desert_bg",
-    "skull_icon",
-    "mecha_sprite",
-    "arabic_text",
-    "sega_grid",
+    "connected_letters",
+    "pixel_frame",
+    "snes_cartridge",
+    "castle_stage",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

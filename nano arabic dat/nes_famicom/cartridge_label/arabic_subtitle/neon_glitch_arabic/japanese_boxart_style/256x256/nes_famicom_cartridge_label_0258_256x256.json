@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "thick_black_outline",
-      "dripping_slime"
+      "drop_shadow",
+      "chrome_bevel",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "centered_emblem",
   "colors": [
     "neon_cyan",
-    "gold",
-    "black"
+    "red",
+    "blue"
   ],
   "tags": [
-    "sword_icon",
-    "sega_grid",
-    "hero_sprite",
-    "sub_title",
-    "space_ship",
+    "mecha_sprite",
+    "pixel_typography",
+    "skull_icon",
+    "pixel_font",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
 }

@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "16-bit_gradient",
-      "grid_overlay",
-      "glitch_displacement"
+      "crt_scanlines",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "black_border_nes",
   "colors": [
-    "black",
     "blue",
-    "gold"
+    "gold",
+    "purple"
   ],
   "tags": [
-    "sega_grid",
+    "pyramid_bg",
     "boss_battle",
+    "desert_bg",
     "hero_sprite",
-    "sub_title",
-    "snes_cartridge",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: أعماق المحيط (OCEAN DEPTHS)."
 }

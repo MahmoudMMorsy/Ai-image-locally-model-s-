@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
-      "glitch_displacement",
-      "gold_texture"
+      "dripping_slime",
+      "16-bit_gradient",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "purple",
-    "gold"
+    "red",
+    "black",
+    "blue"
   ],
   "tags": [
-    "space_ship",
-    "arabic_text",
-    "pixel_explosion",
-    "gameboy_box",
-    "desert_bg",
+    "sub_title",
+    "hero_sprite",
+    "castle_stage",
+    "nes_cover",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: سرعة الضوء (SPEED OF LIGHT)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
+      "chrome_bevel",
       "glowing_edges",
-      "chrome_bevel"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
     "white",
-    "red"
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "sword_icon",
-    "snes_cartridge",
-    "lightning_strike",
-    "pixel_frame",
-    "pixel_typography",
+    "pyramid_bg",
+    "arabic_text",
+    "boss_battle",
+    "mecha_sprite",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: مملكة السحر (MAGIC KINGDOM)."
 }

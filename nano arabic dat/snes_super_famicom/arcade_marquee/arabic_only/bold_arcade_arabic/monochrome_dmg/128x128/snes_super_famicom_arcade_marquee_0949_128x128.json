@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0949_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "grid_overlay",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "space_ship",
+    "desert_bg",
+    "castle_stage",
+    "snes_cartridge",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: حرب المجرات (GALAXY WAR)."
+}

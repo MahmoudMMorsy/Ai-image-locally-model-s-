@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "thick_black_outline",
       "dripping_slime",
-      "glitch_displacement"
+      "chrome_bevel",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "blue",
-    "neon_cyan"
+    "neon_cyan",
+    "red",
+    "blue"
   ],
   "tags": [
-    "dragon_bg",
-    "sega_grid",
     "connected_letters",
-    "pixel_frame",
+    "dragon_bg",
+    "pixel_typography",
     "arabic_text",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

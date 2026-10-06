@@ -121,7 +121,9 @@ PALETTES = {
     "arcade_vibrant": [(10, 10, 30), (255, 0, 128), (0, 255, 240), (255, 230, 0), (120, 0, 255), (255, 255, 255)],
     "retro_synthwave_80s": [(20, 10, 35), (255, 40, 140), (0, 220, 255), (255, 200, 50), (40, 20, 70)],
     "egyptian_folklore_pixel": [(40, 20, 10), (210, 140, 30), (255, 215, 0), (180, 50, 30), (240, 220, 180)],
-    "dark_fantasy_gothic": [(15, 15, 20), (120, 20, 30), (180, 180, 200), (60, 60, 80), (220, 190, 100)]
+    "dark_fantasy_gothic": [(15, 15, 20), (120, 20, 30), (180, 180, 200), (60, 60, 80), (220, 190, 100)],
+    "cyberpunk_neon_dystopian": [(10, 5, 25), (255, 20, 140), (0, 240, 255), (120, 0, 255), (255, 255, 0)],
+    "constructivist_arcade": [(30, 10, 10), (220, 30, 30), (255, 255, 255), (10, 10, 10), (220, 180, 40)]
 }
 
 ARABIC_TITLES = [
@@ -139,7 +141,17 @@ ARABIC_TITLES = [
     ("مدينة السايبر", "CYBER CITY"),
     ("سر الأهرامات", "PYRAMID SECRET"),
     ("نصر الأبطال", "VICTORY HEROES"),
-    ("سيد الحلبة", "RING MASTER")
+    ("سيد الحلبة", "RING MASTER"),
+    ("طريق الانتقام", "PATH OF REVENGE"),
+    ("سيف العدالة", "SWORD OF JUSTICE"),
+    ("حارس الغابة", "FOREST GUARDIAN"),
+    ("بطل السلسلة", "SERIES HERO"),
+    ("سرعة الضوء", "SPEED OF LIGHT"),
+    ("قلعة الظلام", "DARK CASTLE"),
+    ("أميرة الأسطورة", "LEGEND PRINCESS"),
+    ("قتال الشوارع", "STREET FIGHT"),
+    ("مستكشف الكهف", "CAVE EXPLORER"),
+    ("حرب المجرات", "GALAXY WAR")
 ]
 
 TEXT_EFFECTS_POOL = [
@@ -174,7 +186,7 @@ def get_font(size):
                 pass
     return ImageFont.load_default()
 
-def draw_retro_poster(w, h, platform, poster_type, lang_struct, typo_style, art_style, ar_title, en_title, layout):
+def draw_retro_poster(w, h, platform, poster_type, lang_struct, typo_style, art_style, ar_title, en_title, layout, variant=0):
     img = Image.new("RGB", (w, h), (15, 15, 25))
     draw = ImageDraw.Draw(img)
 
@@ -192,7 +204,7 @@ def draw_retro_poster(w, h, platform, poster_type, lang_struct, typo_style, art_
         draw.line([(0, y), (w, y)], fill=(r, g, b))
 
     # Grid effect if requested
-    if "sega" in platform or "grid" in layout:
+    if "sega" in platform or "grid" in layout or variant % 2 == 1:
         step = max(8, w // 16)
         for x in range(0, w, step):
             draw.line([(x, 0), (x, h)], fill=(255, 255, 255, 20))
@@ -232,7 +244,7 @@ def draw_retro_poster(w, h, platform, poster_type, lang_struct, typo_style, art_
         draw.text((cx, cy + max(10, w // 8)), en_title, fill=accent, font=font_sub, anchor="mm")
 
     # Retro Pixelation enforcement using nearest neighbor downscale/upscale simulation
-    if art_style in ["monochrome_dmg", "retro_8bit_nes"]:
+    if art_style in ["monochrome_dmg", "retro_8bit_nes"] or variant % 3 == 0:
         small_w, small_h = w // 2, h // 2
         img_small = img.resize((small_w, small_h), Image.NEAREST)
         img = img_small.resize((w, h), Image.NEAREST)
@@ -245,91 +257,93 @@ def main():
     csv_rows = []
 
     total_generated = 0
-
     sample_id = 1
-    for platform in PLATFORMS:
-        for poster_type in POSTER_TYPES:
-            for lang_struct in LANGUAGE_STRUCTURES:
-                typo_style = TYPOGRAPHY_STYLES[(sample_id % len(TYPOGRAPHY_STYLES))]
-                art_style = ART_STYLES[(sample_id % len(ART_STYLES))]
-                sem_weight = SEMANTIC_WEIGHTS[(sample_id % len(SEMANTIC_WEIGHTS))]
-                genre = GENRES[(sample_id % len(GENRES))]
-                layout = LAYOUTS[(sample_id % len(LAYOUTS))]
-                ar_title, en_title = ARABIC_TITLES[(sample_id % len(ARABIC_TITLES))]
 
-                for res_str in RESOLUTIONS:
-                    w, h = map(int, res_str.split("x"))
+    # Loop to generate 2,500+ items across platforms, poster_types, language_structures, typography_styles, art_styles
+    for variant in range(2): # 2 passes for expanded coverage
+        for platform in PLATFORMS:
+            for poster_type in POSTER_TYPES:
+                for lang_struct in LANGUAGE_STRUCTURES:
+                    typo_style = TYPOGRAPHY_STYLES[(sample_id % len(TYPOGRAPHY_STYLES))]
+                    art_style = ART_STYLES[(sample_id % len(ART_STYLES))]
+                    sem_weight = SEMANTIC_WEIGHTS[(sample_id % len(SEMANTIC_WEIGHTS))]
+                    genre = GENRES[(sample_id % len(GENRES))]
+                    layout = LAYOUTS[(sample_id % len(LAYOUTS))]
+                    ar_title, en_title = ARABIC_TITLES[(sample_id % len(ARABIC_TITLES))]
 
-                    rel_dir = os.path.join(
-                        platform,
-                        poster_type,
-                        lang_struct,
-                        typo_style,
-                        art_style,
-                        res_str
-                    )
-                    full_dir = os.path.join(ROOT_DIR, rel_dir)
-                    os.makedirs(full_dir, exist_ok=True)
+                    for res_str in RESOLUTIONS:
+                        w, h = map(int, res_str.split("x"))
 
-                    filename_base = f"{platform}_{poster_type}_{sample_id:04d}_{res_str}"
-                    png_filename = f"{filename_base}.png"
-                    json_filename = f"{filename_base}.json"
+                        rel_dir = os.path.join(
+                            platform,
+                            poster_type,
+                            lang_struct,
+                            typo_style,
+                            art_style,
+                            res_str
+                        )
+                        full_dir = os.path.join(ROOT_DIR, rel_dir)
+                        os.makedirs(full_dir, exist_ok=True)
 
-                    png_path = os.path.join(full_dir, png_filename)
-                    json_path = os.path.join(full_dir, json_filename)
+                        filename_base = f"{platform}_{poster_type}_{sample_id:04d}_{res_str}"
+                        png_filename = f"{filename_base}.png"
+                        json_filename = f"{filename_base}.json"
 
-                    img = draw_retro_poster(
-                        w, h, platform, poster_type, lang_struct,
-                        typo_style, art_style, ar_title, en_title, layout
-                    )
-                    img.save(png_path)
+                        png_path = os.path.join(full_dir, png_filename)
+                        json_path = os.path.join(full_dir, json_filename)
 
-                    colors_sample = random.sample(["red", "blue", "gold", "black", "white", "neon_cyan", "purple"], 3)
-                    effects_sample = random.sample(TEXT_EFFECTS_POOL, 3)
-                    tags_sample = random.sample(TAGS_POOL, 5) + ["arabic_text", "connected_letters", "pixel_typography"]
+                        img = draw_retro_poster(
+                            w, h, platform, poster_type, lang_struct,
+                            typo_style, art_style, ar_title, en_title, layout, variant
+                        )
+                        img.save(png_path)
 
-                    meta = {
-                        "file": png_filename,
-                        "resolution": res_str,
-                        "platform": platform,
-                        "poster_type": poster_type,
-                        "language_structure": lang_struct,
-                        "typography_details": {
-                            "style": typo_style,
-                            "semantic_weight": sem_weight,
-                            "text_effects": effects_sample,
-                            "readability_score": "high"
-                        },
-                        "art_style": art_style,
-                        "genre": genre,
-                        "layout": layout,
-                        "colors": colors_sample,
-                        "tags": tags_sample,
-                        "notes": f"Retro pixel game typography and poster dataset item for {platform} with {typo_style} title: {ar_title} ({en_title})."
-                    }
+                        colors_sample = random.sample(["red", "blue", "gold", "black", "white", "neon_cyan", "purple"], 3)
+                        effects_sample = random.sample(TEXT_EFFECTS_POOL, 3)
+                        tags_sample = random.sample(TAGS_POOL, 5) + ["arabic_text", "connected_letters", "pixel_typography"]
 
-                    with open(json_path, "w", encoding="utf-8") as f:
-                        json.dump(meta, f, ensure_ascii=False, indent=2)
+                        meta = {
+                            "file": png_filename,
+                            "resolution": res_str,
+                            "platform": platform,
+                            "poster_type": poster_type,
+                            "language_structure": lang_struct,
+                            "typography_details": {
+                                "style": typo_style,
+                                "semantic_weight": sem_weight,
+                                "text_effects": effects_sample,
+                                "readability_score": "high"
+                            },
+                            "art_style": art_style,
+                            "genre": genre,
+                            "layout": layout,
+                            "colors": colors_sample,
+                            "tags": tags_sample,
+                            "notes": f"Retro pixel game typography and poster dataset item for {platform} with {typo_style} title: {ar_title} ({en_title})."
+                        }
 
-                    rel_png = os.path.relpath(png_path, ROOT_DIR)
-                    rel_json = os.path.relpath(json_path, ROOT_DIR)
-                    csv_rows.append([
-                        filename_base,
-                        platform,
-                        poster_type,
-                        lang_struct,
-                        typo_style,
-                        art_style,
-                        res_str,
-                        genre,
-                        layout,
-                        rel_png,
-                        rel_json
-                    ])
+                        with open(json_path, "w", encoding="utf-8") as f:
+                            json.dump(meta, f, ensure_ascii=False, indent=2)
 
-                    total_generated += 1
+                        rel_png = os.path.relpath(png_path, ROOT_DIR)
+                        rel_json = os.path.relpath(json_path, ROOT_DIR)
+                        csv_rows.append([
+                            filename_base,
+                            platform,
+                            poster_type,
+                            lang_struct,
+                            typo_style,
+                            art_style,
+                            res_str,
+                            genre,
+                            layout,
+                            rel_png,
+                            rel_json
+                        ])
 
-                sample_id += 1
+                        total_generated += 1
+
+                    sample_id += 1
 
     with open(index_csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)

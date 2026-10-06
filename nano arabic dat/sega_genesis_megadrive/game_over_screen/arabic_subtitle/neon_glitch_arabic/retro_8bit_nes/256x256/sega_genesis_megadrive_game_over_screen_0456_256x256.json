@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
-      "fire_effect",
-      "16-bit_gradient"
+      "glitch_displacement",
+      "gold_texture",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
+    "blue",
     "red",
-    "white",
-    "purple"
+    "black"
   ],
   "tags": [
-    "sega_grid",
-    "castle_stage",
-    "pyramid_bg",
-    "boss_battle",
     "pixel_explosion",
+    "sword_icon",
+    "dragon_bg",
+    "castle_stage",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

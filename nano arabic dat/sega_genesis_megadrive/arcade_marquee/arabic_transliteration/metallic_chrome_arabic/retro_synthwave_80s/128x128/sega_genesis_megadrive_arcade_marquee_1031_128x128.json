@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_arcade_marquee_1031_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "dripping_slime",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "black",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "space_ship",
+    "gameboy_box",
+    "pyramid_bg",
+    "dragon_bg",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "gold_texture",
-      "drop_shadow",
-      "crt_scanlines"
+      "pixel_gradient",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "purple",
-    "red"
+    "black",
+    "gold",
+    "white"
   ],
   "tags": [
-    "pixel_font",
-    "snes_cartridge",
-    "desert_bg",
-    "lightning_strike",
-    "connected_letters",
+    "mecha_sprite",
+    "space_ship",
+    "arabic_text",
+    "gameboy_box",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

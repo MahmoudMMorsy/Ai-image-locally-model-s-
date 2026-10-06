@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "crt_scanlines",
+      "dripping_slime",
+      "drop_shadow",
       "chrome_bevel"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "center_title_large",
   "colors": [
-    "gold",
-    "purple",
-    "black"
+    "black",
+    "red",
+    "white"
   ],
   "tags": [
-    "connected_letters",
-    "pyramid_bg",
-    "arabic_text",
-    "dragon_bg",
-    "castle_stage",
+    "title_screen",
+    "pixel_explosion",
+    "snes_cartridge",
+    "desert_bg",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: بطل السلسلة (SERIES HERO)."
 }

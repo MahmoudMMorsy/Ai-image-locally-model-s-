@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "gold_texture",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "white"
+    "red",
+    "white",
+    "purple"
   ],
   "tags": [
-    "sword_icon",
-    "mecha_sprite",
+    "sega_grid",
     "gameboy_box",
-    "snes_cartridge",
-    "pixel_frame",
+    "connected_letters",
+    "boss_battle",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

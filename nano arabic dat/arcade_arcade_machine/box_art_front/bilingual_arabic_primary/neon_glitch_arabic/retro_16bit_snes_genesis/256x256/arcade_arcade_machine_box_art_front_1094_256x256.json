@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_box_art_front_1094_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "box_art_front",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "chrome_bevel",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "gold",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "arabic_text",
+    "desert_bg",
+    "hero_sprite",
+    "pyramid_bg",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+}

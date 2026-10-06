@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_stage_clear_banner_0771_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "drop_shadow",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_font",
+    "skull_icon",
+    "arabic_text",
+    "castle_stage",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

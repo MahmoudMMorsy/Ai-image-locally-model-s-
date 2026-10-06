@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_promo_flyer_0816_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "fire_effect",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "centered_emblem",
+  "colors": [
+    "blue",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "sword_icon",
+    "boss_battle",
+    "mecha_sprite",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: سيف العدالة (SWORD OF JUSTICE)."
+}

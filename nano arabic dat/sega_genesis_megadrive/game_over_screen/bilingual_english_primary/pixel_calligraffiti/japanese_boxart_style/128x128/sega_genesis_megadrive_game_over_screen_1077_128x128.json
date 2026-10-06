@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_game_over_screen_1077_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "gold_texture",
+      "pixel_gradient",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "centered_emblem",
+  "colors": [
+    "blue",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "dragon_bg",
+    "pixel_frame",
+    "title_screen",
+    "skull_icon",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
+}

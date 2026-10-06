@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "1-bit_dithering",
       "chrome_bevel",
-      "drop_shadow",
-      "glowing_edges"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
     "red",
-    "black"
+    "blue",
+    "white"
   ],
   "tags": [
-    "pixel_typography",
-    "arabic_text",
-    "dragon_bg",
-    "gameboy_box",
+    "pixel_frame",
+    "skull_icon",
+    "boss_battle",
     "connected_letters",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

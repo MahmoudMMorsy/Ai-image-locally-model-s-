@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "gold_texture",
-      "fire_effect"
+      "pixel_gradient",
+      "glowing_edges",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "split_bilingual_layout",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "white"
+    "red",
+    "purple",
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "skull_icon",
-    "mecha_sprite",
-    "lightning_strike",
+    "arabic_text",
+    "nes_cover",
+    "connected_letters",
+    "gameboy_box",
     "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: سيد الحلبة (RING MASTER)."
 }

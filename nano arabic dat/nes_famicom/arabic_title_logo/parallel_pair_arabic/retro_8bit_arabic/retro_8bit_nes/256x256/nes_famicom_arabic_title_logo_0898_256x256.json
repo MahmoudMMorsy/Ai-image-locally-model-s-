@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arabic_title_logo_0898_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "glowing_edges",
+      "16-bit_gradient",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "white",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "desert_bg",
+    "hero_sprite",
+    "pixel_frame",
+    "sword_icon",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+}

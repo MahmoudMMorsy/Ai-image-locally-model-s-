@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glitch_displacement",
-      "thick_black_outline",
-      "grid_overlay"
+      "fire_effect",
+      "16-bit_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "red",
-    "blue"
+    "blue",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "sega_grid",
-    "gameboy_box",
-    "pixel_font",
     "hero_sprite",
-    "dragon_bg",
+    "title_screen",
+    "pixel_frame",
+    "skull_icon",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

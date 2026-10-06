@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_1179_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "chrome_bevel",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "center_title_large",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "boss_battle",
+    "pixel_typography",
+    "sub_title",
+    "dragon_bg",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

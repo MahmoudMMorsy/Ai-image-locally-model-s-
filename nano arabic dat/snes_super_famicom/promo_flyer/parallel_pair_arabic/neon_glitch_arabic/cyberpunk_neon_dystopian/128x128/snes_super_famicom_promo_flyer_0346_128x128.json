@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glowing_edges",
       "crt_scanlines",
-      "drop_shadow"
+      "chrome_bevel",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "black_border_nes",
   "colors": [
     "red",
-    "gold",
-    "black"
+    "black",
+    "purple"
   ],
   "tags": [
-    "castle_stage",
-    "sub_title",
-    "lightning_strike",
-    "pixel_typography",
+    "snes_cartridge",
     "sega_grid",
+    "hero_sprite",
+    "boss_battle",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

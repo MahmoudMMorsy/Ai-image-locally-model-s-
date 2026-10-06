@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "16-bit_gradient",
-      "grid_overlay",
-      "glowing_edges"
+      "gold_texture",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "center_title_large",
   "colors": [
-    "white",
-    "gold",
-    "black"
+    "red",
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
-    "sega_grid",
-    "gameboy_box",
-    "space_ship",
+    "mecha_sprite",
+    "pixel_frame",
+    "pixel_typography",
     "skull_icon",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

@@ -2,7 +2,8 @@ import os
 import torch
 from PIL import Image
 import torchvision.transforms as T
-from train_arabic_poster_model import LightweightPosterUNet, render_arabic, get_font
+from train_arabic_poster_model import LightweightPosterUNet
+from generate_nano_arabic_dataset import render_arabic, get_font
 from PIL import ImageDraw
 
 def generate_showcase():

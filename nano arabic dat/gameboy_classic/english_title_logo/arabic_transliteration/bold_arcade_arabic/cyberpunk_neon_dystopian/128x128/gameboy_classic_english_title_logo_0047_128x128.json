@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "crt_scanlines",
+      "chrome_bevel",
       "drop_shadow",
-      "glitch_displacement"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
     "purple",
-    "blue"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "space_ship",
-    "snes_cartridge",
     "dragon_bg",
-    "nes_cover",
-    "sword_icon",
+    "title_screen",
+    "connected_letters",
+    "pixel_typography",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: قتال الشوارع (STREET FIGHT)."
 }

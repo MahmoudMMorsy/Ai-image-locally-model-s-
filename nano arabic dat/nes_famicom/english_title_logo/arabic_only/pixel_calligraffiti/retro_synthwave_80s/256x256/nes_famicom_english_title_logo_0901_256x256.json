@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_english_title_logo_0901_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glowing_edges",
+      "1-bit_dithering",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "gold",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "sword_icon",
+    "connected_letters",
+    "hero_sprite",
+    "title_screen",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: الفارس الشجاع (BRAVE KNIGHT)."
+}

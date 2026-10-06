@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "pixel_gradient",
-      "drop_shadow"
+      "gold_texture",
+      "glowing_edges",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "black",
-    "gold"
+    "neon_cyan",
+    "gold",
+    "purple"
   ],
   "tags": [
+    "sword_icon",
     "connected_letters",
-    "snes_cartridge",
-    "arabic_text",
-    "pixel_explosion",
-    "title_screen",
+    "pyramid_bg",
+    "nes_cover",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: طريق الانتقام (PATH OF REVENGE)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "drop_shadow",
-      "fire_effect",
-      "chrome_bevel"
+      "grid_overlay",
+      "pixel_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
+    "gold",
     "blue",
-    "black"
+    "purple"
   ],
   "tags": [
-    "pixel_font",
-    "sega_grid",
-    "space_ship",
     "hero_sprite",
+    "space_ship",
     "arabic_text",
+    "gameboy_box",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: عرش التنين (DRAGON THRONE)."
 }

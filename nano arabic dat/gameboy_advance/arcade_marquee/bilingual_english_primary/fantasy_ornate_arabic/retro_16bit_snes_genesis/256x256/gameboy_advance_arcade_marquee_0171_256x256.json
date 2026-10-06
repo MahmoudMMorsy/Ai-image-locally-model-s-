@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "thick_black_outline",
+      "chrome_bevel",
       "drop_shadow",
-      "fire_effect"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "center_title_large",
   "colors": [
-    "gold",
-    "purple",
-    "neon_cyan"
+    "red",
+    "black",
+    "blue"
   ],
   "tags": [
-    "arabic_text",
-    "nes_cover",
-    "sword_icon",
-    "castle_stage",
-    "pyramid_bg",
+    "sub_title",
+    "pixel_font",
+    "dragon_bg",
+    "skull_icon",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

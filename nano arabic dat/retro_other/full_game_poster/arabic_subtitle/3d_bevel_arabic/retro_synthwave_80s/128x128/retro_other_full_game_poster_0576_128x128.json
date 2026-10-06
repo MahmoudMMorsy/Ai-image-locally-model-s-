@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
       "dripping_slime",
-      "drop_shadow"
+      "grid_overlay",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
-    "blue",
-    "black",
+    "gold",
+    "white",
     "purple"
   ],
   "tags": [
-    "snes_cartridge",
-    "dragon_bg",
-    "connected_letters",
-    "nes_cover",
-    "pixel_font",
+    "lightning_strike",
+    "sword_icon",
+    "gameboy_box",
+    "boss_battle",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

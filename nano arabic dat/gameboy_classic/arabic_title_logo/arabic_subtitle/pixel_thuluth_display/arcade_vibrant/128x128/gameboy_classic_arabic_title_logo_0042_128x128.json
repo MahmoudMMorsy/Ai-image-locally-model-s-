@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "fire_effect"
+      "16-bit_gradient",
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "centered_emblem",
   "colors": [
+    "white",
     "gold",
-    "red",
     "purple"
   ],
   "tags": [
     "hero_sprite",
-    "desert_bg",
-    "connected_letters",
+    "pyramid_bg",
+    "sub_title",
+    "title_screen",
     "sword_icon",
-    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: حارس الغابة (FOREST GUARDIAN)."
 }

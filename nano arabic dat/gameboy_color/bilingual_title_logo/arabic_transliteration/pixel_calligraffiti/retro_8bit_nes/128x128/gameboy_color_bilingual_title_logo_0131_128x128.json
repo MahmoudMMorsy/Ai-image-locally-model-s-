@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "glitch_displacement",
-      "thick_black_outline"
+      "grid_overlay",
+      "pixel_gradient",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "black",
-    "purple"
+    "neon_cyan",
+    "white",
+    "gold"
   ],
   "tags": [
-    "pixel_font",
+    "pixel_explosion",
     "sega_grid",
+    "pixel_frame",
+    "pixel_typography",
     "castle_stage",
-    "desert_bg",
-    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: قافلة الصحراء (DESERT CARAVAN)."
 }

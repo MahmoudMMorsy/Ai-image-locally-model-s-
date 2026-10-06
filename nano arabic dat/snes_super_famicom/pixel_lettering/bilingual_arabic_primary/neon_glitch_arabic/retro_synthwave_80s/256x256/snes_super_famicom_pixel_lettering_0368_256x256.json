@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "pixel_gradient",
-      "gold_texture",
-      "glitch_displacement"
+      "glowing_edges",
+      "glitch_displacement",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "border_framed",
   "colors": [
-    "gold",
-    "red",
-    "black"
+    "white",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "desert_bg",
+    "pyramid_bg",
     "boss_battle",
+    "space_ship",
     "castle_stage",
-    "mecha_sprite",
-    "sega_grid",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: بطل السلسلة (SERIES HERO)."
 }

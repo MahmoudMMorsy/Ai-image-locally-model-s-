@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "glitch_displacement"
+      "chrome_bevel",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "black",
-    "white"
+    "neon_cyan",
+    "white",
+    "red"
   ],
   "tags": [
-    "hero_sprite",
-    "space_ship",
-    "mecha_sprite",
+    "snes_cartridge",
     "lightning_strike",
-    "gameboy_box",
+    "pixel_font",
+    "sub_title",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

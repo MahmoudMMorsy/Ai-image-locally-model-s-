@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
+      "crt_scanlines",
       "glowing_edges",
-      "chrome_bevel",
-      "pixel_gradient"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "border_framed",
   "colors": [
     "black",
-    "gold",
-    "neon_cyan"
+    "blue",
+    "red"
   ],
   "tags": [
-    "arabic_text",
-    "mecha_sprite",
-    "pixel_frame",
-    "connected_letters",
-    "space_ship",
+    "desert_bg",
+    "skull_icon",
+    "castle_stage",
+    "gameboy_box",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "chrome_bevel",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "dripping_slime",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "black_border_nes",
   "colors": [
-    "white",
     "black",
-    "purple"
+    "white",
+    "blue"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_font",
-    "lightning_strike",
-    "sub_title",
+    "pixel_typography",
+    "boss_battle",
     "sword_icon",
+    "snes_cartridge",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: حرب المجرات (GALAXY WAR)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "glowing_edges"
+      "16-bit_gradient",
+      "gold_texture",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "border_framed",
   "colors": [
-    "white",
     "blue",
+    "black",
     "neon_cyan"
   ],
   "tags": [
-    "pixel_explosion",
-    "pyramid_bg",
-    "arabic_text",
-    "boss_battle",
-    "pixel_font",
+    "nes_cover",
+    "sub_title",
+    "connected_letters",
+    "space_ship",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

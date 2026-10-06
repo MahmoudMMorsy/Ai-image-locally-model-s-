@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "thick_black_outline",
-      "grid_overlay"
+      "grid_overlay",
+      "chrome_bevel",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "border_framed",
   "colors": [
     "neon_cyan",
-    "white",
-    "black"
+    "black",
+    "purple"
   ],
   "tags": [
-    "sword_icon",
-    "nes_cover",
+    "sega_grid",
     "title_screen",
-    "hero_sprite",
     "space_ship",
+    "skull_icon",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_game_over_screen_1080_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glowing_edges",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "center_title_large",
+  "colors": [
+    "red",
+    "black",
+    "gold"
+  ],
+  "tags": [
+    "skull_icon",
+    "hero_sprite",
+    "desert_bg",
+    "lightning_strike",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
+}

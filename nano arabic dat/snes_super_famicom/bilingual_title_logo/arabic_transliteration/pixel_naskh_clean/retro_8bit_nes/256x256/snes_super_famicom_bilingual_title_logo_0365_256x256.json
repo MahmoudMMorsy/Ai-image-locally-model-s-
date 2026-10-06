@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "gold_texture",
       "chrome_bevel",
-      "glowing_edges",
-      "fire_effect"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
+    "gold",
     "white",
-    "black"
+    "red"
   ],
   "tags": [
+    "sub_title",
+    "castle_stage",
     "hero_sprite",
-    "pixel_font",
+    "pixel_typography",
     "sega_grid",
-    "space_ship",
-    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: طريق الانتقام (PATH OF REVENGE)."
 }

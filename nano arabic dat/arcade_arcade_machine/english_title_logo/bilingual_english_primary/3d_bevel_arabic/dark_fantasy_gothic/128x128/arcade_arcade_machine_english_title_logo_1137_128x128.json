@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_english_title_logo_1137_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "english_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "gold_texture",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "sega_grid",
+    "desert_bg",
+    "arabic_text",
+    "pixel_frame",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

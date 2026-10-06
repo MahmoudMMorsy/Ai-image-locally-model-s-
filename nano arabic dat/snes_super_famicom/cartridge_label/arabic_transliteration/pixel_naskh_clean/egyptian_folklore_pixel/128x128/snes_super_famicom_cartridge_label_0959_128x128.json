@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_cartridge_label_0959_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "1-bit_dithering",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "neon_cyan",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "skull_icon",
+    "boss_battle",
+    "nes_cover",
+    "lightning_strike",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: أسطورة النور (LEGEND OF LIGHT)."
+}

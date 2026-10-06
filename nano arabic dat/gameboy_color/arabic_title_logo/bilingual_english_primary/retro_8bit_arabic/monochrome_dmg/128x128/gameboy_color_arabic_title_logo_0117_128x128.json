@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "glowing_edges",
-      "pixel_gradient"
+      "pixel_gradient",
+      "chrome_bevel",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "center_title_large",
   "colors": [
+    "gold",
     "neon_cyan",
-    "purple",
-    "red"
+    "purple"
   ],
   "tags": [
-    "gameboy_box",
-    "lightning_strike",
-    "sub_title",
-    "pixel_font",
     "desert_bg",
+    "boss_battle",
+    "pixel_explosion",
+    "mecha_sprite",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

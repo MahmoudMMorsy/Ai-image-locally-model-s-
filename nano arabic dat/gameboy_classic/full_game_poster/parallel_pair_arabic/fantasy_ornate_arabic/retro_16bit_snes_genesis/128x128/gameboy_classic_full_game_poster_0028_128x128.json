@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "crt_scanlines",
-      "drop_shadow"
+      "gold_texture",
+      "grid_overlay",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
+    "black",
     "gold",
-    "black"
+    "blue"
   ],
   "tags": [
-    "title_screen",
-    "dragon_bg",
+    "sword_icon",
+    "castle_stage",
+    "lightning_strike",
     "arabic_text",
-    "mecha_sprite",
-    "connected_letters",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

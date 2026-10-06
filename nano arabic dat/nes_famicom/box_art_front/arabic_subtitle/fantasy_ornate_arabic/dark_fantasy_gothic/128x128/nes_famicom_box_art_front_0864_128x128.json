@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_box_art_front_0864_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glitch_displacement",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "boss_battle",
+    "arabic_text",
+    "hero_sprite",
+    "sega_grid",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: سيد الحلبة (RING MASTER)."
+}

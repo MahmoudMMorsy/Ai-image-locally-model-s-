@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "fire_effect",
       "thick_black_outline",
-      "pixel_gradient",
-      "drop_shadow"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "blue",
     "purple",
-    "red",
-    "gold"
+    "white"
   ],
   "tags": [
-    "arabic_text",
-    "gameboy_box",
-    "castle_stage",
-    "dragon_bg",
     "space_ship",
+    "desert_bg",
+    "mecha_sprite",
+    "pixel_frame",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

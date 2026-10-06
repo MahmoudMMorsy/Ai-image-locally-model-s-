@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_title_screen_art_0943_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "1-bit_dithering",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "red",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "gameboy_box",
+    "desert_bg",
+    "sub_title",
+    "lightning_strike",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with metallic_chrome_arabic title: بطل السلسلة (SERIES HERO)."
+}

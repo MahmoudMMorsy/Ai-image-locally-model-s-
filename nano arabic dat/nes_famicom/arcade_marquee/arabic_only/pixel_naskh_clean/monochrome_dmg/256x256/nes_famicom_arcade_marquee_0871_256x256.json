@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0871_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "thick_black_outline",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "neon_cyan",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "pixel_frame",
+    "mecha_sprite",
+    "pixel_typography",
+    "desert_bg",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

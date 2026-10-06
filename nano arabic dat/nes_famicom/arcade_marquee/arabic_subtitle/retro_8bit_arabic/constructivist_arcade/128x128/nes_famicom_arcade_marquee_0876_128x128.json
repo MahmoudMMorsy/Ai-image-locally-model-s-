@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0876_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "gold_texture",
+      "drop_shadow",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "neon_cyan",
+    "black"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "gameboy_box",
+    "title_screen",
+    "boss_battle",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

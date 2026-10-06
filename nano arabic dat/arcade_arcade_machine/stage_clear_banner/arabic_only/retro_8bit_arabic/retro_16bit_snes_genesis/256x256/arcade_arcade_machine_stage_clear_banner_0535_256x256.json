@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "glitch_displacement",
-      "dripping_slime"
+      "pixel_gradient",
+      "16-bit_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
+    "black",
     "neon_cyan",
-    "white"
+    "red"
   ],
   "tags": [
-    "boss_battle",
-    "castle_stage",
-    "pyramid_bg",
-    "arabic_text",
-    "space_ship",
+    "sub_title",
+    "pixel_explosion",
+    "dragon_bg",
+    "skull_icon",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

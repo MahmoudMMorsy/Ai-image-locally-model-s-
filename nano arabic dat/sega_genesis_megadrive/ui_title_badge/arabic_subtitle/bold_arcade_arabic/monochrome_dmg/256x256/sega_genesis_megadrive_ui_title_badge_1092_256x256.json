@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_ui_title_badge_1092_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "glitch_displacement",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "red"
+  ],
+  "tags": [
+    "gameboy_box",
+    "space_ship",
+    "pixel_typography",
+    "connected_letters",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: حارس الغابة (FOREST GUARDIAN)."
+}

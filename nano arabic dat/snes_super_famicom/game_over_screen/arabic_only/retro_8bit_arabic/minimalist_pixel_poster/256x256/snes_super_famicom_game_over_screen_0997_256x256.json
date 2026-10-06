@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_game_over_screen_0997_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "glowing_edges",
+      "glitch_displacement",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "purple",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "sega_grid",
+    "hero_sprite",
+    "pixel_font",
+    "mecha_sprite",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: قتال الشوارع (STREET FIGHT)."
+}

@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "gold_texture",
-      "drop_shadow",
-      "grid_overlay"
+      "glowing_edges",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "border_framed",
   "colors": [
-    "black",
     "blue",
+    "purple",
     "white"
   ],
   "tags": [
-    "hero_sprite",
-    "pyramid_bg",
-    "sub_title",
+    "sword_icon",
+    "castle_stage",
+    "nes_cover",
+    "pixel_font",
     "desert_bg",
-    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: مستكشف الكهف (CAVE EXPLORER)."
 }

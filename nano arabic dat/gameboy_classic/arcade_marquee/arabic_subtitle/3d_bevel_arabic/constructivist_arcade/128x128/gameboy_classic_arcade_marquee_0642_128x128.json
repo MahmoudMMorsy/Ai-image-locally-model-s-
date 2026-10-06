@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_arcade_marquee_0642_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "crt_scanlines",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "castle_stage",
+    "pixel_typography",
+    "arabic_text",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: حارس الغابة (FOREST GUARDIAN)."
+}

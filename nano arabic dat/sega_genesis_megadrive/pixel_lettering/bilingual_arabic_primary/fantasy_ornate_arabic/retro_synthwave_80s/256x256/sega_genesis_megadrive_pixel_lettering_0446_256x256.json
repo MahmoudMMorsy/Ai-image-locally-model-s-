@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "glowing_edges",
-      "drop_shadow"
+      "drop_shadow",
+      "grid_overlay",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -20,17 +20,17 @@
   "colors": [
     "blue",
     "white",
-    "black"
+    "red"
   ],
   "tags": [
+    "pixel_frame",
+    "pixel_typography",
     "boss_battle",
-    "sword_icon",
-    "hero_sprite",
-    "nes_cover",
-    "desert_bg",
+    "pixel_font",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

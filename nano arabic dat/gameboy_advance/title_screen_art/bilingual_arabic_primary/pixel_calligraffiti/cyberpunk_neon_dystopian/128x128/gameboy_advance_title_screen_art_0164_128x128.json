@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glowing_edges",
-      "thick_black_outline",
-      "fire_effect"
+      "grid_overlay",
+      "gold_texture",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "purple",
+    "gold",
+    "neon_cyan",
     "white"
   ],
   "tags": [
-    "boss_battle",
-    "desert_bg",
-    "mecha_sprite",
+    "arabic_text",
+    "hero_sprite",
+    "gameboy_box",
     "nes_cover",
-    "pyramid_bg",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

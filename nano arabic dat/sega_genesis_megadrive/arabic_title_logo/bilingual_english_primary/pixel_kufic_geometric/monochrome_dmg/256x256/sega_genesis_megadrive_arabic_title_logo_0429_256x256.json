@@ -8,8 +8,8 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
-      "drop_shadow",
+      "glowing_edges",
+      "glitch_displacement",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
-    "neon_cyan",
-    "gold"
+    "purple",
+    "black",
+    "blue"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_explosion",
-    "pixel_typography",
-    "space_ship",
-    "hero_sprite",
+    "title_screen",
+    "castle_stage",
+    "boss_battle",
+    "sub_title",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

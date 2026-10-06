@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_cartridge_label_0882_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "drop_shadow",
+      "gold_texture",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "boss_battle",
+    "lightning_strike",
+    "pixel_frame",
+    "connected_letters",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: محارب الساموراي (SAMURAI WARRIOR)."
+}

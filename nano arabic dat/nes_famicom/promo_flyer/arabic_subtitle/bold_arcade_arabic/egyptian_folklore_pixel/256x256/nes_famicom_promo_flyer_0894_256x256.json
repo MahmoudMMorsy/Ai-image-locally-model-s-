@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_promo_flyer_0894_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glowing_edges",
+      "fire_effect",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "dragon_bg",
+    "pixel_typography",
+    "hero_sprite",
+    "mecha_sprite",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+}

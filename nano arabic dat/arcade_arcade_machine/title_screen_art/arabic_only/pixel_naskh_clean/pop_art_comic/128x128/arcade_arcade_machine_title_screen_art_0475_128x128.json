@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
-      "1-bit_dithering",
-      "crt_scanlines"
+      "fire_effect",
+      "gold_texture",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "split_bilingual_layout",
   "colors": [
+    "gold",
     "black",
-    "blue",
-    "gold"
+    "purple"
   ],
   "tags": [
-    "arabic_text",
     "space_ship",
-    "lightning_strike",
-    "connected_letters",
-    "nes_cover",
+    "skull_icon",
+    "title_screen",
+    "snes_cartridge",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

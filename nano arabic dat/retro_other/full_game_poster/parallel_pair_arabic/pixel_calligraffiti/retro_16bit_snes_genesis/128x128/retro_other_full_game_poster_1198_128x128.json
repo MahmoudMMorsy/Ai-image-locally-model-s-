@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_full_game_poster_1198_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "full_game_poster",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "dripping_slime",
+      "fire_effect",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "dragon_bg",
+    "sword_icon",
+    "skull_icon",
+    "lightning_strike",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: مستكشف الكهف (CAVE EXPLORER)."
+}

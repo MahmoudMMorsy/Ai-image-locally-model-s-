@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_cartridge_label_1111_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "drop_shadow",
+      "1-bit_dithering",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "arabic_text",
+    "snes_cartridge",
+    "pixel_frame",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: مدينة السايبر (CYBER CITY)."
+}

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "thick_black_outline",
-      "pixel_gradient"
+      "fire_effect",
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "red",
-    "purple"
+    "black",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "pixel_typography",
-    "nes_cover",
-    "skull_icon",
-    "snes_cartridge",
-    "space_ship",
+    "pixel_frame",
+    "sub_title",
+    "mecha_sprite",
+    "lightning_strike",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: طريق الانتقام (PATH OF REVENGE)."
 }

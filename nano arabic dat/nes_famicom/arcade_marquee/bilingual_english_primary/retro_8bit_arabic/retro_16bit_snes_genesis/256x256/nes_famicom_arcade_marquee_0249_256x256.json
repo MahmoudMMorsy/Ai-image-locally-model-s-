@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "glitch_displacement",
-      "thick_black_outline"
+      "crt_scanlines",
+      "pixel_gradient",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "black",
-    "white",
-    "red"
+    "blue",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "title_screen",
-    "hero_sprite",
-    "pyramid_bg",
+    "sub_title",
+    "pixel_explosion",
     "dragon_bg",
+    "space_ship",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: حرب المجرات (GALAXY WAR)."
 }

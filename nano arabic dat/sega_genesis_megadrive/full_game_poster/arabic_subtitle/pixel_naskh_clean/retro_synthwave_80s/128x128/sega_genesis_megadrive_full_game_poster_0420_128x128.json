@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "dripping_slime",
-      "crt_scanlines"
+      "fire_effect",
+      "drop_shadow",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
+    "gold",
     "neon_cyan",
-    "purple",
-    "gold"
+    "red"
   ],
   "tags": [
-    "arabic_text",
-    "dragon_bg",
-    "sword_icon",
-    "castle_stage",
+    "pixel_font",
     "title_screen",
+    "nes_cover",
+    "skull_icon",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: قلعة الظلام (DARK CASTLE)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_full_game_poster_0727_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "gold_texture",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "blue",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "castle_stage",
+    "sub_title",
+    "hero_sprite",
+    "mecha_sprite",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: استكشاف الفضاء (SPACE EXPLORER)."
+}

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "crt_scanlines",
-      "16-bit_gradient",
-      "grid_overlay"
+      "drop_shadow",
+      "pixel_gradient",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "gold",
+    "blue",
+    "purple",
     "red"
   ],
   "tags": [
-    "mecha_sprite",
-    "connected_letters",
-    "nes_cover",
-    "lightning_strike",
-    "boss_battle",
+    "sega_grid",
+    "sword_icon",
+    "snes_cartridge",
+    "title_screen",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: معركة النهائي (FINAL BATTLE)."
 }

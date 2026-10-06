@@ -8,8 +8,8 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
+      "drop_shadow",
       "crt_scanlines",
-      "grid_overlay",
       "glowing_edges"
     ],
     "readability_score": "high"
@@ -19,18 +19,18 @@
   "layout": "centered_emblem",
   "colors": [
     "white",
-    "blue",
-    "red"
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "sub_title",
+    "nes_cover",
     "desert_bg",
     "pixel_typography",
+    "pixel_frame",
     "pixel_explosion",
-    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: عرش التنين (DRAGON THRONE)."
 }

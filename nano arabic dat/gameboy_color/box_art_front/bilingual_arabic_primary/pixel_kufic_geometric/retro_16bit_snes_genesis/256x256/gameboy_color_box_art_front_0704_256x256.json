@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_box_art_front_0704_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "box_art_front",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "gold_texture",
+      "glitch_displacement",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "purple",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "space_ship",
+    "pyramid_bg",
+    "arabic_text",
+    "mecha_sprite",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

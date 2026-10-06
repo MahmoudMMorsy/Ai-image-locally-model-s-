@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_title_screen_art_0946_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "dripping_slime",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "white",
+    "blue"
+  ],
+  "tags": [
+    "space_ship",
+    "mecha_sprite",
+    "dragon_bg",
+    "pyramid_bg",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

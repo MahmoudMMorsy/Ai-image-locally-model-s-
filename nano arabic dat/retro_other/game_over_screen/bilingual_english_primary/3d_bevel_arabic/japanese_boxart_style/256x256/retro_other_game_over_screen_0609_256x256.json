@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
       "thick_black_outline",
-      "dripping_slime"
+      "1-bit_dithering",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
-    "white",
-    "neon_cyan"
+    "neon_cyan",
+    "red",
+    "white"
   ],
   "tags": [
-    "arabic_text",
-    "mecha_sprite",
+    "pixel_typography",
+    "lightning_strike",
     "pixel_font",
-    "snes_cartridge",
-    "gameboy_box",
+    "skull_icon",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

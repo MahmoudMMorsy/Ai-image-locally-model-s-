@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
+      "drop_shadow",
       "chrome_bevel",
-      "thick_black_outline"
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "centered_emblem",
   "colors": [
     "purple",
-    "neon_cyan",
-    "white"
+    "red",
+    "blue"
   ],
   "tags": [
-    "skull_icon",
+    "desert_bg",
+    "title_screen",
+    "dragon_bg",
+    "castle_stage",
     "lightning_strike",
-    "arabic_text",
-    "hero_sprite",
-    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: مستكشف الكهف (CAVE EXPLORER)."
 }

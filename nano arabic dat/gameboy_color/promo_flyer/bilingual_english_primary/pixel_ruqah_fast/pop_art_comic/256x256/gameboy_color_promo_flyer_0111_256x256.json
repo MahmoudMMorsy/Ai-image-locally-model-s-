@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "dripping_slime",
-      "grid_overlay",
-      "glitch_displacement"
+      "1-bit_dithering",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "gold",
-    "red"
+    "blue",
+    "black"
   ],
   "tags": [
-    "hero_sprite",
+    "space_ship",
+    "snes_cartridge",
+    "pixel_typography",
     "sword_icon",
-    "dragon_bg",
-    "nes_cover",
-    "gameboy_box",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: مدينة السايبر (CYBER CITY)."
 }

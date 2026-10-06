@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "thick_black_outline",
-      "glitch_displacement"
+      "glitch_displacement",
+      "gold_texture",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
+    "gold",
     "red",
-    "gold"
+    "purple"
   ],
   "tags": [
+    "sword_icon",
     "hero_sprite",
-    "pixel_font",
-    "pyramid_bg",
-    "pixel_typography",
-    "dragon_bg",
+    "space_ship",
+    "sega_grid",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

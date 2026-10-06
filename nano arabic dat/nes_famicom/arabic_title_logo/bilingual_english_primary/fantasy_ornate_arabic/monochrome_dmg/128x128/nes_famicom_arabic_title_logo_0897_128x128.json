@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arabic_title_logo_0897_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "glowing_edges",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "desert_bg",
+    "pixel_explosion",
+    "sega_grid",
+    "dragon_bg",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: قتال الشوارع (STREET FIGHT)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_pixel_lettering_0760_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "pixel_lettering",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glitch_displacement",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_typography",
+    "arabic_text",
+    "boss_battle",
+    "hero_sprite",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
+}

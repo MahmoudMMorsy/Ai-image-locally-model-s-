@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "fire_effect",
-      "pixel_gradient"
+      "glitch_displacement",
+      "glowing_edges",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "red",
+    "white",
+    "black",
     "blue"
   ],
   "tags": [
-    "lightning_strike",
-    "pixel_font",
-    "skull_icon",
-    "boss_battle",
-    "nes_cover",
+    "desert_bg",
+    "snes_cartridge",
+    "dragon_bg",
+    "space_ship",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

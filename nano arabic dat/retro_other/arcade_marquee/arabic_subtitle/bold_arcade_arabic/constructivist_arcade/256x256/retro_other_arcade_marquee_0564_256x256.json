@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "fire_effect",
-      "thick_black_outline"
+      "16-bit_gradient",
+      "crt_scanlines",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
-    "gold",
-    "purple",
-    "black"
+    "white",
+    "black",
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
-    "arabic_text",
+    "connected_letters",
+    "sega_grid",
+    "pixel_font",
     "sub_title",
-    "boss_battle",
-    "pixel_explosion",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: سيد الحلبة (RING MASTER)."
 }

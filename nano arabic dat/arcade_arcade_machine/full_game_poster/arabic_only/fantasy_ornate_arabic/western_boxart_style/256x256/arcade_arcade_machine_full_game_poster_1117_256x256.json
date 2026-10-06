@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_full_game_poster_1117_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "fire_effect",
+      "glowing_edges",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "snes_cartridge",
+    "pixel_frame",
+    "connected_letters",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: حارس الغابة (FOREST GUARDIAN)."
+}

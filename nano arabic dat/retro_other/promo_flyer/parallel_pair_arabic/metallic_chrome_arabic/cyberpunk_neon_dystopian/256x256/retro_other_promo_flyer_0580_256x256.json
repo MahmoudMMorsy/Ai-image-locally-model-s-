@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "16-bit_gradient",
-      "dripping_slime"
+      "pixel_gradient",
+      "glowing_edges",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "gold"
+    "red",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "castle_stage",
+    "snes_cartridge",
     "lightning_strike",
-    "space_ship",
-    "dragon_bg",
-    "skull_icon",
+    "arabic_text",
+    "sword_icon",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

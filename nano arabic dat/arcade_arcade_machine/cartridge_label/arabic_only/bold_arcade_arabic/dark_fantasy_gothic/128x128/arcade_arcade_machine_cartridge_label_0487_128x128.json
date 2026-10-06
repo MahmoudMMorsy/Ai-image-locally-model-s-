@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "gold_texture",
-      "16-bit_gradient"
+      "thick_black_outline",
+      "glitch_displacement",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
-    "neon_cyan",
-    "purple"
+    "gold",
+    "purple",
+    "red"
   ],
   "tags": [
-    "pixel_frame",
-    "lightning_strike",
-    "snes_cartridge",
-    "space_ship",
-    "pixel_font",
+    "dragon_bg",
+    "sword_icon",
+    "title_screen",
+    "castle_stage",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

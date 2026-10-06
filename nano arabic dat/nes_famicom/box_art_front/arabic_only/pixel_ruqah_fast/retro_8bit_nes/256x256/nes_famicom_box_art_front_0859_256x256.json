@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_box_art_front_0859_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "fire_effect",
+      "crt_scanlines",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "skull_icon",
+    "lightning_strike",
+    "title_screen",
+    "pyramid_bg",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_ruqah_fast title: أسطورة النور (LEGEND OF LIGHT)."
+}

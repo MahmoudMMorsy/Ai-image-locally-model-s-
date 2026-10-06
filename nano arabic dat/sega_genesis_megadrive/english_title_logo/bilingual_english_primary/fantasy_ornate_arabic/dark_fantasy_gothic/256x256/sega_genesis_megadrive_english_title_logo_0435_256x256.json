@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glitch_displacement",
-      "drop_shadow",
-      "16-bit_gradient"
+      "dripping_slime",
+      "16-bit_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
     "purple",
-    "neon_cyan"
+    "gold",
+    "red"
   ],
   "tags": [
-    "sega_grid",
-    "sub_title",
-    "skull_icon",
-    "snes_cartridge",
+    "dragon_bg",
     "space_ship",
+    "sega_grid",
+    "lightning_strike",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: معركة النهائي (FINAL BATTLE)."
 }

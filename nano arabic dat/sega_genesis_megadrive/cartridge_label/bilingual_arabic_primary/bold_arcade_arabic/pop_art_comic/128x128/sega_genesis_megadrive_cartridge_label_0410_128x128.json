@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "drop_shadow"
+      "gold_texture",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
     "black",
-    "white"
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
-    "gameboy_box",
-    "hero_sprite",
-    "pixel_font",
-    "pyramid_bg",
-    "nes_cover",
+    "mecha_sprite",
+    "snes_cartridge",
+    "boss_battle",
+    "pixel_frame",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: معركة النهائي (FINAL BATTLE)."
 }

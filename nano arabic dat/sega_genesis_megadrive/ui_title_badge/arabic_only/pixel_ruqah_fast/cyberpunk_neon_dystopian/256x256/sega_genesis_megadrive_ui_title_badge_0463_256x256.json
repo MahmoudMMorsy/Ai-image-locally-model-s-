@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
-      "grid_overlay",
-      "16-bit_gradient"
+      "pixel_gradient",
+      "fire_effect",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
+    "black",
     "white",
-    "black"
+    "red"
   ],
   "tags": [
-    "pixel_typography",
-    "pixel_explosion",
-    "nes_cover",
-    "arabic_text",
-    "lightning_strike",
+    "sega_grid",
+    "title_screen",
+    "sword_icon",
+    "snes_cartridge",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

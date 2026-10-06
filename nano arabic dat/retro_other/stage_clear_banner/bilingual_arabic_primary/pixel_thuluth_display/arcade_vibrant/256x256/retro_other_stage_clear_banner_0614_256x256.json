@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
       "chrome_bevel",
-      "glowing_edges"
+      "fire_effect",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "black"
+    "black",
+    "red",
+    "blue"
   ],
   "tags": [
-    "pixel_typography",
-    "desert_bg",
-    "lightning_strike",
-    "snes_cartridge",
-    "connected_letters",
+    "skull_icon",
+    "sub_title",
+    "hero_sprite",
+    "pixel_font",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

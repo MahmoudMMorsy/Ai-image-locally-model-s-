@@ -8,8 +8,8 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
-      "glowing_edges",
+      "1-bit_dithering",
+      "gold_texture",
       "fire_effect"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
-    "black",
-    "blue"
+    "red",
+    "white",
+    "black"
   ],
   "tags": [
-    "pixel_font",
-    "lightning_strike",
-    "connected_letters",
-    "pixel_explosion",
-    "mecha_sprite",
+    "pyramid_bg",
+    "skull_icon",
+    "pixel_frame",
+    "pixel_typography",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

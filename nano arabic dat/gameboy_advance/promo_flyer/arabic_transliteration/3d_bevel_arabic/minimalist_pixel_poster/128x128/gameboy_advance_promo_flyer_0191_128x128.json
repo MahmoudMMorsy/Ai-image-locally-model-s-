@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
+      "pixel_gradient",
       "drop_shadow",
-      "gold_texture"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "black",
-    "gold",
-    "purple"
+    "red",
+    "gold"
   ],
   "tags": [
     "pixel_typography",
-    "nes_cover",
-    "hero_sprite",
-    "pyramid_bg",
+    "gameboy_box",
     "sword_icon",
+    "pixel_explosion",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: سيف العدالة (SWORD OF JUSTICE)."
 }

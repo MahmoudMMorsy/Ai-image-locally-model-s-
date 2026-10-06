@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "dripping_slime",
-      "drop_shadow",
-      "glitch_displacement"
+      "thick_black_outline",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "white",
-    "purple",
-    "black"
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
     "sub_title",
-    "space_ship",
+    "nes_cover",
+    "pixel_font",
+    "arabic_text",
     "connected_letters",
-    "pixel_explosion",
-    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: حرب المجرات (GALAXY WAR)."
 }

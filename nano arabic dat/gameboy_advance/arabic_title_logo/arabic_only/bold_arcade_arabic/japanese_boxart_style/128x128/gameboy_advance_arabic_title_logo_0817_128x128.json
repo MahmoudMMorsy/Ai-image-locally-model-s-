@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arabic_title_logo_0817_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "gold_texture",
+      "glitch_displacement",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "black",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "mecha_sprite",
+    "castle_stage",
+    "pixel_typography",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: حارس الغابة (FOREST GUARDIAN)."
+}

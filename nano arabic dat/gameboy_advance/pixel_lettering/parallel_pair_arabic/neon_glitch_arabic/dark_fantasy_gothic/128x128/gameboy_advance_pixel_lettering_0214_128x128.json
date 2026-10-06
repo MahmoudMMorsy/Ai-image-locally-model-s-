@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "1-bit_dithering",
-      "grid_overlay"
+      "glitch_displacement",
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "white",
-    "purple",
+    "neon_cyan",
     "gold"
   ],
   "tags": [
-    "dragon_bg",
     "pixel_typography",
-    "pyramid_bg",
-    "nes_cover",
-    "connected_letters",
+    "title_screen",
+    "gameboy_box",
+    "sub_title",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: سيد الحلبة (RING MASTER)."
 }

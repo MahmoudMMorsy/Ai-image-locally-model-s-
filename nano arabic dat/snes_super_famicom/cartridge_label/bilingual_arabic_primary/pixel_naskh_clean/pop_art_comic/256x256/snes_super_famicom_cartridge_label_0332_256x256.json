@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
+      "gold_texture",
       "fire_effect",
-      "glitch_displacement",
-      "dripping_slime"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "gold",
-    "purple"
+    "neon_cyan",
+    "white",
+    "gold"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_frame",
+    "lightning_strike",
     "pyramid_bg",
+    "pixel_explosion",
     "title_screen",
-    "castle_stage",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: محارب الساموراي (SAMURAI WARRIOR)."
 }

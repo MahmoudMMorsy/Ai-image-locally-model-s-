@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "chrome_bevel",
-      "1-bit_dithering",
-      "fire_effect"
+      "pixel_gradient",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "border_framed",
   "colors": [
-    "black",
-    "white",
-    "purple"
+    "red",
+    "gold",
+    "white"
   ],
   "tags": [
-    "sword_icon",
+    "arabic_text",
     "lightning_strike",
-    "sub_title",
-    "dragon_bg",
-    "sega_grid",
+    "mecha_sprite",
+    "boss_battle",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "crt_scanlines",
+      "grid_overlay",
       "thick_black_outline",
-      "dripping_slime"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "black",
-    "neon_cyan"
+    "neon_cyan",
+    "gold",
+    "black"
   ],
   "tags": [
-    "snes_cartridge",
+    "boss_battle",
+    "pixel_typography",
     "pyramid_bg",
-    "pixel_explosion",
-    "skull_icon",
-    "desert_bg",
+    "arabic_text",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: مستكشف الكهف (CAVE EXPLORER)."
 }

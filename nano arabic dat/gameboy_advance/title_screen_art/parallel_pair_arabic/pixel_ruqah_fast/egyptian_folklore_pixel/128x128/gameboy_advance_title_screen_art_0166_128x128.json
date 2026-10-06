@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "chrome_bevel",
-      "fire_effect"
+      "dripping_slime",
+      "pixel_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "black_border_nes",
   "colors": [
-    "black",
+    "neon_cyan",
     "gold",
-    "purple"
+    "white"
   ],
   "tags": [
-    "pixel_font",
-    "pyramid_bg",
+    "pixel_explosion",
     "pixel_typography",
-    "boss_battle",
+    "skull_icon",
     "space_ship",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: سيف العدالة (SWORD OF JUSTICE)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "thick_black_outline",
-      "glitch_displacement"
+      "gold_texture",
+      "glowing_edges",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "grid_framed_boxart",
   "colors": [
     "purple",
-    "gold",
-    "blue"
+    "black",
+    "red"
   ],
   "tags": [
-    "castle_stage",
-    "skull_icon",
-    "pixel_frame",
-    "pixel_explosion",
-    "arabic_text",
+    "snes_cartridge",
+    "sega_grid",
+    "connected_letters",
+    "space_ship",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: حارس الغابة (FOREST GUARDIAN)."
 }

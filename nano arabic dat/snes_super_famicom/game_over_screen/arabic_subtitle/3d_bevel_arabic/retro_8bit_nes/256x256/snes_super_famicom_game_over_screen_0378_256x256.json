@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "grid_overlay",
-      "crt_scanlines"
+      "16-bit_gradient",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
+    "gold",
     "red",
-    "purple"
+    "blue"
   ],
   "tags": [
+    "connected_letters",
     "gameboy_box",
-    "sega_grid",
+    "desert_bg",
+    "pixel_font",
     "pyramid_bg",
-    "boss_battle",
-    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

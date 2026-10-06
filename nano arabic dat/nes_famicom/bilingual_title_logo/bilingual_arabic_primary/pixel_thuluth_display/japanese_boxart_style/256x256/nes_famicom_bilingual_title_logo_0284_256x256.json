@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "thick_black_outline",
-      "fire_effect",
-      "grid_overlay"
+      "pixel_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
     "white",
-    "red"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "hero_sprite",
+    "pyramid_bg",
     "gameboy_box",
-    "arabic_text",
-    "snes_cartridge",
-    "castle_stage",
+    "space_ship",
+    "sub_title",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: أسطورة النور (LEGEND OF LIGHT)."
 }

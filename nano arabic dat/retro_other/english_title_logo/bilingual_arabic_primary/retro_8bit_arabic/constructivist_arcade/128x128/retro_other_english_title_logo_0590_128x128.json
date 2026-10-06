@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
-      "crt_scanlines"
+      "fire_effect",
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "purple",
     "black",
-    "white",
     "neon_cyan"
   ],
   "tags": [
-    "skull_icon",
     "boss_battle",
-    "pixel_explosion",
-    "mecha_sprite",
-    "nes_cover",
+    "space_ship",
+    "snes_cartridge",
+    "skull_icon",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: طريق الانتقام (PATH OF REVENGE)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_bilingual_title_logo_0833_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "drop_shadow",
+      "crt_scanlines",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "purple",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "gameboy_box",
+    "boss_battle",
+    "title_screen",
+    "pixel_font",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: عرش التنين (DRAGON THRONE)."
+}

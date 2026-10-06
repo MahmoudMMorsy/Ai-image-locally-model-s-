@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "dripping_slime",
-      "gold_texture",
-      "grid_overlay"
+      "pixel_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
     "black",
-    "blue"
+    "purple",
+    "red"
   ],
   "tags": [
-    "pixel_frame",
-    "dragon_bg",
+    "arabic_text",
+    "title_screen",
     "connected_letters",
-    "sub_title",
-    "castle_stage",
+    "boss_battle",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: حارس الغابة (FOREST GUARDIAN)."
 }

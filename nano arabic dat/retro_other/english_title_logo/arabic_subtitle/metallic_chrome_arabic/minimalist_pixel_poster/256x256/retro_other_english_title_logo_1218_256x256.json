@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_english_title_logo_1218_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "fire_effect",
+      "gold_texture",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "blue",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "sega_grid",
+    "snes_cartridge",
+    "lightning_strike",
+    "pixel_font",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: بطل السلسلة (SERIES HERO)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_pixel_lettering_1073_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "glitch_displacement",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "black",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "connected_letters",
+    "pixel_typography",
+    "arabic_text",
+    "pyramid_bg",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+}

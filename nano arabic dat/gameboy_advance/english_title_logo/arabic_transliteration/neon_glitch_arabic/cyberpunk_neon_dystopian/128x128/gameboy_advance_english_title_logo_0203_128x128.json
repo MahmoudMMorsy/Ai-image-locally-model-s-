@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "1-bit_dithering",
-      "pixel_gradient"
+      "pixel_gradient",
+      "glowing_edges",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
+    "gold",
     "white",
-    "black"
+    "red"
   ],
   "tags": [
-    "lightning_strike",
+    "nes_cover",
     "space_ship",
-    "pixel_typography",
+    "arabic_text",
     "sword_icon",
-    "pyramid_bg",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

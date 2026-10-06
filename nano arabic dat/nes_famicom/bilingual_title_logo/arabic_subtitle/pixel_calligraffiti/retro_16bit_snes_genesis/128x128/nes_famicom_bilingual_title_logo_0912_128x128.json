@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_bilingual_title_logo_0912_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "fire_effect",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "boss_battle",
+    "space_ship",
+    "pixel_typography",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
+}

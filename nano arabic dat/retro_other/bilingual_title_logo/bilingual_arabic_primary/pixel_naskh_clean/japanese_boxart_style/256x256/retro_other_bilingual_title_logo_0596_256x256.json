@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "fire_effect",
-      "chrome_bevel"
+      "dripping_slime",
+      "1-bit_dithering",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "white",
-    "blue"
+    "neon_cyan",
+    "purple",
+    "red"
   ],
   "tags": [
-    "pixel_frame",
-    "arabic_text",
-    "skull_icon",
-    "gameboy_box",
+    "desert_bg",
+    "hero_sprite",
+    "title_screen",
     "sword_icon",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

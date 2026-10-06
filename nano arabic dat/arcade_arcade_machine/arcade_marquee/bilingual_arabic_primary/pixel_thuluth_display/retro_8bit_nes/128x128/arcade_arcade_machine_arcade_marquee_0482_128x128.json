@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "dripping_slime",
-      "glitch_displacement"
+      "pixel_gradient",
+      "drop_shadow",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "blue",
-    "black"
+    "purple",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "gameboy_box",
-    "arabic_text",
-    "dragon_bg",
-    "sub_title",
     "boss_battle",
+    "snes_cartridge",
+    "dragon_bg",
+    "sega_grid",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: محارب الساموراي (SAMURAI WARRIOR)."
 }

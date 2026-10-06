@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arabic_title_logo_0819_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "gold_texture",
+      "glowing_edges",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "center_title_large",
+  "colors": [
+    "black",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "pixel_font",
+    "mecha_sprite",
+    "sega_grid",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+}

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "16-bit_gradient",
-      "glitch_displacement"
+      "thick_black_outline",
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "blue",
-    "black",
-    "purple"
+    "red",
+    "gold",
+    "white"
   ],
   "tags": [
     "sega_grid",
-    "boss_battle",
-    "dragon_bg",
-    "sword_icon",
-    "arabic_text",
+    "connected_letters",
+    "pixel_frame",
+    "sub_title",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: حرب المجرات (GALAXY WAR)."
 }

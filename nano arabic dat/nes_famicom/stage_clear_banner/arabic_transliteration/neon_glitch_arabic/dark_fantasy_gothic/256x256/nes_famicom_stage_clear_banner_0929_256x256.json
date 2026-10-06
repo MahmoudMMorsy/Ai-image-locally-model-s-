@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_stage_clear_banner_0929_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "grid_overlay",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "blue",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "lightning_strike",
+    "sub_title",
+    "arabic_text",
+    "space_ship",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

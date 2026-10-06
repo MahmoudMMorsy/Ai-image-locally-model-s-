@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_promo_flyer_0811_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "drop_shadow",
+      "glowing_edges",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "lightning_strike",
+    "gameboy_box",
+    "skull_icon",
+    "dragon_bg",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: مدينة السايبر (CYBER CITY)."
+}

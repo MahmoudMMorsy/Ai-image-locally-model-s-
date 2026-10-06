@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "crt_scanlines",
-      "glowing_edges",
-      "fire_effect"
+      "gold_texture",
+      "thick_black_outline",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "grid_framed_boxart",
   "colors": [
     "red",
-    "black",
-    "neon_cyan"
+    "blue",
+    "white"
   ],
   "tags": [
-    "sega_grid",
-    "title_screen",
-    "connected_letters",
-    "pixel_font",
-    "castle_stage",
+    "snes_cartridge",
+    "pixel_explosion",
+    "pixel_frame",
+    "dragon_bg",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

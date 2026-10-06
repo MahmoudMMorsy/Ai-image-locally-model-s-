@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "thick_black_outline",
-      "fire_effect",
-      "pixel_gradient"
+      "16-bit_gradient",
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
-    "purple",
+    "black",
+    "white",
     "blue"
   ],
   "tags": [
-    "arabic_text",
-    "dragon_bg",
-    "pixel_frame",
+    "pixel_font",
     "title_screen",
-    "sega_grid",
+    "connected_letters",
+    "lightning_strike",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: سر الأهرامات (PYRAMID SECRET)."
 }

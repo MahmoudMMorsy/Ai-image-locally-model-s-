@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
-      "pixel_gradient",
-      "glitch_displacement"
+      "glitch_displacement",
+      "1-bit_dithering",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "purple",
-    "black"
+    "gold",
+    "red",
+    "purple"
   ],
   "tags": [
-    "snes_cartridge",
-    "gameboy_box",
-    "pyramid_bg",
-    "title_screen",
-    "pixel_frame",
+    "mecha_sprite",
+    "pixel_font",
+    "boss_battle",
+    "arabic_text",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

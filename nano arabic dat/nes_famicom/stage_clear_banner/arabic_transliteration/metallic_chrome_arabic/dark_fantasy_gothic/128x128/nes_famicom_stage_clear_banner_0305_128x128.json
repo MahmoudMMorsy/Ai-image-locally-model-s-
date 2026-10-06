@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "chrome_bevel",
-      "gold_texture"
+      "grid_overlay",
+      "1-bit_dithering",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "border_framed",
   "colors": [
+    "black",
     "gold",
-    "red",
-    "white"
+    "blue"
   ],
   "tags": [
-    "gameboy_box",
-    "pixel_font",
-    "skull_icon",
+    "pixel_typography",
+    "mecha_sprite",
+    "arabic_text",
     "hero_sprite",
-    "sword_icon",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

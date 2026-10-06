@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "glitch_displacement",
-      "fire_effect"
+      "glowing_edges",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "gold",
-    "purple",
-    "blue"
+    "blue",
+    "red",
+    "gold"
   ],
   "tags": [
-    "boss_battle",
-    "gameboy_box",
-    "sword_icon",
-    "hero_sprite",
-    "sub_title",
+    "castle_stage",
+    "pixel_explosion",
+    "lightning_strike",
+    "dragon_bg",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: محارب الساموراي (SAMURAI WARRIOR)."
 }

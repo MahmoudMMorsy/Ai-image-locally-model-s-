@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_cartridge_label_0800_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "crt_scanlines",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "neon_cyan",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "sub_title",
+    "sword_icon",
+    "connected_letters",
+    "sega_grid",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

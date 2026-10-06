@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_title_screen_art_0790_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "title_screen_art",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "chrome_bevel",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "black",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "title_screen",
+    "space_ship",
+    "connected_letters",
+    "pixel_frame",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_thuluth_display title: طريق الانتقام (PATH OF REVENGE)."
+}

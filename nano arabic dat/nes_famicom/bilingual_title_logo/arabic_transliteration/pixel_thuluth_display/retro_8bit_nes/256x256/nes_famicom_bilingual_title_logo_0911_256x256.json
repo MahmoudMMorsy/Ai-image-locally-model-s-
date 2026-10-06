@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_bilingual_title_logo_0911_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "drop_shadow",
+      "crt_scanlines",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "gold",
+    "neon_cyan",
+    "red"
+  ],
+  "tags": [
+    "space_ship",
+    "skull_icon",
+    "connected_letters",
+    "sword_icon",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: مدينة السايبر (CYBER CITY)."
+}

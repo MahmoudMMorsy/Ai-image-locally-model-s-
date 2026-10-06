@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glitch_displacement",
-      "1-bit_dithering",
-      "drop_shadow"
+      "pixel_gradient",
+      "thick_black_outline",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
-    "red",
+    "black",
+    "neon_cyan",
     "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "sega_grid",
-    "pixel_frame",
-    "connected_letters",
-    "space_ship",
+    "nes_cover",
+    "pyramid_bg",
+    "snes_cartridge",
+    "gameboy_box",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "1-bit_dithering",
       "thick_black_outline",
-      "gold_texture",
-      "16-bit_gradient"
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "white"
+    "black",
+    "purple",
+    "blue"
   ],
   "tags": [
-    "space_ship",
-    "pixel_typography",
-    "desert_bg",
+    "nes_cover",
+    "pyramid_bg",
+    "boss_battle",
+    "title_screen",
     "hero_sprite",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

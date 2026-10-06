@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "dripping_slime",
-      "1-bit_dithering"
+      "drop_shadow",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
-    "blue",
+    "neon_cyan",
+    "gold",
     "white"
   ],
   "tags": [
+    "desert_bg",
+    "lightning_strike",
+    "castle_stage",
     "hero_sprite",
-    "sub_title",
-    "boss_battle",
-    "pyramid_bg",
-    "gameboy_box",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: قلعة الظلام (DARK CASTLE)."
 }

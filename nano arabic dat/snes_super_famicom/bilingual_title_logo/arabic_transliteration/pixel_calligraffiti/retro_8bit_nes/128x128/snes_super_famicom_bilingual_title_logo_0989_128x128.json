@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_bilingual_title_logo_0989_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "chrome_bevel",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "border_framed",
+  "colors": [
+    "blue",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "pixel_typography",
+    "sega_grid",
+    "pixel_font",
+    "lightning_strike",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: سيد الحلبة (RING MASTER)."
+}

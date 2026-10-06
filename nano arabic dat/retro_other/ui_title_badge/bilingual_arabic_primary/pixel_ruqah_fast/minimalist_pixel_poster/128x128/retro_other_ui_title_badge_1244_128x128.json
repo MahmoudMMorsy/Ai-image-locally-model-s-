@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_ui_title_badge_1244_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "drop_shadow",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "blue",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "dragon_bg",
+    "boss_battle",
+    "pixel_typography",
+    "sega_grid",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: سرعة الضوء (SPEED OF LIGHT)."
+}

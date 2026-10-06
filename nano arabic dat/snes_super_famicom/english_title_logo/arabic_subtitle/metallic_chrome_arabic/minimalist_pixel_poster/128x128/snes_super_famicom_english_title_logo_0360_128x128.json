@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "crt_scanlines",
-      "16-bit_gradient",
-      "glitch_displacement"
+      "thick_black_outline",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
     "purple",
-    "blue"
+    "gold",
+    "red"
   ],
   "tags": [
-    "pixel_typography",
-    "title_screen",
-    "dragon_bg",
     "sega_grid",
-    "arabic_text",
+    "gameboy_box",
+    "pyramid_bg",
+    "boss_battle",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with metallic_chrome_arabic title: معركة النهائي (FINAL BATTLE)."
 }

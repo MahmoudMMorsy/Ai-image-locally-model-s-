@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_promo_flyer_1204_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "promo_flyer",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "glowing_edges",
+      "dripping_slime",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "blue",
+    "neon_cyan",
+    "purple"
+  ],
+  "tags": [
+    "castle_stage",
+    "pixel_typography",
+    "nes_cover",
+    "gameboy_box",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

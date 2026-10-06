@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "pixel_gradient",
-      "grid_overlay"
+      "dripping_slime",
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "white"
+    "red",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "pixel_font",
-    "snes_cartridge",
-    "lightning_strike",
-    "mecha_sprite",
-    "pyramid_bg",
+    "boss_battle",
+    "desert_bg",
+    "sub_title",
+    "hero_sprite",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

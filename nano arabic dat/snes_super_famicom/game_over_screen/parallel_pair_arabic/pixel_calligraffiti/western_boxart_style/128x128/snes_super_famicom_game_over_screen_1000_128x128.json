@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_game_over_screen_1000_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "pixel_gradient",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "black"
+  ],
+  "tags": [
+    "boss_battle",
+    "gameboy_box",
+    "lightning_strike",
+    "sega_grid",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

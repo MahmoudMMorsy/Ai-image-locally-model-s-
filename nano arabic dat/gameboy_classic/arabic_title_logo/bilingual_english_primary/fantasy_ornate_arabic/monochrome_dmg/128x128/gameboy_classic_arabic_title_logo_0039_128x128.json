@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
+      "fire_effect",
       "drop_shadow",
-      "chrome_bevel"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "blue",
-    "black",
-    "gold"
+    "gold",
+    "purple",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "pyramid_bg",
-    "connected_letters",
-    "lightning_strike",
-    "snes_cartridge",
+    "boss_battle",
+    "mecha_sprite",
+    "space_ship",
+    "hero_sprite",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: سيد الحلبة (RING MASTER)."
 }

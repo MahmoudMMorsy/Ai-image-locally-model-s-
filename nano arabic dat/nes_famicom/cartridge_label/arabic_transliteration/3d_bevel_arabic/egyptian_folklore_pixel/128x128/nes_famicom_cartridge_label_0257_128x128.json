@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "dripping_slime",
-      "16-bit_gradient"
+      "16-bit_gradient",
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "white",
-    "neon_cyan"
+    "black",
+    "purple",
+    "gold"
   ],
   "tags": [
     "snes_cartridge",
-    "dragon_bg",
-    "desert_bg",
-    "nes_cover",
-    "connected_letters",
+    "pixel_explosion",
+    "castle_stage",
+    "gameboy_box",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
 }

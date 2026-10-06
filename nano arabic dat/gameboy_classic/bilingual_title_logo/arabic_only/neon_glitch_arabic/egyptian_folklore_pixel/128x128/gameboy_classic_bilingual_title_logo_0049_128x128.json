@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "grid_overlay",
-      "thick_black_outline"
+      "drop_shadow",
+      "gold_texture",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "gold"
+    "black",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "arabic_text",
-    "desert_bg",
+    "pixel_typography",
+    "dragon_bg",
     "snes_cartridge",
-    "sub_title",
-    "nes_cover",
+    "lightning_strike",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: حرب المجرات (GALAXY WAR)."
 }

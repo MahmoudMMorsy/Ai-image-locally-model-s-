@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_title_screen_art_0632_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "glowing_edges",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "gold",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "space_ship",
+    "mecha_sprite",
+    "title_screen",
+    "snes_cartridge",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

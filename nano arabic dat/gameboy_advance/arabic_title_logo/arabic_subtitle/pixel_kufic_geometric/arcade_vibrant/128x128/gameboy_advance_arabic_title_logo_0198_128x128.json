@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "crt_scanlines",
-      "drop_shadow"
+      "glitch_displacement",
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "center_title_large",
   "colors": [
     "neon_cyan",
-    "red",
-    "gold"
+    "blue",
+    "purple"
   ],
   "tags": [
+    "pixel_frame",
+    "sub_title",
+    "gameboy_box",
     "snes_cartridge",
-    "skull_icon",
-    "lightning_strike",
-    "sega_grid",
-    "dragon_bg",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: مستكشف الكهف (CAVE EXPLORER)."
 }

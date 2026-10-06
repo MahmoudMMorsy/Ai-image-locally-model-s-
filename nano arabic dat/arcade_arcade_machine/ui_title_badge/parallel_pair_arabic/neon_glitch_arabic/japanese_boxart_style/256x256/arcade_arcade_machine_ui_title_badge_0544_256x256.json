@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "grid_overlay",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "drop_shadow",
+      "1-bit_dithering",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
     "white",
-    "black"
+    "gold",
+    "blue"
   ],
   "tags": [
+    "skull_icon",
+    "boss_battle",
     "dragon_bg",
-    "sub_title",
-    "pyramid_bg",
-    "mecha_sprite",
     "castle_stage",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: سرعة الضوء (SPEED OF LIGHT)."
 }

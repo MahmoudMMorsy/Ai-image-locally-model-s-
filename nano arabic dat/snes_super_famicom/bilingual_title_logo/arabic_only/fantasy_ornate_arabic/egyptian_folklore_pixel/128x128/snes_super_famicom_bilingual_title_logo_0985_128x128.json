@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_bilingual_title_logo_0985_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "glowing_edges",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "sword_icon",
+    "connected_letters",
+    "boss_battle",
+    "castle_stage",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: معركة النهائي (FINAL BATTLE)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_bilingual_title_logo_0677_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "gold_texture",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "gold",
+    "white",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "sub_title",
+    "space_ship",
+    "pixel_typography",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

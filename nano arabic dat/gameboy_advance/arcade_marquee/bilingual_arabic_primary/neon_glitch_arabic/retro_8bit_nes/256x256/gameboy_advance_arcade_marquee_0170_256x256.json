@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "gold_texture",
-      "pixel_gradient",
-      "drop_shadow"
+      "16-bit_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "blue",
+    "gold",
+    "white",
     "black"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_explosion",
-    "desert_bg",
-    "space_ship",
-    "pyramid_bg",
+    "snes_cartridge",
+    "lightning_strike",
+    "arabic_text",
+    "boss_battle",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: قلعة الظلام (DARK CASTLE)."
 }

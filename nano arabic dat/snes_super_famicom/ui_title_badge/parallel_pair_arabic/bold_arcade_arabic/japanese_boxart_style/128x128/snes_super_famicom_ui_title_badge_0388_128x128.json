@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "glowing_edges",
-      "crt_scanlines",
-      "1-bit_dithering"
+      "glitch_displacement",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "gold",
-    "purple"
+    "white",
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "sword_icon",
-    "pixel_font",
-    "nes_cover",
-    "castle_stage",
+    "dragon_bg",
+    "gameboy_box",
+    "sega_grid",
     "lightning_strike",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

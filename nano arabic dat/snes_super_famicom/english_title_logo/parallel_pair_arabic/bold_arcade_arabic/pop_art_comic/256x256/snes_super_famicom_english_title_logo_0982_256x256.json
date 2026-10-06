@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_english_title_logo_0982_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "english_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "gold_texture",
+      "glowing_edges",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "gameboy_box",
+    "hero_sprite",
+    "nes_cover",
+    "title_screen",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

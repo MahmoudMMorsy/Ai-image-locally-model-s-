@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_game_over_screen_0841_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "grid_overlay",
+      "dripping_slime",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "black_border_nes",
+  "colors": [
+    "blue",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "castle_stage",
+    "dragon_bg",
+    "lightning_strike",
+    "sword_icon",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: سيف العدالة (SWORD OF JUSTICE)."
+}

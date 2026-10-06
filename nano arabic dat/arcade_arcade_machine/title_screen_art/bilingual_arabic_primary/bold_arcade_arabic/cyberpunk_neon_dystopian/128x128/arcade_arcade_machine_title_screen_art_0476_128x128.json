@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
+      "grid_overlay",
       "dripping_slime",
-      "glowing_edges",
-      "pixel_gradient"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "border_framed",
   "colors": [
+    "neon_cyan",
     "black",
-    "red",
-    "neon_cyan"
+    "gold"
   ],
   "tags": [
-    "pixel_frame",
-    "pixel_typography",
-    "mecha_sprite",
-    "desert_bg",
+    "skull_icon",
     "lightning_strike",
+    "pixel_frame",
+    "connected_letters",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

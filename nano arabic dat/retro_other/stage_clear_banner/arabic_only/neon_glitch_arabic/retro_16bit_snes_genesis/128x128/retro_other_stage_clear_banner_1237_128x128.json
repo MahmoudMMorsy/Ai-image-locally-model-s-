@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_stage_clear_banner_1237_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "gold_texture",
+      "pixel_gradient",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "black_border_nes",
+  "colors": [
+    "red",
+    "black",
+    "white"
+  ],
+  "tags": [
+    "castle_stage",
+    "pixel_typography",
+    "hero_sprite",
+    "title_screen",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

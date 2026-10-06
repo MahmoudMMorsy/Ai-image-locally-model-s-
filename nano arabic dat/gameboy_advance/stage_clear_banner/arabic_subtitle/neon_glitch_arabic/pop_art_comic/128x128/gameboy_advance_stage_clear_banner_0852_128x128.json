@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_stage_clear_banner_0852_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "drop_shadow",
+      "16-bit_gradient",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "snes_cartridge",
+    "gameboy_box",
+    "lightning_strike",
+    "pixel_frame",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+}

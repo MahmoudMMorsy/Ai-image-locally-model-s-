@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "thick_black_outline",
-      "chrome_bevel"
+      "fire_effect",
+      "crt_scanlines",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "center_title_large",
   "colors": [
     "purple",
-    "black",
-    "neon_cyan"
+    "red",
+    "white"
   ],
   "tags": [
-    "castle_stage",
     "sega_grid",
-    "title_screen",
-    "arabic_text",
-    "pixel_typography",
+    "boss_battle",
+    "sub_title",
+    "gameboy_box",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: قتال الشوارع (STREET FIGHT)."
 }

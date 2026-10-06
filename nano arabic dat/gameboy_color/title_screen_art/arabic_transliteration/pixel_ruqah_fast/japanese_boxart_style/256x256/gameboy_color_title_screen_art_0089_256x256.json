@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
+      "glowing_edges",
       "crt_scanlines",
-      "gold_texture",
-      "glowing_edges"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "border_framed",
   "colors": [
-    "white",
     "neon_cyan",
-    "blue"
+    "red",
+    "white"
   ],
   "tags": [
-    "dragon_bg",
+    "desert_bg",
+    "hero_sprite",
+    "castle_stage",
+    "nes_cover",
     "pixel_font",
-    "skull_icon",
-    "sub_title",
-    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

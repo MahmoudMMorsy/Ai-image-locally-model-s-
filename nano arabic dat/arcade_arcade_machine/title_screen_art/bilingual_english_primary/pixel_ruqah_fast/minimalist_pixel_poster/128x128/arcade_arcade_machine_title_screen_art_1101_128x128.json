@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_title_screen_art_1101_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "dripping_slime",
+      "gold_texture",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "white",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "title_screen",
+    "sword_icon",
+    "hero_sprite",
+    "snes_cartridge",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
+}

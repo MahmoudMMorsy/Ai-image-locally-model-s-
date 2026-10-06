@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_bilingual_title_logo_1222_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "dripping_slime",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "space_ship",
+    "sega_grid",
+    "mecha_sprite",
+    "lightning_strike",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: قتال الشوارع (STREET FIGHT)."
+}

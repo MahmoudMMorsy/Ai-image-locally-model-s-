@@ -8,8 +8,8 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glitch_displacement",
-      "glowing_edges",
+      "dripping_slime",
+      "chrome_bevel",
       "pixel_gradient"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
-    "blue",
-    "red"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
+    "dragon_bg",
     "lightning_strike",
-    "connected_letters",
-    "sub_title",
-    "gameboy_box",
+    "castle_stage",
     "sword_icon",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: مستكشف الكهف (CAVE EXPLORER)."
 }

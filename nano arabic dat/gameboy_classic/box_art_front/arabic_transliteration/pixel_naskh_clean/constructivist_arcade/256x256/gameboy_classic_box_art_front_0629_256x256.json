@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_box_art_front_0629_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "gold_texture",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "border_framed",
+  "colors": [
+    "gold",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_frame",
+    "hero_sprite",
+    "pyramid_bg",
+    "snes_cartridge",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

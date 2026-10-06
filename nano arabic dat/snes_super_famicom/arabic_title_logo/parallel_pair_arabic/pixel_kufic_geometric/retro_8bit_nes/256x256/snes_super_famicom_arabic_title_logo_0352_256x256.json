@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "crt_scanlines",
-      "glowing_edges",
-      "drop_shadow"
+      "drop_shadow",
+      "1-bit_dithering",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "purple",
-    "red",
-    "gold"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "connected_letters",
-    "pixel_frame",
-    "desert_bg",
-    "space_ship",
+    "pyramid_bg",
+    "title_screen",
     "pixel_typography",
+    "skull_icon",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
 }

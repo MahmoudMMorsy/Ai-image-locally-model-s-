@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_cartridge_label_1192_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "cartridge_label",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "glitch_displacement",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "blue",
+    "black"
+  ],
+  "tags": [
+    "boss_battle",
+    "lightning_strike",
+    "connected_letters",
+    "sega_grid",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: حارس الغابة (FOREST GUARDIAN)."
+}

@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "drop_shadow",
+      "glitch_displacement",
       "chrome_bevel",
-      "16-bit_gradient"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
+    "purple",
     "red",
-    "white"
+    "black"
   ],
   "tags": [
-    "snes_cartridge",
-    "sega_grid",
-    "pixel_typography",
+    "boss_battle",
     "lightning_strike",
-    "nes_cover",
+    "pixel_typography",
+    "title_screen",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: عرش التنين (DRAGON THRONE)."
 }

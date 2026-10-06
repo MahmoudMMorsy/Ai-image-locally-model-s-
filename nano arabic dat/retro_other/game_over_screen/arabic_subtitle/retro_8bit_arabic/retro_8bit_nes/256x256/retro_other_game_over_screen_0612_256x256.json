@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
       "grid_overlay",
-      "chrome_bevel"
+      "crt_scanlines",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "center_title_large",
   "colors": [
-    "white",
-    "gold",
+    "neon_cyan",
+    "blue",
     "purple"
   ],
   "tags": [
+    "lightning_strike",
+    "pixel_frame",
+    "castle_stage",
+    "sega_grid",
     "arabic_text",
-    "snes_cartridge",
-    "skull_icon",
-    "nes_cover",
-    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

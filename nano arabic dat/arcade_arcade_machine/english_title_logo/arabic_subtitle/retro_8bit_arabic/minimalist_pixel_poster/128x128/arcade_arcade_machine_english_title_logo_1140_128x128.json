@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_english_title_logo_1140_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "gold_texture",
+      "dripping_slime",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "gold",
+    "neon_cyan"
+  ],
+  "tags": [
+    "sega_grid",
+    "arabic_text",
+    "mecha_sprite",
+    "pixel_font",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: طريق الانتقام (PATH OF REVENGE)."
+}

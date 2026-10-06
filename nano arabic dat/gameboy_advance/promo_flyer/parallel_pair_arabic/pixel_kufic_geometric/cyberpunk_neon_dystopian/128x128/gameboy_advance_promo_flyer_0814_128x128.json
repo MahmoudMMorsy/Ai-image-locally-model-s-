@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_promo_flyer_0814_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "promo_flyer",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "drop_shadow",
+      "16-bit_gradient",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "black_border_nes",
+  "colors": [
+    "black",
+    "red",
+    "gold"
+  ],
+  "tags": [
+    "arabic_text",
+    "gameboy_box",
+    "pixel_frame",
+    "sub_title",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: سيد الحلبة (RING MASTER)."
+}

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "pixel_gradient",
-      "1-bit_dithering",
-      "dripping_slime"
+      "drop_shadow",
+      "chrome_bevel",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "red",
     "black",
-    "blue",
-    "neon_cyan"
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "hero_sprite",
+    "arabic_text",
     "sega_grid",
-    "castle_stage",
-    "snes_cartridge",
+    "space_ship",
+    "title_screen",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

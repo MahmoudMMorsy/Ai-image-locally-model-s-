@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_promo_flyer_1123_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "gold_texture",
+      "drop_shadow",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "red",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "nes_cover",
+    "sub_title",
+    "pixel_explosion",
+    "pixel_typography",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: مستكشف الكهف (CAVE EXPLORER)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_ui_title_badge_1011_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "glowing_edges",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "sega_grid",
+    "mecha_sprite",
+    "castle_stage",
+    "pixel_explosion",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: مدينة السايبر (CYBER CITY)."
+}

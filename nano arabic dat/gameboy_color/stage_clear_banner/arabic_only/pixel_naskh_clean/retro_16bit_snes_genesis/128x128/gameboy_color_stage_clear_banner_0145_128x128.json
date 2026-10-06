@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "thick_black_outline",
-      "1-bit_dithering"
+      "fire_effect",
+      "dripping_slime",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
     "gold",
-    "black"
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "hero_sprite",
-    "snes_cartridge",
+    "castle_stage",
     "mecha_sprite",
-    "desert_bg",
-    "pixel_frame",
+    "arabic_text",
+    "gameboy_box",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: قلعة الظلام (DARK CASTLE)."
 }

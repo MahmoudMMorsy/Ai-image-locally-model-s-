@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_promo_flyer_1047_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "dripping_slime",
+      "thick_black_outline",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "white",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "dragon_bg",
+    "snes_cartridge",
+    "gameboy_box",
+    "arabic_text",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: قتال الشوارع (STREET FIGHT)."
+}

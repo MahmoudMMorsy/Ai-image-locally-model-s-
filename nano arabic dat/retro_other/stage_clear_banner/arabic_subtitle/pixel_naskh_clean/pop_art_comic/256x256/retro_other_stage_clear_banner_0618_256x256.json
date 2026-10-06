@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "pixel_gradient",
-      "chrome_bevel",
-      "crt_scanlines"
+      "grid_overlay",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "black",
-    "neon_cyan",
-    "gold"
+    "purple",
+    "gold",
+    "red"
   ],
   "tags": [
-    "title_screen",
-    "skull_icon",
+    "castle_stage",
+    "arabic_text",
+    "gameboy_box",
     "pixel_typography",
     "nes_cover",
-    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: بطل السلسلة (SERIES HERO)."
 }

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
       "glowing_edges",
-      "glitch_displacement"
+      "gold_texture",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "grid_framed_boxart",
   "colors": [
+    "black",
     "purple",
-    "red",
     "blue"
   ],
   "tags": [
-    "dragon_bg",
-    "pyramid_bg",
-    "hero_sprite",
+    "mecha_sprite",
+    "sub_title",
     "castle_stage",
-    "connected_letters",
+    "boss_battle",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with fantasy_ornate_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
-      "16-bit_gradient",
-      "glowing_edges"
+      "grid_overlay",
+      "pixel_gradient",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "split_bilingual_layout",
   "colors": [
+    "blue",
     "gold",
-    "black",
-    "purple"
+    "neon_cyan"
   ],
   "tags": [
+    "pyramid_bg",
+    "hero_sprite",
+    "sword_icon",
+    "dragon_bg",
     "sega_grid",
-    "gameboy_box",
-    "snes_cartridge",
-    "arabic_text",
-    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

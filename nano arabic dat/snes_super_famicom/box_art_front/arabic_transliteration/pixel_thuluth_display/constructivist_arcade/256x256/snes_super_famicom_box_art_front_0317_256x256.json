@@ -8,8 +8,8 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
       "glowing_edges",
+      "grid_overlay",
       "crt_scanlines"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "red"
+    "gold",
+    "black",
+    "blue"
   ],
   "tags": [
-    "sega_grid",
+    "sub_title",
+    "pyramid_bg",
+    "lightning_strike",
+    "castle_stage",
     "pixel_font",
-    "boss_battle",
-    "snes_cartridge",
-    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: حارس الغابة (FOREST GUARDIAN)."
 }

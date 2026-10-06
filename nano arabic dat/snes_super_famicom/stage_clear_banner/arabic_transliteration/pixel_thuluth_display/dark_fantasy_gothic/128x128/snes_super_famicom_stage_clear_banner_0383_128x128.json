@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
-      "chrome_bevel",
-      "fire_effect"
+      "drop_shadow",
+      "grid_overlay",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "purple",
-    "gold"
+    "blue",
+    "black",
+    "red"
   ],
   "tags": [
+    "sword_icon",
     "dragon_bg",
-    "arabic_text",
-    "hero_sprite",
-    "pixel_font",
-    "mecha_sprite",
+    "pyramid_bg",
+    "connected_letters",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

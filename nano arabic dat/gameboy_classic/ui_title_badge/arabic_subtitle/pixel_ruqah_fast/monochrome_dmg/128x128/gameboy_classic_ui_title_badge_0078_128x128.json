@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "grid_overlay",
-      "thick_black_outline",
+      "16-bit_gradient",
+      "dripping_slime",
       "pixel_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "blue",
-    "white"
+    "neon_cyan",
+    "gold",
+    "blue"
   ],
   "tags": [
-    "castle_stage",
+    "arabic_text",
+    "hero_sprite",
+    "pixel_frame",
+    "sword_icon",
     "connected_letters",
-    "gameboy_box",
-    "boss_battle",
-    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

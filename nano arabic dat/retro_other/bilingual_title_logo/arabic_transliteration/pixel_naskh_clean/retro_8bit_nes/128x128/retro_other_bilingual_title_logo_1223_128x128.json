@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_bilingual_title_logo_1223_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "thick_black_outline",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "border_framed",
+  "colors": [
+    "purple",
+    "black",
+    "blue"
+  ],
+  "tags": [
+    "castle_stage",
+    "title_screen",
+    "desert_bg",
+    "hero_sprite",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: مستكشف الكهف (CAVE EXPLORER)."
+}

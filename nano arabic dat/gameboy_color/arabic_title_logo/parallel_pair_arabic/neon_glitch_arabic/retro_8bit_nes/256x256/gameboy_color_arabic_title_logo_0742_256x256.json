@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_arabic_title_logo_0742_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "fire_effect",
+      "pixel_gradient",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "black_border_nes",
+  "colors": [
+    "black",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "sword_icon",
+    "hero_sprite",
+    "lightning_strike",
+    "mecha_sprite",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: حارس الغابة (FOREST GUARDIAN)."
+}

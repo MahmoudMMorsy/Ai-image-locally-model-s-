@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
+      "1-bit_dithering",
       "gold_texture",
-      "crt_scanlines"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "black",
-    "red"
+    "gold",
+    "white",
+    "black"
   ],
   "tags": [
-    "pixel_typography",
-    "pyramid_bg",
+    "connected_letters",
+    "sega_grid",
+    "sub_title",
+    "nes_cover",
     "castle_stage",
-    "sword_icon",
-    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: مملكة السحر (MAGIC KINGDOM)."
 }

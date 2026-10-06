@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
-      "gold_texture"
+      "chrome_bevel",
+      "glowing_edges",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
     "red",
-    "neon_cyan"
+    "white",
+    "black"
   ],
   "tags": [
-    "sub_title",
-    "dragon_bg",
-    "skull_icon",
-    "nes_cover",
-    "snes_cartridge",
+    "pixel_frame",
+    "arabic_text",
+    "sword_icon",
+    "boss_battle",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

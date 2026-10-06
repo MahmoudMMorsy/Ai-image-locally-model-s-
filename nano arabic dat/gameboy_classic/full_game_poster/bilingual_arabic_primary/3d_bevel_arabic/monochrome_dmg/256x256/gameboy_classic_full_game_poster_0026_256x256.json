@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
+      "thick_black_outline",
       "glitch_displacement",
-      "drop_shadow"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "purple",
-    "gold"
+    "gold",
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "hero_sprite",
-    "sword_icon",
-    "space_ship",
-    "sega_grid",
     "snes_cartridge",
+    "boss_battle",
+    "sword_icon",
+    "lightning_strike",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

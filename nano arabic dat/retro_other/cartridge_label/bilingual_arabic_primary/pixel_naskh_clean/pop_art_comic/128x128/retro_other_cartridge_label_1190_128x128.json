@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_cartridge_label_1190_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "gold_texture",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "blue",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "dragon_bg",
+    "space_ship",
+    "connected_letters",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: طريق الانتقام (PATH OF REVENGE)."
+}

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "drop_shadow",
-      "chrome_bevel"
+      "glowing_edges",
+      "16-bit_gradient",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
-    "blue",
+    "black",
+    "purple",
     "white"
   ],
   "tags": [
-    "desert_bg",
-    "nes_cover",
-    "sword_icon",
-    "mecha_sprite",
+    "boss_battle",
+    "lightning_strike",
+    "pixel_typography",
     "pyramid_bg",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_promo_flyer_0967_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "grid_overlay",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "boss_battle",
+    "pyramid_bg",
+    "pixel_typography",
+    "pixel_frame",
+    "castle_stage",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: حارس الغابة (FOREST GUARDIAN)."
+}

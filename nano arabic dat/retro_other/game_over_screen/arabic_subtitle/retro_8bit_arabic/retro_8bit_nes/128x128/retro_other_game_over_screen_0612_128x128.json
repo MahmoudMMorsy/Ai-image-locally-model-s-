@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "crt_scanlines",
-      "drop_shadow",
+      "fire_effect",
+      "gold_texture",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "center_title_large",
   "colors": [
-    "red",
-    "blue",
-    "purple"
+    "white",
+    "black",
+    "blue"
   ],
   "tags": [
-    "hero_sprite",
+    "pixel_typography",
+    "pixel_explosion",
     "gameboy_box",
-    "desert_bg",
-    "space_ship",
-    "nes_cover",
+    "pixel_font",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

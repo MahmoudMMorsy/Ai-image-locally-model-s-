@@ -9,7 +9,7 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "pixel_gradient",
-      "16-bit_gradient",
+      "drop_shadow",
       "thick_black_outline"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "red",
-    "gold"
+    "gold",
+    "black",
+    "white"
   ],
   "tags": [
-    "hero_sprite",
+    "gameboy_box",
     "pixel_explosion",
+    "sega_grid",
     "connected_letters",
-    "title_screen",
-    "dragon_bg",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

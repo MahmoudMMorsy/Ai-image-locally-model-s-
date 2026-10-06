@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "chrome_bevel",
-      "1-bit_dithering",
-      "gold_texture"
+      "fire_effect",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "neon_cyan",
-    "white"
+    "black",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "gameboy_box",
-    "pixel_font",
-    "nes_cover",
+    "dragon_bg",
+    "snes_cartridge",
+    "lightning_strike",
+    "pyramid_bg",
     "pixel_explosion",
-    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: قلعة الظلام (DARK CASTLE)."
 }

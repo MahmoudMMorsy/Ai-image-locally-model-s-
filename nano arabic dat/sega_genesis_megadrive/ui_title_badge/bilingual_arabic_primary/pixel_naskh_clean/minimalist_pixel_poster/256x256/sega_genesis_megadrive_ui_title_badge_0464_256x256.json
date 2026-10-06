@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "glitch_displacement",
-      "chrome_bevel"
+      "dripping_slime",
+      "gold_texture",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "neon_cyan",
     "purple",
-    "white",
-    "gold"
+    "black"
   ],
   "tags": [
-    "title_screen",
+    "castle_stage",
+    "space_ship",
+    "pyramid_bg",
+    "sega_grid",
     "pixel_frame",
-    "connected_letters",
-    "arabic_text",
-    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

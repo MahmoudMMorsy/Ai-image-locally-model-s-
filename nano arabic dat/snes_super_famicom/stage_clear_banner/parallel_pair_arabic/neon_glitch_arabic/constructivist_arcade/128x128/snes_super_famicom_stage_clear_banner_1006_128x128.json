@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_stage_clear_banner_1006_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "drop_shadow",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "arabic_text",
+    "lightning_strike",
+    "pyramid_bg",
+    "castle_stage",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

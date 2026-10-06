@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
       "1-bit_dithering",
-      "16-bit_gradient"
+      "drop_shadow",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
-    "purple",
     "red",
-    "gold"
+    "white",
+    "blue"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_explosion",
-    "sword_icon",
-    "lightning_strike",
+    "boss_battle",
+    "desert_bg",
     "pixel_font",
+    "connected_letters",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

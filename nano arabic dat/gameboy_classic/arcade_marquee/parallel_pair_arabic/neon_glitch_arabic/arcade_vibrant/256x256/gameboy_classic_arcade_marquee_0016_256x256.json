@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "glowing_edges",
-      "dripping_slime"
+      "thick_black_outline",
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -23,14 +23,14 @@
     "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "space_ship",
-    "boss_battle",
+    "lightning_strike",
+    "sub_title",
     "arabic_text",
-    "pixel_font",
+    "skull_icon",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: سيف العدالة (SWORD OF JUSTICE)."
 }

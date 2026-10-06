@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
-      "crt_scanlines"
+      "dripping_slime",
+      "chrome_bevel",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -20,17 +20,17 @@
   "colors": [
     "blue",
     "black",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
-    "space_ship",
-    "pixel_typography",
     "title_screen",
-    "dragon_bg",
-    "snes_cartridge",
+    "pixel_explosion",
+    "nes_cover",
+    "gameboy_box",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: قتال الشوارع (STREET FIGHT)."
 }

@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "crt_scanlines",
-      "gold_texture",
-      "grid_overlay"
+      "drop_shadow",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "blue",
-    "gold",
-    "black"
+    "red",
+    "purple"
   ],
   "tags": [
-    "lightning_strike",
     "pixel_frame",
-    "dragon_bg",
-    "gameboy_box",
-    "skull_icon",
+    "hero_sprite",
+    "sub_title",
+    "nes_cover",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

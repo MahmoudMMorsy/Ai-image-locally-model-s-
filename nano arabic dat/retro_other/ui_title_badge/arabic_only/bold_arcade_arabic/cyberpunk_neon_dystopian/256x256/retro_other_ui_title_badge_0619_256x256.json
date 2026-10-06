@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "16-bit_gradient",
-      "grid_overlay"
+      "pixel_gradient",
+      "1-bit_dithering",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "split_bilingual_layout",
   "colors": [
+    "white",
     "purple",
-    "gold",
     "blue"
   ],
   "tags": [
-    "sword_icon",
-    "mecha_sprite",
-    "pixel_font",
+    "gameboy_box",
+    "boss_battle",
     "skull_icon",
-    "snes_cartridge",
+    "nes_cover",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: سرعة الضوء (SPEED OF LIGHT)."
 }

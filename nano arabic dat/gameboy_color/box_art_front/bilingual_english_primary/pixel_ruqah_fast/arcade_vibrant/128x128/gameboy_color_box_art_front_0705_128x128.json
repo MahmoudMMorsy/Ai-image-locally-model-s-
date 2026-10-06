@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_box_art_front_0705_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "box_art_front",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glowing_edges",
+      "dripping_slime",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "black",
+    "blue",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_frame",
+    "castle_stage",
+    "dragon_bg",
+    "lightning_strike",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: أعماق المحيط (OCEAN DEPTHS)."
+}

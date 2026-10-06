@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "drop_shadow",
-      "glowing_edges"
+      "fire_effect",
+      "thick_black_outline",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "white",
-    "neon_cyan"
+    "blue",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "sub_title",
-    "lightning_strike",
-    "castle_stage",
-    "arabic_text",
+    "sword_icon",
     "title_screen",
+    "mecha_sprite",
+    "hero_sprite",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: سرعة الضوء (SPEED OF LIGHT)."
 }

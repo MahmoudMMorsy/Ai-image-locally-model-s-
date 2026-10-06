@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_cartridge_label_0646_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "cartridge_label",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "grid_overlay",
+      "chrome_bevel",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "red",
+    "blue",
+    "white"
+  ],
+  "tags": [
+    "title_screen",
+    "snes_cartridge",
+    "boss_battle",
+    "mecha_sprite",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

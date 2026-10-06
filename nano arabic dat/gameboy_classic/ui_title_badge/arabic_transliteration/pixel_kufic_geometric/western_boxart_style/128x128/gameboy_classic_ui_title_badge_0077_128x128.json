@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "fire_effect",
-      "16-bit_gradient"
+      "1-bit_dithering",
+      "16-bit_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "post_apocalyptic",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "purple",
     "blue",
-    "gold",
     "black"
   ],
   "tags": [
+    "hero_sprite",
+    "boss_battle",
     "pyramid_bg",
-    "pixel_frame",
-    "snes_cartridge",
-    "space_ship",
+    "sega_grid",
     "lightning_strike",
     "arabic_text",
     "connected_letters",

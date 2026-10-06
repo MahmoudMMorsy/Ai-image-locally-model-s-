@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "gold_texture",
-      "pixel_gradient",
-      "glitch_displacement"
+      "glowing_edges",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "white",
-    "black"
+    "gold",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "sword_icon",
-    "gameboy_box",
-    "pixel_font",
-    "space_ship",
-    "lightning_strike",
+    "skull_icon",
+    "pyramid_bg",
+    "mecha_sprite",
+    "pixel_typography",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

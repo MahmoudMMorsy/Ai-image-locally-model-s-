@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "thick_black_outline",
-      "gold_texture"
+      "glowing_edges",
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "blue",
-    "purple"
+    "black",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
     "nes_cover",
-    "pyramid_bg",
-    "space_ship",
-    "sub_title",
+    "pixel_frame",
+    "pixel_typography",
+    "connected_letters",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

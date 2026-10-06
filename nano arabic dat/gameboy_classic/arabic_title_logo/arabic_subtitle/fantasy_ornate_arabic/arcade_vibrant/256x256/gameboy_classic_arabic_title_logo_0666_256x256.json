@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_arabic_title_logo_0666_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "grid_overlay",
+      "glowing_edges",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "center_title_large",
+  "colors": [
+    "white",
+    "black",
+    "neon_cyan"
+  ],
+  "tags": [
+    "connected_letters",
+    "pixel_frame",
+    "space_ship",
+    "snes_cartridge",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: سيف العدالة (SWORD OF JUSTICE)."
+}

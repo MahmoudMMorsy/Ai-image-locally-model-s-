@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_ui_title_badge_0701_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "grid_overlay",
+      "glitch_displacement",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "border_framed",
+  "colors": [
+    "neon_cyan",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "sword_icon",
+    "hero_sprite",
+    "sega_grid",
+    "skull_icon",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+}

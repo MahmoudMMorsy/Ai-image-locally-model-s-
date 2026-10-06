@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_arcade_marquee_0953_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "fire_effect",
+      "glowing_edges",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "border_framed",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "space_ship",
+    "nes_cover",
+    "pixel_frame",
+    "sword_icon",
+    "mecha_sprite",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

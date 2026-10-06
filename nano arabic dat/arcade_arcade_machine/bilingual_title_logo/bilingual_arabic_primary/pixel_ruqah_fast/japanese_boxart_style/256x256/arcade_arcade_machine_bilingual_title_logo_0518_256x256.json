@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "1-bit_dithering",
-      "gold_texture",
-      "glowing_edges"
+      "crt_scanlines",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "blue",
-    "red"
+    "purple",
+    "white",
+    "black"
   ],
   "tags": [
-    "sub_title",
-    "pixel_typography",
-    "hero_sprite",
-    "pixel_explosion",
-    "title_screen",
+    "connected_letters",
+    "gameboy_box",
+    "nes_cover",
+    "pixel_font",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: بطل السلسلة (SERIES HERO)."
 }

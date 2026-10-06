@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "thick_black_outline",
-      "dripping_slime"
+      "dripping_slime",
+      "pixel_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "split_bilingual_layout",
   "colors": [
+    "black",
     "purple",
-    "red",
-    "blue"
+    "red"
   ],
   "tags": [
-    "hero_sprite",
-    "boss_battle",
-    "dragon_bg",
+    "sega_grid",
+    "gameboy_box",
+    "mecha_sprite",
+    "pixel_typography",
     "snes_cartridge",
-    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: قلعة الظلام (DARK CASTLE)."
 }

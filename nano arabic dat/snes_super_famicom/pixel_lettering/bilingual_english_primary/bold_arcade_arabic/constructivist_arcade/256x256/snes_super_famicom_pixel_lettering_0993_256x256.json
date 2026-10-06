@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_pixel_lettering_0993_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "pixel_lettering",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "grid_overlay",
+      "crt_scanlines",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "gold",
+    "black",
+    "blue"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "castle_stage",
+    "desert_bg",
+    "connected_letters",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with bold_arcade_arabic title: بطل السلسلة (SERIES HERO)."
+}

@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "gold_texture",
-      "drop_shadow"
+      "pixel_gradient",
+      "dripping_slime",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
+    "white",
     "red",
-    "white"
+    "blue"
   ],
   "tags": [
     "hero_sprite",
-    "pyramid_bg",
-    "space_ship",
     "dragon_bg",
-    "castle_stage",
+    "lightning_strike",
+    "sub_title",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_thuluth_display title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_thuluth_display title: حرب المجرات (GALAXY WAR)."
 }

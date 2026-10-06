@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "16-bit_gradient",
       "1-bit_dithering",
-      "thick_black_outline"
+      "glitch_displacement",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "gold",
-    "white"
+    "purple",
+    "blue"
   ],
   "tags": [
-    "snes_cartridge",
-    "sub_title",
     "connected_letters",
-    "nes_cover",
-    "castle_stage",
+    "snes_cartridge",
+    "hero_sprite",
+    "boss_battle",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

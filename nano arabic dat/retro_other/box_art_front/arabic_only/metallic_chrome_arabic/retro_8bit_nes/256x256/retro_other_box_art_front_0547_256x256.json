@@ -8,8 +8,8 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
+      "dripping_slime",
+      "grid_overlay",
       "fire_effect"
     ],
     "readability_score": "high"
@@ -19,18 +19,18 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "white",
-    "blue",
-    "purple"
+    "black",
+    "gold"
   ],
   "tags": [
-    "sword_icon",
-    "pixel_frame",
-    "mecha_sprite",
-    "dragon_bg",
-    "space_ship",
+    "sub_title",
+    "desert_bg",
+    "pixel_explosion",
+    "nes_cover",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: قتال الشوارع (STREET FIGHT)."
 }

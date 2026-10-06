@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_arcade_marquee_1032_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "drop_shadow",
+      "pixel_gradient",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "centered_emblem",
+  "colors": [
+    "gold",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "connected_letters",
+    "castle_stage",
+    "dragon_bg",
+    "hero_sprite",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_thuluth_display title: محارب الساموراي (SAMURAI WARRIOR)."
+}

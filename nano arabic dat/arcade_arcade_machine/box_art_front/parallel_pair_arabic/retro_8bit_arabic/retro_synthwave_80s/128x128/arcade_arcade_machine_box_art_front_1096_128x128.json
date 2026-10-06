@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_box_art_front_1096_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "box_art_front",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "dripping_slime",
+      "16-bit_gradient",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "blue",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "nes_cover",
+    "snes_cartridge",
+    "pixel_typography",
+    "hero_sprite",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glowing_edges",
+      "pixel_gradient",
       "fire_effect",
-      "crt_scanlines"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
     "red",
+    "gold",
     "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
+    "connected_letters",
     "gameboy_box",
     "hero_sprite",
-    "dragon_bg",
-    "pixel_typography",
+    "pixel_frame",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: الفارس الشجاع (BRAVE KNIGHT)."
 }

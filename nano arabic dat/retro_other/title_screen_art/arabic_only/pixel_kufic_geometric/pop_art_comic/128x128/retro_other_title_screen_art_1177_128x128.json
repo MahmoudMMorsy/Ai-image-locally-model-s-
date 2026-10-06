@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_1177_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "pixel_gradient",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "gold",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "pixel_frame",
+    "sega_grid",
+    "sword_icon",
+    "boss_battle",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
+}

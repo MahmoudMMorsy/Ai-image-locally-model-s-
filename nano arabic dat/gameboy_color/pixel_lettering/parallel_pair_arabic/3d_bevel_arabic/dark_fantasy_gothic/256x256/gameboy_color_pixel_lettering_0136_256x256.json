@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "fire_effect",
-      "crt_scanlines",
-      "glitch_displacement"
+      "drop_shadow",
+      "gold_texture",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
+    "black",
     "gold",
-    "black"
+    "purple"
   ],
   "tags": [
+    "connected_letters",
     "pixel_font",
-    "desert_bg",
-    "dragon_bg",
-    "mecha_sprite",
-    "pixel_frame",
+    "skull_icon",
+    "hero_sprite",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
 }

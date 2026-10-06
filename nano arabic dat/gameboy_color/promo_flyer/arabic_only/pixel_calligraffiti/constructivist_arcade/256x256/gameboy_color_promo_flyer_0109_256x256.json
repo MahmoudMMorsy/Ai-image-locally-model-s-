@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "glowing_edges",
-      "1-bit_dithering"
+      "fire_effect",
+      "gold_texture",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "gold"
+    "white",
+    "black",
+    "red"
   ],
   "tags": [
-    "pixel_explosion",
-    "space_ship",
     "pixel_typography",
-    "mecha_sprite",
+    "boss_battle",
+    "space_ship",
     "desert_bg",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: أسطورة النور (LEGEND OF LIGHT)."
 }

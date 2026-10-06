@@ -8,8 +8,8 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glitch_displacement",
-      "grid_overlay",
+      "dripping_slime",
+      "drop_shadow",
       "crt_scanlines"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "gold",
-    "blue"
+    "purple",
+    "black",
+    "gold"
   ],
   "tags": [
-    "boss_battle",
-    "pixel_explosion",
-    "pixel_typography",
-    "lightning_strike",
+    "space_ship",
+    "gameboy_box",
+    "connected_letters",
     "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: بطل السلسلة (SERIES HERO)."
 }

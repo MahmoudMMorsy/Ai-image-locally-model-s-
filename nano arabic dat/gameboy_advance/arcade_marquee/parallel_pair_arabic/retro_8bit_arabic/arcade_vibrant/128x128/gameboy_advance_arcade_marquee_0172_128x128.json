@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "pixel_gradient",
-      "thick_black_outline"
+      "glitch_displacement",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "red",
-    "white"
+    "gold",
+    "white",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "skull_icon",
+    "sega_grid",
+    "lightning_strike",
     "pixel_font",
-    "sword_icon",
-    "hero_sprite",
+    "sub_title",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: قتال الشوارع (STREET FIGHT)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "pixel_gradient",
-      "dripping_slime"
+      "crt_scanlines",
+      "dripping_slime",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "center_title_large",
   "colors": [
-    "black",
-    "blue",
+    "white",
+    "neon_cyan",
     "purple"
   ],
   "tags": [
-    "desert_bg",
-    "space_ship",
-    "castle_stage",
-    "pixel_font",
+    "pixel_explosion",
     "sub_title",
+    "nes_cover",
+    "skull_icon",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

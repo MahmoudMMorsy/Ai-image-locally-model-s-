@@ -8,8 +8,8 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
+      "pixel_gradient",
+      "glowing_edges",
       "thick_black_outline"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "gold",
-    "black"
+    "white",
+    "purple"
   ],
   "tags": [
-    "lightning_strike",
+    "pyramid_bg",
+    "dragon_bg",
+    "pixel_font",
     "sub_title",
-    "snes_cartridge",
-    "pixel_frame",
-    "gameboy_box",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

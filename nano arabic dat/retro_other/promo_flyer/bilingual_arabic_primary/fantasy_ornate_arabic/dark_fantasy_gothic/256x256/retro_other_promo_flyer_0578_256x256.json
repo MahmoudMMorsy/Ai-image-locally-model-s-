@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "thick_black_outline",
-      "gold_texture"
+      "16-bit_gradient",
+      "glowing_edges",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "blue",
     "gold",
-    "purple",
-    "blue"
+    "white"
   ],
   "tags": [
-    "nes_cover",
-    "pixel_font",
-    "castle_stage",
+    "mecha_sprite",
+    "connected_letters",
     "space_ship",
-    "arabic_text",
+    "sega_grid",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

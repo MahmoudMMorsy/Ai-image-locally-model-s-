@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_box_art_front_0707_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "thick_black_outline",
+      "fire_effect",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "red",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "desert_bg",
+    "pixel_font",
+    "pixel_explosion",
+    "mecha_sprite",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+}

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_ui_title_badge_0697_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "glowing_edges",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "black_border_nes",
+  "colors": [
+    "black",
+    "blue",
+    "red"
+  ],
+  "tags": [
+    "lightning_strike",
+    "hero_sprite",
+    "pixel_typography",
+    "pixel_frame",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: قتال الشوارع (STREET FIGHT)."
+}

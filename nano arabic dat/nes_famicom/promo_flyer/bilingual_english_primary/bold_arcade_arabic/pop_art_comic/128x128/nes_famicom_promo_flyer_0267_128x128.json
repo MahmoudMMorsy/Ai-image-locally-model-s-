@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "grid_overlay",
-      "16-bit_gradient",
-      "gold_texture"
+      "fire_effect",
+      "dripping_slime",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -20,17 +20,17 @@
   "colors": [
     "red",
     "gold",
-    "purple"
+    "blue"
   ],
   "tags": [
-    "nes_cover",
     "dragon_bg",
-    "sega_grid",
-    "desert_bg",
+    "gameboy_box",
     "space_ship",
+    "pixel_font",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

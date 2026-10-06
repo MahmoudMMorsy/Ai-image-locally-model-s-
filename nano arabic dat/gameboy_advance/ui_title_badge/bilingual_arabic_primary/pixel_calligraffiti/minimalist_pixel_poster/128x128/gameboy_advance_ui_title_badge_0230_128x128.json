@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
+      "thick_black_outline",
       "gold_texture",
-      "chrome_bevel"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
+    "blue",
     "purple",
-    "blue"
+    "red"
   ],
   "tags": [
-    "nes_cover",
-    "pixel_explosion",
-    "sword_icon",
-    "snes_cartridge",
-    "hero_sprite",
+    "pixel_typography",
+    "mecha_sprite",
+    "connected_letters",
+    "skull_icon",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

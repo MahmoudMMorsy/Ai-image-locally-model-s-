@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "1-bit_dithering",
-      "chrome_bevel"
+      "glitch_displacement",
+      "drop_shadow",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "blue",
-    "black"
+    "gold",
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "sega_grid",
-    "nes_cover",
+    "skull_icon",
+    "pixel_font",
     "desert_bg",
-    "sword_icon",
-    "pixel_typography",
+    "nes_cover",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: معركة النهائي (FINAL BATTLE)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0872_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "1-bit_dithering",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "border_framed",
+  "colors": [
+    "white",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "hero_sprite",
+    "sword_icon",
+    "skull_icon",
+    "dragon_bg",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: قتال الشوارع (STREET FIGHT)."
+}

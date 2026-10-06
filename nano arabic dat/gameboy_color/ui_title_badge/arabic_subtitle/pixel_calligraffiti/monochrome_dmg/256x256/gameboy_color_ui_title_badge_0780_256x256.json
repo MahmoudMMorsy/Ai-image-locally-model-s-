@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_ui_title_badge_0780_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "fire_effect",
+      "16-bit_gradient",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "white",
+    "gold"
+  ],
+  "tags": [
+    "sword_icon",
+    "pixel_frame",
+    "hero_sprite",
+    "snes_cartridge",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: أعماق المحيط (OCEAN DEPTHS)."
+}

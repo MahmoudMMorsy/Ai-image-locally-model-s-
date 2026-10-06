@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "fire_effect",
-      "drop_shadow",
-      "chrome_bevel"
+      "16-bit_gradient",
+      "grid_overlay",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
     "red",
-    "blue"
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
-    "hero_sprite",
     "lightning_strike",
     "skull_icon",
+    "desert_bg",
+    "boss_battle",
     "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: حرب المجرات (GALAXY WAR)."
 }

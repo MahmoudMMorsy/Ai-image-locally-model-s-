@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "crt_scanlines",
+      "gold_texture",
       "pixel_gradient",
-      "grid_overlay"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
-    "blue",
-    "gold"
+    "white",
+    "red",
+    "blue"
   ],
   "tags": [
+    "space_ship",
+    "arabic_text",
+    "castle_stage",
     "lightning_strike",
-    "hero_sprite",
-    "dragon_bg",
-    "snes_cartridge",
-    "title_screen",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

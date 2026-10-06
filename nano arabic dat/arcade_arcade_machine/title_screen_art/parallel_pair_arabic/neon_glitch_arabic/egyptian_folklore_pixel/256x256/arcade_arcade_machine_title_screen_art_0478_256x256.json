@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glowing_edges",
-      "pixel_gradient",
-      "grid_overlay"
+      "16-bit_gradient",
+      "grid_overlay",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "red"
+    "black",
+    "red",
+    "purple"
   ],
   "tags": [
-    "title_screen",
-    "pyramid_bg",
-    "sword_icon",
-    "pixel_font",
+    "arabic_text",
+    "lightning_strike",
+    "dragon_bg",
     "skull_icon",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_full_game_poster_1119_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "full_game_poster",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "dripping_slime",
+      "16-bit_gradient",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "gold",
+    "white",
+    "black"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "arabic_text",
+    "sub_title",
+    "gameboy_box",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+}

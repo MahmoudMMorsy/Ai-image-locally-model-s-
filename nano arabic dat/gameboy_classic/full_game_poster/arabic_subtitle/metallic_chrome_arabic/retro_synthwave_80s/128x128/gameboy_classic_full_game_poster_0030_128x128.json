@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "chrome_bevel",
-      "dripping_slime",
-      "1-bit_dithering"
+      "gold_texture",
+      "crt_scanlines",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
     "gold",
-    "black"
+    "black",
+    "purple"
   ],
   "tags": [
-    "title_screen",
+    "sega_grid",
+    "pixel_explosion",
+    "nes_cover",
     "lightning_strike",
-    "arabic_text",
-    "hero_sprite",
-    "dragon_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

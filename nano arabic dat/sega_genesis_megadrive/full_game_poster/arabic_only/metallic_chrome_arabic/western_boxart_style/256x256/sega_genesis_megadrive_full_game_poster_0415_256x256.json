@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
       "dripping_slime",
-      "glowing_edges"
+      "16-bit_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "black"
+    "red",
+    "white",
+    "gold"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_font",
-    "sword_icon",
     "title_screen",
-    "pyramid_bg",
+    "space_ship",
+    "pixel_frame",
+    "boss_battle",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: طريق الانتقام (PATH OF REVENGE)."
 }

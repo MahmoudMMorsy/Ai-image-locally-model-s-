@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "grid_overlay",
-      "dripping_slime",
-      "gold_texture"
+      "gold_texture",
+      "16-bit_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "blue",
+    "gold",
+    "purple",
     "black"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_font",
-    "lightning_strike",
+    "connected_letters",
     "hero_sprite",
-    "desert_bg",
+    "sub_title",
+    "gameboy_box",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "thick_black_outline",
-      "16-bit_gradient",
-      "chrome_bevel"
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
-    "red",
-    "purple"
+    "blue",
+    "black",
+    "white"
   ],
   "tags": [
-    "pyramid_bg",
+    "mecha_sprite",
+    "lightning_strike",
+    "sega_grid",
     "sword_icon",
-    "snes_cartridge",
-    "space_ship",
-    "hero_sprite",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: سر الأهرامات (PYRAMID SECRET)."
 }

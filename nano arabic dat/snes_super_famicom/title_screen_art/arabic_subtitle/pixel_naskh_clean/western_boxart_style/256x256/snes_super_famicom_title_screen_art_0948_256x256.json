@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_title_screen_art_0948_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "drop_shadow",
+      "grid_overlay",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "white",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "connected_letters",
+    "sub_title",
+    "lightning_strike",
+    "gameboy_box",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: مستكشف الكهف (CAVE EXPLORER)."
+}

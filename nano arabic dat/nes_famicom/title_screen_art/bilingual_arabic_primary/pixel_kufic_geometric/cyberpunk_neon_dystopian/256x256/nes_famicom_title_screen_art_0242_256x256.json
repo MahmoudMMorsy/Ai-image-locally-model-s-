@@ -8,8 +8,8 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "chrome_bevel",
+      "grid_overlay",
+      "drop_shadow",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -19,18 +19,18 @@
   "layout": "border_framed",
   "colors": [
     "blue",
-    "white",
-    "purple"
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_typography",
-    "sword_icon",
-    "sega_grid",
-    "nes_cover",
+    "pyramid_bg",
+    "arabic_text",
     "hero_sprite",
+    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: حارس الغابة (FOREST GUARDIAN)."
 }

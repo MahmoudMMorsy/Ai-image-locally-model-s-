@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
-      "crt_scanlines",
-      "16-bit_gradient"
+      "gold_texture",
+      "pixel_gradient",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "center_title_large",
   "colors": [
-    "blue",
-    "white",
-    "black"
+    "red",
+    "black",
+    "white"
   ],
   "tags": [
-    "hero_sprite",
-    "sega_grid",
     "boss_battle",
-    "pixel_typography",
-    "dragon_bg",
+    "castle_stage",
+    "pyramid_bg",
+    "title_screen",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: طريق الانتقام (PATH OF REVENGE)."
 }

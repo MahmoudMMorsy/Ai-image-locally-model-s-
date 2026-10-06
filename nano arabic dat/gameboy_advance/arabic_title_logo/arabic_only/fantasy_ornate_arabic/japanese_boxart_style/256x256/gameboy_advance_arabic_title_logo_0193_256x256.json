@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "crt_scanlines",
-      "drop_shadow"
+      "gold_texture",
+      "drop_shadow",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "purple",
-    "black"
+    "blue",
+    "gold",
+    "white"
   ],
   "tags": [
-    "boss_battle",
-    "mecha_sprite",
+    "lightning_strike",
+    "sub_title",
+    "snes_cartridge",
     "connected_letters",
-    "desert_bg",
-    "sega_grid",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: بطل السلسلة (SERIES HERO)."
 }

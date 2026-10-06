@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_pixel_lettering_1069_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "gold_texture",
+      "drop_shadow",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "red",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "desert_bg",
+    "pyramid_bg",
+    "boss_battle",
+    "gameboy_box",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: سرعة الضوء (SPEED OF LIGHT)."
+}

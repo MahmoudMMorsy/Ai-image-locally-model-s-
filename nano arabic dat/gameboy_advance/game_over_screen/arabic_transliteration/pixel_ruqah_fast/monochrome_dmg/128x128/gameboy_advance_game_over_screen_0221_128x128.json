@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "dripping_slime",
-      "chrome_bevel",
-      "crt_scanlines"
+      "glowing_edges",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
-    "white",
-    "black"
+    "neon_cyan",
+    "blue",
+    "purple"
   ],
   "tags": [
-    "sub_title",
-    "hero_sprite",
+    "nes_cover",
+    "pixel_frame",
     "dragon_bg",
-    "skull_icon",
-    "sword_icon",
+    "space_ship",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

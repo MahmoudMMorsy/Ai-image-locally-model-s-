@@ -9,7 +9,7 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "glitch_displacement",
-      "pixel_gradient",
+      "chrome_bevel",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
+    "black",
     "gold",
-    "neon_cyan",
-    "red"
+    "white"
   ],
   "tags": [
-    "hero_sprite",
-    "sub_title",
-    "pixel_font",
+    "desert_bg",
     "castle_stage",
-    "skull_icon",
+    "gameboy_box",
+    "sega_grid",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with fantasy_ornate_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with fantasy_ornate_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

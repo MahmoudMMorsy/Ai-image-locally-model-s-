@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_promo_flyer_0813_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "promo_flyer",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "dripping_slime",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "arabic_text",
+    "title_screen",
+    "connected_letters",
+    "skull_icon",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: نصر الأبطال (VICTORY HEROES)."
+}

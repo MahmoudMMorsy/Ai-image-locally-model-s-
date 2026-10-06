@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
-      "glitch_displacement",
-      "1-bit_dithering"
+      "gold_texture",
+      "dripping_slime",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "red",
     "white",
-    "neon_cyan",
-    "red"
+    "blue"
   ],
   "tags": [
+    "skull_icon",
+    "pixel_frame",
     "gameboy_box",
-    "title_screen",
-    "sega_grid",
+    "sword_icon",
     "connected_letters",
-    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
 }

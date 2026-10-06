@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_english_title_logo_0745_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_color",
+  "poster_type": "english_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "glowing_edges",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "red",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "boss_battle",
+    "sword_icon",
+    "castle_stage",
+    "skull_icon",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: قلعة الظلام (DARK CASTLE)."
+}

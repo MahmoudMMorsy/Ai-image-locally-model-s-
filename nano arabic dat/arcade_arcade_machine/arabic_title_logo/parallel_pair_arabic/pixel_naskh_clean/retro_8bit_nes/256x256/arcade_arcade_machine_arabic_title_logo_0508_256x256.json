@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "pixel_gradient",
+      "1-bit_dithering",
+      "thick_black_outline",
       "drop_shadow"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "gold",
+    "blue",
     "neon_cyan",
-    "purple"
+    "black"
   ],
   "tags": [
-    "sub_title",
-    "space_ship",
-    "sword_icon",
     "dragon_bg",
     "snes_cartridge",
+    "hero_sprite",
+    "connected_letters",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: عرش التنين (DRAGON THRONE)."
 }

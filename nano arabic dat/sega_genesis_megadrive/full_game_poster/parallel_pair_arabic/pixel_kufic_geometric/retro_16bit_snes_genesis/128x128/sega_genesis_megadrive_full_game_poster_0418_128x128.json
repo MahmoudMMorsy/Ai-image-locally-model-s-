@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "crt_scanlines",
-      "drop_shadow",
-      "pixel_gradient"
+      "glowing_edges",
+      "thick_black_outline",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "black_border_nes",
   "colors": [
+    "red",
     "purple",
-    "black",
-    "red"
+    "white"
   ],
   "tags": [
-    "sega_grid",
-    "hero_sprite",
-    "title_screen",
-    "dragon_bg",
-    "desert_bg",
+    "lightning_strike",
+    "gameboy_box",
+    "connected_letters",
+    "pyramid_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: بطل السلسلة (SERIES HERO)."
 }

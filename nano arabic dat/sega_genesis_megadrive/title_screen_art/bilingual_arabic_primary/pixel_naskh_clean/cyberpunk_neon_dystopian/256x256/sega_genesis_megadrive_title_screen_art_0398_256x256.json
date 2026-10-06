@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
+      "glitch_displacement",
       "gold_texture",
-      "fire_effect"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
+    "black",
     "white",
-    "black"
+    "purple"
   ],
   "tags": [
-    "pyramid_bg",
-    "gameboy_box",
-    "snes_cartridge",
-    "arabic_text",
-    "title_screen",
+    "pixel_frame",
+    "pixel_explosion",
+    "space_ship",
+    "lightning_strike",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: مستكشف الكهف (CAVE EXPLORER)."
 }

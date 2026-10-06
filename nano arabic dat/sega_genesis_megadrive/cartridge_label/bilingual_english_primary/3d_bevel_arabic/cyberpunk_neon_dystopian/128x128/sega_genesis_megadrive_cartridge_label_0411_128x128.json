@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "chrome_bevel",
-      "thick_black_outline",
-      "glowing_edges"
+      "dripping_slime",
+      "drop_shadow",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
-    "black",
-    "neon_cyan"
+    "gold",
+    "red",
+    "purple"
   ],
   "tags": [
-    "sega_grid",
-    "space_ship",
-    "boss_battle",
-    "nes_cover",
-    "pixel_font",
+    "pixel_typography",
+    "pyramid_bg",
+    "connected_letters",
+    "gameboy_box",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
 }

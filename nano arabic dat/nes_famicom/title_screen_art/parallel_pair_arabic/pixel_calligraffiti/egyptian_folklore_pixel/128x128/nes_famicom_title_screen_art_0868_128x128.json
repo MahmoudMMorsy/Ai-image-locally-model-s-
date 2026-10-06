@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_title_screen_art_0868_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "16-bit_gradient",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "gold",
+    "black"
+  ],
+  "tags": [
+    "sub_title",
+    "pixel_explosion",
+    "space_ship",
+    "hero_sprite",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: بطل السلسلة (SERIES HERO)."
+}

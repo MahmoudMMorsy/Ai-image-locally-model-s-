@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "thick_black_outline"
+      "grid_overlay",
+      "gold_texture",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "neon_cyan",
     "gold",
+    "red",
     "black"
   ],
   "tags": [
-    "sword_icon",
-    "connected_letters",
-    "snes_cartridge",
-    "mecha_sprite",
+    "sub_title",
     "pixel_typography",
+    "title_screen",
+    "mecha_sprite",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

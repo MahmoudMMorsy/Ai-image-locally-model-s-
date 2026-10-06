@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "crt_scanlines",
+      "glitch_displacement",
+      "drop_shadow",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
-    "gold",
-    "white"
+    "red",
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
-    "connected_letters",
     "snes_cartridge",
+    "pyramid_bg",
     "gameboy_box",
-    "sword_icon",
-    "boss_battle",
+    "castle_stage",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: سر الأهرامات (PYRAMID SECRET)."
 }

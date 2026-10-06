@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
-      "pixel_gradient",
-      "glitch_displacement"
+      "thick_black_outline",
+      "grid_overlay",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
-    "blue",
-    "neon_cyan"
+    "neon_cyan",
+    "gold",
+    "red"
   ],
   "tags": [
-    "pyramid_bg",
-    "space_ship",
-    "castle_stage",
-    "nes_cover",
+    "sword_icon",
+    "connected_letters",
+    "boss_battle",
     "dragon_bg",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: أميرة الأسطورة (LEGEND PRINCESS)."
 }

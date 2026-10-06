@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_stage_clear_banner_1003_128x128.png",
+  "resolution": "128x128",
+  "platform": "snes_super_famicom",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "grid_overlay",
+      "drop_shadow",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "black_border_nes",
+  "colors": [
+    "gold",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "dragon_bg",
+    "hero_sprite",
+    "castle_stage",
+    "pixel_frame",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
+}

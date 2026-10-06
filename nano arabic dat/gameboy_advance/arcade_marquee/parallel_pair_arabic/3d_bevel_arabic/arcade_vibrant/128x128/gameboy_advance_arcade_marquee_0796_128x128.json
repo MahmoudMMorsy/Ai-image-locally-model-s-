@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_arcade_marquee_0796_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "fire_effect",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "black_border_nes",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "mecha_sprite",
+    "skull_icon",
+    "dragon_bg",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with 3d_bevel_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+}

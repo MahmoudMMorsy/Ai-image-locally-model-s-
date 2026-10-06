@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_ui_title_badge_1167_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "grid_overlay",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "sega_grid",
+    "pyramid_bg",
+    "castle_stage",
+    "connected_letters",
+    "boss_battle",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: حارس الغابة (FOREST GUARDIAN)."
+}

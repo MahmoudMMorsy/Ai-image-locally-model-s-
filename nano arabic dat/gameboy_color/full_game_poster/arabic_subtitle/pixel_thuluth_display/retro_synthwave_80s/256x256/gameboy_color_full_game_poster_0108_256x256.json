@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
+      "gold_texture",
       "dripping_slime",
-      "chrome_bevel"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
-    "black",
-    "purple",
-    "neon_cyan"
+    "gold",
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "connected_letters",
-    "nes_cover",
-    "skull_icon",
+    "dragon_bg",
+    "lightning_strike",
     "desert_bg",
-    "sub_title",
+    "mecha_sprite",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: عرش التنين (DRAGON THRONE)."
 }

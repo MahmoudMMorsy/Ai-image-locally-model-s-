@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
+      "16-bit_gradient",
       "grid_overlay",
-      "thick_black_outline"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
+    "black",
     "blue",
-    "red"
+    "purple"
   ],
   "tags": [
-    "lightning_strike",
     "mecha_sprite",
-    "skull_icon",
+    "arabic_text",
+    "hero_sprite",
     "castle_stage",
-    "nes_cover",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: طريق الانتقام (PATH OF REVENGE)."
 }

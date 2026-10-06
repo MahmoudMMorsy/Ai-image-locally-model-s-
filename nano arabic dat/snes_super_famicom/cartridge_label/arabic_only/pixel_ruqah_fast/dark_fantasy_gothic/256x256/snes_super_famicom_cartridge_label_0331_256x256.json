@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "thick_black_outline",
-      "glitch_displacement",
-      "pixel_gradient"
+      "glowing_edges",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "red",
+    "black",
+    "white",
     "gold"
   ],
   "tags": [
-    "lightning_strike",
-    "boss_battle",
-    "sub_title",
-    "space_ship",
-    "sword_icon",
+    "skull_icon",
+    "pixel_frame",
+    "pyramid_bg",
+    "title_screen",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: قافلة الصحراء (DESERT CARAVAN)."
 }

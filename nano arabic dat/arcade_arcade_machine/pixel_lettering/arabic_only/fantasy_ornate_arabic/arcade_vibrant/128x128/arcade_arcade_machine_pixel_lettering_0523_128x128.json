@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "gold_texture",
+      "dripping_slime",
       "chrome_bevel",
-      "glitch_displacement"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
-    "gold",
-    "purple"
+    "black",
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "lightning_strike",
+    "sega_grid",
+    "space_ship",
+    "pixel_typography",
     "dragon_bg",
-    "pixel_explosion",
-    "boss_battle",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: مستكشف الكهف (CAVE EXPLORER)."
 }

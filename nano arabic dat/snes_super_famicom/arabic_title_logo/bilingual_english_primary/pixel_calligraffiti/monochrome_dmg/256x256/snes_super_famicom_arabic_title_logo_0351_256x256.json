@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "thick_black_outline",
+      "drop_shadow",
       "glitch_displacement",
-      "fire_effect"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
-    "white",
-    "gold"
+    "black",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
+    "pyramid_bg",
+    "snes_cartridge",
+    "pixel_explosion",
     "boss_battle",
-    "dragon_bg",
-    "desert_bg",
     "title_screen",
-    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: الفارس الشجاع (BRAVE KNIGHT)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arcade_marquee_1109_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "gold_texture",
+      "pixel_gradient",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "gold",
+    "white",
+    "red"
+  ],
+  "tags": [
+    "sub_title",
+    "sword_icon",
+    "mecha_sprite",
+    "boss_battle",
+    "pixel_font",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: أسطورة النور (LEGEND OF LIGHT)."
+}

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "thick_black_outline",
-      "gold_texture",
-      "drop_shadow"
+      "pixel_gradient",
+      "chrome_bevel",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "neon_cyan",
+    "black",
+    "red",
     "white"
   ],
   "tags": [
-    "castle_stage",
-    "sega_grid",
     "dragon_bg",
+    "nes_cover",
     "gameboy_box",
-    "hero_sprite",
+    "boss_battle",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

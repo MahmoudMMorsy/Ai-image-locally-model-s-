@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
+      "glitch_displacement",
       "glowing_edges",
-      "grid_overlay"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
-    "blue",
-    "gold"
+    "neon_cyan",
+    "red",
+    "white"
   ],
   "tags": [
-    "gameboy_box",
-    "pixel_font",
-    "desert_bg",
-    "mecha_sprite",
-    "sega_grid",
+    "pixel_typography",
+    "pyramid_bg",
+    "lightning_strike",
+    "nes_cover",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

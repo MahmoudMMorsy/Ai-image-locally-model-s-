@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "glitch_displacement",
-      "grid_overlay"
+      "chrome_bevel",
+      "thick_black_outline",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "gold",
-    "white",
-    "purple"
+    "neon_cyan",
+    "red",
+    "blue"
   ],
   "tags": [
-    "title_screen",
+    "lightning_strike",
+    "mecha_sprite",
+    "sword_icon",
+    "connected_letters",
     "hero_sprite",
-    "nes_cover",
-    "snes_cartridge",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_box_art_front_0630_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "box_art_front",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "16-bit_gradient",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "center_title_large",
+  "colors": [
+    "purple",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "nes_cover",
+    "pixel_font",
+    "castle_stage",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+}

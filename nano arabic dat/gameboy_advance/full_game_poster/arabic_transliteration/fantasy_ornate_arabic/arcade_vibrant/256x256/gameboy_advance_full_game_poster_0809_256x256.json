@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_full_game_poster_0809_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "glitch_displacement",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "border_framed",
+  "colors": [
+    "black",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "pixel_typography",
+    "hero_sprite",
+    "desert_bg",
+    "arabic_text",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+}

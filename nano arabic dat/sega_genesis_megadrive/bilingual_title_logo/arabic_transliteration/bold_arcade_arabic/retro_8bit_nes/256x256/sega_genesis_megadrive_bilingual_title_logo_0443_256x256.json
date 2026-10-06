@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "thick_black_outline",
+      "gold_texture",
       "drop_shadow",
-      "dripping_slime"
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "white",
-    "red"
+    "black",
+    "blue",
+    "purple"
   ],
   "tags": [
+    "skull_icon",
+    "pyramid_bg",
+    "gameboy_box",
     "title_screen",
-    "space_ship",
-    "pixel_explosion",
-    "snes_cartridge",
-    "hero_sprite",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: بطل السلسلة (SERIES HERO)."
 }

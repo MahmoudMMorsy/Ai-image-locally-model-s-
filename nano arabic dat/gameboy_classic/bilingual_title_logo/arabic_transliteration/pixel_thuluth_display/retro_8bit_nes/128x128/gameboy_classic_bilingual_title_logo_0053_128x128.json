@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
-      "gold_texture",
-      "16-bit_gradient"
+      "drop_shadow",
+      "glowing_edges",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -20,17 +20,17 @@
   "colors": [
     "white",
     "black",
-    "gold"
+    "red"
   ],
   "tags": [
-    "pyramid_bg",
-    "lightning_strike",
+    "arabic_text",
+    "pixel_font",
     "sword_icon",
-    "sega_grid",
-    "mecha_sprite",
+    "snes_cartridge",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_thuluth_display title: مملكة السحر (MAGIC KINGDOM)."
 }

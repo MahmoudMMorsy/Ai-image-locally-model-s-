@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_game_over_screen_0923_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "dripping_slime",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "black",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "dragon_bg",
+    "hero_sprite",
+    "title_screen",
+    "pixel_typography",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: مستكشف الكهف (CAVE EXPLORER)."
+}

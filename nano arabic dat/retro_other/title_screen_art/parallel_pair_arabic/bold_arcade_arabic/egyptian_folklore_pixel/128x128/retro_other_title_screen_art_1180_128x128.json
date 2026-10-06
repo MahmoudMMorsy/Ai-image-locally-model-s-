@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_title_screen_art_1180_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "title_screen_art",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "glowing_edges",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "hero_sprite",
+    "castle_stage",
+    "pixel_explosion",
+    "skull_icon",
+    "sega_grid",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+}

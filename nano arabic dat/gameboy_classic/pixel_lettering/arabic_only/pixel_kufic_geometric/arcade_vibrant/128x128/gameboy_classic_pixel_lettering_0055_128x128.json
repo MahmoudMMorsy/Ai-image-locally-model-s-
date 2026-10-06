@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "dripping_slime"
+      "chrome_bevel",
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "gold",
-    "red"
+    "purple",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "sub_title",
-    "nes_cover",
+    "arabic_text",
+    "sword_icon",
     "desert_bg",
-    "pyramid_bg",
+    "pixel_frame",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
 }

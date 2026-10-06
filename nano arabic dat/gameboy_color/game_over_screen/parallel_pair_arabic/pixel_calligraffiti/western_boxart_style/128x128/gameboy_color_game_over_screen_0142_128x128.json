@@ -8,7 +8,7 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "crt_scanlines",
+      "drop_shadow",
       "1-bit_dithering",
       "grid_overlay"
     ],
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "split_bilingual_layout",
   "colors": [
+    "blue",
     "black",
-    "neon_cyan",
     "red"
   ],
   "tags": [
-    "desert_bg",
+    "nes_cover",
+    "space_ship",
+    "sub_title",
     "boss_battle",
-    "hero_sprite",
-    "snes_cartridge",
-    "pixel_explosion",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_calligraffiti title: حارس الغابة (FOREST GUARDIAN)."
 }

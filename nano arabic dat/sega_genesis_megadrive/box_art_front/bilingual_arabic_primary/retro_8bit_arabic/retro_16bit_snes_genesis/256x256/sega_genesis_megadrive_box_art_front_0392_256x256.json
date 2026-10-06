@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
-      "glitch_displacement",
-      "16-bit_gradient"
+      "drop_shadow",
+      "1-bit_dithering",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "white",
     "purple",
-    "blue",
-    "gold"
+    "red"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_explosion",
-    "connected_letters",
-    "space_ship",
-    "arabic_text",
+    "nes_cover",
+    "pixel_frame",
+    "desert_bg",
+    "sega_grid",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_game_over_screen_0686_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_arabic_primary",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "drop_shadow",
+      "gold_texture",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "black",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "nes_cover",
+    "boss_battle",
+    "gameboy_box",
+    "pixel_explosion",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
+}

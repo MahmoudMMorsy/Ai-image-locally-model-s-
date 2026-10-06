@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "drop_shadow",
-      "grid_overlay"
+      "dripping_slime",
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -20,17 +20,17 @@
   "colors": [
     "white",
     "neon_cyan",
-    "black"
+    "blue"
   ],
   "tags": [
-    "lightning_strike",
-    "nes_cover",
+    "pixel_typography",
+    "castle_stage",
     "hero_sprite",
-    "desert_bg",
-    "sword_icon",
+    "space_ship",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: عرش التنين (DRAGON THRONE)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_ui_title_badge_0853_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "dripping_slime",
+      "crt_scanlines",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "split_bilingual_layout",
+  "colors": [
+    "blue",
+    "black",
+    "gold"
+  ],
+  "tags": [
+    "pixel_font",
+    "pixel_explosion",
+    "pixel_frame",
+    "connected_letters",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

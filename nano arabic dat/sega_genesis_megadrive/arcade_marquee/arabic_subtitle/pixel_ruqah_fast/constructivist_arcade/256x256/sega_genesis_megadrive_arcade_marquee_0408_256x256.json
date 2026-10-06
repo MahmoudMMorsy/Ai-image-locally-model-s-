@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
-      "1-bit_dithering",
+      "crt_scanlines",
+      "glowing_edges",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "grid_framed_boxart",
   "colors": [
+    "black",
     "red",
-    "blue",
-    "gold"
+    "blue"
   ],
   "tags": [
-    "snes_cartridge",
-    "boss_battle",
-    "gameboy_box",
-    "pyramid_bg",
-    "space_ship",
+    "mecha_sprite",
+    "pixel_frame",
+    "nes_cover",
+    "castle_stage",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
 }

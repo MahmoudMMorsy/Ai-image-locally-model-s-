@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_ui_title_badge_0931_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "drop_shadow",
+      "1-bit_dithering",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "black_border_nes",
+  "colors": [
+    "purple",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "pyramid_bg",
+    "pixel_frame",
+    "pixel_explosion",
+    "dragon_bg",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

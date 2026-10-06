@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "chrome_bevel",
-      "dripping_slime"
+      "glitch_displacement",
+      "drop_shadow",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "purple",
-    "neon_cyan",
-    "red"
+    "white",
+    "gold"
   ],
   "tags": [
-    "pixel_font",
-    "pixel_frame",
-    "dragon_bg",
-    "sega_grid",
-    "boss_battle",
+    "title_screen",
+    "pyramid_bg",
+    "space_ship",
+    "snes_cartridge",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

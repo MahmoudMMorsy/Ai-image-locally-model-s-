@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "gold_texture",
+      "grid_overlay",
+      "glowing_edges",
       "glitch_displacement"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
     "red",
-    "black"
+    "gold",
+    "blue"
   ],
   "tags": [
-    "pyramid_bg",
-    "boss_battle",
-    "pixel_font",
-    "castle_stage",
     "desert_bg",
+    "nes_cover",
+    "lightning_strike",
+    "boss_battle",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
 }

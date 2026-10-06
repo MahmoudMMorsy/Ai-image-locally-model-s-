@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "dripping_slime",
       "gold_texture",
-      "drop_shadow",
-      "1-bit_dithering"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "white",
-    "black"
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
-    "dragon_bg",
-    "arabic_text",
+    "gameboy_box",
     "skull_icon",
-    "boss_battle",
+    "pyramid_bg",
+    "pixel_typography",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: مدينة السايبر (CYBER CITY)."
 }

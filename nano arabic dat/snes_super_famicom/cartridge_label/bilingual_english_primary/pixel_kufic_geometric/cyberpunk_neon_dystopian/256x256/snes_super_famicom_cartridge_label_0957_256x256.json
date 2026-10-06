@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_cartridge_label_0957_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "cartridge_label",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "chrome_bevel",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "gold",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "hero_sprite",
+    "pixel_explosion",
+    "desert_bg",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
+}

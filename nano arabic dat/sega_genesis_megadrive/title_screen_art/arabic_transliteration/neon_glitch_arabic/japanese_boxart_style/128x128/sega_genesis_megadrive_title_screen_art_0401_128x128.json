@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "crt_scanlines",
-      "drop_shadow",
-      "chrome_bevel"
+      "glitch_displacement",
+      "gold_texture",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "white",
-    "black"
+    "black",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "sword_icon",
-    "castle_stage",
-    "desert_bg",
-    "dragon_bg",
     "connected_letters",
+    "dragon_bg",
+    "pyramid_bg",
+    "pixel_explosion",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

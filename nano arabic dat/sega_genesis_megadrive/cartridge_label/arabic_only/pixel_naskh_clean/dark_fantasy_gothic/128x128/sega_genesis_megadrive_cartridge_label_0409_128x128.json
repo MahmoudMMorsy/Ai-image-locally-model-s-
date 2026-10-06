@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
-      "dripping_slime"
+      "1-bit_dithering",
+      "grid_overlay",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "gold",
-    "black"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
-    "sub_title",
-    "arabic_text",
+    "boss_battle",
+    "pyramid_bg",
     "space_ship",
-    "pixel_font",
     "title_screen",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: أسطورة النور (LEGEND OF LIGHT)."
 }

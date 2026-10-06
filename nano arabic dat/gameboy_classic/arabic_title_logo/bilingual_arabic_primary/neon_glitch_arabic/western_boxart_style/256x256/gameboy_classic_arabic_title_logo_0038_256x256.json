@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "chrome_bevel",
-      "glowing_edges",
-      "thick_black_outline"
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "neon_cyan",
-    "white"
+    "purple",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "hero_sprite",
+    "connected_letters",
+    "title_screen",
     "sega_grid",
-    "mecha_sprite",
-    "sword_icon",
     "castle_stage",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

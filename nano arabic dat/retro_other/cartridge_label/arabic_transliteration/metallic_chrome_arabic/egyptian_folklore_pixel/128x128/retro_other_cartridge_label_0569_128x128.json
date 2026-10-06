@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
-      "1-bit_dithering",
-      "glowing_edges"
+      "16-bit_gradient",
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "neon_cyan",
-    "gold"
+    "white",
+    "gold",
+    "black"
   ],
   "tags": [
-    "mecha_sprite",
-    "gameboy_box",
-    "pixel_font",
     "pixel_typography",
-    "boss_battle",
+    "connected_letters",
+    "pixel_font",
+    "sega_grid",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with metallic_chrome_arabic title: سرعة الضوء (SPEED OF LIGHT)."
 }

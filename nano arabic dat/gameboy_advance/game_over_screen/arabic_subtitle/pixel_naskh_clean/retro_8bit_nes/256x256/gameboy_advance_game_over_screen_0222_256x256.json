@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "gold_texture",
-      "glowing_edges",
-      "fire_effect"
+      "1-bit_dithering",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
     "neon_cyan",
-    "black"
+    "black",
+    "blue"
   ],
   "tags": [
     "hero_sprite",
-    "sword_icon",
-    "sega_grid",
-    "pixel_explosion",
-    "title_screen",
+    "mecha_sprite",
+    "dragon_bg",
+    "sub_title",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: قتال الشوارع (STREET FIGHT)."
 }

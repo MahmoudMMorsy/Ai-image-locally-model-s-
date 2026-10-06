@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "gold_texture",
-      "drop_shadow"
+      "crt_scanlines",
+      "grid_overlay",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "black",
-    "white"
+    "purple",
+    "blue",
+    "gold"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_frame",
-    "lightning_strike",
-    "sword_icon",
-    "arabic_text",
+    "gameboy_box",
+    "connected_letters",
+    "pyramid_bg",
+    "space_ship",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: قتال الشوارع (STREET FIGHT)."
 }

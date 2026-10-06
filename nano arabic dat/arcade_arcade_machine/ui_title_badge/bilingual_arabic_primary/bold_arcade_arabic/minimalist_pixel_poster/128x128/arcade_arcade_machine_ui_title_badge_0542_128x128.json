@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "chrome_bevel",
-      "thick_black_outline",
-      "gold_texture"
+      "pixel_gradient",
+      "16-bit_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "neon_cyan",
     "blue",
-    "red",
     "black"
   ],
   "tags": [
-    "snes_cartridge",
-    "connected_letters",
+    "pixel_typography",
     "pyramid_bg",
-    "sword_icon",
-    "castle_stage",
+    "skull_icon",
+    "pixel_frame",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: حارس الغابة (FOREST GUARDIAN)."
 }

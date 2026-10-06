@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_full_game_poster_0886_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "full_game_poster",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "dripping_slime",
+      "gold_texture",
+      "glowing_edges"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "black_border_nes",
+  "colors": [
+    "blue",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "boss_battle",
+    "sub_title",
+    "skull_icon",
+    "pixel_font",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: مدينة السايبر (CYBER CITY)."
+}

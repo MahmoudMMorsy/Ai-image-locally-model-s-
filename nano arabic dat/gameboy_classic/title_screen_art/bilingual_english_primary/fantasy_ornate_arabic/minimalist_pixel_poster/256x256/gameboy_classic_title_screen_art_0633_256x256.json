@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_title_screen_art_0633_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "16-bit_gradient",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "sega_grid",
+    "lightning_strike",
+    "pyramid_bg",
+    "snes_cartridge",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: عرش التنين (DRAGON THRONE)."
+}

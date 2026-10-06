@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_ui_title_badge_1170_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "gold_texture",
+      "pixel_gradient",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "center_title_large",
+  "colors": [
+    "gold",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "desert_bg",
+    "boss_battle",
+    "connected_letters",
+    "pixel_explosion",
+    "dragon_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: قلعة الظلام (DARK CASTLE)."
+}

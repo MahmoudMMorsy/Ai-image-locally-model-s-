@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
-      "1-bit_dithering"
+      "drop_shadow",
+      "fire_effect",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "purple",
-    "neon_cyan"
+    "gold",
+    "white",
+    "purple"
   ],
   "tags": [
-    "space_ship",
-    "nes_cover",
-    "boss_battle",
+    "mecha_sprite",
+    "desert_bg",
     "snes_cartridge",
-    "hero_sprite",
+    "skull_icon",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: حارس الغابة (FOREST GUARDIAN)."
 }

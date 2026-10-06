@@ -8,8 +8,8 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "grid_overlay",
+      "drop_shadow",
+      "thick_black_outline",
       "glitch_displacement"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
+    "gold",
     "white",
-    "red"
+    "blue"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_typography",
-    "pixel_explosion",
+    "snes_cartridge",
+    "pixel_frame",
+    "sword_icon",
+    "mecha_sprite",
     "boss_battle",
-    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_thuluth_display title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_thuluth_display title: قافلة الصحراء (DESERT CARAVAN)."
 }

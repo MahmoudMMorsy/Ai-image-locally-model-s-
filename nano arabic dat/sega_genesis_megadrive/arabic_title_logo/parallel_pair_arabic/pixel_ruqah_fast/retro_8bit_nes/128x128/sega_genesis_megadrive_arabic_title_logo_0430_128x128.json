@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "grid_overlay",
-      "pixel_gradient"
+      "pixel_gradient",
+      "glitch_displacement",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "purple",
-    "neon_cyan",
-    "gold"
+    "blue",
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "sword_icon",
-    "skull_icon",
+    "pixel_font",
     "sub_title",
-    "title_screen",
+    "desert_bg",
+    "sega_grid",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: أعماق المحيط (OCEAN DEPTHS)."
 }

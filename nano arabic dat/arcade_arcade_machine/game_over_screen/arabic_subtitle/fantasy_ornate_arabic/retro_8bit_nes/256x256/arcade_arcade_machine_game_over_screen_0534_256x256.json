@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "crt_scanlines",
+      "fire_effect",
       "dripping_slime",
-      "1-bit_dithering"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "grid_framed_boxart",
   "colors": [
+    "purple",
     "red",
-    "gold",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
+    "pyramid_bg",
     "pixel_typography",
-    "space_ship",
-    "title_screen",
-    "sub_title",
-    "pixel_explosion",
+    "snes_cartridge",
+    "nes_cover",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

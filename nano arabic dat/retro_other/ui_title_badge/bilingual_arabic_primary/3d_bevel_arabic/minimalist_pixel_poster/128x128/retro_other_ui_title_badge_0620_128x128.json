@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
+      "drop_shadow",
       "crt_scanlines",
-      "gold_texture"
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "border_framed",
   "colors": [
+    "neon_cyan",
     "gold",
-    "purple",
-    "neon_cyan"
+    "white"
   ],
   "tags": [
-    "lightning_strike",
-    "pixel_frame",
-    "arabic_text",
-    "gameboy_box",
     "title_screen",
+    "dragon_bg",
+    "space_ship",
+    "sword_icon",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: قلعة الظلام (DARK CASTLE)."
 }

@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_ui_title_badge_1091_128x128.png",
+  "resolution": "128x128",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "dripping_slime",
+      "glitch_displacement",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "purple",
+    "gold",
+    "neon_cyan"
+  ],
+  "tags": [
+    "boss_battle",
+    "pixel_typography",
+    "pixel_explosion",
+    "sega_grid",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_naskh_clean title: سيف العدالة (SWORD OF JUSTICE)."
+}
