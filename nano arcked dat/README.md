@@ -1,114 +1,58 @@
 # nano arcked dat
 
-Comprehensive, classified, multi-taxonomy pixel art image dataset for open-source pixel art generative AI model training.
+Pixel-art image collection for the local image-generation project.
 
-## Dataset Overview
+## Collection rules
 
-`nano arcked dat` contains **1,692 unique pixel art images** paired 1-to-1 with rich JSON sidecars, indexed in a master CSV catalog and JSONL manifest.
+- Target: pixel art, especially 8-bit / 16-bit / arcade aesthetics.
+- Priority resolutions: 32x32, 64x64, 128x128, plus small spritesheets that can be indexed.
+- Prefer full-body characters with readable anatomy, then creatures, monsters, robots, items, weapons, vehicles, environments and effects.
+- Preserve source provenance and license metadata for every collected asset.
+- CC0/public-domain assets are the primary redistributable pool.
+- Paid, copyrighted, game-rip, marketplace, and search-discovered candidates are also part of the research catalog, but they are tracked as **preview-only / rights-required** until the user acquires the necessary rights.
+- Other licenses are tracked separately and are never mislabeled as CC0.
+- Search engines and Pinterest are discovery layers, not proof of ownership. Every candidate must resolve to its original creator, game, product page, or rights holder.
+- Creator notices that prohibit AI/ML use are treated as exclusion rules.
+- Sacred/religious exclusion filter is applied before ingestion. The filter is intentionally conservative: uncertain items are quarantined instead of being silently included.
+- The dataset is for artistic/research collection; training is outside this repository's collection pipeline.
 
-- **Primary Focus**: Pixel art (Arcade, 8-bit, 16-bit, Retro, Clean, Detailed) at 32x32, 64x64, 128x128, and close resolutions.
-- **Anatomy & Anatomy Diversity**: Comprehensive coverage of full-body humanoids, warriors, mages, archers, beasts, animals, monsters, dragons, robots, civilians, weapons, and environmental structures.
-- **Sidecar Metadata**: Every PNG image is paired with a matching `.json` sidecar in the same directory.
-- **Master Indexes**: `dataset_index.csv` and `manifests/dataset.jsonl`.
+## Image-first rule
 
-## Folder Hierarchy
+**The repository is image-first.** Every asset that enters the mirror lane must exist as an actual image file in the repository. Metadata is never a substitute for the image.
 
-All assets are organized in the following folder structure:
+- One real image file per collected asset, using PNG/WebP/GIF/JPG/JPEG as supplied or safely converted when the pipeline explicitly allows it.
+- Metadata is stored separately under `metadata/<asset-id>.json` and is never required to sit beside the image.
+- Manifests are separate indexes only. They do not replace image files.
+- No fake placeholder files, text files pretending to be assets, or metadata-only entries in the image dataset.
+- For a protected/paid asset that cannot legally be mirrored yet, the repository records a rights-research entry with its original preview/source URL instead of pretending that a missing binary is a collected image. Once redistribution rights are established, its actual image can move into the image pool.
 
-```
-nano arcked dat/
-  data/
-    <type>/
-      <gender>/
-        <style>/
-          <race>/
-            <source>/
-              <pose>/
-                <filename>.png
-                <filename>.json
-  dataset_index.csv
-  manifests/
-    dataset.jsonl
-    quarantine.jsonl
-```
+## Layout
 
-### Example Sidecar JSON (`<filename>.json`)
+`images/<type>/<gender>/<style>/<race>/<source>/<pose>/<asset>.png`
+`metadata/<asset-id>.json`
+`manifests/dataset.jsonl`
+`manifests/dataset.csv`
+`manifests/quarantine.jsonl`
 
-```json
-{
-  "file": "acdf422c305fe0f4_animal.png",
-  "type": "animal",
-  "gender": "androgynous",
-  "race": "animal_like",
-  "style": "sci_fi_pixel",
-  "source": "cyberpunk",
-  "pose": "full_body",
-  "colors": [
-    "multicolor"
-  ],
-  "tags": [
-    "examples",
-    "showcase",
-    "nano",
-    "pixel",
-    "cyberpunk",
-    "cat"
-  ],
-  "resolution": "64x64",
-  "notes": "Aggregated asset from examples_showcase (64x64 sci_fi_pixel animal)"
-}
-```
+**Separation rule:** image, metadata, and manifest are three independent layers. The image is the primary dataset object; metadata only describes it.
 
-## Taxonomy & Classifications
+The collector can be expanded with additional source catalogs without changing the metadata schema.
 
-1. **Type (`type`)**:
-   - *Characters*: `warrior`, `knight`, `mage`, `archer`, `rogue`, `monk`, `assassin`, `berserker`, `paladin`, `necromancer`, `summoner`, `bard`, `thief`, `hunter`, `samurai`, `ninja`, `pirate`, `viking`, `gladiator`, `soldier`, `gunslinger`, `cyber_soldier`.
-   - *Creatures*: `beast`, `animal`, `dragon`, `demon`, `angel`, `undead`, `zombie`, `skeleton`, `vampire`, `ghost`, `golem`, `elemental`, `fairy`, `elf`, `dwarf`, `orc`, `goblin`, `troll`, `giant`, `mermaid`, `centaur`, `minotaur`, `werewolf`, `robot`, `mecha`, `cyborg`, `android`, `alien`, `monster`, `creature`.
-   - *Civilians & Roles*: `civilian`, `merchant`, `noble`, `king`, `queen`, `prince`, `princess`, `child`, `elder`, `farmer`, `blacksmith`, `alchemist`, `priest`, `witch`, `wizard`, `scholar`, `dancer`, `cook`, `guard`.
-   - *Items & Non-Living*: `weapon`, `armor`, `shield`, `helmet`, `staff`, `sword`, `bow`, `gun`, `vehicle`, `spaceship`, `structure`, `building`, `tree`, `plant`, `rock`, `crystal`, `potion`, `chest`, `door`, `portal`, `furniture`, `food`, `item`.
+## Source strategy
 
-2. **Gender (`gender`)**:
-   `male`, `female`, `androgynous`, `non_human`, `genderless`.
+We do **not** limit discovery to CC0. The project has two lanes:
 
-3. **Race / Breed (`race`)**:
-   `human`, `elf`, `dark_elf`, `high_elf`, `dwarf`, `orc`, `goblin`, `troll`, `dragonkin`, `beastkin`, `animal_like`, `undead`, `demon`, `angel`, `robot`, `cyborg`, `elemental`, `fairy`, `merfolk`, `giant`, `alien`, `hybrid`.
+1. **Mirror lane:** sources whose terms explicitly permit redistribution, such as verified CC0/public-domain collections. These may be downloaded into `images/` by automation.
+2. **Rights-research lane:** paid stores, game sprite archives, image-search results, Pinterest, and other protected sources. These are cataloged with the exact page URL, creator/title, license status, acquisition status, and AI/ML restrictions. Protected binaries are not copied into this public repository before rights are established.
 
-4. **Style (`style`)**:
-   `arcade_pixel`, `retro_8bit`, `retro_16bit`, `realistic_pixel`, `anime_pixel`, `chibi`, `cartoon`, `dark_fantasy`, `fantasy_pixel`, `sci_fi_pixel`, `horror_pixel`, `clean_pixel`, `detailed_pixel`.
+Examples now tracked include The Spriters Resource, CraftPix, Free Game Assets on itch.io, itch.io pixel-art asset discovery, GameDev Market, Unity Asset Store, Pinterest, and general image-search discovery.
 
-5. **Source / Universe (`source`)**:
-   `game_original`, `rpg_fantasy`, `dark_fantasy`, `sci_fi`, `cyberpunk`, `steampunk`, `horror`, `mythology_greek`, `mythology_norse`, `mythology_egypt`, `mythology_other`, `historical`, `medieval`, `modern`, `post_apocalyptic`, `anime_series`, `cartoon_western`, `movie`, `comic`, `oc_original`, `generic`.
+## Current collection sources
 
-6. **Pose (`pose`)**:
-   `full_body`, `portrait`, `action`, `idle`, `walking`, `running`, `attacking`, `casting`, `sitting`, `flying`, `lying`, `side_view`, `front_view`, `back_view`.
+The automated mirror currently uses a curated redistributable pool. The broader source catalog is intentionally larger and includes paid/protected sources for later rights acquisition and visual review.
 
-7. **Dominant Colors (`colors`)**:
-   `red`, `blue`, `green`, `black`, `white`, `gold`, `silver`, `purple`, `orange`, `pink`, `brown`, `multicolor`, `dark`, `bright`.
+The Tiddybub catalog states that its included packs are CC0 and preserves SOURCE.md provenance for each pack. OpenGameArt records are checked individually before being added to the source catalog.
 
-8. **Free Tags (`tags`)**:
-   Extracted equipment, elemental traits, anatomy features, and visual keywords (e.g. `sword`, `armor`, `cape`, `helmet`, `muscular`, `fire`, `ice`, `wings`, `horns`).
+## Important
 
-## Sacred Religious Exclusion Policy
-
-The dataset enforces a strict zero-tolerance prohibition filter against depicting sacred Islamic figures or religious symbols:
-- No depictions of God or divine entities.
-- No depictions of Prophets and Messengers (Muhammad, Jesus, Moses, Abraham, Noah, etc.).
-- No depictions of Companions / Sahaba (Abu Bakr, Umar, Uthman, Ali, etc.).
-- No embodied sacred Islamic symbols (e.g., Kaaba as a character, Quran as a living entity).
-
-Any candidate assets matching restricted keywords are automatically excluded or logged to `manifests/quarantine.jsonl`.
-
-## Verification
-
-Run the automated verification script:
-
-```bash
-python3 verify_nano_arcked_dataset.py
-```
-
-This verifies:
-- 1:1 PNG <-> JSON sidecar matching.
-- JSON schema validity and taxonomy level depths.
-- Image readability and integrity via PIL.
-- Zero religious figure prohibition violations.
-- CSV index and JSONL manifest integrity.
+This repository records provenance; it does not magically change the copyright/license of an asset. Always retain the original source and license information.
