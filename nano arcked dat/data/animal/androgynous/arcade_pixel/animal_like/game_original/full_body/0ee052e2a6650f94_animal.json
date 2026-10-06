@@ -1,0 +1,23 @@
+{
+  "file": "0ee052e2a6650f94_animal.png",
+  "type": "animal",
+  "gender": "androgynous",
+  "race": "animal_like",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "bright",
+    "brown"
+  ],
+  "tags": [
+    "all",
+    "trine",
+    "cat",
+    "character",
+    "single"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from all_data_trine (64x64 arcade_pixel animal)"
+}

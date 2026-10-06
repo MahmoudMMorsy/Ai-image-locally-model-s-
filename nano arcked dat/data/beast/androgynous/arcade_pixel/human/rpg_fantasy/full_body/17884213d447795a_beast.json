@@ -1,0 +1,22 @@
+{
+  "file": "17884213d447795a_beast.png",
+  "type": "beast",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "monster",
+    "anim"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel beast)"
+}

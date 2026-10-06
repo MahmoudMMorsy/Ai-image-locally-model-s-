@@ -1,0 +1,26 @@
+{
+  "file": "e0f193d986d7de4e_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "orc",
+  "style": "clean_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "retro",
+    "orc",
+    "animation"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel warrior)"
+}

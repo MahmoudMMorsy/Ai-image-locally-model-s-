@@ -1,0 +1,23 @@
+{
+  "file": "15ed23f427c7367c_animal.png",
+  "type": "animal",
+  "gender": "androgynous",
+  "race": "animal_like",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "bright",
+    "white"
+  ],
+  "tags": [
+    "all",
+    "trine",
+    "husky",
+    "dog",
+    "single"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from all_data_trine (64x64 arcade_pixel animal)"
+}

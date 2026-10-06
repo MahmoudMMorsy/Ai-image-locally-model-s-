@@ -1,0 +1,24 @@
+{
+  "file": "c6782419834ce85e_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "sci_fi",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "space",
+    "marine",
+    "sample"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel warrior)"
+}

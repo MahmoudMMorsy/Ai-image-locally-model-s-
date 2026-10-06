@@ -1,0 +1,25 @@
+{
+  "file": "0f195aeef86e12b6_samurai.png",
+  "type": "samurai",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "arabic",
+    "posters",
+    "clean",
+    "poster",
+    "samurai"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from examples_showcase (256x256 clean_pixel samurai)"
+}

@@ -6,3 +6,11 @@ __pycache__/
 !nano_arcade_data/**/*.png
 mm.trine/
 models/nano_arcade_03/weights/*
+.staging_clean/
+.staging_gdrive/
+.staging_raw/
+dataset_training_images/
+nano arcked dat/data/
+nano arcked dat/manifests/
+nano arcked dat/*.csv
+nano arcked dat/*.jsonl

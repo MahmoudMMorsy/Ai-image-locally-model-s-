@@ -1,0 +1,26 @@
+{
+  "file": "2e4f153aa4310374_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "dwarf",
+  "style": "clean_pixel",
+  "source": "steampunk",
+  "pose": "full_body",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "steampunk",
+    "dwarf",
+    "single"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel warrior)"
+}
