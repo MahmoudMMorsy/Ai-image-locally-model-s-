@@ -1,0 +1,19 @@
+{
+  "file": "d7624c6ca85d0bbb_robot.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "robot"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel robot)"
+}

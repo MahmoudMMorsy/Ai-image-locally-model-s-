@@ -1,0 +1,26 @@
+{
+  "file": "860a7cfffc86672e_knight.png",
+  "type": "knight",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "dark",
+    "knight",
+    "single"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel knight)"
+}

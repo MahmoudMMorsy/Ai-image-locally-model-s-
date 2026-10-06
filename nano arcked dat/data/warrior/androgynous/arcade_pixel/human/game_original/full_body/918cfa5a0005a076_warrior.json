@@ -1,0 +1,22 @@
+{
+  "file": "918cfa5a0005a076_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "trine",
+    "01907",
+    "575fd5c447",
+    "c00",
+    "0101"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from mm_trine (64x64 arcade_pixel warrior)"
+}

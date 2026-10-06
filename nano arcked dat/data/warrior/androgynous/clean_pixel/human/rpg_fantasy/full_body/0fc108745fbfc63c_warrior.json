@@ -1,0 +1,26 @@
+{
+  "file": "0fc108745fbfc63c_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "mob",
+    "discrete",
+    "diffusion",
+    "preview"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel warrior)"
+}

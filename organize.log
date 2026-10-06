@@ -1,0 +1,11 @@
+Starting dataset aggregation and taxonomy classification...
+Discovered 5445 candidate image files across sources.
+Successfully processed 1321 unique pixel art images.
+Quarantined 0 excluded items.
+Updated nano arcked dat/dataset_index.csv and nano arcked dat/manifests/dataset.jsonl successfully.
+=== Running Nano Arcked Dataset Verification Suite ===
+Found 1321 PNG files and 1321 JSON sidecar files in nano arcked dat/data.
+[✔] 1:1 PNG <-> JSON sidecar pairing verified.
+[✔] All 1321 assets passed image, JSON schema, taxonomy hierarchy, and religious restriction checks.
+[✔] Dataset CSV index (1321 rows) and manifest JSONL (1321 lines) perfectly aligned.
+=== Nano Arcked Dataset Verification Successful ===

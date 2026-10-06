@@ -1,0 +1,26 @@
+{
+  "file": "110b90e4bbbd3536_archer.png",
+  "type": "archer",
+  "gender": "androgynous",
+  "race": "undead",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "skeleton",
+    "archer",
+    "animation"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel archer)"
+}
