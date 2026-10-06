@@ -3,5 +3,6 @@ __pycache__/
 *.png
 *.gif
 *.txt
+!nano_arcade_data/**/*.png
 mm.trine/
 models/nano_arcade_03/weights/*
