@@ -2,10 +2,6 @@ name: Collect first-party CC0 pixel-art dataset
 
 on:
   workflow_dispatch:
-  pull_request:
-    paths:
-      - "nano arcked dat/.collection/seed_sources.json"
-      - ".github/workflows/collect-pixel-assets.yml"
   push:
     paths:
       - "nano arcked dat/.collection/seed_sources.json"

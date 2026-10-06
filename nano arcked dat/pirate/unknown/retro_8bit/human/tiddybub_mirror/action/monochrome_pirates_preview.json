@@ -1,0 +1,26 @@
+{
+  "file": "nano arcked dat/pirate/unknown/retro_8bit/human/tiddybub_mirror/action/monochrome_pirates_preview.png",
+  "type": "pirate",
+  "gender": "unknown",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "pixel_art",
+    "pirate",
+    "monochrome",
+    "sprite_preview"
+  ],
+  "license": "CC0-1.0",
+  "author": "See original source page in Tiddybub SOURCE.md",
+  "source_url": "https://github.com/Tiddybub/2d-assets/blob/main/fantasy/monochrome-pirates/Preview.png",
+  "mirror_url": "https://github.com/Tiddybub/2d-assets/blob/main/fantasy/monochrome-pirates/Preview.png",
+  "original_path": "fantasy/monochrome-pirates/Preview.png",
+  "original_size": 20470,
+  "provenance": "CC0 asset mirrored from a curated public repository; original source retained",
+  "notes": "Candidate dataset item. Religious/sacred exclusion requires visual review before training."
+}
