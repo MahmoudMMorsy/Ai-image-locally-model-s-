@@ -1,0 +1,27 @@
+{
+  "file": "nano arcked dat/robot/genderless/arcade_pixel/robot/tiddybub_mirror/idle/guy_and_robots_isometric.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "sci_fi",
+  "pose": "idle",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "pixel_art",
+    "robot",
+    "isometric",
+    "character",
+    "enemy"
+  ],
+  "license": "CC0-1.0",
+  "author": "See original source page in Tiddybub SOURCE.md",
+  "source_url": "https://github.com/Tiddybub/2d-assets/blob/main/sci-fi/oga-guy-and-robots/isometric.png",
+  "mirror_url": "https://github.com/Tiddybub/2d-assets/blob/main/sci-fi/oga-guy-and-robots/isometric.png",
+  "original_path": "sci-fi/oga-guy-and-robots/isometric.png",
+  "original_size": 9455,
+  "provenance": "CC0 asset mirrored from a curated public repository; original source retained",
+  "notes": "Candidate dataset item. Religious/sacred exclusion requires visual review before training."
+}
