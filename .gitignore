@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 *.png
+!nano arcked dat/**/*.png
 *.gif
 *.txt
 mm.trine/
