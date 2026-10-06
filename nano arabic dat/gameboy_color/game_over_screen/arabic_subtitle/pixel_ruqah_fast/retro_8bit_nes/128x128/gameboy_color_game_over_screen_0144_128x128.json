@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "fire_effect",
-      "drop_shadow"
+      "drop_shadow",
+      "gold_texture",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "center_title_large",
   "colors": [
-    "gold",
-    "black",
-    "red"
+    "neon_cyan",
+    "purple",
+    "white"
   ],
   "tags": [
-    "title_screen",
-    "pixel_explosion",
-    "arabic_text",
-    "pixel_typography",
     "pixel_frame",
+    "sega_grid",
+    "hero_sprite",
+    "pixel_font",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: أسطورة النور (LEGEND OF LIGHT)."
 }

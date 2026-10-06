@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
-      "glitch_displacement",
-      "1-bit_dithering"
+      "fire_effect",
+      "glowing_edges",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "center_title_large",
   "colors": [
     "blue",
-    "black",
-    "white"
+    "white",
+    "purple"
   ],
   "tags": [
-    "sub_title",
-    "snes_cartridge",
-    "boss_battle",
     "nes_cover",
-    "dragon_bg",
+    "desert_bg",
+    "pyramid_bg",
+    "mecha_sprite",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

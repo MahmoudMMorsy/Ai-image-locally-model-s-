@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "glowing_edges",
-      "gold_texture"
+      "drop_shadow",
+      "grid_overlay",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
+    "blue",
     "white",
     "purple"
   ],
   "tags": [
-    "pixel_font",
-    "hero_sprite",
+    "snes_cartridge",
     "nes_cover",
-    "mecha_sprite",
-    "pixel_typography",
+    "title_screen",
+    "sub_title",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: عرش التنين (DRAGON THRONE)."
 }

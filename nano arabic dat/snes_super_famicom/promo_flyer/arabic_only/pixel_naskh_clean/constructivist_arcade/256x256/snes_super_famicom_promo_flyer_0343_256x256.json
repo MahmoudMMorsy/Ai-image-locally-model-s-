@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "pixel_gradient",
-      "crt_scanlines"
+      "gold_texture",
+      "dripping_slime",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "neon_cyan",
-    "gold"
+    "white",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_font",
-    "dragon_bg",
-    "pixel_frame",
-    "sword_icon",
+    "lightning_strike",
+    "pixel_typography",
+    "castle_stage",
+    "hero_sprite",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: نصر الأبطال (VICTORY HEROES)."
 }

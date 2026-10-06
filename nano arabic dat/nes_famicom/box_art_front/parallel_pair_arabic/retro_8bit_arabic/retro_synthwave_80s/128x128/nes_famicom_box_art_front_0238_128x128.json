@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "fire_effect",
-      "16-bit_gradient"
+      "thick_black_outline",
+      "drop_shadow",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "black",
+    "blue",
     "red",
-    "blue"
+    "black"
   ],
   "tags": [
+    "boss_battle",
+    "nes_cover",
     "skull_icon",
-    "sword_icon",
-    "desert_bg",
-    "pixel_typography",
-    "snes_cartridge",
+    "arabic_text",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

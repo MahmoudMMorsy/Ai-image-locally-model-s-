@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "thick_black_outline",
-      "16-bit_gradient",
-      "gold_texture"
+      "glowing_edges",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "split_bilingual_layout",
   "colors": [
+    "black",
     "neon_cyan",
-    "blue",
-    "white"
+    "purple"
   ],
   "tags": [
-    "skull_icon",
+    "castle_stage",
     "connected_letters",
-    "boss_battle",
-    "title_screen",
-    "mecha_sprite",
+    "pixel_typography",
+    "pixel_explosion",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: معركة النهائي (FINAL BATTLE)."
 }

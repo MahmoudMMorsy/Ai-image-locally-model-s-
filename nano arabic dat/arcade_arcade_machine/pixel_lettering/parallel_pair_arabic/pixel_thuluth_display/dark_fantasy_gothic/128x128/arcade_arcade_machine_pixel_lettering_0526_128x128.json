@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
-      "thick_black_outline",
-      "gold_texture"
+      "pixel_gradient",
+      "drop_shadow",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "black_border_nes",
   "colors": [
     "gold",
-    "red",
-    "black"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "dragon_bg",
-    "desert_bg",
-    "arabic_text",
-    "pixel_frame",
     "gameboy_box",
+    "nes_cover",
+    "pixel_typography",
+    "title_screen",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

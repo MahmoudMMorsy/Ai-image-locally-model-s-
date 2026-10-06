@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "drop_shadow",
+      "thick_black_outline",
+      "1-bit_dithering",
       "dripping_slime"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
+    "purple",
     "blue",
     "red"
   ],
   "tags": [
-    "pixel_typography",
-    "boss_battle",
-    "pixel_explosion",
-    "dragon_bg",
+    "sword_icon",
+    "pixel_font",
     "castle_stage",
+    "lightning_strike",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

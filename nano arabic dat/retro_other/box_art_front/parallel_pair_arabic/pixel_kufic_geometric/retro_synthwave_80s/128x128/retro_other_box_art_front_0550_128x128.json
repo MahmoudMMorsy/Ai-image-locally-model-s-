@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "pixel_gradient"
+      "pixel_gradient",
+      "crt_scanlines",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "red",
-    "white"
+    "gold",
+    "purple",
+    "blue"
   ],
   "tags": [
-    "mecha_sprite",
     "pixel_font",
-    "nes_cover",
-    "pixel_frame",
     "pyramid_bg",
+    "pixel_explosion",
+    "pixel_typography",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: معركة النهائي (FINAL BATTLE)."
 }

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "grid_overlay",
-      "pixel_gradient"
+      "drop_shadow",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
     "gold",
-    "purple"
+    "blue",
+    "white"
   ],
   "tags": [
-    "boss_battle",
-    "mecha_sprite",
+    "pixel_explosion",
     "snes_cartridge",
     "pixel_typography",
-    "hero_sprite",
+    "lightning_strike",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "dripping_slime",
+      "16-bit_gradient",
+      "glitch_displacement",
       "fire_effect"
     ],
     "readability_score": "high"
@@ -19,18 +19,18 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "red",
-    "black",
-    "neon_cyan"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "connected_letters",
-    "snes_cartridge",
-    "arabic_text",
-    "sega_grid",
+    "pixel_frame",
+    "lightning_strike",
+    "title_screen",
+    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: مدينة السايبر (CYBER CITY)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "gold_texture",
-      "glowing_edges"
+      "pixel_gradient",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
-    "white",
+    "blue",
+    "gold",
     "neon_cyan"
   ],
   "tags": [
-    "pixel_frame",
     "gameboy_box",
+    "hero_sprite",
+    "lightning_strike",
+    "connected_letters",
     "snes_cartridge",
-    "castle_stage",
-    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
 }

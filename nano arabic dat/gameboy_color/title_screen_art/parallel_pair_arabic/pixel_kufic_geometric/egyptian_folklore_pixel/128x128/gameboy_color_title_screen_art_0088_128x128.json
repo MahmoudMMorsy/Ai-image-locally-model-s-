@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "thick_black_outline",
-      "crt_scanlines",
-      "dripping_slime"
+      "fire_effect",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "black",
-    "blue",
-    "gold"
+    "red",
+    "blue"
   ],
   "tags": [
-    "boss_battle",
+    "skull_icon",
+    "pixel_typography",
+    "pixel_explosion",
+    "snes_cartridge",
     "space_ship",
-    "sword_icon",
-    "desert_bg",
-    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

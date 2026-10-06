@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
-      "dripping_slime"
+      "1-bit_dithering",
+      "glowing_edges",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "gold"
+    "white",
+    "blue",
+    "purple"
   ],
   "tags": [
-    "sega_grid",
-    "boss_battle",
-    "connected_letters",
+    "gameboy_box",
+    "dragon_bg",
     "pixel_typography",
-    "title_screen",
+    "arabic_text",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: حرب المجرات (GALAXY WAR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_ruqah_fast title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

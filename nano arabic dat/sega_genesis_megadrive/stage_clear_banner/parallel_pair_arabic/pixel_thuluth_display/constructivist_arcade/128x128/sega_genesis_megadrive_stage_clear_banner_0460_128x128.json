@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "fire_effect",
-      "drop_shadow"
+      "1-bit_dithering",
+      "dripping_slime",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
-    "gold",
-    "black"
+    "neon_cyan",
+    "blue",
+    "purple"
   ],
   "tags": [
-    "title_screen",
+    "pixel_frame",
+    "sega_grid",
+    "pyramid_bg",
     "arabic_text",
-    "lightning_strike",
-    "boss_battle",
-    "desert_bg",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

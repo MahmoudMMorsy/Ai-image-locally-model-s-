@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "dripping_slime",
-      "glowing_edges"
+      "1-bit_dithering",
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "white",
-    "red"
+    "gold",
+    "red",
+    "black"
   ],
   "tags": [
-    "sword_icon",
+    "title_screen",
     "connected_letters",
-    "lightning_strike",
     "arabic_text",
     "pixel_frame",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with fantasy_ornate_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

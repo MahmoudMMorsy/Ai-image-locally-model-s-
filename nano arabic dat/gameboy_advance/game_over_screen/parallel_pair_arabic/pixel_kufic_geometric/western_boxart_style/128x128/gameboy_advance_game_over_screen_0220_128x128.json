@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "thick_black_outline",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "dripping_slime",
+      "glitch_displacement",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
-    "neon_cyan",
-    "red",
-    "black"
+    "gold",
+    "blue",
+    "white"
   ],
   "tags": [
-    "sword_icon",
+    "castle_stage",
+    "gameboy_box",
     "boss_battle",
-    "title_screen",
-    "pixel_typography",
-    "pixel_explosion",
+    "snes_cartridge",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: معركة النهائي (FINAL BATTLE)."
 }

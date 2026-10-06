@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "crt_scanlines",
-      "16-bit_gradient",
-      "drop_shadow"
+      "grid_overlay",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
-    "white",
+    "red",
+    "neon_cyan",
     "gold"
   ],
   "tags": [
-    "castle_stage",
-    "title_screen",
-    "nes_cover",
     "connected_letters",
-    "sword_icon",
+    "pixel_frame",
+    "castle_stage",
+    "hero_sprite",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: محارب الساموراي (SAMURAI WARRIOR)."
 }

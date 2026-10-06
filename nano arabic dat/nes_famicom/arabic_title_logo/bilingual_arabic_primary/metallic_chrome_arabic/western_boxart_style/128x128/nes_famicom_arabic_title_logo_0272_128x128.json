@@ -8,8 +8,8 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
       "glowing_edges",
+      "fire_effect",
       "crt_scanlines"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "neon_cyan",
-    "purple"
+    "blue",
+    "gold",
+    "black"
   ],
   "tags": [
-    "castle_stage",
-    "arabic_text",
-    "space_ship",
-    "connected_letters",
-    "mecha_sprite",
+    "snes_cartridge",
+    "pixel_font",
+    "pyramid_bg",
+    "pixel_frame",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with metallic_chrome_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

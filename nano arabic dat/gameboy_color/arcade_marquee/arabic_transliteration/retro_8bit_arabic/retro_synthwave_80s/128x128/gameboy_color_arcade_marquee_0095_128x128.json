@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "crt_scanlines",
       "glitch_displacement",
-      "16-bit_gradient",
-      "dripping_slime"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
     "neon_cyan",
-    "red"
+    "red",
+    "purple"
   ],
   "tags": [
-    "dragon_bg",
-    "lightning_strike",
-    "snes_cartridge",
-    "pixel_explosion",
-    "title_screen",
+    "desert_bg",
+    "connected_letters",
+    "pyramid_bg",
+    "hero_sprite",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

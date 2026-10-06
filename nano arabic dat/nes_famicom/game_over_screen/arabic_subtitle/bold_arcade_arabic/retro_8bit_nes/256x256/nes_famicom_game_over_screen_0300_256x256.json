@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "glitch_displacement",
-      "chrome_bevel"
+      "thick_black_outline",
+      "chrome_bevel",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "purple",
     "blue",
-    "neon_cyan"
+    "white"
   ],
   "tags": [
-    "castle_stage",
-    "arabic_text",
-    "desert_bg",
-    "skull_icon",
-    "sega_grid",
+    "pyramid_bg",
+    "gameboy_box",
+    "space_ship",
+    "title_screen",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

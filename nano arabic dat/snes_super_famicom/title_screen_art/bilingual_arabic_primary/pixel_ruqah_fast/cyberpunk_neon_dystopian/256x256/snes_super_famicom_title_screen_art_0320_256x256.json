@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "chrome_bevel",
-      "glowing_edges"
+      "crt_scanlines",
+      "dripping_slime",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "black"
+    "red",
+    "black",
+    "purple"
   ],
   "tags": [
-    "pixel_typography",
-    "space_ship",
-    "pyramid_bg",
+    "castle_stage",
+    "arabic_text",
+    "sub_title",
     "snes_cartridge",
-    "lightning_strike",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: أعماق المحيط (OCEAN DEPTHS)."
 }

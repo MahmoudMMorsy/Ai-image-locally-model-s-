@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
+      "gold_texture",
       "chrome_bevel",
-      "glowing_edges"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "neon_cyan",
-    "red"
+    "red",
+    "gold",
+    "purple"
   ],
   "tags": [
-    "sega_grid",
-    "space_ship",
-    "pixel_typography",
+    "gameboy_box",
+    "lightning_strike",
     "dragon_bg",
-    "pixel_font",
+    "pixel_explosion",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

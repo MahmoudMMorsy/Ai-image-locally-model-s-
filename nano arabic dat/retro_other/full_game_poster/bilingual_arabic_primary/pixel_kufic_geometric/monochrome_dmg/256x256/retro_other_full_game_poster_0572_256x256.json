@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
+      "glowing_edges",
       "grid_overlay",
-      "gold_texture",
-      "drop_shadow"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "purple",
-    "white"
+    "neon_cyan",
+    "white",
+    "purple"
   ],
   "tags": [
+    "hero_sprite",
+    "connected_letters",
     "pixel_font",
-    "dragon_bg",
-    "mecha_sprite",
-    "skull_icon",
-    "arabic_text",
+    "lightning_strike",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
 }

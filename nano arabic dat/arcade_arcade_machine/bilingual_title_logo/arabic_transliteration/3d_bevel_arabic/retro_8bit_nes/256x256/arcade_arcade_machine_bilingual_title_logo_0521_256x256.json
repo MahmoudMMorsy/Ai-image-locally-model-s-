@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glowing_edges",
-      "thick_black_outline",
-      "grid_overlay"
+      "drop_shadow",
+      "1-bit_dithering",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "white",
-    "purple"
+    "purple",
+    "gold",
+    "red"
   ],
   "tags": [
     "title_screen",
+    "sega_grid",
+    "snes_cartridge",
+    "hero_sprite",
     "mecha_sprite",
-    "space_ship",
-    "pixel_typography",
-    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: مدينة السايبر (CYBER CITY)."
 }

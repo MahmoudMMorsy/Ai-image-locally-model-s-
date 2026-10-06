@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "dripping_slime",
+      "pixel_gradient",
       "gold_texture",
-      "16-bit_gradient"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "center_title_large",
   "colors": [
-    "purple",
+    "black",
     "red",
-    "blue"
+    "gold"
   ],
   "tags": [
-    "pixel_typography",
-    "skull_icon",
+    "pixel_font",
     "sega_grid",
-    "snes_cartridge",
+    "dragon_bg",
+    "castle_stage",
     "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: سر الأهرامات (PYRAMID SECRET)."
 }

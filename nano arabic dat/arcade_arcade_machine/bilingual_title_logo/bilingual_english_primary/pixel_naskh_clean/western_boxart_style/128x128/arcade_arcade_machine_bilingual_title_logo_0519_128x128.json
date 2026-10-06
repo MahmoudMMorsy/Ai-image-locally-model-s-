@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "dripping_slime",
-      "pixel_gradient"
+      "1-bit_dithering",
+      "glitch_displacement",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
-    "white",
+    "gold",
+    "neon_cyan",
     "blue"
   ],
   "tags": [
-    "dragon_bg",
-    "lightning_strike",
+    "sega_grid",
+    "pixel_explosion",
+    "pyramid_bg",
     "pixel_frame",
-    "sword_icon",
-    "skull_icon",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_naskh_clean title: أسطورة النور (LEGEND OF LIGHT)."
 }

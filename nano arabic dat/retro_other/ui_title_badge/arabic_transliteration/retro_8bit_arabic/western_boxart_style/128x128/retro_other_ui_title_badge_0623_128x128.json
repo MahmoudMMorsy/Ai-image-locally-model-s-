@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "glowing_edges",
-      "grid_overlay"
+      "chrome_bevel",
+      "fire_effect",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "red"
+    "purple",
+    "white",
+    "blue"
   ],
   "tags": [
-    "arabic_text",
-    "connected_letters",
-    "sword_icon",
+    "nes_cover",
+    "hero_sprite",
     "castle_stage",
-    "mecha_sprite",
+    "sword_icon",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: عرش التنين (DRAGON THRONE)."
 }

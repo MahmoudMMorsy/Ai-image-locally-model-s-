@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "pixel_gradient",
       "glowing_edges",
-      "fire_effect"
+      "grid_overlay",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "black",
-    "red"
+    "purple",
+    "red",
+    "black"
   ],
   "tags": [
-    "sega_grid",
-    "sub_title",
-    "title_screen",
     "dragon_bg",
-    "pixel_explosion",
+    "space_ship",
+    "pixel_typography",
+    "skull_icon",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

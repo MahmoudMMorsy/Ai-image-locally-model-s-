@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "pixel_gradient",
-      "glitch_displacement"
+      "1-bit_dithering",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
-    "black",
     "red",
-    "white"
+    "gold",
+    "purple"
   ],
   "tags": [
-    "mecha_sprite",
-    "skull_icon",
-    "pixel_frame",
-    "sub_title",
-    "arabic_text",
+    "castle_stage",
+    "pyramid_bg",
+    "connected_letters",
+    "title_screen",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

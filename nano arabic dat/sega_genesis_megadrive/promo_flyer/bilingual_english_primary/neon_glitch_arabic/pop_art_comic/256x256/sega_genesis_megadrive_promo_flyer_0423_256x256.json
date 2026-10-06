@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glitch_displacement",
-      "drop_shadow",
-      "thick_black_outline"
+      "grid_overlay",
+      "thick_black_outline",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "blue",
+    "red",
+    "black",
     "gold"
   ],
   "tags": [
-    "sub_title",
-    "space_ship",
+    "lightning_strike",
     "castle_stage",
     "skull_icon",
-    "connected_letters",
+    "arabic_text",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

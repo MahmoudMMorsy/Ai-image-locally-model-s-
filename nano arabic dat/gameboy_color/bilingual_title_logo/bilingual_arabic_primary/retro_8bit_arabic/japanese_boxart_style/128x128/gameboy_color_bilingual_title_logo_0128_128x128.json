@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "fire_effect",
-      "16-bit_gradient"
+      "drop_shadow",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "black"
+    "white",
+    "black",
+    "purple"
   ],
   "tags": [
-    "sword_icon",
-    "gameboy_box",
-    "castle_stage",
-    "snes_cartridge",
+    "sega_grid",
+    "arabic_text",
     "skull_icon",
+    "boss_battle",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: عرش التنين (DRAGON THRONE)."
 }

@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "1-bit_dithering",
-      "drop_shadow",
-      "fire_effect"
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
+    "red",
     "blue",
-    "gold"
+    "black"
   ],
   "tags": [
+    "skull_icon",
+    "pixel_font",
+    "sword_icon",
+    "lightning_strike",
     "space_ship",
-    "sega_grid",
-    "desert_bg",
-    "gameboy_box",
-    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

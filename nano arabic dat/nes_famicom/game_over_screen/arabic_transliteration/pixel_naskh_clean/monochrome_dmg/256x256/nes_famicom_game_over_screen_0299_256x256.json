@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
+      "1-bit_dithering",
       "crt_scanlines",
-      "dripping_slime"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "black",
+    "neon_cyan",
+    "red",
     "purple"
   ],
   "tags": [
-    "sub_title",
-    "title_screen",
-    "dragon_bg",
-    "pixel_typography",
     "pixel_explosion",
+    "pixel_font",
+    "connected_letters",
+    "snes_cartridge",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: حرب المجرات (GALAXY WAR)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: سيد الحلبة (RING MASTER)."
 }

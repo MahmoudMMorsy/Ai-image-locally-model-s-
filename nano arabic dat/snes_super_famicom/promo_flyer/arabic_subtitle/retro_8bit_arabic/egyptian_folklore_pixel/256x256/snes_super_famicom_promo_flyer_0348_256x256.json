@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
       "1-bit_dithering",
-      "thick_black_outline"
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "gold",
-    "blue"
+    "black",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "castle_stage",
+    "title_screen",
     "pixel_frame",
-    "desert_bg",
-    "mecha_sprite",
-    "space_ship",
+    "gameboy_box",
+    "hero_sprite",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

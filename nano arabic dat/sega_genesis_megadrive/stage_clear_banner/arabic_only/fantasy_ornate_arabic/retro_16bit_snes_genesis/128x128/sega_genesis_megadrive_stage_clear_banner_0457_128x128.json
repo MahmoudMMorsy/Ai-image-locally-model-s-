@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "pixel_gradient",
-      "1-bit_dithering",
-      "gold_texture"
+      "drop_shadow",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "split_bilingual_layout",
   "colors": [
-    "neon_cyan",
-    "white",
-    "black"
+    "black",
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
+    "arabic_text",
+    "skull_icon",
+    "lightning_strike",
     "pixel_typography",
-    "sub_title",
-    "desert_bg",
-    "dragon_bg",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

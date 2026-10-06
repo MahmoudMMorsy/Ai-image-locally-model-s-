@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "chrome_bevel",
-      "crt_scanlines"
+      "crt_scanlines",
+      "drop_shadow",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "red",
     "gold",
+    "neon_cyan",
     "white"
   ],
   "tags": [
-    "pixel_frame",
-    "pixel_explosion",
-    "space_ship",
-    "gameboy_box",
-    "pixel_typography",
+    "sega_grid",
+    "title_screen",
+    "skull_icon",
+    "sub_title",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: محارب الساموراي (SAMURAI WARRIOR)."
 }

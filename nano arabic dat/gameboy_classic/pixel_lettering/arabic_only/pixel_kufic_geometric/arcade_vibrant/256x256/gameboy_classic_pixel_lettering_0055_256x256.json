@@ -8,8 +8,8 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
+      "grid_overlay",
+      "16-bit_gradient",
       "drop_shadow"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "blue",
+    "gold",
     "red",
     "black"
   ],
   "tags": [
-    "sword_icon",
-    "pixel_explosion",
-    "desert_bg",
     "pixel_typography",
     "pyramid_bg",
+    "castle_stage",
+    "sword_icon",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: معركة النهائي (FINAL BATTLE)."
 }

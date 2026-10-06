@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "grid_overlay",
-      "fire_effect"
+      "1-bit_dithering",
+      "chrome_bevel",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "blue",
-    "neon_cyan"
+    "neon_cyan",
+    "white",
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "space_ship",
-    "sub_title",
+    "pixel_font",
+    "title_screen",
     "castle_stage",
-    "arabic_text",
+    "desert_bg",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

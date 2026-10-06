@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "chrome_bevel",
       "crt_scanlines",
-      "dripping_slime"
+      "grid_overlay",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
+    "blue",
     "black",
-    "blue"
+    "red"
   ],
   "tags": [
-    "snes_cartridge",
-    "lightning_strike",
-    "skull_icon",
-    "pyramid_bg",
-    "nes_cover",
+    "desert_bg",
+    "castle_stage",
+    "space_ship",
+    "sub_title",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glitch_displacement",
       "pixel_gradient",
-      "crt_scanlines"
+      "thick_black_outline",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "black_border_nes",
   "colors": [
-    "white",
+    "neon_cyan",
     "gold",
-    "black"
+    "white"
   ],
   "tags": [
-    "boss_battle",
-    "pixel_font",
-    "pixel_explosion",
-    "mecha_sprite",
-    "nes_cover",
+    "dragon_bg",
+    "pixel_frame",
+    "space_ship",
+    "lightning_strike",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
 }

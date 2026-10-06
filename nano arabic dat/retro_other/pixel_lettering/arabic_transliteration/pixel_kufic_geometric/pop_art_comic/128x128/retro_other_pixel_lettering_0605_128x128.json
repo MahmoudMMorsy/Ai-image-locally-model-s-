@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "pixel_gradient",
-      "glowing_edges"
+      "drop_shadow",
+      "fire_effect",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "white",
-    "black"
+    "black",
+    "blue",
+    "red"
   ],
   "tags": [
-    "pixel_frame",
-    "nes_cover",
+    "pixel_font",
     "pyramid_bg",
-    "hero_sprite",
-    "arabic_text",
+    "pixel_frame",
+    "pixel_explosion",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

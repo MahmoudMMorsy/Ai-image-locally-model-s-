@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "pixel_gradient",
-      "drop_shadow"
+      "chrome_bevel",
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
+    "red",
     "black",
-    "purple"
+    "blue"
   ],
   "tags": [
-    "boss_battle",
-    "hero_sprite",
-    "pixel_font",
+    "castle_stage",
     "pixel_frame",
-    "title_screen",
+    "arabic_text",
+    "dragon_bg",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: مدينة السايبر (CYBER CITY)."
 }

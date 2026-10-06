@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "chrome_bevel",
-      "drop_shadow"
+      "dripping_slime",
+      "16-bit_gradient",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "center_title_large",
   "colors": [
-    "gold",
+    "white",
     "purple",
-    "red"
+    "black"
   ],
   "tags": [
+    "pyramid_bg",
+    "sword_icon",
+    "lightning_strike",
     "arabic_text",
-    "sub_title",
-    "boss_battle",
-    "title_screen",
-    "nes_cover",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: حرب المجرات (GALAXY WAR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: أسطورة النور (LEGEND OF LIGHT)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
-      "1-bit_dithering",
-      "16-bit_gradient"
+      "glitch_displacement",
+      "chrome_bevel",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "red",
-    "blue",
-    "gold"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "sword_icon",
+    "skull_icon",
+    "pixel_typography",
     "sub_title",
-    "castle_stage",
-    "gameboy_box",
+    "arabic_text",
     "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: سيف العدالة (SWORD OF JUSTICE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: مدينة السايبر (CYBER CITY)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "gold_texture",
       "crt_scanlines",
-      "grid_overlay",
-      "gold_texture"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
+    "red",
     "gold",
-    "purple"
+    "white"
   ],
   "tags": [
-    "sega_grid",
-    "castle_stage",
+    "arabic_text",
+    "nes_cover",
+    "pixel_typography",
     "pixel_explosion",
-    "space_ship",
-    "mecha_sprite",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: سيد الحلبة (RING MASTER)."
 }

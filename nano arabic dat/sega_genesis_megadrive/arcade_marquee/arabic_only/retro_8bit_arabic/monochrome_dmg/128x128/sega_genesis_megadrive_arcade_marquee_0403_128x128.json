@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
-      "glowing_edges",
+      "crt_scanlines",
+      "dripping_slime",
       "drop_shadow"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "white",
-    "gold"
+    "gold",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
+    "sword_icon",
+    "gameboy_box",
     "sub_title",
-    "dragon_bg",
-    "pixel_frame",
-    "nes_cover",
-    "castle_stage",
+    "pixel_typography",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

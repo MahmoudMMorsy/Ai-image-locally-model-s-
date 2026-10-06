@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
+      "fire_effect",
       "pixel_gradient",
-      "drop_shadow"
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "neon_cyan",
-    "white"
+    "purple",
+    "blue"
   ],
   "tags": [
-    "skull_icon",
-    "boss_battle",
-    "pixel_typography",
-    "snes_cartridge",
-    "sword_icon",
+    "castle_stage",
+    "pixel_explosion",
+    "hero_sprite",
+    "pyramid_bg",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

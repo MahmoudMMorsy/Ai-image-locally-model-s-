@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
+      "gold_texture",
       "chrome_bevel",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "black_border_nes",
   "colors": [
-    "red",
-    "gold",
-    "white"
+    "neon_cyan",
+    "black",
+    "red"
   ],
   "tags": [
-    "dragon_bg",
     "space_ship",
+    "nes_cover",
     "gameboy_box",
-    "castle_stage",
-    "pixel_typography",
+    "pixel_explosion",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

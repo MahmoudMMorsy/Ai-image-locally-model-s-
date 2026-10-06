@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
       "16-bit_gradient",
-      "glowing_edges"
+      "glitch_displacement",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "black",
-    "blue"
+    "white",
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
-    "sword_icon",
-    "pyramid_bg",
-    "space_ship",
-    "arabic_text",
+    "sega_grid",
+    "title_screen",
+    "nes_cover",
+    "snes_cartridge",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
 }

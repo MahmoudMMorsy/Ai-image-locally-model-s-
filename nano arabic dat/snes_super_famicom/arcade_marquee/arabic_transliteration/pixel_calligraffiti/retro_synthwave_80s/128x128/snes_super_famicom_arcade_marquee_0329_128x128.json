@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
       "pixel_gradient",
-      "thick_black_outline"
+      "1-bit_dithering",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "red",
-    "purple",
+    "black",
     "gold"
   ],
   "tags": [
+    "hero_sprite",
+    "space_ship",
     "castle_stage",
-    "dragon_bg",
-    "snes_cartridge",
-    "connected_letters",
-    "skull_icon",
+    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_calligraffiti title: سيد الحلبة (RING MASTER)."
 }

@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "glowing_edges",
-      "dripping_slime",
-      "drop_shadow"
+      "chrome_bevel",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "border_framed",
   "colors": [
     "red",
-    "blue",
-    "neon_cyan"
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "arabic_text",
-    "hero_sprite",
-    "pixel_frame",
-    "nes_cover",
-    "title_screen",
+    "skull_icon",
+    "sword_icon",
+    "dragon_bg",
+    "sub_title",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

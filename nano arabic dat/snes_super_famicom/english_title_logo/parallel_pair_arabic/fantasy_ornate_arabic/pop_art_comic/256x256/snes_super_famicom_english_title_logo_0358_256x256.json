@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "grid_overlay",
-      "glowing_edges",
-      "fire_effect"
+      "thick_black_outline",
+      "fire_effect",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
+    "purple",
     "gold",
-    "purple"
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_font",
-    "dragon_bg",
-    "snes_cartridge",
-    "pixel_explosion",
-    "pixel_frame",
+    "skull_icon",
+    "space_ship",
+    "hero_sprite",
+    "boss_battle",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

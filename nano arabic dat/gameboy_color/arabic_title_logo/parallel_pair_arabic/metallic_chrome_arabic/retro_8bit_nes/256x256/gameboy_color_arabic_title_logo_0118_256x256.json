@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "gold_texture",
+      "dripping_slime",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "purple",
-    "blue"
+    "blue",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_explosion",
+    "boss_battle",
     "pixel_typography",
-    "lightning_strike",
-    "hero_sprite",
-    "space_ship",
+    "skull_icon",
+    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

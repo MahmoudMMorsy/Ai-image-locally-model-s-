@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "crt_scanlines"
+      "glowing_edges",
+      "fire_effect",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
+    "red",
     "gold",
-    "neon_cyan",
-    "black"
+    "white"
   ],
   "tags": [
-    "boss_battle",
-    "hero_sprite",
+    "pixel_explosion",
+    "nes_cover",
+    "desert_bg",
     "lightning_strike",
-    "sub_title",
-    "title_screen",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: سر الأهرامات (PYRAMID SECRET)."
 }

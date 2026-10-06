@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "gold_texture"
+      "grid_overlay",
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "neon_cyan",
-    "blue"
+    "red",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "mecha_sprite",
-    "pyramid_bg",
-    "pixel_frame",
-    "pixel_typography",
-    "sega_grid",
+    "sub_title",
+    "sword_icon",
+    "lightning_strike",
+    "skull_icon",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: عرش التنين (DRAGON THRONE)."
 }

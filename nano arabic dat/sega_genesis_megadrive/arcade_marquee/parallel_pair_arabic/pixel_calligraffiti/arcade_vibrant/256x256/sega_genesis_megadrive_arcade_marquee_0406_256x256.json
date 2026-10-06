@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "1-bit_dithering",
-      "fire_effect"
+      "grid_overlay",
+      "dripping_slime",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
     "black",
-    "neon_cyan"
+    "gold",
+    "red"
   ],
   "tags": [
-    "title_screen",
-    "dragon_bg",
-    "hero_sprite",
     "skull_icon",
-    "desert_bg",
+    "sega_grid",
+    "nes_cover",
+    "pixel_explosion",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: الفارس الشجاع (BRAVE KNIGHT)."
 }

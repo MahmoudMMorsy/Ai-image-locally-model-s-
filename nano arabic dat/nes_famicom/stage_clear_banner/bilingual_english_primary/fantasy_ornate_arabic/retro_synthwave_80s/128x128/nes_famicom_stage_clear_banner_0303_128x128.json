@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glitch_displacement",
-      "thick_black_outline",
-      "grid_overlay"
+      "dripping_slime",
+      "drop_shadow",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
     "purple",
-    "black"
+    "gold",
+    "red"
   ],
   "tags": [
+    "pixel_typography",
+    "title_screen",
+    "sword_icon",
     "arabic_text",
-    "pixel_font",
-    "boss_battle",
-    "desert_bg",
-    "castle_stage",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

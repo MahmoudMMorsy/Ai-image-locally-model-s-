@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
       "crt_scanlines",
-      "glowing_edges"
+      "fire_effect",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,14 +19,14 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "black",
-    "red",
-    "gold"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "title_screen",
-    "connected_letters",
-    "desert_bg",
-    "lightning_strike",
+    "mecha_sprite",
+    "boss_battle",
+    "dragon_bg",
+    "pixel_typography",
     "sword_icon",
     "arabic_text",
     "connected_letters",

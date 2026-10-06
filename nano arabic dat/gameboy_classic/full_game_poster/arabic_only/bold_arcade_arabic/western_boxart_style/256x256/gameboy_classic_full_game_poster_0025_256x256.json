@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "drop_shadow"
+      "chrome_bevel",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "split_bilingual_layout",
   "colors": [
+    "white",
     "blue",
-    "black",
-    "gold"
+    "purple"
   ],
   "tags": [
-    "desert_bg",
+    "connected_letters",
+    "skull_icon",
     "title_screen",
-    "dragon_bg",
-    "lightning_strike",
-    "boss_battle",
+    "desert_bg",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: معركة النهائي (FINAL BATTLE)."
 }

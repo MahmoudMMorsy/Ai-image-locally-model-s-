@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "thick_black_outline",
-      "grid_overlay",
-      "1-bit_dithering"
+      "gold_texture",
+      "fire_effect",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
+    "gold",
     "neon_cyan",
-    "blue",
-    "gold"
+    "purple"
   ],
   "tags": [
-    "mecha_sprite",
-    "gameboy_box",
-    "arabic_text",
+    "nes_cover",
+    "castle_stage",
+    "skull_icon",
+    "sega_grid",
     "pixel_font",
-    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: أسطورة النور (LEGEND OF LIGHT)."
 }

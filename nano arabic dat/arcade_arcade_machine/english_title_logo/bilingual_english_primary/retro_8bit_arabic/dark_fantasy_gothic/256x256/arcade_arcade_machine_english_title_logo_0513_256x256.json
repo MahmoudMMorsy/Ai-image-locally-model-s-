@@ -10,7 +10,7 @@
     "text_effects": [
       "crt_scanlines",
       "glowing_edges",
-      "pixel_gradient"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "white",
-    "black"
+    "red",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "space_ship",
-    "lightning_strike",
+    "snes_cartridge",
     "sword_icon",
-    "gameboy_box",
-    "desert_bg",
+    "pixel_font",
+    "pixel_typography",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

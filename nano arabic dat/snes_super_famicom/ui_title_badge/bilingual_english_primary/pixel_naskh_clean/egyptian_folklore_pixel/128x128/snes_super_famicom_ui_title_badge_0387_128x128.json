@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "16-bit_gradient",
-      "chrome_bevel",
-      "fire_effect"
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
-    "purple",
     "neon_cyan",
-    "black"
+    "black",
+    "red"
   ],
   "tags": [
+    "dragon_bg",
+    "desert_bg",
     "boss_battle",
-    "snes_cartridge",
-    "pixel_typography",
-    "skull_icon",
-    "title_screen",
+    "pyramid_bg",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

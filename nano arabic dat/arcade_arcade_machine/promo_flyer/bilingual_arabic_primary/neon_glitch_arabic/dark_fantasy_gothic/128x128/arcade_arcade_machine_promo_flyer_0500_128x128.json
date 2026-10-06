@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
+      "gold_texture",
       "grid_overlay",
-      "drop_shadow",
-      "crt_scanlines"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "red",
-    "gold"
+    "neon_cyan",
+    "white",
+    "purple"
   ],
   "tags": [
-    "title_screen",
-    "space_ship",
-    "hero_sprite",
-    "gameboy_box",
-    "lightning_strike",
+    "pixel_font",
+    "mecha_sprite",
+    "sega_grid",
+    "boss_battle",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

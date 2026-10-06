@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "dripping_slime",
-      "16-bit_gradient",
-      "glitch_displacement"
+      "thick_black_outline",
+      "gold_texture",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
-    "white",
-    "purple"
+    "black",
+    "purple",
+    "blue"
   ],
   "tags": [
+    "pixel_frame",
+    "pixel_typography",
+    "castle_stage",
+    "skull_icon",
     "desert_bg",
-    "boss_battle",
-    "title_screen",
-    "arabic_text",
-    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with retro_8bit_arabic title: قافلة الصحراء (DESERT CARAVAN)."
 }

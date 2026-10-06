@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
+      "chrome_bevel",
       "dripping_slime",
-      "pixel_gradient"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "blue",
-    "black"
+    "neon_cyan",
+    "gold",
+    "blue"
   ],
   "tags": [
+    "sword_icon",
+    "mecha_sprite",
     "skull_icon",
-    "lightning_strike",
-    "pixel_typography",
-    "boss_battle",
-    "arabic_text",
+    "snes_cartridge",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
 }

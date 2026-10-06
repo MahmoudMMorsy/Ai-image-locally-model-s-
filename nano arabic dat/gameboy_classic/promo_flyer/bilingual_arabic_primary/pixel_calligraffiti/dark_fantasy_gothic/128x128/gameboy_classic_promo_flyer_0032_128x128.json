@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "thick_black_outline",
-      "fire_effect",
-      "chrome_bevel"
+      "gold_texture",
+      "glowing_edges",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "gold",
     "white",
-    "neon_cyan",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
-    "boss_battle",
-    "mecha_sprite",
-    "dragon_bg",
-    "snes_cartridge",
+    "space_ship",
+    "pixel_typography",
+    "pixel_explosion",
+    "connected_letters",
     "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
 }

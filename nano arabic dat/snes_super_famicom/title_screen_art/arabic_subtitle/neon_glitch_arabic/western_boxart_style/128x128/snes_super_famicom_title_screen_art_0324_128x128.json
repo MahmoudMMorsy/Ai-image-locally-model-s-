@@ -8,8 +8,8 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
+      "thick_black_outline",
+      "fire_effect",
       "pixel_gradient"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "black"
+    "gold",
+    "blue",
+    "red"
   ],
   "tags": [
-    "skull_icon",
-    "sword_icon",
-    "lightning_strike",
-    "sub_title",
-    "gameboy_box",
+    "nes_cover",
+    "connected_letters",
+    "pixel_font",
+    "mecha_sprite",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: حرب المجرات (GALAXY WAR)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with neon_glitch_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

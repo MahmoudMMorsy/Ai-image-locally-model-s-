@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "dripping_slime",
-      "1-bit_dithering"
+      "1-bit_dithering",
+      "gold_texture",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
-    "purple",
-    "white"
+    "blue",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "space_ship",
-    "gameboy_box",
     "pixel_typography",
-    "pixel_frame",
-    "mecha_sprite",
+    "gameboy_box",
+    "nes_cover",
+    "arabic_text",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

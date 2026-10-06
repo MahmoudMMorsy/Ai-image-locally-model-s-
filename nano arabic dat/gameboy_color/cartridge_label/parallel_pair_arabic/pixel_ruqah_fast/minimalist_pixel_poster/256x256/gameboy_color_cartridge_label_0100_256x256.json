@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "chrome_bevel",
-      "glowing_edges",
-      "fire_effect"
+      "16-bit_gradient",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "purple",
-    "neon_cyan",
-    "red"
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
-    "title_screen",
-    "lightning_strike",
-    "hero_sprite",
-    "nes_cover",
-    "sword_icon",
+    "sub_title",
+    "sega_grid",
+    "pixel_frame",
+    "mecha_sprite",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
 }

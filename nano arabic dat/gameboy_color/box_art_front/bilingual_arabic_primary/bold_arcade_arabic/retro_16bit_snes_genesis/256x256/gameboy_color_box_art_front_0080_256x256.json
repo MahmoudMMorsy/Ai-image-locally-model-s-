@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "16-bit_gradient",
-      "drop_shadow"
+      "glitch_displacement",
+      "thick_black_outline",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "purple",
-    "red"
+    "gold",
+    "red",
+    "blue"
   ],
   "tags": [
-    "pixel_typography",
-    "mecha_sprite",
-    "hero_sprite",
+    "nes_cover",
     "pixel_explosion",
-    "title_screen",
+    "space_ship",
+    "lightning_strike",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

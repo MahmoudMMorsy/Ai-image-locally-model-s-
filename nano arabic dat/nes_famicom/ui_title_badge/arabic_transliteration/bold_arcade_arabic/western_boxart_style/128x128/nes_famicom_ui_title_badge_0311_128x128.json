@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "dripping_slime",
-      "gold_texture"
+      "crt_scanlines",
+      "chrome_bevel",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "red",
-    "white",
+    "gold",
     "black"
   ],
   "tags": [
-    "pixel_frame",
-    "hero_sprite",
-    "sega_grid",
+    "pyramid_bg",
     "boss_battle",
-    "desert_bg",
+    "title_screen",
+    "lightning_strike",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

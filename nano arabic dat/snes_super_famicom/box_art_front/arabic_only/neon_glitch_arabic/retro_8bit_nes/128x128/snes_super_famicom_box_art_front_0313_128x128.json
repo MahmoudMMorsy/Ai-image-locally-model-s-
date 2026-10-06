@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "thick_black_outline",
-      "glowing_edges",
-      "fire_effect"
+      "16-bit_gradient",
+      "pixel_gradient",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
     "red",
-    "neon_cyan"
+    "purple",
+    "black"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_font",
-    "pixel_frame",
-    "lightning_strike",
     "nes_cover",
+    "sword_icon",
+    "sega_grid",
+    "pixel_explosion",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

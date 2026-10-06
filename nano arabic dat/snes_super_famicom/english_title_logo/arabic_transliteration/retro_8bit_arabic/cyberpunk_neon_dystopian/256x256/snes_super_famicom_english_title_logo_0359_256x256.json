@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
+      "thick_black_outline",
       "crt_scanlines",
-      "dripping_slime"
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "blue",
-    "neon_cyan"
+    "purple",
+    "white",
+    "black"
   ],
   "tags": [
+    "sword_icon",
+    "pixel_frame",
+    "gameboy_box",
+    "dragon_bg",
     "pixel_typography",
-    "hero_sprite",
-    "pixel_font",
-    "sub_title",
-    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with retro_8bit_arabic title: سيد الحلبة (RING MASTER)."
 }

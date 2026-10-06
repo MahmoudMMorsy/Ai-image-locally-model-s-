@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "crt_scanlines",
-      "gold_texture",
-      "thick_black_outline"
+      "pixel_gradient",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "black",
-    "neon_cyan",
-    "white"
+    "red",
+    "blue",
+    "purple"
   ],
   "tags": [
-    "nes_cover",
-    "pixel_explosion",
+    "sega_grid",
+    "sub_title",
+    "skull_icon",
     "hero_sprite",
-    "boss_battle",
-    "pixel_typography",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_kufic_geometric title: الفارس الشجاع (BRAVE KNIGHT)."
 }

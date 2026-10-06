@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glowing_edges",
       "grid_overlay",
-      "chrome_bevel"
+      "16-bit_gradient",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "platformer",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
+    "purple",
     "white",
-    "purple"
+    "gold"
   ],
   "tags": [
-    "dragon_bg",
-    "pixel_explosion",
-    "mecha_sprite",
-    "connected_letters",
+    "gameboy_box",
+    "snes_cartridge",
+    "skull_icon",
+    "castle_stage",
     "sub_title",
     "arabic_text",
     "connected_letters",

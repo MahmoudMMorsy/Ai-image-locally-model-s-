@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "1-bit_dithering",
+      "glitch_displacement",
       "grid_overlay",
-      "dripping_slime"
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "grid_framed_boxart",
   "colors": [
     "white",
-    "gold",
+    "red",
     "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
-    "pixel_font",
-    "arabic_text",
-    "boss_battle",
-    "connected_letters",
+    "title_screen",
+    "pixel_typography",
+    "pyramid_bg",
+    "castle_stage",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: سيف العدالة (SWORD OF JUSTICE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: قافلة الصحراء (DESERT CARAVAN)."
 }

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
-      "glitch_displacement",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
     "neon_cyan",
-    "gold"
+    "red",
+    "white"
   ],
   "tags": [
     "nes_cover",
-    "mecha_sprite",
+    "castle_stage",
+    "boss_battle",
+    "connected_letters",
     "title_screen",
-    "sub_title",
-    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

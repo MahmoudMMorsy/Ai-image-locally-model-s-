@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "chrome_bevel",
-      "drop_shadow"
+      "1-bit_dithering",
+      "drop_shadow",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "white",
-    "purple"
+    "blue",
+    "red",
+    "gold"
   ],
   "tags": [
-    "castle_stage",
-    "mecha_sprite",
-    "pixel_explosion",
-    "pixel_font",
-    "pixel_frame",
+    "sega_grid",
+    "lightning_strike",
+    "sword_icon",
+    "gameboy_box",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

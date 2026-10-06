@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
-      "1-bit_dithering",
-      "16-bit_gradient"
+      "chrome_bevel",
+      "thick_black_outline",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
-    "white",
-    "purple"
+    "neon_cyan",
+    "blue",
+    "red"
   ],
   "tags": [
-    "mecha_sprite",
-    "sub_title",
-    "pixel_font",
-    "nes_cover",
+    "hero_sprite",
+    "desert_bg",
+    "sega_grid",
     "gameboy_box",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: معركة النهائي (FINAL BATTLE)."
 }

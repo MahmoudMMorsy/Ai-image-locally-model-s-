@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "gold_texture",
-      "dripping_slime"
+      "fire_effect",
+      "crt_scanlines",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "red",
+    "gold",
+    "neon_cyan",
     "black"
   ],
   "tags": [
-    "skull_icon",
-    "connected_letters",
-    "pixel_frame",
-    "desert_bg",
-    "pixel_font",
+    "boss_battle",
+    "dragon_bg",
+    "sub_title",
+    "pixel_explosion",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
 }

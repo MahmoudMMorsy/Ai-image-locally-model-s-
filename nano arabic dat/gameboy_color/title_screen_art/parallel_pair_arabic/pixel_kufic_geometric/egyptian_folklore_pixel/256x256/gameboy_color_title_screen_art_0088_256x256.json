@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "thick_black_outline",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
-    "white",
-    "gold"
+    "blue",
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "sega_grid",
-    "snes_cartridge",
-    "arabic_text",
-    "title_screen",
-    "pixel_typography",
+    "mecha_sprite",
+    "castle_stage",
+    "boss_battle",
+    "nes_cover",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -10,7 +10,7 @@
     "text_effects": [
       "drop_shadow",
       "crt_scanlines",
-      "chrome_bevel"
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
+    "white",
     "red",
-    "white"
+    "gold"
   ],
   "tags": [
-    "connected_letters",
+    "castle_stage",
     "skull_icon",
-    "nes_cover",
-    "dragon_bg",
-    "hero_sprite",
+    "pixel_font",
+    "title_screen",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

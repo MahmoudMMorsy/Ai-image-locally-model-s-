@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "drop_shadow",
       "1-bit_dithering",
-      "gold_texture"
+      "dripping_slime",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "gold",
     "neon_cyan",
-    "red",
-    "gold"
+    "red"
   ],
   "tags": [
-    "desert_bg",
-    "boss_battle",
+    "lightning_strike",
+    "sub_title",
+    "pixel_frame",
+    "pyramid_bg",
     "sword_icon",
-    "hero_sprite",
-    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

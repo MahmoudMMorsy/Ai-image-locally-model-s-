@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "drop_shadow",
       "glitch_displacement",
-      "glowing_edges"
+      "16-bit_gradient",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "gold",
+    "black",
+    "red",
     "neon_cyan"
   ],
   "tags": [
-    "dragon_bg",
-    "boss_battle",
-    "sub_title",
-    "mecha_sprite",
-    "pixel_typography",
+    "pixel_explosion",
+    "lightning_strike",
+    "arabic_text",
+    "desert_bg",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

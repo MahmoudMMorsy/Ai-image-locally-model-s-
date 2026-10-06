@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
       "dripping_slime",
-      "drop_shadow"
+      "1-bit_dithering",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "blue",
     "gold",
-    "black",
-    "white"
+    "red"
   ],
   "tags": [
-    "pixel_frame",
-    "lightning_strike",
-    "mecha_sprite",
-    "skull_icon",
+    "castle_stage",
+    "pyramid_bg",
     "boss_battle",
+    "gameboy_box",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_ruqah_fast title: الفارس الشجاع (BRAVE KNIGHT)."
 }

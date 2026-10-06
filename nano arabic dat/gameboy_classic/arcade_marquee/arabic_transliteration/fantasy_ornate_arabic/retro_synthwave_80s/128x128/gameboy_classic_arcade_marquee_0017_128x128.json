@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "gold_texture",
-      "glowing_edges"
+      "chrome_bevel",
+      "16-bit_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "border_framed",
   "colors": [
+    "blue",
     "neon_cyan",
-    "black",
-    "gold"
+    "purple"
   ],
   "tags": [
-    "title_screen",
-    "pixel_frame",
-    "mecha_sprite",
-    "lightning_strike",
-    "pixel_typography",
+    "boss_battle",
+    "connected_letters",
+    "hero_sprite",
+    "gameboy_box",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with fantasy_ornate_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

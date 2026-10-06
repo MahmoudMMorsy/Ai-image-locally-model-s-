@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "16-bit_gradient",
-      "chrome_bevel",
-      "grid_overlay"
+      "grid_overlay",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "white",
+    "neon_cyan",
     "gold",
     "purple"
   ],
   "tags": [
     "snes_cartridge",
-    "pixel_explosion",
-    "castle_stage",
+    "nes_cover",
+    "pixel_font",
     "boss_battle",
-    "skull_icon",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: مملكة السحر (MAGIC KINGDOM)."
 }

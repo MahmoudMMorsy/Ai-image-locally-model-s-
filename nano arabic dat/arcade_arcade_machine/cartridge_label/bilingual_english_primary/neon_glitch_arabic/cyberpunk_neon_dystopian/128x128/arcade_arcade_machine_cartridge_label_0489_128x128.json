@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "dripping_slime",
-      "grid_overlay"
+      "16-bit_gradient",
+      "grid_overlay",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
+    "neon_cyan",
     "gold",
     "purple"
   ],
   "tags": [
-    "pixel_font",
-    "gameboy_box",
+    "snes_cartridge",
+    "connected_letters",
+    "space_ship",
     "mecha_sprite",
-    "castle_stage",
-    "skull_icon",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

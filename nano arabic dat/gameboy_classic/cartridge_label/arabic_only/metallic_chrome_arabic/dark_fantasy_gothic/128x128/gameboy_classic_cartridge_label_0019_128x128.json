@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "crt_scanlines",
-      "chrome_bevel",
-      "16-bit_gradient"
+      "drop_shadow",
+      "16-bit_gradient",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
-    "blue",
-    "red"
+    "neon_cyan",
+    "black",
+    "purple"
   ],
   "tags": [
-    "pixel_explosion",
-    "connected_letters",
+    "sword_icon",
+    "title_screen",
     "nes_cover",
-    "space_ship",
-    "pixel_typography",
+    "mecha_sprite",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "crt_scanlines",
-      "16-bit_gradient"
+      "thick_black_outline",
+      "chrome_bevel",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "white",
-    "red",
-    "gold"
+    "gold",
+    "purple"
   ],
   "tags": [
-    "castle_stage",
-    "title_screen",
-    "mecha_sprite",
-    "desert_bg",
-    "snes_cartridge",
+    "sega_grid",
+    "space_ship",
+    "pixel_frame",
+    "pyramid_bg",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

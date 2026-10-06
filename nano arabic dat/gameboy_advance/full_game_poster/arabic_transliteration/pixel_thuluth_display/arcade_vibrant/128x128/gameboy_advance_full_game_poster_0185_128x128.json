@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "chrome_bevel",
+      "crt_scanlines",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "gold",
-    "neon_cyan",
-    "black"
+    "white",
+    "purple"
   ],
   "tags": [
-    "pixel_font",
-    "space_ship",
-    "mecha_sprite",
-    "pixel_typography",
-    "sega_grid",
+    "hero_sprite",
+    "castle_stage",
+    "connected_letters",
+    "gameboy_box",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_thuluth_display title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_thuluth_display title: أعماق المحيط (OCEAN DEPTHS)."
 }

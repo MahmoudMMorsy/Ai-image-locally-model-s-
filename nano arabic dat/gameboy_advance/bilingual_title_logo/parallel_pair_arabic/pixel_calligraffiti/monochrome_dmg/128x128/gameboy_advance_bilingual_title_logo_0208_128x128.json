@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
       "dripping_slime",
-      "thick_black_outline"
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
-    "neon_cyan",
-    "gold"
+    "blue",
+    "red",
+    "purple"
   ],
   "tags": [
-    "pixel_font",
-    "snes_cartridge",
+    "sega_grid",
+    "hero_sprite",
+    "arabic_text",
     "skull_icon",
-    "dragon_bg",
-    "connected_letters",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: نصر الأبطال (VICTORY HEROES)."
 }

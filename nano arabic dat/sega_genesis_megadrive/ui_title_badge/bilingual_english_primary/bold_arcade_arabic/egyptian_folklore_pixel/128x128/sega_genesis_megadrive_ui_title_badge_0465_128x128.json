@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "glitch_displacement"
+      "grid_overlay",
+      "drop_shadow",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "black",
+    "red",
     "white",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
-    "connected_letters",
-    "lightning_strike",
-    "pixel_font",
+    "pixel_typography",
     "castle_stage",
     "pixel_frame",
+    "arabic_text",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

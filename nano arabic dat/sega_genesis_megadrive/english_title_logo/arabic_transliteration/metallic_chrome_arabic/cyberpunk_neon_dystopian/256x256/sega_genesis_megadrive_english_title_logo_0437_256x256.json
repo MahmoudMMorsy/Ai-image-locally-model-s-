@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "drop_shadow",
-      "thick_black_outline",
-      "crt_scanlines"
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "purple",
-    "gold",
-    "red"
+    "neon_cyan",
+    "blue",
+    "white"
   ],
   "tags": [
     "pixel_frame",
-    "boss_battle",
-    "mecha_sprite",
-    "connected_letters",
-    "skull_icon",
+    "hero_sprite",
+    "lightning_strike",
+    "sub_title",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

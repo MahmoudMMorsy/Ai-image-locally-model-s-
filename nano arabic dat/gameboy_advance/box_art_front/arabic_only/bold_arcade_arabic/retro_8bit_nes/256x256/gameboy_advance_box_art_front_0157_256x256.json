@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "thick_black_outline",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "dripping_slime",
+      "chrome_bevel",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "neon_cyan",
-    "gold"
+    "red",
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
     "gameboy_box",
-    "castle_stage",
-    "space_ship",
-    "pyramid_bg",
-    "connected_letters",
+    "boss_battle",
+    "hero_sprite",
+    "pixel_font",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

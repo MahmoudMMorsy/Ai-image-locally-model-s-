@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
       "1-bit_dithering",
-      "glowing_edges"
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
     "gold",
-    "white"
+    "black",
+    "red"
   ],
   "tags": [
-    "castle_stage",
-    "boss_battle",
-    "desert_bg",
+    "connected_letters",
     "pixel_frame",
-    "sega_grid",
+    "space_ship",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
 }

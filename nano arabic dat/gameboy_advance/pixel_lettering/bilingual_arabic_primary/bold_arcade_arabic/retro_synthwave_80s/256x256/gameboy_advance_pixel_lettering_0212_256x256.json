@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "thick_black_outline",
-      "crt_scanlines",
-      "16-bit_gradient"
+      "gold_texture",
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "black",
-    "blue",
-    "white"
+    "purple",
+    "gold"
   ],
   "tags": [
-    "sega_grid",
-    "nes_cover",
-    "skull_icon",
-    "sword_icon",
     "title_screen",
+    "arabic_text",
+    "mecha_sprite",
+    "desert_bg",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

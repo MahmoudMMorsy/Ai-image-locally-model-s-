@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glitch_displacement",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "thick_black_outline",
+      "chrome_bevel",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "white",
     "red",
-    "purple"
+    "neon_cyan"
   ],
   "tags": [
-    "pyramid_bg",
-    "castle_stage",
-    "lightning_strike",
-    "hero_sprite",
+    "sub_title",
     "pixel_typography",
+    "snes_cartridge",
+    "sega_grid",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

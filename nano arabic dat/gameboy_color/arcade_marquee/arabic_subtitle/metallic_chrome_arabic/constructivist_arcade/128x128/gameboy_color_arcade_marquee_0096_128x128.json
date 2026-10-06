@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "fire_effect",
       "chrome_bevel",
-      "drop_shadow"
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
-    "black",
+    "gold",
     "purple",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
+    "gameboy_box",
+    "sega_grid",
+    "skull_icon",
     "connected_letters",
-    "space_ship",
-    "hero_sprite",
-    "sword_icon",
-    "boss_battle",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: قافلة الصحراء (DESERT CARAVAN)."
 }

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "crt_scanlines",
+      "grid_overlay",
       "chrome_bevel",
-      "grid_overlay"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
+    "purple",
     "gold",
-    "white",
-    "black"
+    "red"
   ],
   "tags": [
-    "pixel_explosion",
-    "sub_title",
-    "snes_cartridge",
+    "pyramid_bg",
+    "space_ship",
+    "hero_sprite",
+    "arabic_text",
     "nes_cover",
-    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

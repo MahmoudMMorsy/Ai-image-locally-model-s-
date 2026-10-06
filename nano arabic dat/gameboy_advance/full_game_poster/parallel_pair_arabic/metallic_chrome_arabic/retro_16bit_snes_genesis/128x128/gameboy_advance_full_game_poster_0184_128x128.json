@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "16-bit_gradient",
-      "glitch_displacement"
+      "gold_texture",
+      "dripping_slime",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "black_border_nes",
   "colors": [
-    "neon_cyan",
     "blue",
-    "purple"
+    "black",
+    "white"
   ],
   "tags": [
-    "pixel_frame",
-    "hero_sprite",
     "pixel_explosion",
-    "sega_grid",
-    "title_screen",
+    "gameboy_box",
+    "pixel_typography",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

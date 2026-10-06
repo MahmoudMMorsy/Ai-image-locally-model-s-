@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
       "dripping_slime",
-      "crt_scanlines"
+      "grid_overlay",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "neon_cyan",
     "black",
-    "purple",
-    "gold"
+    "red"
   ],
   "tags": [
-    "pixel_typography",
+    "space_ship",
+    "snes_cartridge",
+    "pixel_frame",
+    "connected_letters",
     "arabic_text",
-    "desert_bg",
-    "boss_battle",
-    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with fantasy_ornate_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

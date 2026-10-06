@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "glowing_edges",
       "grid_overlay",
-      "16-bit_gradient",
-      "drop_shadow"
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "gold",
-    "white",
-    "red"
+    "black",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "pixel_font",
     "pixel_frame",
-    "pixel_explosion",
-    "hero_sprite",
-    "gameboy_box",
+    "sega_grid",
+    "space_ship",
+    "lightning_strike",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

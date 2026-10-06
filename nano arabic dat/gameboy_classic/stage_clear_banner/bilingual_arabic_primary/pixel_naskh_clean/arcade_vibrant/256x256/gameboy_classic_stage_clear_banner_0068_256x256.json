@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "gold_texture",
-      "glowing_edges",
-      "dripping_slime"
+      "pixel_gradient",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "blue",
     "neon_cyan",
-    "black",
-    "white"
+    "purple"
   ],
   "tags": [
-    "sub_title",
-    "gameboy_box",
+    "title_screen",
+    "pixel_font",
     "boss_battle",
-    "dragon_bg",
-    "castle_stage",
+    "sword_icon",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: عرش التنين (DRAGON THRONE)."
 }

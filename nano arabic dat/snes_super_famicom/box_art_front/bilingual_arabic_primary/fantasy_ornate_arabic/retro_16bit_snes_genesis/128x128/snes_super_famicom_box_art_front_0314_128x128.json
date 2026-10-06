@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
+      "glowing_edges",
       "crt_scanlines",
-      "drop_shadow"
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "border_framed",
   "colors": [
-    "gold",
-    "blue",
-    "neon_cyan"
+    "black",
+    "white",
+    "purple"
   ],
   "tags": [
-    "pixel_explosion",
-    "mecha_sprite",
+    "boss_battle",
+    "castle_stage",
+    "pixel_font",
     "desert_bg",
-    "pixel_typography",
-    "dragon_bg",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

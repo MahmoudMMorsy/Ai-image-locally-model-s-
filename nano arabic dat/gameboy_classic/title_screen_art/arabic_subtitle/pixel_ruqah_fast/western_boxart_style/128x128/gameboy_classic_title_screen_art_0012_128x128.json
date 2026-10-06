@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "16-bit_gradient",
-      "dripping_slime",
-      "fire_effect"
+      "crt_scanlines",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "grid_framed_boxart",
   "colors": [
+    "black",
     "red",
-    "blue",
-    "white"
+    "gold"
   ],
   "tags": [
+    "pixel_frame",
+    "desert_bg",
     "pixel_typography",
-    "pixel_explosion",
-    "mecha_sprite",
-    "gameboy_box",
-    "skull_icon",
+    "sword_icon",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

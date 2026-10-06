@@ -8,8 +8,8 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "1-bit_dithering",
+      "pixel_gradient",
+      "dripping_slime",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "purple",
+    "blue",
+    "black",
     "neon_cyan"
   ],
   "tags": [
-    "sega_grid",
-    "sub_title",
-    "arabic_text",
+    "pixel_explosion",
     "dragon_bg",
-    "skull_icon",
+    "pixel_font",
+    "arabic_text",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

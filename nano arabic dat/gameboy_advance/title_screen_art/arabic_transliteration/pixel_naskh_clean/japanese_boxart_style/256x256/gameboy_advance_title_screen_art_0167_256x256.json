@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "chrome_bevel",
-      "pixel_gradient"
+      "grid_overlay",
+      "dripping_slime",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "red",
-    "purple"
+    "purple",
+    "black",
+    "gold"
   ],
   "tags": [
-    "pixel_explosion",
-    "skull_icon",
-    "mecha_sprite",
-    "nes_cover",
-    "pixel_font",
+    "dragon_bg",
+    "hero_sprite",
+    "sub_title",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: استكشاف الفضاء (SPACE EXPLORER)."
 }

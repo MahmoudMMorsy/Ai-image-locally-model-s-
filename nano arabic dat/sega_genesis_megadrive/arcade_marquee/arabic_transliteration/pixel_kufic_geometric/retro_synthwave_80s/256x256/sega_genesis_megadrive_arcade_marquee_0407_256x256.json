@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "chrome_bevel",
-      "crt_scanlines"
+      "crt_scanlines",
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "red",
-    "black",
-    "gold"
+    "purple",
+    "white",
+    "black"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_explosion",
-    "gameboy_box",
-    "pixel_frame",
+    "dragon_bg",
     "sword_icon",
+    "pixel_font",
+    "mecha_sprite",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_kufic_geometric title: استكشاف الفضاء (SPACE EXPLORER)."
 }

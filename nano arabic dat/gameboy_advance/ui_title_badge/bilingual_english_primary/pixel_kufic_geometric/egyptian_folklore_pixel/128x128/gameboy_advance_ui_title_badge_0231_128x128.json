@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "drop_shadow",
+      "glitch_displacement",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "black",
-    "white",
-    "neon_cyan"
+    "red",
+    "blue",
+    "white"
   ],
   "tags": [
-    "gameboy_box",
-    "lightning_strike",
-    "boss_battle",
-    "nes_cover",
-    "sub_title",
+    "desert_bg",
+    "pixel_font",
+    "title_screen",
+    "snes_cartridge",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

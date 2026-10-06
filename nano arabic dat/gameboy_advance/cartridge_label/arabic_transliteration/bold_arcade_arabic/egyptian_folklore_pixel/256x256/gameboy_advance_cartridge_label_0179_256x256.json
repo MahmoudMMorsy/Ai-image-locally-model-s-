@@ -20,17 +20,17 @@
   "colors": [
     "black",
     "blue",
-    "neon_cyan"
+    "red"
   ],
   "tags": [
-    "dragon_bg",
-    "sega_grid",
-    "snes_cartridge",
-    "skull_icon",
+    "lightning_strike",
     "castle_stage",
+    "pyramid_bg",
+    "skull_icon",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with bold_arcade_arabic title: سيد الحلبة (RING MASTER)."
 }

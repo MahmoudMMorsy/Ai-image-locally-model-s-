@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "16-bit_gradient"
+      "pixel_gradient",
+      "crt_scanlines",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "border_framed",
   "colors": [
-    "gold",
-    "purple",
-    "neon_cyan"
+    "red",
+    "black",
+    "blue"
   ],
   "tags": [
-    "title_screen",
     "arabic_text",
-    "sub_title",
-    "space_ship",
-    "pixel_font",
+    "pixel_frame",
+    "connected_letters",
+    "sega_grid",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with fantasy_ornate_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

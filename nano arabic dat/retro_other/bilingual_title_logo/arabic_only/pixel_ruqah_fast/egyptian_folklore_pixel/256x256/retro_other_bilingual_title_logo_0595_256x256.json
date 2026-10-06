@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "16-bit_gradient",
-      "dripping_slime",
-      "fire_effect"
+      "thick_black_outline",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
-    "red",
-    "white"
+    "black",
+    "white",
+    "purple"
   ],
   "tags": [
-    "hero_sprite",
-    "pixel_explosion",
-    "gameboy_box",
-    "pyramid_bg",
-    "connected_letters",
+    "title_screen",
+    "lightning_strike",
+    "pixel_font",
+    "castle_stage",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
 }

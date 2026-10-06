@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "fire_effect",
       "grid_overlay",
-      "dripping_slime",
-      "fire_effect"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "white",
-    "black"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
-    "castle_stage",
-    "pixel_explosion",
-    "dragon_bg",
-    "connected_letters",
     "skull_icon",
+    "desert_bg",
+    "title_screen",
+    "nes_cover",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

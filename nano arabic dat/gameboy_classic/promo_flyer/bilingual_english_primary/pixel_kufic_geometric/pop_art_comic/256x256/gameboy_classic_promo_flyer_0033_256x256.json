@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glitch_displacement",
+      "crt_scanlines",
       "chrome_bevel",
-      "dripping_slime"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
-    "purple",
-    "red"
+    "neon_cyan",
+    "black",
+    "white"
   ],
   "tags": [
-    "pixel_frame",
-    "skull_icon",
-    "sword_icon",
-    "castle_stage",
-    "pixel_font",
+    "nes_cover",
+    "pixel_explosion",
+    "sub_title",
+    "connected_letters",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: مملكة السحر (MAGIC KINGDOM)."
 }

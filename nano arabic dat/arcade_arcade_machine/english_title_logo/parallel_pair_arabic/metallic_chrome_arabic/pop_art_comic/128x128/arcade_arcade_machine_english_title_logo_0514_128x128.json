@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "pixel_gradient",
-      "glowing_edges",
-      "1-bit_dithering"
+      "thick_black_outline",
+      "fire_effect",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
-    "blue",
-    "white"
+    "white",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "sword_icon",
+    "hero_sprite",
+    "pixel_font",
+    "skull_icon",
+    "boss_battle",
     "castle_stage",
-    "mecha_sprite",
-    "pixel_typography",
-    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

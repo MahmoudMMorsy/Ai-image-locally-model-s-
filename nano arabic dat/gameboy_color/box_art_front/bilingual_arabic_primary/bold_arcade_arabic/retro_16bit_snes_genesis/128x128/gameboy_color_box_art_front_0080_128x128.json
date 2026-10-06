@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "thick_black_outline"
+      "glowing_edges",
+      "thick_black_outline",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "border_framed",
   "colors": [
-    "purple",
-    "red",
+    "gold",
+    "black",
     "white"
   ],
   "tags": [
-    "nes_cover",
-    "castle_stage",
-    "gameboy_box",
-    "sega_grid",
-    "space_ship",
+    "pyramid_bg",
+    "sword_icon",
+    "arabic_text",
+    "boss_battle",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "fire_effect",
-      "chrome_bevel"
+      "chrome_bevel",
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
+    "purple",
     "neon_cyan",
-    "red",
-    "blue"
+    "white"
   ],
   "tags": [
+    "desert_bg",
+    "snes_cartridge",
+    "arabic_text",
     "pixel_typography",
-    "boss_battle",
-    "title_screen",
-    "gameboy_box",
-    "sega_grid",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

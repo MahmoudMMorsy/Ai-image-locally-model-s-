@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "glitch_displacement",
-      "glowing_edges"
+      "crt_scanlines",
+      "1-bit_dithering",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "neon_cyan",
-    "red"
+    "purple",
+    "red",
+    "blue"
   ],
   "tags": [
-    "nes_cover",
-    "desert_bg",
-    "snes_cartridge",
+    "pixel_font",
     "pixel_explosion",
-    "space_ship",
+    "connected_letters",
+    "title_screen",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

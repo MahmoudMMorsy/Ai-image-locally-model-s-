@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "crt_scanlines",
-      "grid_overlay",
-      "glowing_edges"
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "white"
+    "red",
+    "white",
+    "black"
   ],
   "tags": [
-    "title_screen",
-    "pixel_frame",
-    "castle_stage",
-    "mecha_sprite",
-    "lightning_strike",
+    "space_ship",
+    "nes_cover",
+    "desert_bg",
+    "sub_title",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

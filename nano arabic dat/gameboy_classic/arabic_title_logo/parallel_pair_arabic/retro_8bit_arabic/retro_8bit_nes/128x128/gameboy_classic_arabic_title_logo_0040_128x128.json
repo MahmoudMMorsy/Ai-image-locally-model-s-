@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "fire_effect",
-      "pixel_gradient",
-      "chrome_bevel"
+      "glowing_edges",
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "red",
     "purple",
-    "gold"
+    "white",
+    "red"
   ],
   "tags": [
-    "boss_battle",
-    "connected_letters",
-    "mecha_sprite",
-    "desert_bg",
-    "sega_grid",
+    "lightning_strike",
+    "pixel_font",
+    "pixel_explosion",
+    "arabic_text",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: معركة النهائي (FINAL BATTLE)."
 }

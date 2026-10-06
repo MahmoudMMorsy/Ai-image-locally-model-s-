@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "glowing_edges"
+      "glitch_displacement",
+      "glowing_edges",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "blue",
-    "red"
+    "black",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "pyramid_bg",
-    "gameboy_box",
-    "nes_cover",
-    "space_ship",
+    "mecha_sprite",
+    "pixel_typography",
+    "lightning_strike",
+    "sword_icon",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_kufic_geometric title: أسطورة النور (LEGEND OF LIGHT)."
 }

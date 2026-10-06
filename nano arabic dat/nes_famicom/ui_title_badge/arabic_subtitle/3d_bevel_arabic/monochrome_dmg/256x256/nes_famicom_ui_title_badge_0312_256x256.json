@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "glowing_edges",
       "chrome_bevel",
-      "drop_shadow",
-      "16-bit_gradient"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
-    "white",
-    "purple"
+    "black",
+    "red",
+    "blue"
   ],
   "tags": [
-    "connected_letters",
-    "title_screen",
+    "skull_icon",
+    "gameboy_box",
+    "arabic_text",
+    "nes_cover",
     "sub_title",
-    "boss_battle",
-    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "dripping_slime",
-      "drop_shadow"
+      "crt_scanlines",
+      "glowing_edges",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
+    "red",
     "neon_cyan",
     "gold"
   ],
   "tags": [
+    "mecha_sprite",
+    "arabic_text",
+    "lightning_strike",
     "connected_letters",
-    "castle_stage",
-    "dragon_bg",
-    "pixel_font",
-    "pixel_typography",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: سيد الحلبة (RING MASTER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with 3d_bevel_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

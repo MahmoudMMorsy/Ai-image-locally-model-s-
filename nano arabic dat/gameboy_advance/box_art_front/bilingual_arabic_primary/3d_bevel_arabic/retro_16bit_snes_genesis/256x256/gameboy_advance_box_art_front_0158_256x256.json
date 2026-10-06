@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glowing_edges",
-      "16-bit_gradient",
-      "fire_effect"
+      "grid_overlay",
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "black",
-    "purple"
+    "purple",
+    "white",
+    "red"
   ],
   "tags": [
-    "space_ship",
+    "pixel_typography",
     "hero_sprite",
-    "pixel_frame",
-    "connected_letters",
-    "desert_bg",
+    "snes_cartridge",
+    "pixel_explosion",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

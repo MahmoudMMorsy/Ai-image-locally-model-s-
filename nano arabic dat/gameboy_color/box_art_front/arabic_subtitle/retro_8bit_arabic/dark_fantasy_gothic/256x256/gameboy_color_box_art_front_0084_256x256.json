@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "glowing_edges",
-      "pixel_gradient"
+      "glitch_displacement",
+      "gold_texture",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "gold",
-    "red",
-    "white"
+    "white",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "sword_icon",
-    "nes_cover",
-    "sega_grid",
-    "hero_sprite",
-    "castle_stage",
+    "pixel_typography",
+    "pixel_frame",
+    "boss_battle",
+    "pixel_font",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
+      "glowing_edges",
       "1-bit_dithering",
-      "crt_scanlines"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "grid_framed_boxart",
   "colors": [
+    "black",
     "blue",
-    "red",
-    "purple"
+    "neon_cyan"
   ],
   "tags": [
-    "sub_title",
-    "sega_grid",
-    "arabic_text",
-    "connected_letters",
-    "skull_icon",
+    "desert_bg",
+    "snes_cartridge",
+    "pixel_explosion",
+    "title_screen",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
 }

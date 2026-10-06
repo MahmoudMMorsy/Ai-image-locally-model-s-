@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
-      "dripping_slime",
-      "fire_effect"
+      "gold_texture",
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
     "black",
-    "red"
+    "red",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "boss_battle",
-    "pixel_frame",
-    "connected_letters",
-    "title_screen",
+    "pixel_font",
+    "snes_cartridge",
+    "pixel_explosion",
+    "pixel_typography",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
 }

@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "pixel_gradient",
-      "drop_shadow",
-      "16-bit_gradient"
+      "dripping_slime",
+      "glowing_edges",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "purple",
-    "black"
+    "neon_cyan",
+    "red",
+    "blue"
   ],
   "tags": [
-    "space_ship",
-    "pixel_frame",
-    "arabic_text",
-    "dragon_bg",
-    "sword_icon",
+    "connected_letters",
+    "snes_cartridge",
+    "skull_icon",
+    "sega_grid",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
 }

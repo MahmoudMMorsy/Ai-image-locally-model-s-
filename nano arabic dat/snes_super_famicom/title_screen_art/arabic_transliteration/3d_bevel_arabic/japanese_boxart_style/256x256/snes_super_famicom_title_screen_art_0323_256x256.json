@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "fire_effect"
+      "crt_scanlines",
+      "dripping_slime",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "border_framed",
   "colors": [
-    "red",
     "blue",
+    "purple",
     "neon_cyan"
   ],
   "tags": [
+    "nes_cover",
+    "space_ship",
+    "pixel_frame",
     "title_screen",
-    "sword_icon",
-    "boss_battle",
-    "gameboy_box",
-    "sega_grid",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with 3d_bevel_arabic title: عرش التنين (DRAGON THRONE)."
 }

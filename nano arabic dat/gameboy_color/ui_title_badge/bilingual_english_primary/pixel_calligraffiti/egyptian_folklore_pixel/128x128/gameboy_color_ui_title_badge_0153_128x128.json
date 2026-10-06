@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "chrome_bevel",
-      "fire_effect",
-      "dripping_slime"
+      "crt_scanlines",
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
-    "black",
-    "white",
-    "blue"
+    "red",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
-    "castle_stage",
-    "pixel_explosion",
-    "dragon_bg",
-    "boss_battle",
+    "snes_cartridge",
+    "arabic_text",
+    "desert_bg",
+    "sub_title",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

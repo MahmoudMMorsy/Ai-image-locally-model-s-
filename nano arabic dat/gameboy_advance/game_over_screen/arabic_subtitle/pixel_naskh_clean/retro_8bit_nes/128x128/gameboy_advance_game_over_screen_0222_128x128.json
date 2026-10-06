@@ -10,7 +10,7 @@
     "text_effects": [
       "1-bit_dithering",
       "gold_texture",
-      "fire_effect"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
-    "gold",
-    "red"
+    "neon_cyan",
+    "black",
+    "blue"
   ],
   "tags": [
-    "hero_sprite",
     "castle_stage",
-    "pixel_typography",
-    "pyramid_bg",
-    "sword_icon",
+    "boss_battle",
+    "mecha_sprite",
+    "arabic_text",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_naskh_clean title: سر الأهرامات (PYRAMID SECRET)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "thick_black_outline",
-      "16-bit_gradient",
-      "glitch_displacement"
+      "fire_effect",
+      "dripping_slime",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
-    "blue",
-    "neon_cyan"
+    "purple",
+    "black",
+    "white"
   ],
   "tags": [
+    "pyramid_bg",
+    "nes_cover",
+    "title_screen",
+    "gameboy_box",
     "pixel_typography",
-    "dragon_bg",
-    "pixel_font",
-    "sub_title",
-    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

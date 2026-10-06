@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "pixel_gradient",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "dripping_slime",
+      "drop_shadow",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "center_title_large",
   "colors": [
+    "purple",
     "blue",
-    "gold",
-    "black"
+    "gold"
   ],
   "tags": [
-    "pixel_font",
-    "nes_cover",
-    "skull_icon",
-    "mecha_sprite",
+    "arabic_text",
+    "pixel_explosion",
     "hero_sprite",
+    "mecha_sprite",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
 }

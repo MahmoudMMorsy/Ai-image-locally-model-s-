@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "drop_shadow",
-      "pixel_gradient",
-      "grid_overlay"
+      "gold_texture",
+      "dripping_slime",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "gold",
+    "purple",
+    "blue",
     "white"
   ],
   "tags": [
-    "desert_bg",
-    "lightning_strike",
-    "castle_stage",
     "hero_sprite",
-    "connected_letters",
+    "sub_title",
+    "boss_battle",
+    "pyramid_bg",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with bold_arcade_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

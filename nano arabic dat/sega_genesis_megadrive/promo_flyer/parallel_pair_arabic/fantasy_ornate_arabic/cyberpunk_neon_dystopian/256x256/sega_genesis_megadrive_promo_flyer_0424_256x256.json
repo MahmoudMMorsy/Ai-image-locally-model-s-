@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "thick_black_outline",
-      "1-bit_dithering",
-      "crt_scanlines"
+      "16-bit_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "black"
+    "black",
+    "gold",
+    "blue"
   ],
   "tags": [
-    "castle_stage",
-    "snes_cartridge",
-    "nes_cover",
+    "arabic_text",
+    "pixel_font",
+    "desert_bg",
     "pixel_typography",
-    "space_ship",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: حرب المجرات (GALAXY WAR)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with fantasy_ornate_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "glowing_edges",
-      "crt_scanlines"
+      "drop_shadow",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "centered_emblem",
   "colors": [
-    "neon_cyan",
-    "white",
-    "red"
+    "black",
+    "red",
+    "purple"
   ],
   "tags": [
-    "connected_letters",
-    "sega_grid",
-    "arabic_text",
-    "lightning_strike",
     "dragon_bg",
+    "sega_grid",
+    "sword_icon",
+    "sub_title",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
 }

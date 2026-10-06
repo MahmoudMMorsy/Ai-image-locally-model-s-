@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "1-bit_dithering",
-      "crt_scanlines"
+      "16-bit_gradient",
+      "glowing_edges",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "neon_cyan",
-    "gold"
+    "red",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "nes_cover",
-    "pixel_font",
-    "space_ship",
-    "sub_title",
-    "arabic_text",
+    "desert_bg",
+    "title_screen",
+    "pixel_frame",
+    "dragon_bg",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_thuluth_display title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_thuluth_display title: الفارس الشجاع (BRAVE KNIGHT)."
 }

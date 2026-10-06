@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "fire_effect",
-      "glitch_displacement",
-      "dripping_slime"
+      "grid_overlay",
+      "thick_black_outline",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "purple",
-    "gold",
+    "black",
+    "white",
     "neon_cyan"
   ],
   "tags": [
-    "pyramid_bg",
-    "nes_cover",
+    "sega_grid",
     "desert_bg",
-    "pixel_font",
-    "castle_stage",
+    "connected_letters",
+    "hero_sprite",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with neon_glitch_arabic title: معركة النهائي (FINAL BATTLE)."
 }

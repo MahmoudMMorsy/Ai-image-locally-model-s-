@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "crt_scanlines",
-      "glitch_displacement",
-      "chrome_bevel"
+      "chrome_bevel",
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "red",
+    "purple",
     "neon_cyan",
-    "blue"
+    "black"
   ],
   "tags": [
-    "title_screen",
-    "arabic_text",
-    "nes_cover",
-    "pixel_typography",
-    "connected_letters",
+    "dragon_bg",
+    "pixel_explosion",
+    "skull_icon",
+    "sega_grid",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

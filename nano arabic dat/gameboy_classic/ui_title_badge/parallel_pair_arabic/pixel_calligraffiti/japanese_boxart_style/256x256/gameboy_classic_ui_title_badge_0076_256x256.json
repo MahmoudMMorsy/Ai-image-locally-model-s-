@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "drop_shadow",
       "pixel_gradient",
-      "grid_overlay",
-      "drop_shadow"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "black_border_nes",
   "colors": [
     "gold",
-    "purple",
-    "neon_cyan"
+    "black",
+    "red"
   ],
   "tags": [
-    "pyramid_bg",
-    "snes_cartridge",
-    "title_screen",
     "dragon_bg",
-    "gameboy_box",
+    "hero_sprite",
+    "castle_stage",
+    "skull_icon",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

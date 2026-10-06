@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "1-bit_dithering",
-      "glowing_edges"
+      "glowing_edges",
+      "chrome_bevel",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "center_title_large",
   "colors": [
     "red",
-    "gold",
-    "neon_cyan"
+    "white",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "skull_icon",
+    "boss_battle",
+    "pixel_explosion",
     "pixel_font",
-    "pixel_frame",
-    "nes_cover",
+    "desert_bg",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

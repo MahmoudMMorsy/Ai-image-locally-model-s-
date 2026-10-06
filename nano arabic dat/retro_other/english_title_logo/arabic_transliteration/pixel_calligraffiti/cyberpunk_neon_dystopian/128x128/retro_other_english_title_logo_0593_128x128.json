@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "glowing_edges",
-      "1-bit_dithering",
-      "16-bit_gradient"
+      "glitch_displacement",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
     "red",
-    "white"
+    "blue",
+    "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "pixel_explosion",
-    "dragon_bg",
     "pixel_frame",
-    "desert_bg",
+    "skull_icon",
+    "sega_grid",
+    "pyramid_bg",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: عرش التنين (DRAGON THRONE)."
 }

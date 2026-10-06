@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "pixel_gradient",
-      "crt_scanlines"
+      "glitch_displacement",
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "purple",
     "black",
-    "blue"
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
+    "pixel_explosion",
+    "pixel_font",
+    "sub_title",
+    "arabic_text",
     "sword_icon",
-    "gameboy_box",
-    "pixel_frame",
-    "boss_battle",
-    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

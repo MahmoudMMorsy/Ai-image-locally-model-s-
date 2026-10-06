@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "glowing_edges",
-      "thick_black_outline"
+      "16-bit_gradient",
+      "thick_black_outline",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "border_framed",
   "colors": [
-    "black",
+    "neon_cyan",
     "blue",
-    "red"
+    "gold"
   ],
   "tags": [
+    "castle_stage",
+    "gameboy_box",
+    "dragon_bg",
     "pixel_explosion",
-    "hero_sprite",
-    "pixel_typography",
-    "boss_battle",
-    "pixel_frame",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

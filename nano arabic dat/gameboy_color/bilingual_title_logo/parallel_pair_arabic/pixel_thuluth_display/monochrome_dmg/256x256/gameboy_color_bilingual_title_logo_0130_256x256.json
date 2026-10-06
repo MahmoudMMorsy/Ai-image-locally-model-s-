@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
       "fire_effect",
-      "dripping_slime"
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "black_border_nes",
   "colors": [
+    "purple",
     "neon_cyan",
-    "red",
-    "gold"
+    "black"
   ],
   "tags": [
-    "pixel_font",
-    "skull_icon",
-    "desert_bg",
+    "nes_cover",
+    "castle_stage",
+    "boss_battle",
     "pixel_frame",
-    "lightning_strike",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_thuluth_display title: معركة النهائي (FINAL BATTLE)."
 }

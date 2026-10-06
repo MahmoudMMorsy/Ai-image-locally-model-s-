@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "drop_shadow",
-      "dripping_slime"
+      "glitch_displacement",
+      "chrome_bevel",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "red"
+    "black",
+    "white",
+    "purple"
   ],
   "tags": [
-    "hero_sprite",
-    "pixel_frame",
-    "castle_stage",
-    "arabic_text",
+    "desert_bg",
     "nes_cover",
+    "space_ship",
+    "lightning_strike",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

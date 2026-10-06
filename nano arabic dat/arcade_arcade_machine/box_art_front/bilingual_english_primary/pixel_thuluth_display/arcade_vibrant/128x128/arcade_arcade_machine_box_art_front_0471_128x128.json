@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "drop_shadow",
-      "dripping_slime",
-      "fire_effect"
+      "thick_black_outline",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
+    "black",
     "purple",
-    "red"
+    "white"
   ],
   "tags": [
-    "gameboy_box",
+    "dragon_bg",
+    "pixel_font",
+    "skull_icon",
     "sub_title",
-    "title_screen",
-    "desert_bg",
     "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_thuluth_display title: قافلة الصحراء (DESERT CARAVAN)."
 }

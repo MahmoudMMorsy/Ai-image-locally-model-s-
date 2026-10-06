@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "grid_overlay",
-      "thick_black_outline",
-      "gold_texture"
+      "1-bit_dithering",
+      "glitch_displacement",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
-    "purple",
-    "red"
+    "blue",
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "connected_letters",
-    "gameboy_box",
-    "desert_bg",
-    "hero_sprite",
-    "pyramid_bg",
+    "boss_battle",
+    "snes_cartridge",
+    "sub_title",
+    "castle_stage",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with metallic_chrome_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

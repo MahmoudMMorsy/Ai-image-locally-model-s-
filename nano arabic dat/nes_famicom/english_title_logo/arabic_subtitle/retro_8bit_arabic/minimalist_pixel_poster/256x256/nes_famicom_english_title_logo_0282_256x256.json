@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "gold_texture",
+      "fire_effect",
       "16-bit_gradient",
-      "1-bit_dithering"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "grid_framed_boxart",
   "colors": [
+    "red",
     "purple",
-    "white",
-    "red"
+    "blue"
   ],
   "tags": [
-    "castle_stage",
-    "pixel_typography",
-    "desert_bg",
-    "pixel_explosion",
-    "sega_grid",
+    "pixel_frame",
+    "gameboy_box",
+    "dragon_bg",
+    "title_screen",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

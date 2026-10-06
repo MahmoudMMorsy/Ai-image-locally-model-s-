@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "drop_shadow",
-      "1-bit_dithering",
-      "gold_texture"
+      "16-bit_gradient",
+      "thick_black_outline",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
-    "black",
-    "blue"
+    "blue",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "mecha_sprite",
-    "connected_letters",
-    "castle_stage",
     "hero_sprite",
-    "skull_icon",
+    "nes_cover",
+    "sega_grid",
+    "sword_icon",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: نصر الأبطال (VICTORY HEROES)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: عرش التنين (DRAGON THRONE)."
 }

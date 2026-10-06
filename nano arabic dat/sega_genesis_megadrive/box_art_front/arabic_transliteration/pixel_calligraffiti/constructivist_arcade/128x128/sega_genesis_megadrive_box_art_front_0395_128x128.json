@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
-      "16-bit_gradient"
+      "chrome_bevel",
+      "glowing_edges",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "border_framed",
   "colors": [
-    "blue",
+    "black",
     "red",
     "neon_cyan"
   ],
   "tags": [
+    "snes_cartridge",
     "pixel_frame",
-    "desert_bg",
-    "pixel_font",
-    "sega_grid",
-    "gameboy_box",
+    "pixel_typography",
+    "castle_stage",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: أعماق المحيط (OCEAN DEPTHS)."
 }

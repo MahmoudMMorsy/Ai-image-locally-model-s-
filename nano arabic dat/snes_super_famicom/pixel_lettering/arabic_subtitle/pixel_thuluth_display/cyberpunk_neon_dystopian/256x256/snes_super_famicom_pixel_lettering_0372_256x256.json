@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "drop_shadow",
-      "gold_texture",
-      "pixel_gradient"
+      "glowing_edges",
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "grid_framed_boxart",
   "colors": [
     "black",
-    "neon_cyan",
-    "purple"
+    "purple",
+    "red"
   ],
   "tags": [
-    "castle_stage",
-    "sub_title",
-    "boss_battle",
-    "sword_icon",
-    "pixel_frame",
+    "connected_letters",
+    "pixel_font",
+    "title_screen",
+    "pixel_explosion",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_thuluth_display title: سر الأهرامات (PYRAMID SECRET)."
 }

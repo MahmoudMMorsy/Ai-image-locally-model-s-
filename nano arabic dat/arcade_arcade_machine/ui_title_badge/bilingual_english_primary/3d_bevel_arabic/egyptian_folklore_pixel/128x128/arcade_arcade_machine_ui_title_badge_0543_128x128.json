@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "gold_texture",
-      "thick_black_outline"
+      "glowing_edges",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
+    "gold",
     "purple",
-    "white"
+    "red"
   ],
   "tags": [
-    "boss_battle",
-    "space_ship",
-    "pyramid_bg",
     "skull_icon",
-    "snes_cartridge",
+    "pixel_frame",
+    "title_screen",
+    "sword_icon",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

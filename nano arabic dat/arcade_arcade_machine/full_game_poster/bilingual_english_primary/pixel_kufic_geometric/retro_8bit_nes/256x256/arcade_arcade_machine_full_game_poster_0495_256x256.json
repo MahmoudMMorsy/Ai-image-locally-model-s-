@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "gold_texture",
-      "fire_effect"
+      "pixel_gradient",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "center_title_large",
   "colors": [
+    "neon_cyan",
     "purple",
-    "black",
-    "blue"
+    "black"
   ],
   "tags": [
-    "pixel_explosion",
+    "dragon_bg",
+    "arabic_text",
+    "desert_bg",
+    "space_ship",
     "sub_title",
-    "connected_letters",
-    "sega_grid",
-    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "thick_black_outline",
-      "crt_scanlines",
-      "fire_effect"
+      "glowing_edges",
+      "grid_overlay",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
-    "purple",
-    "red",
-    "black"
+    "blue",
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "pixel_typography",
+    "sword_icon",
+    "pyramid_bg",
     "pixel_font",
-    "hero_sprite",
-    "desert_bg",
-    "arabic_text",
+    "sega_grid",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
+      "dripping_slime",
       "thick_black_outline",
-      "chrome_bevel"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "white"
+    "gold",
+    "white",
+    "purple"
   ],
   "tags": [
+    "arabic_text",
+    "pyramid_bg",
+    "snes_cartridge",
     "gameboy_box",
-    "boss_battle",
-    "castle_stage",
-    "pixel_font",
-    "title_screen",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

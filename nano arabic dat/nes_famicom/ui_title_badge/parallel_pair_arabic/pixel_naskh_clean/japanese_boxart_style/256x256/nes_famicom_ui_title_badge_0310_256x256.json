@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "drop_shadow",
       "grid_overlay",
-      "thick_black_outline",
-      "dripping_slime"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "white",
     "gold",
-    "black"
+    "blue"
   ],
   "tags": [
-    "pixel_explosion",
-    "pixel_frame",
-    "sub_title",
-    "pyramid_bg",
-    "boss_battle",
+    "space_ship",
+    "skull_icon",
+    "connected_letters",
+    "dragon_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

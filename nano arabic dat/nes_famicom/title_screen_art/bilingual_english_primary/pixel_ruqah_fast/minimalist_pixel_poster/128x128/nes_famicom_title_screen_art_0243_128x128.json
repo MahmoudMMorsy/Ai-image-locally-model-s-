@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "16-bit_gradient",
-      "chrome_bevel"
+      "crt_scanlines",
+      "grid_overlay",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "center_title_large",
   "colors": [
+    "white",
     "gold",
-    "neon_cyan",
-    "purple"
+    "red"
   ],
   "tags": [
-    "connected_letters",
-    "nes_cover",
-    "skull_icon",
+    "hero_sprite",
     "sub_title",
-    "dragon_bg",
+    "gameboy_box",
+    "sword_icon",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_ruqah_fast title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_ruqah_fast title: مملكة السحر (MAGIC KINGDOM)."
 }

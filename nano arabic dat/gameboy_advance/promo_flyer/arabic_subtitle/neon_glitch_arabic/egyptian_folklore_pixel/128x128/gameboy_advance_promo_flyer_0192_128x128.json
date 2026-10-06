@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "pixel_gradient",
-      "thick_black_outline",
-      "glowing_edges"
+      "crt_scanlines",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
-    "gold",
     "red",
+    "black",
     "purple"
   ],
   "tags": [
-    "gameboy_box",
-    "sega_grid",
-    "pixel_frame",
-    "connected_letters",
-    "arabic_text",
+    "dragon_bg",
+    "pixel_typography",
+    "title_screen",
+    "pixel_font",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

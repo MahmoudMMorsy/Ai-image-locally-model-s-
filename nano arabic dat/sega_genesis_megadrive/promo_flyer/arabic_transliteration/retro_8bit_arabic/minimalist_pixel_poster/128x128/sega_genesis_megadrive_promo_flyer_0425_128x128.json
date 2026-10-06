@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "fire_effect",
-      "chrome_bevel",
+      "grid_overlay",
+      "dripping_slime",
       "glowing_edges"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
     "white",
+    "neon_cyan",
     "purple"
   ],
   "tags": [
-    "pixel_typography",
-    "boss_battle",
-    "sword_icon",
-    "skull_icon",
-    "connected_letters",
+    "lightning_strike",
+    "hero_sprite",
+    "castle_stage",
+    "sub_title",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with retro_8bit_arabic title: أعماق المحيط (OCEAN DEPTHS)."
 }

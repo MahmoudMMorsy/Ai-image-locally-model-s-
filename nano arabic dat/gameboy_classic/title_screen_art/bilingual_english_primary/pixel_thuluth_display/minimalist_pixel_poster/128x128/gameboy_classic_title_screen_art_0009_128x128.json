@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "glitch_displacement",
-      "drop_shadow"
+      "gold_texture",
+      "1-bit_dithering",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "center_title_large",
   "colors": [
-    "gold",
-    "blue",
-    "red"
+    "red",
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "pixel_frame",
-    "gameboy_box",
-    "snes_cartridge",
     "castle_stage",
+    "boss_battle",
+    "space_ship",
+    "sword_icon",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

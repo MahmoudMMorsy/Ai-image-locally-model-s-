@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
       "grid_overlay",
-      "pixel_gradient"
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "gold",
-    "blue",
-    "white"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "dragon_bg",
-    "mecha_sprite",
-    "arabic_text",
-    "desert_bg",
-    "lightning_strike",
+    "pixel_frame",
+    "title_screen",
+    "boss_battle",
+    "gameboy_box",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

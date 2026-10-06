@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
+      "glowing_edges",
       "grid_overlay",
-      "thick_black_outline",
-      "drop_shadow"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "black_border_nes",
   "colors": [
     "white",
-    "blue",
-    "black"
+    "gold",
+    "blue"
   ],
   "tags": [
-    "pixel_frame",
-    "castle_stage",
     "nes_cover",
-    "space_ship",
-    "connected_letters",
+    "dragon_bg",
+    "snes_cartridge",
+    "skull_icon",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: معركة النهائي (FINAL BATTLE)."
 }

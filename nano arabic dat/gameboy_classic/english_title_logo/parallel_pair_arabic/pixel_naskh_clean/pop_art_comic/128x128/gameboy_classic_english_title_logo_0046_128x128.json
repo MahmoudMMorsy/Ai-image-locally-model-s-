@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "glowing_edges"
+      "glitch_displacement",
+      "drop_shadow",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
-    "black",
-    "white"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
-    "gameboy_box",
-    "castle_stage",
-    "dragon_bg",
+    "pixel_typography",
+    "sub_title",
+    "skull_icon",
+    "pixel_explosion",
     "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_naskh_clean title: الفارس الشجاع (BRAVE KNIGHT)."
 }

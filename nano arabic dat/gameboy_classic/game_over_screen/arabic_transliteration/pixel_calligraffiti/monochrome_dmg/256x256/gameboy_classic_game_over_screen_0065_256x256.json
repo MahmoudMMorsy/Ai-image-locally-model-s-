@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "glitch_displacement"
+      "drop_shadow",
+      "glitch_displacement",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "gold",
-    "purple",
-    "black"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "arabic_text",
-    "nes_cover",
-    "space_ship",
-    "lightning_strike",
+    "sword_icon",
     "pixel_font",
+    "pixel_typography",
+    "pixel_explosion",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_calligraffiti title: أعماق المحيط (OCEAN DEPTHS)."
 }

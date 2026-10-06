@@ -8,8 +8,8 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
+      "grid_overlay",
       "glowing_edges",
-      "thick_black_outline",
       "chrome_bevel"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
+    "purple",
     "blue",
     "black"
   ],
   "tags": [
+    "arabic_text",
+    "title_screen",
+    "nes_cover",
     "pixel_frame",
-    "hero_sprite",
-    "sword_icon",
-    "castle_stage",
-    "boss_battle",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with metallic_chrome_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

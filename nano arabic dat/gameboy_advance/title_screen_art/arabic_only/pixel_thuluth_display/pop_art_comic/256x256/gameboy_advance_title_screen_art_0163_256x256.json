@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "drop_shadow",
+      "16-bit_gradient",
       "1-bit_dithering",
-      "dripping_slime"
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
+    "gold",
     "blue",
-    "neon_cyan"
+    "purple"
   ],
   "tags": [
-    "space_ship",
-    "mecha_sprite",
+    "arabic_text",
+    "pixel_explosion",
     "connected_letters",
-    "boss_battle",
-    "hero_sprite",
+    "nes_cover",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

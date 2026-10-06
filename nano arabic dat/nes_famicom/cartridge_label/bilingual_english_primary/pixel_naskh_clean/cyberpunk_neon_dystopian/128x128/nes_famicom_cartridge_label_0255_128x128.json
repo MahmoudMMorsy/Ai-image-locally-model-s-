@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glowing_edges",
-      "pixel_gradient",
-      "drop_shadow"
+      "drop_shadow",
+      "16-bit_gradient",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "grid_framed_boxart",
   "colors": [
-    "blue",
-    "purple",
-    "red"
+    "black",
+    "red",
+    "white"
   ],
   "tags": [
-    "nes_cover",
-    "gameboy_box",
-    "mecha_sprite",
-    "title_screen",
-    "connected_letters",
+    "desert_bg",
+    "pixel_explosion",
+    "sega_grid",
+    "dragon_bg",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: أعماق المحيط (OCEAN DEPTHS)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_naskh_clean title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

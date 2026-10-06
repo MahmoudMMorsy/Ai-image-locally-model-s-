@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "dripping_slime",
-      "thick_black_outline",
-      "1-bit_dithering"
+      "glitch_displacement",
+      "pixel_gradient",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "border_framed",
   "colors": [
-    "black",
-    "gold",
-    "blue"
+    "purple",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "nes_cover",
-    "dragon_bg",
-    "lightning_strike",
-    "pixel_explosion",
-    "gameboy_box",
+    "sword_icon",
+    "connected_letters",
+    "snes_cartridge",
+    "arabic_text",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_calligraffiti title: استكشاف الفضاء (SPACE EXPLORER)."
 }

@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "pixel_gradient",
-      "dripping_slime"
+      "gold_texture",
+      "fire_effect",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "black_border_nes",
   "colors": [
-    "red",
     "purple",
-    "neon_cyan"
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "lightning_strike",
-    "dragon_bg",
+    "space_ship",
+    "boss_battle",
+    "pixel_typography",
     "mecha_sprite",
-    "connected_letters",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: محارب الساموراي (SAMURAI WARRIOR)."
 }

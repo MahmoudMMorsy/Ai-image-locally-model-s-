@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "glowing_edges",
-      "1-bit_dithering"
+      "gold_texture",
+      "fire_effect",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "centered_emblem",
   "colors": [
+    "gold",
     "red",
-    "blue",
-    "black"
+    "neon_cyan"
   ],
   "tags": [
-    "sega_grid",
-    "skull_icon",
-    "pixel_explosion",
-    "sword_icon",
+    "lightning_strike",
+    "pixel_font",
+    "hero_sprite",
     "pixel_frame",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with neon_glitch_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

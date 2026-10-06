@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "gold_texture",
-      "pixel_gradient",
-      "16-bit_gradient"
+      "thick_black_outline",
+      "grid_overlay",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
-    "red",
-    "black",
-    "purple"
+    "neon_cyan",
+    "purple",
+    "red"
   ],
   "tags": [
-    "pyramid_bg",
-    "hero_sprite",
-    "boss_battle",
-    "pixel_frame",
-    "dragon_bg",
+    "skull_icon",
+    "arabic_text",
+    "space_ship",
+    "connected_letters",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

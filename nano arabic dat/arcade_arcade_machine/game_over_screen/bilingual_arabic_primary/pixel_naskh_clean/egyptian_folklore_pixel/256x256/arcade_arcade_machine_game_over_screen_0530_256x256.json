@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "chrome_bevel",
-      "crt_scanlines",
-      "grid_overlay"
+      "fire_effect",
+      "glitch_displacement",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "border_framed",
   "colors": [
-    "white",
     "black",
+    "white",
     "blue"
   ],
   "tags": [
+    "boss_battle",
+    "sub_title",
+    "title_screen",
     "lightning_strike",
-    "pixel_font",
-    "dragon_bg",
-    "desert_bg",
-    "connected_letters",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

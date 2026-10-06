@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "gold_texture",
-      "crt_scanlines"
+      "16-bit_gradient",
+      "1-bit_dithering",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "gold",
-    "black"
+    "red",
+    "blue",
+    "white"
   ],
   "tags": [
-    "boss_battle",
-    "hero_sprite",
-    "sega_grid",
-    "mecha_sprite",
     "connected_letters",
+    "pixel_frame",
+    "pixel_explosion",
+    "mecha_sprite",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with bold_arcade_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

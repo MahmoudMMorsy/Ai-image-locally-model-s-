@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "chrome_bevel",
-      "gold_texture",
-      "drop_shadow"
+      "grid_overlay",
+      "fire_effect",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
+    "blue",
     "gold",
-    "white"
+    "black"
   ],
   "tags": [
-    "skull_icon",
-    "lightning_strike",
-    "pixel_typography",
+    "connected_letters",
+    "sword_icon",
+    "pixel_frame",
+    "dragon_bg",
     "desert_bg",
-    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with bold_arcade_arabic title: سر الأهرامات (PYRAMID SECRET)."
 }

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
-      "16-bit_gradient",
-      "gold_texture"
+      "glitch_displacement",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "grid_framed_boxart",
   "colors": [
     "purple",
-    "black",
-    "gold"
+    "gold",
+    "black"
   ],
   "tags": [
-    "mecha_sprite",
-    "dragon_bg",
-    "connected_letters",
-    "pixel_frame",
-    "nes_cover",
+    "hero_sprite",
+    "pixel_explosion",
+    "castle_stage",
+    "sega_grid",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: مدينة السايبر (CYBER CITY)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with fantasy_ornate_arabic title: قافلة الصحراء (DESERT CARAVAN)."
 }

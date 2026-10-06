@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "fire_effect",
-      "crt_scanlines",
-      "gold_texture"
+      "glowing_edges",
+      "pixel_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "blue",
-    "purple",
-    "gold"
+    "black",
+    "white"
   ],
   "tags": [
-    "pixel_frame",
-    "sword_icon",
-    "nes_cover",
-    "sega_grid",
-    "desert_bg",
+    "title_screen",
+    "pixel_typography",
+    "hero_sprite",
+    "space_ship",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: قتال الشوارع (STREET FIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: استكشاف الفضاء (SPACE EXPLORER)."
 }

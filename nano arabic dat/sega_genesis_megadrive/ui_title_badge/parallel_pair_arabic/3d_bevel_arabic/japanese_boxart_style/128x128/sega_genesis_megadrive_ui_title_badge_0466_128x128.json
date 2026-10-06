@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "thick_black_outline",
-      "dripping_slime"
+      "1-bit_dithering",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "blue",
-    "black",
-    "neon_cyan"
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "connected_letters",
-    "pixel_typography",
-    "pixel_frame",
-    "castle_stage",
+    "sub_title",
+    "sword_icon",
+    "pixel_font",
+    "arabic_text",
     "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: سيف العدالة (SWORD OF JUSTICE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

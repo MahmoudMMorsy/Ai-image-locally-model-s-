@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glowing_edges",
-      "pixel_gradient",
-      "glitch_displacement"
+      "grid_overlay",
+      "dripping_slime",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "centered_emblem",
   "colors": [
+    "purple",
     "white",
-    "black",
-    "red"
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
+    "sword_icon",
+    "sega_grid",
+    "pixel_explosion",
+    "sub_title",
     "gameboy_box",
-    "connected_letters",
-    "desert_bg",
-    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with 3d_bevel_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

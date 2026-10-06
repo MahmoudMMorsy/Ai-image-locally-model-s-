@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
-      "drop_shadow"
+      "drop_shadow",
+      "glowing_edges",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "centered_emblem",
   "colors": [
-    "blue",
-    "red",
-    "purple"
+    "purple",
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "lightning_strike",
-    "boss_battle",
-    "pixel_explosion",
-    "connected_letters",
-    "pixel_typography",
+    "pixel_frame",
+    "sega_grid",
+    "sword_icon",
+    "snes_cartridge",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: مملكة السحر (MAGIC KINGDOM)."
 }

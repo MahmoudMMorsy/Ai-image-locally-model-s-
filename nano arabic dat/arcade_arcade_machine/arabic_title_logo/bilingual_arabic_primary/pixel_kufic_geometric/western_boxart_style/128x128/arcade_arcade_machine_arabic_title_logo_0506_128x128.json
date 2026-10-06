@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "crt_scanlines",
-      "fire_effect"
+      "fire_effect",
+      "chrome_bevel",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "black",
-    "neon_cyan"
+    "purple",
+    "red",
+    "white"
   ],
   "tags": [
     "pixel_explosion",
-    "gameboy_box",
-    "hero_sprite",
-    "desert_bg",
-    "connected_letters",
+    "sub_title",
+    "snes_cartridge",
+    "castle_stage",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: قافلة الصحراء (DESERT CARAVAN)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: مدينة السايبر (CYBER CITY)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glitch_displacement",
-      "grid_overlay",
-      "thick_black_outline"
+      "dripping_slime",
+      "gold_texture",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "center_title_large",
   "colors": [
-    "blue",
-    "gold",
-    "red"
+    "white",
+    "red",
+    "blue"
   ],
   "tags": [
-    "skull_icon",
-    "gameboy_box",
-    "mecha_sprite",
-    "pixel_typography",
-    "pixel_explosion",
+    "pixel_font",
+    "sega_grid",
+    "sub_title",
+    "snes_cartridge",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: مملكة السحر (MAGIC KINGDOM)."
 }

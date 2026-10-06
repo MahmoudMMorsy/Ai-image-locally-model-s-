@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "thick_black_outline",
-      "chrome_bevel",
-      "grid_overlay"
+      "glowing_edges",
+      "pixel_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "border_framed",
   "colors": [
-    "gold",
     "red",
-    "blue"
+    "black",
+    "purple"
   ],
   "tags": [
-    "lightning_strike",
-    "pixel_typography",
+    "connected_letters",
+    "sword_icon",
+    "skull_icon",
     "pixel_font",
-    "dragon_bg",
-    "mecha_sprite",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with neon_glitch_arabic title: مدينة السايبر (CYBER CITY)."
 }

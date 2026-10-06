@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "drop_shadow",
+      "pixel_gradient",
       "dripping_slime",
-      "grid_overlay"
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
     "purple",
-    "white"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "lightning_strike",
-    "connected_letters",
-    "skull_icon",
-    "sword_icon",
+    "sega_grid",
+    "title_screen",
+    "nes_cover",
+    "castle_stage",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

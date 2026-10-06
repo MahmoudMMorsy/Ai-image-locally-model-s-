@@ -8,8 +8,8 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "chrome_bevel",
       "1-bit_dithering",
-      "pixel_gradient",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
-    "purple",
-    "white"
+    "blue",
+    "black",
+    "neon_cyan"
   ],
   "tags": [
     "pixel_font",
-    "nes_cover",
-    "boss_battle",
-    "arabic_text",
-    "sub_title",
+    "skull_icon",
+    "snes_cartridge",
+    "space_ship",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: حرب المجرات (GALAXY WAR)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with metallic_chrome_arabic title: سيد الحلبة (RING MASTER)."
 }

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "glitch_displacement",
-      "gold_texture"
+      "16-bit_gradient",
+      "grid_overlay",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
+    "gold",
     "blue",
-    "black",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
-    "pyramid_bg",
-    "desert_bg",
-    "connected_letters",
+    "title_screen",
+    "pixel_font",
     "nes_cover",
     "mecha_sprite",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: سيد الحلبة (RING MASTER)."
 }

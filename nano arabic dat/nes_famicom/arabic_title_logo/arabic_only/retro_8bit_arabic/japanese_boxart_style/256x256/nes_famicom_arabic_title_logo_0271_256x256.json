@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
+      "grid_overlay",
       "gold_texture",
-      "fire_effect"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
+    "black",
     "white",
-    "blue"
+    "gold"
   ],
   "tags": [
     "sword_icon",
-    "snes_cartridge",
-    "skull_icon",
-    "arabic_text",
-    "sega_grid",
+    "pixel_frame",
+    "connected_letters",
+    "sub_title",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: أميرة الأسطورة (LEGEND PRINCESS)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with retro_8bit_arabic title: الفارس الشجاع (BRAVE KNIGHT)."
 }

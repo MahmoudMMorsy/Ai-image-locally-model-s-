@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
-      "glitch_displacement",
-      "pixel_gradient"
+      "grid_overlay",
+      "pixel_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "red",
-    "black"
+    "neon_cyan",
+    "black",
+    "blue"
   ],
   "tags": [
-    "snes_cartridge",
-    "castle_stage",
+    "pyramid_bg",
+    "gameboy_box",
+    "lightning_strike",
     "sword_icon",
-    "nes_cover",
-    "pixel_typography",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_ruqah_fast title: نصر الأبطال (VICTORY HEROES)."
 }

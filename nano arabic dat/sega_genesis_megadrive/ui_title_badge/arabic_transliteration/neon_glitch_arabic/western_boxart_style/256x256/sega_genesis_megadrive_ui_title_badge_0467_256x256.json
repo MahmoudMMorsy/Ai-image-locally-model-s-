@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "fire_effect",
-      "thick_black_outline"
+      "gold_texture",
+      "drop_shadow",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "border_framed",
   "colors": [
-    "purple",
-    "neon_cyan",
-    "blue"
+    "black",
+    "white",
+    "gold"
   ],
   "tags": [
-    "snes_cartridge",
+    "skull_icon",
+    "pixel_font",
+    "pixel_frame",
     "desert_bg",
-    "gameboy_box",
-    "pyramid_bg",
-    "pixel_typography",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: استكشاف الفضاء (SPACE EXPLORER)."
 }

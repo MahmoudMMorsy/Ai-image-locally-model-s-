@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "thick_black_outline",
-      "gold_texture"
+      "fire_effect",
+      "glowing_edges",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "gold",
-    "neon_cyan"
+    "white",
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "desert_bg",
-    "dragon_bg",
+    "pixel_explosion",
+    "gameboy_box",
     "mecha_sprite",
     "sega_grid",
-    "lightning_strike",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

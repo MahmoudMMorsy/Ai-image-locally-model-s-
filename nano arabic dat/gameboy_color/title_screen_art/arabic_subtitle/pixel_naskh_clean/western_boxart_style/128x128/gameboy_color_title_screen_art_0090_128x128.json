@@ -9,7 +9,7 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "grid_overlay",
-      "fire_effect",
+      "crt_scanlines",
       "glowing_edges"
     ],
     "readability_score": "high"
@@ -19,18 +19,18 @@
   "layout": "center_title_large",
   "colors": [
     "white",
-    "neon_cyan",
-    "blue"
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "pixel_font",
-    "title_screen",
     "skull_icon",
     "gameboy_box",
+    "nes_cover",
+    "hero_sprite",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

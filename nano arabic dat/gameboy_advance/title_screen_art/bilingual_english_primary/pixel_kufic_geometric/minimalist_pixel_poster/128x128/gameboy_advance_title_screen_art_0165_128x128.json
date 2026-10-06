@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "fire_effect",
-      "crt_scanlines",
-      "drop_shadow"
+      "pixel_gradient",
+      "chrome_bevel",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
-    "purple",
-    "gold"
+    "red",
+    "gold",
+    "blue"
   ],
   "tags": [
-    "title_screen",
-    "pixel_frame",
-    "desert_bg",
-    "sega_grid",
-    "sword_icon",
+    "nes_cover",
+    "space_ship",
+    "pixel_explosion",
+    "pyramid_bg",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: طريق الانتقام (PATH OF REVENGE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

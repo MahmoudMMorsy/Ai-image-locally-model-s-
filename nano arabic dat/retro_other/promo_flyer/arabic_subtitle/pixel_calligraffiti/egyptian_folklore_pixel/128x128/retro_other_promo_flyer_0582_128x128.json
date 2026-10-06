@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "grid_overlay",
-      "crt_scanlines",
-      "pixel_gradient"
+      "pixel_gradient",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "white",
     "red",
-    "neon_cyan"
+    "black",
+    "gold"
   ],
   "tags": [
-    "pixel_explosion",
-    "sega_grid",
-    "pixel_frame",
-    "skull_icon",
-    "sword_icon",
+    "arabic_text",
+    "mecha_sprite",
+    "pixel_font",
+    "gameboy_box",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: محارب الساموراي (SAMURAI WARRIOR)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
 }

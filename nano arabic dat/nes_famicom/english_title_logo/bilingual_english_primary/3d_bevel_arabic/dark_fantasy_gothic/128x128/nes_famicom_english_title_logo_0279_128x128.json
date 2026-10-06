@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "fire_effect",
-      "glitch_displacement",
+      "dripping_slime",
+      "chrome_bevel",
       "crt_scanlines"
     ],
     "readability_score": "high"
@@ -18,19 +18,19 @@
   "genre": "horror_survival",
   "layout": "center_title_large",
   "colors": [
+    "blue",
     "neon_cyan",
-    "gold",
-    "blue"
+    "white"
   ],
   "tags": [
-    "snes_cartridge",
-    "hero_sprite",
     "space_ship",
-    "title_screen",
-    "desert_bg",
+    "nes_cover",
+    "hero_sprite",
+    "castle_stage",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: مهرجان الألعاب (ARCADE FESTIVAL)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with 3d_bevel_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

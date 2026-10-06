@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "chrome_bevel",
-      "pixel_gradient",
-      "16-bit_gradient"
+      "dripping_slime",
+      "grid_overlay",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "blue",
-    "gold"
+    "gold",
+    "purple",
+    "red"
   ],
   "tags": [
-    "desert_bg",
     "snes_cartridge",
-    "gameboy_box",
-    "nes_cover",
-    "sega_grid",
+    "connected_letters",
+    "arabic_text",
+    "sub_title",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: بطل السلسلة (SERIES HERO)."
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
 }

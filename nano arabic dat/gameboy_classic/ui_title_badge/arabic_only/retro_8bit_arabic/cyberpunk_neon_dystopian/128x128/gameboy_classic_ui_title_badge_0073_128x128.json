@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glowing_edges",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "grid_overlay",
+      "pixel_gradient",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "puzzle_strategy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "black",
-    "purple"
+    "blue",
+    "gold",
+    "white"
   ],
   "tags": [
-    "sega_grid",
-    "pixel_font",
-    "gameboy_box",
-    "pixel_frame",
-    "sword_icon",
+    "lightning_strike",
+    "pixel_typography",
+    "pyramid_bg",
+    "hero_sprite",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: مستكشف الكهف (CAVE EXPLORER)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: نصر الأبطال (VICTORY HEROES)."
 }

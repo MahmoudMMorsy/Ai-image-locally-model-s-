@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glowing_edges",
-      "dripping_slime",
-      "gold_texture"
+      "glitch_displacement",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "center_title_large",
   "colors": [
-    "red",
-    "purple",
-    "black"
+    "neon_cyan",
+    "white",
+    "gold"
   ],
   "tags": [
-    "sword_icon",
     "desert_bg",
-    "title_screen",
-    "sega_grid",
-    "lightning_strike",
+    "arabic_text",
+    "gameboy_box",
+    "snes_cartridge",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: سيف العدالة (SWORD OF JUSTICE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_ruqah_fast title: قافلة الصحراء (DESERT CARAVAN)."
 }

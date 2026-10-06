@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "grid_overlay",
-      "fire_effect",
-      "16-bit_gradient"
+      "gold_texture",
+      "1-bit_dithering",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "black",
-    "blue",
-    "purple"
+    "gold",
+    "white"
   ],
   "tags": [
+    "snes_cartridge",
     "lightning_strike",
-    "pyramid_bg",
-    "nes_cover",
-    "pixel_typography",
-    "sub_title",
+    "mecha_sprite",
+    "pixel_frame",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: مهرجان الألعاب (ARCADE FESTIVAL)."
 }

@@ -9,8 +9,8 @@
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
       "thick_black_outline",
-      "pixel_gradient",
-      "glowing_edges"
+      "fire_effect",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
     "neon_cyan",
-    "black"
+    "white",
+    "red"
   ],
   "tags": [
-    "pyramid_bg",
+    "hero_sprite",
     "gameboy_box",
-    "space_ship",
-    "sub_title",
-    "title_screen",
+    "arabic_text",
+    "snes_cartridge",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: سيد الحلبة (RING MASTER)."
 }

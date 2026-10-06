@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "drop_shadow",
-      "dripping_slime"
+      "fire_effect",
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
+    "white",
     "blue",
-    "gold",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
-    "nes_cover",
-    "space_ship",
-    "pixel_typography",
-    "castle_stage",
-    "hero_sprite",
+    "dragon_bg",
+    "pixel_explosion",
+    "sub_title",
+    "skull_icon",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: حارس الغابة (FOREST GUARDIAN)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_ruqah_fast title: سر الأهرامات (PYRAMID SECRET)."
 }

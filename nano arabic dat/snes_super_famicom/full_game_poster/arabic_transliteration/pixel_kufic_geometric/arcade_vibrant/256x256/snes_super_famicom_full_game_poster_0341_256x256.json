@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "glitch_displacement",
-      "dripping_slime",
-      "fire_effect"
+      "16-bit_gradient",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "rpg_fantasy",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "blue",
-    "black"
+    "red",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
+    "space_ship",
+    "boss_battle",
+    "pixel_typography",
+    "sub_title",
     "pixel_font",
-    "connected_letters",
-    "title_screen",
-    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: سيف العدالة (SWORD OF JUSTICE)."
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_kufic_geometric title: مدينة السايبر (CYBER CITY)."
 }

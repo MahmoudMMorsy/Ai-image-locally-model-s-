@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "glitch_displacement",
-      "pixel_gradient"
+      "thick_black_outline",
+      "dripping_slime",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "purple",
-    "red",
-    "blue"
+    "blue",
+    "red"
   ],
   "tags": [
-    "gameboy_box",
-    "space_ship",
-    "pixel_typography",
-    "title_screen",
-    "skull_icon",
+    "lightning_strike",
+    "mecha_sprite",
+    "pixel_explosion",
+    "sword_icon",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

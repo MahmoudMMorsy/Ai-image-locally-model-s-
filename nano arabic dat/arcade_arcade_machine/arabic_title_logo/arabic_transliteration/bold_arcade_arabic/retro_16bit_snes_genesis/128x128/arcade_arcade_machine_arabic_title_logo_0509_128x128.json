@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
-      "1-bit_dithering"
+      "thick_black_outline",
+      "glowing_edges",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "red"
+    "gold",
+    "purple",
+    "black"
   ],
   "tags": [
-    "pixel_frame",
-    "connected_letters",
+    "pixel_explosion",
+    "desert_bg",
+    "hero_sprite",
     "title_screen",
-    "skull_icon",
-    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: أسطورة النور (LEGEND OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with bold_arcade_arabic title: سيد الحلبة (RING MASTER)."
 }

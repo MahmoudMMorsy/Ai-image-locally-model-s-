@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "thick_black_outline",
-      "pixel_gradient",
-      "chrome_bevel"
+      "crt_scanlines",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
-    "black",
+    "neon_cyan",
+    "white",
     "red"
   ],
   "tags": [
-    "pixel_font",
-    "desert_bg",
-    "castle_stage",
-    "pixel_typography",
+    "pyramid_bg",
+    "hero_sprite",
+    "gameboy_box",
     "boss_battle",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: سرعة الضوء (SPEED OF LIGHT)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with 3d_bevel_arabic title: أسطورة النور (LEGEND OF LIGHT)."
 }

@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "fire_effect",
       "gold_texture",
-      "chrome_bevel"
+      "dripping_slime",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -19,18 +19,18 @@
   "layout": "black_border_nes",
   "colors": [
     "gold",
-    "black",
-    "white"
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "skull_icon",
-    "sega_grid",
     "nes_cover",
-    "title_screen",
-    "arabic_text",
+    "desert_bg",
+    "sword_icon",
+    "pixel_font",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: قلعة الظلام (DARK CASTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with neon_glitch_arabic title: معركة النهائي (FINAL BATTLE)."
 }

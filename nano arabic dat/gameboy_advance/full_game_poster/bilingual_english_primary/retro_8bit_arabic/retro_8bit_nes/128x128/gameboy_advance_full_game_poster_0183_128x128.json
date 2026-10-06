@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "thick_black_outline",
-      "pixel_gradient",
-      "glitch_displacement"
+      "1-bit_dithering",
+      "fire_effect",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "action_adventure",
   "layout": "grid_framed_boxart",
   "colors": [
-    "red",
+    "white",
     "black",
-    "purple"
+    "blue"
   ],
   "tags": [
-    "pixel_explosion",
-    "mecha_sprite",
-    "pixel_font",
-    "sword_icon",
-    "boss_battle",
+    "lightning_strike",
+    "arabic_text",
+    "pixel_frame",
+    "castle_stage",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: عرش التنين (DRAGON THRONE)."
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with retro_8bit_arabic title: مملكة السحر (MAGIC KINGDOM)."
 }

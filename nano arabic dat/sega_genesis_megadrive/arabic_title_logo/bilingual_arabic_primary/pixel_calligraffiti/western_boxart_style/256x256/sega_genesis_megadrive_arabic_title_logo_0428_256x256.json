@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "1-bit_dithering",
-      "glowing_edges"
+      "glowing_edges",
+      "grid_overlay",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
+    "purple",
     "gold",
-    "red"
+    "black"
   ],
   "tags": [
-    "pixel_frame",
-    "pixel_typography",
-    "arabic_text",
-    "castle_stage",
-    "sega_grid",
+    "snes_cartridge",
+    "connected_letters",
+    "mecha_sprite",
+    "space_ship",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: مملكة السحر (MAGIC KINGDOM)."
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: عرش التنين (DRAGON THRONE)."
 }

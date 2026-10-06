@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
-      "gold_texture",
-      "grid_overlay"
+      "drop_shadow",
+      "16-bit_gradient",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,19 +18,19 @@
   "genre": "post_apocalyptic",
   "layout": "centered_emblem",
   "colors": [
+    "purple",
     "red",
-    "black",
-    "gold"
+    "neon_cyan"
   ],
   "tags": [
+    "mecha_sprite",
+    "sub_title",
+    "boss_battle",
     "pixel_frame",
-    "pyramid_bg",
-    "desert_bg",
-    "connected_letters",
-    "title_screen",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
   ],
-  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: معركة النهائي (FINAL BATTLE)."
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: المستقبل الرقمي (DIGITAL FUTURE)."
 }

@@ -8,8 +8,8 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "chrome_bevel",
+      "drop_shadow",
+      "crt_scanlines",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
+    "purple",
     "neon_cyan",
-    "purple"
+    "white"
   ],
   "tags": [
-    "nes_cover",
-    "space_ship",
-    "sub_title",
-    "sega_grid",
-    "castle_stage",
+    "title_screen",
+    "pixel_font",
+    "mecha_sprite",
+    "pixel_frame",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
