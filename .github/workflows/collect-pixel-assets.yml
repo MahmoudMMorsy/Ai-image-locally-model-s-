@@ -227,7 +227,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f "nano arcked dat/official_cc0"
-          git add -A "nano arcked dat/cc0_library"
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
