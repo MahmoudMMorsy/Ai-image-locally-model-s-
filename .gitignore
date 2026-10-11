@@ -2,9 +2,11 @@ __pycache__/
 *.pyc
 *.png
 !nano arcked dat/**/*.png
-*.gif
-*.txt
 !nano_arcade_data/**/*.png
+!arcade_t2i/samples/*.png
+*.gif
+!arcade_t2i/samples/*.gif
+*.txt
 mm.trine/
 models/nano_arcade_03/weights/*
 .staging_clean/
