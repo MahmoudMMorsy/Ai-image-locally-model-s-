@@ -6,7 +6,43 @@
 **Work directory:** `arcade_t2i/`
 **Labels:** `jules`, `t2i`, `text-to-image`
 
-**Owner goal:** Real neural **text to image** (Arabic + English prompts to readable 64x64 arcade sprites). Not HQ skip-mix only. Not empty blobs.
+**Owner goal:** Real neural **text to image** (Arabic + English to readable 64x64 arcade sprites). Not HQ skip-mix only. Not empty blobs.
+
+---
+
+## CRITICAL DATA RULE (updated 2026-10-11)
+
+**Train on ALL image files in the repo. Target N approximately 16,330.**
+
+| Folder | ~Images (repo scan) |
+|--------|---------------------|
+| `nano arcked dat/` | **8,485** |
+| `mm.trine/` | **5,109** |
+| `nano_arcade_data/` | **2,496** |
+| `examples/` | **199** |
+| `All-data-Trine/` | **22** |
+| `nano_pixel_mob/` + root outputs | **~19** |
+| **TOTAL** | **approx 16,330** |
+
+### Mandatory sources (do not skip)
+
+1. `mm.trine/**` — all PNG/JPG
+2. `nano arcked dat/**` — including:
+   - `nano arcked dat/official_cc0/` (~7234)
+   - `nano arcked dat/data/` (~1237) — NEW batch (warrior, animal, knight, mage, robot, rogue, dragon, ...)
+   - class folders: knight, mage, robot, warrior, ...
+3. `nano_arcade_data/**`
+4. `examples/**` (usable sprites; log any exclusions)
+5. `All-data-Trine/**` character PNG/sheets
+
+### Forbidden
+
+- Training only on `dataset_clean.zip` (101 images)
+- Training only on bank subset (~4k) while ignoring repo PNGs
+- Claiming full data if **N < 15,000** after indexing (allow small loss for corrupt files; report count)
+
+**Hard stop:** If after Phase A, `N < 1000` then stop and comment on the issue.
+**Owner expectation:** Aim for **N >= 15,000** usable 64x64 frames after filter.
 
 ---
 
@@ -14,14 +50,13 @@
 
 | Item | Path |
 |------|------|
-| Project root for this track | `arcade_t2i/` |
-| Code (Grok handoff) | `arcade_t2i/*.py`, `arcade_t2i/bilingual_vocab.json` |
+| Project root | `arcade_t2i/` |
+| Plan (this file) | `arcade_t2i/JULES_T2I_PLAN.md` |
+| Code | `arcade_t2i/*.py`, `bilingual_vocab.json` |
 | Manifests | `arcade_t2i/manifests/` |
 | Checkpoints | `arcade_t2i/checkpoints/` |
-| Eval grids | `arcade_t2i/samples/` |
-| Full image data (required) | `mm.trine/`, `nano arcked dat/`, `nano_arcade_data/` |
-
-**Rule:** Production training must use **>=1000 images** (prefer full `mm.trine` ~5100 + classified sets). Never train only on 101-image smoke sets.
+| Eval | `arcade_t2i/samples/` |
+| Log | `arcade_t2i/TRAINING_LOG.md` |
 
 ---
 
@@ -29,76 +64,76 @@
 
 | Phase | Status | Artifacts |
 |-------|--------|-----------|
-| Manifest skeleton + AR/EN captions | Done (weak captions on bank) | `manifests/manifest.jsonl` (~4211 rows) |
+| Weak manifest + AR/EN captions | Done (bank only ~4211) | Must be **replaced** by full-repo manifest |
 | Bilingual vocab + text_lang | Done | `bilingual_vocab.json`, `text_lang.py` |
-| Compact Text-CVAE + lean train | Started | `model_t2i.py`, `train_lean.py`, `t2i_cvae_best.pt` |
-| Fixed prompt eval | Started | `samples/T2I_EVAL_NOW.png` |
-| Quality gate | **Failed so far** | Early samples = blobs, not clear characters |
-
-**Current checkpoint is NOT shippable.** Continue training + fix data coupling.
+| Compact Text-CVAE | Started | `model_t2i.py`, early checkpoint |
+| Quality gate | **FAIL** | Blobs — not shippable |
 
 ---
 
 ## 2. Success criteria (hard gate)
 
-Accept a checkpoint only if:
-
-1. Prompt `فارس` / `knight` yields a readable character silhouette (not a solid blob).
-2. Prompt `ساحر` / `mage` is visibly different from knight.
-3. Prompt `robot` / `روبوت` is visibly different from both.
-4. Same prompt, different seeds show variation.
-5. Save grid under `arcade_t2i/samples/eval_accepted_YYYYMMDD.png` and log in `TRAINING_LOG.md`.
-
-If failed, do not claim text-to-image works.
+1. `فارس` / `knight` → readable character (not solid blob)
+2. `ساحر` / `mage` visibly different from knight
+3. `robot` / `روبوت` visibly different from both
+4. Seed variation for same prompt
+5. Grid: `arcade_t2i/samples/eval_accepted_YYYYMMDD.png` + `TRAINING_LOG.md`
 
 ---
 
-## 3. Remaining phases (execute in order)
+## 3. Phases (execute in order)
 
-### Phase A — Real captions on full data (blocking)
+### Phase A — Index + captions on ALL ~16,330 images (blocking)
 
-1. Index all PNGs under `mm.trine/` and class folders in `nano arcked dat/`.
-2. Write `arcade_t2i/manifests/manifest_full.jsonl` with path, class_id, caption_ar, caption_en.
-3. Quantize with palette48 to `arcade_t2i/checkpoints/indices_full_u8.pt` shape [N,64,64].
-4. Report N and class histogram in the PR. **Stop if N < 1000.**
+1. Walk repo for every `.png/.jpg/.jpeg/.webp/.gif` under the folders listed above.
+2. Filter: resize NEAREST to 64x64; drop near-zero opaque frames (log drops).
+3. Write `arcade_t2i/manifests/manifest_full.jsonl` with path, class_id, class_name, caption_ar, caption_en, source_folder.
+4. Quantize with palette48 → `arcade_t2i/checkpoints/indices_full_u8.pt` shape `[N,64,64]`.
+5. PR must report: **N total, per-folder counts, class histogram**.
+6. **Reject work if N < 15,000 without written justification** (corrupt files only).
 
-### Phase B — Stronger text conditioning
+Caption from path, e.g. `nano arcked dat/data/warrior/...` → محارب / warrior.
 
-1. Rebuild token tables from actual captions in manifest_full.
+### Phase B — Text conditioning on full captions
+
+1. Rebuild tokens from manifest_full captions.
 2. Keep Arabic normalization in `text_lang.py`.
-3. Optional contrastive loss: text closer to matching class latent than random.
+3. Optional contrastive loss across classes.
 
-### Phase C — Train generator
+### Phase C — Train on full indices (N≈16k)
 
-**C1:** Resume Text-CVAE (`train_lean.py`) on manifest_full; eval every 5 epochs.
+**C1:** Text-CVAE on entire `indices_full_u8.pt` + captions; eval every 5 epochs.
+**C2:** If still blobs → discrete masked diffusion + text on **same full N**.
 
-**C2 (if C1 stays blob-like):** Discrete masked diffusion conditioned on text embedding + class_id. Prefer readable silhouettes over low CE alone.
+Do not downsample for the final reported run (smoke tests must be labeled smoke).
 
 ### Phase D — Package
 
-1. `generate_t2i.py --prompt "..."` (AR or EN).
-2. CPU inference README.
-3. Large `.pt` via GitHub Release, not giant git commits.
-4. Accepted sample grid under `arcade_t2i/samples/`.
+1. `generate_t2i.py --prompt "..."` (AR/EN)
+2. CPU README
+3. Large `.pt` via GitHub Release
+4. Accepted eval grid under `samples/`
 
 ### Phase E — Animation (only after T2I gate passes)
 
-Same-character pose sequences from `mm.trine` hashes to GIF.
+Same-character sequences from `mm.trine` hashes → GIF.
 
 ---
 
-## 4. Eval prompts (must log all)
+## 4. Eval prompts (log all)
 
-`فارس` `knight` `ساحر` `mage` `روبوت` `robot` `قطة` `cat` `تنين` `dragon`
+`فارس` `knight` `ساحر` `mage` `روبوت` `robot` `قطة` `cat` `تنين` `dragon` `محارب` `warrior`
 
 ---
 
 ## 5. Coordination
 
-- Grok: plan + handoff + quality gate.
-- Jules: implement A to D, open PR, attach eval grids.
-- Do not present HQ skip-mix as text-to-image.
-- PR title format: `[jules][t2i] phase-X — N=... — eval ok/fail`
+- Grok: plan + quality gate
+- Jules: implement A→D, PR with N and eval grids
+- Never present HQ skip-mix as text-to-image
+- PR title: `[jules][t2i] phase-X — N=16330 — eval ok/fail`
+
+---
 
 ## 6. Expected tree
 
@@ -107,6 +142,8 @@ arcade_t2i/
   JULES_T2I_PLAN.md
   model_t2i.py train_lean.py train_t2i.py build_manifest.py
   text_lang.py bilingual_vocab.json auto_classify.py
-  manifests/ checkpoints/ samples/
+  manifests/manifest_full.jsonl
+  checkpoints/indices_full_u8.pt  palette48*.pt  t2i_*.pt
+  samples/
   TRAINING_LOG.md
 ```
