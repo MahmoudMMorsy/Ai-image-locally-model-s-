@@ -1,9 +1,24 @@
 {
-  "total": 4211,
-  "from_files": 18,
-  "from_bank": 4193,
-  "n_classes_used": 15,
-  "palette": "checkpoints/palette48_full.pt",
-  "bank": "checkpoints/full_indices_u8.pt",
-  "phase": 1
+  "total": 15755,
+  "classes": {
+    "knight": 648,
+    "mage": 7595,
+    "robot": 1516,
+    "cat": 693,
+    "dragon": 753,
+    "warrior": 1773,
+    "archer": 679,
+    "monster": 679,
+    "ghost": 673,
+    "rogue": 715,
+    "pirate": 1,
+    "princess": 1,
+    "animal": 29,
+    "character": 0
+  },
+  "palette_colors": 48,
+  "image_shape": [
+    64,
+    64
+  ]
 }
