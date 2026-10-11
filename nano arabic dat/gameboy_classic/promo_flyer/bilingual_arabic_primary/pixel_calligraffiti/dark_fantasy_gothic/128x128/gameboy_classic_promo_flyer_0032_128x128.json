@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "thick_black_outline",
-      "fire_effect"
+      "gold_texture",
+      "glowing_edges",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "neon_cyan",
     "gold",
-    "red"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_font",
-    "castle_stage",
-    "nes_cover",
-    "mecha_sprite",
+    "space_ship",
+    "pixel_typography",
+    "pixel_explosion",
+    "connected_letters",
     "pyramid_bg",
     "arabic_text",
     "connected_letters",

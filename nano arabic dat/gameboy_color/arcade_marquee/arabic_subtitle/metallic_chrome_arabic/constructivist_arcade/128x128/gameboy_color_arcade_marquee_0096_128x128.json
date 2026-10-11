@@ -10,7 +10,7 @@
     "text_effects": [
       "chrome_bevel",
       "glowing_edges",
-      "grid_overlay"
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
+    "gold",
     "purple",
-    "black",
-    "blue"
+    "neon_cyan"
   ],
   "tags": [
-    "sub_title",
-    "connected_letters",
+    "gameboy_box",
+    "sega_grid",
     "skull_icon",
-    "pixel_frame",
-    "space_ship",
+    "connected_letters",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

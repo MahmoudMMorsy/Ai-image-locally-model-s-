@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "fire_effect",
-      "thick_black_outline",
-      "16-bit_gradient"
+      "glowing_edges",
+      "drop_shadow",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
+    "blue",
     "gold",
-    "white"
+    "neon_cyan"
   ],
   "tags": [
-    "hero_sprite",
     "lightning_strike",
-    "boss_battle",
-    "mecha_sprite",
-    "title_screen",
+    "gameboy_box",
+    "skull_icon",
+    "pixel_font",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

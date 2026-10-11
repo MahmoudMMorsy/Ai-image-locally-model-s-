@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "pixel_gradient",
-      "16-bit_gradient"
+      "crt_scanlines",
+      "fire_effect",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "black_border_nes",
   "colors": [
     "black",
-    "purple",
-    "neon_cyan"
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
-    "dragon_bg",
+    "hero_sprite",
+    "sword_icon",
+    "pixel_font",
     "skull_icon",
-    "connected_letters",
     "nes_cover",
-    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

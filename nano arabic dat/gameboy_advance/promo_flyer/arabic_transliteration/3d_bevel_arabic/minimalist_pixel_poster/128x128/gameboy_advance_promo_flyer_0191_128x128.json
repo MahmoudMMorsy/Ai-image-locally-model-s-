@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "thick_black_outline",
+      "dripping_slime",
+      "drop_shadow",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "red",
-    "black"
+    "black",
+    "gold",
+    "purple"
   ],
   "tags": [
-    "castle_stage",
-    "lightning_strike",
-    "pixel_frame",
-    "gameboy_box",
-    "connected_letters",
+    "pixel_typography",
+    "nes_cover",
+    "hero_sprite",
+    "pyramid_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

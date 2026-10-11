@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "crt_scanlines",
-      "gold_texture"
+      "thick_black_outline",
+      "grid_overlay",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "gold",
     "blue",
-    "red"
+    "purple"
   ],
   "tags": [
-    "pixel_explosion",
+    "pixel_font",
     "space_ship",
-    "pyramid_bg",
-    "sword_icon",
-    "connected_letters",
+    "arabic_text",
+    "boss_battle",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

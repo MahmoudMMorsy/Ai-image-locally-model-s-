@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "1-bit_dithering",
       "thick_black_outline",
-      "16-bit_gradient"
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "split_bilingual_layout",
   "colors": [
-    "red",
+    "blue",
     "neon_cyan",
-    "blue"
+    "purple"
   ],
   "tags": [
-    "pixel_frame",
-    "connected_letters",
-    "sword_icon",
-    "desert_bg",
-    "arabic_text",
+    "mecha_sprite",
+    "castle_stage",
+    "boss_battle",
+    "nes_cover",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

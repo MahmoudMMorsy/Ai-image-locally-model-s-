@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "glowing_edges",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "gold_texture",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
     "gold",
-    "red"
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_frame",
-    "title_screen",
-    "boss_battle",
-    "pixel_font",
-    "pyramid_bg",
+    "mecha_sprite",
+    "hero_sprite",
+    "lightning_strike",
+    "connected_letters",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

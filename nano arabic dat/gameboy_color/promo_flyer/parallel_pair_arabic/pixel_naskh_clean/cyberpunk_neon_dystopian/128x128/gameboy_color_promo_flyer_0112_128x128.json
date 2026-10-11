@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "crt_scanlines",
-      "gold_texture",
-      "1-bit_dithering"
+      "thick_black_outline",
+      "16-bit_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "purple",
-    "neon_cyan"
+    "gold",
+    "red",
+    "purple"
   ],
   "tags": [
-    "pixel_explosion",
-    "desert_bg",
-    "lightning_strike",
     "pyramid_bg",
-    "skull_icon",
+    "sword_icon",
+    "snes_cartridge",
+    "space_ship",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

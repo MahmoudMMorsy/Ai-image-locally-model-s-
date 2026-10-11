@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
-      "16-bit_gradient",
-      "1-bit_dithering"
+      "crt_scanlines",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "blue",
     "neon_cyan",
-    "purple",
-    "red"
+    "white"
   ],
   "tags": [
-    "gameboy_box",
+    "lightning_strike",
+    "arabic_text",
+    "title_screen",
+    "connected_letters",
     "pixel_explosion",
-    "sub_title",
-    "pixel_font",
-    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

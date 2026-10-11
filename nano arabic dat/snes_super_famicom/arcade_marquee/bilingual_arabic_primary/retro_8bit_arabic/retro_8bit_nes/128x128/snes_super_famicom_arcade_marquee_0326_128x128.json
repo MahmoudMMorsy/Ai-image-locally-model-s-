@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
+      "1-bit_dithering",
       "drop_shadow",
-      "glowing_edges"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "black",
-    "gold",
+    "white",
     "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
-    "castle_stage",
-    "title_screen",
+    "hero_sprite",
+    "snes_cartridge",
+    "pixel_explosion",
+    "pyramid_bg",
     "lightning_strike",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

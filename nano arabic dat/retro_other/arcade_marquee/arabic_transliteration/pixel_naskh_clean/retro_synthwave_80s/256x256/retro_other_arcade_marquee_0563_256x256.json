@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "16-bit_gradient",
-      "glitch_displacement",
-      "grid_overlay"
+      "grid_overlay",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "diagonal_arcade_badge",
   "colors": [
     "black",
-    "red",
-    "blue"
+    "gold",
+    "white"
   ],
   "tags": [
-    "hero_sprite",
-    "gameboy_box",
-    "desert_bg",
     "pixel_frame",
-    "nes_cover",
+    "sub_title",
+    "pyramid_bg",
+    "sword_icon",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

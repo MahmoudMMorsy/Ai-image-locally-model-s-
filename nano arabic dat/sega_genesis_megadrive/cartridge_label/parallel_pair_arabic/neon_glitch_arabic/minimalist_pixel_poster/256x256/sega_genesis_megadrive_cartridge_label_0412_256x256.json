@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "fire_effect",
-      "16-bit_gradient",
-      "crt_scanlines"
+      "gold_texture",
+      "glowing_edges",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "blue",
+    "black",
+    "red",
     "gold"
   ],
   "tags": [
-    "title_screen",
-    "sword_icon",
-    "space_ship",
-    "sub_title",
-    "pyramid_bg",
+    "pixel_font",
+    "snes_cartridge",
+    "pixel_explosion",
+    "pixel_typography",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

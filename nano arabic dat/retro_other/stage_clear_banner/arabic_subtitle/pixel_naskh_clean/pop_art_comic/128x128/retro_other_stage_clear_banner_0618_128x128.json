@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "chrome_bevel",
-      "16-bit_gradient",
+      "dripping_slime",
+      "grid_overlay",
       "thick_black_outline"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "neon_cyan",
-    "blue",
+    "gold",
+    "purple",
     "red"
   ],
   "tags": [
-    "sword_icon",
-    "skull_icon",
-    "pyramid_bg",
     "snes_cartridge",
-    "nes_cover",
+    "connected_letters",
+    "arabic_text",
+    "sub_title",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

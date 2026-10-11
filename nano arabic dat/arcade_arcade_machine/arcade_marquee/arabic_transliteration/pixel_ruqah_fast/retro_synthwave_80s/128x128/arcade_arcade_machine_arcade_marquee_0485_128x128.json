@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "grid_overlay"
+      "grid_overlay",
+      "dripping_slime",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
     "purple",
-    "white"
+    "black",
+    "gold"
   ],
   "tags": [
-    "mecha_sprite",
-    "gameboy_box",
-    "sega_grid",
-    "pyramid_bg",
-    "space_ship",
+    "title_screen",
+    "pixel_explosion",
+    "skull_icon",
+    "sub_title",
+    "pixel_font",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

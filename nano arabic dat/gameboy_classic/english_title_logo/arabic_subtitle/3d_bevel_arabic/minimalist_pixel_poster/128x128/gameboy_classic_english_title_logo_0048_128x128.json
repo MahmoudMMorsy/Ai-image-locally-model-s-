@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "dripping_slime",
-      "thick_black_outline",
+      "glitch_displacement",
+      "crt_scanlines",
       "glowing_edges"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
     "blue",
-    "white"
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "castle_stage",
+    "desert_bg",
+    "connected_letters",
+    "pixel_font",
+    "sword_icon",
     "snes_cartridge",
-    "sub_title",
-    "skull_icon",
-    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
-      "chrome_bevel",
-      "grid_overlay"
+      "1-bit_dithering",
+      "thick_black_outline",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
+    "purple",
     "gold",
-    "white"
+    "black"
   ],
   "tags": [
-    "boss_battle",
-    "hero_sprite",
-    "gameboy_box",
-    "arabic_text",
+    "lightning_strike",
     "space_ship",
+    "mecha_sprite",
+    "hero_sprite",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

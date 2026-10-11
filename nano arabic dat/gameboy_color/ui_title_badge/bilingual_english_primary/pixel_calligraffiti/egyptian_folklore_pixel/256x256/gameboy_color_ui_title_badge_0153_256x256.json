@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "thick_black_outline",
-      "glitch_displacement",
-      "dripping_slime"
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
-    "red",
-    "gold"
+    "gold",
+    "black",
+    "red"
   ],
   "tags": [
-    "sub_title",
-    "arabic_text",
-    "snes_cartridge",
-    "mecha_sprite",
     "connected_letters",
+    "dragon_bg",
+    "sword_icon",
+    "gameboy_box",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

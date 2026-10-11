@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "1-bit_dithering",
-      "glowing_edges"
+      "drop_shadow",
+      "glitch_displacement",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
+    "purple",
     "white",
-    "blue"
+    "black"
   ],
   "tags": [
     "connected_letters",
-    "castle_stage",
-    "title_screen",
-    "desert_bg",
-    "pixel_font",
+    "sega_grid",
+    "mecha_sprite",
+    "pixel_typography",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

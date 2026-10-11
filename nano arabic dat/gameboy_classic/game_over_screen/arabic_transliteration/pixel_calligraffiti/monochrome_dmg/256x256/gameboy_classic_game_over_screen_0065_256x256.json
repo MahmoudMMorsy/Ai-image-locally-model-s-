@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glowing_edges",
-      "pixel_gradient",
-      "1-bit_dithering"
+      "drop_shadow",
+      "glitch_displacement",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "gold",
-    "red",
+    "white",
     "neon_cyan"
   ],
   "tags": [
-    "boss_battle",
-    "space_ship",
-    "hero_sprite",
-    "sub_title",
-    "connected_letters",
+    "sword_icon",
+    "pixel_font",
+    "pixel_typography",
+    "pixel_explosion",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

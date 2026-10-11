@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glitch_displacement",
-      "drop_shadow",
+      "grid_overlay",
+      "glowing_edges",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
-    "gold",
-    "white",
-    "blue"
+    "purple",
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "nes_cover",
-    "gameboy_box",
+    "title_screen",
     "skull_icon",
-    "mecha_sprite",
-    "sega_grid",
+    "sword_icon",
+    "castle_stage",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

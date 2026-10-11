@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "thick_black_outline",
-      "crt_scanlines",
-      "fire_effect"
+      "chrome_bevel",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "red",
+    "white",
     "gold",
     "purple"
   ],
   "tags": [
-    "desert_bg",
-    "dragon_bg",
-    "sub_title",
-    "mecha_sprite",
-    "snes_cartridge",
+    "sega_grid",
+    "space_ship",
+    "pixel_frame",
+    "pyramid_bg",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "crt_scanlines",
       "1-bit_dithering",
-      "fire_effect",
-      "chrome_bevel"
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "blue",
-    "neon_cyan",
-    "gold"
+    "gold",
+    "red"
   ],
   "tags": [
-    "sword_icon",
-    "connected_letters",
-    "castle_stage",
-    "hero_sprite",
+    "snes_cartridge",
+    "sub_title",
     "nes_cover",
+    "desert_bg",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "gold_texture",
-      "crt_scanlines"
+      "drop_shadow",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "black",
-    "blue",
+    "red",
     "purple"
   ],
   "tags": [
-    "pyramid_bg",
-    "boss_battle",
-    "pixel_font",
-    "lightning_strike",
-    "gameboy_box",
+    "dragon_bg",
+    "sega_grid",
+    "sword_icon",
+    "sub_title",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

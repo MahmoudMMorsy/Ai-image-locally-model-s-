@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "dripping_slime",
-      "grid_overlay",
-      "crt_scanlines"
+      "drop_shadow",
+      "chrome_bevel",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
-    "black",
-    "gold"
+    "purple",
+    "gold",
+    "black"
   ],
   "tags": [
-    "pixel_typography",
-    "sega_grid",
-    "connected_letters",
-    "title_screen",
-    "pixel_explosion",
+    "lightning_strike",
+    "sub_title",
+    "snes_cartridge",
+    "pixel_frame",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

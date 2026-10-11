@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "chrome_bevel",
-      "16-bit_gradient",
-      "fire_effect"
+      "fire_effect",
+      "drop_shadow",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "split_bilingual_layout",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "white"
+    "white",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "lightning_strike",
-    "sega_grid",
-    "castle_stage",
-    "mecha_sprite",
-    "nes_cover",
+    "desert_bg",
+    "pixel_font",
+    "pixel_typography",
+    "skull_icon",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

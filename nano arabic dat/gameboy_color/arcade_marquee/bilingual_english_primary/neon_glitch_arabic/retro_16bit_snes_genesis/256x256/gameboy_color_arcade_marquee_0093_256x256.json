@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glitch_displacement",
       "glowing_edges",
-      "pixel_gradient"
+      "grid_overlay",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "black",
-    "red"
+    "purple",
+    "gold"
   ],
   "tags": [
-    "boss_battle",
-    "dragon_bg",
-    "mecha_sprite",
-    "gameboy_box",
-    "arabic_text",
+    "pixel_frame",
+    "sega_grid",
+    "space_ship",
+    "lightning_strike",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

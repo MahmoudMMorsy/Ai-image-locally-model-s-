@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "crt_scanlines",
-      "drop_shadow",
-      "16-bit_gradient"
+      "1-bit_dithering",
+      "thick_black_outline",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
-    "black",
-    "white",
-    "purple"
+    "purple",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
-    "sub_title",
-    "lightning_strike",
-    "pixel_frame",
-    "pixel_explosion",
+    "space_ship",
+    "nes_cover",
+    "connected_letters",
+    "title_screen",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

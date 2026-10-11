@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "chrome_bevel",
-      "gold_texture"
+      "gold_texture",
+      "thick_black_outline",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "grid_framed_boxart",
   "colors": [
-    "purple",
     "red",
-    "white"
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "dragon_bg",
-    "pixel_font",
-    "pyramid_bg",
-    "connected_letters",
-    "hero_sprite",
+    "gameboy_box",
+    "boss_battle",
+    "skull_icon",
+    "pixel_explosion",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

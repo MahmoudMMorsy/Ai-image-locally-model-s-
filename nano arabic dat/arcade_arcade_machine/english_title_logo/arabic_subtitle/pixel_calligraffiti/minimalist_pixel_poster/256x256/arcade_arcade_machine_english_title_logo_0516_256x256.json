@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "1-bit_dithering",
-      "glitch_displacement",
-      "drop_shadow"
+      "grid_overlay",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
     "purple",
-    "gold"
+    "blue",
+    "red"
   ],
   "tags": [
+    "sub_title",
     "connected_letters",
-    "sword_icon",
-    "arabic_text",
-    "lightning_strike",
+    "title_screen",
+    "boss_battle",
     "pyramid_bg",
     "arabic_text",
     "connected_letters",

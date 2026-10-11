@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "chrome_bevel",
-      "dripping_slime",
-      "glowing_edges"
+      "gold_texture",
+      "thick_black_outline",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "platformer",
   "layout": "center_title_large",
   "colors": [
-    "white",
+    "neon_cyan",
     "gold",
-    "red"
+    "blue"
   ],
   "tags": [
-    "pyramid_bg",
-    "sword_icon",
-    "castle_stage",
+    "skull_icon",
+    "dragon_bg",
     "pixel_typography",
+    "sub_title",
     "snes_cartridge",
     "arabic_text",
     "connected_letters",

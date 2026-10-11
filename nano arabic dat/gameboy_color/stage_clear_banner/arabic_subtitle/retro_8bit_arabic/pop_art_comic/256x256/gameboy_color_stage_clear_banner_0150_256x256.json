@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "glitch_displacement",
-      "gold_texture",
-      "thick_black_outline"
+      "dripping_slime",
+      "grid_overlay",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "black",
-    "white",
-    "purple"
+    "red",
+    "gold",
+    "black"
   ],
   "tags": [
-    "skull_icon",
-    "pyramid_bg",
-    "sword_icon",
-    "lightning_strike",
-    "pixel_explosion",
+    "sega_grid",
+    "pixel_font",
+    "dragon_bg",
+    "title_screen",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

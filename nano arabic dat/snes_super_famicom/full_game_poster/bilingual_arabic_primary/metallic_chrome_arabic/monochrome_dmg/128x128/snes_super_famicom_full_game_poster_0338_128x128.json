@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "1-bit_dithering",
       "thick_black_outline",
-      "gold_texture",
-      "glowing_edges"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "black",
-    "neon_cyan"
+    "blue",
+    "red",
+    "purple"
   ],
   "tags": [
-    "dragon_bg",
-    "pixel_font",
+    "hero_sprite",
+    "boss_battle",
+    "space_ship",
+    "pixel_frame",
     "pixel_explosion",
-    "sub_title",
-    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

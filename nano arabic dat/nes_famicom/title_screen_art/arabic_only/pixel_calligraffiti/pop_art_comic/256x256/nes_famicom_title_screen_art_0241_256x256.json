@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
+      "16-bit_gradient",
       "dripping_slime",
-      "crt_scanlines",
-      "fire_effect"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "split_bilingual_layout",
   "colors": [
     "red",
-    "blue",
-    "white"
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "skull_icon",
-    "space_ship",
-    "pixel_typography",
+    "arabic_text",
+    "mecha_sprite",
+    "dragon_bg",
     "title_screen",
-    "hero_sprite",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

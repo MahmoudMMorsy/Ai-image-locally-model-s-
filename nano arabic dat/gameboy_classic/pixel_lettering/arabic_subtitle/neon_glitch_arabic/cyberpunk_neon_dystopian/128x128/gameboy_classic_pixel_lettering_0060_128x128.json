@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "gold_texture",
-      "pixel_gradient"
+      "grid_overlay",
+      "pixel_gradient",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
-    "red",
     "neon_cyan",
-    "black"
+    "black",
+    "blue"
   ],
   "tags": [
-    "dragon_bg",
-    "pyramid_bg",
-    "arabic_text",
     "nes_cover",
-    "desert_bg",
+    "arabic_text",
+    "mecha_sprite",
+    "sega_grid",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

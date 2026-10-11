@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "16-bit_gradient",
-      "glitch_displacement",
-      "dripping_slime"
+      "1-bit_dithering",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "gold",
-    "purple",
-    "neon_cyan"
+    "red",
+    "blue",
+    "white"
   ],
   "tags": [
-    "space_ship",
+    "connected_letters",
     "pixel_frame",
-    "boss_battle",
-    "gameboy_box",
-    "hero_sprite",
+    "pixel_explosion",
+    "mecha_sprite",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

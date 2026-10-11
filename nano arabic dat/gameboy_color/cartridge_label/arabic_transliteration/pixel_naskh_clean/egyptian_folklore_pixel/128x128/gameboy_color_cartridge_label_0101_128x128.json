@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "16-bit_gradient",
-      "chrome_bevel",
-      "crt_scanlines"
+      "glowing_edges",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "black",
-    "neon_cyan",
-    "gold"
+    "gold",
+    "red"
   ],
   "tags": [
-    "pixel_frame",
     "title_screen",
-    "space_ship",
     "skull_icon",
+    "dragon_bg",
     "pixel_typography",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
+      "chrome_bevel",
       "1-bit_dithering",
-      "pixel_gradient"
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
+    "red",
     "neon_cyan",
-    "black"
+    "white"
   ],
   "tags": [
-    "snes_cartridge",
-    "title_screen",
-    "skull_icon",
-    "castle_stage",
-    "boss_battle",
+    "gameboy_box",
+    "pixel_font",
+    "nes_cover",
+    "pixel_explosion",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

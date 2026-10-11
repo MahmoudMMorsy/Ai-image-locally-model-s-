@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "crt_scanlines",
-      "thick_black_outline"
+      "fire_effect",
+      "chrome_bevel",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
-    "purple",
-    "white"
+    "white",
+    "red",
+    "black"
   ],
   "tags": [
     "arabic_text",
-    "pyramid_bg",
-    "sword_icon",
-    "mecha_sprite",
-    "sega_grid",
+    "gameboy_box",
+    "pixel_frame",
+    "castle_stage",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

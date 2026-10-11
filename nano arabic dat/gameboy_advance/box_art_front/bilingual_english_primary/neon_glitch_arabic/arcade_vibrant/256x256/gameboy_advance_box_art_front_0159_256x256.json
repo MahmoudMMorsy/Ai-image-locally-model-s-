@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "16-bit_gradient",
-      "glowing_edges"
+      "1-bit_dithering",
+      "glowing_edges",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "centered_emblem",
   "colors": [
-    "neon_cyan",
-    "gold",
-    "black"
+    "white",
+    "purple",
+    "blue"
   ],
   "tags": [
-    "pixel_font",
-    "gameboy_box",
+    "pyramid_bg",
+    "pixel_typography",
     "sega_grid",
-    "title_screen",
-    "castle_stage",
+    "space_ship",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

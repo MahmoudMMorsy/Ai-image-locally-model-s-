@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "chrome_bevel",
-      "1-bit_dithering"
+      "16-bit_gradient",
+      "grid_overlay",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "center_title_large",
   "colors": [
-    "red",
-    "neon_cyan",
-    "white"
+    "white",
+    "gold",
+    "black"
   ],
   "tags": [
-    "pixel_typography",
-    "desert_bg",
-    "arabic_text",
-    "skull_icon",
+    "lightning_strike",
+    "sega_grid",
     "gameboy_box",
+    "space_ship",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

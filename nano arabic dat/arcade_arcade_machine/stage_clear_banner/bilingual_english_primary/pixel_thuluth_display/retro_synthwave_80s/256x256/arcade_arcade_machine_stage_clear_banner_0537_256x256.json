@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "fire_effect",
       "dripping_slime",
-      "glowing_edges"
+      "crt_scanlines",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
+    "gold",
     "blue",
-    "white",
-    "purple"
+    "neon_cyan"
   ],
   "tags": [
-    "sub_title",
-    "pixel_frame",
+    "pyramid_bg",
+    "connected_letters",
+    "castle_stage",
+    "desert_bg",
     "mecha_sprite",
-    "sega_grid",
-    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

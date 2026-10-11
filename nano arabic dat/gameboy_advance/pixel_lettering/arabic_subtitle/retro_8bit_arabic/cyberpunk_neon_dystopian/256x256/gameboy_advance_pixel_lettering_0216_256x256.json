@@ -9,8 +9,8 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "drop_shadow",
-      "glowing_edges",
-      "pixel_gradient"
+      "chrome_bevel",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "center_title_large",
   "colors": [
+    "neon_cyan",
     "blue",
-    "gold",
-    "purple"
+    "black"
   ],
   "tags": [
+    "desert_bg",
     "pixel_frame",
-    "gameboy_box",
-    "pixel_explosion",
-    "dragon_bg",
+    "hero_sprite",
     "sega_grid",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

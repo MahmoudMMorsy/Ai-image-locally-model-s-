@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "glitch_displacement",
-      "dripping_slime",
-      "1-bit_dithering"
+      "crt_scanlines",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "gold",
-    "blue",
-    "neon_cyan"
+    "white",
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "skull_icon",
-    "sub_title",
-    "dragon_bg",
-    "castle_stage",
-    "pyramid_bg",
+    "lightning_strike",
+    "nes_cover",
+    "hero_sprite",
+    "desert_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "glitch_displacement",
-      "pixel_gradient"
+      "thick_black_outline",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "center_title_large",
   "colors": [
-    "neon_cyan",
     "black",
-    "red"
+    "red",
+    "gold"
   ],
   "tags": [
-    "desert_bg",
+    "sega_grid",
+    "title_screen",
     "sword_icon",
-    "gameboy_box",
-    "pixel_frame",
-    "snes_cartridge",
+    "lightning_strike",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

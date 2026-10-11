@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "fire_effect",
-      "grid_overlay",
-      "crt_scanlines"
+      "glitch_displacement",
+      "pixel_gradient",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "red",
-    "black",
-    "blue"
+    "white",
+    "purple"
   ],
   "tags": [
-    "castle_stage",
-    "hero_sprite",
     "pixel_typography",
-    "skull_icon",
-    "pixel_explosion",
+    "gameboy_box",
+    "pixel_font",
+    "arabic_text",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "dripping_slime",
-      "thick_black_outline",
-      "16-bit_gradient"
+      "grid_overlay",
+      "16-bit_gradient",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "center_title_large",
   "colors": [
-    "purple",
-    "red",
-    "gold"
+    "white",
+    "gold",
+    "purple"
   ],
   "tags": [
-    "dragon_bg",
     "pixel_explosion",
-    "mecha_sprite",
     "snes_cartridge",
-    "space_ship",
+    "boss_battle",
+    "sub_title",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

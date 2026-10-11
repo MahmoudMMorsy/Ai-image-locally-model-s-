@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "crt_scanlines",
-      "gold_texture",
-      "1-bit_dithering"
+      "grid_overlay",
+      "drop_shadow",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "purple",
-    "blue",
-    "gold"
+    "gold",
+    "white"
   ],
   "tags": [
+    "connected_letters",
+    "pixel_typography",
+    "nes_cover",
     "hero_sprite",
     "desert_bg",
-    "sword_icon",
-    "gameboy_box",
-    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "dripping_slime",
-      "grid_overlay",
-      "16-bit_gradient"
+      "16-bit_gradient",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "grid_framed_boxart",
   "colors": [
+    "neon_cyan",
     "black",
-    "blue",
-    "white"
+    "blue"
   ],
   "tags": [
-    "title_screen",
-    "nes_cover",
     "dragon_bg",
-    "desert_bg",
-    "boss_battle",
+    "nes_cover",
+    "pyramid_bg",
+    "snes_cartridge",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

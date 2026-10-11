@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "glitch_displacement",
-      "crt_scanlines",
-      "glowing_edges"
+      "grid_overlay",
+      "pixel_gradient",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "purple",
+    "black",
+    "neon_cyan",
     "gold"
   ],
   "tags": [
-    "sega_grid",
+    "pixel_explosion",
     "mecha_sprite",
-    "castle_stage",
-    "hero_sprite",
-    "pixel_font",
+    "sword_icon",
+    "boss_battle",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

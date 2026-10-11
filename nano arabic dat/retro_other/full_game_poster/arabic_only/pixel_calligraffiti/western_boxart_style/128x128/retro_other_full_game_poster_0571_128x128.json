@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "chrome_bevel",
-      "gold_texture"
+      "1-bit_dithering",
+      "grid_overlay",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
-    "red",
     "blue",
-    "gold"
+    "neon_cyan",
+    "purple"
   ],
   "tags": [
-    "lightning_strike",
-    "pixel_frame",
-    "title_screen",
     "pyramid_bg",
-    "pixel_typography",
+    "boss_battle",
+    "sub_title",
+    "hero_sprite",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

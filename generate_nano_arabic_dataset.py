@@ -233,7 +233,6 @@ def draw_retro_poster(w, h, platform, poster_type, lang_struct, typo_style, art_
 
     # Retro Pixelation enforcement using nearest neighbor downscale/upscale simulation
     if art_style in ["monochrome_dmg", "retro_8bit_nes"]:
-        # Quantize colors to small palette
         small_w, small_h = w // 2, h // 2
         img_small = img.resize((small_w, small_h), Image.NEAREST)
         img = img_small.resize((w, h), Image.NEAREST)
@@ -247,12 +246,10 @@ def main():
 
     total_generated = 0
 
-    # Ensure exhaustive coverage across platforms, poster_types, language_structures, typography_styles, art_styles, resolutions
     sample_id = 1
     for platform in PLATFORMS:
         for poster_type in POSTER_TYPES:
             for lang_struct in LANGUAGE_STRUCTURES:
-                # Select typography style, art style, semantic weight, genre, layout deterministically or randomly
                 typo_style = TYPOGRAPHY_STYLES[(sample_id % len(TYPOGRAPHY_STYLES))]
                 art_style = ART_STYLES[(sample_id % len(ART_STYLES))]
                 sem_weight = SEMANTIC_WEIGHTS[(sample_id % len(SEMANTIC_WEIGHTS))]
@@ -263,8 +260,6 @@ def main():
                 for res_str in RESOLUTIONS:
                     w, h = map(int, res_str.split("x"))
 
-                    # Target Directory Structure:
-                    # nano arabic dat/<platform>/<poster_type>/<language_structure>/<typography_style>/<art_style>/<resolution>/
                     rel_dir = os.path.join(
                         platform,
                         poster_type,
@@ -283,19 +278,16 @@ def main():
                     png_path = os.path.join(full_dir, png_filename)
                     json_path = os.path.join(full_dir, json_filename)
 
-                    # Generate Image
                     img = draw_retro_poster(
                         w, h, platform, poster_type, lang_struct,
                         typo_style, art_style, ar_title, en_title, layout
                     )
                     img.save(png_path)
 
-                    # Selected color tags and text effects
                     colors_sample = random.sample(["red", "blue", "gold", "black", "white", "neon_cyan", "purple"], 3)
                     effects_sample = random.sample(TEXT_EFFECTS_POOL, 3)
                     tags_sample = random.sample(TAGS_POOL, 5) + ["arabic_text", "connected_letters", "pixel_typography"]
 
-                    # Metadata JSON compliant with schema
                     meta = {
                         "file": png_filename,
                         "resolution": res_str,
@@ -319,7 +311,6 @@ def main():
                     with open(json_path, "w", encoding="utf-8") as f:
                         json.dump(meta, f, ensure_ascii=False, indent=2)
 
-                    # Index row
                     rel_png = os.path.relpath(png_path, ROOT_DIR)
                     rel_json = os.path.relpath(json_path, ROOT_DIR)
                     csv_rows.append([
@@ -340,7 +331,6 @@ def main():
 
                 sample_id += 1
 
-    # Write dataset_index.csv
     with open(index_csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow([

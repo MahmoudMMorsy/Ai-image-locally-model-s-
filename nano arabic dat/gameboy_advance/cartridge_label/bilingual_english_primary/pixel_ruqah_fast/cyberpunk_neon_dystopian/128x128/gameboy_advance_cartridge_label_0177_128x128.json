@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "glowing_edges",
-      "16-bit_gradient",
-      "chrome_bevel"
+      "pixel_gradient",
+      "1-bit_dithering",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "centered_emblem",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "black"
+    "white",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "pyramid_bg",
+    "pixel_typography",
+    "nes_cover",
     "title_screen",
-    "pixel_frame",
-    "pixel_explosion",
-    "boss_battle",
+    "desert_bg",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

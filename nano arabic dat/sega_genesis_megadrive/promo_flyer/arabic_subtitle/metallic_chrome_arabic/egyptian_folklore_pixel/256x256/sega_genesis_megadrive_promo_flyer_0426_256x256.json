@@ -10,7 +10,7 @@
     "text_effects": [
       "fire_effect",
       "pixel_gradient",
-      "chrome_bevel"
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "grid_framed_boxart",
   "colors": [
+    "gold",
     "white",
-    "black",
     "red"
   ],
   "tags": [
+    "pixel_explosion",
+    "pixel_frame",
     "hero_sprite",
-    "pixel_typography",
-    "dragon_bg",
-    "pyramid_bg",
-    "boss_battle",
+    "gameboy_box",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
-      "crt_scanlines",
-      "gold_texture"
+      "glowing_edges",
+      "1-bit_dithering",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "top_title_hero_bottom",
   "colors": [
     "white",
-    "black",
-    "blue"
+    "purple",
+    "red"
   ],
   "tags": [
-    "dragon_bg",
-    "space_ship",
-    "pyramid_bg",
+    "pixel_frame",
     "nes_cover",
-    "pixel_font",
+    "arabic_text",
+    "lightning_strike",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

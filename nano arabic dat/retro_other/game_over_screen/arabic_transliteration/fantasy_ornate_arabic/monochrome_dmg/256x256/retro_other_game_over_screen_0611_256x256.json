@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "glitch_displacement",
-      "crt_scanlines"
+      "chrome_bevel",
+      "crt_scanlines",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
-    "blue",
-    "red",
-    "gold"
+    "purple",
+    "neon_cyan",
+    "white"
   ],
   "tags": [
     "desert_bg",
-    "pixel_frame",
-    "sub_title",
-    "sega_grid",
-    "hero_sprite",
+    "snes_cartridge",
+    "arabic_text",
+    "pixel_typography",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

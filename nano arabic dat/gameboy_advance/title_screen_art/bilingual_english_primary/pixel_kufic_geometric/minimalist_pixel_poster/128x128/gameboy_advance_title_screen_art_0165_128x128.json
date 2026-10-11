@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
-      "dripping_slime"
+      "pixel_gradient",
+      "chrome_bevel",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "grid_framed_boxart",
   "colors": [
-    "white",
+    "red",
     "gold",
-    "purple"
+    "blue"
   ],
   "tags": [
-    "desert_bg",
-    "pixel_frame",
-    "pixel_font",
-    "sub_title",
     "nes_cover",
+    "space_ship",
+    "pixel_explosion",
+    "pyramid_bg",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "drop_shadow",
-      "fire_effect"
+      "grid_overlay",
+      "dripping_slime",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "black",
     "gold",
-    "neon_cyan",
-    "blue"
+    "red"
   ],
   "tags": [
-    "sub_title",
     "skull_icon",
-    "lightning_strike",
     "sega_grid",
     "nes_cover",
+    "pixel_explosion",
+    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

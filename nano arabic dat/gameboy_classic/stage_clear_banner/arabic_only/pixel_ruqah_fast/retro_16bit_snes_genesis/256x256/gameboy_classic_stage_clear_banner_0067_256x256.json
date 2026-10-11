@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "16-bit_gradient",
-      "chrome_bevel"
+      "gold_texture",
+      "fire_effect",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "black_border_nes",
   "colors": [
-    "neon_cyan",
     "blue",
-    "purple"
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "arabic_text",
-    "sub_title",
-    "castle_stage",
+    "desert_bg",
     "dragon_bg",
-    "hero_sprite",
+    "title_screen",
+    "space_ship",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

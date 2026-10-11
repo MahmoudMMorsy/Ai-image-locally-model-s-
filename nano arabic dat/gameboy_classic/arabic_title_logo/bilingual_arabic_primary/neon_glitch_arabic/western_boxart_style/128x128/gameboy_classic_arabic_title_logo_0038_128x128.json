@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "glitch_displacement",
-      "16-bit_gradient"
+      "dripping_slime",
+      "glowing_edges",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "white",
-    "black",
-    "neon_cyan"
+    "neon_cyan",
+    "red",
+    "blue"
   ],
   "tags": [
-    "space_ship",
-    "arabic_text",
-    "title_screen",
-    "desert_bg",
-    "gameboy_box",
+    "connected_letters",
+    "snes_cartridge",
+    "skull_icon",
+    "sega_grid",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

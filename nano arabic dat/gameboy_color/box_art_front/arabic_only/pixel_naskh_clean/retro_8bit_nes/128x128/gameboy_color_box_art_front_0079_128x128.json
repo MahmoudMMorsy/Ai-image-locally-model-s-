@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "crt_scanlines",
-      "thick_black_outline"
+      "dripping_slime",
+      "1-bit_dithering",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
-    "neon_cyan",
-    "blue"
+    "blue",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "space_ship",
-    "pixel_explosion",
-    "gameboy_box",
-    "pyramid_bg",
+    "snes_cartridge",
     "pixel_font",
+    "pixel_frame",
+    "desert_bg",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

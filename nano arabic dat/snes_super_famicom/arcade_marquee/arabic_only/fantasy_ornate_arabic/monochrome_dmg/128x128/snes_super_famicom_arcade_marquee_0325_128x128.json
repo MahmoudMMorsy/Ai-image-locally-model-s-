@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "dripping_slime",
-      "crt_scanlines",
-      "fire_effect"
+      "chrome_bevel",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "black",
-    "white"
+    "white",
+    "blue",
+    "gold"
   ],
   "tags": [
-    "hero_sprite",
-    "pixel_frame",
-    "pixel_font",
+    "dragon_bg",
     "castle_stage",
-    "boss_battle",
+    "snes_cartridge",
+    "connected_letters",
+    "nes_cover",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "chrome_bevel",
-      "pixel_gradient"
+      "gold_texture",
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "centered_emblem",
   "colors": [
-    "white",
-    "neon_cyan",
-    "black"
+    "blue",
+    "black",
+    "white"
   ],
   "tags": [
-    "boss_battle",
-    "castle_stage",
-    "pixel_font",
-    "mecha_sprite",
-    "lightning_strike",
+    "space_ship",
+    "pixel_typography",
+    "title_screen",
+    "dragon_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

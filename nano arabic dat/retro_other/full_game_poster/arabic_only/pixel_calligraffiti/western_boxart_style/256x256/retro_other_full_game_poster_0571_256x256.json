@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "crt_scanlines",
-      "chrome_bevel",
-      "dripping_slime"
+      "dripping_slime",
+      "1-bit_dithering",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
-    "red",
-    "white",
-    "gold"
+    "black",
+    "gold",
+    "red"
   ],
   "tags": [
-    "snes_cartridge",
-    "dragon_bg",
-    "pixel_font",
-    "castle_stage",
     "gameboy_box",
+    "sub_title",
+    "sword_icon",
+    "pyramid_bg",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

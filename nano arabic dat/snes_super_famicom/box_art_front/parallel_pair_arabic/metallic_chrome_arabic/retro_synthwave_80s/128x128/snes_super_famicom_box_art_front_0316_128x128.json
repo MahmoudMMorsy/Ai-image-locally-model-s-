@@ -8,8 +8,8 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
-      "16-bit_gradient",
+      "thick_black_outline",
+      "dripping_slime",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "white",
     "blue",
-    "red"
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "mecha_sprite",
-    "lightning_strike",
-    "arabic_text",
-    "pixel_font",
-    "castle_stage",
+    "sub_title",
+    "pixel_explosion",
+    "dragon_bg",
+    "sega_grid",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

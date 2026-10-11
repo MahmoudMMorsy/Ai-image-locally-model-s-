@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "chrome_bevel",
-      "1-bit_dithering",
+      "fire_effect",
+      "crt_scanlines",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "black",
-    "neon_cyan"
+    "gold",
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "sub_title",
-    "snes_cartridge",
-    "desert_bg",
-    "pixel_typography",
+    "boss_battle",
     "dragon_bg",
+    "sub_title",
+    "pixel_explosion",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

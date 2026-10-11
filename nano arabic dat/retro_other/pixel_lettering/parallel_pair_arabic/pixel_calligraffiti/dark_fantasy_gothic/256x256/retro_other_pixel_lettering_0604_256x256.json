@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "dripping_slime",
-      "16-bit_gradient",
-      "thick_black_outline"
+      "glitch_displacement",
+      "1-bit_dithering",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
+    "black",
     "gold",
-    "blue",
-    "black"
+    "neon_cyan"
   ],
   "tags": [
-    "dragon_bg",
-    "sega_grid",
-    "skull_icon",
-    "connected_letters",
-    "title_screen",
+    "pixel_explosion",
+    "pixel_font",
+    "sub_title",
+    "arabic_text",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

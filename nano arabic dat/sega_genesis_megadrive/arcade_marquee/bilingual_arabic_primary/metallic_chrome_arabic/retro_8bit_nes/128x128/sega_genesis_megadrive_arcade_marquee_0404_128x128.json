@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "dripping_slime",
-      "glitch_displacement"
+      "crt_scanlines",
+      "pixel_gradient",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "border_framed",
   "colors": [
-    "white",
-    "neon_cyan",
-    "black"
+    "purple",
+    "gold",
+    "blue"
   ],
   "tags": [
-    "castle_stage",
-    "lightning_strike",
-    "pixel_typography",
+    "sub_title",
+    "connected_letters",
     "desert_bg",
-    "boss_battle",
+    "gameboy_box",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

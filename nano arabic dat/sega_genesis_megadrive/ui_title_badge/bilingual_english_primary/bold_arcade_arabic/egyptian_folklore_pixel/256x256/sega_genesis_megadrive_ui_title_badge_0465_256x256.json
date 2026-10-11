@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "glowing_edges"
+      "grid_overlay",
+      "glitch_displacement",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "white",
-    "neon_cyan",
-    "gold"
+    "gold",
+    "blue"
   ],
   "tags": [
-    "sega_grid",
-    "pyramid_bg",
     "space_ship",
+    "dragon_bg",
     "desert_bg",
-    "pixel_frame",
+    "sega_grid",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

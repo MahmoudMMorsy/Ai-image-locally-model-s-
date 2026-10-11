@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "crt_scanlines",
-      "pixel_gradient",
-      "gold_texture"
+      "grid_overlay",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "center_title_large",
   "colors": [
     "purple",
-    "blue",
-    "white"
+    "black",
+    "gold"
   ],
   "tags": [
-    "castle_stage",
-    "mecha_sprite",
-    "skull_icon",
-    "pixel_font",
-    "hero_sprite",
+    "pixel_explosion",
+    "snes_cartridge",
+    "sega_grid",
+    "desert_bg",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "drop_shadow",
-      "thick_black_outline",
-      "dripping_slime"
+      "dripping_slime",
+      "grid_overlay",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "grid_framed_boxart",
   "colors": [
-    "black",
-    "red",
-    "white"
+    "purple",
+    "gold",
+    "red"
   ],
   "tags": [
-    "desert_bg",
     "hero_sprite",
-    "boss_battle",
-    "pixel_frame",
-    "pixel_explosion",
+    "sword_icon",
+    "dragon_bg",
+    "nes_cover",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

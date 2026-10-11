@@ -8,8 +8,8 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "dripping_slime",
+      "crt_scanlines",
+      "glitch_displacement",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "gold",
     "purple",
-    "red"
+    "black",
+    "neon_cyan"
   ],
   "tags": [
-    "space_ship",
-    "pixel_font",
-    "connected_letters",
-    "pyramid_bg",
-    "pixel_typography",
+    "pixel_frame",
+    "sega_grid",
+    "gameboy_box",
+    "lightning_strike",
+    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

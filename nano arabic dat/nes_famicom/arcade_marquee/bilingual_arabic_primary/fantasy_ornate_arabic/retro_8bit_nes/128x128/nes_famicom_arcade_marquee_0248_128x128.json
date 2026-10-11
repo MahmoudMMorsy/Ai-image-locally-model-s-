@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "pixel_gradient",
-      "grid_overlay",
-      "fire_effect"
+      "glitch_displacement",
+      "glowing_edges",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "neon_cyan",
-    "black"
+    "black",
+    "blue",
+    "red"
   ],
   "tags": [
-    "title_screen",
-    "pixel_frame",
+    "lightning_strike",
     "connected_letters",
-    "arabic_text",
-    "castle_stage",
+    "sub_title",
+    "gameboy_box",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "thick_black_outline",
-      "fire_effect",
-      "gold_texture"
+      "grid_overlay",
+      "glowing_edges",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "neon_cyan",
-    "black"
+    "blue",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "skull_icon",
+    "lightning_strike",
+    "desert_bg",
     "snes_cartridge",
-    "pixel_explosion",
-    "sega_grid",
-    "mecha_sprite",
+    "dragon_bg",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "crt_scanlines",
       "dripping_slime",
-      "1-bit_dithering"
+      "crt_scanlines",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "border_framed",
   "colors": [
+    "purple",
     "white",
-    "black",
-    "neon_cyan"
+    "black"
   ],
   "tags": [
-    "pixel_explosion",
-    "dragon_bg",
     "space_ship",
+    "sub_title",
+    "desert_bg",
     "connected_letters",
-    "sword_icon",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

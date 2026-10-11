@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
-      "drop_shadow",
-      "1-bit_dithering"
+      "chrome_bevel",
+      "16-bit_gradient",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,14 +18,14 @@
   "genre": "puzzle_strategy",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "purple",
+    "neon_cyan",
     "red",
     "gold"
   ],
   "tags": [
-    "dragon_bg",
-    "snes_cartridge",
-    "hero_sprite",
+    "title_screen",
+    "nes_cover",
+    "gameboy_box",
     "space_ship",
     "pixel_frame",
     "arabic_text",

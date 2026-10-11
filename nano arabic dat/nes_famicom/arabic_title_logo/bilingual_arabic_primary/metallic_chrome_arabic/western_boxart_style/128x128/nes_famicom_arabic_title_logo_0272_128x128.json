@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "dripping_slime",
-      "pixel_gradient",
-      "drop_shadow"
+      "glowing_edges",
+      "fire_effect",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "blue",
     "gold",
-    "black",
-    "neon_cyan"
+    "black"
   ],
   "tags": [
-    "desert_bg",
-    "nes_cover",
-    "sega_grid",
-    "castle_stage",
-    "space_ship",
+    "snes_cartridge",
+    "pixel_font",
+    "pyramid_bg",
+    "pixel_frame",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

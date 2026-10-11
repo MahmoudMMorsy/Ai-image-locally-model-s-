@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "thick_black_outline",
-      "crt_scanlines",
-      "glowing_edges"
+      "drop_shadow",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "black",
-    "red",
-    "neon_cyan"
+    "gold",
+    "white",
+    "red"
   ],
   "tags": [
-    "pixel_explosion",
-    "pixel_typography",
-    "dragon_bg",
-    "snes_cartridge",
+    "title_screen",
     "space_ship",
+    "pixel_explosion",
+    "snes_cartridge",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

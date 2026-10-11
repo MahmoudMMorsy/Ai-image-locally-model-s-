@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "glowing_edges",
-      "crt_scanlines",
-      "pixel_gradient"
+      "pixel_gradient",
+      "thick_black_outline",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "black",
-    "red"
+    "neon_cyan",
+    "gold",
+    "white"
   ],
   "tags": [
-    "castle_stage",
-    "nes_cover",
+    "dragon_bg",
+    "pixel_frame",
     "space_ship",
-    "title_screen",
-    "pixel_font",
+    "lightning_strike",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

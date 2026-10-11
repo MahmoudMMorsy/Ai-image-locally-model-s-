@@ -8,8 +8,8 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
+      "drop_shadow",
       "fire_effect",
-      "chrome_bevel",
       "crt_scanlines"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "white",
     "purple",
-    "blue",
-    "gold"
+    "blue"
   ],
   "tags": [
-    "snes_cartridge",
-    "hero_sprite",
     "title_screen",
-    "castle_stage",
-    "boss_battle",
+    "sword_icon",
+    "sega_grid",
+    "desert_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

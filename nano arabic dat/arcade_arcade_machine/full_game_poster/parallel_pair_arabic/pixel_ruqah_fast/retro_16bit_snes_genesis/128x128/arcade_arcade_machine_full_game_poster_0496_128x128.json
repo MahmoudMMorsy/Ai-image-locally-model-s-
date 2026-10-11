@@ -9,7 +9,7 @@
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
       "chrome_bevel",
-      "1-bit_dithering",
+      "pixel_gradient",
       "glitch_displacement"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
     "purple",
-    "blue"
+    "blue",
+    "neon_cyan"
   ],
   "tags": [
-    "castle_stage",
-    "snes_cartridge",
+    "pyramid_bg",
     "space_ship",
-    "lightning_strike",
-    "mecha_sprite",
+    "castle_stage",
+    "nes_cover",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

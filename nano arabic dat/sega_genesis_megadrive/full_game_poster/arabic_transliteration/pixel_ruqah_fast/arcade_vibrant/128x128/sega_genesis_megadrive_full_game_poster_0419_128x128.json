@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
+      "dripping_slime",
       "crt_scanlines",
-      "glowing_edges",
-      "fire_effect"
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "blue",
-    "black"
+    "black",
+    "red",
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
-    "title_screen",
+    "connected_letters",
+    "pixel_explosion",
     "mecha_sprite",
-    "nes_cover",
-    "snes_cartridge",
+    "desert_bg",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "pixel_gradient",
       "drop_shadow",
-      "chrome_bevel"
+      "fire_effect",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "black",
-    "purple",
-    "neon_cyan"
+    "blue",
+    "red"
   ],
   "tags": [
-    "connected_letters",
-    "gameboy_box",
-    "dragon_bg",
     "pixel_font",
     "pyramid_bg",
+    "pixel_frame",
+    "pixel_explosion",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_thuluth_display",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "1-bit_dithering",
       "pixel_gradient",
-      "thick_black_outline"
+      "1-bit_dithering",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "split_bilingual_layout",
   "colors": [
-    "blue",
-    "gold",
-    "black"
+    "neon_cyan",
+    "black",
+    "blue"
   ],
   "tags": [
-    "pixel_typography",
-    "boss_battle",
-    "sub_title",
-    "pixel_frame",
-    "title_screen",
+    "pixel_explosion",
+    "mecha_sprite",
+    "arabic_text",
+    "sega_grid",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "pixel_gradient",
-      "drop_shadow",
-      "gold_texture"
+      "grid_overlay",
+      "glitch_displacement",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "black",
-    "neon_cyan",
-    "white"
+    "purple",
+    "red",
+    "black"
   ],
   "tags": [
-    "skull_icon",
-    "boss_battle",
+    "connected_letters",
     "desert_bg",
+    "arabic_text",
+    "lightning_strike",
     "dragon_bg",
-    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,8 +8,8 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "glowing_edges",
-      "chrome_bevel",
+      "thick_black_outline",
+      "gold_texture",
       "16-bit_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "blue",
-    "white",
-    "purple"
+    "neon_cyan",
+    "red",
+    "gold"
   ],
   "tags": [
-    "pyramid_bg",
-    "arabic_text",
-    "mecha_sprite",
+    "connected_letters",
+    "boss_battle",
     "skull_icon",
-    "pixel_typography",
+    "sega_grid",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "gold_texture",
-      "drop_shadow",
-      "dripping_slime"
+      "crt_scanlines",
+      "chrome_bevel",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "purple",
-    "white"
+    "blue",
+    "white",
+    "purple"
   ],
   "tags": [
-    "pixel_frame",
+    "pixel_typography",
+    "sword_icon",
+    "sega_grid",
+    "nes_cover",
     "hero_sprite",
-    "pixel_explosion",
-    "castle_stage",
-    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

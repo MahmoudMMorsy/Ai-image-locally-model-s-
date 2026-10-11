@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "glitch_displacement",
-      "pixel_gradient"
+      "grid_overlay",
+      "dripping_slime",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "red",
     "blue",
-    "black",
-    "gold"
+    "black"
   ],
   "tags": [
-    "hero_sprite",
-    "nes_cover",
-    "connected_letters",
+    "skull_icon",
     "pixel_font",
-    "castle_stage",
+    "lightning_strike",
+    "hero_sprite",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

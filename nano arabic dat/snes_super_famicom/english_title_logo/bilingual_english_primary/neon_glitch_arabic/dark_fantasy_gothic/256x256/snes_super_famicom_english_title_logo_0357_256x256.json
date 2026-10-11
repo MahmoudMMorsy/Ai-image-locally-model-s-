@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "thick_black_outline",
-      "grid_overlay",
-      "fire_effect"
+      "gold_texture",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "centered_emblem",
   "colors": [
-    "red",
     "blue",
-    "gold"
+    "white",
+    "red"
   ],
   "tags": [
-    "skull_icon",
-    "pixel_frame",
-    "sub_title",
-    "pyramid_bg",
-    "title_screen",
+    "castle_stage",
+    "dragon_bg",
+    "hero_sprite",
+    "nes_cover",
+    "mecha_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

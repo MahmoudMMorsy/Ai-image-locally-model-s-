@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "grid_overlay",
-      "chrome_bevel",
-      "1-bit_dithering"
+      "gold_texture",
+      "glitch_displacement",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "white",
-    "black",
-    "purple"
+    "red",
+    "gold",
+    "blue"
   ],
   "tags": [
-    "desert_bg",
-    "mecha_sprite",
-    "pixel_frame",
+    "castle_stage",
+    "pyramid_bg",
+    "space_ship",
     "skull_icon",
-    "lightning_strike",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

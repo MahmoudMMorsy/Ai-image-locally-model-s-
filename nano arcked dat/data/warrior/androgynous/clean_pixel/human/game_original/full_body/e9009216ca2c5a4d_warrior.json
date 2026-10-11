@@ -1,0 +1,27 @@
+{
+  "file": "e9009216ca2c5a4d_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white",
+    "orange"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "mob",
+    "llm",
+    "sprite",
+    "sheet"
+  ],
+  "resolution": "256x192",
+  "notes": "Aggregated asset from examples_showcase (256x192 clean_pixel warrior)"
+}

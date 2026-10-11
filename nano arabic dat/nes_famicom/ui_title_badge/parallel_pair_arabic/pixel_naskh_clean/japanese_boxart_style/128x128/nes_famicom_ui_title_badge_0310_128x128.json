@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
-      "gold_texture",
-      "dripping_slime"
+      "glitch_displacement",
+      "chrome_bevel",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "black_border_nes",
   "colors": [
-    "blue",
-    "black",
-    "white"
+    "white",
+    "gold",
+    "neon_cyan"
   ],
   "tags": [
-    "arabic_text",
     "castle_stage",
-    "pyramid_bg",
-    "boss_battle",
+    "desert_bg",
+    "pixel_explosion",
     "hero_sprite",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

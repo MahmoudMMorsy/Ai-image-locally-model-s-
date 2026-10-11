@@ -8,8 +8,8 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "drop_shadow",
-      "fire_effect",
+      "1-bit_dithering",
+      "glitch_displacement",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
-    "purple",
+    "black",
+    "white",
     "neon_cyan"
   ],
   "tags": [
-    "pixel_explosion",
-    "sega_grid",
-    "pixel_frame",
-    "pixel_font",
+    "boss_battle",
     "desert_bg",
+    "nes_cover",
+    "lightning_strike",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

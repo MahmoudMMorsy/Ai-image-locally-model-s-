@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "pixel_gradient",
-      "gold_texture"
+      "dripping_slime",
+      "thick_black_outline",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
-    "black",
     "red",
-    "gold"
+    "neon_cyan",
+    "blue"
   ],
   "tags": [
-    "sega_grid",
-    "nes_cover",
+    "lightning_strike",
     "castle_stage",
-    "title_screen",
-    "dragon_bg",
+    "skull_icon",
+    "pixel_frame",
+    "space_ship",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

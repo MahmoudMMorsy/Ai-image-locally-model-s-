@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "dripping_slime",
-      "1-bit_dithering",
-      "glowing_edges"
+      "chrome_bevel",
+      "crt_scanlines",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "red",
     "black",
-    "purple"
+    "gold"
   ],
   "tags": [
-    "sword_icon",
     "boss_battle",
-    "skull_icon",
     "pixel_frame",
-    "sega_grid",
+    "space_ship",
+    "sub_title",
+    "castle_stage",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

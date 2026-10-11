@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "pixel_gradient",
-      "glowing_edges",
-      "chrome_bevel"
+      "grid_overlay",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "black_border_nes",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "blue"
+    "gold",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "dragon_bg",
-    "pixel_explosion",
+    "pixel_font",
+    "connected_letters",
+    "skull_icon",
     "pyramid_bg",
-    "sword_icon",
-    "gameboy_box",
+    "boss_battle",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

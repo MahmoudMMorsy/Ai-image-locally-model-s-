@@ -9,8 +9,8 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "grid_overlay",
-      "drop_shadow",
-      "thick_black_outline"
+      "thick_black_outline",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
+    "black",
     "white",
-    "neon_cyan",
-    "black"
+    "neon_cyan"
   ],
   "tags": [
-    "arabic_text",
-    "gameboy_box",
+    "sega_grid",
     "desert_bg",
-    "boss_battle",
-    "sub_title",
+    "connected_letters",
+    "hero_sprite",
+    "pyramid_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

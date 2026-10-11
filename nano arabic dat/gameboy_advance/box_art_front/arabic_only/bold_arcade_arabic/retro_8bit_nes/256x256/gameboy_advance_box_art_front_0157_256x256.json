@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "crt_scanlines",
-      "16-bit_gradient",
-      "thick_black_outline"
+      "dripping_slime",
+      "chrome_bevel",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "red",
     "blue",
-    "black"
+    "neon_cyan"
   ],
   "tags": [
-    "arabic_text",
-    "sega_grid",
+    "gameboy_box",
+    "boss_battle",
     "hero_sprite",
-    "connected_letters",
-    "lightning_strike",
+    "pixel_font",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

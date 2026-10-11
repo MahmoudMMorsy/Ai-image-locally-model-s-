@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "thick_black_outline",
-      "1-bit_dithering"
+      "glitch_displacement",
+      "1-bit_dithering",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
     "white",
+    "neon_cyan",
     "red"
   ],
   "tags": [
-    "nes_cover",
     "dragon_bg",
-    "pixel_frame",
-    "title_screen",
-    "desert_bg",
+    "arabic_text",
+    "hero_sprite",
+    "castle_stage",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

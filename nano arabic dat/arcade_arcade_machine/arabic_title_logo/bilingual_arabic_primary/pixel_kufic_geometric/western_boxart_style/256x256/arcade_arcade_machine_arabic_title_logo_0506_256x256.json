@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "drop_shadow",
-      "16-bit_gradient"
+      "16-bit_gradient",
+      "glowing_edges",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
+    "black",
     "white",
     "red"
   ],
   "tags": [
+    "pixel_frame",
+    "castle_stage",
     "lightning_strike",
-    "connected_letters",
-    "gameboy_box",
-    "arabic_text",
-    "pixel_font",
+    "mecha_sprite",
+    "hero_sprite",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

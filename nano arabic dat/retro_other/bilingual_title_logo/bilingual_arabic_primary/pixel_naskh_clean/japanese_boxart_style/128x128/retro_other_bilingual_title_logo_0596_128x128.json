@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "fire_effect",
-      "1-bit_dithering",
-      "dripping_slime"
+      "gold_texture",
+      "thick_black_outline",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "purple",
-    "red"
+    "blue",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_font",
-    "lightning_strike",
-    "hero_sprite",
-    "pixel_frame",
+    "pyramid_bg",
+    "mecha_sprite",
+    "connected_letters",
     "nes_cover",
+    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

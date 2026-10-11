@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "crt_scanlines",
-      "thick_black_outline",
-      "16-bit_gradient"
+      "fire_effect",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
-    "white",
-    "black"
+    "red",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "sword_icon",
-    "gameboy_box",
-    "desert_bg",
-    "connected_letters",
+    "pyramid_bg",
+    "title_screen",
     "space_ship",
+    "snes_cartridge",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

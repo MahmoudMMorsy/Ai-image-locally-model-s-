@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
+      "gold_texture",
       "dripping_slime",
-      "16-bit_gradient"
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "rpg_fantasy",
   "layout": "black_border_nes",
   "colors": [
+    "gold",
     "neon_cyan",
-    "white",
     "purple"
   ],
   "tags": [
-    "title_screen",
-    "pixel_typography",
-    "boss_battle",
-    "sega_grid",
-    "hero_sprite",
+    "nes_cover",
+    "desert_bg",
+    "sword_icon",
+    "pixel_font",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

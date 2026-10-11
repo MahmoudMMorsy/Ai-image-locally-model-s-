@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "crt_scanlines",
-      "drop_shadow",
-      "thick_black_outline"
+      "16-bit_gradient",
+      "grid_overlay",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "centered_emblem",
   "colors": [
-    "black",
-    "blue",
-    "neon_cyan"
+    "neon_cyan",
+    "gold",
+    "purple"
   ],
   "tags": [
-    "pyramid_bg",
-    "arabic_text",
-    "sega_grid",
-    "space_ship",
     "snes_cartridge",
+    "nes_cover",
+    "pixel_font",
+    "boss_battle",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

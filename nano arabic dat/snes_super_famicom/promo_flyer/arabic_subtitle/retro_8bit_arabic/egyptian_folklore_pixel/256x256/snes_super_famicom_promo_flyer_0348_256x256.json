@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "fire_effect",
-      "1-bit_dithering"
+      "1-bit_dithering",
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "gold",
-    "purple",
-    "white"
+    "black",
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
+    "title_screen",
+    "pixel_frame",
+    "gameboy_box",
     "hero_sprite",
-    "pixel_explosion",
-    "arabic_text",
-    "pyramid_bg",
-    "snes_cartridge",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

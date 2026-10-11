@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "grid_overlay",
-      "glowing_edges",
-      "16-bit_gradient"
+      "1-bit_dithering",
+      "fire_effect",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
+    "black",
     "neon_cyan",
-    "white",
-    "black"
+    "white"
   ],
   "tags": [
-    "desert_bg",
+    "pixel_typography",
+    "boss_battle",
+    "connected_letters",
     "pixel_font",
-    "arabic_text",
     "pixel_frame",
-    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

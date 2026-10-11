@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "dripping_slime",
-      "glowing_edges",
-      "thick_black_outline"
+      "gold_texture",
+      "grid_overlay",
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "gold",
+    "neon_cyan",
     "white",
-    "blue"
+    "purple"
   ],
   "tags": [
-    "castle_stage",
-    "arabic_text",
-    "title_screen",
+    "pixel_font",
+    "mecha_sprite",
+    "sega_grid",
+    "boss_battle",
     "sub_title",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,8 +8,8 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "grid_overlay",
-      "gold_texture",
+      "dripping_slime",
+      "16-bit_gradient",
       "1-bit_dithering"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "centered_emblem",
   "colors": [
-    "red",
-    "black",
+    "neon_cyan",
+    "white",
     "purple"
   ],
   "tags": [
     "pyramid_bg",
-    "mecha_sprite",
-    "lightning_strike",
-    "sword_icon",
-    "pixel_explosion",
+    "title_screen",
+    "arabic_text",
+    "desert_bg",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

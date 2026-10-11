@@ -9,7 +9,7 @@
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
       "grid_overlay",
-      "glowing_edges",
+      "1-bit_dithering",
       "gold_texture"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
-    "neon_cyan",
     "black",
-    "white"
+    "purple",
+    "gold"
   ],
   "tags": [
-    "arabic_text",
     "gameboy_box",
+    "dragon_bg",
+    "title_screen",
+    "arabic_text",
     "boss_battle",
-    "hero_sprite",
-    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

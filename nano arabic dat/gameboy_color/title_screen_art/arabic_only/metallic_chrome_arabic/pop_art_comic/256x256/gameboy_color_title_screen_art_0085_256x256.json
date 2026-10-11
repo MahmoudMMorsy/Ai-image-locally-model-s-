@@ -9,7 +9,7 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "glowing_edges",
-      "thick_black_outline",
+      "glitch_displacement",
       "pixel_gradient"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "black",
+    "gold",
     "neon_cyan",
-    "gold"
+    "blue"
   ],
   "tags": [
     "sub_title",
-    "hero_sprite",
-    "pixel_font",
+    "boss_battle",
+    "desert_bg",
     "sega_grid",
-    "sword_icon",
+    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

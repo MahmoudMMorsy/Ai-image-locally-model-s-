@@ -8,9 +8,9 @@
     "style": "metallic_chrome_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "chrome_bevel",
-      "1-bit_dithering",
-      "crt_scanlines"
+      "fire_effect",
+      "pixel_gradient",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "black_border_nes",
   "colors": [
     "white",
-    "black",
-    "red"
+    "blue",
+    "black"
   ],
   "tags": [
-    "mecha_sprite",
-    "pixel_typography",
     "skull_icon",
+    "pixel_frame",
     "castle_stage",
-    "boss_battle",
+    "sword_icon",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "gold_texture",
-      "grid_overlay",
-      "chrome_bevel"
+      "glitch_displacement",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "top_title_hero_bottom",
   "colors": [
-    "neon_cyan",
-    "gold",
+    "blue",
+    "black",
     "red"
   ],
   "tags": [
-    "sub_title",
-    "pixel_font",
-    "lightning_strike",
-    "sword_icon",
-    "pixel_frame",
+    "dragon_bg",
+    "castle_stage",
+    "hero_sprite",
+    "title_screen",
+    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

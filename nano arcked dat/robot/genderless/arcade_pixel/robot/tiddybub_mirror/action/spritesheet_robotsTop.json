@@ -1,0 +1,26 @@
+{
+  "file": "nano arcked dat/robot/genderless/arcade_pixel/robot/tiddybub_mirror/action/spritesheet_robotsTop.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "sci_fi",
+  "pose": "action",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "pixel_art",
+    "robot",
+    "top_view",
+    "sprite_sheet"
+  ],
+  "license": "CC0-1.0",
+  "author": "See original source page in Tiddybub SOURCE.md",
+  "source_url": "https://github.com/Tiddybub/2d-assets/blob/main/sci-fi/robot-pack/Spritesheet/spritesheet_robotsTop.png",
+  "mirror_url": "https://github.com/Tiddybub/2d-assets/blob/main/sci-fi/robot-pack/Spritesheet/spritesheet_robotsTop.png",
+  "original_path": "sci-fi/robot-pack/Spritesheet/spritesheet_robotsTop.png",
+  "original_size": 16837,
+  "provenance": "CC0 asset mirrored from a curated public repository; original source retained",
+  "notes": "Candidate dataset item. Religious/sacred exclusion requires visual review before training."
+}

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "1-bit_dithering",
-      "drop_shadow",
-      "crt_scanlines"
+      "gold_texture",
+      "thick_black_outline",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "platformer",
   "layout": "border_framed",
   "colors": [
-    "black",
-    "neon_cyan",
-    "purple"
+    "white",
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "pixel_typography",
-    "skull_icon",
-    "nes_cover",
+    "pyramid_bg",
+    "gameboy_box",
     "pixel_explosion",
-    "title_screen",
+    "connected_letters",
+    "sub_title",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "gold_texture",
-      "grid_overlay",
-      "fire_effect"
+      "glitch_displacement",
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
     "gold",
-    "white"
+    "red",
+    "blue"
   ],
   "tags": [
-    "sub_title",
-    "pixel_font",
-    "dragon_bg",
     "sega_grid",
-    "arabic_text",
+    "gameboy_box",
+    "pixel_font",
+    "hero_sprite",
+    "dragon_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

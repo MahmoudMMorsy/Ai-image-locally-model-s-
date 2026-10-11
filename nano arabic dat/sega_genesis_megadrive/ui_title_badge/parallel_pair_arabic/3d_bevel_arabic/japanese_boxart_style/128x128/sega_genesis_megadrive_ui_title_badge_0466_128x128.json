@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "gold_texture",
-      "crt_scanlines",
-      "16-bit_gradient"
+      "1-bit_dithering",
+      "drop_shadow",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "egyptian_folklore",
   "layout": "split_bilingual_layout",
   "colors": [
-    "gold",
     "blue",
-    "white"
+    "neon_cyan",
+    "red"
   ],
   "tags": [
-    "desert_bg",
-    "lightning_strike",
+    "sub_title",
+    "sword_icon",
+    "pixel_font",
+    "arabic_text",
     "skull_icon",
-    "boss_battle",
-    "pixel_explosion",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -9,8 +9,8 @@
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
       "glowing_edges",
-      "glitch_displacement",
-      "1-bit_dithering"
+      "chrome_bevel",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "centered_emblem",
   "colors": [
+    "purple",
     "gold",
-    "white",
-    "black"
+    "blue"
   ],
   "tags": [
-    "snes_cartridge",
-    "sega_grid",
-    "dragon_bg",
-    "arabic_text",
     "sub_title",
+    "mecha_sprite",
+    "dragon_bg",
+    "snes_cartridge",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

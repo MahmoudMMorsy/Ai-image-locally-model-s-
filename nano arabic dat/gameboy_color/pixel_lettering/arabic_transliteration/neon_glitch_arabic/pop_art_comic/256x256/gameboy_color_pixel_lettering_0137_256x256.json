@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "16-bit_gradient",
-      "grid_overlay",
-      "chrome_bevel"
+      "crt_scanlines",
+      "pixel_gradient",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
-    "blue",
-    "black"
+    "red",
+    "purple",
+    "white"
   ],
   "tags": [
     "title_screen",
-    "skull_icon",
-    "mecha_sprite",
+    "lightning_strike",
+    "pixel_typography",
+    "nes_cover",
     "sub_title",
-    "snes_cartridge",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

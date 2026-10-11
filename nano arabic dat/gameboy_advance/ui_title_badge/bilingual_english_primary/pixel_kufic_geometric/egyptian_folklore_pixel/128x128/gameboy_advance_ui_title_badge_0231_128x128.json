@@ -9,8 +9,8 @@
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
       "drop_shadow",
-      "glowing_edges",
-      "thick_black_outline"
+      "glitch_displacement",
+      "1-bit_dithering"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "centered_emblem",
   "colors": [
-    "black",
     "red",
-    "purple"
+    "blue",
+    "white"
   ],
   "tags": [
-    "pixel_explosion",
-    "nes_cover",
-    "boss_battle",
-    "lightning_strike",
     "desert_bg",
+    "pixel_font",
+    "title_screen",
+    "snes_cartridge",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

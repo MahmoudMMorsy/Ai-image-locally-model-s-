@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "crt_scanlines",
-      "grid_overlay",
-      "drop_shadow"
+      "1-bit_dithering",
+      "glowing_edges",
+      "chrome_bevel"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "racing_sports",
   "layout": "diagonal_arcade_badge",
   "colors": [
+    "blue",
     "red",
-    "neon_cyan",
-    "blue"
+    "white"
   ],
   "tags": [
-    "skull_icon",
-    "connected_letters",
-    "space_ship",
+    "pixel_frame",
+    "arabic_text",
+    "pixel_font",
+    "dragon_bg",
     "sub_title",
-    "pixel_typography",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

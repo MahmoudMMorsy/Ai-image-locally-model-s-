@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "decay_horror_typography",
     "text_effects": [
-      "gold_texture",
+      "glowing_edges",
       "thick_black_outline",
-      "crt_scanlines"
+      "pixel_gradient"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "fighting_game",
   "layout": "border_framed",
   "colors": [
-    "red",
-    "purple",
-    "gold"
+    "gold",
+    "black",
+    "white"
   ],
   "tags": [
-    "arabic_text",
-    "dragon_bg",
-    "gameboy_box",
-    "pixel_frame",
     "pyramid_bg",
+    "sword_icon",
+    "arabic_text",
+    "boss_battle",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

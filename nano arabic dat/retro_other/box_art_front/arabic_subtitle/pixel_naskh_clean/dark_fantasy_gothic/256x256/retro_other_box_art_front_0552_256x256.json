@@ -8,9 +8,9 @@
     "style": "pixel_naskh_clean",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "grid_overlay",
+      "thick_black_outline",
       "1-bit_dithering",
-      "crt_scanlines"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "grid_framed_boxart",
   "colors": [
-    "blue",
     "red",
-    "purple"
+    "blue",
+    "gold"
   ],
   "tags": [
-    "mecha_sprite",
-    "sega_grid",
-    "desert_bg",
-    "gameboy_box",
+    "boss_battle",
     "title_screen",
+    "hero_sprite",
+    "dragon_bg",
+    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

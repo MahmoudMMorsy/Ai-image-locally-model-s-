@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "pixel_gradient",
-      "dripping_slime",
-      "1-bit_dithering"
+      "gold_texture",
+      "drop_shadow",
+      "16-bit_gradient"
     ],
     "readability_score": "high"
   },
@@ -19,15 +19,15 @@
   "layout": "centered_emblem",
   "colors": [
     "blue",
-    "black",
-    "red"
+    "neon_cyan",
+    "gold"
   ],
   "tags": [
-    "sega_grid",
+    "skull_icon",
+    "pixel_explosion",
+    "pixel_typography",
+    "space_ship",
     "hero_sprite",
-    "pyramid_bg",
-    "dragon_bg",
-    "title_screen",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

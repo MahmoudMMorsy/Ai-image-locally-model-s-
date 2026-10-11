@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "1-bit_dithering",
+      "crt_scanlines",
       "pixel_gradient",
-      "thick_black_outline"
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "shoot_em_up",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
-    "white",
-    "red"
+    "red",
+    "blue",
+    "purple"
   ],
   "tags": [
-    "dragon_bg",
-    "hero_sprite",
     "sega_grid",
-    "connected_letters",
+    "sub_title",
+    "skull_icon",
+    "hero_sprite",
     "pixel_font",
     "arabic_text",
     "connected_letters",

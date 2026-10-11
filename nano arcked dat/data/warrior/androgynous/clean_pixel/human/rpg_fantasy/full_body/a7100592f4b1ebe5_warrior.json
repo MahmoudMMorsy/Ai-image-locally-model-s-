@@ -1,0 +1,22 @@
+{
+  "file": "a7100592f4b1ebe5_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "pixel",
+    "mob",
+    "2026",
+    "llm",
+    "example"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from nano_pixel_mob (64x64 clean_pixel warrior)"
+}

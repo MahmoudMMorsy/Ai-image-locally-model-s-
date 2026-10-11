@@ -1,0 +1,28 @@
+{
+  "file": "32e1df01e6cca454_dragon.png",
+  "type": "dragon",
+  "gender": "genderless",
+  "race": "dragonkin",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "silver",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "gdrive",
+    "trained",
+    "style",
+    "char",
+    "ancient",
+    "dragon",
+    "single"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel dragon)"
+}

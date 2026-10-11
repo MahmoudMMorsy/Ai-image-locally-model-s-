@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "drop_shadow",
-      "gold_texture",
-      "dripping_slime"
+      "glowing_edges",
+      "glitch_displacement",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "black",
-    "red",
-    "neon_cyan"
+    "blue",
+    "purple",
+    "gold"
   ],
   "tags": [
-    "skull_icon",
-    "desert_bg",
-    "castle_stage",
+    "space_ship",
     "arabic_text",
-    "lightning_strike",
+    "pixel_explosion",
+    "gameboy_box",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

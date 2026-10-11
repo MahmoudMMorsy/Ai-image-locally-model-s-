@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
+      "drop_shadow",
       "glowing_edges",
-      "thick_black_outline",
-      "drop_shadow"
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "centered_emblem",
   "colors": [
-    "gold",
-    "neon_cyan",
+    "blue",
+    "red",
     "black"
   ],
   "tags": [
+    "pixel_frame",
+    "sword_icon",
+    "dragon_bg",
     "gameboy_box",
-    "nes_cover",
     "sub_title",
-    "skull_icon",
-    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

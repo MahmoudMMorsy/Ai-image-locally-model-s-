@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "glitch_displacement",
-      "fire_effect",
-      "gold_texture"
+      "crt_scanlines",
+      "dripping_slime",
+      "glowing_edges"
     ],
     "readability_score": "high"
   },
@@ -20,14 +20,14 @@
   "colors": [
     "white",
     "neon_cyan",
-    "red"
+    "black"
   ],
   "tags": [
-    "pyramid_bg",
-    "sub_title",
-    "sega_grid",
+    "gameboy_box",
+    "pixel_explosion",
     "arabic_text",
     "space_ship",
+    "desert_bg",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

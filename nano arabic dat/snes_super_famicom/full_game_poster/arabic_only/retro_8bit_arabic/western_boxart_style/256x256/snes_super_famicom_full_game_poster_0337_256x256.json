@@ -9,8 +9,8 @@
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
       "grid_overlay",
-      "drop_shadow",
-      "glowing_edges"
+      "fire_effect",
+      "gold_texture"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "black_border_nes",
   "colors": [
-    "purple",
-    "black",
+    "red",
+    "white",
     "neon_cyan"
   ],
   "tags": [
-    "sub_title",
-    "arabic_text",
+    "pixel_font",
+    "title_screen",
+    "connected_letters",
+    "snes_cartridge",
     "nes_cover",
-    "dragon_bg",
-    "pixel_frame",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
+      "fire_effect",
       "chrome_bevel",
-      "crt_scanlines",
-      "fire_effect"
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "post_apocalyptic",
   "layout": "bottom_title_scene_top",
   "colors": [
-    "neon_cyan",
+    "purple",
     "red",
-    "purple"
+    "white"
   ],
   "tags": [
-    "skull_icon",
+    "pixel_explosion",
     "sub_title",
-    "connected_letters",
-    "mecha_sprite",
-    "dragon_bg",
+    "snes_cartridge",
+    "castle_stage",
+    "sword_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

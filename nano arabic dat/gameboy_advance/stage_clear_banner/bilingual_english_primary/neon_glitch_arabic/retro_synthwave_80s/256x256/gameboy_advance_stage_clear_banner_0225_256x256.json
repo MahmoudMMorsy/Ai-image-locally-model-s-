@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "chrome_bevel",
-      "crt_scanlines",
-      "grid_overlay"
+      "16-bit_gradient",
+      "glowing_edges",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "center_title_large",
   "colors": [
-    "blue",
-    "gold",
-    "white"
+    "purple",
+    "red",
+    "neon_cyan"
   ],
   "tags": [
-    "nes_cover",
-    "title_screen",
-    "connected_letters",
-    "gameboy_box",
-    "boss_battle",
+    "sword_icon",
+    "sega_grid",
+    "sub_title",
+    "skull_icon",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

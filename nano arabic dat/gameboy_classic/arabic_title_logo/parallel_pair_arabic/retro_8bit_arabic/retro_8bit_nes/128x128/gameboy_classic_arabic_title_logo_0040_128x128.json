@@ -9,8 +9,8 @@
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
       "glowing_edges",
-      "glitch_displacement",
-      "1-bit_dithering"
+      "thick_black_outline",
+      "grid_overlay"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "black_border_nes",
   "colors": [
-    "red",
-    "neon_cyan",
-    "gold"
+    "purple",
+    "white",
+    "red"
   ],
   "tags": [
-    "title_screen",
-    "castle_stage",
+    "lightning_strike",
+    "pixel_font",
+    "pixel_explosion",
+    "arabic_text",
     "gameboy_box",
-    "nes_cover",
-    "connected_letters",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

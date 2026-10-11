@@ -8,8 +8,8 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "magic_mystic_typography",
     "text_effects": [
-      "fire_effect",
-      "dripping_slime",
+      "pixel_gradient",
+      "1-bit_dithering",
       "grid_overlay"
     ],
     "readability_score": "high"
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "red",
     "blue",
-    "neon_cyan"
+    "white",
+    "black"
   ],
   "tags": [
-    "connected_letters",
-    "castle_stage",
-    "pixel_font",
+    "pixel_typography",
+    "snes_cartridge",
+    "title_screen",
     "nes_cover",
-    "pixel_frame",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

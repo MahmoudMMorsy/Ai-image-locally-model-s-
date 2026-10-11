@@ -8,9 +8,9 @@
     "style": "neon_glitch_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "drop_shadow",
-      "chrome_bevel",
-      "glowing_edges"
+      "pixel_gradient",
+      "gold_texture",
+      "glitch_displacement"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "shoot_em_up",
   "layout": "border_framed",
   "colors": [
+    "gold",
     "red",
-    "black",
-    "blue"
+    "black"
   ],
   "tags": [
-    "title_screen",
-    "sub_title",
-    "hero_sprite",
-    "mecha_sprite",
     "desert_bg",
+    "boss_battle",
+    "castle_stage",
+    "mecha_sprite",
+    "sega_grid",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

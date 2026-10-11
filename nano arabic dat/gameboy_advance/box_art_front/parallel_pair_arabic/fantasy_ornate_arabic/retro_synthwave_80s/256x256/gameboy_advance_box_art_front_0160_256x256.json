@@ -8,8 +8,8 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "gold_texture",
-      "chrome_bevel",
+      "grid_overlay",
+      "dripping_slime",
       "fire_effect"
     ],
     "readability_score": "high"
@@ -18,15 +18,15 @@
   "genre": "shoot_em_up",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
-    "white",
-    "neon_cyan"
+    "red",
+    "gold",
+    "white"
   ],
   "tags": [
-    "title_screen",
-    "sword_icon",
-    "nes_cover",
-    "sub_title",
+    "mecha_sprite",
+    "arabic_text",
+    "gameboy_box",
+    "boss_battle",
     "desert_bg",
     "arabic_text",
     "connected_letters",

@@ -8,9 +8,9 @@
     "style": "pixel_kufic_geometric",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "gold_texture",
-      "1-bit_dithering",
-      "chrome_bevel"
+      "grid_overlay",
+      "glowing_edges",
+      "dripping_slime"
     ],
     "readability_score": "high"
   },
@@ -19,14 +19,14 @@
   "layout": "bottom_title_scene_top",
   "colors": [
     "gold",
-    "red",
-    "neon_cyan"
+    "neon_cyan",
+    "black"
   ],
   "tags": [
-    "pixel_font",
-    "mecha_sprite",
-    "snes_cartridge",
-    "desert_bg",
+    "pixel_frame",
+    "title_screen",
+    "boss_battle",
+    "gameboy_box",
     "hero_sprite",
     "arabic_text",
     "connected_letters",

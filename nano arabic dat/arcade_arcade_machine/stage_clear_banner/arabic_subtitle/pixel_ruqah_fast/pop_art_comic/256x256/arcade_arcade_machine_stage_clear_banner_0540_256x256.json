@@ -8,9 +8,9 @@
     "style": "pixel_ruqah_fast",
     "semantic_weight": "massive_heavy_typography",
     "text_effects": [
-      "1-bit_dithering",
       "glowing_edges",
-      "pixel_gradient"
+      "pixel_gradient",
+      "crt_scanlines"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "beat_em_up",
   "layout": "center_title_large",
   "colors": [
+    "white",
     "gold",
-    "black",
     "red"
   ],
   "tags": [
+    "pixel_font",
     "gameboy_box",
-    "skull_icon",
-    "desert_bg",
-    "space_ship",
-    "boss_battle",
+    "sword_icon",
+    "connected_letters",
+    "arabic_text",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

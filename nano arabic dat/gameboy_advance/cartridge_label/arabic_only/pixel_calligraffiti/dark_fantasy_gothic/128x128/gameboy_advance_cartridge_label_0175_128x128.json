@@ -8,9 +8,9 @@
     "style": "pixel_calligraffiti",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "gold_texture",
-      "fire_effect",
-      "chrome_bevel"
+      "16-bit_gradient",
+      "grid_overlay",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "horror_survival",
   "layout": "black_border_nes",
   "colors": [
-    "white",
-    "red",
-    "blue"
+    "neon_cyan",
+    "black",
+    "purple"
   ],
   "tags": [
     "skull_icon",
     "space_ship",
-    "desert_bg",
-    "dragon_bg",
-    "pixel_typography",
+    "sub_title",
+    "pixel_font",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

@@ -8,9 +8,9 @@
     "style": "3d_bevel_arabic",
     "semantic_weight": "ancient_stone_typography",
     "text_effects": [
-      "crt_scanlines",
-      "gold_texture",
-      "pixel_gradient"
+      "glitch_displacement",
+      "fire_effect",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,15 +18,15 @@
   "genre": "sci_fi_cyberpunk",
   "layout": "grid_framed_boxart",
   "colors": [
-    "neon_cyan",
-    "blue",
+    "black",
+    "white",
     "red"
   ],
   "tags": [
-    "hero_sprite",
-    "dragon_bg",
-    "pixel_frame",
-    "gameboy_box",
+    "lightning_strike",
+    "space_ship",
+    "nes_cover",
+    "snes_cartridge",
     "pixel_explosion",
     "arabic_text",
     "connected_letters",

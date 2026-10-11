@@ -8,9 +8,9 @@
     "style": "retro_8bit_arabic",
     "semantic_weight": "organic_nature_typography",
     "text_effects": [
-      "pixel_gradient",
       "glitch_displacement",
-      "chrome_bevel"
+      "drop_shadow",
+      "thick_black_outline"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "puzzle_strategy",
   "layout": "split_bilingual_layout",
   "colors": [
-    "black",
     "gold",
-    "red"
+    "purple",
+    "neon_cyan"
   ],
   "tags": [
-    "snes_cartridge",
-    "boss_battle",
     "gameboy_box",
-    "space_ship",
-    "pixel_typography",
+    "mecha_sprite",
+    "lightning_strike",
+    "snes_cartridge",
+    "skull_icon",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

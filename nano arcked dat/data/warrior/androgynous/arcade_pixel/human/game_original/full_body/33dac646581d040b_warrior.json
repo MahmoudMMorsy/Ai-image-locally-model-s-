@@ -1,0 +1,25 @@
+{
+  "file": "33dac646581d040b_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "arabic",
+    "posters",
+    "clean",
+    "poster",
+    "arcade"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from examples_showcase (256x256 arcade_pixel warrior)"
+}

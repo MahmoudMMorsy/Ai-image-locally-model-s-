@@ -8,9 +8,9 @@
     "style": "bold_arcade_arabic",
     "semantic_weight": "speed_motion_typography",
     "text_effects": [
-      "fire_effect",
-      "drop_shadow",
-      "glitch_displacement"
+      "dripping_slime",
+      "glitch_displacement",
+      "fire_effect"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "action_adventure",
   "layout": "diagonal_arcade_badge",
   "colors": [
-    "white",
-    "red",
-    "neon_cyan"
+    "blue",
+    "neon_cyan",
+    "white"
   ],
   "tags": [
-    "gameboy_box",
+    "skull_icon",
     "pixel_font",
+    "sega_grid",
     "dragon_bg",
-    "sword_icon",
-    "arabic_text",
+    "gameboy_box",
     "arabic_text",
     "connected_letters",
     "pixel_typography"

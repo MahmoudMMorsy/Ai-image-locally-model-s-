@@ -8,9 +8,9 @@
     "style": "fantasy_ornate_arabic",
     "semantic_weight": "cyber_tech_typography",
     "text_effects": [
-      "dripping_slime",
-      "grid_overlay",
-      "chrome_bevel"
+      "thick_black_outline",
+      "glowing_edges",
+      "drop_shadow"
     ],
     "readability_score": "high"
   },
@@ -18,16 +18,16 @@
   "genre": "historical_medieval",
   "layout": "center_title_large",
   "colors": [
-    "gold",
-    "neon_cyan",
-    "purple"
+    "purple",
+    "white",
+    "neon_cyan"
   ],
   "tags": [
-    "dragon_bg",
-    "title_screen",
-    "sub_title",
-    "pixel_explosion",
-    "nes_cover",
+    "mecha_sprite",
+    "gameboy_box",
+    "pyramid_bg",
+    "pixel_typography",
+    "lightning_strike",
     "arabic_text",
     "connected_letters",
     "pixel_typography"
