@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_game_over_screen_0533_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "massive_heavy_typography",
+    "text_effects": [
+      "grid_overlay",
+      "drop_shadow",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "connected_letters",
+    "pixel_typography",
+    "nes_cover",
+    "hero_sprite",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: عرش التنين (DRAGON THRONE)."
+}

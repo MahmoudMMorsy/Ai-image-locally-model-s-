@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_arcade_marquee_0406_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "arcade_marquee",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "grid_overlay",
+      "dripping_slime",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "gold",
+    "red"
+  ],
+  "tags": [
+    "skull_icon",
+    "sega_grid",
+    "nes_cover",
+    "pixel_explosion",
+    "connected_letters",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with pixel_calligraffiti title: الفارس الشجاع (BRAVE KNIGHT)."
+}

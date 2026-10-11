@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_arcade_marquee_0483_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "arcade_marquee",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "16-bit_gradient",
+      "grid_overlay",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "centered_emblem",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "purple"
+  ],
+  "tags": [
+    "snes_cartridge",
+    "nes_cover",
+    "pixel_font",
+    "boss_battle",
+    "gameboy_box",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_calligraffiti title: مملكة السحر (MAGIC KINGDOM)."
+}

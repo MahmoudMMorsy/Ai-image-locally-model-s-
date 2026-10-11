@@ -1,0 +1,36 @@
+{
+  "file": "snes_super_famicom_title_screen_art_0321_256x256.png",
+  "resolution": "256x256",
+  "platform": "snes_super_famicom",
+  "poster_type": "title_screen_art",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "dripping_slime",
+      "pixel_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "centered_emblem",
+  "colors": [
+    "neon_cyan",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "connected_letters",
+    "desert_bg",
+    "pyramid_bg",
+    "space_ship",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for snes_super_famicom with pixel_naskh_clean title: قافلة الصحراء (DESERT CARAVAN)."
+}

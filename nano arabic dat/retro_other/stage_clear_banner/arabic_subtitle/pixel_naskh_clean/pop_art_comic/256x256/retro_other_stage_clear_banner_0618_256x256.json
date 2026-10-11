@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_stage_clear_banner_0618_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "chrome_bevel",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "centered_emblem",
+  "colors": [
+    "black",
+    "neon_cyan",
+    "gold"
+  ],
+  "tags": [
+    "title_screen",
+    "skull_icon",
+    "pixel_typography",
+    "nes_cover",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_naskh_clean title: مملكة السحر (MAGIC KINGDOM)."
+}

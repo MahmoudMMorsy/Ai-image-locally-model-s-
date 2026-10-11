@@ -1,0 +1,21 @@
+{
+  "file": "98e12fa48c69e460_mage.png",
+  "type": "mage",
+  "gender": "male",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "wizard",
+    "anim",
+    "sheet"
+  ],
+  "resolution": "256x64",
+  "notes": "Aggregated asset from examples_showcase (256x64 arcade_pixel mage)"
+}

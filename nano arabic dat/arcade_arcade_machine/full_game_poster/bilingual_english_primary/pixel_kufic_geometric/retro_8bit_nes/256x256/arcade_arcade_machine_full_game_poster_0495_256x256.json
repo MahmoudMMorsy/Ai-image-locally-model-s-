@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_full_game_poster_0495_256x256.png",
+  "resolution": "256x256",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "full_game_poster",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "drop_shadow",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "center_title_large",
+  "colors": [
+    "neon_cyan",
+    "purple",
+    "black"
+  ],
+  "tags": [
+    "dragon_bg",
+    "arabic_text",
+    "desert_bg",
+    "space_ship",
+    "sub_title",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with pixel_kufic_geometric title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

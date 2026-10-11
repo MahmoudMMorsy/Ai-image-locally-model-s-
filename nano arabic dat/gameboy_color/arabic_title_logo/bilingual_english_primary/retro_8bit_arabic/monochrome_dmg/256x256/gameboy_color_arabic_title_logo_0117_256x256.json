@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_arabic_title_logo_0117_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "fire_effect",
+      "glowing_edges",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "monochrome_dmg",
+  "genre": "platformer",
+  "layout": "center_title_large",
+  "colors": [
+    "blue",
+    "white",
+    "purple"
+  ],
+  "tags": [
+    "nes_cover",
+    "desert_bg",
+    "pyramid_bg",
+    "mecha_sprite",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

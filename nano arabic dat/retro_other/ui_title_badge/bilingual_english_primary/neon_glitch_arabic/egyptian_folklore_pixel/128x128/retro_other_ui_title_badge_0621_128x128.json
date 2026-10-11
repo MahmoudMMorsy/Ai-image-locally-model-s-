@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_ui_title_badge_0621_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "dripping_slime",
+      "thick_black_outline",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "center_title_large",
+  "colors": [
+    "black",
+    "purple",
+    "neon_cyan"
+  ],
+  "tags": [
+    "sword_icon",
+    "hero_sprite",
+    "pixel_font",
+    "nes_cover",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with neon_glitch_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

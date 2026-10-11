@@ -1,0 +1,21 @@
+{
+  "file": "mage_005.png",
+  "type": "mage",
+  "gender": "male",
+  "race": "elf",
+  "style": "detailed_pixel",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "blue",
+    "purple",
+    "gold"
+  ],
+  "tags": [
+    "staff",
+    "robe",
+    "magic_circle"
+  ],
+  "resolution": "128x128",
+  "notes": "Dataset sample for mage"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_full_game_poster_0576_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "full_game_poster",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "3d_bevel_arabic",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "dripping_slime",
+      "thick_black_outline",
+      "16-bit_gradient"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_synthwave_80s",
+  "genre": "shoot_em_up",
+  "layout": "center_title_large",
+  "colors": [
+    "red",
+    "neon_cyan",
+    "blue"
+  ],
+  "tags": [
+    "lightning_strike",
+    "castle_stage",
+    "skull_icon",
+    "pixel_frame",
+    "space_ship",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with 3d_bevel_arabic title: قافلة الصحراء (DESERT CARAVAN)."
+}

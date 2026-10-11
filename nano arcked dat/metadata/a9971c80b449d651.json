@@ -1,0 +1,32 @@
+{
+  "id": "a9971c80b449d651",
+  "file": "images/civilian/androgynous/clean_pixel/unknown/kenney_cc0_2d/action/a9971c80b449d651_Instruction.png",
+  "type": "civilian",
+  "gender": "androgynous",
+  "race": "unknown",
+  "style": "clean_pixel",
+  "source": "kenney_cc0_2d",
+  "source_url": "https://github.com/shorepine/kenney",
+  "author": "see source repository metadata",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution_required": false,
+  "pose": "action",
+  "view": "unknown",
+  "canvas_size": "918x515",
+  "sprite_sheet": false,
+  "alpha": false,
+  "tags": [
+    "2d",
+    "character",
+    "pack",
+    "instruction",
+    "png"
+  ],
+  "sha256": "a9971c80b449d6517231d018766f77299a99af8aadbd8e7a84e33c8a7d66d534",
+  "original_path": "2d/Character Pack/Instruction.png",
+  "collection": "2d",
+  "retrieved_at": "2026-10-03T10:24:53.415655+00:00",
+  "ai_generated_source": false,
+  "notes": "Candidate for human review. Visual suitability is not inferred from license metadata."
+}
