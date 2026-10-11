@@ -1,0 +1,36 @@
+{
+  "file": "sega_genesis_megadrive_ui_title_badge_0465_256x256.png",
+  "resolution": "256x256",
+  "platform": "sega_genesis_megadrive",
+  "poster_type": "ui_title_badge",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "bold_arcade_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "glitch_displacement",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "centered_emblem",
+  "colors": [
+    "white",
+    "gold",
+    "blue"
+  ],
+  "tags": [
+    "space_ship",
+    "dragon_bg",
+    "desert_bg",
+    "sega_grid",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for sega_genesis_megadrive with bold_arcade_arabic title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

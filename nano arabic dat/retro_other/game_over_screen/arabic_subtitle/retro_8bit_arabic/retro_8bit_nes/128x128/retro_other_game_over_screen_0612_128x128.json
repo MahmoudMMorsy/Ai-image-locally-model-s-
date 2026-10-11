@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_game_over_screen_0612_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "game_over_screen",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "drop_shadow",
+      "1-bit_dithering"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_8bit_nes",
+  "genre": "action_adventure",
+  "layout": "center_title_large",
+  "colors": [
+    "red",
+    "blue",
+    "purple"
+  ],
+  "tags": [
+    "hero_sprite",
+    "gameboy_box",
+    "desert_bg",
+    "space_ship",
+    "nes_cover",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with retro_8bit_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

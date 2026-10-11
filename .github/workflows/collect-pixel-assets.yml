@@ -1,0 +1,235 @@
+name: Collect first-party CC0 pixel-art dataset
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "nano arcked dat/.collection/seed_sources.json"
+      - ".github/workflows/collect-pixel-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Remove rejected aggregator collection
+        shell: bash
+        run: |
+          rm -rf "nano arcked dat/cc0_library"
+
+      - name: Collect official Kenney CC0 pixel packs
+        shell: bash
+        run: |
+          set -euo pipefail
+          dst="nano arcked dat/official_cc0/kenney"
+          work="/tmp/kenney-packs"
+          rm -rf "$work"
+          mkdir -p "$work" "$dst"
+
+          urls=(
+            "https://kenney.nl/media/pages/assets/tiny-dungeon/f8422efb44-1674742415/kenney_tiny-dungeon.zip"
+            "https://kenney.nl/media/pages/assets/tiny-town/a415fbeb49-1735736916/kenney_tiny-town.zip"
+            "https://kenney.nl/media/pages/assets/tiny-battle/c1c25ac1f3-1691487575/kenney_tiny-battle.zip"
+            "https://kenney.nl/media/pages/assets/micro-roguelike/bbcaf50993-1677578239/kenney_micro-roguelike.zip"
+            "https://kenney.nl/media/pages/assets/pixel-platformer/33bb4921eb-1696667883/kenney_pixel-platformer.zip"
+            "https://kenney.nl/media/pages/assets/pixel-shmup/640246b9cc-1677495782/kenney_pixel-shmup.zip"
+            "https://kenney.nl/media/pages/assets/roguelike-modern-city/0ff3dfff2b-1677694743/kenney_roguelike-modern-city.zip"
+            "https://kenney.nl/media/pages/assets/1-bit-pack/aa867a1f37-1677578516/kenney_1-bit-pack.zip"
+            "https://kenney.nl/media/pages/assets/roguelike-rpg-pack/12c03cd78b-1677697420/kenney_roguelike-rpg-pack.zip"
+            "https://kenney.nl/media/pages/assets/roguelike-characters/53ffff4133-1729196490/kenney_roguelike-characters.zip"
+          )
+
+          for url in "${urls[@]}"; do
+            file="$work/$(basename "$url")"
+            curl -L --fail --retry 3 --retry-delay 2 "$url" -o "$file"
+            unzip -q -o "$file" -d "$work/$(basename "$file" .zip)"
+          done
+
+          python - <<'PY'
+          import hashlib, json, shutil
+          from pathlib import Path
+
+          src=Path("/tmp/kenney-packs")
+          dst=Path("nano arcked dat/official_cc0/kenney/images")
+          dst.mkdir(parents=True, exist_ok=True)
+
+          rows=[]
+          seen=set()
+          max_files=7000
+
+          for p in sorted(src.rglob("*.png")):
+              if len(rows) >= max_files:
+                  break
+              if p.stat().st_size > 5*1024*1024:
+                  continue
+              h=hashlib.sha256(p.read_bytes()).hexdigest()
+              if h in seen:
+                  continue
+              seen.add(h)
+              rel=p.relative_to(src).as_posix()
+              low=rel.lower()
+              typ="item"
+              for key,val in [
+                  ("character","civilian"),("knight","knight"),("warrior","warrior"),
+                  ("rogue","rogue"),("mage","mage"),("wizard","wizard"),
+                  ("archer","archer"),("robot","robot"),("alien","alien"),
+                  ("zombie","zombie"),("skeleton","skeleton"),("monster","monster"),
+                  ("enemy","monster"),("dragon","dragon"),("ninja","ninja"),
+                  ("samurai","samurai"),("pirate","pirate"),("vehicle","vehicle"),
+                  ("ship","spaceship"),("sword","sword"),("weapon","weapon")
+              ]:
+                  if key in low:
+                      typ=val
+                      break
+              out=dst/f"{h[:12]}_{p.name}"
+              shutil.copy2(p,out)
+              rows.append({
+                  "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
+                  "type":typ,
+                  "gender":"unknown",
+                  "race":"unknown",
+                  "style":"arcade_pixel",
+                  "source":"Kenney",
+                  "pose":"unknown",
+                  "resolution":"native",
+                  "tags":["pixel_art","cc0","kenney","official_source"],
+                  "license":"CC0-1.0",
+                  "author":"Kenney",
+                  "source_url":"https://kenney.nl/assets",
+                  "original_filename":rel,
+                  "sha256":h
+              })
+
+          meta=Path("nano arcked dat/official_cc0/kenney/metadata")
+          meta.mkdir(parents=True, exist_ok=True)
+          (meta/"dataset.jsonl").write_text(
+              "".join(json.dumps(x,ensure_ascii=False)+"\n" for x in rows),
+              encoding="utf-8"
+          )
+          (meta/"stats.json").write_text(json.dumps({
+              "images":len(rows),
+              "source":"Kenney official asset packs",
+              "license":"CC0-1.0"
+          },ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"Kenney: collected {len(rows)} unique PNGs")
+          PY
+
+      - name: Collect public-domain Dungeon Crawl pixel tiles
+        shell: bash
+        run: |
+          set -euo pipefail
+          work="/tmp/crawl"
+          dst="nano arcked dat/official_cc0/dungeon_crawl"
+          rm -rf "$work"
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/crawl/crawl.git "$work"
+          cd "$work"
+          git sparse-checkout set crawl-ref/source/rltiles/mon crawl-ref/source/rltiles/item crawl-ref/source/rltiles/player crawl-ref/source/rltiles/dngn crawl-ref/source/rltiles/effect crawl-ref/source/rltiles/misc
+          cd - >/dev/null
+          mkdir -p "$dst/images" "$dst/metadata"
+
+          python - <<'PY'
+          import hashlib, json, shutil
+          from pathlib import Path
+          src=Path("/tmp/crawl/crawl-ref/source/rltiles")
+          dst=Path("nano arcked dat/official_cc0/dungeon_crawl/images")
+          rows=[]; seen=set(); max_files=5000
+
+          for p in sorted(src.rglob("*.png")):
+              if len(rows)>=max_files:
+                  break
+              h=hashlib.sha256(p.read_bytes()).hexdigest()
+              if h in seen:
+                  continue
+              seen.add(h)
+              rel=p.relative_to(src).as_posix()
+              folder=rel.split("/",1)[0]
+              typ={"mon":"monster","item":"item","player":"warrior","dngn":"building","effect":"effect","misc":"item"}.get(folder,"item")
+              out=dst/f"{h[:12]}_{p.name}"
+              shutil.copy2(p,out)
+              rows.append({
+                "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
+                "type":typ,"gender":"unknown","race":"unknown",
+                "style":"retro_16bit","source":"Dungeon Crawl Stone Soup",
+                "pose":"unknown","resolution":"32x32_native",
+                "tags":["pixel_art","public_domain","dungeon_crawl","official_source",folder],
+                "license":"Public Domain / CC0-style art license per rltiles license",
+                "author":"Dungeon Crawl Stone Soup contributors",
+                "source_url":"https://github.com/crawl/crawl/tree/master/crawl-ref/source/rltiles",
+                "original_filename":rel,"sha256":h
+              })
+
+          meta=Path("nano arcked dat/official_cc0/dungeon_crawl/metadata")
+          (meta/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\n" for x in rows),encoding="utf-8")
+          (meta/"stats.json").write_text(json.dumps({"images":len(rows),"source":"Dungeon Crawl Stone Soup rltiles"},ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"Dungeon Crawl: collected {len(rows)} unique PNGs")
+          PY
+
+      - name: Collect artist-direct OpenGameArt CC0 packs
+        shell: bash
+        run: |
+          set -euo pipefail
+          dst="nano arcked dat/official_cc0/opengameart"
+          work="/tmp/oga"
+          rm -rf "$work"
+          mkdir -p "$work" "$dst/images"
+
+          curl -L --fail --retry 3 "https://opengameart.org/sites/default/files/Pixel%20Art%20Character-TheGameAssetsMine-.zip" -o "$work/pixel_character.zip"
+          curl -L --fail --retry 3 "https://opengameart.org/sites/default/files/Zombies.zip" -o "$work/zombies.zip"
+
+          unzip -q -o "$work/pixel_character.zip" -d "$work/pixel_character"
+          unzip -q -o "$work/zombies.zip" -d "$work/zombies"
+
+          python - <<'PY'
+          import hashlib, json, shutil
+          from pathlib import Path
+          src=Path("/tmp/oga")
+          dst=Path("nano arcked dat/official_cc0/opengameart/images")
+          rows=[]; seen=set()
+
+          for p in sorted(src.rglob("*.png")):
+              if "images" in p.parts:
+                  continue
+              h=hashlib.sha256(p.read_bytes()).hexdigest()
+              if h in seen:
+                  continue
+              seen.add(h)
+              rel=p.relative_to(src).as_posix()
+              low=rel.lower()
+              typ="warrior" if "character" in low else ("zombie" if "zombie" in low else "creature")
+              out=dst/f"{h[:12]}_{p.name}"
+              shutil.copy2(p,out)
+              rows.append({
+                "file":str(out.relative_to(Path("nano arcked dat"))).replace("\\","/"),
+                "type":typ,"gender":"unknown","race":"human" if typ=="warrior" else "undead",
+                "style":"arcade_pixel","source":"OpenGameArt artist upload",
+                "pose":"walking" if typ=="warrior" else "idle",
+                "resolution":"native","tags":["pixel_art","cc0","artist_direct"],
+                "license":"CC0-1.0","author":"see original OGA page",
+                "source_url":"https://opengameart.org/content/pixel-art-character" if typ=="warrior" else "https://opengameart.org/content/zombie-rpg-sprites",
+                "original_filename":rel,"sha256":h
+              })
+
+          meta=Path("nano arcked dat/official_cc0/opengameart/metadata")
+          meta.mkdir(parents=True,exist_ok=True)
+          (meta/"dataset.jsonl").write_text("".join(json.dumps(x,ensure_ascii=False)+"\n" for x in rows),encoding="utf-8")
+          (meta/"stats.json").write_text(json.dumps({"images":len(rows),"sources":["acasas / Pixel Art Character","Curt / Zombie RPG sprites"]},ensure_ascii=False,indent=2),encoding="utf-8")
+          print(f"OpenGameArt: collected {len(rows)} unique PNGs")
+          PY
+
+      - name: Commit dataset
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f "nano arcked dat/official_cc0"
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "dataset: replace aggregator with first-party CC0 pixel-art sources"
+          git push

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_box_art_front_0237_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "box_art_front",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "fantasy_ornate_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "fire_effect",
+      "glitch_displacement",
+      "gold_texture"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "sega_grid",
+    "hero_sprite",
+    "gameboy_box",
+    "title_screen",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with fantasy_ornate_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

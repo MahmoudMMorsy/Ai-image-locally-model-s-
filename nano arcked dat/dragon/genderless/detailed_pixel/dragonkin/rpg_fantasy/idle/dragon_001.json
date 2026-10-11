@@ -1,0 +1,22 @@
+{
+  "file": "dragon_001.png",
+  "type": "dragon",
+  "gender": "genderless",
+  "race": "dragonkin",
+  "style": "detailed_pixel",
+  "source": "rpg_fantasy",
+  "pose": "idle",
+  "colors": [
+    "red",
+    "black",
+    "gold"
+  ],
+  "tags": [
+    "wings",
+    "fire",
+    "horns",
+    "scales"
+  ],
+  "resolution": "32x32",
+  "notes": "Dataset sample for dragon"
+}

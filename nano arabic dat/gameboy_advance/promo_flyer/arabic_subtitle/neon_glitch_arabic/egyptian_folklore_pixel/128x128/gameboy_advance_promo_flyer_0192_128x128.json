@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_promo_flyer_0192_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_advance",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "pixel_gradient",
+      "crt_scanlines",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "red",
+    "black",
+    "purple"
+  ],
+  "tags": [
+    "dragon_bg",
+    "pixel_typography",
+    "title_screen",
+    "pixel_font",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

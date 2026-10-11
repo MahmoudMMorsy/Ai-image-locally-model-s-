@@ -1,0 +1,28 @@
+{
+  "file": "731cea9bdb0db95c_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "gdrive",
+    "trained",
+    "style",
+    "char",
+    "heavy",
+    "mech",
+    "spritesheet"
+  ],
+  "resolution": "256x64",
+  "notes": "Aggregated asset from examples_showcase (256x64 arcade_pixel warrior)"
+}

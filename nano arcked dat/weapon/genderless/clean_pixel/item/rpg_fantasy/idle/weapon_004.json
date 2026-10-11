@@ -1,0 +1,20 @@
+{
+  "file": "weapon_004.png",
+  "type": "weapon",
+  "gender": "genderless",
+  "race": "item",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "idle",
+  "colors": [
+    "silver",
+    "gold"
+  ],
+  "tags": [
+    "sword",
+    "blade",
+    "enchanted"
+  ],
+  "resolution": "64x64",
+  "notes": "Dataset sample for weapon"
+}

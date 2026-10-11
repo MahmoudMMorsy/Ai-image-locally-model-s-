@@ -1,0 +1,26 @@
+{
+  "file": "8d7bed71327c1fb0_rogue.png",
+  "type": "rogue",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "cyber",
+    "rogue",
+    "animation"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel rogue)"
+}

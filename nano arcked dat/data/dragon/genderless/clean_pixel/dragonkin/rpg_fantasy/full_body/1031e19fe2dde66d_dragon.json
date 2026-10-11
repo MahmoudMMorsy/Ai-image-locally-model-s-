@@ -1,0 +1,25 @@
+{
+  "file": "1031e19fe2dde66d_dragon.png",
+  "type": "dragon",
+  "gender": "genderless",
+  "race": "dragonkin",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "arabic",
+    "posters",
+    "clean",
+    "poster",
+    "dragon"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from examples_showcase (256x256 clean_pixel dragon)"
+}

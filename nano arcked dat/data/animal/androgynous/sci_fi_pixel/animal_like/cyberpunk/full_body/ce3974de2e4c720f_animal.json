@@ -1,0 +1,26 @@
+{
+  "file": "ce3974de2e4c720f_animal.png",
+  "type": "animal",
+  "gender": "androgynous",
+  "race": "animal_like",
+  "style": "sci_fi_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "cyberpunk",
+    "cat",
+    "spritesheet"
+  ],
+  "resolution": "256x64",
+  "notes": "Aggregated asset from examples_showcase (256x64 sci_fi_pixel animal)"
+}

@@ -1,0 +1,25 @@
+{
+  "file": "f7336e5e168be34d_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "arabic",
+    "posters",
+    "clean",
+    "poster",
+    "magic"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from examples_showcase (256x256 clean_pixel warrior)"
+}

@@ -1,0 +1,26 @@
+{
+  "file": "fbbfbb8ef51b5859_mage.png",
+  "type": "mage",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "fire",
+    "mage",
+    "animation"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel mage)"
+}

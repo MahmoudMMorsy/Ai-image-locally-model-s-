@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_game_over_screen_0297_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "game_over_screen",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "chrome_bevel",
+      "thick_black_outline",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "japanese_boxart_style",
+  "genre": "egyptian_folklore",
+  "layout": "center_title_large",
+  "colors": [
+    "purple",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "desert_bg",
+    "nes_cover",
+    "pyramid_bg",
+    "space_ship",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: سر الأهرامات (PYRAMID SECRET)."
+}

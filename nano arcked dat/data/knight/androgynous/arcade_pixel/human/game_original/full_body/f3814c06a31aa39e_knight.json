@@ -1,0 +1,27 @@
+{
+  "file": "f3814c06a31aa39e_knight.png",
+  "type": "knight",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "gdrive",
+    "trained",
+    "style",
+    "char",
+    "paladin",
+    "knight",
+    "spritesheet"
+  ],
+  "resolution": "256x64",
+  "notes": "Aggregated asset from examples_showcase (256x64 arcade_pixel knight)"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_bilingual_title_logo_0285_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "bilingual_english_primary",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "drop_shadow",
+      "16-bit_gradient",
+      "dripping_slime"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "western_boxart_style",
+  "genre": "post_apocalyptic",
+  "layout": "centered_emblem",
+  "colors": [
+    "purple",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "sub_title",
+    "boss_battle",
+    "pixel_frame",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: المستقبل الرقمي (DIGITAL FUTURE)."
+}

@@ -1,0 +1,21 @@
+{
+  "file": "knight_003.png",
+  "type": "knight",
+  "gender": "male",
+  "race": "elf",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "idle",
+  "colors": [
+    "gold",
+    "white",
+    "silver"
+  ],
+  "tags": [
+    "full_plate",
+    "lance",
+    "shield"
+  ],
+  "resolution": "128x128",
+  "notes": "Dataset sample for knight"
+}
