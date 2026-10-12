@@ -1,7 +1,11 @@
 __pycache__/
 *.pyc
 *.png
-!nano arcked dat/**/*.png
+nano arcked dat/images/
+nano arcked dat/metadata/
+.collector_work/
+!nano arcked dat/data/**/*.png
+!nano arcked dat/data/**/*.json
 !nano_arcade_data/**/*.png
 !arcade_t2i/samples/*.png
 *.gif
