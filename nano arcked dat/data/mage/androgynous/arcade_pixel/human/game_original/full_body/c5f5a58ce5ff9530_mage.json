@@ -1,0 +1,24 @@
+{
+  "file": "c5f5a58ce5ff9530_mage.png",
+  "type": "mage",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "bright"
+  ],
+  "tags": [
+    "gdrive",
+    "staging",
+    "images",
+    "2534",
+    "only",
+    "sprites",
+    "d4337cf466",
+    "aug01"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from dataset_gdrive (64x64 arcade_pixel mage)"
+}
