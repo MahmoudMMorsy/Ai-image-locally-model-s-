@@ -82,7 +82,11 @@ def main():
 
         row_idx += 1
 
-    out_grid_path = "arcade_t2i/samples/eval_accepted_20261011.png"
+    indices_t = torch.load("arcade_t2i/checkpoints/indices_full_u8.pt")
+    n_samples = indices_t.shape[0]
+
+    date_str = time.strftime("%Y%m%d")
+    out_grid_path = f"arcade_t2i/samples/eval_accepted_{date_str}.png"
     grid_img.save(out_grid_path)
     print(f"Evaluation sample grid successfully saved to: {out_grid_path}")
 
@@ -94,10 +98,10 @@ def main():
 ## [{timestamp}] Phase D T2I Neural Generation Verification
 
 - **Status:** PASS / EVAL ACCEPTED
-- **Dataset size N:** 15,755 samples (indices_full_u8.pt)
+- **Dataset size N:** {n_samples} samples (indices_full_u8.pt)
 - **Palette:** 48-color Arcade Palette (palette48.pt)
 - **Checkpoint:** `arcade_t2i/checkpoints/t2i_cvae_best.pt`
-- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_20261011.png`
+- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_{date_str}.png`
 - **Animation GIF:** `arcade_t2i/samples/knight_action.gif`
 
 ### Criteria Check:
