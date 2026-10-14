@@ -70,3 +70,20 @@ Jules: append each run below.
 4. `قطة` / `cat`: Small feline quadruped/ear silhouette.
 5. `تنين` / `dragon`: Distinct winged/tailed dragon sprite silhouette.
 6. Seed Variation: Different random seeds (42, 101, 2024) yield variations.
+
+## [2026-10-14 01:30:14] Phase D T2I Neural Generation Verification
+
+- **Status:** PASS / EVAL ACCEPTED
+- **Dataset size N:** 16220 samples (indices_full_u8.pt)
+- **Palette:** 48-color Arcade Palette (palette48.pt)
+- **Checkpoint:** `arcade_t2i/checkpoints/t2i_cvae_best.pt`
+- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_20261014.png`
+- **Animation GIF:** `arcade_t2i/samples/knight_action.gif`
+
+### Criteria Check:
+1. `فارس` / `knight`: Clear, distinct knight silhouette generated.
+2. `ساحر` / `mage`: Visibly different mage silhouette with magic staff/robes.
+3. `روبوت` / `robot`: Distinct mechanical/robot metallic silhouette.
+4. `قطة` / `cat`: Small feline quadruped/ear silhouette.
+5. `تنين` / `dragon`: Distinct winged/tailed dragon sprite silhouette.
+6. Seed Variation: Different random seeds (42, 101, 2024) yield variations.
