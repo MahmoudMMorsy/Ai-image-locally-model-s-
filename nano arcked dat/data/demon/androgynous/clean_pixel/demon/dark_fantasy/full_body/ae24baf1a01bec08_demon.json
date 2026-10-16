@@ -1,0 +1,26 @@
+{
+  "file": "ae24baf1a01bec08_demon.png",
+  "type": "demon",
+  "gender": "androgynous",
+  "race": "demon",
+  "style": "clean_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "demon",
+    "beast",
+    "single"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 clean_pixel demon)"
+}

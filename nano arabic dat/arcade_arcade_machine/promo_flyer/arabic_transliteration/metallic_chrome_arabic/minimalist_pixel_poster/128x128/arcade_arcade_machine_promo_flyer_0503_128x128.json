@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_promo_flyer_0503_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "pixel_gradient",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "border_framed",
+  "colors": [
+    "neon_cyan",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "pixel_font",
+    "snes_cartridge",
+    "lightning_strike",
+    "mecha_sprite",
+    "pyramid_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with metallic_chrome_arabic title: عرش التنين (DRAGON THRONE)."
+}

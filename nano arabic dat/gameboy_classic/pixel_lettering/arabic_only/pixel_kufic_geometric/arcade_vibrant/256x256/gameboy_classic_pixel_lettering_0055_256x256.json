@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_pixel_lettering_0055_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_classic",
+  "poster_type": "pixel_lettering",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "ancient_stone_typography",
+    "text_effects": [
+      "grid_overlay",
+      "16-bit_gradient",
+      "drop_shadow"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "arcade_vibrant",
+  "genre": "rpg_fantasy",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "gold",
+    "red",
+    "black"
+  ],
+  "tags": [
+    "pixel_typography",
+    "pyramid_bg",
+    "castle_stage",
+    "sword_icon",
+    "lightning_strike",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with pixel_kufic_geometric title: معركة النهائي (FINAL BATTLE)."
+}

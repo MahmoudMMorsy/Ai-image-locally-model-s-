@@ -1,4 +1,19 @@
 __pycache__/
 *.pyc
 *.png
+nano arcked dat/images/
+nano arcked dat/metadata/
+.collector_work/
+!nano arcked dat/data/**/*.png
+!nano arcked dat/data/**/*.json
+!nano_arcade_data/**/*.png
+!arcade_t2i/samples/*.png
 *.gif
+!arcade_t2i/samples/*.gif
+*.txt
+mm.trine/
+models/nano_arcade_03/weights/*
+.staging_clean/
+.staging_gdrive/
+.staging_raw/
+dataset_training_images/

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rights Research Candidate",
+  "type": "object",
+  "required": [
+    "id",
+    "preview_url",
+    "source_url",
+    "source_kind",
+    "rights_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "file_or_preview": {
+      "type": "string"
+    },
+    "preview_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_kind": {
+      "type": "string"
+    },
+    "creator": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "game_or_universe": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "license_url": {
+      "type": "string"
+    },
+    "price": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "currency": {
+      "type": "string"
+    },
+    "ai_ml_permission": {
+      "type": "string",
+      "enum": [
+        "allowed",
+        "prohibited",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "rights_status": {
+      "type": "string",
+      "enum": [
+        "free_license",
+        "purchase_required",
+        "rights_holder_required",
+        "unknown",
+        "excluded"
+      ]
+    },
+    "acquisition_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

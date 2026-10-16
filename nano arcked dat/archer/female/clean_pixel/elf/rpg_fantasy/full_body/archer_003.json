@@ -1,0 +1,20 @@
+{
+  "file": "archer_003.png",
+  "type": "archer",
+  "gender": "female",
+  "race": "elf",
+  "style": "clean_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "brown"
+  ],
+  "tags": [
+    "bow",
+    "quiver",
+    "hood"
+  ],
+  "resolution": "64x64",
+  "notes": "Dataset sample for archer"
+}

@@ -1,0 +1,90 @@
+{
+  "discovery_sources": [
+    {
+      "name": "The Spriters Resource",
+      "url": "https://www.spriters-resource.com/",
+      "queries": [
+        "arcade character sprites",
+        "beat em up character sprites",
+        "fighting game sprites",
+        "platformer character sprites",
+        "boss sprites"
+      ]
+    },
+    {
+      "name": "CraftPix",
+      "url": "https://craftpix.net/categorys/sprites/",
+      "queries": [
+        "pixel art character sprite sheet",
+        "32x32 character",
+        "64x64 character",
+        "128x128 character",
+        "arcade character"
+      ]
+    },
+    {
+      "name": "Free Game Assets on itch.io",
+      "url": "https://free-game-assets.itch.io/",
+      "queries": [
+        "pixel character",
+        "sprite sheet",
+        "arcade",
+        "8-bit",
+        "16-bit"
+      ]
+    },
+    {
+      "name": "itch.io Pixel Art",
+      "url": "https://itch.io/game-assets/top-sellers/tag-gamedev/tag-pixel-art",
+      "queries": [
+        "pixel art characters",
+        "sprites",
+        "8-bit characters",
+        "16-bit characters",
+        "32x32 sprites",
+        "64x64 sprites"
+      ]
+    },
+    {
+      "name": "GameDev Market",
+      "url": "https://www.gamedevmarket.net/category/2d/characters",
+      "queries": [
+        "pixel character",
+        "16x16",
+        "32x32",
+        "16-bit",
+        "animated sprite"
+      ]
+    },
+    {
+      "name": "Unity Asset Store",
+      "url": "https://marketplace.unity.com/2d",
+      "queries": [
+        "pixel art character",
+        "2D character sprite",
+        "top down pixel character",
+        "sprite sheet"
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/search/pins/?q=pixel%20art%20character%20sprite%20sheet",
+      "queries": [
+        "pixel art character sprite sheet",
+        "arcade character sprite",
+        "8 bit character sprite",
+        "16 bit character sprite"
+      ]
+    },
+    {
+      "name": "General image search",
+      "url": "https://www.google.com/search?tbm=isch&q=pixel+art+character+sprite+sheet",
+      "queries": [
+        "pixel art character sprite sheet",
+        "arcade game character sprite",
+        "8 bit full body character sprite",
+        "16 bit full body character sprite"
+      ]
+    }
+  ]
+}

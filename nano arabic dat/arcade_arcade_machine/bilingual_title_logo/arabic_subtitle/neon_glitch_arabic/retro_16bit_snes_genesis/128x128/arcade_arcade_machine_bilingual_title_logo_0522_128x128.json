@@ -1,0 +1,36 @@
+{
+  "file": "arcade_arcade_machine_bilingual_title_logo_0522_128x128.png",
+  "resolution": "128x128",
+  "platform": "arcade_arcade_machine",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "neon_glitch_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "gold_texture",
+      "glowing_edges",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "center_title_large",
+  "colors": [
+    "purple",
+    "blue",
+    "white"
+  ],
+  "tags": [
+    "lightning_strike",
+    "sword_icon",
+    "pixel_font",
+    "dragon_bg",
+    "desert_bg",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for arcade_arcade_machine with neon_glitch_arabic title: سر الأهرامات (PYRAMID SECRET)."
+}

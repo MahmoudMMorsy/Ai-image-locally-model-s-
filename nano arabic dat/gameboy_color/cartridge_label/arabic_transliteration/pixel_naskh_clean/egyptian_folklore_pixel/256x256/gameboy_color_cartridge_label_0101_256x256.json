@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_color_cartridge_label_0101_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_color",
+  "poster_type": "cartridge_label",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_naskh_clean",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "glowing_edges",
+      "fire_effect",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "bottom_title_scene_top",
+  "colors": [
+    "black",
+    "red",
+    "neon_cyan"
+  ],
+  "tags": [
+    "mecha_sprite",
+    "gameboy_box",
+    "hero_sprite",
+    "dragon_bg",
+    "pixel_typography",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_color with pixel_naskh_clean title: مدينة السايبر (CYBER CITY)."
+}

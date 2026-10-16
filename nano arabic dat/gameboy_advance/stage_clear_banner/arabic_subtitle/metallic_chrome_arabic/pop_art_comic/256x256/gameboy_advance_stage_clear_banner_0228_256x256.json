@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_advance_stage_clear_banner_0228_256x256.png",
+  "resolution": "256x256",
+  "platform": "gameboy_advance",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "metallic_chrome_arabic",
+    "semantic_weight": "cyber_tech_typography",
+    "text_effects": [
+      "1-bit_dithering",
+      "chrome_bevel",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "grid_framed_boxart",
+  "colors": [
+    "purple",
+    "gold",
+    "black"
+  ],
+  "tags": [
+    "sega_grid",
+    "space_ship",
+    "pixel_explosion",
+    "hero_sprite",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_advance with metallic_chrome_arabic title: مملكة السحر (MAGIC KINGDOM)."
+}

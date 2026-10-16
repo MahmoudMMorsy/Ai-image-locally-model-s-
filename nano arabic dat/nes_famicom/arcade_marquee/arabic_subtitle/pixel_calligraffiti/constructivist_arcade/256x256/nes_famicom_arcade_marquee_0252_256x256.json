@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arcade_marquee_0252_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arcade_marquee",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "dripping_slime",
+      "drop_shadow",
+      "fire_effect"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "constructivist_arcade",
+  "genre": "racing_sports",
+  "layout": "center_title_large",
+  "colors": [
+    "purple",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "arabic_text",
+    "pixel_explosion",
+    "hero_sprite",
+    "mecha_sprite",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_calligraffiti title: سر الأهرامات (PYRAMID SECRET)."
+}

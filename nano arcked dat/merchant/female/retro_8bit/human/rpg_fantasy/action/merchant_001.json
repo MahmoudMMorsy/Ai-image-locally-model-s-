@@ -1,0 +1,20 @@
+{
+  "file": "merchant_001.png",
+  "type": "merchant",
+  "gender": "female",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "brown",
+    "gold"
+  ],
+  "tags": [
+    "backpack",
+    "pouch",
+    "tunic"
+  ],
+  "resolution": "32x32",
+  "notes": "Dataset sample for merchant"
+}

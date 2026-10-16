@@ -1,0 +1,21 @@
+{
+  "file": "6210b1c4d98ac375_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "bright"
+  ],
+  "tags": [
+    "raw",
+    "staging",
+    "img",
+    "008"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from dataset_raw (64x64 arcade_pixel warrior)"
+}
