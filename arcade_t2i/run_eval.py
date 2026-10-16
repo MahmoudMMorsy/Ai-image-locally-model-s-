@@ -44,21 +44,41 @@ def main():
 
     draw.rectangle([0, 0, total_w, header_height], fill=(30, 38, 52, 255))
 
-    font = ImageFont.load_default()
+    font_default = ImageFont.load_default()
+    candidate_fonts = [
+        "/rom/opt/flutter/engine/src/flutter/txt/third_party/fonts/NotoNaskhArabic-Regular.ttf",
+        "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+    ]
+    font_ar = font_default
+    for fp in candidate_fonts:
+        if os.path.exists(fp):
+            try:
+                font_ar = ImageFont.truetype(fp, 14)
+                break
+            except Exception:
+                pass
 
     col_idx = 0
     for s in SEEDS:
-        draw.text((label_width + col_idx * col_width + 10, 12), f"AR (s={s})", fill=(220, 220, 240), font=font)
+        draw.text((label_width + col_idx * col_width + 10, 12), f"AR (s={s})", fill=(220, 220, 240), font=font_default)
         col_idx += 1
-        draw.text((label_width + col_idx * col_width + 10, 12), f"EN (s={s})", fill=(220, 220, 240), font=font)
+        draw.text((label_width + col_idx * col_width + 10, 12), f"EN (s={s})", fill=(220, 220, 240), font=font_default)
         col_idx += 1
 
     row_idx = 0
     for prompt_ar, prompt_en in EVAL_PROMPTS:
         y_top = header_height + row_idx * row_height
 
-        display_label = f"{prompt_ar} / {prompt_en}"
-        draw.text((10, y_top + 30), display_label, fill=(255, 215, 0), font=font)
+        draw.text((10, y_top + 28), prompt_ar, fill=(255, 215, 0), font=font_ar)
+        if hasattr(font_ar, "getbbox"):
+            bbox = font_ar.getbbox(prompt_ar)
+            ar_width = bbox[2] - bbox[0]
+        else:
+            ar_width = 45
+        en_x = 10 + ar_width + 6
+        draw.text((en_x, y_top + 30), f"/ {prompt_en}", fill=(255, 215, 0), font=font_default)
 
         col_idx = 0
         for s in SEEDS:
