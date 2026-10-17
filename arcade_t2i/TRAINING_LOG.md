@@ -7,27 +7,26 @@
 - N bank weak captions; early CVAE loss ~1.2; blobs; gate FAIL
 
 ## [2026-10-11 .. 2026-10-16] Jules Phase D entries
-- Status claimed PASS; eval grids on disk are **colored noise** (verified by visual inspection).
-- Per PLAN_STRICT: those runs are **FAIL**, not PASS.
+- Status claimed PASS; eval grids are **colored noise** — **FAIL** per PLAN_STRICT
 
 ## [2026-10-14] Grok MaskDiff curriculum
-- Data: N=8230 auto-reviewed (UI filtered)
-- Stage A (mask 20–45%): CE 0.65 → 0.51 → **0.44**
-- Inpaint visual: character structure recovers (PASS inpaint)
-- Free-gen visual: blobs (FAIL free-gen)
+- N=8230 auto-reviewed
+- Stage A mask 20–45%: CE 0.65 → 0.51 → **0.44**
+- Inpaint PASS; free-gen FAIL
 
-## [2026-10-17] Grok continue on repo path
-- Resume maskdiff_fix_best Stage A CE≈0.44
-- Stages B (40–70%) → C (70–100%) → D (free-gen focus)
-- Edge loss + class-balanced sampling
-- Gate: FAIL until free-gen shows readable sprites
-- STATUS.md updated honestly same day
+## [2026-10-17] Grok on repo path
+- B→C→D; edge loss; balanced sampling
+- Sample fix: softmax + top-k (was argmax black)
+- B g8 CE~0.62; C g11–14 CE~1.15–1.33; D ~1.4
+- Free-gen: dots/noise FAIL
 
-## [2026-10-17 later] sample fix + C progress (no replace of prior work)
-- Repo updates noted: PR #105 dataset aggregation under `nano arcked dat`; honest STATUS kept.
-- Free-gen sampler fixed: softmax multinomial + top-k (was argmax → pure black).
-- B g8: CE~0.62; inpaint PASS; free-gen black before sample fix.
-- C g9–g12: CE~1.15–1.26 (high mask ratio).
-- C g11 soft sample: faint class-colored silhouettes appearing (not readable yet) — still **GATE FAIL** free-gen.
-- Inpaint remains PASS (clear characters).
-- Continuing C→D on same MaskDiff weights; will not overwrite Jules noise evals; only add new samples when better.
+## [2026-10-17] D+ class centroid
+- Prototypes = per-class mode image; sample = proto + noise + neural refine
+- D+ g19 CE 1.03 → g20 0.95 → g22 0.98 → **g23 0.77**
+- Visual: robot/body silhouettes appear; inpaint still clear
+- Gate: **FAIL** free-gen quality vs train sprites (honest)
+- PR #107 nano_arcade_data taxonomy noted (platforms/posters, not char train)
+
+## Sync note
+- STATUS + this log pushed to branch feature-pixel-art-sprite-engine-...
+- Large .pt weights remain local until gate improves; samples listed in STATUS
