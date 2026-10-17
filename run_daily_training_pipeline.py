@@ -25,25 +25,41 @@ from pixel_art_engine.engine import PixelSpriteEngine
 from pixel_art_engine.animation import SpriteAnimationGenerator
 
 def prepare_dataset():
-    dataset_dir = "dataset_training_images/clean"
-    if not os.path.exists(dataset_dir) or len([f for f in os.listdir(dataset_dir) if f.endswith(".png")]) == 0:
-        print("[Dataset] Extracting cleaned training dataset from dataset_clean.zip...")
-        os.makedirs(dataset_dir, exist_ok=True)
+    sources = [
+        "mm.trine",
+        "All-data-Trine",
+        "dataset_training_images",
+        "nano_arcade_data",
+        "examples"
+    ]
+
+    # Ensure dataset_clean.zip is extracted if needed
+    clean_dir = "dataset_training_images/clean"
+    if not os.path.exists(clean_dir) or len([f for f in os.listdir(clean_dir) if f.endswith(".png")]) == 0:
+        os.makedirs(clean_dir, exist_ok=True)
         if os.path.exists("dataset_clean.zip"):
             with zipfile.ZipFile("dataset_clean.zip", 'r') as zip_ref:
                 zip_ref.extractall("dataset_training_images/clean_tmp")
-
             extracted_sub = os.path.join("dataset_training_images/clean_tmp", "dataset_clean")
             source_folder = extracted_sub if os.path.exists(extracted_sub) else "dataset_training_images/clean_tmp"
             for fname in os.listdir(source_folder):
                 if fname.endswith(".png"):
-                    os.rename(os.path.join(source_folder, fname), os.path.join(dataset_dir, fname))
+                    os.rename(os.path.join(source_folder, fname), os.path.join(clean_dir, fname))
             import shutil
             shutil.rmtree("dataset_training_images/clean_tmp", ignore_errors=True)
 
-    files = [f for f in os.listdir(dataset_dir) if f.endswith(".png")] if os.path.exists(dataset_dir) else []
-    print(f"[Dataset] Verified {len(files)} clean training images in '{dataset_dir}'.")
-    return [os.path.join(dataset_dir, f) for f in files]
+    all_paths = []
+    for src in sources:
+        if os.path.exists(src):
+            for root, _, files in os.walk(src):
+                for f in files:
+                    if f.endswith(".png"):
+                        all_paths.append(os.path.join(root, f))
+
+    # Remove duplicates and sort
+    all_paths = sorted(list(set(all_paths)))
+    print(f"[Dataset] Verified {len(all_paths)} real sprite images across repo dataset sources.")
+    return all_paths
 
 def load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4):
     if not image_paths:
@@ -54,12 +70,20 @@ def load_real_batch(image_paths, batch_size=2, target_size=(64, 64), channels=4)
 
     chosen_paths = np.random.choice(image_paths, size=batch_size, replace=True)
     batch_tensors = []
+    resample_method = getattr(Image, 'Resampling', Image).NEAREST
     for path in chosen_paths:
         mode = "RGBA" if channels == 4 else "RGB"
-        img = Image.open(path).convert(mode).resize(target_size)
-        arr = np.array(img, dtype=np.float32) / 255.0
-        arr = np.transpose(arr, (2, 0, 1))
-        batch_tensors.append(torch.tensor(arr))
+        try:
+            img = Image.open(path).convert(mode)
+            if img.size != target_size:
+                img = img.resize(target_size, resample=resample_method)
+            arr = np.array(img, dtype=np.float32) / 255.0
+            arr = np.transpose(arr, (2, 0, 1))
+            batch_tensors.append(torch.tensor(arr))
+        except Exception:
+            # Fallback tensor on unreadable image
+            c = 4 if channels == 4 else 3
+            batch_tensors.append(torch.randn(c, target_size[0], target_size[1]))
 
     return torch.stack(batch_tensors, dim=0)
 

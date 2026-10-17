@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "policy": "First-party/original-source CC0/public-domain pixel art only for the official collection. Aggregator Tiddybub/2d-assets is excluded from the official dataset.",
+  "version": 3,
+  "policy": "First-party/original-source CC0/public-domain pixel art only for the official collection. Aggregator Tiddybub/2d-assets is excluded from the official dataset. Collection trigger refreshed 2026-10-06.",
   "sources": [
     {
       "name": "Kenney",
