@@ -1,0 +1,36 @@
+{
+  "file": "gameboy_classic_ui_title_badge_0073_128x128.png",
+  "resolution": "128x128",
+  "platform": "gameboy_classic",
+  "poster_type": "ui_title_badge",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "retro_8bit_arabic",
+    "semantic_weight": "decay_horror_typography",
+    "text_effects": [
+      "grid_overlay",
+      "pixel_gradient",
+      "glitch_displacement"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "cyberpunk_neon_dystopian",
+  "genre": "puzzle_strategy",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "gold",
+    "white"
+  ],
+  "tags": [
+    "lightning_strike",
+    "pixel_typography",
+    "pyramid_bg",
+    "hero_sprite",
+    "pixel_explosion",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for gameboy_classic with retro_8bit_arabic title: نصر الأبطال (VICTORY HEROES)."
+}

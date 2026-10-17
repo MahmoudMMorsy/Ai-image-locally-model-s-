@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_promo_flyer_0581_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "promo_flyer",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "chrome_bevel",
+      "thick_black_outline"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "minimalist_pixel_poster",
+  "genre": "sci_fi_cyberpunk",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "red",
+    "purple",
+    "white"
+  ],
+  "tags": [
+    "lightning_strike",
+    "castle_stage",
+    "sub_title",
+    "sega_grid",
+    "skull_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_thuluth_display title: مدينة السايبر (CYBER CITY)."
+}

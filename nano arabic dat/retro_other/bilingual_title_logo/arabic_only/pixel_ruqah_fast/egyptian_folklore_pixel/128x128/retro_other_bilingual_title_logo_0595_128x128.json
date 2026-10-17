@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_bilingual_title_logo_0595_128x128.png",
+  "resolution": "128x128",
+  "platform": "retro_other",
+  "poster_type": "bilingual_title_logo",
+  "language_structure": "arabic_only",
+  "typography_details": {
+    "style": "pixel_ruqah_fast",
+    "semantic_weight": "speed_motion_typography",
+    "text_effects": [
+      "gold_texture",
+      "glitch_displacement",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "egyptian_folklore_pixel",
+  "genre": "historical_medieval",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "blue",
+    "black",
+    "red"
+  ],
+  "tags": [
+    "dragon_bg",
+    "castle_stage",
+    "hero_sprite",
+    "title_screen",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_ruqah_fast title: معركة النهائي (FINAL BATTLE)."
+}

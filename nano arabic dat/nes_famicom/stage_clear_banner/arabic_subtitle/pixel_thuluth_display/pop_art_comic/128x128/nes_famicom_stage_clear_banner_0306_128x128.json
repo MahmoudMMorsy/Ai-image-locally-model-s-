@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_stage_clear_banner_0306_128x128.png",
+  "resolution": "128x128",
+  "platform": "nes_famicom",
+  "poster_type": "stage_clear_banner",
+  "language_structure": "arabic_subtitle",
+  "typography_details": {
+    "style": "pixel_thuluth_display",
+    "semantic_weight": "organic_nature_typography",
+    "text_effects": [
+      "glowing_edges",
+      "gold_texture",
+      "crt_scanlines"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "pop_art_comic",
+  "genre": "beat_em_up",
+  "layout": "center_title_large",
+  "colors": [
+    "white",
+    "purple",
+    "blue"
+  ],
+  "tags": [
+    "sword_icon",
+    "sega_grid",
+    "title_screen",
+    "hero_sprite",
+    "snes_cartridge",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_thuluth_display title: قافلة الصحراء (DESERT CARAVAN)."
+}

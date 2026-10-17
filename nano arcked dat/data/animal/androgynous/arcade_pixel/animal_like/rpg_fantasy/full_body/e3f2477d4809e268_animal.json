@@ -1,0 +1,24 @@
+{
+  "file": "e3f2477d4809e268_animal.png",
+  "type": "animal",
+  "gender": "androgynous",
+  "race": "animal_like",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "dog",
+    "and",
+    "cat",
+    "black",
+    "animation"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel animal)"
+}

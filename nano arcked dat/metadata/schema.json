@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "nano arcked dat asset metadata",
+  "type": "object",
+  "required": ["id", "file", "type", "style", "source", "license", "source_url", "sha256"],
+  "properties": {
+    "id": {"type": "string"},
+    "file": {"type": "string"},
+    "type": {"type": "string"},
+    "gender": {"type": "string"},
+    "race": {"type": "string"},
+    "style": {"type": "string"},
+    "source": {"type": "string"},
+    "source_url": {"type": "string"},
+    "author": {"type": "string"},
+    "license": {"type": "string"},
+    "license_url": {"type": "string"},
+    "attribution_required": {"type": "boolean"},
+    "pose": {"type": "string"},
+    "view": {"type": "string"},
+    "canvas_size": {"type": "string"},
+    "sprite_sheet": {"type": "boolean"},
+    "alpha": {"type": "boolean"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "sha256": {"type": "string"},
+    "original_path": {"type": "string"},
+    "collection": {"type": "string"},
+    "retrieved_at": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

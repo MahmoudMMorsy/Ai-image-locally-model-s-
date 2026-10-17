@@ -1,0 +1,26 @@
+{
+  "file": "44f6f309360bef86_mage.png",
+  "type": "mage",
+  "gender": "androgynous",
+  "race": "elemental",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "gdrive",
+    "trained",
+    "style",
+    "char",
+    "elemental",
+    "mage",
+    "spritesheet"
+  ],
+  "resolution": "256x64",
+  "notes": "Aggregated asset from examples_showcase (256x64 arcade_pixel mage)"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "nes_famicom_arabic_title_logo_0275_256x256.png",
+  "resolution": "256x256",
+  "platform": "nes_famicom",
+  "poster_type": "arabic_title_logo",
+  "language_structure": "arabic_transliteration",
+  "typography_details": {
+    "style": "pixel_kufic_geometric",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "crt_scanlines",
+      "pixel_gradient",
+      "grid_overlay"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "retro_16bit_snes_genesis",
+  "genre": "fighting_game",
+  "layout": "diagonal_arcade_badge",
+  "colors": [
+    "purple",
+    "blue",
+    "gold"
+  ],
+  "tags": [
+    "lightning_strike",
+    "hero_sprite",
+    "dragon_bg",
+    "snes_cartridge",
+    "title_screen",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for nes_famicom with pixel_kufic_geometric title: أعماق المحيط (OCEAN DEPTHS)."
+}

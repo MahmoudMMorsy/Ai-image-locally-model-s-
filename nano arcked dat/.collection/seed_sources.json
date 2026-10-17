@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "policy": "First-party/original-source CC0/public-domain pixel art only for the official collection. Aggregator Tiddybub/2d-assets is excluded from the official dataset. Collection trigger refreshed 2026-10-06.",
+  "sources": [
+    {
+      "name": "Kenney",
+      "url": "https://kenney.nl/assets",
+      "license": "CC0-1.0",
+      "note": "Official Kenney asset packs; pixel and roguelike packs."
+    },
+    {
+      "name": "Dungeon Crawl Stone Soup rltiles",
+      "url": "https://github.com/crawl/crawl/tree/master/crawl-ref/source/rltiles",
+      "license": "Public Domain / art license in rltiles",
+      "note": "Official project repository; native pixel tiles."
+    },
+    {
+      "name": "Pixel Art Character by acasas",
+      "url": "https://opengameart.org/content/pixel-art-character",
+      "license": "CC0-1.0",
+      "note": "Artist upload, 64x64, 4 directions, walk/idle."
+    },
+    {
+      "name": "Zombie RPG sprites by Curt",
+      "url": "https://opengameart.org/content/zombie-rpg-sprites",
+      "license": "CC0-1.0",
+      "note": "Artist upload; includes 64x64 fat zombie."
+    }
+  ]
+}

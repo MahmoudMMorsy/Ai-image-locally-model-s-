@@ -1,0 +1,20 @@
+{
+  "file": "merchant_003.png",
+  "type": "merchant",
+  "gender": "male",
+  "race": "dwarf",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "idle",
+  "colors": [
+    "brown",
+    "gold"
+  ],
+  "tags": [
+    "backpack",
+    "pouch",
+    "tunic"
+  ],
+  "resolution": "32x32",
+  "notes": "Dataset sample for merchant"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "retro_other_pixel_lettering_0604_256x256.png",
+  "resolution": "256x256",
+  "platform": "retro_other",
+  "poster_type": "pixel_lettering",
+  "language_structure": "parallel_pair_arabic",
+  "typography_details": {
+    "style": "pixel_calligraffiti",
+    "semantic_weight": "magic_mystic_typography",
+    "text_effects": [
+      "glitch_displacement",
+      "1-bit_dithering",
+      "chrome_bevel"
+    ],
+    "readability_score": "high"
+  },
+  "art_style": "dark_fantasy_gothic",
+  "genre": "horror_survival",
+  "layout": "top_title_hero_bottom",
+  "colors": [
+    "black",
+    "gold",
+    "neon_cyan"
+  ],
+  "tags": [
+    "pixel_explosion",
+    "pixel_font",
+    "sub_title",
+    "arabic_text",
+    "sword_icon",
+    "arabic_text",
+    "connected_letters",
+    "pixel_typography"
+  ],
+  "notes": "Retro pixel game typography and poster dataset item for retro_other with pixel_calligraffiti title: مهرجان الألعاب (ARCADE FESTIVAL)."
+}

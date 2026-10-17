@@ -1,0 +1,23 @@
+{
+  "file": "707731e3a9f74041_rogue.png",
+  "type": "rogue",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "sci_fi_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "cyberpunk",
+    "rogue",
+    "sample"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 sci_fi_pixel rogue)"
+}
