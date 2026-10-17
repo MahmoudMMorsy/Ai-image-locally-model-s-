@@ -1,0 +1,30 @@
+{
+  "file": "nano arcked dat/robot/genderless/cartoon/robot/tiddybub_mirror/action/character_robot_sheet.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "cartoon",
+  "source": "sci_fi",
+  "pose": "action",
+  "colors": [
+    "multicolor"
+  ],
+  "tags": [
+    "pixel_art",
+    "robot",
+    "idle",
+    "jump",
+    "fall",
+    "duck",
+    "hit",
+    "sprite_sheet"
+  ],
+  "license": "CC0-1.0",
+  "author": "See original source page in Tiddybub SOURCE.md",
+  "source_url": "https://github.com/Tiddybub/2d-assets/blob/main/characters/toon-characters/Robot/Tilesheet/character_robot_sheet.png",
+  "mirror_url": "https://github.com/Tiddybub/2d-assets/blob/main/characters/toon-characters/Robot/Tilesheet/character_robot_sheet.png",
+  "original_path": "characters/toon-characters/Robot/Tilesheet/character_robot_sheet.png",
+  "original_size": 102315,
+  "provenance": "CC0 asset mirrored from a curated public repository; original source retained",
+  "notes": "Candidate dataset item. Religious/sacred exclusion requires visual review before training."
+}
