@@ -22,3 +22,12 @@
 - Edge loss + class-balanced sampling
 - Gate: FAIL until free-gen shows readable sprites
 - STATUS.md updated honestly same day
+
+## [2026-10-17 later] sample fix + C progress (no replace of prior work)
+- Repo updates noted: PR #105 dataset aggregation under `nano arcked dat`; honest STATUS kept.
+- Free-gen sampler fixed: softmax multinomial + top-k (was argmax → pure black).
+- B g8: CE~0.62; inpaint PASS; free-gen black before sample fix.
+- C g9–g12: CE~1.15–1.26 (high mask ratio).
+- C g11 soft sample: faint class-colored silhouettes appearing (not readable yet) — still **GATE FAIL** free-gen.
+- Inpaint remains PASS (clear characters).
+- Continuing C→D on same MaskDiff weights; will not overwrite Jules noise evals; only add new samples when better.
