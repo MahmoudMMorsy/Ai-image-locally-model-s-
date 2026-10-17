@@ -5,6 +5,7 @@ organize_nano_arcked_dataset.py
 Aggregates, classifies, enriches, and structures pixel art image datasets
 into nano arcked dat/data/<type>/<gender>/<style>/<race>/<source>/<pose>/
 with matching sidecar .json files, master dataset_index.csv, and manifests.
+Enforces zero-tolerance sacred religious prohibition filtering.
 """
 
 import os
@@ -51,39 +52,61 @@ COLOR_MAP = {
 }
 
 TYPE_RULES = [
-    ("cyber_soldier", ["cyber_soldier", "cyber soldier", "cybersoldier", "sci_fi_soldier"]),
-    ("gunslinger", ["gunslinger", "gunner", "shooter", "pistol"]),
-    ("knight", ["knight", "paladin", "crusader", "swordsman", "shield_knight"]),
-    ("warrior", ["warrior", "fighter", "gladiator", "berserker", "brawler", "barbarian"]),
-    ("mage", ["mage", "wizard", "sorcerer", "necromancer", "summoner", "witch", "alchemist", "priest", "spellcaster"]),
-    ("archer", ["archer", "bowman", "ranger", "hunter", "crossbow"]),
-    ("rogue", ["rogue", "assassin", "ninja", "thief"]),
-    ("monk", ["monk", "martial_artist"]),
-    ("samurai", ["samurai", "ronin"]),
-    ("pirate", ["pirate", "buccaneer"]),
+    # Characters
+    ("cyber_soldier", ["cyber_soldier", "cybersoldier", "sci_fi_soldier", "cyber_infantry"]),
+    ("gunslinger", ["gunslinger", "gunner", "shooter", "pistol", "sniper", "rifleman"]),
+    ("knight", ["knight", "paladin", "crusader", "swordsman", "shield_knight", "templar"]),
+    ("warrior", ["warrior", "fighter", "gladiator", "berserker", "brawler", "barbarian", "champion"]),
+    ("mage", ["mage", "wizard", "sorcerer", "necromancer", "summoner", "witch", "alchemist", "priest", "spellcaster", "enchanter"]),
+    ("archer", ["archer", "bowman", "ranger", "hunter", "crossbow", "marksman"]),
+    ("rogue", ["rogue", "assassin", "ninja", "thief", "scout", "shadow"]),
+    ("monk", ["monk", "martial_artist", "shaolin"]),
+    ("samurai", ["samurai", "ronin", "bushido"]),
+    ("pirate", ["pirate", "buccaneer", "corsair"]),
     ("viking", ["viking", "norse_warrior"]),
-    ("soldier", ["soldier", "commando", "infantry", "guard", "trooper"]),
-    ("robot", ["robot", "mecha", "cyborg", "android", "droid", "automaton", "golem"]),
+    ("soldier", ["soldier", "commando", "infantry", "guard", "trooper", "marine"]),
+    ("paladin", ["paladin", "holy_knight"]),
+    ("necromancer", ["necromancer", "death_mage"]),
+    ("summoner", ["summoner", "conjurer"]),
+    ("bard", ["bard", "minstrel", "musician"]),
+    ("thief", ["thief", "pickpocket"]),
+    ("hunter", ["hunter", "trapper"]),
+
+    # Creatures
     ("dragon", ["dragon", "drake", "wyvern", "dragonkin"]),
-    ("demon", ["demon", "devil", "fiend"]),
-    ("angel", ["angel", "seraph", "cherub"]),
-    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich"]),
-    ("beast", ["beast", "monster", "creature", "chimera", "werewolf", "minotaur", "centaur"]),
-    ("animal", ["animal", "cat", "dog", "shiba", "husky", "dalmatian", "bear", "wolf", "bird", "horse", "frog", "slime"]),
-    ("civilian", ["civilian", "merchant", "noble", "king", "queen", "prince", "princess", "child", "elder", "farmer", "blacksmith", "cook", "dancer", "scholar", "villager", "npc"]),
-    ("weapon", ["weapon", "sword", "bow", "gun", "axe", "staff", "shield", "helmet", "armor", "dagger", "blade", "spear"]),
+    ("demon", ["demon", "devil", "fiend", "imp", "succubus"]),
+    ("angel", ["angel", "seraph", "cherub", "archangel"]),
+    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich", "ghoul", "specter", "mummy"]),
+    ("werewolf", ["werewolf", "lycanthrope"]),
+    ("golem", ["golem", "automaton", "construct"]),
+    ("elemental", ["elemental", "fire_elemental", "ice_elemental", "earth_elemental", "water_elemental"]),
+    ("fairy", ["fairy", "pixie", "nymph"]),
+    ("mermaid", ["mermaid", "merfolk", "siren", "triton"]),
+    ("centaur", ["centaur"]),
+    ("minotaur", ["minotaur"]),
+    ("beast", ["beast", "monster", "creature", "chimera", "hydra", "basilisk", "behemoth"]),
+    ("animal", ["animal", "cat", "dog", "shiba", "husky", "dalmatian", "bear", "wolf", "bird", "horse", "frog", "slime", "dragonfly", "owl", "tiger", "lion", "snake"]),
+    ("robot", ["robot", "mecha", "cyborg", "android", "droid", "mech"]),
+
+    # Civilians & Roles
+    ("civilian", ["civilian", "merchant", "noble", "king", "queen", "prince", "princess", "child", "elder", "farmer", "blacksmith", "cook", "dancer", "scholar", "villager", "npc", "peasant", "innkeeper"]),
+
+    # Objects & Environment
+    ("weapon", ["weapon", "sword", "bow", "gun", "axe", "staff", "shield", "helmet", "armor", "dagger", "blade", "spear", "mace", "wand"]),
     ("vehicle", ["vehicle", "spaceship", "car", "tank", "ship", "aircraft", "mech_unit"]),
     ("structure", ["castle", "building", "house", "tower", "dungeon", "structure", "door", "portal"]),
-    ("item", ["item", "potion", "chest", "crystal", "rock", "tree", "plant", "furniture", "food", "coin", "relic"])
+    ("item", ["item", "potion", "chest", "crystal", "rock", "tree", "plant", "furniture", "food", "coin", "relic", "scroll", "ring", "amulet"])
 ]
 
 RACE_RULES = [
     ("robot", ["robot", "mecha", "cyborg", "android", "droid", "automaton"]),
     ("dragonkin", ["dragon", "drake", "wyvern", "dragonkin"]),
-    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich"]),
+    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich", "ghoul", "specter"]),
     ("demon", ["demon", "devil", "fiend"]),
     ("angel", ["angel", "seraph"]),
-    ("elf", ["elf", "high_elf", "dark_elf"]),
+    ("dark_elf", ["dark_elf", "drow"]),
+    ("high_elf", ["high_elf"]),
+    ("elf", ["elf", "wood_elf"]),
     ("dwarf", ["dwarf"]),
     ("orc", ["orc"]),
     ("goblin", ["goblin"]),
@@ -95,7 +118,8 @@ RACE_RULES = [
     ("merfolk", ["mermaid", "merfolk", "siren"]),
     ("giant", ["giant", "titan"]),
     ("alien", ["alien", "xenomorph"]),
-    ("human", ["human", "person", "man", "woman", "guy", "girl", "warrior", "knight", "mage", "archer"])
+    ("hybrid", ["hybrid", "chimera", "half_elf", "half_orc"]),
+    ("human", ["human", "person", "man", "woman", "guy", "girl", "warrior", "knight", "mage", "archer", "soldier"])
 ]
 
 STYLE_RULES = [
@@ -107,6 +131,7 @@ STYLE_RULES = [
     ("chibi", ["chibi", "mini", "cute"]),
     ("cartoon", ["cartoon", "toon"]),
     ("dark_fantasy", ["dark_fantasy", "dark_souls", "gothic", "horror_pixel"]),
+    ("fantasy_pixel", ["fantasy", "rpg_pixel", "magic_pixel"]),
     ("sci_fi_pixel", ["sci_fi", "cyberpunk", "mecha_pixel", "futuristic"]),
     ("clean_pixel", ["clean", "simple", "flat", "pixel"])
 ]
@@ -118,19 +143,27 @@ SOURCE_RULES = [
     ("sci_fi", ["sci_fi", "space", "alien", "spaceship"]),
     ("steampunk", ["steampunk", "steam", "victorian"]),
     ("horror", ["horror", "creepy", "haunted"]),
+    ("mythology_greek", ["greek", "olympus", "zeus", "minotaur", "centaur"]),
+    ("mythology_norse", ["norse", "valhalla", "thor", "viking"]),
+    ("mythology_egypt", ["egypt", "pharaoh", "anubis", "mummy"]),
+    ("historical", ["historical", "medieval", "samurai", "ninja"]),
+    ("post_apocalyptic", ["post_apocalyptic", "wasteland", "fallout"]),
     ("game_original", ["game", "sprite", "arcade", "retro", "cc0", "trine"]),
     ("generic", [])
 ]
 
 POSE_RULES = [
-    ("full_body", ["full_body", "fullbody", "standing", "hero_pose", "idle"]),
     ("running", ["running", "run"]),
     ("walking", ["walking", "walk"]),
-    ("attacking", ["attacking", "attack", "slash", "shoot", "cast", "strike"]),
-    ("action", ["action", "combating", "fight", "jump"]),
+    ("attacking", ["attacking", "attack", "slash", "shoot", "cast", "strike", "swing"]),
+    ("action", ["action", "combating", "fight", "jump", "dash", "dodge"]),
+    ("idle", ["idle", "standing", "hero_pose"]),
+    ("sitting", ["sitting", "crouching", "kneeling"]),
+    ("flying", ["flying", "hovering", "soaring"]),
     ("side_view", ["side_view", "side", "profile"]),
     ("front_view", ["front_view", "front"]),
-    ("portrait", ["portrait", "bust", "face", "headshot"])
+    ("portrait", ["portrait", "bust", "face", "headshot"]),
+    ("full_body", ["full_body", "fullbody", "character", "sprite"])
 ]
 
 def norm_text(text: str) -> str:
@@ -181,11 +214,11 @@ def infer_category(text: str, rules: list, default: str) -> str:
 
 def infer_gender(text: str) -> str:
     n = norm_text(text)
-    if any(w in n for w in ["female", "woman", "girl", "lady", "queen", "princess", "witch", "heroine"]):
+    if any(w in n for w in ["female", "woman", "girl", "lady", "queen", "princess", "witch", "heroine", "sorceress", "amazon"]):
         return "female"
-    if any(w in n for w in ["male", "man", "boy", "guy", "king", "prince", "wizard", "hero"]):
+    if any(w in n for w in ["male", "man", "boy", "guy", "king", "prince", "wizard", "hero", "lord", "knight"]):
         return "male"
-    if any(w in n for w in ["robot", "mecha", "weapon", "structure", "item", "vehicle", "dragon"]):
+    if any(w in n for w in ["robot", "mecha", "weapon", "structure", "item", "vehicle", "dragon", "chest", "potion"]):
         return "genderless"
     return "androgynous"
 
@@ -226,6 +259,11 @@ def gather_all_image_candidates() -> list[tuple[str, Path]]:
             if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
                 candidates.append(("dataset_clean", p))
 
+    if os.path.exists(".staging_raw"):
+        for p in Path(".staging_raw").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("dataset_raw", p))
+
     if os.path.exists("All-data-Trine"):
         for p in Path("All-data-Trine").rglob("*"):
             if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
@@ -252,7 +290,6 @@ def main():
     print("Starting dataset aggregation and taxonomy classification...")
     MANIFEST_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Clean DATA_DIR to ensure 100% clean state and no stale files
     if DATA_DIR.exists():
         shutil.rmtree(DATA_DIR)
     DATA_DIR.mkdir(parents=True, exist_ok=True)

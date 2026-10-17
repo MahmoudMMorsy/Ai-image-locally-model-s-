@@ -1,0 +1,26 @@
+{
+  "file": "a15fae1e85bb0b0f_dragon.png",
+  "type": "dragon",
+  "gender": "genderless",
+  "race": "dragonkin",
+  "style": "clean_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "nano",
+    "pixel",
+    "xl0",
+    "char",
+    "ice",
+    "dragon",
+    "spritesheet"
+  ],
+  "resolution": "256x64",
+  "notes": "Aggregated asset from examples_showcase (256x64 clean_pixel dragon)"
+}
