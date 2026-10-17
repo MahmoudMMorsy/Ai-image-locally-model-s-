@@ -68,19 +68,16 @@ def verify_dataset():
 
     print("[✔] 1:1 PNG <-> JSON sidecar pairing verified.")
 
-    # Validate schema, hierarchy, images, and prohibitions
     verified_count = 0
     for png_path in png_files:
         json_path = png_path.with_suffix(".json")
 
-        # 1. Image check with PIL
         try:
             with Image.open(png_path) as im:
                 im.verify()
         except Exception as e:
             raise RuntimeError(f"Corrupted or invalid image file {png_path}: {e}")
 
-        # 2. JSON schema check
         with open(json_path, encoding="utf-8") as f:
             data = json.load(f)
 
@@ -90,7 +87,6 @@ def verify_dataset():
         assert isinstance(data["colors"], list), f"'colors' must be a list in {json_path}"
         assert isinstance(data["tags"], list), f"'tags' must be a list in {json_path}"
 
-        # 3. Hierarchy check
         rel_parts = png_path.relative_to(DATA_DIR).parts
         assert len(rel_parts) == 7, f"Invalid directory depth ({len(rel_parts)}) for {png_path}. Expected 7 levels: type/gender/style/race/source/pose/filename.png"
 
@@ -99,7 +95,6 @@ def verify_dataset():
         assert data["gender"] == c_gender, f"Gender mismatch in {json_path}: {data['gender']} != {c_gender}"
         assert data["style"] == c_style, f"Style mismatch in {json_path}: {data['style']} != {c_style}"
 
-        # 4. Religious exclusion check
         full_text = f"{png_path.as_posix()} {json.dumps(data)}"
         assert not check_religious_prohibitions(full_text), f"PROHIBITED CONTENT DETECTED in {png_path}"
 
@@ -107,7 +102,6 @@ def verify_dataset():
 
     print(f"[✔] All {verified_count} assets passed image, JSON schema, taxonomy hierarchy, and religious restriction checks.")
 
-    # Validate Index CSV and Manifest JSONL
     assert INDEX_CSV.exists(), f"Index CSV {INDEX_CSV} missing!"
     assert MANIFEST_JSONL.exists(), f"Manifest JSONL {MANIFEST_JSONL} missing!"
 

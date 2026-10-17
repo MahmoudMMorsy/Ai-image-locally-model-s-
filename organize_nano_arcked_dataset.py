@@ -252,7 +252,6 @@ def main():
     print("Starting dataset aggregation and taxonomy classification...")
     MANIFEST_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Clean DATA_DIR to ensure 100% clean state and no stale files
     if DATA_DIR.exists():
         shutil.rmtree(DATA_DIR)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
