@@ -1,0 +1,26 @@
+{
+  "file": "ff64e837ba9d01ef_knight.png",
+  "type": "knight",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "brown",
+    "orange"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "knight",
+    "nes"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 retro_8bit knight)"
+}

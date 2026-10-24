@@ -1,0 +1,26 @@
+{
+  "file": "fc04d2dae046d20b_knight.png",
+  "type": "knight",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "orange",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "knight",
+    "gameboy"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 retro_8bit knight)"
+}

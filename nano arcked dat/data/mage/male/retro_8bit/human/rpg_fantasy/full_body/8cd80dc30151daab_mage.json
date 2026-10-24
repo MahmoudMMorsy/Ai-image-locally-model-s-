@@ -1,0 +1,26 @@
+{
+  "file": "8cd80dc30151daab_mage.png",
+  "type": "mage",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "wizard",
+    "nes"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 retro_8bit mage)"
+}
