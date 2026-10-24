@@ -131,7 +131,13 @@ class TextCVAE(nn.Module):
         if class_ids.dim() == 0:
             class_ids = class_ids.unsqueeze(0)
 
-        c = self.cond(tokens[:1].expand(n, -1), class_ids[:1].expand(n))
+        if tokens.size(0) == 1 and n > 1:
+            tokens = tokens.expand(n, -1)
+            class_ids = class_ids.expand(n)
+        elif tokens.size(0) != n and n == 1:
+            n = tokens.size(0)
+
+        c = self.cond(tokens, class_ids)
         if z is None:
             z = torch.randn(n, self.latent, device=device)
 

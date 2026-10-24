@@ -44,21 +44,41 @@ def main():
 
     draw.rectangle([0, 0, total_w, header_height], fill=(30, 38, 52, 255))
 
-    font = ImageFont.load_default()
+    font_default = ImageFont.load_default()
+    candidate_fonts = [
+        "/rom/opt/flutter/engine/src/flutter/txt/third_party/fonts/NotoNaskhArabic-Regular.ttf",
+        "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSans.ttf"
+    ]
+    font_ar = font_default
+    for fp in candidate_fonts:
+        if os.path.exists(fp):
+            try:
+                font_ar = ImageFont.truetype(fp, 14)
+                break
+            except Exception:
+                pass
 
     col_idx = 0
     for s in SEEDS:
-        draw.text((label_width + col_idx * col_width + 10, 12), f"AR (s={s})", fill=(220, 220, 240), font=font)
+        draw.text((label_width + col_idx * col_width + 10, 12), f"AR (s={s})", fill=(220, 220, 240), font=font_default)
         col_idx += 1
-        draw.text((label_width + col_idx * col_width + 10, 12), f"EN (s={s})", fill=(220, 220, 240), font=font)
+        draw.text((label_width + col_idx * col_width + 10, 12), f"EN (s={s})", fill=(220, 220, 240), font=font_default)
         col_idx += 1
 
     row_idx = 0
     for prompt_ar, prompt_en in EVAL_PROMPTS:
         y_top = header_height + row_idx * row_height
 
-        display_label = f"{prompt_ar} / {prompt_en}"
-        draw.text((10, y_top + 30), display_label, fill=(255, 215, 0), font=font)
+        draw.text((10, y_top + 28), prompt_ar, fill=(255, 215, 0), font=font_ar)
+        if hasattr(font_ar, "getbbox"):
+            bbox = font_ar.getbbox(prompt_ar)
+            ar_width = bbox[2] - bbox[0]
+        else:
+            ar_width = 45
+        en_x = 10 + ar_width + 6
+        draw.text((en_x, y_top + 30), f"/ {prompt_en}", fill=(255, 215, 0), font=font_default)
 
         col_idx = 0
         for s in SEEDS:
@@ -82,7 +102,11 @@ def main():
 
         row_idx += 1
 
-    out_grid_path = "arcade_t2i/samples/eval_accepted_20261011.png"
+    indices_t = torch.load("arcade_t2i/checkpoints/indices_full_u8.pt")
+    n_samples = indices_t.shape[0]
+
+    date_str = time.strftime("%Y%m%d")
+    out_grid_path = f"arcade_t2i/samples/eval_accepted_{date_str}.png"
     grid_img.save(out_grid_path)
     print(f"Evaluation sample grid successfully saved to: {out_grid_path}")
 
@@ -94,10 +118,10 @@ def main():
 ## [{timestamp}] Phase D T2I Neural Generation Verification
 
 - **Status:** PASS / EVAL ACCEPTED
-- **Dataset size N:** 15,755 samples (indices_full_u8.pt)
+- **Dataset size N:** {n_samples} samples (indices_full_u8.pt)
 - **Palette:** 48-color Arcade Palette (palette48.pt)
 - **Checkpoint:** `arcade_t2i/checkpoints/t2i_cvae_best.pt`
-- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_20261011.png`
+- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_{date_str}.png`
 - **Animation GIF:** `arcade_t2i/samples/knight_action.gif`
 
 ### Criteria Check:

@@ -1,12 +1,12 @@
 {
-  "total": 15755,
+  "total": 16220,
   "classes": {
     "knight": 648,
-    "mage": 7595,
+    "mage": 8105,
     "robot": 1516,
     "cat": 693,
     "dragon": 753,
-    "warrior": 1773,
+    "warrior": 1728,
     "archer": 679,
     "monster": 679,
     "ghost": 673,
