@@ -1,0 +1,26 @@
+{
+  "file": "8234730c9ce4e0f0_robot.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "robot",
+    "nes"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 retro_8bit robot)"
+}

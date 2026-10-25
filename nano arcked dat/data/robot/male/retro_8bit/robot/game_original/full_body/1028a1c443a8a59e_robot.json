@@ -1,0 +1,26 @@
+{
+  "file": "1028a1c443a8a59e_robot.png",
+  "type": "robot",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "robot",
+    "gameboy"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 retro_8bit robot)"
+}

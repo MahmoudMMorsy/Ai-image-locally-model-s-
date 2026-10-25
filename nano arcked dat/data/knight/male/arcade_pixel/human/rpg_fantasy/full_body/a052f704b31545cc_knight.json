@@ -1,0 +1,25 @@
+{
+  "file": "a052f704b31545cc_knight.png",
+  "type": "knight",
+  "gender": "male",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "knight",
+    "poster"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from examples_showcase (256x256 arcade_pixel knight)"
+}

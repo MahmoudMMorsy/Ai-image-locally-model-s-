@@ -1,0 +1,25 @@
+{
+  "file": "c242ba58f3fa877f_robot.png",
+  "type": "robot",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "robot",
+    "poster"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from examples_showcase (256x256 arcade_pixel robot)"
+}
