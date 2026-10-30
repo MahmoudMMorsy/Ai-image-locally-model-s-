@@ -284,6 +284,11 @@ def gather_all_image_candidates() -> list[tuple[str, Path]]:
             if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
                 candidates.append(("cc0_collected", p))
 
+    if os.path.exists("dataset_training_images"):
+        for p in Path("dataset_training_images").rglob("*"):
+            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
+                candidates.append(("dataset_training_images", p))
+
     return candidates
 
 def main():
