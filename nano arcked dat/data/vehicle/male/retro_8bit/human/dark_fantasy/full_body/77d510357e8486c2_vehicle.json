@@ -1,0 +1,42 @@
+{
+  "file": "77d510357e8486c2_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "classic",
+    "cartridge",
+    "label",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "ruqah",
+    "fast",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "cartlabel",
+    "artrans",
+    "horror",
+    "survival",
+    "silver",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0045"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

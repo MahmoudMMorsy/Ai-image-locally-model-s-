@@ -1,0 +1,43 @@
+{
+  "file": "715ce547e3baa590_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "bright",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "stage",
+    "clear",
+    "banner",
+    "arabic",
+    "only",
+    "retro",
+    "8bit",
+    "minimalist",
+    "pixel",
+    "poster",
+    "256x256",
+    "gbc",
+    "stageclear",
+    "aronly",
+    "retro8bit",
+    "horror",
+    "survival",
+    "orange",
+    "glowing",
+    "edges",
+    "gradient"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

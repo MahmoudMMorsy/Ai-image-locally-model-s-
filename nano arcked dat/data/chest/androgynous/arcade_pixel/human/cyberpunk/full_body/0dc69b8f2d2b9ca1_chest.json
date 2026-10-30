@@ -1,0 +1,43 @@
+{
+  "file": "0dc69b8f2d2b9ca1_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "title",
+    "badge",
+    "bilingual",
+    "english",
+    "primary",
+    "pixel",
+    "naskh",
+    "clean",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "uibadge",
+    "bilenprim",
+    "sci",
+    "cyberpunk",
+    "dark",
+    "amber",
+    "gold",
+    "texture",
+    "thick"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel chest)"
+}

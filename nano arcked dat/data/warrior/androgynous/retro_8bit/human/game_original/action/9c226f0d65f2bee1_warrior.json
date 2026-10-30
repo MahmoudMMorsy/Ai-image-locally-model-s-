@@ -1,0 +1,43 @@
+{
+  "file": "9c226f0d65f2bee1_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "english",
+    "title",
+    "logo",
+    "bilingual",
+    "primary",
+    "bevel",
+    "arabic",
+    "retro",
+    "synthwave",
+    "80s",
+    "128x128",
+    "enlogo",
+    "bilenprim",
+    "bevel3d",
+    "action",
+    "adventure",
+    "black",
+    "glowing",
+    "edges",
+    "pixel"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

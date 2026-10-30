@@ -1,0 +1,43 @@
+{
+  "file": "a2431001c9ba709e_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "ruqah",
+    "fast",
+    "retro",
+    "synthwave",
+    "80s",
+    "128x128",
+    "boxart",
+    "arsub",
+    "action",
+    "adventure",
+    "black",
+    "glitch",
+    "displacement",
+    "mecha"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

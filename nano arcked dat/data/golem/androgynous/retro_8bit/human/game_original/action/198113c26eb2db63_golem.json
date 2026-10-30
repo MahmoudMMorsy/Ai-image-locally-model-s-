@@ -1,0 +1,42 @@
+{
+  "file": "198113c26eb2db63_golem.png",
+  "type": "golem",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "arabic",
+    "title",
+    "logo",
+    "bilingual",
+    "english",
+    "primary",
+    "8bit",
+    "constructivist",
+    "128x128",
+    "arlogo",
+    "bilenprim",
+    "retro8bit",
+    "fighting",
+    "game",
+    "white",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient",
+    "1170"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit golem)"
+}

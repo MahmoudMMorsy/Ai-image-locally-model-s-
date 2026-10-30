@@ -1,0 +1,43 @@
+{
+  "file": "70d6988bad647677_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "bright",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "stage",
+    "clear",
+    "banner",
+    "arabic",
+    "only",
+    "metallic",
+    "chrome",
+    "minimalist",
+    "pixel",
+    "poster",
+    "256x256",
+    "stageclear",
+    "aronly",
+    "horror",
+    "survival",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1226"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel mecha)"
+}

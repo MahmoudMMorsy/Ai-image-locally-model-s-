@@ -1,0 +1,42 @@
+{
+  "file": "2cb157146d5910cc_item.png",
+  "type": "item",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "pixel",
+    "lettering",
+    "parallel",
+    "pair",
+    "arabic",
+    "kufic",
+    "geometric",
+    "retro",
+    "synthwave",
+    "80s",
+    "256x256",
+    "gbc",
+    "action",
+    "adventure",
+    "black",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0272"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

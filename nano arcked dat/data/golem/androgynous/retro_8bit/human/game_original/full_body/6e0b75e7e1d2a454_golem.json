@@ -1,0 +1,38 @@
+{
+  "file": "6e0b75e7e1d2a454_golem.png",
+  "type": "golem",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "pixel",
+    "lettering",
+    "arabic",
+    "only",
+    "thuluth",
+    "display",
+    "constructivist",
+    "256x256",
+    "aronly",
+    "racing",
+    "sports",
+    "gold",
+    "connected",
+    "letters",
+    "0889"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit golem)"
+}

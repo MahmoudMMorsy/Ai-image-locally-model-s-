@@ -1,0 +1,42 @@
+{
+  "file": "1d871c6ab7b5c828_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "english",
+    "title",
+    "logo",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "thuluth",
+    "display",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "gbc",
+    "enlogo",
+    "rpg",
+    "gold",
+    "connected",
+    "letters",
+    "0248"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

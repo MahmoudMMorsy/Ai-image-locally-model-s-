@@ -1,0 +1,39 @@
+{
+  "file": "d42fb9d457213261_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "comic",
+  "pose": "front_view",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "box",
+    "art",
+    "front",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "calligraffiti",
+    "pop",
+    "comic",
+    "256x256",
+    "boxart",
+    "beat",
+    "purple",
+    "connected",
+    "letters",
+    "1099"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel chest)"
+}

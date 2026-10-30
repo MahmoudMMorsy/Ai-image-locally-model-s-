@@ -1,0 +1,43 @@
+{
+  "file": "be050199ba59f106_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "orange",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "classic",
+    "game",
+    "over",
+    "screen",
+    "parallel",
+    "pair",
+    "arabic",
+    "fantasy",
+    "ornate",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "128x128",
+    "gameover",
+    "fantasyornate",
+    "historical",
+    "medieval",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

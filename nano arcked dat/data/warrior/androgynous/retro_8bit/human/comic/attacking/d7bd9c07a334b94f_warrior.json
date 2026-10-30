@@ -1,0 +1,43 @@
+{
+  "file": "d7bd9c07a334b94f_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "comic",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "game",
+    "over",
+    "screen",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "naskh",
+    "clean",
+    "pop",
+    "art",
+    "comic",
+    "256x256",
+    "gameover",
+    "arsub",
+    "shoot",
+    "silver",
+    "gold",
+    "texture",
+    "thick",
+    "outline"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

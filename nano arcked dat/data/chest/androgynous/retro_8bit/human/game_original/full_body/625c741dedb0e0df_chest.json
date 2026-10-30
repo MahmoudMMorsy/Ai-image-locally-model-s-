@@ -1,0 +1,40 @@
+{
+  "file": "625c741dedb0e0df_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "marquee",
+    "arabic",
+    "only",
+    "pixel",
+    "kufic",
+    "geometric",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "aronly",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "connected",
+    "letters",
+    "0649"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

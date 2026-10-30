@@ -1,0 +1,43 @@
+{
+  "file": "57874d5152e0b766_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "cartridge",
+    "label",
+    "bilingual",
+    "english",
+    "primary",
+    "retro",
+    "8bit",
+    "arabic",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "cartlabel",
+    "bilenprim",
+    "retro8bit",
+    "racing",
+    "sports",
+    "purple",
+    "glowing",
+    "edges",
+    "pixel"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

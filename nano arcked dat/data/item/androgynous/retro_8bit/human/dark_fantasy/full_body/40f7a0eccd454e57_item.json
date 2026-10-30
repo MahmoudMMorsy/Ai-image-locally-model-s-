@@ -1,0 +1,38 @@
+{
+  "file": "40f7a0eccd454e57_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "pixel",
+    "lettering",
+    "arabic",
+    "transliteration",
+    "ruqah",
+    "fast",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "artrans",
+    "rpg",
+    "gold",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1054"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

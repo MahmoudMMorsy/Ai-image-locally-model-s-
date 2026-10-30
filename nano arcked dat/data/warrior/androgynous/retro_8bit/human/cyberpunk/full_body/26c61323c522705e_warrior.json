@@ -1,0 +1,40 @@
+{
+  "file": "26c61323c522705e_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "promo",
+    "flyer",
+    "arabic",
+    "only",
+    "pixel",
+    "ruqah",
+    "fast",
+    "minimalist",
+    "poster",
+    "128x128",
+    "aronly",
+    "sci",
+    "cyberpunk",
+    "neon",
+    "cyan",
+    "connected",
+    "letters",
+    "0529"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

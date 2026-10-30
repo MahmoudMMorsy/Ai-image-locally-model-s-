@@ -1,0 +1,43 @@
+{
+  "file": "e159bbc369a40375_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "cartridge",
+    "label",
+    "bilingual",
+    "english",
+    "primary",
+    "pixel",
+    "kufic",
+    "geometric",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "cartlabel",
+    "bilenprim",
+    "racing",
+    "sports",
+    "purple",
+    "gold",
+    "texture",
+    "thick"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

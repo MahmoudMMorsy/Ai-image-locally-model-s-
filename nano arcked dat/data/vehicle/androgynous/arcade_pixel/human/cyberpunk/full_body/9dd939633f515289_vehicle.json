@@ -1,0 +1,40 @@
+{
+  "file": "9dd939633f515289_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "orange",
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "cartridge",
+    "label",
+    "parallel",
+    "pair",
+    "arabic",
+    "bevel",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "cartlabel",
+    "bevel3d",
+    "beat",
+    "neon",
+    "cyan",
+    "glowing",
+    "edges",
+    "gradient",
+    "0980"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel vehicle)"
+}

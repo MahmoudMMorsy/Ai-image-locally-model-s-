@@ -1,0 +1,42 @@
+{
+  "file": "248fcd494e6bf01d_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "stage",
+    "clear",
+    "banner",
+    "bilingual",
+    "arabic",
+    "primary",
+    "metallic",
+    "chrome",
+    "japanese",
+    "boxart",
+    "style",
+    "128x128",
+    "stageclear",
+    "bilarprim",
+    "puzzle",
+    "strategy",
+    "green",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1072"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

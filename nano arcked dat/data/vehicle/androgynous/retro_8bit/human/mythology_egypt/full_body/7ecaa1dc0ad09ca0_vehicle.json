@@ -1,0 +1,40 @@
+{
+  "file": "7ecaa1dc0ad09ca0_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "mythology_egypt",
+  "pose": "full_body",
+  "colors": [
+    "white",
+    "black",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "calligraffiti",
+    "8bit",
+    "nes",
+    "128x128",
+    "cartlabel",
+    "arsub",
+    "egyptian",
+    "folklore",
+    "red",
+    "glowing",
+    "edges",
+    "gradient",
+    "1140"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

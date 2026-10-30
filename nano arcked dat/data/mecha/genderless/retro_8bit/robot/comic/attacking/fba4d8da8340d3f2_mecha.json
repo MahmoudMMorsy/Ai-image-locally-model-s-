@@ -1,0 +1,43 @@
+{
+  "file": "fba4d8da8340d3f2_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "comic",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "bilingual",
+    "title",
+    "logo",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "thuluth",
+    "display",
+    "pop",
+    "art",
+    "comic",
+    "256x256",
+    "bilogo",
+    "artrans",
+    "shoot",
+    "silver",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

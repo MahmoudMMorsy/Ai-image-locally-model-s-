@@ -1,0 +1,42 @@
+{
+  "file": "3879e20c06a9a67d_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "arabic",
+    "transliteration",
+    "bevel",
+    "dark",
+    "fantasy",
+    "gothic",
+    "128x128",
+    "cartlabel",
+    "artrans",
+    "bevel3d",
+    "horror",
+    "survival",
+    "silver",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1137"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

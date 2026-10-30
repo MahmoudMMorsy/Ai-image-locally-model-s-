@@ -1,0 +1,42 @@
+{
+  "file": "0cfdc34a34bf2245_golem.png",
+  "type": "golem",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "purple",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "english",
+    "primary",
+    "fantasy",
+    "ornate",
+    "arabic",
+    "constructivist",
+    "128x128",
+    "boxart",
+    "bilenprim",
+    "fantasyornate",
+    "racing",
+    "sports",
+    "gold",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient",
+    "0941"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel golem)"
+}

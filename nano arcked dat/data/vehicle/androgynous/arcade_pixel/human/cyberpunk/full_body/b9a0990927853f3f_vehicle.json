@@ -1,0 +1,42 @@
+{
+  "file": "b9a0990927853f3f_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "arabic",
+    "transliteration",
+    "metallic",
+    "chrome",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "cartlabel",
+    "artrans",
+    "sci",
+    "cyberpunk",
+    "dark",
+    "amber",
+    "connected",
+    "letters",
+    "pixel",
+    "1138"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel vehicle)"
+}

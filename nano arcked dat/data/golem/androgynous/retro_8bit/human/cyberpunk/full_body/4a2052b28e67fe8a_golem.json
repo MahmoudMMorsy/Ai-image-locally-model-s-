@@ -1,0 +1,41 @@
+{
+  "file": "4a2052b28e67fe8a_golem.png",
+  "type": "golem",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "arabic",
+    "title",
+    "logo",
+    "subtitle",
+    "neon",
+    "glitch",
+    "constructivist",
+    "128x128",
+    "arlogo",
+    "arsub",
+    "neonglitch",
+    "racing",
+    "sports",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0863"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit golem)"
+}

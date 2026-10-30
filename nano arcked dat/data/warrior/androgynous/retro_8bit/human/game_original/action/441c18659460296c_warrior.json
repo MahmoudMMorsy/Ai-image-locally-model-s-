@@ -1,0 +1,43 @@
+{
+  "file": "441c18659460296c_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "title",
+    "badge",
+    "arabic",
+    "only",
+    "pixel",
+    "ruqah",
+    "fast",
+    "retro",
+    "16bit",
+    "snes",
+    "256x256",
+    "uibadge",
+    "aronly",
+    "fighting",
+    "game",
+    "green",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0925"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

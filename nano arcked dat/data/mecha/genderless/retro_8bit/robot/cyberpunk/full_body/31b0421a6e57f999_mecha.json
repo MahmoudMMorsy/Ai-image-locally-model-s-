@@ -1,0 +1,43 @@
+{
+  "file": "31b0421a6e57f999_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "orange",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "title",
+    "screen",
+    "art",
+    "bilingual",
+    "english",
+    "primary",
+    "neon",
+    "glitch",
+    "arabic",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "titlescreen",
+    "bilenprim",
+    "neonglitch",
+    "beat",
+    "cyan",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

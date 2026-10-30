@@ -1,0 +1,43 @@
+{
+  "file": "3465b9f502d27159_golem.png",
+  "type": "golem",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "stage",
+    "clear",
+    "banner",
+    "bilingual",
+    "arabic",
+    "primary",
+    "neon",
+    "glitch",
+    "constructivist",
+    "256x256",
+    "gbc",
+    "stageclear",
+    "bilarprim",
+    "neonglitch",
+    "racing",
+    "sports",
+    "gold",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit golem)"
+}

@@ -1,0 +1,43 @@
+{
+  "file": "1c8d8640384dfa86_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "horror",
+  "pose": "front_view",
+  "colors": [
+    "dark",
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "calligraffiti",
+    "minimalist",
+    "poster",
+    "128x128",
+    "boxart",
+    "bilarprim",
+    "horror",
+    "survival",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1096"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

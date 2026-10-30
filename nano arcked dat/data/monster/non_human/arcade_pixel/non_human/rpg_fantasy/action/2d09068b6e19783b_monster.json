@@ -1,0 +1,27 @@
+{
+  "file": "2d09068b6e19783b_monster.png",
+  "type": "monster",
+  "gender": "non_human",
+  "race": "non_human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "black",
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "2026",
+    "comprehensive",
+    "real",
+    "training",
+    "monster",
+    "action",
+    "anim"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel monster)"
+}

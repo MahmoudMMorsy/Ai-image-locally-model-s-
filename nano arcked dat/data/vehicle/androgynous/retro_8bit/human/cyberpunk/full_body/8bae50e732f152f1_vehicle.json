@@ -1,0 +1,42 @@
+{
+  "file": "8bae50e732f152f1_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "cartridge",
+    "label",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "thuluth",
+    "display",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "cartlabel",
+    "arsub",
+    "puzzle",
+    "strategy",
+    "orange",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0515"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

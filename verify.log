@@ -1,0 +1,6 @@
+=== Running Nano Arcked Dataset Verification Suite ===
+Found 1734 PNG files and 1734 JSON sidecar files in nano arcked dat/data.
+[✔] 1:1 PNG <-> JSON sidecar pairing verified.
+[✔] All 1734 assets passed image, JSON schema, taxonomy hierarchy, and religious restriction checks.
+[✔] Dataset CSV index (1734 rows) and manifest JSONL (1734 lines) perfectly aligned.
+=== Nano Arcked Dataset Verification Successful ===

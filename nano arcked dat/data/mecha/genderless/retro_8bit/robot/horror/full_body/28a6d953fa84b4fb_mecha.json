@@ -1,0 +1,43 @@
+{
+  "file": "28a6d953fa84b4fb_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "bright",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "bilingual",
+    "title",
+    "logo",
+    "arabic",
+    "subtitle",
+    "retro",
+    "8bit",
+    "minimalist",
+    "pixel",
+    "poster",
+    "256x256",
+    "bilogo",
+    "arsub",
+    "retro8bit",
+    "horror",
+    "survival",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

@@ -1,0 +1,40 @@
+{
+  "file": "75a3d6b715f2b1b3_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "promo",
+    "flyer",
+    "bilingual",
+    "english",
+    "primary",
+    "bevel",
+    "arabic",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "bilenprim",
+    "bevel3d",
+    "rpg",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1002"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel warrior)"
+}

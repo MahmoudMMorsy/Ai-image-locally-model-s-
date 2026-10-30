@@ -1,0 +1,43 @@
+{
+  "file": "dec6d7c74c624b45_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "title",
+    "badge",
+    "bilingual",
+    "english",
+    "primary",
+    "retro",
+    "8bit",
+    "arabic",
+    "western",
+    "boxart",
+    "style",
+    "256x256",
+    "uibadge",
+    "bilenprim",
+    "retro8bit",
+    "sci",
+    "cyberpunk",
+    "dark",
+    "amber",
+    "crt"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit chest)"
+}

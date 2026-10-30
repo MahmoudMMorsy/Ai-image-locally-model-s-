@@ -55,51 +55,107 @@ TYPE_RULES = [
     # Characters
     ("cyber_soldier", ["cyber_soldier", "cybersoldier", "sci_fi_soldier", "cyber_infantry"]),
     ("gunslinger", ["gunslinger", "gunner", "shooter", "pistol", "sniper", "rifleman"]),
-    ("knight", ["knight", "paladin", "crusader", "swordsman", "shield_knight", "templar"]),
-    ("warrior", ["warrior", "fighter", "gladiator", "berserker", "brawler", "barbarian", "champion"]),
-    ("mage", ["mage", "wizard", "sorcerer", "necromancer", "summoner", "witch", "alchemist", "priest", "spellcaster", "enchanter"]),
-    ("archer", ["archer", "bowman", "ranger", "hunter", "crossbow", "marksman"]),
-    ("rogue", ["rogue", "assassin", "ninja", "thief", "scout", "shadow"]),
+    ("knight", ["knight", "shield_knight", "templar"]),
+    ("paladin", ["paladin", "holy_knight"]),
+    ("berserker", ["berserker", "barbarian", "rage_warrior"]),
+    ("gladiator", ["gladiator", "arena_fighter"]),
+    ("warrior", ["warrior", "fighter", "brawler", "champion"]),
+    ("necromancer", ["necromancer", "death_mage", "dark_sorcerer"]),
+    ("summoner", ["summoner", "conjurer"]),
+    ("mage", ["mage", "wizard", "sorcerer", "spellcaster", "enchanter"]),
+    ("archer", ["archer", "bowman", "ranger", "crossbow", "marksman"]),
+    ("assassin", ["assassin", "shadow_blade"]),
+    ("ninja", ["ninja", "shinobi"]),
+    ("thief", ["thief", "pickpocket", "rogue_thief"]),
+    ("rogue", ["rogue", "scout", "shadow"]),
     ("monk", ["monk", "martial_artist", "shaolin"]),
     ("samurai", ["samurai", "ronin", "bushido"]),
     ("pirate", ["pirate", "buccaneer", "corsair"]),
     ("viking", ["viking", "norse_warrior"]),
-    ("soldier", ["soldier", "commando", "infantry", "guard", "trooper", "marine"]),
-    ("paladin", ["paladin", "holy_knight"]),
-    ("necromancer", ["necromancer", "death_mage"]),
-    ("summoner", ["summoner", "conjurer"]),
-    ("bard", ["bard", "minstrel", "musician"]),
-    ("thief", ["thief", "pickpocket"]),
+    ("soldier", ["soldier", "commando", "infantry", "trooper", "marine"]),
     ("hunter", ["hunter", "trapper"]),
 
     # Creatures
     ("dragon", ["dragon", "drake", "wyvern", "dragonkin"]),
     ("demon", ["demon", "devil", "fiend", "imp", "succubus"]),
     ("angel", ["angel", "seraph", "cherub", "archangel"]),
-    ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich", "ghoul", "specter", "mummy"]),
+    ("zombie", ["zombie", "undead_walker"]),
+    ("skeleton", ["skeleton", "bone_warrior"]),
+    ("vampire", ["vampire", "bloodsucker"]),
+    ("ghost", ["ghost", "specter", "wraith", "phantom"]),
+    ("undead", ["undead", "lich", "ghoul", "mummy"]),
     ("werewolf", ["werewolf", "lycanthrope"]),
     ("golem", ["golem", "automaton", "construct"]),
     ("elemental", ["elemental", "fire_elemental", "ice_elemental", "earth_elemental", "water_elemental"]),
     ("fairy", ["fairy", "pixie", "nymph"]),
+    ("elf", ["elf", "elven"]),
+    ("dwarf", ["dwarf", "dwarven"]),
+    ("orc", ["orc", "orcs"]),
+    ("goblin", ["goblin"]),
+    ("troll", ["troll"]),
+    ("giant", ["giant", "titan"]),
     ("mermaid", ["mermaid", "merfolk", "siren", "triton"]),
     ("centaur", ["centaur"]),
     ("minotaur", ["minotaur"]),
-    ("beast", ["beast", "monster", "creature", "chimera", "hydra", "basilisk", "behemoth"]),
+    ("beast", ["beast", "chimera", "hydra", "basilisk", "behemoth"]),
     ("animal", ["animal", "cat", "dog", "shiba", "husky", "dalmatian", "bear", "wolf", "bird", "horse", "frog", "slime", "dragonfly", "owl", "tiger", "lion", "snake"]),
-    ("robot", ["robot", "mecha", "cyborg", "android", "droid", "mech"]),
+    ("mecha", ["mecha", "mech_unit", "giant_robot"]),
+    ("cyborg", ["cyborg", "cybernetic"]),
+    ("android", ["android"]),
+    ("robot", ["robot", "droid", "mech"]),
+    ("alien", ["alien", "xenomorph"]),
+    ("monster", ["monster", "creature"]),
 
     # Civilians & Roles
-    ("civilian", ["civilian", "merchant", "noble", "king", "queen", "prince", "princess", "child", "elder", "farmer", "blacksmith", "cook", "dancer", "scholar", "villager", "npc", "peasant", "innkeeper"]),
+    ("merchant", ["merchant", "trader", "vendor"]),
+    ("noble", ["noble", "aristocrat"]),
+    ("king", ["king", "monarch"]),
+    ("queen", ["queen"]),
+    ("prince", ["prince"]),
+    ("princess", ["princess"]),
+    ("child", ["child", "kid"]),
+    ("elder", ["elder", "old_man", "old_woman"]),
+    ("farmer", ["farmer", "peasant"]),
+    ("blacksmith", ["blacksmith", "smith"]),
+    ("alchemist", ["alchemist", "brewer"]),
+    ("priest", ["priest", "cleric"]),
+    ("witch", ["witch", "hag"]),
+    ("scholar", ["scholar", "scribe"]),
+    ("bard", ["bard", "minstrel", "musician"]),
+    ("dancer", ["dancer"]),
+    ("cook", ["cook", "chef"]),
+    ("guard", ["guard", "town_guard", "sentry"]),
+    ("civilian", ["civilian", "villager", "npc", "innkeeper"]),
 
     # Objects & Environment
-    ("weapon", ["weapon", "sword", "bow", "gun", "axe", "staff", "shield", "helmet", "armor", "dagger", "blade", "spear", "mace", "wand"]),
-    ("vehicle", ["vehicle", "spaceship", "car", "tank", "ship", "aircraft", "mech_unit"]),
-    ("structure", ["castle", "building", "house", "tower", "dungeon", "structure", "door", "portal"]),
-    ("item", ["item", "potion", "chest", "crystal", "rock", "tree", "plant", "furniture", "food", "coin", "relic", "scroll", "ring", "amulet"])
+    ("sword", ["sword", "blade", "katana", "saber"]),
+    ("bow", ["bow", "crossbow"]),
+    ("gun", ["gun", "pistol", "rifle", "blaster"]),
+    ("staff", ["staff", "wand", "scepter"]),
+    ("shield", ["shield", "buckler"]),
+    ("helmet", ["helmet", "helm"]),
+    ("armor", ["armor", "cuirass", "plate"]),
+    ("weapon", ["weapon", "axe", "dagger", "spear", "mace"]),
+    ("spaceship", ["spaceship", "starship", "spacecraft"]),
+    ("vehicle", ["vehicle", "car", "tank", "ship", "aircraft"]),
+    ("castle", ["castle", "fortress"]),
+    ("building", ["building", "house", "tower", "dungeon", "structure"]),
+    ("tree", ["tree", "foliage"]),
+    ("plant", ["plant", "flower", "herb"]),
+    ("rock", ["rock", "stone", "boulder"]),
+    ("crystal", ["crystal", "gem", "jewel"]),
+    ("potion", ["potion", "flask", "elixir"]),
+    ("chest", ["chest", "coffer", "box"]),
+    ("door", ["door", "gate"]),
+    ("portal", ["portal", "teleporter"]),
+    ("furniture", ["furniture", "chair", "table", "bed"]),
+    ("food", ["food", "meat", "apple", "bread"]),
+    ("item", ["item", "coin", "relic", "scroll", "ring", "amulet"])
 ]
 
 RACE_RULES = [
-    ("robot", ["robot", "mecha", "cyborg", "android", "droid", "automaton"]),
+    ("cyborg", ["cyborg", "cybernetic"]),
+    ("robot", ["robot", "mecha", "android", "droid", "automaton"]),
     ("dragonkin", ["dragon", "drake", "wyvern", "dragonkin"]),
     ("undead", ["undead", "zombie", "skeleton", "vampire", "ghost", "lich", "ghoul", "specter"]),
     ("demon", ["demon", "devil", "fiend"]),
@@ -126,13 +182,15 @@ STYLE_RULES = [
     ("retro_8bit", ["8bit", "8-bit", "nes", "pico8", "pico-8", "gameboy", "gb", "gameboy_classic"]),
     ("retro_16bit", ["16bit", "16-bit", "snes", "genesis", "gba", "gameboy_advance", "megadrive"]),
     ("arcade_pixel", ["arcade", "brawler", "capcom", "neogeo", "cps2", "cps1", "arcade_pixel"]),
-    ("realistic_pixel", ["realistic", "detailed_pixel", "hd_pixel", "realistic_pixel"]),
-    ("anime_pixel", ["anime", "manga", "jrpg", "anime_pixel"]),
+    ("realistic_pixel", ["realistic_pixel", "hd_pixel"]),
+    ("anime_pixel", ["anime_pixel", "manga", "jrpg"]),
     ("chibi", ["chibi", "mini", "cute"]),
     ("cartoon", ["cartoon", "toon"]),
-    ("dark_fantasy", ["dark_fantasy", "dark_souls", "gothic", "horror_pixel"]),
-    ("fantasy_pixel", ["fantasy", "rpg_pixel", "magic_pixel"]),
-    ("sci_fi_pixel", ["sci_fi", "cyberpunk", "mecha_pixel", "futuristic"]),
+    ("dark_fantasy", ["dark_fantasy", "dark_souls", "gothic"]),
+    ("fantasy_pixel", ["fantasy_pixel", "rpg_pixel", "magic_pixel"]),
+    ("sci_fi_pixel", ["sci_fi_pixel", "cyberpunk", "mecha_pixel", "futuristic"]),
+    ("horror_pixel", ["horror_pixel", "creepy"]),
+    ("detailed_pixel", ["detailed_pixel", "detailed"]),
     ("clean_pixel", ["clean", "simple", "flat", "pixel"])
 ]
 
@@ -148,6 +206,11 @@ SOURCE_RULES = [
     ("mythology_egypt", ["egypt", "pharaoh", "anubis", "mummy"]),
     ("historical", ["historical", "medieval", "samurai", "ninja"]),
     ("post_apocalyptic", ["post_apocalyptic", "wasteland", "fallout"]),
+    ("anime_series", ["anime_series", "manga_series"]),
+    ("cartoon_western", ["cartoon_western", "western_toon"]),
+    ("movie", ["movie", "cinema"]),
+    ("comic", ["comic", "graphic_novel"]),
+    ("oc_original", ["oc_original", "custom_oc"]),
     ("game_original", ["game", "sprite", "arcade", "retro", "cc0", "trine"]),
     ("generic", [])
 ]
@@ -155,13 +218,16 @@ SOURCE_RULES = [
 POSE_RULES = [
     ("running", ["running", "run"]),
     ("walking", ["walking", "walk"]),
-    ("attacking", ["attacking", "attack", "slash", "shoot", "cast", "strike", "swing"]),
+    ("attacking", ["attacking", "attack", "slash", "shoot", "strike", "swing"]),
+    ("casting", ["casting", "cast_spell", "magic_cast"]),
     ("action", ["action", "combating", "fight", "jump", "dash", "dodge"]),
     ("idle", ["idle", "standing", "hero_pose"]),
     ("sitting", ["sitting", "crouching", "kneeling"]),
     ("flying", ["flying", "hovering", "soaring"]),
+    ("lying", ["lying", "sleeping", "dead"]),
     ("side_view", ["side_view", "side", "profile"]),
     ("front_view", ["front_view", "front"]),
+    ("back_view", ["back_view", "back"]),
     ("portrait", ["portrait", "bust", "face", "headshot"]),
     ("full_body", ["full_body", "fullbody", "character", "sprite"])
 ]
@@ -218,8 +284,10 @@ def infer_gender(text: str) -> str:
         return "female"
     if any(w in n for w in ["male", "man", "boy", "guy", "king", "prince", "wizard", "hero", "lord", "knight"]):
         return "male"
-    if any(w in n for w in ["robot", "mecha", "weapon", "structure", "item", "vehicle", "dragon", "chest", "potion"]):
+    if any(w in n for w in ["robot", "mecha", "weapon", "structure", "item", "vehicle", "dragon", "chest", "potion", "building", "tree", "plant", "rock", "crystal"]):
         return "genderless"
+    if any(w in n for w in ["animal", "beast", "monster", "creature", "ghost", "zombie", "golem", "elemental"]):
+        return "non_human"
     return "androgynous"
 
 def calculate_sha256(filepath: Path) -> str:
@@ -244,45 +312,26 @@ def extract_tags(text: str) -> list[str]:
 def gather_all_image_candidates() -> list[tuple[str, Path]]:
     candidates = []
 
-    if os.path.exists(".staging_gdrive"):
-        for p in Path(".staging_gdrive").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("dataset_gdrive", p))
+    sources = [
+        (".staging_gdrive", "dataset_gdrive"),
+        (".staging_clean", "dataset_clean"),
+        (".staging_raw", "dataset_raw"),
+        ("mm.trine", "mm_trine"),
+        ("All-data-Trine", "all_data_trine"),
+        ("nano_arcade_data", "nano_arcade_data"),
+        ("examples", "examples_showcase"),
+        ("nano_pixel_mob", "nano_pixel_mob"),
+        ("nano arabic dat", "nano_arabic_dat"),
+        ("nano arcked dat/images", "cc0_collected"),
+    ]
 
-    if os.path.exists("mm.trine"):
-        for p in Path("mm.trine").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("mm_trine", p))
+    exts = {".png", ".jpg", ".jpeg", ".webp", ".gif"}
 
-    if os.path.exists(".staging_clean"):
-        for p in Path(".staging_clean").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("dataset_clean", p))
-
-    if os.path.exists(".staging_raw"):
-        for p in Path(".staging_raw").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("dataset_raw", p))
-
-    if os.path.exists("All-data-Trine"):
-        for p in Path("All-data-Trine").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("all_data_trine", p))
-
-    if os.path.exists("nano_pixel_mob"):
-        for p in Path("nano_pixel_mob").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("nano_pixel_mob", p))
-
-    if os.path.exists("examples"):
-        for p in Path("examples").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("examples_showcase", p))
-
-    if os.path.exists("nano arcked dat/images"):
-        for p in Path("nano arcked dat/images").rglob("*"):
-            if p.is_file() and p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif"}:
-                candidates.append(("cc0_collected", p))
+    for dirpath, src_name in sources:
+        if os.path.exists(dirpath):
+            for p in Path(dirpath).rglob("*"):
+                if p.is_file() and p.suffix.lower() in exts:
+                    candidates.append((src_name, p))
 
     return candidates
 

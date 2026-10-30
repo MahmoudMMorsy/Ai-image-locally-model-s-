@@ -1,0 +1,41 @@
+{
+  "file": "1698d98775bc0ef9_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "subtitle",
+    "8bit",
+    "synthwave",
+    "80s",
+    "128x128",
+    "boxart",
+    "arsub",
+    "retro8bit",
+    "action",
+    "adventure",
+    "black",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1104"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

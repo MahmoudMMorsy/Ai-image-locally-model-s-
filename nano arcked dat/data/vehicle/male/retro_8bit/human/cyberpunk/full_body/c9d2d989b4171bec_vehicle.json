@@ -1,0 +1,43 @@
+{
+  "file": "c9d2d989b4171bec_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "bilingual",
+    "english",
+    "primary",
+    "bold",
+    "arabic",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "gbc",
+    "cartlabel",
+    "bilenprim",
+    "boldarcade",
+    "racing",
+    "sports",
+    "purple",
+    "connected",
+    "letters",
+    "pixel"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

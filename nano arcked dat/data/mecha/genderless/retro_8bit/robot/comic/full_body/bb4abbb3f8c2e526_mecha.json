@@ -1,0 +1,42 @@
+{
+  "file": "bb4abbb3f8c2e526_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "comic",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "stage",
+    "clear",
+    "banner",
+    "bilingual",
+    "english",
+    "primary",
+    "bevel",
+    "arabic",
+    "pop",
+    "art",
+    "comic",
+    "128x128",
+    "stageclear",
+    "bilenprim",
+    "bevel3d",
+    "beat",
+    "purple",
+    "glitch",
+    "displacement",
+    "mecha"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

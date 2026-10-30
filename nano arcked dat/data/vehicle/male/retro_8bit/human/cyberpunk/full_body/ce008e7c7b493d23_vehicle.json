@@ -1,0 +1,43 @@
+{
+  "file": "ce008e7c7b493d23_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "arabic",
+    "subtitle",
+    "neon",
+    "glitch",
+    "cyberpunk",
+    "dystopian",
+    "128x128",
+    "gbc",
+    "cartlabel",
+    "arsub",
+    "neonglitch",
+    "puzzle",
+    "strategy",
+    "orange",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0203"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

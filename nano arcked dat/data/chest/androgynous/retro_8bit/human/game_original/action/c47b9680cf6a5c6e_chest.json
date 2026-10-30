@@ -1,0 +1,43 @@
+{
+  "file": "c47b9680cf6a5c6e_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "white",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "only",
+    "pixel",
+    "thuluth",
+    "display",
+    "retro",
+    "8bit",
+    "nes",
+    "128x128",
+    "boxart",
+    "aronly",
+    "action",
+    "adventure",
+    "blue",
+    "crt",
+    "scanlines",
+    "pyramid"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

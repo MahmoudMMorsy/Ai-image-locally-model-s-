@@ -1,0 +1,42 @@
+{
+  "file": "1486c809a4eb35c9_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "attacking",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "promo",
+    "flyer",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "kufic",
+    "geometric",
+    "retro",
+    "synthwave",
+    "80s",
+    "256x256",
+    "artrans",
+    "shoot",
+    "white",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0693"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

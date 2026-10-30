@@ -1,0 +1,43 @@
+{
+  "file": "f329f4ee695568e9_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "box",
+    "art",
+    "front",
+    "parallel",
+    "pair",
+    "arabic",
+    "fantasy",
+    "ornate",
+    "pop",
+    "comic",
+    "128x128",
+    "boxart",
+    "fantasyornate",
+    "beat",
+    "purple",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0787"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

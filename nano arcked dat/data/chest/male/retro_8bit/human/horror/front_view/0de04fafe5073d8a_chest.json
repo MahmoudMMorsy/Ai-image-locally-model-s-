@@ -1,0 +1,43 @@
+{
+  "file": "0de04fafe5073d8a_chest.png",
+  "type": "chest",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "horror",
+  "pose": "front_view",
+  "colors": [
+    "dark",
+    "silver",
+    "bright"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "thuluth",
+    "display",
+    "minimalist",
+    "poster",
+    "128x128",
+    "gbc",
+    "boxart",
+    "bilarprim",
+    "horror",
+    "survival",
+    "orange",
+    "glowing",
+    "edges",
+    "gradient"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

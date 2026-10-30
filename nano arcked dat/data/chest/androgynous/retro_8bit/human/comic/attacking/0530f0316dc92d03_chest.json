@@ -1,0 +1,42 @@
+{
+  "file": "0530f0316dc92d03_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "comic",
+  "pose": "attacking",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "only",
+    "bevel",
+    "pop",
+    "comic",
+    "128x128",
+    "boxart",
+    "aronly",
+    "bevel3d",
+    "shoot",
+    "silver",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0782"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

@@ -1,0 +1,43 @@
+{
+  "file": "f160def4f0f46801_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "game",
+    "over",
+    "screen",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "kufic",
+    "geometric",
+    "western",
+    "boxart",
+    "style",
+    "256x256",
+    "gameover",
+    "artrans",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "glowing",
+    "edges",
+    "gradient",
+    "1221"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel chest)"
+}

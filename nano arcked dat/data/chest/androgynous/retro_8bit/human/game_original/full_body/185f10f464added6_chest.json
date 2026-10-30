@@ -1,0 +1,41 @@
+{
+  "file": "185f10f464added6_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "marquee",
+    "arabic",
+    "only",
+    "pixel",
+    "thuluth",
+    "display",
+    "western",
+    "boxart",
+    "style",
+    "256x256",
+    "aronly",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0493"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit chest)"
+}

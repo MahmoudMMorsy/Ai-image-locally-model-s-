@@ -1,0 +1,41 @@
+{
+  "file": "baaff79ce6729b7f_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "promo",
+    "flyer",
+    "bilingual",
+    "arabic",
+    "primary",
+    "bevel",
+    "synthwave",
+    "80s",
+    "128x128",
+    "bilarprim",
+    "bevel3d",
+    "action",
+    "adventure",
+    "black",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1156"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

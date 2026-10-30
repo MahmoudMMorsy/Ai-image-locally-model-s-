@@ -1,0 +1,42 @@
+{
+  "file": "30a17c533b437e35_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "title",
+    "badge",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "thuluth",
+    "display",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "uibadge",
+    "puzzle",
+    "strategy",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1087"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

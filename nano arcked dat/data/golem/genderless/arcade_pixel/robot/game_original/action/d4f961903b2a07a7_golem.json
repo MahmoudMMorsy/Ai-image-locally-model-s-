@@ -1,0 +1,42 @@
+{
+  "file": "d4f961903b2a07a7_golem.png",
+  "type": "golem",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "bilingual",
+    "title",
+    "logo",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "kufic",
+    "geometric",
+    "constructivist",
+    "256x256",
+    "bilogo",
+    "fighting",
+    "game",
+    "white",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1196"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel golem)"
+}

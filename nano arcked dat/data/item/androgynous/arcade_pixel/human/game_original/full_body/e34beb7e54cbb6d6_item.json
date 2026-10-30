@@ -1,0 +1,34 @@
+{
+  "file": "e34beb7e54cbb6d6_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "pixel",
+    "lettering",
+    "arabic",
+    "transliteration",
+    "calligraffiti",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "artrans",
+    "platformer",
+    "red",
+    "connected",
+    "letters",
+    "1209"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel item)"
+}

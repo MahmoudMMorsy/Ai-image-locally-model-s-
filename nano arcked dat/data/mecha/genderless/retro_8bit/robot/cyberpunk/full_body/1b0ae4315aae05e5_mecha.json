@@ -1,0 +1,43 @@
+{
+  "file": "1b0ae4315aae05e5_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "kufic",
+    "geometric",
+    "minimalist",
+    "poster",
+    "128x128",
+    "bilenprim",
+    "sci",
+    "cyberpunk",
+    "neon",
+    "cyan",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0737"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

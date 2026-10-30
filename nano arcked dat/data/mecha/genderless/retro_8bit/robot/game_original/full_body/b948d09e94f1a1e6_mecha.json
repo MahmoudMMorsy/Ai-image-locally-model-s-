@@ -1,0 +1,41 @@
+{
+  "file": "b948d09e94f1a1e6_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "calligraffiti",
+    "16bit",
+    "snes",
+    "genesis",
+    "256x256",
+    "bilenprim",
+    "post",
+    "apocalyptic",
+    "blue",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1206"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "905b1b128f370834_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "title",
+    "screen",
+    "art",
+    "arabic",
+    "only",
+    "pixel",
+    "ruqah",
+    "fast",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "titlescreen",
+    "aronly",
+    "rpg",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0482"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

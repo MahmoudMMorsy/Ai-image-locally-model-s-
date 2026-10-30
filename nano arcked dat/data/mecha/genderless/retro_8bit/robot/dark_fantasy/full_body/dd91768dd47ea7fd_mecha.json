@@ -1,0 +1,43 @@
+{
+  "file": "dd91768dd47ea7fd_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "cartridge",
+    "label",
+    "arabic",
+    "only",
+    "bold",
+    "japanese",
+    "boxart",
+    "style",
+    "128x128",
+    "cartlabel",
+    "aronly",
+    "boldarcade",
+    "egyptian",
+    "folklore",
+    "dark",
+    "amber",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

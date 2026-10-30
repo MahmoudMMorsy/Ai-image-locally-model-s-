@@ -1,0 +1,43 @@
+{
+  "file": "5d3a5d0bb5a50ee3_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "white",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "bilingual",
+    "title",
+    "logo",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "thuluth",
+    "display",
+    "8bit",
+    "nes",
+    "256x256",
+    "bilogo",
+    "artrans",
+    "action",
+    "adventure",
+    "blue",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1197"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

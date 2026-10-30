@@ -1,0 +1,43 @@
+{
+  "file": "f9a88c1638870573_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "orange",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "title",
+    "badge",
+    "arabic",
+    "transliteration",
+    "retro",
+    "8bit",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "uibadge",
+    "artrans",
+    "retro8bit",
+    "historical",
+    "medieval",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

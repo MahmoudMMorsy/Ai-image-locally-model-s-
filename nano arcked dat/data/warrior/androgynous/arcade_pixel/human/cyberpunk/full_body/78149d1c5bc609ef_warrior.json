@@ -1,0 +1,43 @@
+{
+  "file": "78149d1c5bc609ef_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "game",
+    "over",
+    "screen",
+    "bilingual",
+    "english",
+    "primary",
+    "neon",
+    "glitch",
+    "arabic",
+    "cyberpunk",
+    "dystopian",
+    "128x128",
+    "gameover",
+    "bilenprim",
+    "neonglitch",
+    "puzzle",
+    "strategy",
+    "orange",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel warrior)"
+}

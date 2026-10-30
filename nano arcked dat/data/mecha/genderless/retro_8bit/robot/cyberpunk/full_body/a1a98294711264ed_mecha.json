@@ -1,0 +1,43 @@
+{
+  "file": "a1a98294711264ed_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "game",
+    "over",
+    "screen",
+    "bilingual",
+    "english",
+    "primary",
+    "8bit",
+    "arabic",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "gameover",
+    "bilenprim",
+    "retro8bit",
+    "puzzle",
+    "strategy",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}
