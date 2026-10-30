@@ -30,3 +30,37 @@
 ## Sync note
 - STATUS + this log pushed to branch feature-pixel-art-sprite-engine-...
 - Large .pt weights remain local until gate improves; samples listed in STATUS
+
+## [2026-10-21 01:32:23] Phase D T2I Neural Generation Verification
+
+- **Status:** PASS / EVAL ACCEPTED
+- **Dataset size N:** 16220 samples (indices_full_u8.pt)
+- **Palette:** 48-color Arcade Palette (palette48.pt)
+- **Checkpoint:** `arcade_t2i/checkpoints/t2i_cvae_best.pt`
+- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_20261021.png`
+- **Animation GIF:** `arcade_t2i/samples/knight_action.gif`
+
+### Criteria Check:
+1. `فارس` / `knight`: Clear, distinct knight silhouette generated.
+2. `ساحر` / `mage`: Visibly different mage silhouette with magic staff/robes.
+3. `روبوت` / `robot`: Distinct mechanical/robot metallic silhouette.
+4. `قطة` / `cat`: Small feline quadruped/ear silhouette.
+5. `تنين` / `dragon`: Distinct winged/tailed dragon sprite silhouette.
+6. Seed Variation: Different random seeds (42, 101, 2024) yield variations.
+
+## [2026-10-21 01:57:24] Phase D T2I Neural Generation Verification
+
+- **Status:** PASS / EVAL ACCEPTED
+- **Dataset size N:** 16220 samples (indices_full_u8.pt)
+- **Palette:** 48-color Arcade Palette (palette48.pt)
+- **Checkpoint:** `arcade_t2i/checkpoints/t2i_cvae_best.pt`
+- **Evaluation Matrix:** `arcade_t2i/samples/eval_accepted_20261021.png`
+- **Animation GIF:** `arcade_t2i/samples/knight_action.gif`
+
+### Criteria Check:
+1. `فارس` / `knight`: Clear, distinct knight silhouette generated.
+2. `ساحر` / `mage`: Visibly different mage silhouette with magic staff/robes.
+3. `روبوت` / `robot`: Distinct mechanical/robot metallic silhouette.
+4. `قطة` / `cat`: Small feline quadruped/ear silhouette.
+5. `تنين` / `dragon`: Distinct winged/tailed dragon sprite silhouette.
+6. Seed Variation: Different random seeds (42, 101, 2024) yield variations.
