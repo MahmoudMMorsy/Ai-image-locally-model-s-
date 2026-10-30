@@ -1,0 +1,43 @@
+{
+  "file": "541bd9cf1c9b42a7_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "front_view",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "transliteration",
+    "bevel",
+    "retro",
+    "16bit",
+    "snes",
+    "genesis",
+    "128x128",
+    "gbc",
+    "boxart",
+    "artrans",
+    "bevel3d",
+    "post",
+    "apocalyptic",
+    "blue",
+    "glitch",
+    "displacement",
+    "mecha"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

@@ -1,0 +1,43 @@
+{
+  "file": "723616dc4ded514e_chest.png",
+  "type": "chest",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "front_view",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "english",
+    "primary",
+    "pixel",
+    "kufic",
+    "geometric",
+    "japanese",
+    "boxart",
+    "style",
+    "128x128",
+    "gbc",
+    "bilenprim",
+    "puzzle",
+    "strategy",
+    "green",
+    "gold",
+    "texture",
+    "thick"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

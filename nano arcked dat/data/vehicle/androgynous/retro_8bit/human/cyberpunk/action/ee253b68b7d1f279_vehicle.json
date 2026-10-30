@@ -1,0 +1,43 @@
+{
+  "file": "ee253b68b7d1f279_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "action",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "cartridge",
+    "label",
+    "arabic",
+    "only",
+    "neon",
+    "glitch",
+    "retro",
+    "synthwave",
+    "80s",
+    "256x256",
+    "cartlabel",
+    "aronly",
+    "neonglitch",
+    "action",
+    "adventure",
+    "black",
+    "gold",
+    "texture",
+    "thick",
+    "outline"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

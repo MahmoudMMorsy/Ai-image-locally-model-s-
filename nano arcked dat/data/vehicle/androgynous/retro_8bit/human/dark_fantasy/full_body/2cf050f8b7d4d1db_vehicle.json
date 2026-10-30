@@ -1,0 +1,43 @@
+{
+  "file": "2cf050f8b7d4d1db_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "cartridge",
+    "label",
+    "arabic",
+    "transliteration",
+    "retro",
+    "8bit",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "cartlabel",
+    "artrans",
+    "retro8bit",
+    "horror",
+    "survival",
+    "silver",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0513"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

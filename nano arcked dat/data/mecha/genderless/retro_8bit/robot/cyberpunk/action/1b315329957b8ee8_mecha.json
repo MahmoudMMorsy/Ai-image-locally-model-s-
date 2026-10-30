@@ -1,0 +1,42 @@
+{
+  "file": "1b315329957b8ee8_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "action",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "title",
+    "badge",
+    "arabic",
+    "only",
+    "neon",
+    "glitch",
+    "16bit",
+    "snes",
+    "genesis",
+    "256x256",
+    "uibadge",
+    "aronly",
+    "neonglitch",
+    "fighting",
+    "game",
+    "green",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1237"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "69023a34f2ba2348_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "mythology_egypt",
+  "pose": "full_body",
+  "colors": [
+    "white",
+    "black",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "title",
+    "badge",
+    "parallel",
+    "pair",
+    "arabic",
+    "bold",
+    "retro",
+    "8bit",
+    "nes",
+    "256x256",
+    "gbc",
+    "uibadge",
+    "boldarcade",
+    "egyptian",
+    "folklore",
+    "red",
+    "connected",
+    "letters",
+    "pixel",
+    "0308"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

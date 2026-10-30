@@ -1,0 +1,40 @@
+{
+  "file": "5ee579fe624a18b7_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "promo",
+    "flyer",
+    "parallel",
+    "pair",
+    "arabic",
+    "fantasy",
+    "ornate",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "fantasyornate",
+    "racing",
+    "sports",
+    "purple",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1004"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

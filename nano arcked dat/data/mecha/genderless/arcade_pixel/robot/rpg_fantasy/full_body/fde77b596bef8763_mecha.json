@@ -1,0 +1,40 @@
+{
+  "file": "fde77b596bef8763_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "title",
+    "badge",
+    "arabic",
+    "transliteration",
+    "fantasy",
+    "ornate",
+    "vibrant",
+    "128x128",
+    "uibadge",
+    "artrans",
+    "fantasyornate",
+    "platformer",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1246"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

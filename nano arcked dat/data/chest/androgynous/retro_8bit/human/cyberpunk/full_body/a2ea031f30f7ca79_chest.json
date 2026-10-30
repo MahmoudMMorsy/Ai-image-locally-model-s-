@@ -1,0 +1,43 @@
+{
+  "file": "a2ea031f30f7ca79_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "full",
+    "game",
+    "poster",
+    "arabic",
+    "transliteration",
+    "neon",
+    "glitch",
+    "japanese",
+    "boxart",
+    "style",
+    "128x128",
+    "artrans",
+    "neonglitch",
+    "puzzle",
+    "strategy",
+    "green",
+    "connected",
+    "letters",
+    "pixel",
+    "0838"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

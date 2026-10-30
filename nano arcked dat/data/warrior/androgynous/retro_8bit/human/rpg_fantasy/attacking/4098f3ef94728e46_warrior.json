@@ -1,0 +1,42 @@
+{
+  "file": "4098f3ef94728e46_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "attacking",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "game",
+    "over",
+    "screen",
+    "arabic",
+    "subtitle",
+    "fantasy",
+    "ornate",
+    "pop",
+    "art",
+    "comic",
+    "128x128",
+    "gameover",
+    "arsub",
+    "fantasyornate",
+    "shoot",
+    "silver",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1224"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

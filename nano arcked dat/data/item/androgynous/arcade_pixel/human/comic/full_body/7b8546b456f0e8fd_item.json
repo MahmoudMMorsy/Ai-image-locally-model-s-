@@ -1,0 +1,41 @@
+{
+  "file": "7b8546b456f0e8fd_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "comic",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "arabic",
+    "primary",
+    "bevel",
+    "pop",
+    "art",
+    "comic",
+    "256x256",
+    "bilarprim",
+    "bevel3d",
+    "beat",
+    "purple",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1203"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel item)"
+}

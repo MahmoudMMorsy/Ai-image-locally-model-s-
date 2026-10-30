@@ -1,0 +1,41 @@
+{
+  "file": "06b863810ea476c0_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "orange",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "full",
+    "game",
+    "poster",
+    "arabic",
+    "only",
+    "bevel",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "128x128",
+    "aronly",
+    "bevel3d",
+    "historical",
+    "medieval",
+    "green",
+    "connected",
+    "letters",
+    "0829"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

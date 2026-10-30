@@ -1,0 +1,41 @@
+{
+  "file": "0c7ecbc16adf02ce_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "stage",
+    "clear",
+    "banner",
+    "bilingual",
+    "english",
+    "primary",
+    "bevel",
+    "arabic",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "stageclear",
+    "bilenprim",
+    "bevel3d",
+    "historical",
+    "medieval",
+    "multicolor",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "6d19cfd2d4cc86a2_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "bright",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "bilingual",
+    "title",
+    "logo",
+    "arabic",
+    "subtitle",
+    "bevel",
+    "minimalist",
+    "pixel",
+    "poster",
+    "256x256",
+    "bilogo",
+    "arsub",
+    "bevel3d",
+    "horror",
+    "survival",
+    "orange",
+    "glowing",
+    "edges",
+    "gradient",
+    "1200"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel warrior)"
+}

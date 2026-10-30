@@ -1,0 +1,43 @@
+{
+  "file": "150ffc657b572053_golem.png",
+  "type": "golem",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "front_view",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "english",
+    "primary",
+    "metallic",
+    "chrome",
+    "arabic",
+    "constructivist",
+    "256x256",
+    "boxart",
+    "bilenprim",
+    "racing",
+    "sports",
+    "gold",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1097"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel golem)"
+}

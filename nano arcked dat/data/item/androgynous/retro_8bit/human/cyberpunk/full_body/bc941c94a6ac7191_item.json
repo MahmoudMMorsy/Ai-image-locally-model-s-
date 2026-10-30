@@ -1,0 +1,40 @@
+{
+  "file": "bc941c94a6ac7191_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "pixel",
+    "lettering",
+    "arabic",
+    "subtitle",
+    "calligraffiti",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "256x256",
+    "arsub",
+    "racing",
+    "sports",
+    "purple",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0744"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

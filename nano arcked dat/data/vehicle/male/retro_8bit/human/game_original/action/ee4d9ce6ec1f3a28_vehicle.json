@@ -1,0 +1,42 @@
+{
+  "file": "ee4d9ce6ec1f3a28_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "arabic",
+    "only",
+    "pixel",
+    "calligraffiti",
+    "retro",
+    "synthwave",
+    "80s",
+    "256x256",
+    "gbc",
+    "cartlabel",
+    "aronly",
+    "action",
+    "adventure",
+    "black",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0194"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

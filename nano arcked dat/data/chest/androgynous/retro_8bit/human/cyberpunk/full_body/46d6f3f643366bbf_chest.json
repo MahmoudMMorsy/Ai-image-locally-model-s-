@@ -1,0 +1,40 @@
+{
+  "file": "46d6f3f643366bbf_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "marquee",
+    "parallel",
+    "pair",
+    "arabic",
+    "neon",
+    "glitch",
+    "japanese",
+    "boxart",
+    "style",
+    "128x128",
+    "neonglitch",
+    "puzzle",
+    "strategy",
+    "green",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1124"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

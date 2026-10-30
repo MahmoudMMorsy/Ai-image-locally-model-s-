@@ -1,0 +1,40 @@
+{
+  "file": "e5b56ded008ab7b3_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "full",
+    "game",
+    "poster",
+    "arabic",
+    "only",
+    "pixel",
+    "ruqah",
+    "fast",
+    "vibrant",
+    "256x256",
+    "aronly",
+    "platformer",
+    "green",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1142"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel warrior)"
+}

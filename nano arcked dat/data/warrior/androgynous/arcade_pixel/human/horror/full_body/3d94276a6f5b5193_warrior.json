@@ -1,0 +1,42 @@
+{
+  "file": "3d94276a6f5b5193_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "bright",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "marquee",
+    "bilingual",
+    "english",
+    "primary",
+    "bold",
+    "arabic",
+    "minimalist",
+    "pixel",
+    "poster",
+    "256x256",
+    "bilenprim",
+    "boldarcade",
+    "horror",
+    "survival",
+    "orange",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1122"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel warrior)"
+}

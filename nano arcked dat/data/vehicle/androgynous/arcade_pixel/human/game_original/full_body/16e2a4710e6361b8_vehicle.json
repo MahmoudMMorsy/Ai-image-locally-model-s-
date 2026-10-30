@@ -1,0 +1,39 @@
+{
+  "file": "16e2a4710e6361b8_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "thuluth",
+    "display",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "cartlabel",
+    "bilarprim",
+    "platformer",
+    "red",
+    "glowing",
+    "edges",
+    "gradient",
+    "1131"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel vehicle)"
+}

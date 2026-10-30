@@ -1,0 +1,43 @@
+{
+  "file": "92a7cbd7f8e9f8cb_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "fantasy",
+    "ornate",
+    "arabic",
+    "minimalist",
+    "poster",
+    "128x128",
+    "bilenprim",
+    "fantasyornate",
+    "sci",
+    "cyberpunk",
+    "neon",
+    "cyan",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1205"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

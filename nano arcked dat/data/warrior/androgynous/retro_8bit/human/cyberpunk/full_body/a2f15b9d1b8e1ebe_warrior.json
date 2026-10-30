@@ -1,0 +1,42 @@
+{
+  "file": "a2f15b9d1b8e1ebe_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "title",
+    "badge",
+    "parallel",
+    "pair",
+    "arabic",
+    "neon",
+    "glitch",
+    "cyberpunk",
+    "dystopian",
+    "128x128",
+    "uibadge",
+    "neonglitch",
+    "puzzle",
+    "strategy",
+    "orange",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0775"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

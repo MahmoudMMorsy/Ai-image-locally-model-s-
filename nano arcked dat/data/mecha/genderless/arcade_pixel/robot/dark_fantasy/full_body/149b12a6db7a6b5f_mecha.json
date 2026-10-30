@@ -1,0 +1,40 @@
+{
+  "file": "149b12a6db7a6b5f_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "promo",
+    "flyer",
+    "arabic",
+    "subtitle",
+    "fantasy",
+    "ornate",
+    "dark",
+    "gothic",
+    "128x128",
+    "arsub",
+    "fantasyornate",
+    "horror",
+    "survival",
+    "silver",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1007"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

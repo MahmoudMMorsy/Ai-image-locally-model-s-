@@ -1,0 +1,42 @@
+{
+  "file": "4b3d2591a962bd03_chest.png",
+  "type": "chest",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "marquee",
+    "arabic",
+    "only",
+    "neon",
+    "glitch",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "gbc",
+    "aronly",
+    "neonglitch",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient",
+    "0181"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

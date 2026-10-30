@@ -1,0 +1,42 @@
+{
+  "file": "753cdc6419a03120_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "bilingual",
+    "title",
+    "logo",
+    "parallel",
+    "pair",
+    "arabic",
+    "8bit",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "bilogo",
+    "retro8bit",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1195"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

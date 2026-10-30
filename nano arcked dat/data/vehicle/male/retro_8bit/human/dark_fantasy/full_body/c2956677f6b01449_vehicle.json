@@ -1,0 +1,43 @@
+{
+  "file": "c2956677f6b01449_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "arabic",
+    "only",
+    "fantasy",
+    "ornate",
+    "japanese",
+    "boxart",
+    "style",
+    "256x256",
+    "gbc",
+    "cartlabel",
+    "aronly",
+    "fantasyornate",
+    "egyptian",
+    "folklore",
+    "dark",
+    "amber",
+    "gold",
+    "texture",
+    "thick"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

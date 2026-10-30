@@ -1,0 +1,42 @@
+{
+  "file": "8fa87058fcf32578_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "title",
+    "badge",
+    "arabic",
+    "only",
+    "neon",
+    "glitch",
+    "cyberpunk",
+    "dystopian",
+    "128x128",
+    "uibadge",
+    "aronly",
+    "neonglitch",
+    "racing",
+    "sports",
+    "purple",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0926"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

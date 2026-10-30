@@ -1,0 +1,42 @@
+{
+  "file": "aca56442ef97e17e_item.png",
+  "type": "item",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "pixel",
+    "lettering",
+    "arabic",
+    "subtitle",
+    "kufic",
+    "geometric",
+    "retro",
+    "16bit",
+    "snes",
+    "genesis",
+    "128x128",
+    "gbc",
+    "arsub",
+    "fighting",
+    "game",
+    "green",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0275"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

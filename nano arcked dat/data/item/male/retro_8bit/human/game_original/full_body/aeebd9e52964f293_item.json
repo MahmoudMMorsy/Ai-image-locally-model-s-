@@ -1,0 +1,43 @@
+{
+  "file": "aeebd9e52964f293_item.png",
+  "type": "item",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "thuluth",
+    "display",
+    "retro",
+    "16bit",
+    "snes",
+    "genesis",
+    "128x128",
+    "gbc",
+    "bilenprim",
+    "post",
+    "apocalyptic",
+    "blue",
+    "glowing",
+    "edges",
+    "gradient",
+    "0270"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

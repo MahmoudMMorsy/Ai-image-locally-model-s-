@@ -1,0 +1,43 @@
+{
+  "file": "606bc81bb459c830_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "orange",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "game",
+    "over",
+    "screen",
+    "arabic",
+    "only",
+    "pixel",
+    "ruqah",
+    "fast",
+    "egyptian",
+    "folklore",
+    "256x256",
+    "gameover",
+    "aronly",
+    "beat",
+    "neon",
+    "cyan",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

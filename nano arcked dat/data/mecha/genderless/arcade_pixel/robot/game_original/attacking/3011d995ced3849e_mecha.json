@@ -1,0 +1,41 @@
+{
+  "file": "3011d995ced3849e_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "english",
+    "title",
+    "logo",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "calligraffiti",
+    "synthwave",
+    "80s",
+    "128x128",
+    "enlogo",
+    "arsub",
+    "shoot",
+    "white",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1187"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

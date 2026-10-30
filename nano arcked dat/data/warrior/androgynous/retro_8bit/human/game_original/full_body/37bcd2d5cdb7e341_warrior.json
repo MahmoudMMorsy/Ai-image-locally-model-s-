@@ -1,0 +1,39 @@
+{
+  "file": "37bcd2d5cdb7e341_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "marquee",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "thuluth",
+    "display",
+    "16bit",
+    "snes",
+    "genesis",
+    "256x256",
+    "arsub",
+    "post",
+    "apocalyptic",
+    "blue",
+    "connected",
+    "letters",
+    "1128"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

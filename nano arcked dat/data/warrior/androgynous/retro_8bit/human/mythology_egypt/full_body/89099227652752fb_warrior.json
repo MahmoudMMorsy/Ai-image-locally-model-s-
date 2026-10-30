@@ -1,0 +1,42 @@
+{
+  "file": "89099227652752fb_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "mythology_egypt",
+  "pose": "full_body",
+  "colors": [
+    "white",
+    "black",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "title",
+    "screen",
+    "art",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "thuluth",
+    "display",
+    "retro",
+    "8bit",
+    "128x128",
+    "titlescreen",
+    "artrans",
+    "egyptian",
+    "folklore",
+    "red",
+    "glowing",
+    "edges",
+    "gradient",
+    "0490"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

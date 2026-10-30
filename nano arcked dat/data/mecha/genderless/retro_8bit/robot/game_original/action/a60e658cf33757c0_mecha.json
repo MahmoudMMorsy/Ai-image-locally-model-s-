@@ -1,0 +1,41 @@
+{
+  "file": "a60e658cf33757c0_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "white",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "arabic",
+    "title",
+    "logo",
+    "parallel",
+    "pair",
+    "metallic",
+    "chrome",
+    "retro",
+    "8bit",
+    "128x128",
+    "arlogo",
+    "action",
+    "adventure",
+    "blue",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0547"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

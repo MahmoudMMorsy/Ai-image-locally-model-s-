@@ -1,0 +1,19 @@
+{
+  "file": "268521ea37c27eee_monster.png",
+  "type": "monster",
+  "gender": "non_human",
+  "race": "non_human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black"
+  ],
+  "tags": [
+    "examples",
+    "showcase",
+    "monster"
+  ],
+  "resolution": "64x64",
+  "notes": "Aggregated asset from examples_showcase (64x64 arcade_pixel monster)"
+}

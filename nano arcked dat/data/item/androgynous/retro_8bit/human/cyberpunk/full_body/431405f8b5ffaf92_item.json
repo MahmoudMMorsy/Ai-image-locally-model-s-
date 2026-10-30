@@ -1,0 +1,43 @@
+{
+  "file": "431405f8b5ffaf92_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "pink",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "naskh",
+    "clean",
+    "minimalist",
+    "poster",
+    "128x128",
+    "bilenprim",
+    "sci",
+    "cyberpunk",
+    "neon",
+    "cyan",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0893"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "bd4174bc99767c43_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "promo",
+    "flyer",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "thuluth",
+    "display",
+    "japanese",
+    "boxart",
+    "style",
+    "256x256",
+    "bilarprim",
+    "egyptian",
+    "folklore",
+    "dark",
+    "amber",
+    "connected",
+    "letters",
+    "0999"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit chest)"
+}

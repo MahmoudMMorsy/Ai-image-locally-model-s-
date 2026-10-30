@@ -1,0 +1,43 @@
+{
+  "file": "cabab35e6474e6b3_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "title",
+    "badge",
+    "arabic",
+    "only",
+    "metallic",
+    "chrome",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "gbc",
+    "uibadge",
+    "aronly",
+    "racing",
+    "sports",
+    "purple",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0302"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

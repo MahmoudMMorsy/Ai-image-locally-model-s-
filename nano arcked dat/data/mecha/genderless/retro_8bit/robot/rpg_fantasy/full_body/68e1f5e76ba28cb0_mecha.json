@@ -1,0 +1,43 @@
+{
+  "file": "68e1f5e76ba28cb0_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "orange",
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "bilingual",
+    "title",
+    "logo",
+    "english",
+    "primary",
+    "bold",
+    "arabic",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "bilogo",
+    "bilenprim",
+    "boldarcade",
+    "historical",
+    "medieval",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1037"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

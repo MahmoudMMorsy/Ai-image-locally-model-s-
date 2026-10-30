@@ -1,0 +1,38 @@
+{
+  "file": "3667a3d0647baa24_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "pixel",
+    "lettering",
+    "arabic",
+    "transliteration",
+    "calligraffiti",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "artrans",
+    "rpg",
+    "gold",
+    "connected",
+    "letters",
+    "0898"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

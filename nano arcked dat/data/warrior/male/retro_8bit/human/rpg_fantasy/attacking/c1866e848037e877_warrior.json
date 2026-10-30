@@ -1,0 +1,43 @@
+{
+  "file": "c1866e848037e877_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "title",
+    "badge",
+    "bilingual",
+    "arabic",
+    "primary",
+    "fantasy",
+    "ornate",
+    "retro",
+    "synthwave",
+    "80s",
+    "128x128",
+    "gbc",
+    "uibadge",
+    "bilarprim",
+    "fantasyornate",
+    "shoot",
+    "white",
+    "gold",
+    "texture",
+    "thick",
+    "outline"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}
