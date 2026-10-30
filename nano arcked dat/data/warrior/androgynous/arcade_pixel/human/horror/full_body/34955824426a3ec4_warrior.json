@@ -1,0 +1,39 @@
+{
+  "file": "34955824426a3ec4_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "pink",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "arabic",
+    "title",
+    "logo",
+    "transliteration",
+    "pixel",
+    "thuluth",
+    "display",
+    "minimalist",
+    "poster",
+    "128x128",
+    "arlogo",
+    "artrans",
+    "horror",
+    "survival",
+    "orange",
+    "connected",
+    "letters",
+    "1018"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel warrior)"
+}

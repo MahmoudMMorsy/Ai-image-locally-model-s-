@@ -1,0 +1,43 @@
+{
+  "file": "3c75c2f40f3f5bd5_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "dark",
+    "pink",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "arabic",
+    "primary",
+    "fantasy",
+    "ornate",
+    "minimalist",
+    "pixel",
+    "poster",
+    "128x128",
+    "boxart",
+    "bilarprim",
+    "fantasyornate",
+    "horror",
+    "survival",
+    "orange",
+    "crt",
+    "scanlines"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

@@ -1,0 +1,40 @@
+{
+  "file": "ec66ff87039511dc_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "naskh",
+    "clean",
+    "synthwave",
+    "80s",
+    "128x128",
+    "cartlabel",
+    "shoot",
+    "white",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1135"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

@@ -1,0 +1,40 @@
+{
+  "file": "c2b7d2e303bd0572_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "bevel",
+    "arabic",
+    "minimalist",
+    "poster",
+    "256x256",
+    "bilenprim",
+    "bevel3d",
+    "sci",
+    "cyberpunk",
+    "neon",
+    "cyan",
+    "connected",
+    "letters",
+    "1049"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel item)"
+}

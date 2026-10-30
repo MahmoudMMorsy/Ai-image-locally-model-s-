@@ -1,0 +1,41 @@
+{
+  "file": "594b41c4097884a6_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "comic",
+  "pose": "attacking",
+  "colors": [
+    "black",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "bilingual",
+    "title",
+    "logo",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "naskh",
+    "clean",
+    "pop",
+    "art",
+    "comic",
+    "128x128",
+    "bilogo",
+    "artrans",
+    "shoot",
+    "silver",
+    "connected",
+    "letters",
+    "1198"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel warrior)"
+}

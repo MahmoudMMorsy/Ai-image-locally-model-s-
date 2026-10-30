@@ -1,0 +1,43 @@
+{
+  "file": "2cd772a1ac736d0a_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "white",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "bilingual",
+    "title",
+    "logo",
+    "arabic",
+    "transliteration",
+    "bold",
+    "retro",
+    "8bit",
+    "nes",
+    "256x256",
+    "bilogo",
+    "artrans",
+    "boldarcade",
+    "action",
+    "adventure",
+    "blue",
+    "connected",
+    "letters",
+    "pixel",
+    "0729"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

@@ -1,0 +1,43 @@
+{
+  "file": "b2f6865c525b4931_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "title",
+    "badge",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "calligraffiti",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "gbc",
+    "uibadge",
+    "puzzle",
+    "strategy",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0307"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

@@ -1,0 +1,43 @@
+{
+  "file": "dae02cc4f6864683_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "front_view",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "transliteration",
+    "neon",
+    "glitch",
+    "16bit",
+    "snes",
+    "genesis",
+    "256x256",
+    "boxart",
+    "artrans",
+    "neonglitch",
+    "post",
+    "apocalyptic",
+    "blue",
+    "gold",
+    "texture",
+    "thick",
+    "outline"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit chest)"
+}

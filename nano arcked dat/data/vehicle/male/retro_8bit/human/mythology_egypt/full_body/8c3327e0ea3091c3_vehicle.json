@@ -1,0 +1,43 @@
+{
+  "file": "8c3327e0ea3091c3_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "mythology_egypt",
+  "pose": "full_body",
+  "colors": [
+    "white",
+    "black",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "thuluth",
+    "display",
+    "retro",
+    "8bit",
+    "nes",
+    "128x128",
+    "gbc",
+    "cartlabel",
+    "arsub",
+    "egyptian",
+    "folklore",
+    "red",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0204"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

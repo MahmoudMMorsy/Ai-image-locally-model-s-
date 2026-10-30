@@ -1,0 +1,43 @@
+{
+  "file": "84ce16c2d2eeefb1_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "english",
+    "title",
+    "logo",
+    "bilingual",
+    "primary",
+    "metallic",
+    "chrome",
+    "arabic",
+    "synthwave",
+    "80s",
+    "256x256",
+    "enlogo",
+    "bilenprim",
+    "action",
+    "adventure",
+    "black",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1182"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel warrior)"
+}

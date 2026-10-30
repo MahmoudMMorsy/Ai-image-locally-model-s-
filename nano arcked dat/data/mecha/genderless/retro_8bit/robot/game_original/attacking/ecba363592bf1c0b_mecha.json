@@ -1,0 +1,41 @@
+{
+  "file": "ecba363592bf1c0b_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "promo",
+    "flyer",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "thuluth",
+    "display",
+    "retro",
+    "synthwave",
+    "80s",
+    "128x128",
+    "artrans",
+    "shoot",
+    "white",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0537"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

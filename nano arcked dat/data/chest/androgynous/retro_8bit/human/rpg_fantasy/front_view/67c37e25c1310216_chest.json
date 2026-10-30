@@ -1,0 +1,42 @@
+{
+  "file": "67c37e25c1310216_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "box",
+    "art",
+    "front",
+    "parallel",
+    "pair",
+    "arabic",
+    "metallic",
+    "chrome",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "boxart",
+    "historical",
+    "medieval",
+    "multicolor",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0632"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

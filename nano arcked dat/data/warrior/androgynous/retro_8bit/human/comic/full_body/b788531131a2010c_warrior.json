@@ -1,0 +1,38 @@
+{
+  "file": "b788531131a2010c_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "comic",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "marquee",
+    "arabic",
+    "transliteration",
+    "bold",
+    "pop",
+    "art",
+    "comic",
+    "128x128",
+    "artrans",
+    "boldarcade",
+    "beat",
+    "purple",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1125"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

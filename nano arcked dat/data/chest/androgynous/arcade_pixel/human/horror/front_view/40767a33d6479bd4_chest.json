@@ -1,0 +1,42 @@
+{
+  "file": "40767a33d6479bd4_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "horror",
+  "pose": "front_view",
+  "colors": [
+    "dark",
+    "pink",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "box",
+    "art",
+    "front",
+    "bilingual",
+    "arabic",
+    "primary",
+    "metallic",
+    "chrome",
+    "minimalist",
+    "pixel",
+    "poster",
+    "128x128",
+    "boxart",
+    "bilarprim",
+    "horror",
+    "survival",
+    "orange",
+    "glowing",
+    "edges",
+    "gradient",
+    "0940"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel chest)"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "6e846905d097f3f6_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "arabic",
+    "only",
+    "pixel",
+    "kufic",
+    "geometric",
+    "synthwave",
+    "80s",
+    "128x128",
+    "cartlabel",
+    "aronly",
+    "action",
+    "adventure",
+    "black",
+    "glowing",
+    "edges",
+    "gradient",
+    "1130"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel vehicle)"
+}

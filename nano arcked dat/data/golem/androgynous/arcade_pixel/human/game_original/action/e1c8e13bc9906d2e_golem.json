@@ -1,0 +1,40 @@
+{
+  "file": "e1c8e13bc9906d2e_golem.png",
+  "type": "golem",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "game",
+    "over",
+    "screen",
+    "arabic",
+    "transliteration",
+    "bevel",
+    "constructivist",
+    "256x256",
+    "gameover",
+    "artrans",
+    "bevel3d",
+    "fighting",
+    "white",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1222"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel golem)"
+}

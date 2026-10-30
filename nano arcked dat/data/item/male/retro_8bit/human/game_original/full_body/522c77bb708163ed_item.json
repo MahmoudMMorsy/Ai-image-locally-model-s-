@@ -1,0 +1,39 @@
+{
+  "file": "522c77bb708163ed_item.png",
+  "type": "item",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "pixel",
+    "lettering",
+    "arabic",
+    "transliteration",
+    "thuluth",
+    "display",
+    "monochrome",
+    "dmg",
+    "256x256",
+    "gbc",
+    "artrans",
+    "platformer",
+    "red",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0273"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

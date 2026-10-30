@@ -1,0 +1,43 @@
+{
+  "file": "88bafe61f1835d89_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "game",
+    "over",
+    "screen",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "thuluth",
+    "display",
+    "western",
+    "boxart",
+    "style",
+    "256x256",
+    "gameover",
+    "bilarprim",
+    "sci",
+    "cyberpunk",
+    "dark",
+    "amber",
+    "glitch",
+    "displacement"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel mecha)"
+}

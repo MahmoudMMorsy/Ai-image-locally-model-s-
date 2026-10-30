@@ -1,0 +1,42 @@
+{
+  "file": "5362dc6945f40795_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "cartridge",
+    "label",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "thuluth",
+    "display",
+    "dark",
+    "fantasy",
+    "gothic",
+    "128x128",
+    "cartlabel",
+    "artrans",
+    "horror",
+    "survival",
+    "silver",
+    "connected",
+    "letters",
+    "0669"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

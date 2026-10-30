@@ -1,0 +1,43 @@
+{
+  "file": "124fd9fa8e6a24f4_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "orange",
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "game",
+    "over",
+    "screen",
+    "parallel",
+    "pair",
+    "arabic",
+    "neon",
+    "glitch",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "gameover",
+    "neonglitch",
+    "historical",
+    "medieval",
+    "green",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

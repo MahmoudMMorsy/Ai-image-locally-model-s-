@@ -1,0 +1,43 @@
+{
+  "file": "b866c66e771ab445_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "arabic",
+    "title",
+    "logo",
+    "bilingual",
+    "english",
+    "primary",
+    "pixel",
+    "ruqah",
+    "fast",
+    "western",
+    "boxart",
+    "style",
+    "256x256",
+    "arlogo",
+    "bilenprim",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "gold",
+    "texture",
+    "thick",
+    "outline"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel chest)"
+}

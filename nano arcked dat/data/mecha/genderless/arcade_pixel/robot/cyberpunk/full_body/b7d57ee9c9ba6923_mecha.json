@@ -1,0 +1,40 @@
+{
+  "file": "b7d57ee9c9ba6923_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "orange",
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "promo",
+    "flyer",
+    "arabic",
+    "transliteration",
+    "metallic",
+    "chrome",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "artrans",
+    "beat",
+    "neon",
+    "cyan",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1006"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel mecha)"
+}

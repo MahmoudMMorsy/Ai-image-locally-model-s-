@@ -1,0 +1,43 @@
+{
+  "file": "ddcd0a164b97a0a2_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "orange",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "parallel",
+    "pair",
+    "arabic",
+    "fantasy",
+    "ornate",
+    "egyptian",
+    "folklore",
+    "pixel",
+    "256x256",
+    "cartlabel",
+    "fantasyornate",
+    "beat",
+    "neon",
+    "cyan",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1136"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel mecha)"
+}

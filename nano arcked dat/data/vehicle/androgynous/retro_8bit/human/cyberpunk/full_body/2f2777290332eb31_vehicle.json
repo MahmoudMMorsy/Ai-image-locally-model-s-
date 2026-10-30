@@ -1,0 +1,43 @@
+{
+  "file": "2f2777290332eb31_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "bilingual",
+    "english",
+    "primary",
+    "bevel",
+    "arabic",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "256x256",
+    "cartlabel",
+    "bilenprim",
+    "bevel3d",
+    "racing",
+    "sports",
+    "purple",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "1134"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

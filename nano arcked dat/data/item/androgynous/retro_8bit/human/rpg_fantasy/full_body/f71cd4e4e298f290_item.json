@@ -1,0 +1,40 @@
+{
+  "file": "f71cd4e4e298f290_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "arabic",
+    "primary",
+    "bevel",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "bilarprim",
+    "bevel3d",
+    "historical",
+    "medieval",
+    "multicolor",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "0892"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

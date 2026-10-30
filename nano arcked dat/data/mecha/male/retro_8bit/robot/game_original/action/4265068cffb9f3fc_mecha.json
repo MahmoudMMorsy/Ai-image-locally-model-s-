@@ -1,0 +1,43 @@
+{
+  "file": "4265068cffb9f3fc_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "english",
+    "title",
+    "logo",
+    "bilingual",
+    "primary",
+    "retro",
+    "8bit",
+    "arabic",
+    "synthwave",
+    "80s",
+    "128x128",
+    "gbc",
+    "enlogo",
+    "bilenprim",
+    "retro8bit",
+    "action",
+    "adventure",
+    "black",
+    "glitch",
+    "displacement",
+    "mecha"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

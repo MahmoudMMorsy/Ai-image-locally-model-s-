@@ -1,0 +1,40 @@
+{
+  "file": "2c03fcd50d441749_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "snes",
+    "super",
+    "famicom",
+    "stage",
+    "clear",
+    "banner",
+    "arabic",
+    "subtitle",
+    "metallic",
+    "chrome",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "stageclear",
+    "arsub",
+    "platformer",
+    "red",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0767"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

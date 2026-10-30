@@ -1,0 +1,42 @@
+{
+  "file": "5711262355cb7296_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "orange",
+    "brown",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "cartridge",
+    "label",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "naskh",
+    "clean",
+    "egyptian",
+    "folklore",
+    "256x256",
+    "cartlabel",
+    "beat",
+    "neon",
+    "cyan",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0824"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit vehicle)"
+}

@@ -1,0 +1,40 @@
+{
+  "file": "1fa94cbdf9d65d87_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "brown",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "pixel",
+    "lettering",
+    "arabic",
+    "subtitle",
+    "bold",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "128x128",
+    "arsub",
+    "boldarcade",
+    "racing",
+    "sports",
+    "purple",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1056"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel mecha)"
+}

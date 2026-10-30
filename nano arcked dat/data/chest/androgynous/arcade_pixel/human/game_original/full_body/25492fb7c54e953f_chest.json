@@ -1,0 +1,39 @@
+{
+  "file": "25492fb7c54e953f_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "marquee",
+    "arabic",
+    "only",
+    "bevel",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "aronly",
+    "bevel3d",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient",
+    "0961"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel chest)"
+}

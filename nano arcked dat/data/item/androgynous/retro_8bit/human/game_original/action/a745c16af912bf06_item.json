@@ -1,0 +1,40 @@
+{
+  "file": "a745c16af912bf06_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "pixel",
+    "lettering",
+    "parallel",
+    "pair",
+    "arabic",
+    "bevel",
+    "retro",
+    "synthwave",
+    "80s",
+    "256x256",
+    "bevel3d",
+    "action",
+    "adventure",
+    "black",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0584"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

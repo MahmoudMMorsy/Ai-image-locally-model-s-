@@ -1,0 +1,40 @@
+{
+  "file": "acb658cdbbb6c519_item.png",
+  "type": "item",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "pixel",
+    "lettering",
+    "arabic",
+    "transliteration",
+    "naskh",
+    "clean",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "gbc",
+    "artrans",
+    "rpg",
+    "gold",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0274"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "341c11a231d7059f_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "full",
+    "game",
+    "poster",
+    "arabic",
+    "only",
+    "pixel",
+    "kufic",
+    "geometric",
+    "vibrant",
+    "128x128",
+    "gbc",
+    "aronly",
+    "platformer",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0206"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

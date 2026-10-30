@@ -1,0 +1,40 @@
+{
+  "file": "127931ae618adc2e_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "orange",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "promo",
+    "flyer",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "calligraffiti",
+    "egyptian",
+    "folklore",
+    "256x256",
+    "artrans",
+    "beat",
+    "neon",
+    "cyan",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1162"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel warrior)"
+}

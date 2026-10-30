@@ -1,0 +1,43 @@
+{
+  "file": "838248a157592248_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "white",
+    "pink"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "full",
+    "game",
+    "poster",
+    "bilingual",
+    "english",
+    "primary",
+    "pixel",
+    "kufic",
+    "geometric",
+    "retro",
+    "8bit",
+    "nes",
+    "128x128",
+    "gbc",
+    "bilenprim",
+    "action",
+    "adventure",
+    "blue",
+    "connected",
+    "letters",
+    "0209"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

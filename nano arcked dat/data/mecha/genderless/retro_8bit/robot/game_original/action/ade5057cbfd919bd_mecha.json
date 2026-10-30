@@ -1,0 +1,43 @@
+{
+  "file": "ade5057cbfd919bd_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "promo",
+    "flyer",
+    "parallel",
+    "pair",
+    "arabic",
+    "pixel",
+    "kufic",
+    "geometric",
+    "retro",
+    "16bit",
+    "snes",
+    "128x128",
+    "fighting",
+    "game",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0847"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

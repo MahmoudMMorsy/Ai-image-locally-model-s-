@@ -1,0 +1,43 @@
+{
+  "file": "3b0ca9551cd479ca_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "arabic",
+    "title",
+    "logo",
+    "bilingual",
+    "english",
+    "primary",
+    "pixel",
+    "calligraffiti",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "arlogo",
+    "bilenprim",
+    "post",
+    "apocalyptic",
+    "multicolor",
+    "glitch",
+    "displacement",
+    "mecha"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "b6312f31f3ce05da_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "naskh",
+    "clean",
+    "dark",
+    "fantasy",
+    "gothic",
+    "128x128",
+    "cartlabel",
+    "bilarprim",
+    "rpg",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1132"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel vehicle)"
+}

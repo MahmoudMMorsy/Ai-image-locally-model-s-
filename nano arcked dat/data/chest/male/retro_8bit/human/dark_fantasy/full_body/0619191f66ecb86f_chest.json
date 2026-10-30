@@ -1,0 +1,43 @@
+{
+  "file": "0619191f66ecb86f_chest.png",
+  "type": "chest",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "english",
+    "title",
+    "logo",
+    "bilingual",
+    "primary",
+    "bold",
+    "arabic",
+    "japanese",
+    "boxart",
+    "style",
+    "256x256",
+    "gbc",
+    "enlogo",
+    "bilenprim",
+    "boldarcade",
+    "egyptian",
+    "folklore",
+    "dark",
+    "amber",
+    "crt",
+    "scanlines"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit chest)"
+}

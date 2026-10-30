@@ -1,0 +1,43 @@
+{
+  "file": "d3df7fcae86849a1_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "arcade_pixel",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "title",
+    "screen",
+    "art",
+    "arabic",
+    "only",
+    "pixel",
+    "thuluth",
+    "display",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "titlescreen",
+    "aronly",
+    "rpg",
+    "gold",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1106"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel mecha)"
+}

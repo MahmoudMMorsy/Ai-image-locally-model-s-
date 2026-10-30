@@ -1,0 +1,40 @@
+{
+  "file": "8f806c68293787da_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "black",
+    "purple",
+    "red"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "pixel",
+    "lettering",
+    "arabic",
+    "subtitle",
+    "ruqah",
+    "fast",
+    "16bit",
+    "snes",
+    "genesis",
+    "128x128",
+    "arsub",
+    "fighting",
+    "game",
+    "green",
+    "glowing",
+    "edges",
+    "gradient",
+    "1211"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

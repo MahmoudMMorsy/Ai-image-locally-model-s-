@@ -1,0 +1,43 @@
+{
+  "file": "8f6021d8303a0ef7_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "cartridge",
+    "label",
+    "arabic",
+    "transliteration",
+    "bevel",
+    "western",
+    "boxart",
+    "style",
+    "128x128",
+    "cartlabel",
+    "artrans",
+    "bevel3d",
+    "sci",
+    "cyberpunk",
+    "dark",
+    "amber",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

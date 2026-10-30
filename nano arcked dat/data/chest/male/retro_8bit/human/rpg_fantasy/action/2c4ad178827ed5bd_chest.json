@@ -1,0 +1,43 @@
+{
+  "file": "2c4ad178827ed5bd_chest.png",
+  "type": "chest",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "subtitle",
+    "fantasy",
+    "ornate",
+    "retro",
+    "synthwave",
+    "80s",
+    "128x128",
+    "gbc",
+    "boxart",
+    "arsub",
+    "fantasyornate",
+    "action",
+    "adventure",
+    "black",
+    "connected",
+    "letters",
+    "pixel"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

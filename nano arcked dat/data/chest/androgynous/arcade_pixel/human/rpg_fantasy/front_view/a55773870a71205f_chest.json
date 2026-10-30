@@ -1,0 +1,41 @@
+{
+  "file": "a55773870a71205f_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "box",
+    "art",
+    "front",
+    "parallel",
+    "pair",
+    "arabic",
+    "bold",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "boxart",
+    "boldarcade",
+    "historical",
+    "medieval",
+    "multicolor",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient",
+    "1100"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel chest)"
+}

@@ -1,0 +1,43 @@
+{
+  "file": "312c8fc5fd9bf144_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "red",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "stage",
+    "clear",
+    "banner",
+    "arabic",
+    "transliteration",
+    "pixel",
+    "ruqah",
+    "fast",
+    "japanese",
+    "boxart",
+    "style",
+    "128x128",
+    "stageclear",
+    "artrans",
+    "egyptian",
+    "folklore",
+    "dark",
+    "amber",
+    "gold",
+    "texture",
+    "thick"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}

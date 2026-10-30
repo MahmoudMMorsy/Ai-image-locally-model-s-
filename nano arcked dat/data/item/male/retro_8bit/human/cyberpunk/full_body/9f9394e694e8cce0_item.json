@@ -1,0 +1,42 @@
+{
+  "file": "9f9394e694e8cce0_item.png",
+  "type": "item",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "pixel",
+    "lettering",
+    "bilingual",
+    "english",
+    "primary",
+    "neon",
+    "glitch",
+    "arabic",
+    "minimalist",
+    "poster",
+    "128x128",
+    "gbc",
+    "bilenprim",
+    "neonglitch",
+    "sci",
+    "cyberpunk",
+    "cyan",
+    "connected",
+    "letters",
+    "0269"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit item)"
+}

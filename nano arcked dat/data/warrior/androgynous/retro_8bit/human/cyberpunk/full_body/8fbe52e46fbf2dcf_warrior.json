@@ -1,0 +1,43 @@
+{
+  "file": "8fbe52e46fbf2dcf_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "title",
+    "badge",
+    "bilingual",
+    "english",
+    "primary",
+    "neon",
+    "glitch",
+    "arabic",
+    "dark",
+    "fantasy",
+    "gothic",
+    "128x128",
+    "uibadge",
+    "bilenprim",
+    "neonglitch",
+    "horror",
+    "survival",
+    "silver",
+    "connected",
+    "letters"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

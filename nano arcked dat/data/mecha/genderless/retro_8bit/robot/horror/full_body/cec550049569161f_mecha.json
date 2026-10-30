@@ -1,0 +1,42 @@
+{
+  "file": "cec550049569161f_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "pink",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "full",
+    "game",
+    "poster",
+    "parallel",
+    "pair",
+    "arabic",
+    "bold",
+    "minimalist",
+    "pixel",
+    "128x128",
+    "boldarcade",
+    "horror",
+    "survival",
+    "orange",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0836"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit mecha)"
+}

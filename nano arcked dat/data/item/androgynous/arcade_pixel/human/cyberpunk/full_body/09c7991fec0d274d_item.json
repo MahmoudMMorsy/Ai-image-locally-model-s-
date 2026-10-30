@@ -1,0 +1,41 @@
+{
+  "file": "09c7991fec0d274d_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "pixel",
+    "lettering",
+    "arabic",
+    "subtitle",
+    "neon",
+    "glitch",
+    "cyberpunk",
+    "dystopian",
+    "128x128",
+    "arsub",
+    "neonglitch",
+    "racing",
+    "sports",
+    "purple",
+    "gold",
+    "texture",
+    "thick",
+    "outline",
+    "1212"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 arcade_pixel item)"
+}

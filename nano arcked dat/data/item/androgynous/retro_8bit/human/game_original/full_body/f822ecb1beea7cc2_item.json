@@ -1,0 +1,36 @@
+{
+  "file": "f822ecb1beea7cc2_item.png",
+  "type": "item",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "pixel",
+    "lettering",
+    "arabic",
+    "transliteration",
+    "naskh",
+    "clean",
+    "monochrome",
+    "dmg",
+    "256x256",
+    "artrans",
+    "platformer",
+    "red",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0585"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit item)"
+}

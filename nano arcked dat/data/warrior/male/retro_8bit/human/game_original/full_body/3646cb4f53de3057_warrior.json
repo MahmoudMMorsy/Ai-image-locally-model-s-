@@ -1,0 +1,42 @@
+{
+  "file": "3646cb4f53de3057_warrior.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "red",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "promo",
+    "flyer",
+    "arabic",
+    "only",
+    "pixel",
+    "ruqah",
+    "fast",
+    "retro",
+    "16bit",
+    "snes",
+    "genesis",
+    "256x256",
+    "gbc",
+    "aronly",
+    "post",
+    "apocalyptic",
+    "blue",
+    "connected",
+    "letters",
+    "0218"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

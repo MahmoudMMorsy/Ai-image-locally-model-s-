@@ -1,0 +1,40 @@
+{
+  "file": "7f2057494661c6aa_golem.png",
+  "type": "golem",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "purple",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "marquee",
+    "arabic",
+    "only",
+    "fantasy",
+    "ornate",
+    "constructivist",
+    "128x128",
+    "aronly",
+    "fantasyornate",
+    "fighting",
+    "game",
+    "white",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "0806"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit golem)"
+}

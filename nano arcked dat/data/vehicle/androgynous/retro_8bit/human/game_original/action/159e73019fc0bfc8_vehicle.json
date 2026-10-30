@@ -1,0 +1,42 @@
+{
+  "file": "159e73019fc0bfc8_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "sega",
+    "genesis",
+    "megadrive",
+    "cartridge",
+    "label",
+    "arabic",
+    "only",
+    "retro",
+    "8bit",
+    "synthwave",
+    "80s",
+    "128x128",
+    "cartlabel",
+    "aronly",
+    "retro8bit",
+    "action",
+    "adventure",
+    "black",
+    "connected",
+    "letters",
+    "pixel",
+    "0818"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

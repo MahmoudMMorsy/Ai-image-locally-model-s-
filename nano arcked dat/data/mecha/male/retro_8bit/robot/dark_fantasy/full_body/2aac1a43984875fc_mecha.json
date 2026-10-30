@@ -1,0 +1,43 @@
+{
+  "file": "2aac1a43984875fc_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "black"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "bilingual",
+    "arabic",
+    "primary",
+    "pixel",
+    "ruqah",
+    "fast",
+    "dark",
+    "fantasy",
+    "gothic",
+    "256x256",
+    "gbc",
+    "cartlabel",
+    "bilarprim",
+    "rpg",
+    "gold",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

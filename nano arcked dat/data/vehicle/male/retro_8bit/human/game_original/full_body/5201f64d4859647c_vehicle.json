@@ -1,0 +1,39 @@
+{
+  "file": "5201f64d4859647c_vehicle.png",
+  "type": "vehicle",
+  "gender": "male",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "cartridge",
+    "label",
+    "bilingual",
+    "arabic",
+    "primary",
+    "metallic",
+    "chrome",
+    "monochrome",
+    "dmg",
+    "128x128",
+    "gbc",
+    "cartlabel",
+    "bilarprim",
+    "platformer",
+    "red",
+    "crt",
+    "scanlines",
+    "pyramid",
+    "0195"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit vehicle)"
+}

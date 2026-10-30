@@ -1,0 +1,42 @@
+{
+  "file": "aecb807957a21d91_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "brown",
+    "dark",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "title",
+    "screen",
+    "art",
+    "arabic",
+    "only",
+    "retro",
+    "8bit",
+    "dark",
+    "fantasy",
+    "gothic",
+    "128x128",
+    "titlescreen",
+    "aronly",
+    "retro8bit",
+    "rpg",
+    "gold",
+    "glowing",
+    "edges",
+    "pixel",
+    "gradient",
+    "0950"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

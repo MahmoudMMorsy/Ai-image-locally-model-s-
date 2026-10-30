@@ -1,0 +1,40 @@
+{
+  "file": "b521b1107481a2f8_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "title",
+    "badge",
+    "bilingual",
+    "arabic",
+    "primary",
+    "8bit",
+    "synthwave",
+    "80s",
+    "128x128",
+    "uibadge",
+    "bilarprim",
+    "retro8bit",
+    "shoot",
+    "white",
+    "connected",
+    "letters",
+    "pixel",
+    "1239"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit warrior)"
+}

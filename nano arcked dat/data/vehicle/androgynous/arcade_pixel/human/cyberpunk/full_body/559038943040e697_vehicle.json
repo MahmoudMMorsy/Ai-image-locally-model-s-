@@ -1,0 +1,42 @@
+{
+  "file": "559038943040e697_vehicle.png",
+  "type": "vehicle",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "green",
+    "black",
+    "dark"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "cartridge",
+    "label",
+    "arabic",
+    "subtitle",
+    "fantasy",
+    "ornate",
+    "cyberpunk",
+    "neon",
+    "dystopian",
+    "256x256",
+    "cartlabel",
+    "arsub",
+    "fantasyornate",
+    "puzzle",
+    "strategy",
+    "orange",
+    "connected",
+    "letters",
+    "pixel",
+    "1139"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 arcade_pixel vehicle)"
+}

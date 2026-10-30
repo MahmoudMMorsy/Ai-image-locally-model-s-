@@ -1,0 +1,40 @@
+{
+  "file": "1d01e747208d19f4_mecha.png",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "full_body",
+  "colors": [
+    "dark",
+    "silver",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "machine",
+    "pixel",
+    "lettering",
+    "arabic",
+    "only",
+    "bevel",
+    "japanese",
+    "boxart",
+    "style",
+    "256x256",
+    "aronly",
+    "bevel3d",
+    "puzzle",
+    "strategy",
+    "green",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite",
+    "1046"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

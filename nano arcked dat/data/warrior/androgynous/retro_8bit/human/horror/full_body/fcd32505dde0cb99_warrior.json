@@ -1,0 +1,39 @@
+{
+  "file": "fcd32505dde0cb99_warrior.png",
+  "type": "warrior",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "horror",
+  "pose": "full_body",
+  "colors": [
+    "bright",
+    "dark",
+    "brown"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "retro",
+    "other",
+    "full",
+    "game",
+    "poster",
+    "parallel",
+    "pair",
+    "arabic",
+    "8bit",
+    "minimalist",
+    "pixel",
+    "256x256",
+    "retro8bit",
+    "horror",
+    "survival",
+    "orange",
+    "connected",
+    "letters",
+    "1148"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit warrior)"
+}

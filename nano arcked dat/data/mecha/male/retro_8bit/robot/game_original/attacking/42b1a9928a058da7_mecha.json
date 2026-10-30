@@ -1,0 +1,43 @@
+{
+  "file": "42b1a9928a058da7_mecha.png",
+  "type": "mecha",
+  "gender": "male",
+  "race": "robot",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "attacking",
+  "colors": [
+    "silver",
+    "dark",
+    "purple"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "gameboy",
+    "color",
+    "game",
+    "over",
+    "screen",
+    "arabic",
+    "only",
+    "pixel",
+    "naskh",
+    "clean",
+    "retro",
+    "synthwave",
+    "80s",
+    "256x256",
+    "gbc",
+    "gameover",
+    "aronly",
+    "shoot",
+    "white",
+    "glitch",
+    "displacement",
+    "mecha",
+    "sprite"
+  ],
+  "resolution": "256x256",
+  "notes": "Aggregated asset from nano_arcade_data (256x256 retro_8bit mecha)"
+}

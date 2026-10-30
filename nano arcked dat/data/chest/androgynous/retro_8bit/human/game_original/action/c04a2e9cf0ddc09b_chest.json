@@ -1,0 +1,42 @@
+{
+  "file": "c04a2e9cf0ddc09b_chest.png",
+  "type": "chest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "dark",
+    "purple",
+    "silver"
+  ],
+  "tags": [
+    "nano",
+    "arcade",
+    "nes",
+    "famicom",
+    "box",
+    "art",
+    "front",
+    "arabic",
+    "subtitle",
+    "pixel",
+    "calligraffiti",
+    "retro",
+    "synthwave",
+    "80s",
+    "128x128",
+    "boxart",
+    "arsub",
+    "action",
+    "adventure",
+    "black",
+    "glowing",
+    "edges",
+    "gradient",
+    "0480"
+  ],
+  "resolution": "128x128",
+  "notes": "Aggregated asset from nano_arcade_data (128x128 retro_8bit chest)"
+}
