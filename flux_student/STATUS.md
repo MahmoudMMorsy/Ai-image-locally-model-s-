@@ -1,24 +1,28 @@
 # flux_student STATUS
 
-Updated: 2026-10-30 (continuous run)
+Updated: 2026-10-31
 
-## Done
-- Branch `flux-student`
-- StudentT2I architecture (base=48 ~10M params)
-- Teacher: 20 images via sd-turbo (FLUX pending resource)
-- Training with augmentation (flip/jitter): loss dropped ~0.95 → improving
-- Scripts on repo: model, train, generate, prompts, README
+## Metrics
+| Item | Value |
+|------|-------|
+| Teacher images | 20 (sd-turbo → 32/64/128/256) |
+| Student | StudentT2I base=48 (~10M params, ~40MB fp32 ckpt) |
+| Train loss (noise MSE) | **~0.49** (was ~1.0 at start) |
+| Device | CPU |
+| Augmentation | horizontal flip |
 
-## In progress
-- Longer CPU training (60 epochs + aug)
-- Sample dumps under local `samples/`
+## Repo files
+- `flux_student/student/model.py`
+- `flux_student/scripts/generate_teacher_data.py`
+- `flux_student/scripts/train_student.py`
+- `flux_student/scripts/prompts_seed.txt`
+- `flux_student/README.md`
 
-## Blockers
-- pip/HF intermittent 502 → cannot expand teacher set this session easily
-- Quality still limited by n=20 teacher pairs
+## Honest assessment
+Pipeline works end-to-end. **Quality still weak** for real characters — need 500–5000 teacher pairs and/or mix of arcade sprites from `mm.trine`.
 
-## Next (auto)
-1. Finish current train job → save checkpoint
-2. Retry teacher expansion when network allows
-3. Raise base to 96 after n≥100
-4. Optional mix of repo arcade sprites (mm.trine) for style phase
+## Next continuous steps
+1. Expand teacher set when HF/pip network stable
+2. Mix repo pixel sprites for style phase
+3. Scale base→96 after n≥100
+4. User LoRA on top of student checkpoint
