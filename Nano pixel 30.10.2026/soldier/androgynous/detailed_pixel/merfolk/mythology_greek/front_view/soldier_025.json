@@ -1,0 +1,23 @@
+{
+  "file": "soldier_025.png",
+  "generation_prompt": "detailed_pixel of a androgynous merfolk soldier, front_view, palette featuring blue, with fire, glowing_eyes, staff, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "soldier",
+  "gender": "androgynous",
+  "race": "merfolk",
+  "style": "detailed_pixel",
+  "source": "mythology_greek",
+  "pose": "front_view",
+  "colors": [
+    "blue"
+  ],
+  "tags": [
+    "fire",
+    "glowing_eyes",
+    "staff",
+    "armor"
+  ],
+  "resolution": "128x128",
+  "seed": 4298529
+}

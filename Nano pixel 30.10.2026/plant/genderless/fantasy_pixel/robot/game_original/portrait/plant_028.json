@@ -1,0 +1,23 @@
+{
+  "file": "plant_028.png",
+  "generation_prompt": "fantasy_pixel of a genderless robot plant, portrait, palette featuring blue, with dual_wield, muscular, staff, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "plant",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "fantasy_pixel",
+  "source": "game_original",
+  "pose": "portrait",
+  "colors": [
+    "blue"
+  ],
+  "tags": [
+    "dual_wield",
+    "muscular",
+    "staff",
+    "fire"
+  ],
+  "resolution": "32x32",
+  "seed": 4298580
+}

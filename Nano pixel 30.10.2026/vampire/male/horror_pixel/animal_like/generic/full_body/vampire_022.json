@@ -1,0 +1,23 @@
+{
+  "file": "vampire_022.png",
+  "generation_prompt": "horror_pixel of a male animal_like vampire, full_body, palette featuring silver, with clean_pixels, cape, muscular, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "vampire",
+  "gender": "male",
+  "race": "animal_like",
+  "style": "horror_pixel",
+  "source": "generic",
+  "pose": "full_body",
+  "colors": [
+    "silver"
+  ],
+  "tags": [
+    "clean_pixels",
+    "cape",
+    "muscular",
+    "young"
+  ],
+  "resolution": "128x128",
+  "seed": 4298478
+}

@@ -1,0 +1,24 @@
+{
+  "file": "mecha_030.png",
+  "generation_prompt": "fantasy_pixel of a genderless angel mecha, casting, palette featuring red and pink, with robe, staff, horns, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "mecha",
+  "gender": "genderless",
+  "race": "angel",
+  "style": "fantasy_pixel",
+  "source": "steampunk",
+  "pose": "casting",
+  "colors": [
+    "red",
+    "pink"
+  ],
+  "tags": [
+    "robe",
+    "staff",
+    "horns",
+    "glowing_eyes"
+  ],
+  "resolution": "64x64",
+  "seed": 4298614
+}

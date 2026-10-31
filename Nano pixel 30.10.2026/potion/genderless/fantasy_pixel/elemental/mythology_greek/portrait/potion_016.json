@@ -1,0 +1,22 @@
+{
+  "file": "potion_016.png",
+  "generation_prompt": "fantasy_pixel of a genderless elemental potion, portrait, palette featuring silver and brown, with sword, lightning, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "potion",
+  "gender": "genderless",
+  "race": "elemental",
+  "style": "fantasy_pixel",
+  "source": "mythology_greek",
+  "pose": "portrait",
+  "colors": [
+    "silver",
+    "brown"
+  ],
+  "tags": [
+    "sword",
+    "lightning"
+  ],
+  "resolution": "64x64",
+  "seed": 4298376
+}

@@ -1,0 +1,24 @@
+{
+  "file": "assassin_013.png",
+  "generation_prompt": "clean_pixel of a male high_elf assassin, action, palette featuring brown and pink, with young, wings, tail, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "assassin",
+  "gender": "male",
+  "race": "high_elf",
+  "style": "clean_pixel",
+  "source": "game_original",
+  "pose": "action",
+  "colors": [
+    "brown",
+    "pink"
+  ],
+  "tags": [
+    "young",
+    "wings",
+    "tail",
+    "sharp_edges"
+  ],
+  "resolution": "64x64",
+  "seed": 4298325
+}

@@ -1,0 +1,22 @@
+{
+  "file": "gun_004.png",
+  "generation_prompt": "cartoon of a genderless robot gun, front_view, palette featuring gold, with clean_pixels, cape, muscular, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "gun",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "cartoon",
+  "source": "steampunk",
+  "pose": "front_view",
+  "colors": [
+    "gold"
+  ],
+  "tags": [
+    "clean_pixels",
+    "cape",
+    "muscular"
+  ],
+  "resolution": "32x32",
+  "seed": 4298172
+}

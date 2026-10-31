@@ -1,0 +1,23 @@
+{
+  "file": "thief_017.png",
+  "generation_prompt": "clean_pixel of a female cyborg thief, attacking, palette featuring orange, with cape, lightning, staff, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "thief",
+  "gender": "female",
+  "race": "cyborg",
+  "style": "clean_pixel",
+  "source": "generic",
+  "pose": "attacking",
+  "colors": [
+    "orange"
+  ],
+  "tags": [
+    "cape",
+    "lightning",
+    "staff",
+    "dual_wield"
+  ],
+  "resolution": "128x128",
+  "seed": 4298393
+}

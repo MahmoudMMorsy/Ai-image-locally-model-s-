@@ -1,0 +1,23 @@
+{
+  "file": "queen_003.png",
+  "generation_prompt": "retro_8bit of a female cyborg queen, running, palette featuring gold, with staff, tail, wings, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "queen",
+  "gender": "female",
+  "race": "cyborg",
+  "style": "retro_8bit",
+  "source": "game_original",
+  "pose": "running",
+  "colors": [
+    "gold"
+  ],
+  "tags": [
+    "staff",
+    "tail",
+    "wings",
+    "ice"
+  ],
+  "resolution": "128x128",
+  "seed": 4298155
+}

@@ -1,0 +1,22 @@
+{
+  "file": "minotaur_002.png",
+  "generation_prompt": "chibi of a genderless undead minotaur, walking, palette featuring white, with old, retro_game, sharp_edges, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "minotaur",
+  "gender": "genderless",
+  "race": "undead",
+  "style": "chibi",
+  "source": "mythology_greek",
+  "pose": "walking",
+  "colors": [
+    "white"
+  ],
+  "tags": [
+    "old",
+    "retro_game",
+    "sharp_edges"
+  ],
+  "resolution": "32x32",
+  "seed": 4298138
+}

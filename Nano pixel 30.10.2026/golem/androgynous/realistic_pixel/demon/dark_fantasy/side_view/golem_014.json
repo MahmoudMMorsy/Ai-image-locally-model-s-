@@ -1,0 +1,24 @@
+{
+  "file": "golem_014.png",
+  "generation_prompt": "realistic_pixel of a androgynous demon golem, side_view, palette featuring red and silver, with old, robe, sword, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "golem",
+  "gender": "androgynous",
+  "race": "demon",
+  "style": "realistic_pixel",
+  "source": "dark_fantasy",
+  "pose": "side_view",
+  "colors": [
+    "red",
+    "silver"
+  ],
+  "tags": [
+    "old",
+    "robe",
+    "sword",
+    "staff"
+  ],
+  "resolution": "128x128",
+  "seed": 4298342
+}

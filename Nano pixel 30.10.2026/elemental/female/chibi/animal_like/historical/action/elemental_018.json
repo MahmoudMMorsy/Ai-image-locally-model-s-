@@ -1,0 +1,22 @@
+{
+  "file": "elemental_018.png",
+  "generation_prompt": "chibi of a female animal_like elemental, action, palette featuring red, with slim, armor, robe, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "elemental",
+  "gender": "female",
+  "race": "animal_like",
+  "style": "chibi",
+  "source": "historical",
+  "pose": "action",
+  "colors": [
+    "red"
+  ],
+  "tags": [
+    "slim",
+    "armor",
+    "robe"
+  ],
+  "resolution": "32x32",
+  "seed": 4298410
+}

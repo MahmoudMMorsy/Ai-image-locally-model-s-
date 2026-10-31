@@ -1,0 +1,21 @@
+{
+  "file": "gun_012.png",
+  "generation_prompt": "horror_pixel of a genderless robot gun, side_view, palette featuring brown, with helmet, fire, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "gun",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "horror_pixel",
+  "source": "mythology_egypt",
+  "pose": "side_view",
+  "colors": [
+    "brown"
+  ],
+  "tags": [
+    "helmet",
+    "fire"
+  ],
+  "resolution": "128x128",
+  "seed": 4298308
+}

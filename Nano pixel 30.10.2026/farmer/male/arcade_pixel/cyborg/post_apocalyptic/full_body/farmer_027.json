@@ -1,0 +1,21 @@
+{
+  "file": "farmer_027.png",
+  "generation_prompt": "arcade_pixel of a male cyborg farmer, full_body, palette featuring brown, with horns, retro_game, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "farmer",
+  "gender": "male",
+  "race": "cyborg",
+  "style": "arcade_pixel",
+  "source": "post_apocalyptic",
+  "pose": "full_body",
+  "colors": [
+    "brown"
+  ],
+  "tags": [
+    "horns",
+    "retro_game"
+  ],
+  "resolution": "64x64",
+  "seed": 4298563
+}

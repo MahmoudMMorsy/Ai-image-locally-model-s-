@@ -1,0 +1,23 @@
+{
+  "file": "farmer_011.png",
+  "generation_prompt": "retro_16bit of a female demon farmer, attacking, palette featuring blue, with young, muscular, retro_game, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "farmer",
+  "gender": "female",
+  "race": "demon",
+  "style": "retro_16bit",
+  "source": "horror",
+  "pose": "attacking",
+  "colors": [
+    "blue"
+  ],
+  "tags": [
+    "young",
+    "muscular",
+    "retro_game",
+    "staff"
+  ],
+  "resolution": "128x128",
+  "seed": 4298291
+}

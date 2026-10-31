@@ -1,0 +1,22 @@
+{
+  "file": "necromancer_005.png",
+  "generation_prompt": "fantasy_pixel of a male undead necromancer, idle, palette featuring blue, with fire, glowing_eyes, sharp_edges, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "necromancer",
+  "gender": "male",
+  "race": "undead",
+  "style": "fantasy_pixel",
+  "source": "dark_fantasy",
+  "pose": "idle",
+  "colors": [
+    "blue"
+  ],
+  "tags": [
+    "fire",
+    "glowing_eyes",
+    "sharp_edges"
+  ],
+  "resolution": "32x32",
+  "seed": 4298189
+}

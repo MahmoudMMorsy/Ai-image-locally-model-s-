@@ -1,0 +1,22 @@
+{
+  "file": "dancer_019.png",
+  "generation_prompt": "horror_pixel of a male animal_like dancer, walking, palette featuring red, with lightning, cape, shield, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "dancer",
+  "gender": "male",
+  "race": "animal_like",
+  "style": "horror_pixel",
+  "source": "sci_fi",
+  "pose": "walking",
+  "colors": [
+    "red"
+  ],
+  "tags": [
+    "lightning",
+    "cape",
+    "shield"
+  ],
+  "resolution": "64x64",
+  "seed": 4298427
+}
