@@ -8,6 +8,12 @@ nano arcked dat/metadata/
 !nano arcked dat/data/**/*.json
 !nano_arcade_data/**/*.png
 !arcade_t2i/samples/*.png
+!Nano pixel 30.10.2026/**/*.png
+!Nano pixel 30.10.2026/**/*.jpg
+!Nano pixel 30.10.2026/**/*.jpeg
+!Nano pixel 30.10.2026/**/*.json
+!Nano pixel 30.10.2026/**/*.csv
+!Nano pixel 30.10.2026/**/*.jsonl
 *.gif
 !arcade_t2i/samples/*.gif
 *.txt

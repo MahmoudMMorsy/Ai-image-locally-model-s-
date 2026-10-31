@@ -1,0 +1,22 @@
+{
+  "file": "rogue_021.png",
+  "generation_prompt": "anime_pixel of a male dwarf rogue, attacking, palette featuring dark and white, with helmet, cape, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "rogue",
+  "gender": "male",
+  "race": "dwarf",
+  "style": "anime_pixel",
+  "source": "mythology_greek",
+  "pose": "attacking",
+  "colors": [
+    "dark",
+    "white"
+  ],
+  "tags": [
+    "helmet",
+    "cape"
+  ],
+  "resolution": "32x32",
+  "seed": 4298461
+}

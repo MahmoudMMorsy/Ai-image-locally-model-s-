@@ -1,0 +1,24 @@
+{
+  "file": "assassin_029.png",
+  "generation_prompt": "detailed_pixel of a female high_elf assassin, action, palette featuring black and pink, with helmet, tail, armor, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "assassin",
+  "gender": "female",
+  "race": "high_elf",
+  "style": "detailed_pixel",
+  "source": "medieval",
+  "pose": "action",
+  "colors": [
+    "black",
+    "pink"
+  ],
+  "tags": [
+    "helmet",
+    "tail",
+    "armor",
+    "shield"
+  ],
+  "resolution": "64x64",
+  "seed": 4298597
+}

@@ -1,0 +1,22 @@
+{
+  "file": "witch_023.png",
+  "generation_prompt": "chibi of a androgynous troll witch, running, palette featuring white, with muscular, retro_game, robe, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "witch",
+  "gender": "androgynous",
+  "race": "troll",
+  "style": "chibi",
+  "source": "generic",
+  "pose": "running",
+  "colors": [
+    "white"
+  ],
+  "tags": [
+    "muscular",
+    "retro_game",
+    "robe"
+  ],
+  "resolution": "32x32",
+  "seed": 4298495
+}

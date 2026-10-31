@@ -1,0 +1,22 @@
+{
+  "file": "assassin_009.png",
+  "generation_prompt": "retro_16bit of a androgynous merfolk assassin, action, palette featuring white and red, with robe, horns, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "assassin",
+  "gender": "androgynous",
+  "race": "merfolk",
+  "style": "retro_16bit",
+  "source": "movie",
+  "pose": "action",
+  "colors": [
+    "white",
+    "red"
+  ],
+  "tags": [
+    "robe",
+    "horns"
+  ],
+  "resolution": "64x64",
+  "seed": 4298257
+}

@@ -1,0 +1,21 @@
+{
+  "file": "priest_007.png",
+  "generation_prompt": "fantasy_pixel of a androgynous human priest, idle, palette featuring gold, with slim, tail, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "priest",
+  "gender": "androgynous",
+  "race": "human",
+  "style": "fantasy_pixel",
+  "source": "mythology_norse",
+  "pose": "idle",
+  "colors": [
+    "gold"
+  ],
+  "tags": [
+    "slim",
+    "tail"
+  ],
+  "resolution": "64x64",
+  "seed": 4298223
+}

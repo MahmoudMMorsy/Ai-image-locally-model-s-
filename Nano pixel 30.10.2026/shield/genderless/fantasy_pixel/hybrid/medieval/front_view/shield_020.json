@@ -1,0 +1,22 @@
+{
+  "file": "shield_020.png",
+  "generation_prompt": "fantasy_pixel of a genderless hybrid shield, front_view, palette featuring gold, with horns, tail, old, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "shield",
+  "gender": "genderless",
+  "race": "hybrid",
+  "style": "fantasy_pixel",
+  "source": "medieval",
+  "pose": "front_view",
+  "colors": [
+    "gold"
+  ],
+  "tags": [
+    "horns",
+    "tail",
+    "old"
+  ],
+  "resolution": "32x32",
+  "seed": 4298444
+}

@@ -1,0 +1,23 @@
+{
+  "file": "child_015.png",
+  "generation_prompt": "retro_8bit of a female elemental child, front_view, palette featuring dark, with wings, helmet, staff, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "child",
+  "gender": "female",
+  "race": "elemental",
+  "style": "retro_8bit",
+  "source": "rpg_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "dark"
+  ],
+  "tags": [
+    "wings",
+    "helmet",
+    "staff",
+    "horns"
+  ],
+  "resolution": "32x32",
+  "seed": 4298359
+}

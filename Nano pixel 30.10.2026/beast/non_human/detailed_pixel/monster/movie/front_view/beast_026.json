@@ -1,0 +1,23 @@
+{
+  "file": "beast_026.png",
+  "generation_prompt": "detailed_pixel of a non_human monster beast, front_view, palette featuring red and orange, with helmet, horns, robe, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "beast",
+  "gender": "non_human",
+  "race": "monster",
+  "style": "detailed_pixel",
+  "source": "movie",
+  "pose": "front_view",
+  "colors": [
+    "red",
+    "orange"
+  ],
+  "tags": [
+    "helmet",
+    "horns",
+    "robe"
+  ],
+  "resolution": "32x32",
+  "seed": 4298546
+}

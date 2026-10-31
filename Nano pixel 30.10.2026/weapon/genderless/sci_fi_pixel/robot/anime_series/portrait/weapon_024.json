@@ -1,0 +1,22 @@
+{
+  "file": "weapon_024.png",
+  "generation_prompt": "sci_fi_pixel of a genderless robot weapon, portrait, palette featuring purple, with armor, cape, retro_game, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "weapon",
+  "gender": "genderless",
+  "race": "robot",
+  "style": "sci_fi_pixel",
+  "source": "anime_series",
+  "pose": "portrait",
+  "colors": [
+    "purple"
+  ],
+  "tags": [
+    "armor",
+    "cape",
+    "retro_game"
+  ],
+  "resolution": "64x64",
+  "seed": 4298512
+}

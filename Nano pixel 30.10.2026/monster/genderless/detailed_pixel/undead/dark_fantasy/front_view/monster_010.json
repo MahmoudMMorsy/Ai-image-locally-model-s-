@@ -1,0 +1,21 @@
+{
+  "file": "monster_010.png",
+  "generation_prompt": "detailed_pixel of a genderless undead monster, front_view, palette featuring bright, with tail, dual_wield, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "monster",
+  "gender": "genderless",
+  "race": "undead",
+  "style": "detailed_pixel",
+  "source": "dark_fantasy",
+  "pose": "front_view",
+  "colors": [
+    "bright"
+  ],
+  "tags": [
+    "tail",
+    "dual_wield"
+  ],
+  "resolution": "32x32",
+  "seed": 4298274
+}

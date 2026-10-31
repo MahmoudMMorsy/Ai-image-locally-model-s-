@@ -1,0 +1,24 @@
+{
+  "file": "summoner_001.png",
+  "generation_prompt": "anime_pixel of a male animal_like summoner, idle, palette featuring silver and white, with slim, robe, lightning, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "summoner",
+  "gender": "male",
+  "race": "animal_like",
+  "style": "anime_pixel",
+  "source": "mythology_egypt",
+  "pose": "idle",
+  "colors": [
+    "silver",
+    "white"
+  ],
+  "tags": [
+    "slim",
+    "robe",
+    "lightning",
+    "sword"
+  ],
+  "resolution": "128x128",
+  "seed": 4298121
+}

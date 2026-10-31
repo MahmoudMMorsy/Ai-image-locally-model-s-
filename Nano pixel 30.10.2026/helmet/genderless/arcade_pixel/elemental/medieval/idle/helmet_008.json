@@ -1,0 +1,23 @@
+{
+  "file": "helmet_008.png",
+  "generation_prompt": "arcade_pixel of a genderless elemental helmet, idle, palette featuring white and brown, with shield, staff, muscular, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "helmet",
+  "gender": "genderless",
+  "race": "elemental",
+  "style": "arcade_pixel",
+  "source": "medieval",
+  "pose": "idle",
+  "colors": [
+    "white",
+    "brown"
+  ],
+  "tags": [
+    "shield",
+    "staff",
+    "muscular"
+  ],
+  "resolution": "64x64",
+  "seed": 4298240
+}

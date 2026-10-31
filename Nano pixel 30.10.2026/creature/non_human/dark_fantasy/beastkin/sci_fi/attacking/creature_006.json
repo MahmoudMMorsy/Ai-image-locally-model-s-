@@ -1,0 +1,23 @@
+{
+  "file": "creature_006.png",
+  "generation_prompt": "dark_fantasy of a non_human beastkin creature, attacking, palette featuring green, with tail, staff, dual_wield, clean pixels, sharp edges, game asset, white background",
+  "model_used": "Uncensored-SDXL-PixelArt / TextCVAE-RealNeural",
+  "platform": "Local / Open-API",
+  "type": "creature",
+  "gender": "non_human",
+  "race": "beastkin",
+  "style": "dark_fantasy",
+  "source": "sci_fi",
+  "pose": "attacking",
+  "colors": [
+    "green"
+  ],
+  "tags": [
+    "tail",
+    "staff",
+    "dual_wield",
+    "fire"
+  ],
+  "resolution": "128x128",
+  "seed": 4298206
+}
