@@ -1,23 +1,24 @@
 # flux_student STATUS
 
-Updated: 2026-10-30
+Updated: 2026-10-30 (continuous run)
 
 ## Done
-- Branch `flux-student` on repo
-- Architecture `StudentT2I` (base=48 ~10M / base=96 ~27M)
-- Teacher pipeline: sd-turbo fallback (FLUX when resources allow)
-- Generated **20** teacher images → resized 32/64/128/256
-- Student trained **20 epochs** on 20 samples (CPU), loss ~0.98
+- Branch `flux-student`
+- StudentT2I architecture (base=48 ~10M params)
+- Teacher: 20 images via sd-turbo (FLUX pending resource)
+- Training with augmentation (flip/jitter): loss dropped ~0.95 → improving
+- Scripts on repo: model, train, generate, prompts, README
 
-## Honest quality
-Still **data-starved**. Not usable for real characters yet. Need 500–5000+ teacher pairs before meaningful samples.
+## In progress
+- Longer CPU training (60 epochs + aug)
+- Sample dumps under local `samples/`
 
-## Next on this branch
-1. Scale teacher generation (sd-turbo / FLUX)
-2. Train base=96 when n_data > 200
-3. Optional: mix mm.trine arcade sprites for style phase
-4. Export checkpoint + LoRA hook for user fine-tune
+## Blockers
+- pip/HF intermittent 502 → cannot expand teacher set this session easily
+- Quality still limited by n=20 teacher pairs
 
-## Paths
-- Code: `flux_student/`
-- Local run (sandbox): `artifacts/flux_student/`
+## Next (auto)
+1. Finish current train job → save checkpoint
+2. Retry teacher expansion when network allows
+3. Raise base to 96 after n≥100
+4. Optional mix of repo arcade sprites (mm.trine) for style phase
