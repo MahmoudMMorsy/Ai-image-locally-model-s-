@@ -1,4 +1,4 @@
-# Sync
-Local path: /home/workdir/artifacts/flux_student
-Repo branch: flux-student
-Policy: push manifest + samples_b64 periodically; keep raw PNGs local until batch size grows, then re-encode subset.
+# Sync policy
+- Repo = source of truth for code + manifest
+- Heavy PNGs: local only until batch export
+- Re-sync manifest to branch flux-student regularly

@@ -1,20 +1,17 @@
 # STATUS — flux_student
-Updated: 2026-11-02 (sync)
+Updated: 2026-11-02
 
-## Sync policy
-- Teacher/student samples synced as `data/samples_b64.json` + `data/manifest.jsonl` (base64) so sandbox disk stays light.
-- Continuous train continues locally; re-sync when new images appear.
+## Disk-safe sync
+- Local project ~11MB — no disk choke
+- Branch `flux-student`: code + manifest.jsonl + STATUS
+- PNGs stay local under data/resized + samples; base64 sidecar when needed
+- continuous_loop keeps training
 
-## Metrics
-- n_data: 26 (sd-turbo + prompt only)
+## Counts
+- manifest: 26 teacher images (sd-turbo + prompt)
 - Student ~10M params, loss ~0.37-0.39
-- continuous_loop running
 
-## Recover images
-```python
-import json,base64
-from pathlib import Path
-obj=json.load(open('flux_student/data/samples_b64.json'))
-for k,v in obj.items():
-    Path(k).write_bytes(base64.b64decode(v))
-```
+## Policy
+1. Train continuously locally
+2. Push manifest after every +10 new teacher images
+3. Do not clone full image trees into sandbox
