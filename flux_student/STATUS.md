@@ -1,27 +1,20 @@
 # STATUS — flux_student
-Updated: 2026-11-02
+Updated: 2026-11-02 (sync)
 
-## Delivery checklist
-| Item | Status |
-|------|--------|
-| student/model.py | OK ~10M params (base=48) |
-| generate_teacher_data.py | OK |
-| train_student.py | OK |
-| continuous_loop.py | OK |
-| prompts_seed.txt | character-only AR/EN |
-| data/manifest | 26 teacher images (sd-turbo + prompt) |
-| checkpoints/student_final.pt | ~40MB local |
-| DATA_POLICY | prompt-only teacher |
+## Sync policy
+- Teacher/student samples synced as `data/samples_b64.json` + `data/manifest.jsonl` (base64) so sandbox disk stays light.
+- Continuous train continues locally; re-sync when new images appear.
 
 ## Metrics
-- n_data: 26
-- last train: 30 epochs, loss ~0.37–0.39
-- Teacher: sd-turbo prompt-only
-- Quality: still noisy at n=26; need 500+ pairs
+- n_data: 26 (sd-turbo + prompt only)
+- Student ~10M params, loss ~0.37-0.39
+- continuous_loop running
 
-## Commands
-```bash
-python scripts/generate_teacher_data.py --n 32 --teacher sd-turbo
-python scripts/train_student.py --size 64 --epochs 30 --cpu --base 48
-nohup python3 -u scripts/continuous_loop.py >> continuous.log 2>&1 &
+## Recover images
+```python
+import json,base64
+from pathlib import Path
+obj=json.load(open('flux_student/data/samples_b64.json'))
+for k,v in obj.items():
+    Path(k).write_bytes(base64.b64decode(v))
 ```
