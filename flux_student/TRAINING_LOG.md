@@ -1,6 +1,4 @@
-# Training log
-
-- 2026-10-30: 8 teacher imgs, 30 ep, loss ~1.0
-- 2026-10-30: 20 teacher imgs (sd-turbo)
-- 2026-10-30/31: aug train, loss 0.95 → 0.60 → 0.49
-- Checkpoint: checkpoints/student_final.pt (local sandbox; large binary not committed by default)
+# TRAINING_LOG
+- 2026-10-30: boot, loss ~1.0→0.49 on 20 imgs
+- 2026-10-31: continuous_loop, loss ~0.38
+- 2026-11-02: n=26, 30 ep, loss ~0.39

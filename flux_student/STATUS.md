@@ -1,28 +1,27 @@
-# flux_student STATUS
+# STATUS — flux_student
+Updated: 2026-11-02
 
-Updated: 2026-10-31
+## Delivery checklist
+| Item | Status |
+|------|--------|
+| student/model.py | OK ~10M params (base=48) |
+| generate_teacher_data.py | OK |
+| train_student.py | OK |
+| continuous_loop.py | OK |
+| prompts_seed.txt | character-only AR/EN |
+| data/manifest | 26 teacher images (sd-turbo + prompt) |
+| checkpoints/student_final.pt | ~40MB local |
+| DATA_POLICY | prompt-only teacher |
 
 ## Metrics
-| Item | Value |
-|------|-------|
-| Teacher images | 20 (sd-turbo → 32/64/128/256) |
-| Student | StudentT2I base=48 (~10M params, ~40MB fp32 ckpt) |
-| Train loss (noise MSE) | **~0.49** (was ~1.0 at start) |
-| Device | CPU |
-| Augmentation | horizontal flip |
+- n_data: 26
+- last train: 30 epochs, loss ~0.37–0.39
+- Teacher: sd-turbo prompt-only
+- Quality: still noisy at n=26; need 500+ pairs
 
-## Repo files
-- `flux_student/student/model.py`
-- `flux_student/scripts/generate_teacher_data.py`
-- `flux_student/scripts/train_student.py`
-- `flux_student/scripts/prompts_seed.txt`
-- `flux_student/README.md`
-
-## Honest assessment
-Pipeline works end-to-end. **Quality still weak** for real characters — need 500–5000 teacher pairs and/or mix of arcade sprites from `mm.trine`.
-
-## Next continuous steps
-1. Expand teacher set when HF/pip network stable
-2. Mix repo pixel sprites for style phase
-3. Scale base→96 after n≥100
-4. User LoRA on top of student checkpoint
+## Commands
+```bash
+python scripts/generate_teacher_data.py --n 32 --teacher sd-turbo
+python scripts/train_student.py --size 64 --epochs 30 --cpu --base 48
+nohup python3 -u scripts/continuous_loop.py >> continuous.log 2>&1 &
+```
