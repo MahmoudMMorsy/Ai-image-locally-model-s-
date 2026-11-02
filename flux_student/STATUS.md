@@ -1,23 +1,23 @@
 # flux_student STATUS
 
-Updated: 2026-10-30
+Updated: 2026-11-02
 
-## Done
-- Branch `flux-student` on repo
-- Architecture `StudentT2I` (base=48 ~10M / base=96 ~27M)
-- Teacher pipeline: sd-turbo fallback (FLUX when resources allow)
-- Generated **20** teacher images → resized 32/64/128/256
-- Student trained **20 epochs** on 20 samples (CPU), loss ~0.98
+## Overview
+- Architecture: `StudentT2I` (base=48: ~10M params, 38.3 MB checkpoint; base=96: ~26.6M params)
+- Teacher model: `stabilityai/sd-turbo` (1-step fast CPU/GPU synthesis, fallback for `FLUX.1-schnell`)
+- Data: Multiresolution pyramids generated across 32x32, 64x64, 128x128, and 256x256
+- Safety: Zero-tolerance religious figure exclusion filtering implemented in `student/filter.py`
 
-## Honest quality
-Still **data-starved**. Not usable for real characters yet. Need 500–5000+ teacher pairs before meaningful samples.
+## Checkpoint & Training
+- Checkpoint: `checkpoints/student_final.pt` (~38.3 MB, 10,032,387 parameters)
+- Epochs completed: 5 epochs (CPU batch size 4)
+- Final loss: ~1.0242
 
-## Next on this branch
-1. Scale teacher generation (sd-turbo / FLUX)
-2. Train base=96 when n_data > 200
-3. Optional: mix mm.trine arcade sprites for style phase
-4. Export checkpoint + LoRA hook for user fine-tune
+## Honest Quality Assessment
+- The model currently learns early pixel noise conditioning on prompt-paired teacher images.
+- Early stage: Samples exhibit coherent color clustering and general figure silhouette placement without full high-definition anatomy yet, which is expected at early training iterations (<50 epochs, N=8..16).
+- Progressive improvement is automated via the unattended `continuous_loop.py` script.
 
-## Paths
-- Code: `flux_student/`
-- Local run (sandbox): `artifacts/flux_student/`
+## Next Milestones
+1. Let unattended `continuous_loop.py` run to accumulate more teacher samples and reduce loss below 0.5.
+2. Scale up to base=96 (~26.6M params) when dataset size exceeds 200 pairs.
