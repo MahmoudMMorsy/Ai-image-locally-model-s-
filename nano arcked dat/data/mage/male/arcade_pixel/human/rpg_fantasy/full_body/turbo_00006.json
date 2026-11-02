@@ -1,0 +1,25 @@
+{
+  "file": "turbo_00006.png",
+  "type": "mage",
+  "gender": "male",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "mage",
+    "human",
+    "arcade_pixel",
+    "full_body",
+    "staff"
+  ],
+  "resolution": "64x64",
+  "notes": "ساحر بعصا مضيئة، شخصية كاملة"
+}

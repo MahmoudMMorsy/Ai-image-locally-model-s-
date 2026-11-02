@@ -1,0 +1,24 @@
+{
+  "file": "turbo_00009.png",
+  "type": "ninja",
+  "gender": "female",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "action",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "ninja",
+    "human",
+    "arcade_pixel",
+    "action"
+  ],
+  "resolution": "64x64",
+  "notes": "a female rogue with dual daggers in stealth pose, full body"
+}

@@ -1,0 +1,26 @@
+{
+  "file": "turbo_00013.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "dwarf",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white",
+    "red"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "warrior",
+    "dwarf",
+    "arcade_pixel",
+    "full_body",
+    "armor"
+  ],
+  "resolution": "64x64",
+  "notes": "a heavy armored dwarf with a battle hammer, full body"
+}

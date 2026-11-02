@@ -4,3 +4,13 @@
 [2026-11-02 03:11:06] train ep 1/1 loss=1.0113 n=8
 [2026-11-02 03:11:07] train saved loss=1.0113
 [2026-11-02 03:11:09] samples dumped
+[2026-11-02 20:09:39] === continuous_loop START ===
+[2026-11-02 20:09:39] === cycle 1 ===
+[2026-11-02 20:09:47] gen turbo_00021: a forest elemental golem made of mossy stones, ful
+[2026-11-02 20:09:53] gen done added=1 total=22
+[2026-11-02 20:09:54] train resumed checkpoint
+[2026-11-02 20:10:03] train ep 1/2 loss=0.9999 n=22
+[2026-11-02 20:10:10] train ep 2/2 loss=0.9973 n=22
+[2026-11-02 20:10:10] train saved loss=0.9973
+[2026-11-02 20:10:13] samples dumped
+[2026-11-02 20:10:13] cycle 1 completed (--once flag). Exiting.

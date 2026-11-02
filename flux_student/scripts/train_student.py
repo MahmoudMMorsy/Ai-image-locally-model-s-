@@ -55,6 +55,16 @@ def train(args):
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr)
     ckpt_dir = ROOT / "checkpoints"
     ckpt_dir.mkdir(parents=True, exist_ok=True)
+    if args.resume and (ckpt_dir / "student_final.pt").exists():
+        try:
+            st = torch.load(ckpt_dir / "student_final.pt", map_location=device, weights_only=False)
+            if "model" in st:
+                model.load_state_dict(st["model"], strict=False)
+            else:
+                model.load_state_dict(st, strict=False)
+            print("Successfully resumed from checkpoint student_final.pt")
+        except Exception as e:
+            print(f"Resume failed, starting fresh: {e}")
     for ep in range(args.epochs):
         total = 0.0
         for x, ids in dl:
@@ -75,7 +85,7 @@ def train(args):
         avg = total / max(1, len(dl))
         print(f"epoch {ep+1}/{args.epochs} loss={avg:.4f}")
         torch.save({"model": model.state_dict(), "epoch": ep + 1, "loss": avg}, ckpt_dir / "student_latest.pt")
-    torch.save({"model": model.state_dict(), "epoch": args.epochs}, ckpt_dir / "student_final.pt")
+    torch.save({"model": model.state_dict(), "epoch": args.epochs, "loss": avg, "base": args.base}, ckpt_dir / "student_final.pt")
     print("saved", ckpt_dir / "student_final.pt")
 
 
@@ -85,9 +95,10 @@ def main():
     ap.add_argument("--epochs", type=int, default=30)
     ap.add_argument("--batch", type=int, default=4)
     ap.add_argument("--lr", type=float, default=2e-4)
-    ap.add_argument("--base", type=int, default=96)
+    ap.add_argument("--base", type=int, default=48)
     ap.add_argument("--recon", type=float, default=0.05)
     ap.add_argument("--cpu", action="store_true")
+    ap.add_argument("--resume", action="store_true", help="Resume from existing checkpoint if available")
     args = ap.parse_args()
     train(args)
 

@@ -1,0 +1,25 @@
+{
+  "file": "turbo_00004.png",
+  "type": "monster",
+  "gender": "male",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white",
+    "green"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "monster",
+    "human",
+    "arcade_pixel",
+    "full_body"
+  ],
+  "resolution": "64x64",
+  "notes": "a green monster character, full body"
+}

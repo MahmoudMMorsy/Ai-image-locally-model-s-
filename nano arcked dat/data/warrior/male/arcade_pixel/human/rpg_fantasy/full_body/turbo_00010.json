@@ -1,0 +1,25 @@
+{
+  "file": "turbo_00010.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "warrior",
+    "human",
+    "arcade_pixel",
+    "full_body",
+    "sword"
+  ],
+  "resolution": "64x64",
+  "notes": "a male warrior holding an iron broadsword, full body"
+}
