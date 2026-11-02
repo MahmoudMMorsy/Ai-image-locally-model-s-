@@ -1,17 +1,14 @@
-# STATUS — flux_student
+# STATUS
 Updated: 2026-11-02
 
-## Disk-safe sync
-- Local project ~11MB — no disk choke
-- Branch `flux-student`: code + manifest.jsonl + STATUS
-- PNGs stay local under data/resized + samples; base64 sidecar when needed
-- continuous_loop keeps training
+- n_data: 26 (sd-turbo + prompt only)
+- last train: 20 epochs, loss=0.3817
+- StudentT2I base=48 ~10M params
+- continuous_loop: running when sandbox alive
+- Honest quality: samples still noisy; need 500+ teacher images
 
-## Counts
-- manifest: 26 teacher images (sd-turbo + prompt)
-- Student ~10M params, loss ~0.37-0.39
-
-## Policy
-1. Train continuously locally
-2. Push manifest after every +10 new teacher images
-3. Do not clone full image trees into sandbox
+## Commands
+```bash
+python scripts/train_once.py
+nohup python3 -u scripts/continuous_loop.py >> continuous.log 2>&1 &
+```
