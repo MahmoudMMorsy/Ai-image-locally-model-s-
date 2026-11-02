@@ -1,0 +1,24 @@
+{
+  "file": "turbo_00014.png",
+  "type": "mage",
+  "gender": "male",
+  "race": "human",
+  "style": "dark_fantasy",
+  "source": "dark_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "mage",
+    "human",
+    "dark_fantasy",
+    "full_body"
+  ],
+  "resolution": "64x64",
+  "notes": "a dark necromancer summoning shadowy spirits, full body"
+}

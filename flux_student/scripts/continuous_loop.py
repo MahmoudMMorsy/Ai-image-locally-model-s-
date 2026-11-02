@@ -199,17 +199,18 @@ def dump_samples():
     log("samples dumped")
 
 def main():
+    once = "--once" in sys.argv
     log("=== continuous_loop START ===")
     cycle = 0
     while True:
         cycle += 1
         log(f"=== cycle {cycle} ===")
         try:
-            try_generate_batch(n=4)
+            try_generate_batch(n=1)
         except Exception:
             log("gen exception:\n" + traceback.format_exc())
         try:
-            train_epochs(epochs=8)
+            train_epochs(epochs=2)
         except Exception:
             log("train exception:\n" + traceback.format_exc())
         try:
@@ -223,6 +224,9 @@ def main():
             "ckpt": str(CKPT) if CKPT.exists() else None,
         }
         (ROOT / "continuous_status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
+        if once:
+            log(f"cycle {cycle} completed (--once flag). Exiting.")
+            break
         log(f"cycle {cycle} sleep 30s")
         time.sleep(30)
 

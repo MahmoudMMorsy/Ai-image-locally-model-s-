@@ -1,0 +1,25 @@
+{
+  "file": "turbo_00008.png",
+  "type": "cyber_soldier",
+  "gender": "male",
+  "race": "cyborg",
+  "style": "arcade_pixel",
+  "source": "cyberpunk",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "cyber_soldier",
+    "cyborg",
+    "arcade_pixel",
+    "full_body",
+    "armor"
+  ],
+  "resolution": "64x64",
+  "notes": "a cyber soldier standing in futuristic armor, full body"
+}

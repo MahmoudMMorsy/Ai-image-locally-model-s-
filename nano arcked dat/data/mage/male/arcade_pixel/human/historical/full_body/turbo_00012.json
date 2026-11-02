@@ -1,0 +1,24 @@
+{
+  "file": "turbo_00012.png",
+  "type": "mage",
+  "gender": "male",
+  "race": "human",
+  "style": "arcade_pixel",
+  "source": "historical",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "mage",
+    "human",
+    "arcade_pixel",
+    "full_body"
+  ],
+  "resolution": "64x64",
+  "notes": "an ancient wizard casting a fiery spell, full body"
+}

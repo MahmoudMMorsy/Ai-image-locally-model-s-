@@ -1,0 +1,24 @@
+{
+  "file": "turbo_00011.png",
+  "type": "archer",
+  "gender": "male",
+  "race": "elf",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "archer",
+    "elf",
+    "arcade_pixel",
+    "full_body"
+  ],
+  "resolution": "64x64",
+  "notes": "an elven archer drawing a wooden longbow, full body"
+}

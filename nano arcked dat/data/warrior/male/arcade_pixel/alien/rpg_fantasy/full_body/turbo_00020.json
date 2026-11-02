@@ -1,0 +1,26 @@
+{
+  "file": "turbo_00020.png",
+  "type": "warrior",
+  "gender": "male",
+  "race": "alien",
+  "style": "arcade_pixel",
+  "source": "rpg_fantasy",
+  "pose": "full_body",
+  "colors": [
+    "black",
+    "white",
+    "red"
+  ],
+  "tags": [
+    "character",
+    "pixel_art",
+    "student_diffusion",
+    "warrior",
+    "alien",
+    "arcade_pixel",
+    "full_body",
+    "armor"
+  ],
+  "resolution": "64x64",
+  "notes": "an alien creature with four arms and armored scales, full body"
+}
