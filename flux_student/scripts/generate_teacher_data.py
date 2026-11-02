@@ -8,14 +8,19 @@ import argparse, json
 from pathlib import Path
 
 import torch
+import sys
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from student.filter import is_safe_prompt
+
 SIZES = (32, 64, 128, 256)
 
 
 def load_prompts(path: Path, limit: int | None) -> list[str]:
-    lines = [ln.strip() for ln in path.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    raw_lines = [ln.strip() for ln in path.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    lines = [ln for ln in raw_lines if is_safe_prompt(ln)]
     if limit:
         lines = lines[:limit]
     return lines

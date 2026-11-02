@@ -1,6 +1,93 @@
-[2026-11-02 03:06:38] samples dumped
-[2026-11-02 03:10:59] Manual cycle test execution
-[2026-11-02 03:11:01] train resumed checkpoint
-[2026-11-02 03:11:06] train ep 1/1 loss=1.0113 n=8
-[2026-11-02 03:11:07] train saved loss=1.0113
-[2026-11-02 03:11:09] samples dumped
+[2026-11-02 19:31:37] === continuous_loop START ===
+[2026-11-02 19:31:37] === cycle 1 ===
+/home/jules/.pyenv/versions/3.10.20/lib/python3.10/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/jules/.pyenv/versions/3.10.20/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py:206: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+/home/jules/.pyenv/versions/3.10.20/lib/python3.10/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00,  7.06it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  40%|███▉      | 148/372 [00:00<00:00, 1476.80it/s][A
+Loading weights:  83%|████████▎ | 307/372 [00:00<00:00, 1530.26it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 1628.27it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00,  3.91it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  5.18it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-02 19:31:46] gen turbo_00016: a samurai warrior wielding a sharp katana, full bo
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.52s/it]100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
+[2026-11-02 19:31:51] gen turbo_00017: a pirate captain with an eyepatch and cutlass, ful
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.54s/it]100%|██████████| 1/1 [00:01<00:00,  1.54s/it]
+[2026-11-02 19:31:57] gen turbo_00018: a viking berserker with dual axes, full body
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.93s/it]100%|██████████| 1/1 [00:01<00:00,  1.93s/it]
+[2026-11-02 19:32:03] gen turbo_00019: a mechanical cyborg warrior with glowing red eyes,
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.12s/it]100%|██████████| 1/1 [00:02<00:00,  2.12s/it]
+[2026-11-02 19:32:10] gen done added=4 total=20
+[2026-11-02 19:32:10] train resumed checkpoint
+[2026-11-02 19:32:16] train ep 1/8 loss=1.0042 n=20
+[2026-11-02 19:32:22] train ep 2/8 loss=0.9989 n=20
+[2026-11-02 19:32:28] train ep 3/8 loss=0.9932 n=20
+[2026-11-02 19:32:37] train ep 4/8 loss=0.9659 n=20
+[2026-11-02 19:32:48] train ep 5/8 loss=0.9253 n=20
+[2026-11-02 19:32:55] train ep 6/8 loss=0.8991 n=20
+[2026-11-02 19:33:01] train ep 7/8 loss=0.8673 n=20
+[2026-11-02 19:33:07] train ep 8/8 loss=0.8357 n=20
+[2026-11-02 19:33:07] train saved loss=0.8357
+[2026-11-02 19:33:10] samples dumped
+[2026-11-02 19:33:10] cycle 1 sleep 30s
+[2026-11-02 19:33:40] === cycle 2 ===
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00,  3.77it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  41%|████      | 153/372 [00:00<00:00, 1526.86it/s][A
+Loading weights:  82%|████████▏ | 306/372 [00:00<00:00, 1393.93it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 1652.38it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00,  4.15it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  5.09it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-02 19:33:41] gen turbo_00020: an alien creature with four arms and armored scale
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.35s/it]100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+[2026-11-02 19:33:46] gen turbo_00021: a forest elemental golem made of mossy stones, ful
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.21s/it]100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+[2026-11-02 19:33:51] gen turbo_00022: a shadow assassin holding throwing stars, full bod
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.22s/it]100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+[2026-11-02 19:33:55] gen turbo_00023: a noble paladin in gold and white plate armor, ful
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.20s/it]100%|██████████| 1/1 [00:01<00:00,  1.20s/it]
+[2026-11-02 19:34:00] gen done added=4 total=24
+[2026-11-02 19:34:00] train resumed checkpoint
+[2026-11-02 19:34:08] train ep 1/8 loss=0.8226 n=24
+[2026-11-02 19:34:19] train ep 2/8 loss=0.7823 n=24
+[2026-11-02 19:34:32] train ep 3/8 loss=0.7648 n=24
+[2026-11-02 19:34:55] train ep 4/8 loss=0.7353 n=24
+[2026-11-02 19:35:09] train ep 5/8 loss=0.7412 n=24
+[2026-11-02 19:35:22] train ep 6/8 loss=0.7156 n=24
+[2026-11-02 19:35:46] train ep 7/8 loss=0.7238 n=24
+[2026-11-02 19:36:00] train ep 8/8 loss=0.7144 n=24
+[2026-11-02 19:36:00] train saved loss=0.7144
+[2026-11-02 19:36:04] samples dumped
+[2026-11-02 19:36:04] cycle 2 sleep 30s
+[2026-11-02 19:36:34] === cycle 3 ===
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00,  6.98it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  40%|████      | 150/372 [00:00<00:00, 1499.53it/s][A
+Loading weights:  81%|████████  | 300/372 [00:00<00:00, 1444.70it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 1700.00it/s]
+Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00,  5.36it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  6.91it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-02 19:36:35] gen turbo_00024: a desert bedouin warrior wielding a curved scimita
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.44s/it]100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+[2026-11-02 19:36:40] gen turbo_00025: a horned demon warrior with fiery wings, full body
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.22s/it]100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+[2026-11-02 19:36:44] gen turbo_00026: an undead skeleton knight in rusty chainmail, full
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.21s/it]100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+[2026-11-02 19:36:49] gen turbo_00027: a gothic vampire lord in a dark velvet cape, full
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.30s/it]100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+[2026-11-02 19:36:53] gen done added=4 total=28
+[2026-11-02 19:36:53] train resumed checkpoint
+[2026-11-02 19:37:03] train ep 1/8 loss=0.7091 n=28
+[2026-11-02 19:37:18] train ep 2/8 loss=0.7163 n=28
+[2026-11-02 19:37:35] train ep 3/8 loss=0.7162 n=28
+[2026-11-02 19:37:50] train ep 4/8 loss=0.7233 n=28
+[2026-11-02 19:38:04] train ep 5/8 loss=0.6945 n=28
+[2026-11-02 19:38:21] train ep 6/8 loss=0.6988 n=28
+[2026-11-02 19:38:38] train ep 7/8 loss=0.7017 n=28
+[2026-11-02 19:38:52] train ep 8/8 loss=0.7125 n=28
+[2026-11-02 19:38:53] train saved loss=0.7125
+[2026-11-02 19:38:58] samples dumped
+[2026-11-02 19:38:58] cycle 3 sleep 30s
+ples dumped
+[2026-11-02 19:38:58] cycle 3 sleep 30s

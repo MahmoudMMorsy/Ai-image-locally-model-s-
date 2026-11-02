@@ -51,10 +51,21 @@ def train(args):
     ds = CaptionImageDS(size=args.size)
     dl = DataLoader(ds, batch_size=args.batch, shuffle=True, drop_last=False)
     model = StudentT2I(base=args.base).to(device)
-    print(f"student params={count_params(model)/1e6:.2f}M device={device} n={len(ds)}")
-    opt = torch.optim.AdamW(model.parameters(), lr=args.lr)
     ckpt_dir = ROOT / "checkpoints"
     ckpt_dir.mkdir(parents=True, exist_ok=True)
+    final_ckpt = ckpt_dir / "student_final.pt"
+    if args.resume and final_ckpt.exists():
+        try:
+            st = torch.load(final_ckpt, map_location=device, weights_only=False)
+            if "model" in st:
+                model.load_state_dict(st["model"], strict=False)
+            else:
+                model.load_state_dict(st, strict=False)
+            print(f"Resumed weights from {final_ckpt}")
+        except Exception as e:
+            print(f"Could not resume weights: {e}")
+    print(f"student params={count_params(model)/1e6:.2f}M device={device} n={len(ds)}")
+    opt = torch.optim.AdamW(model.parameters(), lr=args.lr)
     for ep in range(args.epochs):
         total = 0.0
         for x, ids in dl:
@@ -74,8 +85,8 @@ def train(args):
             total += loss.item()
         avg = total / max(1, len(dl))
         print(f"epoch {ep+1}/{args.epochs} loss={avg:.4f}")
-        torch.save({"model": model.state_dict(), "epoch": ep + 1, "loss": avg}, ckpt_dir / "student_latest.pt")
-    torch.save({"model": model.state_dict(), "epoch": args.epochs}, ckpt_dir / "student_final.pt")
+        torch.save({"model": model.state_dict(), "epoch": ep + 1, "loss": avg, "base": args.base}, ckpt_dir / "student_latest.pt")
+    torch.save({"model": model.state_dict(), "epoch": args.epochs, "loss": avg, "base": args.base}, ckpt_dir / "student_final.pt")
     print("saved", ckpt_dir / "student_final.pt")
 
 
@@ -88,6 +99,7 @@ def main():
     ap.add_argument("--base", type=int, default=96)
     ap.add_argument("--recon", type=float, default=0.05)
     ap.add_argument("--cpu", action="store_true")
+    ap.add_argument("--resume", action="store_true", default=True)
     args = ap.parse_args()
     train(args)
 
