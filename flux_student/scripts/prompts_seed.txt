@@ -1,45 +1,50 @@
-a red apple on a wooden table
-a small brown dog running in a park
-a blue car on a city street
-a white cat sitting on a chair
-a green tree under blue sky
-a cup of coffee on a desk
-a mountain landscape at sunset
-a portrait of a young woman
-a robot standing in a laboratory
-a knight in shiny armor
-a wizard with a glowing staff
-a pixel art character sprite
-an arcade game hero
-a simple house with a red roof
-a bicycle next to a fence
-a flower in a glass vase
-a ship on the ocean
-a bird flying in the sky
-a sandwich on a plate
-a laptop on a desk
-فارس بدرع لامع
-روبوت معدني
-قطة بيضاء
-شجرة خضراء
-سيارة زرقاء
-a yellow banana on a plate
-a black cat in a window
-a firefighter in uniform
-a chef cooking in a kitchen
-a soccer player kicking a ball
-a train on railway tracks
-a castle on a hill
-a dragon flying over mountains
-a samurai with a sword
-a ninja in black clothes
-a pirate on a ship
-a astronaut on the moon
-a penguin on ice
-a lion in the savanna
-a butterfly on a flower
-فارس عربي على حصان
-ساحر يطلق نار
-وحش أخضر
-طائر يحلق
-بيت صغير
+a knight in shiny armor, full body character, simple background
+a mage with a glowing staff, full body character
+a robot android character, full body
+a ninja in black clothes, full body
+a green monster character, full body
+فارس بدرع لامع، شخصية كاملة
+ساحر بعصا مضيئة، شخصية كاملة
+روبوت معدني، شخصية كاملة
+a cyber soldier standing in futuristic armor, full body
+a female rogue with dual daggers in stealth pose, full body
+a male warrior holding an iron broadsword, full body
+an elven archer drawing a wooden longbow, full body
+an ancient wizard casting a fiery spell, full body
+a heavy armored dwarf with a battle hammer, full body
+a dark necromancer summoning shadowy spirits, full body
+a high elf spellcaster holding an ornate staff, full body
+a samurai warrior wielding a sharp katana, full body
+a pirate captain with an eyepatch and cutlass, full body
+a viking berserker with dual axes, full body
+a mechanical cyborg warrior with glowing red eyes, full body
+an alien creature with four arms and armored scales, full body
+a forest elemental golem made of mossy stones, full body
+a shadow assassin holding throwing stars, full body
+a noble paladin in gold and white plate armor, full body
+a desert bedouin warrior wielding a curved scimitar, full body
+a horned demon warrior with fiery wings, full body
+an undead skeleton knight in rusty chainmail, full body
+a gothic vampire lord in a dark velvet cape, full body
+a winged angel warrior holding a golden spear, full body
+a futuristic mech pilot in an armored jumpsuit, full body
+محارب شجاع يحمل سيفاً ودرعاً، شخصية كاملة
+رامية سهام خبيرة من الألف، شخصية كاملة
+نينجا محترف بالرداء الأسود، شخصية كاملة
+وحش صخري عملاق ذو عيون متوهجة، شخصية كاملة
+قرصان فضاء مسلح ببندقية ليزر، شخصية كاملة
+فارس بدوي بسيف مقوس في الصحراء، شخصية كاملة
+فتاة مقاتلة بدروع معدنية خفيفة، شخصية كاملة
+ساحرة ظلال ترتدي عباءة بنفسجية، شخصية كاملة
+رجل آلي مستقبلي بمدافع ليزر، شخصية كاملة
+حارس فرعوني بدرع ذهبي ورمح، شخصية كاملة
+كائن فضائي غريب المظهر، شخصية كاملة
+مقاتل سايبر متطور في مدينة السايبربانك، شخصية كاملة
+عملاق جليدي قوي المظهر، شخصية كاملة
+مستدعي وحوش يقرأ من كتاب قديم، شخصية كاملة
+شخصية لص رشيق يقفز بخفة، شخصية كاملة
+حكيم مسن بعصا خشبية، شخصية كاملة
+صياد وحوش مسلح بقوس ونشاب، شخصية كاملة
+حداد قوي يحمل مطرقة حديدية، شخصية كاملة
+مبارز بالسيف في درع فولاذي، شخصية كاملة
+فارسة نبيلة بدرع فضي ووشاح أحمر، شخصية كاملة

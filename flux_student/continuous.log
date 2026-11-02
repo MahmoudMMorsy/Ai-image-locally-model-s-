@@ -1,0 +1,6 @@
+[2026-11-02 03:06:38] samples dumped
+[2026-11-02 03:10:59] Manual cycle test execution
+[2026-11-02 03:11:01] train resumed checkpoint
+[2026-11-02 03:11:06] train ep 1/1 loss=1.0113 n=8
+[2026-11-02 03:11:07] train saved loss=1.0113
+[2026-11-02 03:11:09] samples dumped
