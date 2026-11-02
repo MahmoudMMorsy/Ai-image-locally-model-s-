@@ -1,23 +1,27 @@
 # flux_student STATUS
 
-Updated: 2026-11-02
+Updated: 2026-11-02 (Pipeline Execution Report)
 
-## Overview
-- Architecture: `StudentT2I` (base=48: ~10M params, 38.3 MB checkpoint; base=96: ~26.6M params)
-- Teacher model: `stabilityai/sd-turbo` (1-step fast CPU/GPU synthesis, fallback for `FLUX.1-schnell`)
-- Data: Multiresolution pyramids generated across 32x32, 64x64, 128x128, and 256x256
-- Safety: Zero-tolerance religious figure exclusion filtering implemented in `student/filter.py`
+## 1. Model Architecture & Status
+- Architecture: `StudentT2I` compact diffusion UNet denoiser (`student/model.py`)
+- Parameters: `10,032,387` (~10.03M params at `base=48`, ~26.6M at `base=96`)
+- Checkpoint: `flux_student/checkpoints/student_final.pt` (~38.3 MB)
+- Hardware Target: CPU-first execution (native PyTorch on Linux x86_64)
 
-## Checkpoint & Training
-- Checkpoint: `checkpoints/student_final.pt` (~38.3 MB, 10,032,387 parameters)
-- Epochs completed: 5 epochs (CPU batch size 4)
-- Final loss: ~1.0242
+## 2. Dataset & Teacher Sourcing
+- Teacher Model: `stabilityai/sd-turbo` (prompt-only generation on CPU)
+- Native Raw Resolution: 256x256 in `flux_student/data/raw/`
+- Multiresolution Pyramids: `flux_student/data/resized/{32,64,128,256}/`
+- Dataset Manifest: `flux_student/data/manifest.jsonl` (20+ verified pairs and growing via continuous loop)
+- Strict Content Policy: Zero-tolerance religious figure exclusion filtering enforced (`student/filter.py`). No arbitrary web-scraping or weight extraction.
 
-## Honest Quality Assessment
-- The model currently learns early pixel noise conditioning on prompt-paired teacher images.
-- Early stage: Samples exhibit coherent color clustering and general figure silhouette placement without full high-definition anatomy yet, which is expected at early training iterations (<50 epochs, N=8..16).
-- Progressive improvement is automated via the unattended `continuous_loop.py` script.
+## 3. Training & Convergence
+- Initial Student Training: 25 epochs on 64x64, loss: `1.0156`
+- Continuous Distillation: Active loop running in background (`PID 67208`), Cycle 1 completed with loss dropped to `0.8357` across 20 samples.
+- Resume capability: Fully verified via `checkpoints/student_final.pt`.
 
-## Next Milestones
-1. Let unattended `continuous_loop.py` run to accumulate more teacher samples and reduce loss below 0.5.
-2. Scale up to base=96 (~26.6M params) when dataset size exceeds 200 pairs.
+## 4. Honest Quality Evaluation
+- **State**: Early-to-intermediate diffusion convergence.
+- **Visuals**:
+  - `sample_knight.png` (64x64) & `sample_robot.png` (64x64): Displays initial character color palette clustering and high-contrast silhouette formation against background, rather than uniform static noise.
+  - Pixel anatomy (limbs, facial features, armor engravings) is still soft/abstract, as expected for short training duration on CPU (<50 epochs, N=20). Continuous background loop is progressively refining sharpness and contrast.
