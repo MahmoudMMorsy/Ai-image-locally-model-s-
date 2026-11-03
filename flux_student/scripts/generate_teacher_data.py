@@ -5,12 +5,16 @@ Fallback: sd-turbo / small SD for pipeline bootstrap when disk/RAM limited.
 """
 from __future__ import annotations
 import argparse, json
+import sys
 from pathlib import Path
 
 import torch
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from student.filter import is_safe_prompt
+
 SIZES = (32, 64, 128, 256)
 
 
@@ -69,6 +73,9 @@ def try_sd_turbo(prompts: list[str], out_meta: list, max_n: int, steps: int):
     raw = ROOT / "data" / "raw"
     raw.mkdir(parents=True, exist_ok=True)
     for i, p in enumerate(prompts[:max_n]):
+        if not is_safe_prompt(p):
+            print(f"[safety] skipping prohibited prompt: {p[:60]}")
+            continue
         print(f"[sd-turbo] {i+1}/{min(max_n,len(prompts))}: {p[:60]}")
         img = pipe(p, num_inference_steps=max(steps, 1), guidance_scale=0.0, height=256, width=256).images[0]
         stem = Path(f"turbo_{i:05d}")

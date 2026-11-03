@@ -9,3 +9,12 @@
   - Student model (base=48, 10.03M params) trained 5 epochs on CPU; loss ~1.024.
   - Checkpoint saved to `checkpoints/student_final.pt` (38.3 MB).
   - Inference samples generated in `samples/sample_knight.png` and `samples/sample_robot.png`.
+- 2026-11-03:
+  - Installed environment dependencies (diffusers, transformers, accelerate, onnx, onnxruntime, etc.).
+  - Expanded `scripts/prompts_seed.txt` to 70 rich bilingual prompt archetypes covering characters, creatures, androids, monsters, and classes in full-body poses.
+  - Integrated `is_safe_prompt` filter into `generate_teacher_data.py` and `continuous_loop.py` to guarantee zero religious depiction violations during synthesis.
+  - Generated 24 base teacher character images via `stabilityai/sd-turbo` into `data/raw/` and multiresolution pyramids in `data/resized/{32,64,128,256}/`.
+  - Trained Student model (base=48, 10.03M params) for 25 epochs on CPU, reducing MSE loss to 1.0090.
+  - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
+  - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
+  - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.

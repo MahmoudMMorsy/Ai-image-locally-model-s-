@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 os.chdir(ROOT)
+from student.filter import is_safe_prompt
 
 LOG = ROOT / "continuous.log"
 MANIFEST = ROOT / "data" / "manifest.jsonl"
@@ -73,6 +74,9 @@ def try_generate_batch(n: int = 4) -> int:
         if sid in existing:
             continue
         p = prompts[(start_idx + k) % len(prompts)]
+        if not is_safe_prompt(p):
+            log(f"gen skip safe: {p[:50]}")
+            continue
         try:
             log(f"gen {sid}: {p[:50]}")
             img = pipe(p, num_inference_steps=1, guidance_scale=0.0, height=256, width=256).images[0]
