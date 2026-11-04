@@ -52,4 +52,115 @@ You have disabled the safety checker for <class 'diffusers.pipelines.stable_diff
 [2026-11-03 23:53:05] train ep 1/8 loss=0.4949 n=32
 [2026-11-03 23:53:23] train ep 2/8 loss=0.4819 n=32
 [2026-11-03 23:53:40] train ep 3/8 loss=0.4842 n=32
-[2026-11-03 23:53:40] train ep 3/8 loss=0.4842 n=32
+[2026-11-03 23:53:57] train ep 4/8 loss=0.4833 n=32
+[2026-11-03 23:54:15] train ep 5/8 loss=0.4557 n=32
+[2026-11-04 08:00:00] train ep 6/8 loss=0.4412 n=32
+[2026-11-04 08:00:18] train ep 7/8 loss=0.4315 n=32
+[2026-11-04 08:00:36] train ep 8/8 loss=0.4128 n=32
+[2026-11-04 08:00:36] train saved loss=0.4128
+[2026-11-04 08:00:40] samples dumped
+[2026-11-04 08:00:40] cycle 2 sleep 30s
+[2026-11-04 08:01:10] === cycle 3 ===
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  23%|██▎       | 87/372 [00:00<00:00, 817.45it/s][A
+Loading weights:  53%|█████▎    | 198/372 [00:00<00:00, 958.38it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 1223.68it/s]
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:03,  1.18it/s]Loading pipeline components...:  40%|████      | 2/5 [00:01<00:01,  2.19it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:01<00:00,  2.14it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  3.79it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  2.89it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-04 08:01:12] gen turbo_00032: نينجا محترف بالرداء الأسود، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:15<00:00, 15.83s/it]100%|██████████| 1/1 [00:15<00:00, 15.83s/it]
+[2026-11-04 08:01:38] gen turbo_00033: وحش صخري عملاق ذو عيون متوهجة، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.04s/it]100%|██████████| 1/1 [00:02<00:00,  2.04s/it]
+[2026-11-04 08:01:45] gen turbo_00034: قرصان فضاء مسلح ببندقية ليزر، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.98s/it]100%|██████████| 1/1 [00:01<00:00,  1.98s/it]
+[2026-11-04 08:01:51] gen turbo_00035: فارس بدوي بسيف مقوس في الصحراء، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.24s/it]100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+[2026-11-04 08:01:58] gen done added=4 total=36
+[2026-11-04 08:01:58] train resumed checkpoint
+[2026-11-04 08:02:12] train ep 1/8 loss=0.4281 n=36
+[2026-11-04 08:02:22] train ep 2/8 loss=0.4043 n=36
+[2026-11-04 08:02:35] train ep 3/8 loss=0.4198 n=36
+[2026-11-04 08:02:52] train ep 4/8 loss=0.3792 n=36
+[2026-11-04 08:03:17] train ep 5/8 loss=0.3768 n=36
+[2026-11-04 08:03:32] train ep 6/8 loss=0.3671 n=36
+[2026-11-04 08:03:55] train ep 7/8 loss=0.3846 n=36
+[2026-11-04 08:04:25] train ep 8/8 loss=0.3748 n=36
+[2026-11-04 08:04:26] train saved loss=0.3748
+[2026-11-04 08:04:29] samples dumped
+[2026-11-04 08:04:29] cycle 3 sleep 30s
+[2026-11-04 08:04:59] === cycle 4 ===
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  25%|██▌       | 94/372 [00:00<00:00, 932.92it/s][A
+Loading weights:  51%|█████     | 188/372 [00:00<00:00, 886.29it/s][A
+Loading weights:  74%|███████▍  | 277/372 [00:00<00:00, 881.28it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 921.17it/s]
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:03,  1.26it/s]Loading pipeline components...:  40%|████      | 2/5 [00:00<00:01,  2.42it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:01<00:00,  2.36it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  4.54it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:01<00:00,  3.32it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-04 08:05:01] gen turbo_00036: فتاة مقاتلة بدروع معدنية خفيفة، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:06<00:00,  6.40s/it]100%|██████████| 1/1 [00:06<00:00,  6.40s/it]
+[2026-11-04 08:05:15] gen turbo_00037: ساحرة ظلال ترتدي عباءة بنفسجية، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.91s/it]100%|██████████| 1/1 [00:01<00:00,  1.91s/it]
+[2026-11-04 08:05:22] gen turbo_00038: رجل آلي مستقبلي بمدافع ليزر، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.07s/it]100%|██████████| 1/1 [00:02<00:00,  2.07s/it]
+[2026-11-04 08:05:29] gen turbo_00039: حارس فرعوني بدرع ذهبي ورمح، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.69s/it]100%|██████████| 1/1 [00:02<00:00,  2.69s/it]
+[2026-11-04 08:05:37] gen done added=4 total=40
+[2026-11-04 08:05:37] train resumed checkpoint
+[2026-11-04 08:06:04] train ep 1/8 loss=0.3925 n=40
+[2026-11-04 08:06:20] train ep 2/8 loss=0.3636 n=40
+[2026-11-04 08:06:38] train ep 3/8 loss=0.3882 n=40
+[2026-11-04 08:06:53] train ep 4/8 loss=0.3843 n=40
+[2026-11-04 08:07:09] train ep 5/8 loss=0.3828 n=40
+[2026-11-04 08:07:26] train ep 6/8 loss=0.3992 n=40
+[2026-11-04 08:07:43] train ep 7/8 loss=0.3893 n=40
+[2026-11-04 08:07:58] train ep 8/8 loss=0.3896 n=40
+[2026-11-04 08:07:59] train saved loss=0.3896
+[2026-11-04 08:08:02] samples dumped
+[2026-11-04 08:08:02] cycle 4 sleep 30s
+[2026-11-04 08:08:32] === cycle 5 ===
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  40%|████      | 150/372 [00:00<00:00, 1497.10it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 1897.42it/s]
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  3.05it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:04<00:03,  1.68s/it]Loading pipeline components...: 100%|██████████| 5/5 [00:04<00:00,  1.06it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-04 08:08:37] gen turbo_00040: كائن فضائي غريب المظهر، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.68s/it]100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+[2026-11-04 08:08:44] gen turbo_00041: مقاتل سايبر متطور في مدينة السايبربانك، شخصية كامل
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.10s/it]100%|██████████| 1/1 [00:02<00:00,  2.10s/it]
+[2026-11-04 08:08:49] gen turbo_00042: عملاق جليدي قوي المظهر، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.32s/it]100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+[2026-11-04 08:08:54] gen turbo_00043: مستدعي وحوش يقرأ من كتاب قديم، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.24s/it]100%|██████████| 1/1 [00:02<00:00,  2.24s/it]
+[2026-11-04 08:09:01] gen done added=4 total=44
+[2026-11-04 08:09:01] train resumed checkpoint
+[2026-11-04 08:09:17] train ep 1/8 loss=0.3630 n=44
+[2026-11-04 08:09:36] train ep 2/8 loss=0.3790 n=44
+[2026-11-04 08:09:51] train ep 3/8 loss=0.3671 n=44
+[2026-11-04 08:10:04] train ep 4/8 loss=0.3781 n=44
+[2026-11-04 08:10:20] train ep 5/8 loss=0.3899 n=44
+[2026-11-04 08:10:33] train ep 6/8 loss=0.3809 n=44
+[2026-11-04 08:10:46] train ep 7/8 loss=0.3910 n=44
+[2026-11-04 08:10:59] train ep 8/8 loss=0.3745 n=44
+[2026-11-04 08:10:59] train saved loss=0.3745
+[2026-11-04 08:11:01] samples dumped
+[2026-11-04 08:11:01] cycle 5 sleep 30s
+[2026-11-04 08:11:31] === cycle 6 ===
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 5412.01it/s]
+Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  3.22it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:00<00:00,  5.67it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  7.60it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.StableDiffusionPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+[2026-11-04 08:11:32] gen turbo_00044: شخصية لص رشيق يقفز بخفة، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.16s/it]100%|██████████| 1/1 [00:02<00:00,  2.16s/it]
+[2026-11-04 08:11:38] gen turbo_00045: حكيم مسن بعصا خشبية، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.32s/it]100%|██████████| 1/1 [00:02<00:00,  2.32s/it]
+[2026-11-04 08:11:45] gen turbo_00046: صياد وحوش مسلح بقوس ونشاب، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.44s/it]100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+[2026-11-04 08:11:50] gen turbo_00047: حداد قوي يحمل مطرقة حديدية، شخصية كاملة
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:01<00:00,  1.35s/it]100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+[2026-11-04 08:11:55] gen done added=4 total=48
+[2026-11-04 08:11:55] train resumed checkpoint
+[2026-11-04 08:12:15] train ep 1/8 loss=0.3783 n=48
+[2026-11-04 08:12:33] train ep 2/8 loss=0.3651 n=48
+[2026-11-04 08:12:53] train ep 3/8 loss=0.3940 n=48
+[2026-11-04 08:13:11] train ep 4/8 loss=0.3868 n=48
+[2026-11-04 08:13:11] train ep 4/8 loss=0.3868 n=48

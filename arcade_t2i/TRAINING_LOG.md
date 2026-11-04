@@ -47,3 +47,33 @@
 4. `قطة` / `cat`: Small feline quadruped/ear silhouette.
 5. `تنين` / `dragon`: Distinct winged/tailed dragon sprite silhouette.
 6. Seed Variation: Different random seeds (42, 101, 2024) yield variations.
+
+## [2026-11-03] Phase 0 — Full-Repo Image Index for 64x64 Arcade Training
+
+- **Phase:** Phase 0 — Full-Repo Image Index only (no training)
+- **Status:** PASS
+- **Manifest:** `arcade_t2i/manifests/manifest_unified.jsonl`
+- **Total Usable Frames (N):** 17,691 (Target N >= 15,000 satisfied, > 1,000 hard stop threshold)
+- **Total Dropped Frames:** 287 (logged to `arcade_t2i/manifests/drops.log`, transparent / empty / low-variance frames)
+
+### Per-Folder Breakdown:
+- `All-data-Trine/**`: 22
+- `examples/**`: 247
+- `mm.trine/**`: 4,899 (with `char_hash` parsed from `NNNNN__<hash>__...`)
+- `nano arcked dat/**`: 10,027
+- `nano_arcade_data/**`: 2,496
+
+### Class Distribution (13 Archetypes):
+- `mage`: 8,298
+- `warrior`: 2,149
+- `robot`: 1,715
+- `knight`: 623
+- `cat`: 589
+- `animal`: 584
+- `rogue`: 554
+- `ghost`: 549
+- `dragon`: 534
+- `monster`: 531
+- `archer`: 530
+- `pirate`: 518
+- `princess`: 517
