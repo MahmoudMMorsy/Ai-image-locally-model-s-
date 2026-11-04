@@ -18,3 +18,11 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-04:
+  - Installed PyTorch CPU build, torchvision, diffusers, transformers, and accelerate into Python 3.10 environment.
+  - Hardened regex boundary patterns in `flux_student/student/filter.py` using `(?<![\\w\\u0600-\\u06FF])` and `(?![\\w\\u0600-\\u06FF])` to eliminate Arabic false-positives while strictly enforcing prohibitions against sacred religious figures.
+  - Verified `flux_student/scripts/prompts_seed.txt` with zero violations across all 70 full-body character prompts.
+  - Generated teacher character images with `stabilityai/sd-turbo` and resized pyramids (32x32, 64x64, 128x128, 256x256) into `data/resized/` with `data/manifest.jsonl`.
+  - Trained `StudentT2I` student denoiser (10.03M params, 38.3 MB) for 20 epochs down to loss=1.0060.
+  - Conducted multiresolution inference (32, 64, 128) across English and Arabic prompts saving samples to `samples/`.
+  - Started unattended continuous distillation loop in background, completing cycles, adding new synthesized teacher pairs, and reducing loss down to 0.7867.
