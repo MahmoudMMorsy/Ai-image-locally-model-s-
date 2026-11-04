@@ -18,3 +18,11 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-04:
+  - Installed environment packages: `torch`, `torchvision`, `diffusers`, `transformers`, `accelerate`, and `Pillow`.
+  - Executed full test suite `flux_student/tests/test_pipeline.py` (5/5 tests passing).
+  - Generated fresh 20-image character teacher batch via `stabilityai/sd-turbo` across 32, 64, 128, and 256 pixel pyramids.
+  - Implemented `--resume` flag in `scripts/train_student.py` ensuring persistence of weights, epoch, loss, and base size.
+  - Trained `StudentT2I` base=48 (~10.03M parameters) on CPU, reducing MSE loss across 15 epochs.
+  - Generated character inference samples (`knight.png`, `robot_ar.png`, `mage_256.png`) in `flux_student/samples/`.
+  - Launched background continuous loop (`scripts/continuous_loop.py`), completing autonomous teacher generation, training iterations (loss 0.8158), sample dumps, and status updates.
