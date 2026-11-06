@@ -2,26 +2,33 @@
 from __future__ import annotations
 import re
 
-PROHIBITED_TERMS = [
+# Unicode word boundary for multilingual (English + Arabic)
+_WB_LEFT = r"(?<![\w\u0600-\u06FF])"
+_WB_RIGHT = r"(?![\w\u0600-\u06FF])"
+
+RAW_PROHIBITED_WORDS = [
     # Divine and religious sacred representations
-    r"\ballah\b", r"\bgod\b", r"\bdeity\b", r"\bdivine\b", r"\blord\b",
-    r"الله", r"رب", r"إله", r"الإله",
+    "allah", "god", "deity", "divine", "lord",
+    "الله", "رب", "إله", "الإله", "الرب",
     # Islamic Prophets and Messengers
-    r"\bmuhammad\b", r"\bmohammed\b", r"\bjesus\b", r"\bisa\b", r"\bmoses\b",
-    r"\bmusa\b", r"\babraham\b", r"\bibrahim\b", r"\bnoah\b", r"\bnuh\b",
-    r"\badam\b", r"\byusuf\b", r"\bjoseph\b", r"\bdavid\b", r"\bdawood\b",
-    r"\bsolomon\b", r"\bsulaiman\b", r"\bprophet\b", r"\bmessenger\b",
-    r"محمد", r"عيسى", r"موسى", r"إبراهيم", r"نوح", r"آدم", r"يوسف",
-    r"داود", r"سليمان", r"نبي", r"رسول",
+    "muhammad", "mohammed", "jesus", "isa", "moses",
+    "musa", "abraham", "ibrahim", "noah", "nuh",
+    "adam", "yusuf", "joseph", "david", "dawood",
+    "solomon", "sulaiman", "prophet", "messenger",
+    "محمد", "عيسى", "موسى", "إبراهيم", "نوح", "آدم", "يوسف",
+    "داود", "سليمان", "نبي", "رسول",
     # Sahaba (Companions)
-    r"\babu bakr\b", r"\bumar\b", r"\bothman\b", r"\buthman\b", r"\bali\b",
-    r"أبو بكر", r"عمر", r"عثمان", r"علي", r"الصحابة", r"صحابي",
+    "abu bakr", "umar", "othman", "uthman", "ali",
+    "أبو بكر", "عمر", "عثمان", "علي", "الصحابة", "صحابي",
     # Embodying sacred Islamic symbols
-    r"\bkaaba\b", r"\bquran\b", r"\bkoran\b", r"\bmosque\b", r"\bmecca\b", r"\bmedina\b",
-    r"الكعبة", r"كعبة", r"القرآن", r"مصحف", r"مسجد", r"مكة", r"المدينة المنورة"
+    "kaaba", "quran", "koran", "mosque", "mecca", "medina",
+    "الكعبة", "كعبة", "القرآن", "مصحف", "مسجد", "مكة", "المدينة المنورة"
 ]
 
-_COMPILED_PATTERNS = [re.compile(p, re.IGNORECASE) for p in PROHIBITED_TERMS]
+_COMPILED_PATTERNS = [
+    re.compile(f"{_WB_LEFT}{re.escape(w)}{_WB_RIGHT}", re.IGNORECASE)
+    for w in RAW_PROHIBITED_WORDS
+]
 
 def is_safe_prompt(prompt: str) -> bool:
     """Checks whether prompt complies with strict Islamic religious exclusion policy."""

@@ -25,7 +25,7 @@ a noble paladin in gold and white plate armor, full body
 a desert bedouin warrior wielding a curved scimitar, full body
 a horned demon warrior with fiery wings, full body
 an undead skeleton knight in rusty chainmail, full body
-a gothic vampire lord in a dark velvet cape, full body
+a gothic vampire in a dark velvet cape, full body
 a winged angel warrior holding a golden spear, full body
 a futuristic mech pilot in an armored jumpsuit, full body
 محارب شجاع يحمل سيفاً ودرعاً، شخصية كاملة
@@ -68,3 +68,23 @@ a deep sea mermaid warrior holding a pearl trident, full body creature
 شخصية عفريت غوبلن خبيث يحمل خنجراً، كائن كامل
 محاربة بربرية بفأس مزدوج وقناع جلدي، شخصية كاملة
 كائن طيني عنصري بأحجار بلورية متوهجة، كائن كامل
+a futuristic cyberpunk gunslinger with dual plasma pistols, full body
+a dark knight warrior in obsidian armor, full body
+a celestial winged valkyrie with glowing spear, full body
+a forest druid character surrounded by glowing leaves, full body
+a heavy steam-powered mecha robot with gatling cannon, full body
+an ancient pharaoh guardian warrior with golden khopesh, full body
+a wandering martial artist monk in orange training gi, full body
+a shadow rogue thief climbing a stone wall, full body
+an armored gladiatorial warrior with trident and net, full body
+a cybernetic female ninja with neon purple blades, full body
+فارس تنين بأجنحة جلدية ودرع قرمزي، شخصية كاملة
+مقاتل ساموراي في وضعية هجوم كيندو، شخصية كاملة
+ساحر جليدي يستحضر عاصفة ثلجية، شخصية كاملة
+وحش بحري هجين بأطراف مجدافية، كائن كامل
+روبوت استطلاع فضائي ذو ثلاث أرجل، روبوت كامل
+صيادة أرواح بقناع عظمي ورداء أسود، شخصية كاملة
+فارس مدرع على طراز العصور الوسطى، شخصية كاملة
+مهندس ميكانيكي ستيم بانك بحقيبة تروس، شخصية كاملة
+غول أحمر عملاق بقرنين وقضيب حديدي، كائن كامل
+فارسة خفيفة بقوس مركب وسهام متوهجة، شخصية كاملة
