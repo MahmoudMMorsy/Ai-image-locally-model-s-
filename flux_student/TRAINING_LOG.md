@@ -18,3 +18,11 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-06:
+  - Environment rebuilt with PyTorch CPU, torchvision, diffusers, transformers, and accelerate.
+  - Added `size_variants: [32, 64, 128, 256]` attribute to teacher manifests in `generate_teacher_data.py` and `continuous_loop.py`.
+  - Added `--resume` support to `train_student.py`.
+  - Generated 20 teacher character images into `data/raw/` and resampled multi-resolution pyramids into `data/resized/{32,64,128,256}/`.
+  - Trained Student model (10.03M params) for 15 initial epochs, resumed for 10 additional epochs, bringing MSE loss to 1.0077, saved to `checkpoints/student_final.pt`.
+  - Generated multiresolution evaluation samples in `samples/` (knight, robot, mage) across 32, 64, and 256.
+  - Active background loop running via `continuous_loop.py` generating new teacher pairs and incrementally lowering loss.
