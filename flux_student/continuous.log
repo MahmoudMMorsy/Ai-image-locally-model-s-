@@ -77,3 +77,89 @@
 [2026-11-03 20:35:05] train saved loss=0.6437
 [2026-11-03 20:35:09] samples dumped
 [2026-11-03 20:35:09] cycle 4 sleep 30s
+[2026-11-07 20:04:17] === continuous_loop START ===
+[2026-11-07 20:04:17] === cycle 1 ===
+[2026-11-07 20:04:23] gen turbo_00024: a desert bedouin warrior wielding a curved scimita
+[2026-11-07 20:04:27] gen turbo_00025: a horned demon warrior with fiery wings, full body
+[2026-11-07 20:04:32] gen turbo_00026: an undead skeleton knight in rusty chainmail, full
+[2026-11-07 20:04:36] gen skip safe: a gothic vampire lord in a dark velvet cape, full
+[2026-11-07 20:04:36] gen done added=3 total=27
+[2026-11-07 20:04:36] train resumed checkpoint
+[2026-11-07 20:04:46] train ep 1/8 loss=1.0015 n=27
+[2026-11-07 20:04:57] train ep 2/8 loss=0.9938 n=27
+[2026-11-07 20:05:04] train ep 3/8 loss=0.9435 n=27
+[2026-11-07 20:05:11] train ep 4/8 loss=0.8782 n=27
+[2026-11-07 20:05:19] train ep 5/8 loss=0.8211 n=27
+[2026-11-07 20:05:28] train ep 6/8 loss=0.8031 n=27
+[2026-11-07 20:05:41] train ep 7/8 loss=0.7751 n=27
+[2026-11-07 20:05:48] train ep 8/8 loss=0.7541 n=27
+[2026-11-07 20:05:49] train saved loss=0.7541
+[2026-11-07 20:05:51] samples dumped
+[2026-11-07 20:05:51] cycle 1 sleep 30s
+[2026-11-07 20:06:21] === cycle 2 ===
+[2026-11-07 20:06:22] gen skip safe: a gothic vampire lord in a dark velvet cape, full
+[2026-11-07 20:06:22] gen turbo_00028: a winged angel warrior holding a golden spear, ful
+[2026-11-07 20:06:27] gen turbo_00029: a futuristic mech pilot in an armored jumpsuit, fu
+[2026-11-07 20:06:31] gen turbo_00030: محارب شجاع يحمل سيفاً ودرعاً، شخصية كاملة
+[2026-11-07 20:06:36] gen done added=3 total=30
+[2026-11-07 20:06:36] train resumed checkpoint
+[2026-11-07 20:06:46] train ep 1/8 loss=0.7325 n=30
+[2026-11-07 20:06:57] train ep 2/8 loss=0.7148 n=30
+[2026-11-07 20:07:07] train ep 3/8 loss=0.7081 n=30
+[2026-11-07 20:07:18] train ep 4/8 loss=0.7075 n=30
+[2026-11-07 20:07:31] train ep 5/8 loss=0.7057 n=30
+[2026-11-07 20:07:42] train ep 6/8 loss=0.6898 n=30
+[2026-11-07 20:07:51] train ep 7/8 loss=0.6990 n=30
+[2026-11-07 20:08:04] train ep 8/8 loss=0.6876 n=30
+[2026-11-07 20:08:04] train saved loss=0.6876
+[2026-11-07 20:08:07] samples dumped
+[2026-11-07 20:08:07] cycle 2 sleep 30s
+[2026-11-07 20:08:37] === cycle 3 ===
+[2026-11-07 20:08:37] gen turbo_00031: رامية سهام خبيرة من الألف، شخصية كاملة
+[2026-11-07 20:08:43] gen turbo_00032: نينجا محترف بالرداء الأسود، شخصية كاملة
+[2026-11-07 20:08:47] gen turbo_00033: وحش صخري عملاق ذو عيون متوهجة، شخصية كاملة
+[2026-11-07 20:08:52] gen turbo_00034: قرصان فضاء مسلح ببندقية ليزر، شخصية كاملة
+[2026-11-07 20:08:57] gen done added=4 total=34
+[2026-11-07 20:08:57] train resumed checkpoint
+[2026-11-07 20:09:21] train ep 1/8 loss=0.6673 n=34
+[2026-11-07 20:09:34] train ep 2/8 loss=0.6496 n=34
+[2026-11-07 20:09:52] train ep 3/8 loss=0.6268 n=34
+[2026-11-07 20:10:05] train ep 4/8 loss=0.6123 n=34
+[2026-11-07 20:10:23] train ep 5/8 loss=0.6141 n=34
+[2026-11-07 20:10:38] train ep 6/8 loss=0.5807 n=34
+[2026-11-07 20:10:52] train ep 7/8 loss=0.5586 n=34
+[2026-11-07 20:11:15] train ep 8/8 loss=0.5564 n=34
+[2026-11-07 20:11:15] train saved loss=0.5564
+[2026-11-07 20:11:19] samples dumped
+[2026-11-07 20:11:19] cycle 3 sleep 30s
+[2026-11-07 20:11:49] === cycle 4 ===
+[2026-11-07 20:11:50] gen turbo_00035: فارس بدوي بسيف مقوس في الصحراء، شخصية كاملة
+[2026-11-07 20:11:54] gen turbo_00036: فتاة مقاتلة بدروع معدنية خفيفة، شخصية كاملة
+[2026-11-07 20:11:59] gen turbo_00037: ساحرة ظلال ترتدي عباءة بنفسجية، شخصية كاملة
+[2026-11-07 20:12:04] gen turbo_00038: رجل آلي مستقبلي بمدافع ليزر، شخصية كاملة
+[2026-11-07 20:12:07] gen done added=4 total=38
+[2026-11-07 20:12:08] train resumed checkpoint
+[2026-11-07 20:12:18] train ep 1/8 loss=0.5479 n=38
+[2026-11-07 20:12:28] train ep 2/8 loss=0.5177 n=38
+[2026-11-07 20:12:39] train ep 3/8 loss=0.5021 n=38
+[2026-11-07 20:12:56] train ep 4/8 loss=0.4987 n=38
+[2026-11-07 20:13:11] train ep 5/8 loss=0.4715 n=38
+[2026-11-07 20:13:27] train ep 6/8 loss=0.4484 n=38
+[2026-11-07 20:13:44] train ep 7/8 loss=0.4630 n=38
+[2026-11-07 20:14:01] train ep 8/8 loss=0.4426 n=38
+[2026-11-07 20:14:01] train saved loss=0.4426
+[2026-11-07 20:14:05] samples dumped
+[2026-11-07 20:14:05] cycle 4 sleep 30s
+[2026-11-07 20:14:35] === cycle 5 ===
+[2026-11-07 20:14:36] gen turbo_00039: حارس فرعوني بدرع ذهبي ورمح، شخصية كاملة
+[2026-11-07 20:14:41] gen turbo_00040: كائن فضائي غريب المظهر، شخصية كاملة
+[2026-11-07 20:14:47] gen turbo_00041: مقاتل سايبر متطور في مدينة السايبربانك، شخصية كامل
+[2026-11-07 20:14:52] gen turbo_00042: عملاق جليدي قوي المظهر، شخصية كاملة
+[2026-11-07 20:14:56] gen done added=4 total=42
+[2026-11-07 20:14:57] train resumed checkpoint
+[2026-11-07 20:15:14] train ep 1/8 loss=0.4209 n=42
+[2026-11-07 20:15:32] train ep 2/8 loss=0.4038 n=42
+[2026-11-07 20:15:51] train ep 3/8 loss=0.3984 n=42
+[2026-11-07 20:16:11] train ep 4/8 loss=0.4009 n=42
+[2026-11-07 20:16:28] train ep 5/8 loss=0.3754 n=42
+[2026-11-07 20:16:45] train ep 6/8 loss=0.3859 n=42

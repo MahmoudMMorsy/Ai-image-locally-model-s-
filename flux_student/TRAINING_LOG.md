@@ -18,3 +18,9 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-07:
+  - Refined religious figure and sacred symbol exclusion regex in `student/filter.py` with custom Unicode word boundaries `(?<![\w\u0600-\u06FF])` and `(?![\w\u0600-\u06FF])` to eliminate Arabic false positives while enforcing zero religious depictions.
+  - Synthesized 24 base teacher images using `stabilityai/sd-turbo` across 32x32, 64x64, 128x128, and 256x256 image pyramids into `data/manifest.jsonl`.
+  - Trained Student model (`StudentT2I`, base=48, 10.03M parameters) for 25 epochs on CPU, reducing MSE loss from 1.0930 to 1.0114; saved checkpoint to `checkpoints/student_final.pt` (39 MB).
+  - Executed multiresolution inference with `scripts/inference.py` across 32x32 and 64x64 for knight, robot, mage, and monster characters.
+  - Started unattended `scripts/continuous_loop.py` in background; completed continuous cycles, dynamically adding teacher samples and reducing loss to 0.7541, persisting status in `continuous_status.json`.
