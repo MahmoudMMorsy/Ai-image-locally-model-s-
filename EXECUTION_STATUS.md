@@ -1,19 +1,17 @@
-# EXECUTION STATUS — aligned to NANO_ARCADE_EXECUTION_PLAN_V2
+# EXECUTION STATUS — NANO_ARCADE_EXECUTION_PLAN_V2
 
 Updated: 2026-11-07
 
-## Phase 1 — Clean corpus — **PROVEN**
-- Source: `indices_clean_u8.pt` (10755)
-- After exact-hash dedupe: **6602 unique**
-- Split: train 5281 / val 660 / test 661
-- Manifest: `nano_arcade_v2/manifests/clean_manifest_v2.json`
+| Phase | Status |
+|-------|--------|
+| 1 Data clean/split | **PROVEN** (6602 unique, 5281/660/661) |
+| 2 Codec identity palette | **PROVEN** (test acc 0.935) |
+| 2 Codec VQ-VAE | **FAILED** (0.74 < 0.90) |
+| 3 Unconditional prior | **CANDIDATE** (ce≈0.60, 32 unique seeds) |
+| 4 Structured controls | NOT IMPLEMENTED |
+| 5 Text AR/EN | NOT IMPLEMENTED |
+| 6 Image-to-image | **CANDIDATE** (sweep grid) |
+| 7 Animation | NOT IMPLEMENTED |
+| 8 Android | NOT IMPLEMENTED |
 
-## Phase 2 — Codec (VQ-VAE) — **FAILED gate**
-- Best val pixel/index accuracy: **0.738** (need ≥ 0.90)
-- Min sample accuracy: **0.123** (need ≥ 0.80)
-- Checkpoint candidate: local `nano_arcade_v2/checkpoints/codec_vqvae_best.pt`
-- **Hard stop:** no prior training until codec passes
-
-## Phase 3+ — NOT IMPLEMENTED
-
-Per plan anti-hallucination rules. No claim of production generator.
+No production claim. Free-gen not visual-PROVEN. Hybrid path more readable.

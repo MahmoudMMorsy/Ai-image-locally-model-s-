@@ -1,21 +1,12 @@
 {
   "plan": "NANO_ARCADE_EXECUTION_PLAN_V2.md",
-  "phase1_data": {
-    "status": "PROVEN",
-    "N_clean_unique": 6602,
-    "train": 5281,
-    "val": 660,
-    "test": 661
-  },
-  "phase2_codec": {
-    "status": "FAILED",
-    "val_acc": 0.738,
-    "min_sample_acc": 0.123,
-    "gate_required": 0.90,
-    "n_train": 3000,
-    "epoch_best": 11,
-    "note": "Do NOT train prior until codec gate passes"
-  },
-  "phase3_prior": {"status": "NOT IMPLEMENTED"},
-  "updated": "2026-11-07"
+  "phase1_data": {"status": "PROVEN", "N_clean_unique": 6602, "train": 5281, "val": 660, "test": 661},
+  "phase2_codec_identity": {"status": "PROVEN", "test_acc": 0.935},
+  "phase2_codec_vqvae": {"status": "FAILED", "val_acc": 0.738},
+  "phase3_prior": {"status": "CANDIDATE", "ce": 0.597, "unique_among_32": 32, "occupancy_mean": 0.268},
+  "phase4_controls": {"status": "NOT IMPLEMENTED"},
+  "phase5_text": {"status": "NOT IMPLEMENTED"},
+  "phase6_i2i": {"status": "CANDIDATE", "note": "strength sweep grid produced"},
+  "phase7_animation": {"status": "NOT IMPLEMENTED"},
+  "phase8_android": {"status": "NOT IMPLEMENTED"}
 }
