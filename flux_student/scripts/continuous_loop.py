@@ -87,7 +87,7 @@ def try_generate_batch(n: int = 4) -> int:
                 d = ROOT / "data" / "resized" / str(s)
                 d.mkdir(parents=True, exist_ok=True)
                 out.save(d / f"{sid}.png")
-            meta.append({"id": sid, "prompt": p, "teacher": "sd-turbo"})
+            meta.append({"id": sid, "prompt": p, "teacher": "sd-turbo", "size_variants": list(SIZES)})
             added += 1
         except Exception as e:
             log(f"gen fail {sid}: {e}")
@@ -104,7 +104,7 @@ def try_generate_batch(n: int = 4) -> int:
         pass
     return added
 
-def train_epochs(epochs: int = 10) -> float:
+def train_epochs(epochs: int = 8) -> float:
     try:
         import numpy as np
         from PIL import Image, ImageOps
