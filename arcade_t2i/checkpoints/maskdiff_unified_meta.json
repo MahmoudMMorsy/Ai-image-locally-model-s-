@@ -1,7 +1,8 @@
 {
-  "ce": 0.44072385877370834,
-  "n": 800,
-  "epochs": 10,
-  "time_s": 23.78,
-  "note": "subset train due to RAM; full N=2000 indices available locally"
+  "ce": 0.3267,
+  "n": 2000,
+  "epochs": 20,
+  "dim": 40,
+  "free_gen": "weak",
+  "hybrid": "readable"
 }
