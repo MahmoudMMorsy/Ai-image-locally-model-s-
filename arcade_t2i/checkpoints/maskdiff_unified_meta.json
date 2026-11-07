@@ -1,0 +1,7 @@
+{
+  "ce": 0.44072385877370834,
+  "n": 800,
+  "epochs": 10,
+  "time_s": 23.78,
+  "note": "subset train due to RAM; full N=2000 indices available locally"
+}

@@ -1,0 +1,8 @@
+{
+  "N": 5104,
+  "per_folder": {"mm.trine": 5104},
+  "unique_hashes": 111,
+  "indices_local_N": 2000,
+  "train_subset_N": 800,
+  "train_ce": 0.4407
+}

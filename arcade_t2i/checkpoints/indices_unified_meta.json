@@ -1,0 +1,6 @@
+{
+  "N": 2000,
+  "fails": 3104,
+  "shape": [2000, 64, 64],
+  "note": "quantized from downloaded mm.trine first 2000 paths"
+}
