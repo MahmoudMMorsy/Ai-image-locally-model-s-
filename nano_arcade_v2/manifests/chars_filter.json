@@ -1,0 +1,6 @@
+{
+  "kept": 4922,
+  "unique": 4922,
+  "reject": {"multi_or_sparse": 1083, "too_full": 575, "thin_weapon": 21, "edge_leak": 1},
+  "split": {"train": 3937, "val": 492, "test": 493}
+}

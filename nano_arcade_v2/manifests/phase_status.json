@@ -1,12 +1,6 @@
 {
-  "plan": "NANO_ARCADE_EXECUTION_PLAN_V2.md",
-  "phase1_data": {"status": "PROVEN", "N_clean_unique": 6602, "train": 5281, "val": 660, "test": 661},
-  "phase2_codec_identity": {"status": "PROVEN", "test_acc": 0.935},
-  "phase2_codec_vqvae": {"status": "FAILED", "val_acc": 0.738},
-  "phase3_prior": {"status": "CANDIDATE", "ce": 0.597, "unique_among_32": 32, "occupancy_mean": 0.268},
-  "phase4_controls": {"status": "NOT IMPLEMENTED"},
-  "phase5_text": {"status": "NOT IMPLEMENTED"},
-  "phase6_i2i": {"status": "CANDIDATE", "note": "strength sweep grid produced"},
-  "phase7_animation": {"status": "NOT IMPLEMENTED"},
-  "phase8_android": {"status": "NOT IMPLEMENTED"}
+  "phase1_chars_filter": {"status": "PROVEN", "unique": 4922, "train": 3937},
+  "phase3_prior_chars": {"status": "CANDIDATE", "ce": 0.671, "unique_seeds": 32, "n_train": 2500, "epoch": 22},
+  "free_gen_visual": "FAILED",
+  "hybrid_visual": "CANDIDATE"
 }
