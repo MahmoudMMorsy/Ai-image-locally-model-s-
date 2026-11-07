@@ -22,6 +22,29 @@ class ResBlock(nn.Module):
         return x + h
 
 
+class LoRALinear(nn.Module):
+    """LoRA hook on top of a standard Linear layer for optional downstream fine-tuning."""
+    def __init__(self, linear: nn.Linear, r: int = 4, scale: float = 1.0):
+        super().__init__()
+        self.linear = linear
+        self.r = r
+        self.scale = scale
+        if r > 0:
+            self.lora_A = nn.Parameter(torch.zeros(r, linear.in_features))
+            self.lora_B = nn.Parameter(torch.zeros(linear.out_features, r))
+            nn.init.kaiming_uniform_(self.lora_A, a=math.sqrt(5))
+            nn.init.zeros_(self.lora_B)
+        else:
+            self.lora_A = None
+            self.lora_B = None
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        out = self.linear(x)
+        if self.lora_A is not None and self.lora_B is not None:
+            out = out + (x @ self.lora_A.t() @ self.lora_B.t()) * self.scale
+        return out
+
+
 class StudentT2I(nn.Module):
     """Compact text-conditioned epsilon predictor. base=96 ~27M params."""
 
@@ -47,6 +70,10 @@ class StudentT2I(nn.Module):
         self.us1 = nn.ConvTranspose2d(base * 2, base, 4, 2, 1)
         self.u1 = nn.ModuleList([ResBlock(base, tdim) for _ in range(2)])
         self.out = nn.Sequential(nn.GroupNorm(8, base), nn.SiLU(), nn.Conv2d(base, 3, 3, padding=1))
+
+    def inject_lora(self, r: int = 4, scale: float = 1.0):
+        """Attaches LoRA hooks to conditioning and projection linear layers."""
+        self.cond = LoRALinear(self.cond if isinstance(self.cond, nn.Linear) else self.cond.linear, r=r, scale=scale)
 
     def temb(self, t: torch.Tensor, dim: int = 128) -> torch.Tensor:
         half = dim // 2

@@ -77,3 +77,88 @@
 [2026-11-03 20:35:05] train saved loss=0.6437
 [2026-11-03 20:35:09] samples dumped
 [2026-11-03 20:35:09] cycle 4 sleep 30s
+[2026-11-07 19:45:58] === continuous_loop START ===
+[2026-11-07 19:45:58] === cycle 1 ===
+[2026-11-07 19:46:04] gen turbo_00058: a futuristic android soldier in white and gold cyb
+[2026-11-07 19:46:11] gen turbo_00059: a deep sea mermaid warrior holding a pearl trident
+[2026-11-07 19:46:16] gen skip safe: مقاتل سايبربانك بأذرع ميكانيكية متطورة، شخصية كامل
+[2026-11-07 19:46:16] gen turbo_00061: ساحر نار كلاسيكي بأسلوب بكسل ريترو، شخصية كاملة
+[2026-11-07 19:46:22] gen done added=3 total=23
+[2026-11-07 19:46:23] train resumed checkpoint
+[2026-11-07 19:46:34] train ep 1/8 loss=1.0018 n=23
+[2026-11-07 19:46:47] train ep 2/8 loss=0.9936 n=23
+[2026-11-07 19:46:59] train ep 3/8 loss=0.9711 n=23
+[2026-11-07 19:47:08] train ep 4/8 loss=0.9311 n=23
+[2026-11-07 19:47:16] train ep 5/8 loss=0.8974 n=23
+[2026-11-07 19:47:26] train ep 6/8 loss=0.8470 n=23
+[2026-11-07 19:47:33] train ep 7/8 loss=0.8369 n=23
+[2026-11-07 19:47:45] train ep 8/8 loss=0.8109 n=23
+[2026-11-07 19:47:45] train saved loss=0.8109
+[2026-11-07 19:47:49] samples dumped
+[2026-11-07 19:47:49] cycle 1 sleep 30s
+[2026-11-07 19:48:19] === cycle 2 ===
+[2026-11-07 19:48:20] gen turbo_00062: فارس فولاذي يحمل سيفاً كبيراً ودرعاً ثقيلاً، شخصية
+[2026-11-07 19:48:25] gen turbo_00063: وحش تنين ناري مجنح يقف على الأرض، كائن كامل
+[2026-11-07 19:48:30] gen turbo_00064: قناصة فضائية ببندقية طاقة نيون خضراء، شخصية كاملة
+[2026-11-07 19:48:35] gen turbo_00065: مستذئب متوحش بفراء كثيف ومخالب حادة، كائن كامل
+[2026-11-07 19:48:40] gen done added=4 total=27
+[2026-11-07 19:48:40] train resumed checkpoint
+[2026-11-07 19:48:54] train ep 1/8 loss=0.7937 n=27
+[2026-11-07 19:49:07] train ep 2/8 loss=0.7709 n=27
+[2026-11-07 19:49:21] train ep 3/8 loss=0.7313 n=27
+[2026-11-07 19:49:37] train ep 4/8 loss=0.7273 n=27
+[2026-11-07 19:49:51] train ep 5/8 loss=0.6934 n=27
+[2026-11-07 19:50:05] train ep 6/8 loss=0.6635 n=27
+[2026-11-07 19:50:16] train ep 7/8 loss=0.6709 n=27
+[2026-11-07 19:50:30] train ep 8/8 loss=0.6573 n=27
+[2026-11-07 19:50:30] train saved loss=0.6573
+[2026-11-07 19:50:34] samples dumped
+[2026-11-07 19:50:34] cycle 2 sleep 30s
+[2026-11-07 19:51:04] === cycle 3 ===
+[2026-11-07 19:51:05] gen turbo_00066: حارس آلي ضخم بدروع مصفحة وقبضات حديدية، روبوت كامل
+[2026-11-07 19:51:12] gen turbo_00067: شخصية عفريت غوبلن خبيث يحمل خنجراً، كائن كامل
+[2026-11-07 19:51:24] gen skip safe: محاربة بربرية بفأس مزدوج وقناع جلدي، شخصية كاملة
+[2026-11-07 19:51:24] gen turbo_00069: كائن طيني عنصري بأحجار بلورية متوهجة، كائن كامل
+[2026-11-07 19:51:30] gen done added=3 total=30
+[2026-11-07 19:51:30] train resumed checkpoint
+[2026-11-07 19:51:50] train ep 1/8 loss=0.6396 n=30
+[2026-11-07 19:52:04] train ep 2/8 loss=0.6203 n=30
+[2026-11-07 19:52:21] train ep 3/8 loss=0.5903 n=30
+[2026-11-07 19:52:47] train ep 4/8 loss=0.5902 n=30
+[2026-11-07 19:53:03] train ep 5/8 loss=0.5785 n=30
+[2026-11-07 19:53:16] train ep 6/8 loss=0.5777 n=30
+[2026-11-07 19:53:25] train ep 7/8 loss=0.5760 n=30
+[2026-11-07 19:53:37] train ep 8/8 loss=0.5622 n=30
+[2026-11-07 19:53:37] train saved loss=0.5622
+[2026-11-07 19:53:41] samples dumped
+[2026-11-07 19:53:41] cycle 3 sleep 30s
+[2026-11-07 19:54:11] === cycle 4 ===
+[2026-11-07 19:54:12] gen turbo_00070: a knight in shiny armor, full body character, simp
+[2026-11-07 19:54:18] gen turbo_00071: a knight in shiny armor, full body character, simp
+[2026-11-07 19:54:23] gen turbo_00072: pixel art a knight in shiny armor, full body chara
+[2026-11-07 19:54:29] gen turbo_00073: a mage with a glowing staff, full body character,
+[2026-11-07 19:54:34] gen done added=4 total=34
+[2026-11-07 19:54:34] train resumed checkpoint
+[2026-11-07 19:54:48] train ep 1/8 loss=0.5322 n=34
+[2026-11-07 19:54:58] train ep 2/8 loss=0.5221 n=34
+[2026-11-07 19:55:08] train ep 3/8 loss=0.5317 n=34
+[2026-11-07 19:55:18] train ep 4/8 loss=0.4870 n=34
+[2026-11-07 19:55:33] train ep 5/8 loss=0.4898 n=34
+[2026-11-07 19:55:48] train ep 6/8 loss=0.4928 n=34
+[2026-11-07 19:56:06] train ep 7/8 loss=0.4667 n=34
+[2026-11-07 19:56:24] train ep 8/8 loss=0.4701 n=34
+[2026-11-07 19:56:24] train saved loss=0.4701
+[2026-11-07 19:56:27] samples dumped
+[2026-11-07 19:56:27] cycle 4 sleep 30s
+[2026-11-07 19:56:57] === cycle 5 ===
+[2026-11-07 19:56:58] gen turbo_00074: a mage with a glowing staff, full body character,
+[2026-11-07 19:57:04] gen turbo_00075: pixel art a mage with a glowing staff, full body c
+[2026-11-07 19:57:09] gen turbo_00076: a robot android character, full body, highly detai
+[2026-11-07 19:57:15] gen turbo_00077: a robot android character, full body, simple backg
+[2026-11-07 19:57:21] gen done added=4 total=38
+[2026-11-07 19:57:21] train resumed checkpoint
+[2026-11-07 19:57:42] train ep 1/8 loss=0.4651 n=38
+[2026-11-07 19:57:55] train ep 2/8 loss=0.4407 n=38
+[2026-11-07 19:58:14] train ep 3/8 loss=0.4539 n=38
+[2026-11-07 19:58:33] train ep 4/8 loss=0.4578 n=38
+[2026-11-07 19:58:52] train ep 5/8 loss=0.4198 n=38

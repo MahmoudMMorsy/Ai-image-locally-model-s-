@@ -55,11 +55,16 @@ def try_flux(prompts: list[str], out_meta: list, max_n: int, steps: int):
         stem = Path(f"flux_{i:05d}")
         img.save(raw / f"{stem}.png")
         save_pyramid(img, stem)
-        out_meta.append({"id": stem.name, "prompt": p, "teacher": "flux-schnell"})
+        out_meta.append({
+            "id": stem.name,
+            "prompt": p,
+            "teacher": "flux-schnell",
+            "size_variants": list(SIZES),
+        })
     return True
 
 
-def try_sd_turbo(prompts: list[str], out_meta: list, max_n: int, steps: int):
+def try_sd_turbo(prompts: list[str], out_meta: list, max_n: int, steps: int, start_idx: int = 0):
     from diffusers import AutoPipelineForText2Image
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dtype = torch.float16 if device == "cuda" else torch.float32
@@ -72,16 +77,26 @@ def try_sd_turbo(prompts: list[str], out_meta: list, max_n: int, steps: int):
     pipe = pipe.to(device)
     raw = ROOT / "data" / "raw"
     raw.mkdir(parents=True, exist_ok=True)
-    for i, p in enumerate(prompts[:max_n]):
+    count = 0
+    for i, p in enumerate(prompts):
+        if count >= max_n:
+            break
         if not is_safe_prompt(p):
             print(f"[safety] skipping prohibited prompt: {p[:60]}")
             continue
-        print(f"[sd-turbo] {i+1}/{min(max_n,len(prompts))}: {p[:60]}")
+        idx = start_idx + count
+        print(f"[sd-turbo] {count+1}/{max_n} (id={idx}): {p[:60]}")
         img = pipe(p, num_inference_steps=max(steps, 1), guidance_scale=0.0, height=256, width=256).images[0]
-        stem = Path(f"turbo_{i:05d}")
+        stem = Path(f"turbo_{idx:05d}")
         img.save(raw / f"{stem}.png")
         save_pyramid(img, stem)
-        out_meta.append({"id": stem.name, "prompt": p, "teacher": "sd-turbo"})
+        out_meta.append({
+            "id": stem.name,
+            "prompt": p,
+            "teacher": "sd-turbo",
+            "size_variants": list(SIZES),
+        })
+        count += 1
     return True
 
 
@@ -104,9 +119,27 @@ def main():
         except Exception as e:
             print("[FLUX] failed:", e)
             ok = False
-    if not ok and args.teacher in ("auto", "sd-turbo"):
-        ok = try_sd_turbo(prompts, meta, args.n, args.steps)
     meta_path = ROOT / "data" / "manifest.jsonl"
+    existing_meta = []
+    start_idx = 0
+    if meta_path.exists():
+        for line in meta_path.read_text(encoding="utf-8").splitlines():
+            if line.strip():
+                row = json.loads(line)
+                existing_meta.append(row)
+                if row.get("id", "").startswith("turbo_"):
+                    try:
+                        start_idx = max(start_idx, int(row["id"].split("_")[1]) + 1)
+                    except Exception:
+                        pass
+    if not ok and args.teacher in ("auto", "sd-turbo"):
+        new_meta = []
+        ok = try_sd_turbo(prompts, new_meta, args.n, args.steps, start_idx=start_idx)
+        # merge or write
+        meta = existing_meta + new_meta
+    else:
+        meta = existing_meta + meta
+
     with meta_path.open("w", encoding="utf-8") as f:
         for row in meta:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
