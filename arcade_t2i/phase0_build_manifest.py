@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Phase 0: index all arcade sprites into manifest_unified.jsonl
 
-Run from repo root or arcade_t2i:
   python arcade_t2i/phase0_build_manifest.py --repo-root .
 """
 from __future__ import annotations
@@ -59,21 +58,17 @@ def char_hash_from_name(name: str) -> str | None:
 def captions(class_name: str) -> tuple[str, str]:
     if class_name in CLASS_MAP:
         ar, en = CLASS_MAP[class_name]
-        return f"{ar}، شخصية كاملة أركيد 64",
-            f"{en} full body arcade character 64x64"
-    return "شخصية أركيد بكسل",
-        "arcade pixel character full body"
+        return (
+            f"{ar}، شخصية كاملة أركيد 64",
+            f"{en} full body arcade character 64x64",
+        )
+    return ("شخصية أركيد بكسل", "arcade pixel character full body")
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo-root", type=Path, default=Path("."))
-    ap.add_argument(
-        "--out",
-        type=Path,
-        default=None,
-        help="default: <repo>/arcade_t2i/manifests/manifest_unified.jsonl",
-    )
+    ap.add_argument("--out", type=Path, default=None)
     args = ap.parse_args()
     root = args.repo_root.resolve()
     out = args.out or (root / "arcade_t2i" / "manifests" / "manifest_unified.jsonl")
@@ -92,23 +87,23 @@ def main() -> None:
         for p in base.rglob("*"):
             if not p.is_file() or p.suffix.lower() not in IMG_EXT:
                 continue
-            # lightweight filter: skip obvious non-sprites by name
             name_l = p.name.lower()
-            if name_l.endswith(".json") or "readme" in name_l:
+            if "readme" in name_l:
                 skipped += 1
                 continue
             rel = str(p.relative_to(root)).replace("\\", "/")
             cls = guess_class(p)
             ar, en = captions(cls)
-            row = {
-                "path": rel,
-                "source_folder": folder,
-                "class_name": cls,
-                "caption_ar": ar,
-                "caption_en": en,
-                "char_hash": char_hash_from_name(p.name),
-            }
-            rows.append(row)
+            rows.append(
+                {
+                    "path": rel,
+                    "source_folder": folder,
+                    "class_name": cls,
+                    "caption_ar": ar,
+                    "caption_en": en,
+                    "char_hash": char_hash_from_name(p.name),
+                }
+            )
             per_folder[folder] += 1
             per_class[cls] += 1
 
@@ -123,11 +118,12 @@ def main() -> None:
         "per_class": dict(per_class),
         "out": str(out),
     }
-    report_path = out.parent / "manifest_unified_report.json"
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    (out.parent / "manifest_unified_report.json").write_text(
+        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if len(rows) < 1000:
-        print("HARD STOP WARNING: N < 1000 — wrong dataset or incomplete checkout")
+        print("HARD STOP: N < 1000")
         raise SystemExit(2)
 
 
