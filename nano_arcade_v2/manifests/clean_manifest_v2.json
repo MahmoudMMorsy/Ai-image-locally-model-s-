@@ -1,0 +1,8 @@
+{
+  "source": "arcade_t2i_live/clean_data/indices_clean_u8.pt",
+  "N_source": 10755,
+  "N_clean_unique": 6602,
+  "reject": {"dup": 4153},
+  "split": {"train": 5281, "val": 660, "test": 661},
+  "status": "PROVEN"
+}

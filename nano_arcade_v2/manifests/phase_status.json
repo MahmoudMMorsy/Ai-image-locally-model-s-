@@ -1,0 +1,21 @@
+{
+  "plan": "NANO_ARCADE_EXECUTION_PLAN_V2.md",
+  "phase1_data": {
+    "status": "PROVEN",
+    "N_clean_unique": 6602,
+    "train": 5281,
+    "val": 660,
+    "test": 661
+  },
+  "phase2_codec": {
+    "status": "FAILED",
+    "val_acc": 0.738,
+    "min_sample_acc": 0.123,
+    "gate_required": 0.90,
+    "n_train": 3000,
+    "epoch_best": 11,
+    "note": "Do NOT train prior until codec gate passes"
+  },
+  "phase3_prior": {"status": "NOT IMPLEMENTED"},
+  "updated": "2026-11-07"
+}
