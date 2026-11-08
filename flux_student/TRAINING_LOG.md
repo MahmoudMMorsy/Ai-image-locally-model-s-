@@ -18,3 +18,10 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-06:
+  - Upgraded Unicode word boundary logic in `student/filter.py` (`_WB_LEFT` / `_WB_RIGHT`), resolving false positives on valid Arabic words like 'محارب' (warrior) while maintaining strict exclusion of religious sacred figures and prophets.
+  - Expanded `scripts/prompts_seed.txt` to 90 comprehensive bilingual character prompts.
+  - Synthesized 40 teacher character images via `scripts/generate_teacher_data.py` with `stabilityai/sd-turbo` generating complete 32/64/128/256 pyramids.
+  - Trained Student model (`StudentT2I`, base=48, 10.03M params) for 20 epochs down to loss=0.9618, saved checkpoint `checkpoints/student_final.pt` (38.3 MB).
+  - Produced multiresolution character samples across 32x32, 64x64, 128x128 in `samples/`.
+  - Started background continuous loop `scripts/continuous_loop.py`, completing cycle 1 and adding more items (total 44), reducing loss further to 0.7275.
