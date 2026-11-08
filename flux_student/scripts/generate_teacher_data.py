@@ -4,8 +4,7 @@ Preferred teacher: FLUX.1-schnell (heavy download).
 Fallback: sd-turbo / small SD for pipeline bootstrap when disk/RAM limited.
 """
 from __future__ import annotations
-import argparse, json
-import sys
+import argparse, json, sys
 from pathlib import Path
 
 import torch
@@ -25,13 +24,16 @@ def load_prompts(path: Path, limit: int | None) -> list[str]:
     return lines
 
 
-def save_pyramid(img: Image.Image, stem: Path):
+def save_pyramid(img: Image.Image, stem: Path) -> list[int]:
     rgb = img.convert("RGB")
+    variants = []
     for s in SIZES:
         out = rgb.resize((s, s), Image.Resampling.NEAREST if s <= 64 else Image.Resampling.LANCZOS)
         out_path = ROOT / "data" / "resized" / str(s) / f"{stem.name}.png"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out.save(out_path)
+        variants.append(s)
+    return variants
 
 
 def try_flux(prompts: list[str], out_meta: list, max_n: int, steps: int):
@@ -50,12 +52,20 @@ def try_flux(prompts: list[str], out_meta: list, max_n: int, steps: int):
     raw = ROOT / "data" / "raw"
     raw.mkdir(parents=True, exist_ok=True)
     for i, p in enumerate(prompts[:max_n]):
+        if not is_safe_prompt(p):
+            print(f"[safety] skipping prohibited prompt: {p[:60]}")
+            continue
         print(f"[FLUX] {i+1}/{min(max_n,len(prompts))}: {p[:60]}")
         img = pipe(p, num_inference_steps=steps, guidance_scale=0.0, height=256, width=256).images[0]
         stem = Path(f"flux_{i:05d}")
         img.save(raw / f"{stem}.png")
-        save_pyramid(img, stem)
-        out_meta.append({"id": stem.name, "prompt": p, "teacher": "flux-schnell"})
+        variants = save_pyramid(img, stem)
+        out_meta.append({
+            "id": stem.name,
+            "prompt": p,
+            "teacher": "flux-schnell",
+            "size_variants": variants
+        })
     return True
 
 
@@ -80,8 +90,13 @@ def try_sd_turbo(prompts: list[str], out_meta: list, max_n: int, steps: int):
         img = pipe(p, num_inference_steps=max(steps, 1), guidance_scale=0.0, height=256, width=256).images[0]
         stem = Path(f"turbo_{i:05d}")
         img.save(raw / f"{stem}.png")
-        save_pyramid(img, stem)
-        out_meta.append({"id": stem.name, "prompt": p, "teacher": "sd-turbo"})
+        variants = save_pyramid(img, stem)
+        out_meta.append({
+            "id": stem.name,
+            "prompt": p,
+            "teacher": "sd-turbo",
+            "size_variants": variants
+        })
     return True
 
 
@@ -89,7 +104,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--prompts", type=str, default=str(ROOT / "scripts" / "prompts_seed.txt"))
     ap.add_argument("--n", type=int, default=24)
-    ap.add_argument("--steps", type=int, default=4)
+    ap.add_argument("--steps", type=int, default=1)
     ap.add_argument("--teacher", choices=["auto", "flux", "sd-turbo"], default="auto")
     args = ap.parse_args()
 

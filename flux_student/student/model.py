@@ -5,6 +5,26 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+
+class LoRALinear(nn.Module):
+    """Low-rank adaptation wrapper for linear layers."""
+    def __init__(self, original_linear: nn.Linear, r: int = 4, scale: float = 1.0):
+        super().__init__()
+        self.original_linear = original_linear
+        self.r = r
+        self.scale = scale
+        in_features = original_linear.in_features
+        out_features = original_linear.out_features
+        self.lora_A = nn.Parameter(torch.empty(r, in_features))
+        self.lora_B = nn.Parameter(torch.zeros(out_features, r))
+        nn.init.kaiming_uniform_(self.lora_A, a=math.sqrt(5))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        base_out = self.original_linear(x)
+        lora_out = F.linear(F.linear(x, self.lora_A), self.lora_B) * self.scale
+        return base_out + lora_out
+
+
 class ResBlock(nn.Module):
     def __init__(self, c: int, tdim: int):
         super().__init__()
@@ -23,7 +43,7 @@ class ResBlock(nn.Module):
 
 
 class StudentT2I(nn.Module):
-    """Compact text-conditioned epsilon predictor. base=96 ~27M params."""
+    """Compact text-conditioned epsilon predictor. base=96 ~27M params, base=48 ~10M params."""
 
     def __init__(self, base: int = 96, tdim: int = 384, cdim: int = 384, vocab: int = 16384):
         super().__init__()
@@ -47,6 +67,11 @@ class StudentT2I(nn.Module):
         self.us1 = nn.ConvTranspose2d(base * 2, base, 4, 2, 1)
         self.u1 = nn.ModuleList([ResBlock(base, tdim) for _ in range(2)])
         self.out = nn.Sequential(nn.GroupNorm(8, base), nn.SiLU(), nn.Conv2d(base, 3, 3, padding=1))
+
+    def inject_lora(self, r: int = 4, scale: float = 1.0):
+        """Hook to inject LoRA into the text conditioning projection."""
+        if not isinstance(self.cond, LoRALinear):
+            self.cond = LoRALinear(self.cond, r=r, scale=scale)
 
     def temb(self, t: torch.Tensor, dim: int = 128) -> torch.Tensor:
         half = dim // 2
