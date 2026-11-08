@@ -18,3 +18,11 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-08:
+  - Architecture refinement: Integrated `LoRALinear` hook and `StudentT2I.inject_lora(r=4, scale=1.0)` into `student/model.py`.
+  - Standardized manifest schema with `size_variants` list `[32, 64, 128, 256]`.
+  - Added `--resume` support to `scripts/train_student.py` preserving epoch count and weights across sessions.
+  - Generated 20 teacher character images directly from `sd-turbo` text prompts into `data/raw/` and multiresolution pyramids in `data/resized/{32,64,128,256}/`.
+  - Trained StudentT2I (base=48, 10,032,387 parameters) from scratch for 30 epochs, reaching loss=1.0042 and saving `checkpoints/student_final.pt` (39 MB).
+  - Generated character inference samples (`sample_knight.png`, `sample_robot.png`, `sample_mage_ar.png`) at 64x64. Honest inspection confirms early diffuse noise with prompt-conditioned tinting.
+  - Launched automated continuous loop in background (`flux_student/scripts/continuous_loop.py`, PID 106199); cycle 5 completed with loss dropping to 0.8364 and live updates written to `continuous.log` and `continuous_status.json`.

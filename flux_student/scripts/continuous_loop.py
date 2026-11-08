@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Continuous teacher-gen + student-train loop. No interactive prompts."""
 from __future__ import annotations
-import json, os, random, sys, time, traceback
+import argparse, json, os, random, sys, time, traceback
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,12 +25,11 @@ def load_prompt_list():
     if PROMPTS.exists():
         ps = [ln.strip() for ln in PROMPTS.read_text(encoding="utf-8").splitlines() if ln.strip()]
     else:
-        ps = ["a red apple", "a knight", "a robot", "a cat", "a tree"]
+        ps = ["a knight in shiny armor, full body", "a robot android character, full body"]
     extra = []
     for p in list(ps):
         extra.append(p + ", highly detailed")
         extra.append(p + ", simple background")
-        extra.append("pixel art " + p)
     return ps + extra
 
 def try_generate_batch(n: int = 4) -> int:
@@ -82,12 +81,19 @@ def try_generate_batch(n: int = 4) -> int:
             img = pipe(p, num_inference_steps=1, guidance_scale=0.0, height=256, width=256).images[0]
             img.save(raw / f"{sid}.png")
             rgb = img.convert("RGB")
+            variants = []
             for s in SIZES:
                 out = rgb.resize((s, s), Image.Resampling.NEAREST if s <= 64 else Image.Resampling.LANCZOS)
                 d = ROOT / "data" / "resized" / str(s)
                 d.mkdir(parents=True, exist_ok=True)
                 out.save(d / f"{sid}.png")
-            meta.append({"id": sid, "prompt": p, "teacher": "sd-turbo"})
+                variants.append(s)
+            meta.append({
+                "id": sid,
+                "prompt": p,
+                "teacher": "sd-turbo",
+                "size_variants": variants
+            })
             added += 1
         except Exception as e:
             log(f"gen fail {sid}: {e}")
@@ -104,7 +110,7 @@ def try_generate_batch(n: int = 4) -> int:
         pass
     return added
 
-def train_epochs(epochs: int = 10) -> float:
+def train_epochs(epochs: int = 8) -> float:
     try:
         import numpy as np
         from PIL import Image, ImageOps
@@ -117,6 +123,8 @@ def train_epochs(epochs: int = 10) -> float:
     items = []
     if MANIFEST.exists():
         for ln in MANIFEST.read_text(encoding="utf-8").splitlines():
+            if not ln.strip():
+                continue
             row = json.loads(ln)
             p = ROOT / "data" / "resized" / "64" / f"{row['id']}.png"
             if p.exists():
@@ -133,11 +141,16 @@ def train_epochs(epochs: int = 10) -> float:
             im = ImageOps.mirror(im)
         return torch.from_numpy(np.asarray(im).astype("float32") / 127.5 - 1).permute(2, 0, 1)
     model = StudentT2I(base=48)
+    prev_epoch = 0
     if CKPT.exists():
         try:
             st = torch.load(CKPT, map_location="cpu", weights_only=False)
-            model.load_state_dict(st["model"], strict=False)
-            log("train resumed checkpoint")
+            if "model" in st:
+                model.load_state_dict(st["model"], strict=False)
+                prev_epoch = st.get("epoch", 0)
+            else:
+                model.load_state_dict(st, strict=False)
+            log(f"train resumed checkpoint (prior epoch={prev_epoch})")
         except Exception as e:
             log(f"train resume fail: {e}")
     opt = torch.optim.AdamW(model.parameters(), lr=2e-4)
@@ -162,7 +175,13 @@ def train_epochs(epochs: int = 10) -> float:
         last = total / max(n, 1)
         log(f"train ep {ep+1}/{epochs} loss={last:.4f} n={len(items)}")
     ROOT.joinpath("checkpoints").mkdir(parents=True, exist_ok=True)
-    torch.save({"model": model.state_dict(), "base": 48, "n": len(items), "loss": last}, CKPT)
+    torch.save({
+        "model": model.state_dict(),
+        "base": 48,
+        "n": len(items),
+        "loss": last,
+        "epoch": prev_epoch + epochs
+    }, CKPT)
     log(f"train saved loss={last:.4f}")
     return last
 
@@ -182,11 +201,18 @@ def dump_samples():
         return torch.tensor((ids + [0] * max_len)[:max_len])
     model = StudentT2I(base=48)
     st = torch.load(CKPT, map_location="cpu", weights_only=False)
-    model.load_state_dict(st["model"], strict=False)
+    if "model" in st:
+        model.load_state_dict(st["model"], strict=False)
+    else:
+        model.load_state_dict(st, strict=False)
     model.eval()
     out = ROOT / "samples"
     out.mkdir(exist_ok=True)
-    prompts = ["a red apple on a wooden table", "a knight in shiny armor", "a robot standing in a laboratory"]
+    prompts = [
+        "a knight in shiny armor, full body character, simple background",
+        "a robot android character, full body",
+        "ساحر بعصا مضيئة، شخصية كاملة"
+    ]
     with torch.no_grad():
         for i, pr in enumerate(prompts):
             ids = tok(pr).unsqueeze(0)
@@ -203,17 +229,31 @@ def dump_samples():
     log("samples dumped")
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--once", action="store_true", help="Run single continuous cycle")
+    parser.add_argument("--n", type=int, default=4, help="Teacher batch size")
+    parser.add_argument("--epochs", type=int, default=8, help="Student epochs per cycle")
+    parser.add_argument("--sleep", type=int, default=30, help="Sleep interval in seconds")
+    args = parser.parse_args()
+
     log("=== continuous_loop START ===")
     cycle = 0
+    if (ROOT / "continuous_status.json").exists():
+        try:
+            prev = json.loads((ROOT / "continuous_status.json").read_text(encoding="utf-8"))
+            cycle = prev.get("cycle", 0)
+        except Exception:
+            pass
+
     while True:
         cycle += 1
         log(f"=== cycle {cycle} ===")
         try:
-            try_generate_batch(n=4)
+            try_generate_batch(n=args.n)
         except Exception:
             log("gen exception:\n" + traceback.format_exc())
         try:
-            train_epochs(epochs=8)
+            train_epochs(epochs=args.epochs)
         except Exception:
             log("train exception:\n" + traceback.format_exc())
         try:
@@ -223,12 +263,16 @@ def main():
         status = {
             "cycle": cycle,
             "time": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "manifest_lines": sum(1 for _ in MANIFEST.open()) if MANIFEST.exists() else 0,
+            "manifest_lines": sum(1 for ln in MANIFEST.open(encoding="utf-8") if ln.strip()) if MANIFEST.exists() else 0,
             "ckpt": str(CKPT) if CKPT.exists() else None,
+            "pid": os.getpid()
         }
         (ROOT / "continuous_status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
-        log(f"cycle {cycle} sleep 30s")
-        time.sleep(30)
+        if args.once:
+            log(f"cycle {cycle} complete (--once specified).")
+            break
+        log(f"cycle {cycle} sleep {args.sleep}s")
+        time.sleep(args.sleep)
 
 if __name__ == "__main__":
     main()
