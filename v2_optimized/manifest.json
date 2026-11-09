@@ -1,0 +1,64 @@
+{
+  "bundle_name": "spriteo_v2_optimized",
+  "model_type": "spatial_discrete_autoencoder",
+  "input_resolution": [
+    64,
+    64
+  ],
+  "latent_shape": [
+    64,
+    8,
+    8
+  ],
+  "palette_size": 32,
+  "transparent_id": 32,
+  "classes": [
+    "animal",
+    "cat",
+    "dog",
+    "dragon",
+    "human",
+    "humanoid",
+    "knight",
+    "mage",
+    "monster",
+    "robot",
+    "undead",
+    "warrior"
+  ],
+  "class_to_id": {
+    "animal": 0,
+    "cat": 1,
+    "dog": 2,
+    "dragon": 3,
+    "human": 4,
+    "humanoid": 5,
+    "knight": 6,
+    "mage": 7,
+    "monster": 8,
+    "robot": 9,
+    "undead": 10,
+    "warrior": 11
+  },
+  "encoder_onnx": "spriteo_v2_encoder.onnx",
+  "decoder_onnx": "spriteo_v2_decoder.onnx",
+  "opset": 18,
+  "training_dataset": "spriteo_final_single_sprite_verified_2026-11-09",
+  "training_metrics": {
+    "epoch": 112,
+    "train_ce": 0.6131831322397504,
+    "val_ce": 0.6575638055801392,
+    "val_acc": 0.8102301359176636,
+    "val_alpha": 0.9781329035758972
+  },
+  "files": {
+    "spriteo_v2_encoder.onnx": {
+      "bytes": 4168553,
+      "sha256": "1931762a484e5b96fd02bbc578527c14be00ed06f67da62aaf2df840b96d16db"
+    },
+    "spriteo_v2_decoder.onnx": {
+      "bytes": 3791836,
+      "sha256": "404c9daa5dbbc0268614c13d0ff78d852cc6fb3d35ef11409e9dadf48e21e8d6"
+    }
+  }
+}
