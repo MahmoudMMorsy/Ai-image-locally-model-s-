@@ -1,6 +1,6 @@
 {
-  "cycle": 4,
-  "time": "2026-11-03 20:35:09",
-  "manifest_lines": 36,
+  "cycle": 3,
+  "time": "2026-11-09 19:39:35",
+  "manifest_lines": 34,
   "ckpt": "/app/flux_student/checkpoints/student_final.pt"
 }

@@ -25,12 +25,11 @@ def load_prompt_list():
     if PROMPTS.exists():
         ps = [ln.strip() for ln in PROMPTS.read_text(encoding="utf-8").splitlines() if ln.strip()]
     else:
-        ps = ["a red apple", "a knight", "a robot", "a cat", "a tree"]
+        ps = ["a knight in shiny armor, full body character", "a robot android character, full body", "فارس بدرع لامع، شخصية كاملة", "ساحر بعصا مضيئة، شخصية كاملة"]
     extra = []
     for p in list(ps):
         extra.append(p + ", highly detailed")
         extra.append(p + ", simple background")
-        extra.append("pixel art " + p)
     return ps + extra
 
 def try_generate_batch(n: int = 4) -> int:
@@ -186,7 +185,7 @@ def dump_samples():
     model.eval()
     out = ROOT / "samples"
     out.mkdir(exist_ok=True)
-    prompts = ["a red apple on a wooden table", "a knight in shiny armor", "a robot standing in a laboratory"]
+    prompts = ["a knight in shiny armor, full body character", "a robot android character, full body", "فارس بدرع لامع، شخصية كاملة"]
     with torch.no_grad():
         for i, pr in enumerate(prompts):
             ids = tok(pr).unsqueeze(0)

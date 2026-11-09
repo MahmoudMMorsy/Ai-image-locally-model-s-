@@ -22,11 +22,33 @@ class ResBlock(nn.Module):
         return x + h
 
 
+class LoRALinear(nn.Module):
+    """Low-rank adaptation wrapper for nn.Linear."""
+    def __init__(self, original_linear: nn.Linear, r: int = 4, scale: float = 1.0):
+        super().__init__()
+        self.original_linear = original_linear
+        self.r = r
+        self.scale = scale / r if r > 0 else 1.0
+        in_dim = original_linear.in_features
+        out_dim = original_linear.out_features
+        self.lora_A = nn.Parameter(torch.empty(in_dim, r))
+        self.lora_B = nn.Parameter(torch.zeros(r, out_dim))
+        nn.init.kaiming_uniform_(self.lora_A, a=math.sqrt(5))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        res = self.original_linear(x)
+        lora_term = (x @ self.lora_A @ self.lora_B) * self.scale
+        return res + lora_term
+
+
 class StudentT2I(nn.Module):
     """Compact text-conditioned epsilon predictor. base=96 ~27M params."""
 
     def __init__(self, base: int = 96, tdim: int = 384, cdim: int = 384, vocab: int = 16384):
         super().__init__()
+        self.base = base
+        self.tdim = tdim
+        self.cdim = cdim
         self.vocab = vocab
         self.emb = nn.Embedding(vocab, 192, padding_idx=0)
         self.txt = nn.Sequential(nn.Linear(192, cdim), nn.SiLU(), nn.Linear(cdim, cdim))
@@ -84,6 +106,12 @@ class StudentT2I(nn.Module):
         for b in self.u1:
             h = b(h, te)
         return self.out(h)
+
+    def inject_lora(self, r: int = 4, scale: float = 1.0):
+        """Hook to wrap conditioning layers with LoRA adapters for user fine-tuning."""
+        if not isinstance(self.cond, LoRALinear):
+            self.cond = LoRALinear(self.cond, r=r, scale=scale)
+        return self
 
     @torch.no_grad()
     def sample(self, ids: torch.Tensor, size: int = 64, steps: int = 20, device=None) -> torch.Tensor:
