@@ -18,3 +18,11 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-09:
+  - Configured environment with torch (CPU), torchvision, diffusers, transformers, and accelerate.
+  - Verified and enhanced StudentT2I model with `LoRALinear` adapter hook (`inject_lora(r=4)`).
+  - Enhanced religious figure safety filter in `student/filter.py` with Unicode boundary checks `(?<![\w\u0600-\u06FF])` and `(?![\w\u0600-\u06FF])` preventing false positives for words like 'محارب'.
+  - Synthesized 24 genuine prompt-driven character images via teacher (`stabilityai/sd-turbo`) and generated full multiresolution pyramids (32x32, 64x64, 128x128, 256x256).
+  - Trained Student model (10.03M params, base=48) for 15 epochs on CPU; loss reached 1.0144; saved `checkpoints/student_final.pt` (39MB).
+  - Inferred character samples (`samples/sample_knight.png`, `samples/sample_robot.png`, `samples/sample_mage_32.png`).
+  - Running continuous loop `scripts/continuous_loop.py` in background, continuously distilling and bringing loss down to 0.7733 across cycle iterations.
