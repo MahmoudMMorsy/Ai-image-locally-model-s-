@@ -77,3 +77,97 @@
 [2026-11-03 20:35:05] train saved loss=0.6437
 [2026-11-03 20:35:09] samples dumped
 [2026-11-03 20:35:09] cycle 4 sleep 30s
+[2026-11-10 19:44:11] === continuous_loop START (PID: 82516) ===
+[2026-11-10 19:44:11] === cycle 1 ===
+[2026-11-10 19:44:18] gen turbo_00008: a cyber soldier standing in futuristic armor, full
+[2026-11-10 19:44:24] gen turbo_00009: a female rogue with dual daggers in stealth pose,
+[2026-11-10 19:44:30] gen turbo_00010: a male warrior holding an iron broadsword, full bo
+[2026-11-10 19:44:35] gen turbo_00011: an elven archer drawing a wooden longbow, full bod
+[2026-11-10 19:44:40] gen done added=4 total=12
+[2026-11-10 19:44:41] train resumed checkpoint
+[2026-11-10 19:44:44] train ep 1/8 loss=1.0034 n=12
+[2026-11-10 19:44:50] train ep 2/8 loss=0.9976 n=12
+[2026-11-10 19:44:54] train ep 3/8 loss=0.9987 n=12
+[2026-11-10 19:44:59] train ep 4/8 loss=1.0022 n=12
+[2026-11-10 19:45:06] train ep 5/8 loss=1.0016 n=12
+[2026-11-10 19:45:12] train ep 6/8 loss=1.0022 n=12
+[2026-11-10 19:45:16] train ep 7/8 loss=1.0025 n=12
+[2026-11-10 19:45:20] train ep 8/8 loss=1.0011 n=12
+[2026-11-10 19:45:21] train saved loss=1.0011
+[2026-11-10 19:45:25] samples dumped
+[2026-11-10 19:45:25] cycle 1 sleep 30s
+[2026-11-10 19:45:55] === cycle 2 ===
+[2026-11-10 19:45:56] gen turbo_00012: an ancient wizard casting a fiery spell, full body
+[2026-11-10 19:46:03] gen turbo_00013: a heavy armored dwarf with a battle hammer, full b
+[2026-11-10 19:46:10] gen turbo_00014: a dark necromancer summoning shadowy spirits, full
+[2026-11-10 19:46:16] gen turbo_00015: a high elf spellcaster holding an ornate staff, fu
+[2026-11-10 19:46:23] gen done added=4 total=16
+[2026-11-10 19:46:23] train resumed checkpoint
+[2026-11-10 19:46:39] train ep 1/8 loss=1.0030 n=16
+[2026-11-10 19:46:47] train ep 2/8 loss=1.0011 n=16
+[2026-11-10 19:46:53] train ep 3/8 loss=1.0009 n=16
+[2026-11-10 19:47:03] train ep 4/8 loss=0.9948 n=16
+[2026-11-10 19:47:12] train ep 5/8 loss=0.9721 n=16
+[2026-11-10 19:47:19] train ep 6/8 loss=0.9396 n=16
+[2026-11-10 19:47:26] train ep 7/8 loss=0.9142 n=16
+[2026-11-10 19:47:31] train ep 8/8 loss=0.9109 n=16
+[2026-11-10 19:47:31] train saved loss=0.9109
+[2026-11-10 19:47:33] samples dumped
+[2026-11-10 19:47:33] cycle 2 sleep 30s
+[2026-11-10 19:48:03] === cycle 3 ===
+[2026-11-10 19:48:04] gen turbo_00016: a samurai warrior wielding a sharp katana, full bo
+[2026-11-10 19:48:10] gen turbo_00017: a pirate captain with an eyepatch and cutlass, ful
+[2026-11-10 19:48:14] gen turbo_00018: a viking berserker with dual axes, full body
+[2026-11-10 19:48:19] gen turbo_00019: a mechanical cyborg warrior with glowing red eyes,
+[2026-11-10 19:48:23] gen done added=4 total=20
+[2026-11-10 19:48:24] train resumed checkpoint
+[2026-11-10 19:48:30] train ep 1/8 loss=0.8980 n=20
+[2026-11-10 19:48:36] train ep 2/8 loss=0.8670 n=20
+[2026-11-10 19:48:44] train ep 3/8 loss=0.8366 n=20
+[2026-11-10 19:48:54] train ep 4/8 loss=0.8280 n=20
+[2026-11-10 19:49:00] train ep 5/8 loss=0.8081 n=20
+[2026-11-10 19:49:09] train ep 6/8 loss=0.7943 n=20
+[2026-11-10 19:49:17] train ep 7/8 loss=0.7815 n=20
+[2026-11-10 19:49:23] train ep 8/8 loss=0.7735 n=20
+[2026-11-10 19:49:23] train saved loss=0.7735
+[2026-11-10 19:49:26] samples dumped
+[2026-11-10 19:49:26] cycle 3 sleep 30s
+[2026-11-10 19:49:56] === cycle 4 ===
+[2026-11-10 19:49:57] gen turbo_00020: an alien creature with four arms and armored scale
+[2026-11-10 19:50:03] gen turbo_00021: a forest elemental golem made of mossy stones, ful
+[2026-11-10 19:50:09] gen turbo_00022: a shadow assassin holding throwing stars, full bod
+[2026-11-10 19:50:15] gen turbo_00023: a noble paladin in gold and white plate armor, ful
+[2026-11-10 19:50:21] gen done added=4 total=24
+[2026-11-10 19:50:21] train resumed checkpoint
+[2026-11-10 19:50:43] train ep 1/8 loss=0.7450 n=24
+[2026-11-10 19:50:55] train ep 2/8 loss=0.7363 n=24
+[2026-11-10 19:51:06] train ep 3/8 loss=0.7209 n=24
+[2026-11-10 19:51:18] train ep 4/8 loss=0.7108 n=24
+[2026-11-10 19:51:25] train ep 5/8 loss=0.7128 n=24
+[2026-11-10 19:51:32] train ep 6/8 loss=0.7080 n=24
+[2026-11-10 19:51:42] train ep 7/8 loss=0.7099 n=24
+[2026-11-10 19:51:49] train ep 8/8 loss=0.7233 n=24
+[2026-11-10 19:51:50] train saved loss=0.7233
+[2026-11-10 19:51:52] samples dumped
+[2026-11-10 19:51:52] cycle 4 sleep 30s
+[2026-11-10 19:52:22] === cycle 5 ===
+[2026-11-10 19:52:23] gen turbo_00024: a desert bedouin warrior wielding a curved scimita
+[2026-11-10 19:52:28] gen turbo_00025: a horned demon warrior with fiery wings, full body
+[2026-11-10 19:52:34] gen turbo_00026: an undead skeleton knight in rusty chainmail, full
+[2026-11-10 19:52:40] gen skip safe: a gothic vampire lord in a dark velvet cape, full
+[2026-11-10 19:52:40] gen done added=3 total=27
+[2026-11-10 19:52:40] train resumed checkpoint
+[2026-11-10 19:52:49] train ep 1/8 loss=0.6882 n=27
+[2026-11-10 19:52:56] train ep 2/8 loss=0.6745 n=27
+[2026-11-10 19:53:04] train ep 3/8 loss=0.6704 n=27
+[2026-11-10 19:53:12] train ep 4/8 loss=0.6650 n=27
+[2026-11-10 19:53:21] train ep 5/8 loss=0.6631 n=27
+[2026-11-10 19:53:29] train ep 6/8 loss=0.6372 n=27
+[2026-11-10 19:53:41] train ep 7/8 loss=0.6422 n=27
+[2026-11-10 19:53:56] train ep 8/8 loss=0.6048 n=27
+[2026-11-10 19:53:56] train saved loss=0.6048
+[2026-11-10 19:53:58] samples dumped
+[2026-11-10 19:53:58] cycle 5 sleep 30s
+[2026-11-10 19:54:28] === cycle 6 ===
+[2026-11-10 19:54:29] gen skip safe: a gothic vampire lord in a dark velvet cape, full
+[2026-11-10 19:54:29] gen turbo_00028: a winged angel warrior holding a golden spear, ful

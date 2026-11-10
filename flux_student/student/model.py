@@ -99,8 +99,37 @@ class StudentT2I(nn.Module):
         return x.clamp(-1, 1)
 
 
+class LoRALinear(nn.Module):
+    """Low-rank adaptation wrapper for nn.Linear."""
+    def __init__(self, original_linear: nn.Linear, r: int = 4, lora_alpha: float = 1.0):
+        super().__init__()
+        self.original_linear = original_linear
+        self.r = r
+        self.scaling = lora_alpha / r
+        in_features = original_linear.in_features
+        out_features = original_linear.out_features
+        self.lora_A = nn.Parameter(torch.randn(r, in_features) * (1.0 / math.sqrt(in_features)))
+        self.lora_B = nn.Parameter(torch.zeros(out_features, r))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        base_out = self.original_linear(x)
+        lora_out = F.linear(F.linear(x, self.lora_A), self.lora_B) * self.scaling
+        return base_out + lora_out
+
+
 def count_params(m: nn.Module) -> int:
     return sum(p.numel() for p in m.parameters())
+
+
+# Add inject_lora helper to StudentT2I
+def inject_lora(model: StudentT2I, r: int = 4, scale: float = 1.0):
+    """Lightweight hook allowing low-rank adapter fine-tuning of the text conditioning projection."""
+    if isinstance(model.cond, nn.Linear):
+        model.cond = LoRALinear(model.cond, r=r, lora_alpha=scale)
+    return model
+
+
+StudentT2I.inject_lora = inject_lora
 
 
 if __name__ == "__main__":

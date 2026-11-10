@@ -18,3 +18,11 @@
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
   - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-10:
+  - Upgraded Student model architecture with modular `LoRALinear` layer and `inject_lora(r=4, scale=1.0)` adapter hook.
+  - Standardized `manifest.jsonl` schema across scripts to include `size_variants: [32, 64, 128, 256]`, `id`, `prompt`, `teacher`.
+  - Added checkpoint resumption (`--resume`) to `scripts/train_student.py`.
+  - Synthesized clean initial batch of character images using `stabilityai/sd-turbo` teacher model into `data/raw/` and multi-resolution pyramids `data/resized/{32,64,128,256}/`.
+  - Trained Student model (`base=48`, 10,032,387 parameters, ~40 MB checkpoint) on CPU for 15 epochs, saving `checkpoints/student_final.pt`.
+  - Generated character inference samples `samples/knight_64.png` and `samples/robot_128.png`.
+  - Launched unattended background loop `scripts/continuous_loop.py`, persisting PID to `continuous.pid`, tracking state in `continuous_status.json`, and actively training cycles (loss progressively reducing below 0.86).
