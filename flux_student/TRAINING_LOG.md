@@ -13,8 +13,11 @@
   - Installed environment dependencies (diffusers, transformers, accelerate, onnx, onnxruntime, etc.).
   - Expanded `scripts/prompts_seed.txt` to 70 rich bilingual prompt archetypes covering characters, creatures, androids, monsters, and classes in full-body poses.
   - Integrated `is_safe_prompt` filter into `generate_teacher_data.py` and `continuous_loop.py` to guarantee zero religious depiction violations during synthesis.
-  - Generated 24 base teacher character images via `stabilityai/sd-turbo` into `data/raw/` and multiresolution pyramids in `data/resized/{32,64,128,256}/`.
-  - Trained Student model (base=48, 10.03M params) for 25 epochs on CPU, reducing MSE loss to 1.0090.
-  - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
+- 2026-11-10:
+  - Refined regular expression word/Unicode boundaries `(?<![\w\u0600-\u06FF])` in `student/filter.py` to prevent Arabic substring false positives while maintaining zero-tolerance exclusion for sacred religious figures.
+  - Synthesized batch of teacher character images via `stabilityai/sd-turbo` into `data/raw/` with multiresolution pyramids (32, 64, 128, 256) tracked in `data/manifest.jsonl`.
+  - Executed training run of Student model (`StudentT2I`, base=48, 10.03M params, 38.32 MB) on CPU for 25 epochs, successfully saving weights to `checkpoints/student_final.pt`.
+  - Generated inference samples (`sample_knight_64.png`, `sample_robot_64.png`, `sample_ninja_32.png`, `sample_arabic_mage_64.png`) and evaluated quality honestly.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
-  - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+  - Executed unittests with 100% pass rate (`PYTHONPATH=flux_student python3 -m unittest discover flux_student/tests`).
+  - Running continuous autonomous loop in background (`flux_student/scripts/continuous_loop.py`), automatically generating teacher assets, resuming checkpoints, reducing loss down to ~0.7519, dumping samples, and updating `continuous_status.json`.
