@@ -25,8 +25,10 @@
 {"id": "turbo_00024", "prompt": "a desert bedouin warrior wielding a curved scimitar, full body", "teacher": "sd-turbo"}
 {"id": "turbo_00025", "prompt": "a horned demon warrior with fiery wings, full body", "teacher": "sd-turbo"}
 {"id": "turbo_00026", "prompt": "an undead skeleton knight in rusty chainmail, full body", "teacher": "sd-turbo"}
+{"id": "turbo_00027", "prompt": "a gothic vampire lord in a dark velvet cape, full body", "teacher": "sd-turbo"}
 {"id": "turbo_00028", "prompt": "a winged angel warrior holding a golden spear, full body", "teacher": "sd-turbo"}
 {"id": "turbo_00029", "prompt": "a futuristic mech pilot in an armored jumpsuit, full body", "teacher": "sd-turbo"}
+{"id": "turbo_00030", "prompt": "محارب شجاع يحمل سيفاً ودرعاً، شخصية كاملة", "teacher": "sd-turbo"}
 {"id": "turbo_00031", "prompt": "رامية سهام خبيرة من الألف، شخصية كاملة", "teacher": "sd-turbo"}
 {"id": "turbo_00032", "prompt": "نينجا محترف بالرداء الأسود، شخصية كاملة", "teacher": "sd-turbo"}
 {"id": "turbo_00033", "prompt": "وحش صخري عملاق ذو عيون متوهجة، شخصية كاملة", "teacher": "sd-turbo"}
@@ -34,3 +36,11 @@
 {"id": "turbo_00035", "prompt": "فارس بدوي بسيف مقوس في الصحراء، شخصية كاملة", "teacher": "sd-turbo"}
 {"id": "turbo_00036", "prompt": "فتاة مقاتلة بدروع معدنية خفيفة، شخصية كاملة", "teacher": "sd-turbo"}
 {"id": "turbo_00037", "prompt": "ساحرة ظلال ترتدي عباءة بنفسجية، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00038", "prompt": "رجل آلي مستقبلي بمدافع ليزر، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00039", "prompt": "حارس فرعوني بدرع ذهبي ورمح، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00040", "prompt": "كائن فضائي غريب المظهر، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00041", "prompt": "مقاتل سايبر متطور في مدينة السايبربانك، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00042", "prompt": "عملاق جليدي قوي المظهر، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00043", "prompt": "مستدعي وحوش يقرأ من كتاب قديم، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00044", "prompt": "شخصية لص رشيق يقفز بخفة، شخصية كاملة", "teacher": "sd-turbo"}
+{"id": "turbo_00045", "prompt": "حكيم مسن بعصا خشبية، شخصية كاملة", "teacher": "sd-turbo"}
