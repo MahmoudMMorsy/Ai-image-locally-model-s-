@@ -12,6 +12,7 @@ from student.filter import is_safe_prompt
 LOG = ROOT / "continuous.log"
 MANIFEST = ROOT / "data" / "manifest.jsonl"
 CKPT = ROOT / "checkpoints" / "student_final.pt"
+PID_FILE = ROOT / "continuous.pid"
 PROMPTS = ROOT / "scripts" / "prompts_seed.txt"
 SIZES = (32, 64, 128, 256)
 
@@ -87,7 +88,12 @@ def try_generate_batch(n: int = 4) -> int:
                 d = ROOT / "data" / "resized" / str(s)
                 d.mkdir(parents=True, exist_ok=True)
                 out.save(d / f"{sid}.png")
-            meta.append({"id": sid, "prompt": p, "teacher": "sd-turbo"})
+            meta.append({
+                "id": sid,
+                "prompt": p,
+                "teacher": "sd-turbo",
+                "size_variants": list(SIZES)
+            })
             added += 1
         except Exception as e:
             log(f"gen fail {sid}: {e}")
@@ -203,7 +209,8 @@ def dump_samples():
     log("samples dumped")
 
 def main():
-    log("=== continuous_loop START ===")
+    PID_FILE.write_text(str(os.getpid()), encoding="utf-8")
+    log(f"=== continuous_loop START (PID: {os.getpid()}) ===")
     cycle = 0
     while True:
         cycle += 1
@@ -223,8 +230,9 @@ def main():
         status = {
             "cycle": cycle,
             "time": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "manifest_lines": sum(1 for _ in MANIFEST.open()) if MANIFEST.exists() else 0,
+            "manifest_lines": sum(1 for _ in MANIFEST.open(encoding="utf-8")) if MANIFEST.exists() else 0,
             "ckpt": str(CKPT) if CKPT.exists() else None,
+            "pid": os.getpid()
         }
         (ROOT / "continuous_status.json").write_text(json.dumps(status, indent=2), encoding="utf-8")
         log(f"cycle {cycle} sleep 30s")
