@@ -53,9 +53,24 @@ def train(args):
     model = StudentT2I(base=args.base).to(device)
     print(f"student params={count_params(model)/1e6:.2f}M device={device} n={len(ds)}")
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr)
+    start_ep = 0
     ckpt_dir = ROOT / "checkpoints"
     ckpt_dir.mkdir(parents=True, exist_ok=True)
-    for ep in range(args.epochs):
+    final_ckpt = ckpt_dir / "student_final.pt"
+
+    if args.resume and final_ckpt.exists():
+        try:
+            st = torch.load(final_ckpt, map_location=device, weights_only=False)
+            if "model" in st:
+                model.load_state_dict(st["model"], strict=False)
+                start_ep = st.get("epoch", 0)
+            else:
+                model.load_state_dict(st, strict=False)
+            print(f"Resumed from {final_ckpt} (start epoch {start_ep})")
+        except Exception as e:
+            print(f"Resume failed: {e}")
+
+    for ep in range(start_ep, start_ep + args.epochs):
         total = 0.0
         for x, ids in dl:
             x, ids = x.to(device), ids.to(device)
@@ -88,6 +103,7 @@ def main():
     ap.add_argument("--base", type=int, default=96)
     ap.add_argument("--recon", type=float, default=0.05)
     ap.add_argument("--cpu", action="store_true")
+    ap.add_argument("--resume", action="store_true", help="Resume from student_final.pt if available")
     args = ap.parse_args()
     train(args)
 

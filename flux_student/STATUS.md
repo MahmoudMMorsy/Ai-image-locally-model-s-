@@ -1,24 +1,30 @@
 # flux_student STATUS
 
-Updated: 2026-11-03
+Updated: 2026-11-11
 
 ## Overview
-- Architecture: `StudentT2I` (base=48: ~10M params, ~39 MB checkpoint; base=96: ~26.6M params)
-- Teacher model: `stabilityai/sd-turbo` (1-step fast CPU/GPU synthesis, fallback for `FLUX.1-schnell`)
-- Data: Multiresolution pyramids generated across 32x32, 64x64, 128x128, and 256x256
-- Safety: Zero-tolerance religious figure exclusion filtering implemented in `student/filter.py` and active in teacher generation and continuous loop.
+- Architecture: `StudentT2I` (base=48: ~10.03M params, ~39 MB checkpoint; base=96: ~26.6M params)
+- Teacher model: `stabilityai/sd-turbo` (1-step fast CPU/GPU synthesis, prompt-only character data source)
+- Multi-resolution pyramids: 32x32, 64x64, 128x128, and 256x256
+- Safety: Zero-tolerance religious figure exclusion filtering implemented in `student/filter.py` and strictly enforced during generation and training.
+- Modular hooks: Integrated `LoRALinear` and `inject_lora()` hook in `student/model.py` for text-conditioning adapter expansion.
 
-## Checkpoint & Training
-- Checkpoint: `checkpoints/student_final.pt` (~39 MB, 10,032,387 parameters)
-- Epochs completed: Continuous loop active, trained across multiple cycles (>30 epochs total)
-- Loss progression: Initial loss ~1.07 -> 1.009 -> 0.8257 -> 0.7445 (continuously decreasing)
-- Manifest dataset: 29+ prompt-paired character items synthesized directly by teacher model
+## Checkpoint & Training Status
+- Checkpoint: `flux_student/checkpoints/student_final.pt` (39 MB, 10,032,387 parameters)
+- Loss progression:
+  - Phase 1 (Initial direct training, 25 epochs): Loss reduced from 1.0729 down to 1.0075
+  - Phase 2 (Continuous loop cycle 1, 8 epochs): Loss reduced from 0.9941 to 0.7973
+  - Phase 3 (Continuous loop cycle 2, 8 epochs): Loss reduced from 0.7833 to 0.7098 (continuously decreasing)
+- Manifest dataset: 29 verified prompt-synthesized character entries in `flux_student/data/manifest.jsonl`
 
-## Honest Quality Assessment
-- The model learns character structure conditioning on prompt-paired teacher images.
-- Current status: Discrete denoising samples exhibit clear silhouette formation, distinct color massing matching prompt archetypes (e.g., steel armor / silver-grey for knight, metallic teal/red highlights for robot).
-- High-frequency anatomical details (fine facial expressions, intricate weapon filigree) are still softening at 64x64 pixel resolution, which will continuously sharpen as the continuous background loop iterates further.
+## Honest Quality Assessment (تقييم صادق للجودة)
+1. **Silhouette & Massing**:
+   - The student model successfully predicts denoised representations with distinct character silhouettes and centralized character framing against cleaner background tones.
+   - Chromatic palette conditioning matches prompt archetypes: silver-grey armor for knight prompts, metallic slate/red accents for robot prompts, and mystical robes/aura for mage prompts.
+2. **Current Limitations & Noise Comparison**:
+   - While global composition and character masses are clearly separated from background noise, high-frequency fine details (e.g. sharp finger contours, intricate facial features, crisp weapon texturing) remain soft or blurred at 64x64 denoising steps.
+   - It is not pure random noise; clear anatomical body presence and character posture are formed, but sharp character pixel art lines require additional continuous distillation cycles and higher epoch density to achieve crisp definition.
 
 ## Background Continuous Loop
-- Automated via `flux_student/scripts/continuous_loop.py` running in background.
-- Periodically batches teacher generation, resumes training checkpoint, dumps test samples to `samples/`, and logs execution to `continuous.log` and `continuous_status.json`.
+- Automated background loop running under `flux_student/scripts/continuous_loop.py` (PID recorded in `continuous.pid`).
+- Tracks state in `continuous_status.json` and logs every generation, epoch loss, and sample dump in `continuous.log`.
