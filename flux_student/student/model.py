@@ -22,12 +22,29 @@ class ResBlock(nn.Module):
         return x + h
 
 
+class LoRALinear(nn.Module):
+    """Low-Rank Adaptation wrapper around linear projection layer."""
+    def __init__(self, linear: nn.Linear, r: int = 4, scale: float = 1.0):
+        super().__init__()
+        self.linear = linear
+        self.r = r
+        self.scale = scale
+        self.lora_a = nn.Parameter(torch.randn(linear.in_features, r) * (1.0 / math.sqrt(linear.in_features)))
+        self.lora_b = nn.Parameter(torch.zeros(r, linear.out_features))
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        base_out = self.linear(x)
+        lora_out = (x @ self.lora_a @ self.lora_b) * self.scale
+        return base_out + lora_out
+
+
 class StudentT2I(nn.Module):
-    """Compact text-conditioned epsilon predictor. base=96 ~27M params."""
+    """Compact text-conditioned epsilon predictor. base=48 ~10M params, base=96 ~27M params."""
 
     def __init__(self, base: int = 96, tdim: int = 384, cdim: int = 384, vocab: int = 16384):
         super().__init__()
         self.vocab = vocab
+        self.base = base
         self.emb = nn.Embedding(vocab, 192, padding_idx=0)
         self.txt = nn.Sequential(nn.Linear(192, cdim), nn.SiLU(), nn.Linear(cdim, cdim))
         self.time = nn.Sequential(nn.Linear(128, tdim), nn.SiLU(), nn.Linear(tdim, tdim))
@@ -84,6 +101,11 @@ class StudentT2I(nn.Module):
         for b in self.u1:
             h = b(h, te)
         return self.out(h)
+
+    def inject_lora(self, r: int = 4, scale: float = 1.0):
+        """Hook for user to attach LoRA weights to conditioning projection."""
+        if not isinstance(self.cond, LoRALinear):
+            self.cond = LoRALinear(self.cond, r=r, scale=scale)
 
     @torch.no_grad()
     def sample(self, ids: torch.Tensor, size: int = 64, steps: int = 20, device=None) -> torch.Tensor:
