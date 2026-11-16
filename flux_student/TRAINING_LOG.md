@@ -1,4 +1,4 @@
-# Training log
+# Training Log
 
 - 2026-10-30: Pipeline bootstrap, 20 teacher imgs (sd-turbo)
 - 2026-11-02:
@@ -17,4 +17,12 @@
   - Trained Student model (base=48, 10.03M params) for 25 epochs on CPU, reducing MSE loss to 1.0090.
   - Successfully ran multiresolution inference with `scripts/inference.py` for knight and robot characters.
   - Verified `nano arcked dat` dataset (2,856 PNGs and JSON sidecars) with 100% passing checks via `verify_nano_arcked_dataset.py`.
-  - Launched unattended `scripts/continuous_loop.py` in background; completed continuous cycles, adding more prompt-synthesized pairs, driving training loss down to ~0.74, and persisting state to `continuous_status.json`.
+- 2026-11-11:
+  - Rebuilt neural environment on CPU (torch, diffusers, transformers, accelerate, PIL).
+  - Implemented `LoRALinear` module and `inject_lora` hook on `StudentT2I.cond` for low-rank adapter fine-tuning.
+  - Added `--resume` support in `scripts/train_student.py` to load existing weights from `checkpoints/student_final.pt`.
+  - Updated manifest schema across `generate_teacher_data.py` and `continuous_loop.py` to record `size_variants` ([32, 64, 128, 256]).
+  - Synthesized 24 genuine full-body character images directly via `stabilityai/sd-turbo` teacher into `flux_student/data/raw/` and created nearest/lanczos pyramids in `data/resized/{32,64,128,256}/`.
+  - Trained `StudentT2I` (10,032,387 parameters) on CPU for 25 epochs, reducing MSE loss from 1.0729 to 1.0075. Checkpoint saved to `checkpoints/student_final.pt` (39 MB).
+  - Generated real inference sample images in `flux_student/samples/` across 32, 64, 128, and 256 resolutions for English & Arabic character prompts.
+  - Launched unattended `scripts/continuous_loop.py` in the background (PID recorded in `continuous.pid`). Verified cycles 1 and 2 completed successfully, synthesizing new prompt pairs, reducing training loss to 0.7098, dumping test samples, and logging execution to `continuous.log` and `continuous_status.json`.

@@ -25,6 +25,15 @@ class TestFluxStudentPipeline(unittest.TestCase):
         out = model(x, t, ids)
         self.assertEqual(out.shape, (2, 3, 64, 64))
 
+    def test_lora_injection(self):
+        model = StudentT2I(base=48)
+        model.inject_lora(r=4, scale=1.0)
+        x = torch.randn(2, 3, 64, 64)
+        t = torch.randint(0, 1000, (2,))
+        ids = torch.randint(0, 1000, (2, 20))
+        out = model(x, t, ids)
+        self.assertEqual(out.shape, (2, 3, 64, 64))
+
     def test_tokenization(self):
         toks = tokenize("a warrior with sword and shield")
         self.assertEqual(toks.shape, (1, 20))

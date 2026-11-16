@@ -55,7 +55,12 @@ def try_flux(prompts: list[str], out_meta: list, max_n: int, steps: int):
         stem = Path(f"flux_{i:05d}")
         img.save(raw / f"{stem}.png")
         save_pyramid(img, stem)
-        out_meta.append({"id": stem.name, "prompt": p, "teacher": "flux-schnell"})
+        out_meta.append({
+            "id": stem.name,
+            "prompt": p,
+            "teacher": "flux-schnell",
+            "size_variants": [32, 64, 128, 256]
+        })
     return True
 
 
@@ -81,7 +86,12 @@ def try_sd_turbo(prompts: list[str], out_meta: list, max_n: int, steps: int):
         stem = Path(f"turbo_{i:05d}")
         img.save(raw / f"{stem}.png")
         save_pyramid(img, stem)
-        out_meta.append({"id": stem.name, "prompt": p, "teacher": "sd-turbo"})
+        out_meta.append({
+            "id": stem.name,
+            "prompt": p,
+            "teacher": "sd-turbo",
+            "size_variants": [32, 64, 128, 256]
+        })
     return True
 
 
