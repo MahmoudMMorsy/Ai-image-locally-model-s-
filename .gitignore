@@ -23,3 +23,4 @@ models/nano_arcade_03/weights/*
 .staging_gdrive/
 .staging_raw/
 dataset_training_images/
+flux_student/continuous.pid
